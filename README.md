@@ -9,7 +9,7 @@
 -   Установить [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool)
 -   Открыть оригинальный файл data.win из корневой папки игры в программе
 -   После открытия файла, необходимо выбрать пункт верхнего меню Scripts > Resource Unpackers > ExportAllSprites.csx
--   Программа выведет на экран окно подтверждения, жмём No (Нет)
+-   Программа выведет на экран два окна подтверждения, жмём No (Нет)
 -   После окончания работы, переименовываем папку Export_Sprites в Sprites, переносим в неё все .png файлы из директории img с заменой
 -   Вновь открываем UndertaleModTool, выбираем пункт верхнего меню Scripts > Resource Repackers > ImportGraphics.csx
 -   Выбираем в окне директорию, содержащую папку Sprites (но не саму папку Sprites!)
