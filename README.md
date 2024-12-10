@@ -1,4 +1,4 @@
-# woh-translation
+# Полная русская локализация WORLD OF HORROR
 
 ## Как запихать в игру?
 
