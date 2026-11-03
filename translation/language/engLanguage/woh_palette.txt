@@ -1,0 +1,80 @@
+STANDARD<#>СТАНДАРТ
+ABYSSAL<#>БЕЗДНА
+SPIRAL<#>СПИРАЛЬ
+FOUND FOOTAGE<#>ПОТЕРЯННАЯ ПЛЁНКА
+SEASIDE<#>ПОБЕРЕЖЬЕ
+RETRO (DARK)<#>РЕТРО (ТЁМНАЯ)
+RETRO (LIGHT)<#>РЕТРО (СВЕТЛАЯ)
+LED<#>LED
+UNCANNY BLACK<#>ЖУТКАЯ ТЁМНАЯ
+NEO-80S<#>НЕО 80-Е
+MONOLITH<#>МОНОЛИТ
+CASIE<#>КЕЙСИ
+FLESH<#>ПЛОТЬ
+RIPPER<#>ПОТРОШИТЕЛЬ
+ARCHIVES<#>АРХИВЫ
+SHROUDED<#>ПЕЛЕНА
+ALARM<#>ТРЕВОГА
+WOOD<#>ДЕРЕВО
+HONEY<#>МЁД
+JAGUAR<#>ЯГУАР
+HILLS<#>ХОЛМЫ
+FILM<#>ФИЛЬМ
+MYTHOS<#>МИФЫ
+TIDES I<#>ПОКРОВЫ I
+TIDES II<#>ПОКРОВЫ II
+XNX<#>XNX
+GRIMOIRE<#>ГРИМУАР
+CLUE<#>УЛИКА
+SHIBA<#>СИБА
+SEAWEED<#>ВОДОРОСЛЬ
+MOLDY BLACK<#>ПЛЕСНЕВЕЛЫЙ ЧЁРНЫЙ
+ATTIC<#>ЧЕРДАК
+KINDA BLACK<#>ТИПА ЧЁРНЫЙ
+OLD PRINT<#>СТАРАЯ ПЕЧАТЬ
+DEEP GOLD<#>ГЛУБОКИЙ ЗОЛОТОЙ
+OMEN<#>ЗНАМЕНИЕ
+NEON SLASHER<#>НЕОНОВЫЙ СЛЭШЕР
+GOTHIC<#>ГОТИКА
+ZR<#>ZR
+FARADAY<#>ФАРАДЕЙ
+IRON RAIN<#>ЖЕЛЕЗНЫЙ ДОЖДЬ
+PALM TREES<#>ПАЛЬМЫ
+BLOOD DAWN<#>КРОВАВЫЙ РАССВЕТ
+SAMHAIM<#>САМХЕЙМ
+RIVERSIDE INCIDENT<#>ИНЦИДЕНТ В РИВЕРСАЙД
+BACKROOMS<#>ЗАКУЛИСЬЕ
+MONDO<#>МОНДО
+BLOOD LORD<#>КРОВАВЫЙ ЛОРД
+SKELETAL KING<#>КОРОЛЬ-СКЕЛЕТ
+SWAMP SNARL<#>БОЛОТНАЯ ТОПЬ
+FADED PUMPKIN<#>ВЫЦВЕТШАЯ ТЫКВА
+HAIRCUTS<#>СТРИЖКА
+TAROCCO<#>ТАРОККО
+GARDENER<#>САДОВНИК
+SEVILLE<#>СЕВИЛЬЯ
+WATERCOLOR<#>АКВАРЕЛЬ
+LEATHERFACE<#>КОЖАНОЕ ЛИЦО
+CAUTION TAPE<#>СИГНАЛЬНАЯ ЛЕНТА
+CHERRY CANDY<#>ВИШНЁВАЯ КОНФЕТА
+OCCULTATION<#>ЗАТМЕНИЕ
+CURSED SLAB<#>ПРОКЛЯТАЯ ПЛИТА
+MARSH<#>БОЛОТО
+APPLE PIE<#>ЯБЛОЧНЫЙ ПИРОГ
+FISH<#>РЫБА
+COPPER<#>МЕДЬ
+CIEMNA CZEKOLADA<#>CIEMNA CZEKOLADA
+SWEET DREAMS<#>СЛАДКИЕ СНЫ
+FAMILY CRYPT<#>СЕМЕЙНЫЙ СКЛЕП
+EMPTY CHURCH<#>ПУСТАЯ ЦЕРКОВЬ
+COTTON CANDY<#>СЛАДКАЯ ВАТА
+SHELTER<#>УБЕЖИЩЕ
+199X<#>199X
+PAL1<#>PAL1
+PAL2<#>PAL2
+THICK SYRUP<#>ГУСТОЙ СИРОП
+BACKSTAB<#>УДАР В СПИНУ
+CURSED CARTRIDGE<#>ПРОКЛЯТЫЙ КАРТРИДЖ
+MORTUARY<#>МОРГ
+CRIME SCENE<#>МЕСТО ПРЕСТУПЛЕНИЯ
+BAD WEATHER<#>ПЛОХАЯ ПОГОДА

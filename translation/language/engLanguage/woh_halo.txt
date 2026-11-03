@@ -1,0 +1,118 @@
+PREPARING FOR INVESTIGATION<#>ПОДГОТОВКА К РАССЛЕДОВАНИЮ
+<<Is there even anything useful left?>><#>«Осталось ли здесь что-нибудь полезное?»
+PREPARE<#>ПОДГОТОВИТЬСЯ
+Looking carefully, you can find character-unique items to help you.<#>Вы можете поискать уникальные и полезные для вашего персонажа вещи.
+[costs DOOM to enter]#[unique items]<#>вход приближает РОК#(уникальные предметы)
+KIRIE'S BAG<#>СУМКА КИРИЭ
+(while in inventory): forgetting SPELLS lowers REASON by 1-2 and increases DOOM by 1%, gain a random SPELL<#>(когда в инвентаре): забывание ЗАКЛИНАНИЙ понижает РАССУДОК на 1-2 единицы, приближает РОК на 1% и даёт новое случайное ЗАКЛИНАНИЕ
+<<I've been collecting these notes for quite some time now.>><#>«Я собираю эти заметки уже довольно давно.»
+An unseen force guides your hand to the bag...<#>Незримая сила направляет вашу руку к сумке...
+full of knowledge<#>полна знаний
+AIKO'S PLUSH TOY<#>ПЛЮШЕВАЯ ИГРУШКА АЙКО
+-1 incoming combat damage#-2 PERCEPTION; -2 LUCK<#>(экипировано): -1 входящего УРОНА в бою#-2 ВОСПРИЯТИЯ, -2 УДАЧИ
+<<they are not real they are not real they are not real>><#>«они не реальны они не реальны они не реальны они не реальны»
+only friend<#>единственный друг
+CIGARETTE CASE<#>ПОРТСИГАР
+(while in inventory): 15% of regaining one CIGARETTE after investigating a location<#>(когда в инвентаре): 15%-й шанс найти СИГАРЕТУ после исследования локации
+<<This will stay in my family forever.>><#>«Он будет передаваться из поколения в поколение.»
+You smoke an old cigarette from your CIGARETTE CASE...<#>Вы выкуриваете старую сигарету из своего ПОРТСИГАРА...
+grandpa's<#>дедушкин
+VANITY MIRROR<#>КАРМАННОЕ ЗЕРКАЛО
+reveals extra information about event choices<#>даёт больше информации о последствиях выбора в событиях
+You can catch glimpses of the future in this tiny mirror...<#>Вы видите проблески будущего в этом крошечном зеркале...
+The VANITY MIRROR will start working next event.<#>КАРМАННОЕ ЗЕРКАЛО сработает в следующем событии.
+<<I'm so pretty-->><#>«Я выгляжу мило...»
+FILM ROLL<#>ФОТОПЛЁНКА
+(use): -1 FUNDS; +10 EXPERIENCE<#>(использовать): -1 СРЕДСТВ, +10 ОПЫТА
+<<I can only develop this at a trusted place>><#>«Лучше проявлять её в надёжном месте.»
+You develop the FILM ROLL containing crucial evidence!<#>Вы проявляете ФОТОПЛЁНКУ, содержащую важнейшие доказательства!
+You can't afford that!<#>Вы не можете это себе позволить!
+<<contains evidence ...I think>><#>«Содержит доказательства... наверное.»
+ANATOMY BOOK<#>КНИГА ПО АНАТОМИИ
+(use): -2 STAMINA; +8 EXP<#>(использовать): -2 ВЫНОСЛИВОСТИ, +8 ОПЫТА
+<<I can learn so much studying my own body...>><#>«Я могу столько всего узнать, изучая собственное тело...»
+Slicing your body open, you learn new things about anatomy...<#>Разрезая своё же тело, вы узнаёте много нового об анатомии...
+<<I'm ill?>><#>«Это болезнь?»
+GUITAR<#>ГИТАРА
+(while in inventory): resting regains more REASON, increases DOOM<#>(когда в инвентаре): отдых восстанавливает больше РАССУДКА, но приближает РОК
+<<I worked all summer to buy this guitar.>><#>«Я работал всё лето, чтобы купить эту гитару.»
+Your loud guitar practice can be heard across the whole building.<#>Ваша громкая игра на гитаре раздаётся на всё здание.
+HELL YEAH<#>ЧЁРТ ВОЗЬМИ, ДА!
+BLESSED SHELL<#>БЛАГОСЛОВЕННАЯ ГИЛЬЗА
+(use in combat): (+1 AMMO / +5% DOOM); +10 SHOOT DAMAGE for the duration of this combat<#>(использование в бою): +1 ПАТРОН, +5% РОКА. До конца этого боя, ВЫСТРЕЛЫ наносят на 10 УРОНА больше
+<<I've loaded it with mom's silver jewelry...>><#>«Я зарядил её мамиными серебряными украшениями...»
+<<...sorry mom.>><#>«...прости, мам.»
+You can't use this outside of combat.<#>Вы не можете использовать эту вещь вне боя.
+<<Should I?...>><#>«Стоит ли?..»
+MARKED BIBLE<#>ПОМЕЧЕННАЯ БИБЛИЯ
+(while in inventory): resting regains extra REASON/STAMINA, depending on character's FAITH level<#>(когда в инвентаре): отдых восстанавливает больше РАССУДКА и ВЫНОСЛИВОСТИ в зависимости от уровня ВЕРЫ персонажа
+<<I don't remember certain parts of it, is this real?>><#>«Некоторые отрывки я не помню... она вообще подлинная?»
+Reading the MARKED BIBLE, you find your inner peace. (+1 REASON)<#>Читая ПОМЕЧЕННУЮ БИБЛИЮ, вы достигаете душевного равновесия. (+1 РАССУДКА)
+MARKED BIBLE fills you with determination. (+1 STAMINA)<#>ПОМЕЧЕННАЯ БИБЛИЯ наполняет вас решимостью. (+1 ВЫНОСЛИВОСТИ)
+dies irae<#>dies irae
+AYAKA'S CHALK<#>МЕЛ АЯКИ
++2 DAMAGE against GHOST enemies<#>(экипировано): вы наносите на 2 УРОНА больше в бою с ПРИЗРАКАМИ
+<<They died because of me...>><#>«Они погибли из-за меня...»
+used in rituals<#>использовался в ритуалах
+BOOK STRAP<#>РЕМЕШОК ДЛЯ КНИГ
+faster combat actions for each BOOK item in the inventory<#>(экипировано): действия в бою становятся быстрее на 10% за каждую КНИГУ в инвентаре
+<<That's not the only book I've taken.>><#>«У меня с собой не одна книга.»
+made of leather<#>сделан из кожи
+CHECK BOOK<#>ЧЕКОВАЯ КНИЖКА
+(use): +3 FUNDS; +4% DOOM<#>(использовать): +3 СРЕДСТВ, +4% РОКА
+<<Using this will make me easier to track down...>><#>«По чекам меня будет легко отследить...»
+You've used your CHECK BOOK.<#>Вы использовали ЧЕКОВУЮ КНИЖКУ.
+family's fortune<#>семейное состояние
+BASEBALL<#>БЕЙСБОЛЬНЫЙ МЯЧ
+(use in combat): lower the ENEMY's power down to 0<#>(использование в бою): понижает силу ВРАГА до 0
+<<I'm not the best pitcher but it must be enough.>><#>«Я не лучший подающий, но этого броска должно хватить.»
+You throw the BASEBALL at your enemy!<#>Вы отправляете БЕЙСБОЛЬНЫЙ МЯЧ во врага!
+only one I got<#>единственный, что у меня есть
+FAVORITE SNACKS<#>ЛЮБИМЫЙ ПЕРЕКУС
+(use): +3 REASON and STAMINA<#>(использовать): восстанавливает 3 РАССУДКА и ВЫНОСЛИВОСТИ
+<<I heard they are going to stop the production of these because they are too damn tasty!-->><#>«Я слышал, что их хотят перестать выпускать, потому что они чертовски вкусные!»
+You eat your FAVORITE SNACKS.<#>Вы съедаете ваш ЛЮБИМЫЙ ПЕРЕКУС.
+yum yum<#>«Ням-ням!»
+You rummage through your belongings trying to find anything that will help you.<#>Вы роетесь в своих вещах, пытаясь найти что-нибудь полезное.
+You finally pick up<#>Наконец вы подбираете предмет - 
+Hopefully, it will be enough.#(+5% DOOM)<#>Хочется надеяться, что этого будет достаточно.#(+5% РОКА)
+You don't find anything except some loose change laying around.#(+1 FUNDS / +2% DOOM)<#>Вы не находите ничего, кроме какой-то мелочи.#(+1 СРЕДСТВ, +2% РОКА)
+It's dangerous here, your STAMINA penalty increased!<#>Здесь опасно, штраф к вашей ВЫНОСЛИВОСТИ увеличен!
+It's dangerous here, your REASON penalty increased!<#>Здесь опасно, штраф к вашему РАССУДКУ увеличен!
+#[DOOM EFFIGY]: DOOM lowered<#>#КУКЛА РОКА: РОК отсрочен
+SKIP SUITCASE SCREEN: ON/OFF<#>ПРОПУСТИТЬ ЭКРАН С ЧЕМОДАНОМ: ВКЛ/ВЫКЛ
+SKIP CARD PACK SCREEN: ON/OFF#(all packs enabled)<#>ПРОПУСТИТЬ ЭКРАН НАБОРА КАРТ: ВКЛ/ВЫКЛ#(все наборы включены)
+CREEPY NEIGHBOR: ON/OFF<#>ЖУТКИЙ СОСЕД: ВКЛ/ВЫКЛ
+CHECK FOR CONNECTED GAMEPADS: ON/OFF<#>ПРОВЕРЯТЬ НАЛИЧИЕ ГЕЙМПАДА: ВКЛ/ВЫКЛ
+WAVY EFFECT: ON/OFF<#>ЭФФЕКТ ВОЛН: ВКЛ/ВЫКЛ
+SKIP PLAYTHROUGH INTRO<#>ПРОПУСКАТЬ ИНТРО В ЗАБЕГАХ
+SKIP MYSTERY TUTORIAL<#>ПРОПУСКАТЬ ОБУЧЕНИЕ В ТАЙНАХ
+MOUSE TRAIL: ON/OFF<#>СЛЕД ОТ МЫШИ: ВКЛ/ВЫКЛ
+SKIP PALETTE CUSTOMIZATION<#>ПРОПУСКАТЬ НАСТРОЙКУ ПАЛИТРЫ
+EXTRA MATH DISPLAYED: ON/OFF<#>ОТОБРАЖАТЬ ДОПОЛНИТЕЛЬНУЮ МАТЕМАТИКУ: ВКЛ/ВЫКЛ
+EXTRA INFORMATION DISPLAYED: ON/OFF<#>ОТОБРАЖАТЬ ДОПОЛНИТЕЛЬНУЮ ИНФОРМАЦИЮ: ВКЛ/ВЫКЛ
+HOME<#>ДОМ
+DOWNTOWN<#>ДЕЛОВОЙ РАЙОН
+SCHOOL<#>ШКОЛА
+HOSPITAL<#>БОЛЬНИЦА
+SEASIDE<#>ПОБЕРЕЖЬЕ
+FOREST<#>ЛЕС
+MANSION<#>ПОМЕСТЬЕ
+VILLAGE<#>ДЕРЕВНЯ
+APARTMENTS<#>АПАРТАМЕНТЫ
+TIME PASSED<#>ВРЕМЕНИ ПРОШЛО
+SEED<#>СИД
+LEVEL<#>УРОВЕНЬ
+IMPENDING DOOM<#>УРОВЕНЬ РОКА
+select OLD GOD<#>выберите БОГА
+AVAILABLE PERKS<#>ДОСТУПНЫЕ НАВЫКИ
+You've advanced to the next experience level.#Choose one perk and one stat upgrade.##[CHOSEN:<#>Вы продвинулись на следующий уровень.#Выберите один навык и одно улучшение характеристики.##[ВЫБРАНО:
+(select perk and stat)<#>(выберите навык и хар-ку)
+REROLL PERKS<#>ПОМЕНЯТЬ НАВЫКИ
++4% DOOM<#>+4% РОКА
+The group must be there somewhere...<#>Группа должна быть где-то там...
+[click a square to explore it]<#>(щёлкните по квадрату, чтобы начать исследование)
+The key to the study must be there somewhere...<#>Ключ от кабинета должен быть где-то здесь...
+[click a mansion's room to explore it]<#>(нажмите на комнату поместья, чтобы исследовать её)
+Where is that gardener?...<#>Где этот садовник?..
+[extra damage against HUMAN and MONSTER enemies]<#>(дополнительный урон против ЛЮДЕЙ и МОНСТРОВ)

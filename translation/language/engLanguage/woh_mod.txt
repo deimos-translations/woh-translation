@@ -1,0 +1,15 @@
+STAMINA<#>ВЫНОСЛИВОСТЬ
+REASON<#>РАССУДОК
+DOOM<#>РОК
+EXPERIENCE<#>ОПЫТ
+FUNDS<#>СРЕДСТВА
+CURSE<#>ПРОКЛЯТИЕ
+INJURY<#>ТРАВМА
+ITEM<#>ПРЕДМЕТ
+SPELL<#>ЗАКЛИНАНИЕ
+ALLY<#>СОЮЗНИК
+something changed<#>что-то изменилось
+Select the root modding folder.#Currently chosen:<#>Выберите корневую папку для мода.#В данный момент выбрано:
+Would you like to disable all built-in events and leave just the custom ones for the testing purpose?<#>Хотите отключить все встроенные события и оставить только пользовательские в целях тестирования?
+CUSTOM CARDS FOUND<#>НАЙДЕНЫ ПОЛЬЗОВАТЕЛЬСКИЕ КАРТЫ
+No custom events found. You can download a free pack containing custom events made by WOH community and modding instructions here:#http://www.wohgame.com/modding.zip<#>Пользовательские события не найдены. Вы можете скачать бесплатный пакет, содержащий пользовательские события, созданные сообществом WOH, и инструкции по моддингу здесь:#http://www.wohgame.com/modding.zip

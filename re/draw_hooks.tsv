@@ -1,0 +1,16 @@
+draw_text	2	1421237a2	7	488d153785ffff	14211bce0
+draw_text_ext	2	1421237bc	7	488d157d86ffff	14211be40
+draw_text_transformed	2	1421237d6	7	488d15a38affff	14211c280
+draw_text_ext_transformed	2	1421237f2	7	488d150788ffff	14211c000
+draw_text_color	2	14212380e	7	488d152b85ffff	14211bd40
+draw_text_colour	2	14212382a	7	488d150f85ffff	14211bd40
+draw_text_ext_color	2	14212387e	7	488d155b86ffff	14211bee0
+draw_text_ext_colour	2	14212389a	7	488d153f86ffff	14211bee0
+draw_text_transformed_color	2	142123846	7	488d15138bffff	14211c360
+draw_text_transformed_colour	2	142123862	7	488d15f78affff	14211c360
+draw_text_ext_transformed_color	2	1421238b6	7	488d154388ffff	14211c100
+draw_text_ext_transformed_colour	2	1421238d2	7	488d152788ffff	14211c100
+string_width	0	14212373a	7	488d157fd8ffff	142120fc0
+string_height	0	142123754	7	488d1585d7ffff	142120ee0
+string_width_ext	0	14212376e	7	488d15abd8ffff	142121020
+string_height_ext	0	142123788	7	488d15b1d7ffff	142120f40

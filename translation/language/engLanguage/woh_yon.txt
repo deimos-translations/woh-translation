@@ -1,0 +1,92 @@
+STUFFED TOY<#>МЯГКАЯ ИГРУШКА
+(use): +1 CURSE removal<#>(использовать): снимает одно ПРОКЛЯТИЕ
+The toy crumbles into dust as you feel blessed.<#>Вы чувствуете на себе благословение, когда игрушка осыпается в пыль.
+FLESHY TOY<#>МЯСНАЯ ИГРУШКА
+[+5% DOOM]#[+3 MAX REASON]<#>(экипировано): +5% РОКА#+3 МАКС. РАССУДКА
+ROOMMATE<#>СОСЕДКА ПО КОМНАТЕ
+The wall opens even further... deeper...#A girl lies curled up inside of the apartment's womb.###>>i j u s t want y o u to be safe h e r e<<#>>what d i d i do?<<#>>why won't you j u s t s t a y?<<<#>Стена раскрывается всё сильнее... глубже...#Свернувшись калачиком, в чреве квартиры, лежит девушка.###«я п р о с т о хотела чтобы т е б е было т у т безопасно»#«что я с д е л а л а не так?»#«почему ты п р о с т о не можешь о с т а т ь с я?»
+Sumire-san thought she had everything she wanted. That is, until she met you.<#>Сумирэ-сан думала, что у неё было всё, что она хотела. Так и было, пока она не встретила вас.
+>>stay w i t h me<<<#>«о с т а н ь с я со мной»
+>>p l e a s e don't leave<<<#>«п о ж а л у й с т а не уходи»
+>>I will t a k e care of y o u<<<#>«я п о з а б о ч у с ь о тебе»
+RESTLESS RUMORS OF A RESIDENTIAL RECLUSE<#>СУМАСБРОДНЫЕ СЛУХИ О СКРЫТНОМ СОСЕДЕ
+While you don't get much normalcy in your life these days, today was supposed to be just that.##You'd been planning to take today to de-stress before your next investigation.<#>Хоть в последнее время в вашей жизни и происходит много странного, сегодняшний день должен был быть другим.##Вы планировали провести этот день, снимая стресс перед следующим расследованием.
+Instead, you awoke to find yourself trapped inside your own apartment. The walls have grown over the door and windows, leaving no exit.##Looking through the peephole, you yell and call out to passing neighbours, but your cries fall on deaf ears.<#>Вместо этого вы просыпаетесь и обнаруживаете себя взаперти в собственной квартире. Дверь и окна заросли стенами, не оставляя ни единого выхода.##Наблюдая через глазок, вы кричите и зовёте проходящих соседей, но никто вас не слышит.
+Who could have done this to you?##More importantly, how are you going to get out of here?<#>Кто сотворил это с вами?..##И, что важнее, как вы собираетесь отсюда выбираться?
+RESIDENTAL RECLUSE<#>СКРЫТНЫЙ СОСЕД
+FRONT DOOR<#>ВХОДНАЯ ДВЕРЬ
+PEEPHOLE<#>ГЛАЗОК
+CLOSET<#>ЧУЛАН
+KITCHEN<#>КУХНЯ
+YOUR ROOM<#>ВАША КОМНАТА
+MAIN ROOM<#>ЗАЛ
+??<#>??
+PREPARE FOR COMBAT<#>ПРИГОТОВИТЬСЯ К БОЮ
+SACRIFICE THE TOY<#>ПОЖЕРТВОВАТЬ ИГРУШКУ
+WASTE ANOTHER DAY<#>ПОТРАТИТЬ ДЕНЬ ВПУСТУЮ
+APPROACH THE WALL<#>ПОДОЙТИ К СТЕНЕ
+LOOK THROUGH PEEPHOLE<#>ПОСМОТРЕТЬ В ГЛАЗОК
+SACRIFICE THE TOY<#>ПОЖЕРТВОВАТЬ ИГРУШКУ
+LOOK BENEATH SHELVES<#>ПОСМОТРЕТЬ МЕЖ ПОЛОК
+CHECK THE NOTE<#>ПРОВЕРИТЬ ЗАПИСКУ
+Something guides your hand. What is this?...<#>Что-то направляет вашу руку. Что это?..
+You don't find anything else.<#>Вы больше ничего не находите.
+[[I used to live here too. This was the only place that was saf(...)d good.#All I could do was stay in, eat and sleep. And when the food ran out, just sleep.]]#[[When someone eventually came for my corpse, I'd already made my way _inside_.]]#[[You moved it. I can't tell you how happy being with you has made me. Please don't worry, I will keep you safe. I promise.]]<#>«Я тоже раньше жила здесь. Это было единственное безопасн(...) хорошее место.#Всё, что я могла делать - это сидеть дома, есть и спать. А когда еда кончилась, просто спать.»#«Когда кто-то в конце концов придёт за моим трупом, я уже буду _внутри_.»#«Я не могу даже выразить, насколько мне хорошо рядом с тобой. Пожалуйста, не волнуйся, я позабочусь о твоей безопасности. Обещаю.»
+...wait, what's that? #(+ ITEM)<#>...стоп, что это? #(+ПРЕДМЕТ)
+You don't have the energy to keep searching.<#>У вас не осталось сил, чтобы продолжать поиски.
+You look around but don't find anything. #(+2% DOOM)<#>Вы осматриваетесь вокруг, но ничего не находите.#(+2% РОКА)
+CHECK BEHIND WARDROBE<#>ПРОВЕРИТЬ ЗА ГАРДЕРОБОМ
+CHECK BEHIND BED<#>ПРОВЕРИТЬ ЗА КРОВАТЬЮ
+CHECK BEHIND DESK<#>ПРОВЕРИТЬ ЗА СТОЛОМ
+The windows are covered in a thick layer of drywall, leaving only shallow cavities. The front door isn't much better.##But there must be some way out, right?<#>Окна покрыты толстым слоем гипса, поверхность которого нарушают лишь мелкие углубления. Входная дверь выглядит не лучше.##Но тут должен быть какой-то путь наружу, верно?
+You spend all of your time searching your apartment for a way out, but you're already getting exhausted.<#>Вы потратили всё время на поиск выхода из квартиры и уже утомились.
+Wallpaper and paint have spread around the door's edges. No matter how hard you try, the door refuses to budge.<#>Обои и краска расползлись по краям двери. Как сильно ни дёргай, дверь не поддаётся.
+...at least he can't get through, either.<#>...по крайней мере, он тоже не может войти.
+Your sleep schedule is starting to drift. The hours just seem to slip past you, and the day is over before you know it.<#>Ваш режим сна начинает расплываться. Часы просто пролетают мимо, и вы даже не понимаете, когда заканчивается день.
+Wallpaper and paint have spread around the door's edges. No matter how hard you try, the door refuses to budge.<#>Обои и краска расползлись по краям двери. Как сильно ни дёргай, дверь не поддаётся.
+There's a weird drawing stuck to your door...<#>На вашей двери какой-то странный рисунок...
+You've read all of your books and watched all of your VHS tapes three times over.##God, you miss people.<#>Вы уже по третьему кругу прочитали все книги и посмотрели все VHS-кассеты.##Боже, как же вам не хватает людей.
+You wonder just how much things are changing out there without you around.##If nothing else, you're at least safer in here than out there.<#>Вам интересно, как меняются события без вашего участия.##Во всяком случае, здесь вам безопаснее, чем снаружи...
+You don't see anything of interest in the hallway today.<#>Сегодня в коридоре вы не видите ничего интересного.
+You still change clothes every day, but is there any point if you're not going outside?<#>Вы до сих пор меняете одежду каждый день, но какой в этом смысл, если наружу всё равно не выбраться?
+Your pantry is starting to run out of easy meals, and you don't have the energy to cook.<#>В холодильнике кончаются готовые блюда, а готовить у вас уже нет сил.
+You're running out of ways to keep yourself busy. The boredom makes you want to beat your head against a wall.<#>У вас кончаются способы занять себя. Скука чуть ли не заставляет вас биться головой об стену.
+You wonder just how much things are changing out there without you around.##If nothing else, you're at least safer in here than out there.<#>Вам интересно, как меняются события без вашего участия.##Во всяком случае, здесь вам безопаснее, чем снаружи.
+You can't see outside anymore...<#>Вы больше не видите ничего снаружи...
+You still change clothes every day, but is there any point if you're not going outside?<#>Вы до сих пор меняете одежду каждый день, но какой в этом смысл, если наружу всё равно не выбраться?
+Your pantry is starting to run out of easy meals, and you don't have the energy to cook.<#>В холодильнике кончаются готовые блюда, а готовить у вас уже нет сил.
+Just standing in here makes you light-headed.#The bed is too tempting-- you shouldn't stay long.<#>У вас кружится голова, даже когда вы просто стоите.#Кровать слишком соблазнительна - вам не стоит долго стоять.
+Your mind is hazy. It's all blurring together.#You just want to sleep.<#>Ваш разум затуманен. В глазах всё расплывается.#Вам просто хочется спать.
+You're beginning to doubt this door will ever open again.##(it's better that way)<#>Вы начинаете сомневаться, что эта дверь когда-либо снова откроется.##(так даже лучше...)
+... what were you doing again?<#>...что вы снова делали?
+You don't have much of an appetite.<#>У вас особо нет аппетита.
+(the apartment cradles you gently in your sleep every night, keeping you warm within her ribcage)<#>(квартира нежно убаюкивает вас каждую ночь, согревая в своём чреве)
+As you get closer, you notice thin cracks in the wall above the bed. Something dark, glistening red pulsates inside. The cracks move like lips, and the apartment whispers to you.#>>just lay down<<##You hear wooden support beams creak as the walls flex, reaching toward you from all sides.#>>and let me take care of you<<<#>Подходя ближе, вы замечаете тонкие трещины в стене у кровати. Внутри пульсирует нечто тёмное, блестяще-красное. Трещины двигаются словно губы, и квартира шепчет вам.#»просто приляг«##Вы слышите, как скрипят деревянные балки, когда стены прогибаются, приближаясь к вам со всех сторон.#»и позволь мне позаботиться о тебе«
+MYSTERY MEAT<#>СТРАННОЕ МЯСО
+No access to the outside world means you only have so much food to eat.##Deep in the back of your pantry, you discover a rusty can of meat. How long this has this thing been in here? ##Opening the can, it smells fine, but...<#>Отсутствие доступа к наружному миру означает, что у вас остались считанные запасы еды.##Глубоко в холодильнике, вы находите ржавую банку с мясом. Как долго она тут была?##Вы открываете банку, и запах нормальный, но...
+eat it<#>съесть
+throw it away<#>выбросить
+It's not exactly a pleasant meal - meat definitely shouldn't be this crunchy - but food is food.#(+2 STAMINA)<#>Не самое изысканное блюдо - мясо точно не должно быть таким хрустящим - но еда есть еда.#(+2 ВЫНОСЛИВОСТИ)
+You already regret your decision by the first disgusting bite. ##An hour later, you feel something writhing in your stomach, trying to get out. Maybe that meat was too fresh...#(+ STATUS)<#>Вы жалеете о своём решении уже после первого отвратительного укуса.##Часом позже вы чувствуете, как что-то скручивается у вас в животе, пытаясь выбраться. Может, это мясо было чересчур свежим...#(+СТАТУС)
+Trusting your judgement, you chuck the can into the garbage. Your stomach growls at you in discontentment.#(-1 STAMINA)<#>Вынеся приговор банке, вы кидаете её в мусор. Желудок недовольно урчит на вас.#(-1 ВЫНОСЛИВОСТИ)
+CLOGGED DRAIN<#>ЗАБИТАЯ РАКОВИНА
+When you go to use the bathroom, you notice there's a clump of hair coming up the sink drain. ##You're certain that it's not yours.<#>Когда вы идёте в ванную, вы замечаете комок волос, торчащий из слива раковины.##Вы уверены, что они не ваши.
+pull it out<#>вытащить их
+You tug the strand up out of the drain, only to find a few coins tied to the end of the hair. You pocket the money and try not to think about it.#(+1 FUNDS)<#>Вы вытаскиваете комок из слива и обнаруживаете несколько монет, привязанных к кончикам волос. Вы забираете деньги и стараетесь не думать об этом.#(+1 СРЕДСТВ)
+There's a startling amount of resistance when you pull. Before you can react, the hair is suddenly yanked back down the drain and out of sight.#(-1 REASON)<#>Вы встречаете поразительное сопротивление, когда начинаете тянуть. Прежде чем вы успеваете отреагировать, волосы засасываются обратно в слив и исчезают.#(-1 РАССУДКА)
+KILLING TIME<#>УБИВАЯ ВРЕМЯ
+Sitting on the sofa, you find yourself repeatedly checking the time to get some grounding.##When you go to eat, though, you realize the clock in the kitchen displays a different time. And your bedroom alarm clock is completely different from each of the others.<#>Сидя на диване, вы ловите себя на том, что постоянно проверяете время, чтобы немного успокоиться.##Но когда вы решаете поесть, то понимаете, что часы на кухне показывают другое время. А часы на будильнике в спальне и вовсе не совпадают с двумя другими.
+<<they need a battery change, probably>><#>«Наверное, нужно поменять батарейки»
+<<I must be delirious>><#>«Должно быть, я брежу»
+You're sure there's some explanation. You shrug it off and get your food.##You pretend you're not nauseous when the clocks later show negative numbers, jumbled words, and nothing at all.#(+1 STAMINA / -2 REASON)<#>Вы уверены, что этому есть объяснение.##Вы пожимаете плечами и возвращаетесь к еде.##Вы едва сдерживаете тошноту, когда позже часы начинают показывать отрицательные числа, непонятные слова, либо вообще ничего.#(+1 ВЫНОСЛИВОСТИ, -2 РАССУДКА)
+Being stuck in here is really starting to get to your head. To set yourself straight, you slap yourself hard enough to see stars, chug some coffee, and avoid looking at the clocks again.#(+1 REASON / -2 STAMINA)<#>Эта тюрьма начинает серьёзно давить на вашу голову. Чтобы привести себя в порядок, вы даёте себе настолько сильную пощёчину, что вас сбивает с ног. Вы выпиваете кофе большими глотками и стараетесь не смотреть на часы.#(+1 РАССУДКА, -2 ВЫНОСЛИВОСТИ)
+WASTING ANOTHER DAY...<#>БЕСЦЕЛЬНО ТРАТИМ ОЧЕРЕДНОЙ ДЕНЬ...
+A - FINALLY FREE<#>А - НАКОНЕЦ-ТО НА СВОБОДЕ
+B - EVIL EVICTED<#>Б - ЗЛО ИЗГНАНО
+The girl's face twists oddly. The apartment's pulsing innards slow to a still.##The girl mouths something you can't make out. She smiles. You fall unconscious.##When you awaken, you're laying in the apartment entryway, beside the open door.<#>Лицо девушки странно искажается. Пульсирующая плоть квартиры затихает, затем полностью замирает.##Девушка произносит что-то, но вы не можете разобрать. Она улыбается. Вы падаете, теряя сознание.##Вы приходите в себя рядом со входной дверью, распахнутой настежь.
+The next morning, you see a silhouette on the balcony, staring out at Shiokawa and watching the sunrise.#You blink, and she's gone.<#>Следующим утром, вы видите на балконе силуэт девушки, глядящий на рассвет над Шиокавой.#Вы моргаете, и она исчезает.
+After that, you never see her again, and after that, your apartment becomes just an apartment.##[RESTLESS RUMORS OF A RESIDENTIAL RECLUSE:#ENDING A]<#>После этого, вы больше никогда её не видели, а ваша квартира стала лишь квартирой.##(СУМАСБРОДНЫЕ СЛУХИ О СКРЫТНОМ СОСЕДЕ:#КОНЦОВКА А)
+An expression of agony overtakes the girl's face. Her hair gets tangled into the apartment's churning guts, and her flesh begins to melt apart.#She arches her back in a voiceless scream until her pale body finally collapses in on itself.<#>Лицо девушки выражает агонию. Её волосы спутываются в бурлящих внутренностях квартиры, а плоть начинает плавиться.#Она выгибает спину в безмолвном крике, пока её бледное тело наконец не схлопывается.
+When you stumble out of the room, things seem to have returned to normal, and your door can open again. Relieved, you take the chance to go out for a walk.#Only a few hours later do you return to the bedroom, and find a lump beneath your bed's covers.<#>Когда вы, спотыкаясь, выходите из комнаты, всё возвращается на круги своя, и входная дверь снова открывается. Оказавшись на свободе, вы пользуетесь шансом выйти на прогулку.#Вы возвращаетесь в спальню только спустя несколько часов и находите комок под одеялом на кровати.
+Peeling back the sheets reveals the toy that you had destroyed, the pieces held together with sections of pulsing flesh. Beside its body is a small note.<#>Откинув одеяло, вы находите игрушку, которую вы уничтожили. Её части соединены между собой кусками пульсирующей плоти. Рядом с игрушкой вы находите небольшую записку.
+>>i'll#a l w a y s#keep you safe<<##[RESTLESS RUMORS OF A RESIDENTIAL RECLUSE:#ENDING B]<#>»я#в с е г д а#буду защищать тебя«##(СУМАСБРОДНЫЕ СЛУХИ О СКРЫТНОМ СОСЕДЕ:#КОНЦОВКА Б)

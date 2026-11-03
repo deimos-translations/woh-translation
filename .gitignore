@@ -2,3 +2,9 @@
 /font/original
 /original
 /output
+/re/ghidra
+/re/out
+/re/*.log
+/woh.exe
+__pycache__/
+*.exe

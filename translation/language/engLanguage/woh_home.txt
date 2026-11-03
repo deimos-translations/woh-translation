@@ -1,0 +1,212 @@
+TURN ON<#>ВКЛЮЧИТЬ
+TURN OFF<#>ВЫКЛЮЧИТЬ
+TV is turned off.<#>Телевизор выключен.
+You don't have any VHS cassettes to watch.<#>У вас нет VHS-кассет для просмотра.
+(...) Local police are helpless as more and more victims turn up in the downtown area with their throats slashed. (...)<#>(...) Всё больше и больше жертв находят в центре города с перерезанным горлом, и местная полиция ничего не может с этим поделать. (...)
+(...) demolition of an old inner-city shrine has resulted in an array of unfortunate accidents and, most recently, the death of six people suspected of arson. (...)<#>(...) снос старого храма в центре города привёл к целому ряду несчастных случаев и, совсем недавно, к гибели шести человек, подозреваемых в поджоге. (...)
+(...) we are shocked by what she did. Her voice was always so calm... (...)<#>(...) мы шокированы тем, что она сделала. У неё всегда был такой спокойный голос... (...)
+(...) the TV host is gutting a big octopus. At least that's what she claims... but there are way too many tentacles (...)<#>(...) телеведущая готовит большого осьминога. По крайней мере, так она утверждает... но у него слишком много щупалец... (...)
+(...) local dentist has been found guilty of implanting dog teeth on their human patients - motive is currently unknown. (...)<#>(...) местный стоматолог был признан виновным в имплантации собачьих зубов своим пациентам - мотив в настоящее время неизвестен. (...)
+(...) a minor earthquake in the seaside region has revealed an entrance to a partially flooded cavern system. Local scientists believe some of the corridors could be man-made. (...)<#>(...) небольшое землетрясение в районе набережной раскрыло вход в частично затопленную систему пещер. Местные учёные полагают, что часть из них могла быть создана человеком. (...)
+You can't get any signal from the outside world. What is happening?<#>Вы не получаете никаких сигналов из внешнего мира. Что происходит?
+(...) Some of our readers report a strange tall man, dressed in white, taking the metro after dark, apparently stalking lone passengers. Please take care and avoid traveling alone. (...)<#>(...) Некоторые наши читатели сообщают о странном высоком мужчине, одетом в белое, который ездит в метро после наступления темноты и, судя по всему, преследует одиноких пассажиров. Пожалуйста, будьте осторожны и избегайте путешествий в одиночку. (...)
+(...) once a year, a ramen shop appears where there was once an alleyway - the ramen sold inside is made from its former patrons but can cure any health problem. (...)<#>(...) раз в год там, где когда-то был переулок, появляется магазин рамена. Рамен, который там готовят, сделан из бывших посетителей, но он может вылечить любую болезнь. (...)
+(...) the search for a missing person continues in the forest surrounding SHIOKAWA. If you have any information, please contact the police department (...)<#>(...) поиски пропавшего человека продолжаются в лесу, окружающем ШИОКАВУ. Если у вас есть какая-либо информация, пожалуйста, свяжитесь с полицейским управлением... (...)
+you don't see anything weird<#>вы не видите ничего странного...
+what's that?<#>«Что это?..»
+p-probably just my imagination....<#>«Н-наверное, просто моё воображение...»
+someone is standing in the shadow, watching your door...<#>кто-то стоит в тени, наблюдая за вашей дверью...
+ENDLESS MODE<#>БЕСКОНЕЧНЫЙ РЕЖИМ
+CHOOSE A MYSTERY TO INVESTIGATE<#>ВЫБЕРИТЕ ТАЙНУ ДЛЯ РАССЛЕДОВАНИЯ
+Inexplicable and morbid events have been plaguing your town for some time now.##You've marked down five of them, hoping that there is something connecting them.##You can tackle these 5 MYSTERIES in any order you want. Beware, your decisions will haunt you and influence yet unsolved MYSTERIES.<#>Необъяснимые жуткие события уже некоторое время отравляют ваш город.##Вы отметили пять из них, надеясь, что они как-то связаны.##Вы можете разгадать 5 этих ТАЙН в любом порядке. Будьте осторожны, ваши решения будут преследовать вас и влиять на нераскрытые ТАЙНЫ.
+REROLL MYSTERIES<#>ПОМЕНЯТЬ ТАЙНЫ
+ENDINGS DISCOVERED<#>КОНЦОВОК НАЙДЕНО
+w-what's inside?...<#>«Ч-что внутри?..»
+TAKE THE KEY<#>ВЗЯТЬ КЛЮЧ
+THEY KNOW<#>ОНИ ЗНАЮТ
+Inside your mailbox, you find a small key.##What is it doing in there?<#>Внутри вашего почтового ящика вы находите маленький ключ.##Что он там делает?
+S-someone has crammed your mailbox full of animal entrails...<#>К... Кто-то набил ваш почтовый ящик внутренностями животных...
+You check your mailbox...##It's empty.<#>Вы проверяете свой почтовый ящик...##Пусто.
+MAILBOX<#>ПОЧТОВЫЙ ЯЩИК
+They still didn't fix the water problem. It is black and oily and glistening.#No way you're going to wash yourself in that!<#>Проблему с водой всё ещё не устранили. Она чёрная, маслянистая и блестящая.#Вы ни за что не будете в ней мыться!
+The shower will help you calm down and do wonders for your sore muscles.#What temperature should you set it to?<#>Душ поможет вам успокоиться и сотворит чудеса с больными мышцами.#Какой температуры сделать воду?
+You scrub yourself, but you'll never be clean again.<#>Вы вытираетесь, но вам уже никогда не почувствовать чистоту.
+COLD WATER (extra REASON regained)<#>ХОЛОДНАЯ ВОДА (восстанавливает дополнительный РАССУДОК)
+WARM WATER (small EXP boost)<#>ТЁПЛАЯ ВОДА (даёт немного ОПЫТА)
+HOT WATER (extra STAMINA regained)<#>ГОРЯЧАЯ ВОДА (восстанавливает дополнительную ВЫНОСЛИВОСТЬ)
+USE BOTTLED WATER<#>ИСПОЛЬЗОВАТЬ ВОДУ ИЗ БУТЫЛКИ
+fill EMPTY BOTTLE with water<#>наполнить ПУСТУЮ БУТЫЛКУ водой
+(this action requires 'EMPTY BOTTLE' item)<#>(необходим предмет «ПУСТАЯ БУТЫЛКА»)
+You've filled one bottle already.<#>Вы уже наполнили одну бутылку.
+YOUR HOME<#>ВАШ ДОМ
+LIGHTHOUSE<#>МАЯК
+REST A BIT<#>НЕМНОГО ОТДОХНУТЬ
+TAKE A PEEK THROUGH PEEPHOLE<#>ПОСМОТРЕТЬ В ГЛАЗОК
+BACK IN YOUR HOME, YOU THINK OF YOUR NEXT MOVE.<#>СНОВА БУДУЧИ ДОМА, ВЫ ПРОДУМЫВАЕТЕ СЛЕДУЮЩИЙ ХОД.
+YOU ARE NOT CURRENTLY INVESTIGATING ANY WEIRD MYSTERY. RECENT NEWSPAPER CLIPPINGS AND NOTES COLLECTED IN THE NEXT ROOM SHOULD POINT YOU IN THE RIGHT DIRECTION.<#>ПОКА ЧТО ВЫ НЕ РАССЛЕДУЕТЕ НИ ОДНОЙ ТАЙНЫ. СВЕЖИЕ ГАЗЕТНЫЕ ВЫРЕЗКИ И ЗАМЕТКИ, СОБРАННЫЕ В СОСЕДНЕЙ КОМНАТЕ, ДОЛЖНЫ УКАЗАТЬ ВАМ ВЕРНОЕ НАПРАВЛЕНИЕ.
+LIGHT SWITCH<#>ВЫКЛЮЧАТЕЛЬ
+WATCH TV<#>ПОСМОТРЕТЬ ТЕЛЕВИЗОР
+TAKE A BATH<#>ПРИНЯТЬ ВАННУЮ
+CHANGE CLOTHES<#>СМЕНИТЬ ОДЕЖДУ
+START A NEW MYSTERY<#>НАЧАТЬ НОВУЮ ТАЙНУ
+MOVE THE CURTAIN<#>РАЗДВИНУТЬ ЗАНАВЕСКИ
+OPEN DRAWER<#>ОТКРЫТЬ ШКАФ
+CLOSE DRAWER<#>ЗАКРЫТЬ ШКАФ
+CHOOSE AN ACTION<#>ВЫБЕРИТЕ ДЕЙСТВИЕ
+You've already taken a bath.<#>Вы уже приняли ванную.
+Weird, nothing happens.<#>Странно, ничего не происходит.
+Inside a figurine you find some money. (+1 FUNDS)<#>Внутри статуэтки вы находите немного денег. (+1 СРЕДСТВ)
+You stand before a mirror, wondering which outfit to wear.<#>Вы стоите перед зеркалом, сомневаясь, какой наряд надеть.
+Looking good.<#>Красота.
+Another day begins...<#>Начинается очередной день...
+Is it going to rain?<#>Сегодня будет дождь?
+You can't see anything.<#>Вы ничего не видите.
+Ominous black clouds circle the lighthouse...<#>Жуткие тёмные облака окружают маяк...
+The ghost-gray mist envelops the whole town.<#>Призрачно-серый туман окутывает весь город.
+It has been raining since morning.<#>С самого утра идёт дождь.
+It's a nice day outside.<#>Снаружи прекрасный день.
+It's dark already.<#>Уже стемнело.
+GET BACK TO THE TOWN SCREEN<#>ВЕРНУТЬСЯ К ЭКРАНУ ГОРОДА
+(complete at least one mystery to save progress)<#>(завершите хотя бы одну тайну, чтобы сохранить прогресс)
+SAVE PROGRESS AND EXIT THE GAME<#>СОХРАНИТЬ ПРОГРЕСС И ВЫЙТИ ИЗ ИГРЫ
+(you can't save in ENDLESS mode)<#>(вы не можете сохраняться в БЕСКОНЕЧНОМ режиме)
+You could leave something to charge here.<#>Вы могли бы оставить здесь что-нибудь для подзарядки.
+CUSTOM MYSTERIES<#>ПОЛЬЗОВАТЕЛЬСКИЕ ТАЙНЫ
+saving/loading is temporarily disabled<#>сохранение/загрузка временно отключены
+No custom mysteries found.<#>Пользовательские тайны не найдены.
+by<#>от
+Length:<#>Длина:
+replaces mystery<#>заменяет тайну
+(outfit locked)<#>(наряд заблокирован)
+GO BACK<#>НАЗАД
+That's a nice movie poster.<#>Милый постер к фильму.
+CLASSIC MODE - OLD GODS are awakening! Your only chance of survival is solving five different mysteries. The end of the world is at hand!<#>КЛАССИЧЕСКИЙ РЕЖИМ - ДРЕВНИЕ БОГИ пробуждаются! Ваш единственный шанс на выживание - раскрыть пять разных тайн. Конец света уже близко!
+ENDLESS MODE - It's hopeless! You can't stop the OLD GODS. In this mode, there are no mysteries to solve - earn points by surviving an endless stream of encounters.<#>БЕСКОНЕЧНЫЙ РЕЖИМ - Всё безнадёжно! Вам не остановить ДРЕВНИХ БОГОВ. В этом режиме вы не будете расследовать тайны: зарабатывайте очки, выживая в нескончаемом потоке стычек.
+SCENARIO MODE - Short adventures set during the events of classic mode.#[coming in the future!]<#>РЕЖИМ СЦЕНАРИЯ - Короткие приключения, происходящие до событий КЛАССИЧЕСКОГО РЕЖИМА.#(будет в будущем!)
+ENDLESS MODE<#>БЕСКОНЕЧНЫЙ РЕЖИМ
+The game begins with a ritual. You can choose which OLD GOD will be summoned.##This selection will influence encounters and add unique events to your playthrough.<#>Игра начинается с ритуала. Вы можете выбрать, какой ДРЕВНИЙ БОГ будет призван.##Этот выбор повлияет на стычки и добавит в ваше забег уникальные события.
+select the OLD GOD to view them, and select them again to confirm your choice<#>выберите ДРЕВНЕГО БОГА, чтобы узнать о нём, а затем выберите продолжить, чтобы подтвердить свой выбор
+somewhere, a group of people gathers, trying to awaken their master...<#>где-то собирается группа людей, чтобы пробудить своего хозяина...
+(additional modes will unlock as you progress)<#>(дополнительные режимы разблокируются по мере прогресса)
+OLD GOD'S RULE<#>ПРАВИЛО ДРЕВНЕГО БОГА
+(character-exclusive perk cards only)<#>карты навыков только для выбранного персонажа
+(all unlocked perk cards)<#>все разблокированные карты навыков
+(randomized item statistics)<#>случайные характеристики предметов
+BACKSTORY<#>ПРЕДЫСТОРИЯ
+---CTHAC-ATORASU, THE SPIDER GOD---<#>---КТХАК-АТОРАСУ, ПАУЧИЙ БОГ---
+The terrible spider god, CTHAC-ATORASU is once again awakening from its slumber...#Blinded by its impossible-to-satisfy hunger, it has started to tear down the walls of its cocoon prison.<#>Ужасный паучий бог, КТХАК-АТОРАСУ в очередной раз пробуждается ото сна...#Ослеплённый неутолимым голодом, он начал рвать стены своего кокона-тюрьмы.
+ETERNAL WEB: You can't run from combat<#>ВЕЧНАЯ ПАУТИНА: побег из боя невозможен
+THE ETERNAL WEB<#>ВЕЧНАЯ ПАУТИНА
+CTHAC-ATORASU is once again awakening from its slumber...##Blinded by its impossible-to-satisfy hunger, it has started to tear down the walls of its cocoon prison.##Stop it before it devours us all.<#>КТХАК-АТОРАСУ в очередной раз пробуждается ото сна...##Ослеплённый неутолимым голодом, он начал рвать стены своего кокона-тюрьмы.##Остановите его, пока он не сожрал всех нас.
+[you can't escape from combat encounters]<#>нельзя сбегать из боёв
+CTHAC-ATORASU<#>КТХАК-АТОРАСУ
+---YGOTHAEG, THE IRRESISTIBLE GAZE---<#>---ИГОТХАЕГ, НЕОТРАЗИМЫЙ ВЗГЛЯД---
+The nuclear tests in the Pacific region have awakened something evil in the depths of Mariana Trench.#YGOTHAEG is now slowly emerging, ready to once again rule the coastlines.<#>Ядерные испытания в Тихоокеанском регионе пробудили нечто злое в глубинах Марианской впадины.#ИГОТХАЕГ медленно поднимается, готовясь вновь править побережьями.
+GAZE OF YGOTHAEG: follow the commands or suffer its wrath<#>ВЗГЛЯД ИГОТХАЕГА: следуйте командам или испытайте его гнев
+Don't investigate DOWNTOWN, FOREST and MANSION or suffer its wrath.<#>Не исследуйте ДЕЛОВОЙ РАЙОН, ЛЕС и ПОМЕСТЬЕ, или испытаете его гнев.
+Don't investigate APARTMENTS, SCHOOL and VILLAGE or suffer its wrath.<#>Не исследуйте АПАРТАМЕНТЫ, ШКОЛУ и ДЕРЕВНЮ, или испытаете его гнев.
+Don't investigate HOSPITAL, FOREST and VILLAGE or suffer its wrath.<#>Не исследуйте БОЛЬНИЦУ, ЛЕС и ДЕРЕВНЮ, или испытаете его гнев.
+Don't investigate DOWNTOWN, MANSION and HOSPITAL or suffer its wrath.<#>Не исследуйте ДЕЛОВОЙ РАЙОН, ПОМЕСТЬЕ и БОЛЬНИЦУ, или испытаете его гнев.
+Don't investigate SCHOOL, SEASIDE and APARTMENTS or suffer its wrath.<#>Не исследуйте ШКОЛУ, ПОБЕРЕЖЬЕ и АПАРТАМЕНТЫ, или испытаете его гнев.
+Don't investigate FOREST and SCHOOL or suffer its wrath.<#>Не исследуйте ЛЕС и ШКОЛУ, или испытаете его гнев.
+Don't investigate HOSPITAL and MANSION or suffer its wrath.<#>Не исследуйте БОЛЬНИЦУ и ПОМЕСТЬЕ, или испытаете его гнев.
+Don't blink or suffer its wrath.<#>Не моргайте, или испытаете его гнев.
+You won't cheat YGOTHAEG that easily... (+1% DOOM)<#>Вам не провести ИГОТХАЕГА так легко... (+1% РОКА)
+YGOTHAEG is getting furious... (+2% DOOM)<#>ИГОТХАЕГ свирепеет... (+2% РОКА)
+IRRESISTIBLE GAZE<#>НЕОТРАЗИМЫЙ ВЗГЛЯД
+The nuclear tests in the Pacific region have awakened something evil in the depths of the Mariana Trench. YGOTHAEG is now slowly emerging, ready to once again rule the coastlines.<#>Ядерные испытания в Тихоокеанском регионе пробудили нечто злое в глубинах Марианской впадины. ИГОТХАЕГ медленно поднимается, готовясь вновь править побережьями.
+[follow the commands or suffer its wrath]<#>следуйте командам или испытайте его гнев
+YGOTHAEG<#>ИГОТХАЕГ
+---GOIZO, THE THING FORSAKEN BY GOD---<#>---ГОЙЗО, ВЕЩЬ, ЗАБЫТАЯ БОГОМ---
+Banished to the other dimension a long time ago, GOIZO has found a way to use mirrors to ensnare and teleport its prey straight through reflective glass. The glimpses behind your reflections are just the beginning of a real nightmare.<#>Давным-давно изгнанный в другое измерение, ГОЙЗО нашёл способ использовать зеркала, чтобы заманивать свою добычу в ловушку и телепортировать прямо через отражающее стекло.#Блики в вашем отражении - лишь начало настоящего кошмара.
+MIRROR HORROR: Resting increases DOOM penalty<#>ЗЕРКАЛЬНЫЙ УЖАС: отдых дома приближает РОК
+THE THING FORSAKEN BY GOD<#>ВЕЩЬ, ЗАБЫТАЯ БОГОМ
+Banished to the other dimension a long time ago, GOIZO has found a way to use mirrors to ensnare and teleport its prey straight through reflective glass.##The glimpses behind your reflections are just the beginning of a real nightmare.<#>Давным-давно изгнанный в другое измерение, ГОЙЗО нашёл способ использовать зеркала, чтобы заманивать свою добычу в ловушку и телепортировать прямо через отражающее стекло.#Блики в вашем отражении - лишь начало настоящего кошмара.
+[resting at home raises DOOM]<#>отдых дома приближает РОК
+GOIZO<#>ГОЙЗО
+---ATH-YOLAZSTH, THE TOWERING EYE---<#>---АТХ-ЙОЛАЗСТХ, ВОЗВЫШАЮЩИЙСЯ ГЛАЗ---
+The Mad God favors astronomers and magicians, granting them its gift of power that unknowingly brings ATH-YOLAZSTH's bloated body closer and closer to Earth.<#>Бог безумия благоволит астрономам и магам, наделяя их своим даром силы, который неосознанно приближает раздутое тело АТХ-ЙОЛАЗСТХА всё ближе и ближе к Земле.
+COSMIC GIFT: Casting spells costing REASON, increases DOOM instead.<#>КОСМИЧЕСКИЙ ДАР: заклинания, понижающие РАССУДОК, вместо этого приближают РОК.
+THE MISSING STARS<#>ПРОПАВШИЕ ЗВЁЗДЫ
+The media has been reporting about various people with seemingly supernatural skills.##Could it have any connection with the news about stars disappearing from the night sky?<#>СМИ сообщают о людях, якобы обладающих сверхъестественными способностями.##Имеет ли это какое-либо отношение к новостям об исчезновении звёзд с ночного неба?
+[casting spells raises DOOM instead of its normal cost]<#>использование заклинаний приближает РОК #вместо обычной стоимости
+ATH-YOLAZSTH<#>АТХ-ЙОЛАЗСТХ
+---ITHOTU, THE DEVOURING FIRE---<#>---ИТХОТУ, ПОЖИРАЮЩЕЕ ПЛАМЯ---
+This supposed cause of destruction of the library of Alexandria, a perfect black marble statue, has been recently discovered and is currently waiting in the museum of OOO for its long-awaited premiere.<#>Предполагаемая причина разрушения Александрийской библиотеки, статуя из идеально чёрного мрамора, была вновь обнаружена недавно и в настоящее время ожидает долгожданного показа в музее ООО.
+ENTROPY: both your damage and your enemies' is increased.<#>ЭНТРОПИЯ: в бою вы наносите и получаете больше урона
+ALEXANDRIA, 48 BC<#>АЛЕКСАНДРИЯ, 48 год до н. э.
+The supposed cause of destruction of the library of Alexandria, a perfect black marble statue, has been recently rediscovered and is currently waiting in the museum of OOO for its long-awaited premiere.<#>Предполагаемая причина разрушения Александрийской библиотеки, статуя из идеально чёрного мрамора, была вновь обнаружена недавно и в настоящее время ожидает долгожданного показа в музее ООО.
+[both you and enemies deal extra damage]<#>в бою вы наносите и получаете#больше урона
+ITHOTU<#>ИТХОТУ
+---HERALD OF THE SHATTERED COURT---<#>---ВЕСТНИК РАЗРУШЕННОГО ДВОРА---
+The Court has begun to organize its next magnificent Ball. Everyone from SHIOKAWA is invited.#And everyone will attend, willing or not.<#>Двор приступил к организации следующего великолепного бала. Приглашены все жители ШИОКАВЫ.#И придут все, хотят они того или нет.
+COURT'S CALLING: completing a mystery triggers an additonal OLD GOD stir status<#>ЗОВ ДВОРА: в конце каждой тайны вы получаете дополнительный эффект пробуждения ДРЕВНЕГО БОГА
+CURIOUS CALL<#>ЛЮБОПЫТНЫЙ ЗОВ
+>>It iSs mYy pleeaSurRe to invvvite evERyoNe tto tHhe mosTt magnnifFicent BALL of yyourR livVves! AnNd thHe laSst onNe.<<<#>«РррАд прииГласИть всЕХ нна сСамыЙ великкоЛЕпный БАЛ в вашшеЙ жизЗзни! Ии сСсамый поСслЕднИй.»
+[every mystery: an additonal OLD GOD stir status]<#>в конце каждой тайны#вы получаете дополнительный эффект#пробуждения ДРЕВНЕГО БОГА
+HERALD<#>ВЕСТНИК
+ENTROPY<#>ЭНТРОПИЯ
+increased combat damage<#>увеличенный урон в бою
+COSMIC GIFT<#>КОСМИЧЕСКИЙ ДАР
+casting spells raises %DOOM<#>использование заклинаний приближает РОК
+IRRESISTIBLE GAZE<#>НЕОТРАЗИМЫЙ ВЗГЛЯД
+follow the commands or suffer its wraith<#>следуйте командам или испытайте его гнев
+MIRROR HORROR<#>ЗЕРКАЛЬНЫЙ УЖАС
+resting increases DOOM penalty<#>отдых приближает РОК
+CTHAC-ATORASU<#>КТХАК-АТОРАСУ
+ETERNAL WEB<#>ВЕЧНАЯ ПАУТИНА
+you can't escape from combat encounters<#>побег из боёв невозможен
+COURT'S CALLING<#>ЗОВ ДВОРА
+completing a mystery triggers an additonal OLD GOD stir status<#>завершение тайн накладывает дополнительный эффект пробуждения ДРЕВНЕГО БОГА
+ALLEY<#>ПЕРЕУЛОК
+BUILDING<#>ПОСТРОЙКА
+SHOP<#>МАГАЗИН
+RESTAURANT<#>РЕСТОРАН
+STREET<#>УЛИЦА
+CLASSROOM<#>КЛАСС
+CORRIDOR<#>КОРИДОР
+SCHOOLYARD<#>ШКОЛЬНЫЙ ДВОР
+GYM<#>СПОРТЗАЛ
+LIBRARY<#>БИБЛИОТЕКА
+CORRIDOR<#>КОРИДОР
+WAITING ROOM<#>КОМНАТА ОЖИДАНИЯ
+CONSULTING ROOM<#>КОМНАТА КОНСУЛЬТАЦИЙ
+PHARMACY<#>АПТЕКА
+SICKROOM<#>БОЛЬНИЧНАЯ ПАЛАТА
+SEASIDE<#>ПОБЕРЕЖЬЕ
+BEACH<#>ПЛЯЖ
+CLIFF<#>УТЁС
+BEACH<#>ПЛЯЖ
+SEASIDE<#>ПОБЕРЕЖЬЕ
+FOREST<#>ЛЕС
+CLEARING<#>ПОЛЯНА
+STREAM<#>РУЧЕЙ
+THICKET<#>ЗАРОСЛИ
+ABANDONED HUT<#>БРОШЕННАЯ ХИЖИНА
+OVERGROWN GARDEN<#>ЗАРОСШИЙ САД
+MANSION<#>ПОМЕСТЬЕ
+MANOR<#>УСАДЬБА
+HOUSE<#>ДОМ
+ROOM<#>КОМНАТА
+VILLAGE<#>ДЕРЕВНЯ
+SHRINE<#>СВЯТЫНЯ
+INN<#>ГОСТИНИЦА
+FIELD<#>ПОЛЕ
+STREET<#>УЛИЦА
+APARTMENTS<#>АПАРТАМЕНТЫ
+CORRIDOR<#>КОРИДОР
+STAIRCASE<#>ЛЕСТНИЧНАЯ КЛЕТКА
+FIRE ESCAPE<#>ПОЖАРНЫЙ ВЫХОД
+LOBBY<#>ВЕСТИБЮЛЬ
+SITE<#>МЕСТО
+CLIMBING UP THE STAIRS...<#>ПОДНИМАЕМСЯ ПО СТУПЕНЬКАМ...
+DRIFTING...<#>ПЛЫВЁМ...
+INVESTIGATING...<#>ИССЛЕДУЕМ
+select the OLD GOD to view them, and select them again to confirm your choice<#>выберите ДРЕВНЕГО БОГА, чтобы узнать о нём, а затем нажмите продолжить, чтобы подтвердить выбор
+somewhere, a group of people gathers, trying to awaken their master...<#>где-то собирается группа людей, чтобы пробудить своего хозяина...
+You've been following the weird cult for weeks now.##Barely surviving the encounter with the skin hag at the nursery, it's a race against time and you can't rest until our town is safe...<#>Вы следовали за загадочным культом уже несколько недель.##Едва пережив встречу с ведьмой в детском саду, вы мчитесь в гонке против времени и не успокоитесь, пока наш город не будет в безопасности...
+START THE MYSTERY<#>НАЧАТЬ ТАЙНУ
+combat tutorial: ON<#>обучение бою: ВКЛ
+combat tutorial: OFF<#>обучение бою: ВЫКЛ
+THE STORY SO FAR<#>ПРОГРЕСС ИСТОРИИ
+FIRST TIME PLAYING?#[select this]<#>ИГРАЕТЕ В ПЕРВЫЙ РАЗ?#(нажмите сюда)

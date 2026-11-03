@@ -1,0 +1,129 @@
+---KTU-RUFU, THE DREAMING---<#>---КТУ-РУФУ, СПЯЩИЙ---
+The gargantuan body of KTU-RUFU lies submerged within a sunken city, where its boundless reveries sow turmoil and insanity. When the stars are right, KTU-RUFU will awaken once more, and the nightmare shall begin...<#>Гигантское тело КТУ-РУФУ лежит погребённым в затонувшем городе, а его безгранные грёзы сеют смятение и безумие. Когда звёзды сойдутся, КТУ-РУФУ снова пробудится, и кошмарам будет суждено сбыться...
+NIGHTMARES: Losing REASON raises DOOM.<#>КОШМАРЫ: потеря РАССУДКА приближает РОК.
+DREAMING OF SHIOKAWA<#>СНЫ О ШИОКАВЕ
+The gargantuan body of KTU-RUFU lies submerged within a sunken city, where its boundless reveries sow turmoil and insanity. When the stars are right, KTU-RUFU will awaken once more, and the nightmare shall begin...<#>Гигантское тело КТУ-РУФУ лежит погребённым в затонувшем городе, а его безгранные грёзы сеют смятение и безумие. Когда звёзды сойдутся, КТУ-РУФУ снова пробудится, и кошмарам будет суждено сбыться...
+[losing REASON raises DOOM]<#>(потеря РАССУДКА приближает РОК)
+KTU-RUFU<#>КТУ-РУФУ
+The prophecy was right, and there was nothing you could do to stop it. KTU-RUFU's dream of SHIOKAWA has ended.<#>Пророчество было верно, и вы никак не могли помешать его исполнению.#Сон КТУ-РУФУ о ШИОКАВЕ закончился.
+Being a part of this dream, you and everyone you know have ceased to exist...<#>Будучи частью этого сна, вы и все, кого вы знали, прекратили существование...
+Just a dream?...<#>Лишь сон?..
+JUST A DREAM?<#>ЛИШЬ СОН?
+lower DOOM by 2% at the end of the mystery<#>(в конце текущей тайны): отдаляет РОК на 2%
+<<was it all just a dream?>><#>«Это... был всего лишь сон?»
+HALLUCINATIONS<#>ГАЛЛЮЦИНАЦИИ
+-1 PERCEPTION<#>-1 ВОСПРИЯТИЯ
+<<...he's not real...>><#>«...он не реален...»
+FLASHBACKS<#>ФЛЕШБЕКИ
+-2 DEXTERITY#(discard): +4% DOOM<#>-2 ЛОВКОСТИ#(избавиться): +4% РОКА
+<<they can't find the body>><#>«Они не найдут тело.»
+TAINTED VIOLIN<#>ЗАПЯТНАННАЯ СКРИПКА
+(equip): faster combat actions<#>(экипировано): действия в бою становятся быстрее
+Its wood has soaked in a curious dark red liquid.<#>Её корпус пропитан любопытной тёмно-красной жидкостью.
+You can't get the stains out.<#>Вы не можете вывести эти пятна.
+HOLY GLYPHS<#>СВЯЩЕННЫЕ СИМВОЛЫ
+lower DOOM by 1% for every item in your inventory#[discard on use]#[COST: 2 REASON]<#>отдаляет РОК на 1% за каждый предмет в вашем инвентаре#(одноразовое использование)#(СТОИМОСТЬ: 2 РАССУДКА)
+THE NORWEGIAN<#>НОРВЕЖЕЦ
+BAD DREAMS<#>СТРАШНЫЕ СНЫ
+Staying up is becoming harder and harder for you, but the horrible nightmares you've been having lately worry you.##What if you couldn't wake up from one?<#>Бодрствовать становится всё тяжелее и тяжелее с каждым днём, а вас постоянно беспокоят кошмары.##Что, если однажды вы застрянете в одном из них?
+give in; your body needs it<#>сдайтесь, ваше тело просит об этом...
+you can't go to sleep now<#>сейчас нельзя спать
+Your nightmares are getting more realistic each time you close your eyes, but your body feels rested, and you're ready for action.#(+1 STAMINA / -3 REASON)<#>Ваши кошмары становятся всё реалистичнее каждый раз, как вы закрываете глаза. Так или иначе, ваше тело отдохнуло, и вы готовы действовать.#(+1 ВЫНОСЛИВОСТИ, -3 РАССУДКА)
+You drink another cup of coffee, praying that your body will get used to it.#(+STATUS)<#>Вы выпиваете очередную чашку кофе, молясь, что ваше тело привыкнет не спать.#(+СТАТУС)
+MASK FESTIVAL<#>МАСКАРАД
+As you glance around, you notice that more and more people are wearing strange masks, unlike anything you've ever seen before.#As you turn to your friends for reassurance, you notice that some also wear these eerie masks. Their voices sound muffled and distorted, and you can't shake off the feeling that they're not quite themselves.#The hairs on the back of your neck stand on end, and you realize something is terribly wrong.<#>Когда вы смотрите по сторонам, то замечаете, что всё больше и больше людей начинают носить странные маски, непохожие ни на что, что вы когда-либо видели раньше.#Когда вы поворачиваетесь к своим друзьям, чтобы снискать поддержку, то замечаете, что некоторые из них тоже носят эти жуткие маски. Их голоса звучат глухо и искажённо, и вы не можете избавиться от чувства, что они не в себе.#По вашей спине ползут мурашки, и вы осознаёте, что всё это совершенно неправильно.
+<<They are preparing for something...>><#>«Они к чему-то готовятся?..»
+<<This can't be healthy!>><#>«Это безумие!»
+<<Are they hiding something?>><#>«Они что-то скрывают?»
+A sense of dread creeps over you, as the masked people are swarming through the store, filling their carts with food and survival equipment.#You notice the goods' prices have already skyrocketed.##You realize that you need to act fast if you want to have any chance of survival.#(-2 FUNDS)<#>Чувство ужаса подкрадывается к вам, когда люди в масках заполняют магазины, набивая свои тележки едой и снаряжением для выживания.#Вы замечаете, что цены на вещи уже взлетели.##Вам нужно действовать быстро, если вы хотите получить хоть какой-то шанс на выживание.#(-2 СРЕДСТВ)
+What are they protecting themselves against? You take a deep breath and the air around you feels heavy as if it's thick with an invisible poison. You cough, and your eyes begin to water.##The world around you is not as safe as you once thought. .#(-2 STAMINA)<#>От чего они скрываются? Вы делаете глубокий вдох, но воздух вокруг ощущается слишком тяжёлым... будто заполненным невидимым ядом. Вы начинаете кашлять, ваши глаза наполняются слезами.##Мир вокруг вас уже не так безопасен, как раньше.#(-2 ВЫНОСЛИВОСТИ)
+You can't help but wonder what lies behind the masks that conceal the faces of the people around you.##Are these even the people they claim to be? Or are they just masquerading as something they're not, hiding their true identities behind the masks that they wear?#(-2 REASON)<#>Вы можете только задаваться вопросом - что находится за этими масками, скрывающими лица людей?##Те ли вообще это люди, которыми они раньше были? Или это лишь маскарад, где люди примеряют другие личины, скрывая собственные за масками?#(-2 РАССУДКА)
+CRUMBLING REALITY<#>РАСПАДАЮЩАЯСЯ РЕАЛЬНОСТЬ
+The line between your dreams and reality has blurred beyond recognition, and you can't tell what's real anymore.#As you struggle to hold on to your sanity, a sense of panic takes hold. The world around you starts to warp and distort, and you can feel yourself slipping further and further away from reality.##WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP WAKE UP<#>Грань между вашими снами и реальностью размылась до неузнаваемости. Вы больше не можете сказать, что реально.#По мере того, как вы изо всех сил стараетесь сохранить рассудок, вами овладевает паника. Мир вокруг вас начинает деформироваться, и вы чувствуете, что стремительно теряете связь с реальностью.##ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ ПРОСНИСЬ
+IÄ! IÄ!#KTU-RUFU FHTAGN!<#>ИÄ! ИÄ!#КТУ-РУФУ ФХТАГН!
+let the DIMENSIONAL VOYEUR devour you<#>позволить ПРОСТРАНСТВЕННОМУ ВУАЙЕРИСТУ поглотить вас
+fight against this feeling<#>бороться с этим чувством
+KTU-RUFU will rise once again and the world as you know it is about to be consumed by darkness!!#(+10 EXPERIENCE / +2% DOOM)<#>КТУ-РУФУ восстанет снова, и мир, который вы знаете, будет поглощён тьмой!#(+10 ОПЫТА, +2% РОКА)
+You try to fight it, to deny the hunger that can never be sated, but deep down, you know it's no use.##You slowly close your eyes...#(+3 EXPERIENCE)<#>Вы пытаетесь бороться, отрицать голод, который никогда не утолить, но глубоко внутри вы знаете, что это бесполезно.##Вы медленно закрываете глаза...#(+3 ОПЫТА)
+this can't be happening#this can't be happening#this can't be hap-##You open your eyes, half expecting to find yourself in the grip of a nightmare. But everything seems normal. Too normal.#(+4 REASON)<#>этого не может быть#этого не может быть#этого не может бы-##Вы открываете глаза, почти ожидая оказаться в хватке кошмара. Но всё кажется нормальным. Слишком нормальным.#(+4 РАССУДКА)
+The world around you warps and twists in a dizzying display of madness, pushing you to the brink of insanity. You try to hold on, but it's too much, and you collapse in a heap on the ground...###Suddenly, you're jolted back to reality by a police officer staring down at you with confusion and suspicion..#(-2 STAMINA)<#>Мир вокруг вас сжимается и скручивается в головокружительном безумии, толкая вас на грань безумия. Вы пытаетесь держать себя в руках, но мир давит на вас, и вы падаете на землю бесформенной кучей...###Внезапно, вас возвращает в реальность взгляд офицера полиции, уставившегося на вас в замешательстве и подозрении...#(-2 ВЫНОСЛИВОСТИ)
+BOX CUTTER (BROKEN)<#>КАНЦЕЛЯРСКИЙ НОЖ (СЛОМАН)
+Your BOX CUTTER's blade broke!<#>Лезвие вашего КАНЦЕЛЯРСКОГО НОЖА сломалось!
+MIMI'S LITTLE PROJECT<#>МАЛЕНЬКИЙ ПРОЕКТ МИМИ
+<<this will deal with these annoying floaters...>><#>«Так я избавлюсь от этих плавающих червячков...»
+[REPLACE THE LIQUID IN YOUR EYEBALL WITH A SALINE SOLUTION]#---#-1 PERCEPTION#-10% chance to all combat actions<#>ЗАМЕНИТЬ ЖИДКОСТЬ В ГЛАЗНОМ ЯБЛОКЕ НА ФИЗРАСТВОР#---#-1 ВОСПРИЯТИЯ#шанс успешно исполнить любое действие в бою снижается на 10%
+You must commit yourself to one of your projects before continuing your investigation.<#>Вы должны посвятить себя одному из своих проектов, прежде чем продолжить расследование.
+With the next project completed, you should continue your investigation.<#>Когда ваш следующий проект будет завершён, вам следует продолжить своё расследование.
+[STAB AN ICEPICK THROUGH THE NOSE TO DISABLE THE PAIN RECEPTORS IN YOUR BRAIN]<#>УДАРИТЬ ЛЕДОРУБОМ В НОС, ЧТОБЫ ОТКЛЮЧИТЬ БОЛЕВЫЕ РЕЦЕПТОРЫ В МОЗГЕ
+-2 KNOWLEDGE#-1 INCOMING DAMAGE<#>-2 ИНТЕЛЛЕКТА#-1 ВХОДЯЩЕГО УРОНА
+[REPLACE THE LIQUID IN YOUR EYEBALL WITH A SALINE SOLUTION]<#>ЗАМЕНИТЬ ЖИДКОСТЬ В ГЛАЗНОМ ЯБЛОКЕ НА ФИЗРАСТВОР
+-1 PERCEPTION#-10% chance to all combat actions<#>-1 ВОСПРИЯТИЯ#шанс успешно исполнить любое действие в бою снижается на 10%
+[FORCIBLY REWIRE YOUR VESTIBULAR SYSTEM]<#>ПРИНУДИТЕЛЬНО ПЕРЕПРОГРАММИРОВАТЬ СВОЙ ВЕСТИБУЛЯРНЫЙ АППАРАТ
+-1 LUCK#fail all event checks<#>-1 УДАЧИ#автоматически проваливать все проверки характеристик
+[IMPLANT A SECOND HUMAN HEART]<#>ИМПЛАНТИРОВАТЬ ВТОРОЕ ЧЕЛОВЕЧЕСКОЕ СЕРДЦЕ
+-1 CHARISMA#+5% DOOM<#>-1 ХАРИЗМЫ#+5% РОКА
+[BREAK YOUR ARM TO FORM A NEW JOINT]<#>СЛОМАТЬ РУКУ, ЧТОБЫ СФОРМИРОВАТЬ НОВЫЙ СУСТАВ
+-1 STRENGTH#slower combat actions<#>-1 СИЛЫ#действия в бою становятся медленнее
+[SELL YOUR KIDNEY TO FINANCE YOUR PROJECT]<#>ПРОДАТЬ ПОЧКУ ДЛЯ ФИНАНСИРОВАНИЯ СВОЕГО ПРОЕКТА
+-3 MAX STAMINA#+1 FUNDS<#>-3 МАКС. ВЫНОСЛИВОСТИ#+1 СРЕДСТВ
+[CUT OFF YOUR KNEECAP]<#>ОТРЕЗАТЬ КОЛЕННУЮ ЧАШЕЧКУ
+-2 DEXTERITY; -1 ITEM slot<#>-2 ЛОВКОСТИ, -1 слот ИНВЕНТАРЯ
+<<It's time to put my knowledge to use...>><#>«Пришло время применить мои знания на практике...»
+Before each investigation, you'll have to choose one experiment to perform.<#>Перед каждым расследованием вам придётся проводить один эксперимент.
+<<Not here.>><#>«Не здесь...»
+HIRE AN ALLY#(+5% DOOM)<#>НАНЯТЬ СОЮЗНИКА#(+5% РОКА)
+DOOMER MORIKO<#>ДУМЕР МОРИКО
+BHP<#>BHP
+[LAW]<#>(ЗАКОН)
+Your ONYX MEDALLION shakes a little.<#>Ваш ОНИКСОВЫЙ МЕДАЛЬОН немного дрожит.
+REAL NIGHTMARE<#>НАСТОЯЩИЙ КОШМАР
+encounter three DREAM enemies in one playthrough<#>столкнитесь с тремя КОШМАРНЫМИ врагами в одном забеге
+KICK-BOX CUTTER<#>КИКБОКСОВЫЙ РЕЗАК
+deal 10 damage with a single kick<#>нанесите 10 урона одним безоружным ударом
+WELCOME TO THE FAMILY<#>ДОБРО ПОЖАЛОВАТЬ В СЕМЬЮ
+let the real JURI in<#>впустите настоящего ЮРИ
+STEEL BOX<#>СТАЛЬНАЯ ПАЛКА
+break the blade<#>сломайте клинок
+CAN YOU TRUST THEM?<#>МОЖНО ЛИ ИМ ДОВЕРЯТЬ?
+hire two allies in one playthrough and win<#>получите двух союзников в одном забеге и победите
+(H)EXPERIMENTAL THERAPY<#>ЭКСПЕРИМЕНТАЛЬНОЕ (КА)ЛЕЧЕНИЕ
+complete the [MIMI'S LITTLE PROJECT] challenge<#>завершите испытание МАЛЕНЬКИЙ ПРОЕКТ МИМИ
+CATCH ME IF YOU CAN<#>ПОЙМАЙ, ЕСЛИ СМОЖЕШЬ
+handcuff the ultimate opportunist<#>наденьте наручники на абсолютного оппортуниста
+RAIN OF SPIDERS<#>ДОЖДЬ ИЗ ПАУКОВ
+as YASHIRO, complete a TRUE BELIEVER playthrough with CTHAC-ATORASU as the OLD GOD<#>за ЯСИРО, завершите забег на сложности ИСТИННЫЙ ВЕРУЮЩИЙ с КТХАК-АТОРАСУ в качестве ДРЕВНЕГО БОГА
+EXIT TO MENU<#>ВЫЙТИ В МЕНЮ
+EXIT (confirm)<#>ВЫЙТИ (подтвердить)
+EXTRA MATH DISPLAYED: ON/OFF<#>ОТОБРАЖЕНИЕ ДОП. МАТЕМАТИКИ: ВКЛ/ВЫКЛ
+EXTRA INFORMATION DISPLAYED: ON/OFF<#>ОТОБРАЖЕНИЕ ДОП. ИНФОРМАЦИИ: ВКЛ/ВЫКЛ
+when investigating<#>при расследовании
+combat damage dealt<#>урона нанесено в бою
+combat damage received<#>урона получено в бою
+[STRENGTHEN YOUR RESOLVE]: +3 FAITH<#>(УКРЕПИТЬ СВОЮ РЕШИМОСТЬ): +3 ВЕРЫ
+[START DOUBTING]:-3 FAITH<#>(НАЧАТЬ СОМНЕВАТЬСЯ): -3 ВЕРЫ
+YOU DON'T BELONG HERE (modded characters can't save progress)<#>ВАМ ТУТ НЕ МЕСТО (персонажи из модов не могут сохраняться)
+You've encountered<#>Вы столкнулись с:
+You are investigating<#>Вы расследуете:
+You've discovered<#>Вы изучили:
+You've run into<#>Вы повстречали:
+You continue your investigation...<#>Вы продолжаете расследование...
+FUNNY MASK<#>ЗАБАВНАЯ МАСКА
+(equip): +1 STAMINA or REASON at the beginning of a combat encounter<#>(экипировано): восстанавливает 1 ВЫНОСЛИВОСТИ или РАССУДКА в начале боя
+<<This mask is anything but funny...>><#>«Эта маска - какая угодно, но только не забавная...»
+<<I don't like it.>><#>«Она мне не нравится.»
+ACTIVE RITUALS<#>АКТИВНЫЕ РИТУАЛЫ
+STA<#>ВНС
+REA<#>РАС
+enter the hospital<#>войти в больницу
+shop for items<#>купить вещи
+rest<#>отдохнуть
+each combat encounter<#>каждый бой
+MYSTERY MONOGRAPH<#>ТАИНСТВЕННАЯ МОНОГРАФИЯ
+ENDINGS ENCYCLOPEDIA allows you to revisit all unlocked ending screens.<#>ЭНЦИКЛОПЕДИЯ КОНЦОВОК позволяет просмотреть все разблокированные концовки.
+MYSTERY MONOGRAPH compiles all mystery endings you've seen.<#>ТАИНСТВЕННАЯ МОНОГРАФИЯ собирает все увиденные концовки.
+ACCESS ROOFTOP<#>ДОСТУП НА КРЫШУ
+<<I've overheard my parents talking about a horrible accident. They said that the girl's father went mad from grief...>><#>«Я случайно услышала, как мои родители говорили об ужасном несчастном случае. Они сказали, что отец девушки сошёл с ума от горя...»
+<<What's that?>><#>«Что это?..»
+The girl whispers<#>Девушка шепчет...
+[GRAFT BEAR CLAWS TO YOUR TOES]<#>ПЕРЕСАДИТЬ МЕДВЕЖЬИ КОГТИ НА ПАЛЬЦЫ НОГ
+new random INJURY each mystery#+2 KICK damage<#>новая случайная ТРАВМА каждую новую тайну#+2 урона УДАРОМ БЕЗ ОРУЖИЯ

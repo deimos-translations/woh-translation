@@ -1,0 +1,269 @@
+You've retrieved an item from storage!<#>Вы забрали предмет из хранилища!
+Not enough room for an item!<#>Недостаточно места для предмета!
+STORAGE<#>ХРАНИЛИЩЕ
+STORED ITEMS<#>ХРАНИМЫЕ ПРЕДМЕТЫ
+Not enough room! Item added to the storage!<#>Недостаточно места! Предмет добавлен в хранилище!
+To gain a new level, press the flashing button.<#>Чтобы получить новый уровень, нажмите на мигающую кнопку.
+You don't have enough experience!<#>У вас недостаточно опыта!
+TALK WITH STUDENT<#>ПОГОВОРИТЬ С УЧЕНИЦЕЙ
+SET UP A TELESCOPE<#>УСТАНОВИТЬ ТЕЛЕСКОП
+RETURN<#>ВЕРНУТЬСЯ
+You don't have a telescope.<#>У вас нет телескопа.
+Student is mumbling something to herself.<#>Ученица что-то бормочет себе под нос.
+You should probably leave her alone.<#>Возможно стоит оставить её в покое.
+Cold water helps you to organize your thoughts. (+1 REASON)<#>Холодная вода помогает вам собраться с мыслями. (+1 РАССУДКА)
+Hot water helps with your sore muscles. (+1 STAMINA)<#>Горячая вода расслабляет ваши больные мышцы. (+1 ВЫНОСЛИВОСТИ)
+Nailing a straw doll to this tree will grant you your wish...##for a price, that is.<#>Прибивание соломенной куклы к этому дереву исполнит ваше желание...##за определённую плату.
+##[you can nail two more straw dolls here]<#>##(вы можете прибить ещё две соломенные куклы)
+##[you can nail one more straw doll here]<#>##(вы можете прибить ещё одну соломенную куклу)
+You shouldn't have come here again.#(+1% DOOM)<#>Вам не стоило приходить сюда снова.#(+1% РОКА)
+WITCH'S TREE<#>ВЕДЬМИНО ДЕРЕВО
+According to legends, this tree's roots reach towards the grave of a lynched witch...<#>Судя по легендам, корни этого дерева достают до могилы линчёванной ведьмы...
+You notice a wallet hidden underneath a fallen branch. (+2 FUNDS)<#>Вы замечаете кошелёк под упавшей веткой. (+2 СРЕДСТВ)
+The buried witch takes her toll...<#>Погребённая ведьма берёт своё...
+You head fills with forbidden chants!<#>Ваша голова наполняется запретными песнопениями!
+You suddenly feel much better! (+2 STAMINA)<#>Вам внезапно становится намного лучше! (+2 ВЫНОСЛИВОСТИ)
+wish for strength#[+2 STAMINA]<#>пожелать силы#(+2 ВЫНОСЛИВОСТИ)
+wish for knowledge#[+SPELL]<#>пожелать знаний#(+ЗАКЛИНАНИЕ)
+wish for money#[+2 FUNDS]<#>пожелать денег#(+2 СРЕДСТВ)
+it's a bad idea#[leave]<#>это плохая идея#(уйти)
+You are stopped by a young policewoman.##<<How can we help you?>><#>Вас встречает молодая женщина-полицейский.##«Чем мы можем вам помочь?»
+POLICE STATION<#>ПОЛИЦЕЙСКИЙ УЧАСТОК
+Officers at the police station are busy working on various weird cases...<#>Офицеры в полицейском участке заняты работой над загадочными делами...
+request more police patrols<#>попросить увеличить количество патрулей
+complain about police patrols<#>пожаловаться на работу патрулей
+share some information#(11 EXP -> 1 FND)<#>поделиться информацией#(11 ОПЫТА -> 1 СРД)
+exit the station<#>покинуть участок
+Officer thanks you and promises more police patrols.#[Threat Level decreased]<#>Офицер благодарит вас и обещает послать больше патрулей.#(УРОВЕНЬ УГРОЗЫ ПОНИЖЕН)
+The officer apologizes and says they don't have any patrol units left.<#>Офицер извиняется и говорит, что у них больше не осталось свободных рук.
+The detective thanks you for the information and hands you a reward.#[-11 EXP / +1 FUNDS]<#>Детектив благодарит вас за информацию и передаёт награду.#(-11 ОПЫТА, +1 СРД)
+The detective thanks you for the information but says that's not enough for a prize.<#>Детектив благодарит вас за информацию, но говорит, что этого недостаточно.
+You've finally made it inside the cursed lighthouse!##Your gut is telling you two things: that whoever (or whatever) is behind the weird events, must be on the highest floor of this place and that you should run away from this place as far and fast as you can. You're afraid there won't be a way back once you start climbing these stairs...<#>Наконец-то вы попали в маяк!##Ваше нутро говорит вам две вещи: что некто (или нечто), скрывающийся за всеми этими загадочными событиями, должен быть на последнем этаже этого места, и что вы должны бежать отсюда как можно быстрее. Вам страшно, что когда вы начнёте подъём, пути назад уже не будет...
+access storage<#>открыть хранилище
+rest a bit (+2% DOOM)<#>немного отдохнуть (+2% РОКА)
+start climbing<#>начать подъём
+You've rested a bit. (+1 REASON and STAMINA)<#>Вы немного отдохнули. (+1 РАССУДКА и ВЫНОСЛИВОСТИ)
+LIGHTHOUSE (GROUND FLOOR)<#>МАЯК (ПЕРВЫЙ ЭТАЖ)
+As the unnatural fog slowly lifts you are relieved and collapse on the floor...<#>По мере того, как неестественный туман медленно поднимается, вы чувствуете слабость и падаете на пол...
+The dark clouds swirl around the lighthouse.#Did you arrive too late?<#>Тёмные облака кружат над маяком.#Неужели вы прибыли слишком поздно?
+THE MONUMENT<#>МОНУМЕНТ
+Forgotten by everyone, the OUTER ENTITY waits patiently for those, who need it...<#>Забытая всеми, ИНОЗЕМНАЯ СУЩНОСТЬ терпеливо ждёт тех, кто в ней нуждается...
+leave without a sacrifice #[angers the OUTER ENTITY]<#>уйти без пожертвований#(злит ИНОЗЕМНУЮ СУЩНОСТЬ)
+You cut your hand and fill the bowl with your blood...<#>Вы режете себе руку и заполняете чашу кровью...
+You can feel your most cherised memories leave you...<#>Вы чувствуете, как драгоценные воспоминания покидают вас...
+You burn the money in the bowl...<#>Вы сжигаете деньги в чаше...
+You've angered the OUTER ENTITY...<#>Вы разозлили ИНОЗЕМНУЮ СУЩНОСТЬ...
+Bargaining with an OUTER ENTITY is a risky thing but maybe it can postpone the approaching doom?<#>Сделка с ИНОЗЕМНОЙ СУЩНОСТЬЮ - риск, но, возможно, она оттянет приближающийся рок...
+feed the OUTER ENTITY with your blood<#>отдать ИНОЗЕМНОЙ СУЩНОСТИ свою кровь
+give the OUTER ENTITY your most cherished memories<#>отдать ИНОЗЕМНОЙ СУЩНОСТИ драгоценные воспоминания
+leave a material gift<#>оставить материальный дар
+You still have some time before you are asked to the office.<#>У вас ещё есть время, прежде чем вас пригласят в кабинет.
+RECEPTION AREA<#>ПРИЁМНАЯ
+You wait patiently in the reception area.<#>Вы терпеливо ожидаете в приёмной.
+Many sick people are waiting to be examined by the overworked hospital staff.<#>Многие больные ждут приёма у перегруженного работой персонала.
+enter DOCTOR'S OFFICE (+2% DOOM)<#>войти в КАБИНЕТ ДОКТОРА (+2% РОКА)
+move to CORRIDOR A<#>пойти в КОРИДОР А
+enter PHARMACY#(+3% DOOM)<#>войти в АПТЕКУ#(+3% РОКА)
+A nurse walks past you in a hurry.<#>Мимо вас в спешке проходит медсестра.
+DOCTOR'S OFFICE<#>КАБИНЕТ ДОКТОРА
+The emergency department is crowded as a direct result of the weird things happening in your town.<#>Отделение неотложной помощи заполнено вследствие прямого воздействия загадочных происшествий на ваш город.
+You finally are asked to the doctor's office.##<<Now... how can I help you today?>><#>Вас наконец позвали в кабинет доктора.##«Так... чем я могу вам помочь?»
+EXIT<#>УЙТИ
+[ADDITIONAL ACTIONS AVAILABLE ON THE INJURY CARDS]<#>(ДОПОЛНИТЕЛЬНЫЕ ДЕЙСТВИЯ ДОСТУПНЫ В МЕНЮ ТРАВМ)
+You use the opportunity and steal a bottle of pills.<#>Вы воспользовались возможностью и украли банку таблеток.
+You shouldn't risk stealing another bottle.<#>Вам не стоит рисковать кражей второй банки.
+You feel like the skull is observing your every move.<#>Вы чувствуете, будто череп следит за каждым вашим движением.
+CORRIDOR A<#>КОРИДОР А
+You venture further down the corridor...<#>Вы забредаете дальше по коридору...
+return to the RECEPTION AREA<#>вернуться в ПРИЁМНУЮ
+take the ELEVATOR<#>воспользоваться ЛИФТОМ
+enter MORGUE<#>войти в МОРГ
+What are you doing here?<#>Что вы здесь делаете?
+The morgue's door is closed.<#>Двери морга закрыты.
+CORRIDOR B<#>КОРИДОР Б
+Upper floor is eerily silent in comparison...<#>Верхний этаж жутко тихий, по сравнению с нижним...
+check out PATIENT ROOM<#>проверить ПАЛАТУ
+You shouldn't bother the recovering patients.<#>Вам не стоит беспокоить отдыхающих пациентов.
+RESTING AT HOME<#>ОТДЫХ ДОМА
+It certainly feels good to be back at home.<#>Определённо приятно снова быть дома.
+STAMINA/REASON<#>ВЫНОСЛИВОСТЬ/РАССУДОК
+Time flies by so fast, you prepare yourself to leave and continue your long investigation.<#>Время летит быстро. Вы готовитесь уйти и продолжить своё долгое расследование.
+DOOM<#>РОКА
+STAMINA/REASON<#>ВЫНОСЛИВОСТЬ/РАССУДОК
+Wait... what's that?#[SOMETHING EVIL KNOWS WHERE YOU LIVE]<#>Стоп... Что это?#(ИСТИННОЕ ЗЛО ЗНАЕТ, ГДЕ ВЫ ЖИВЁТЕ)
+You take a short nap on your bed.<#>Вы решаете быстро вздремнуть у себя на кровати.
+You bandage up the fresh wounds.<#>Вы перевязываете свежие раны.
+You take a long hot shower.<#>Вы принимаете долгий горячий душ.
+You swallow the painkillers.<#>Вы проглатываете болеутоляющее.
+You phone your best friend and talk about unrelated stuff.<#>Вы звоните своему лучшему другу, болтая про далёкие от дела вещи.
+You sit on a couch and read your favorite book.<#>Вы садитесь на диван и читаете любимую книгу.
+APARTMENT CORRIDOR<#>КОРИДОР АПАРТАМЕНТОВ
+You knock on your friend's door and wait...<#>Вы стучитесь в дверь подруги и ждёте...
+<<Hey dork, I'm with you. Why are we going back to my place?>><#>«Эй, дурында, я с тобой. Зачем нам обратно ко мне?»
+<<Heyyy... I'm really busy today. Let's hang out some other time, okay?>><#>«Эээй... Я очень занята сегодня. Позависаем как-нибудь в другое время, лады?»
+Huh, KANA's not home.#You should check later...<#>Хм, КАНА не дома.#Вам стоит зайти позже...
+Shopping for items takes precious time. (+4% DOOM)<#>Шоппинг отнимает ваше драгоценное время. (+4% РОКА)
+Huh... where is that dog?<#>Хм... Где та собака?
+SHOPPING FOR ITEMS<#>КУПИТЬ ВЕЩИ
+EXIT WITHOUT BUYING ANYTHING<#>УЙТИ БЕЗ ПОКУПОК
+needs YAKUZA CARD<#>нужна КАРТА ЯКУДЗЫ
+AVAILABLE ITEMS<#>ДОСТУПНЫЕ ВЕЩИ
+PRICE<#>ЦЕНА
+FUNDS<#>СРЕДСТВ
+A random discounted item.<#>Случайный предмет со скидкой.
+RESTOCK<#>ОБНОВИТЬ ПРЕДМЕТЫ
+reroll items (+3% DOOM)<#>поменять товары (+3% РОКА)
+You've bought a new item.<#>Вы купили новый предмет.
+You don't have enough money.<#>У вас недостаточно денег.
+Woof!-<#>Гав!
+-DISCOUNT ITEM-<#>-ПРЕДМЕТ СО СКИДКОЙ-
+On your way out, you stop by the vending machines. (+2% DOOM)<#>На своём пути вы останавливаетесь у торговых автоматов. (+2% РОКА)
+SHOP FOR ITEMS<#>КУПИТЬ ВЕЩИ
+[costs DOOM to enter]#[funds -> items]<#>(вход приблизит РОК)#(средства -> вещи)
+[costs DOOM to enter]#[regain STAMINA and REASON]<#>(вход приблизит РОК)#(восстановить ВНС и РАС)
+REST<#>ОТДОХНУТЬ
+VENDING MACHINE<#>ТОРГОВЫЙ АВТОМАТ
+Entering the ILLEGAL DEN, you instantly recognize the girl who attacked you and dropped the prescription.#You throw the expensive medicine on the table before getting closer.##<<I-is that the drug for my grandma?...>> Her eyes light up.#<<I thought it was gone forever... but why would you help me at all?>><#>Входя в ПРИТОН, вы мгновенно узнаёте врезавшуюся в вас девушку, которая уронила рецепт.#Вы кидаете дорогой препарат на стол и подходите ближе.##«Э-это лекарство для моей бабушки?..» - её глаза загораются.#«Я думала, что навсегда потеряла его, но... зачем ты вообще мне помогаешь?»
+explain what's currently happening<#>объяснить, что происходит
+<<If what you're saying is true, I'll help you!>><#>«Если это правда, то я помогу тебе!»
+<<...name's MIKU, by the way.>><#>«...меня зовут МИКУ, кстати.»
+LEAVE<#>УЙТИ
+WAIT (+2% DOOM)<#>ПОДОЖДАТЬ (+2% РОКА)
+LATEST GOSSIP<#>ПОСЛЕДНИЕ СПЛЕТНИ
+ASK TO JOIN YOU<#>ПОПРОСИТЬ ПРИСОЕДИНИТЬСЯ К ВАМ
+OBSERVE<#>ПОНАБЛЮДАТЬ
+SHARE A CREEPY STORY [-5 EXP]<#>ПОДЕЛИТЬСЯ ЖУТКОЙ ИСТОРИЕЙ (-5 ОПЫТА)
+FORCE TO HELP YOU<#>ПРИНУДИТЬ ПОМОГАТЬ ВАМ
+GOSSIP - Learn both random and case-related news.#ASK - Recruitment test based on CHARISMA (repeatable).#FORCE - Recruitment test based on equipment, STRENGTH and current DOOM<#>СПЛЕТНИ - Узнайте о случайных или относящихся к делу новостях.#ПОПРОСИТЬ - Проверка на вступление, зависящая от ХАРИЗМЫ (повторяемая).#ПРИНУДИТЬ - Проверка на вступление, зависящая от снаряжения, СИЛЫ, и текущего уровня РОКА
+<<Sorry, I don't have time for games.>><#>«Прости, у меня нет времени на игры.»
+<<Give me a break!>><#>«Ой, да брось!»
+<<You were always sucha a kidder!>><#>«Ну у тебя и шутки!»
+<<I will help you!>><#>«Я помогу тебе!»
+<<It sounds strange... but I believe you!>><#>«Звучит странно... но я тебе верю!»
+<<Did you hear? There's a cliff nearby with strangely shaped holes...>><#>«Знаешь, здесь недалеко есть скала, вся в каких-то странных дырах...»
+<<Have you heard about this computer program that...>><#>«Знаешь, говорят о компьютерной программе, которая...»
+<<She hasn't come to school since last week...>><#>«Она не появлялась в школе с прошлой недели...»
+<<How did you do on your English exam?>><#>«Что тебе поставили на экзамене по английскому?»
+<<If OOO didn't make those drawings, then who did?>><#>«Если не ООО сделал эти рисунки, то кто?»
+<<It's been so hard to get any sleep lately.>><#>«В последнее время тяжело хоть как-то заснуть.»
+<<I keep hearing a wailing sound coming from the 3rd stall in the girls' bathroom.>><#>«Я всё время слышу какие-то вопли из третьей кабинки в женском туалете.»
+<<...he hasn't been the same since he came back.>><#>«...он был сам не свой, с тех пор как вернулся.»
+<<Recently, the tap water in my entire neighborhood started tasting weird. Almost like...>><#>«Недавно вода из-под крана во всём моём районе стала странной на вкус. Почти как...»
+<<...yesterday, she told me she saw it again.>><#>«...вчера она мне сказала, что увидела это снова.»
+notices you and smiles.<#>замечает вас и улыбается.
+waves at you.<#>машет вам.
+<<Have you heard about this computer program that...>><#>«Знаешь, говорят о компьютерной программе, которая...»
+<<She hasn't come to school since last week...>><#>«Она не появлялась в школе с прошлой недели...»
+<<How did you do on your English exam?>><#>«Что тебе поставили на экзамене по английскому?»
+<<If OOO didn't make those drawings, then who did?>><#>«Если не ООО сделал эти рисунки, то кто?»
+<<It's been so hard to get any sleep lately.>><#>«В последнее время тяжело хоть как-то заснуть.»
+is taking their pen apart and putting it back together over and over.<#>разбирает свою ручку на части, а затем собирает, снова и снова.
+is waiting for the class to begin.<#>ждёт, когда начнутся уроки.
+is staring at the clouds. They look like heads.<#>наблюдает за облаками. Они похожи на головы.
+is reading a horror manga about spirals.<#>читает хоррор-мангу про спирали.
+They seem relaxed.<#>Выглядит расслабленно.
+They look fine.<#>Выглядит неплохо.
+They look nervous.<#>Выглядит нервно.
+There is something _off_about them.<#>Что-то _не так_ с этим человеком.
+They are trembling with fear.<#>Этот человек дрожит от страха.
+You don't know any good stories to share.<#>Вы не знаете никаких хороших историй, которыми можно поделиться.
+seems visibly shaken by your story.#<<I-it's just a story, right?...>><#>заметно потрясла ваша история.#«Э-это же просто история, верно?..»
+combined INTIMIDATION value<#>совокупное значение ЗАПУГИВАНИЯ
+Student, threatened by your weapon, agrees to help you.#Don't expect them to stay loyal though.<#>Ученик, под угрозой вашего оружия, соглашается вам помочь.#Так или иначе, не надейтесь на прочный союз.
+Student shoves you away and escapes, screaming for help.#(+5% DOOM)<#>Ученик отпихивает вас и убегает, зовя на помощь.#(+5% РОКА)
+The burned down school building is empty.<#>Сгоревшее здание школы стоит пустое.
+Many of the books you can find here were donated after the accident at the university building.<#>Многие находящиеся здесь книги были пожертвованы после происшествия в университете.
+LIBRARY<#>БИБЛИОТЕКА
+You feel the gaze of a librarian...<#>Вы ощущаете на себе взгляд библиотекаря...
+study old tomes#[+SPELL; +3% DOOM]<#>изучить древние книги#(+ЗАКЛИНАНИЕ, +3% РОКА)
+make notes#[+5 EXP; +2% DOOM]<#>сделать заметки#(+5 ОПЫТА, +2% РОКА)
+You carry out a few books to the main reading room...<#>Вы выносите несколько книг в основной зал библиотеки...
+You decide to make some notes about subjects that could be relevant in this case.##Hopefully all your work won't go to waste.#[+5 EXPERIENCE]<#>Вы решаете сделать несколько заметок по темам, которые могут относиться к этому делу.##Вы надеетесь, что ваша работа не пойдёт насмарку.#(+5 ОПЫТА)
+You carry out a dusty tome to the main reading room...<#>Вы выносите пыльную книгу в основной зал библиотеки...
+return the book and go back<#>вернуть книгу и пойти обратно
+return the books and exit the library<#>вернуть книги и покинуть библиотеку
+Interpreting the old, incomplete translations is a tedious task.##Finally, you find the fragment you were looking for.#[+NEW SPELL]<#>Толковать старые, незавершённые переводы - утомительная задача.##Наконец вы находите часть, которую искали.#(+ЗАКЛИНАНИЕ)
+[NEW ACHIEVEMENT UNLOCKED!]<#>НОВОЕ ДОСТИЖЕНИЕ РАЗБЛОКИРОВАНО!
+The nurse treats<#>Лечение у медсестры
+<<Sorrrry dearr, a patient is herre. I'll call you back...>>#says the nurse as she's eyeing you up.##<<How can I help you today?>>##[ALL YOUR MINOR INJURIES ARE TREATED]<#>«Прррости, доррогой, у меня пациент. Я перезвоню...»#говорит медсестра, поднимая на вас глаза.##«Чем я могу вам помочь?»##(ВСЕ ЛЁГКИЕ ТРАВМЫ ВЫЛЕЧЕНЫ)
+SCHOOL NURSE<#>ШКОЛЬНАЯ МЕДСЕСТРА
+Younger students are afraid of her... why?<#>Младшие школьники боятся её... почему?
+The air here is noticeably colder... (+1% DOOM)<#>Воздух здесь заметно холоднее... (+1% РОКА)
+<<The history of this region is just... fascinating. Why don't you discover it for yourself?>><#>«История этого региона, она просто... захватывающая. Почему бы тебе не погрузиться в неё самостоятельно?»
+HISTORY CLUB<#>КЛУБ ИСТОРИИ
+Why would this popular student join this weird club?<#>Зачем популярные ученики вступают в этот странный клуб?
+YOU ARE ALREADY THERE<#>ВЫ УЖЕ ЗДЕСЬ
+TRAVEL TO HOME<#>ПОЙТИ ДОМОЙ
+TRAVEL TO DOWNTOWN<#>ПОЙТИ В ДЕЛОВОЙ РАЙОН
+TRAVEL TO SCHOOL<#>ПОЙТИ В ШКОЛУ
+TRAVEL TO HOSPITAL<#>ПОЙТИ В БОЛЬНИЦУ
+TRAVEL TO SEASIDE<#>ПОЙТИ НА ПОБЕРЕЖЬЕ
+TRAVEL TO FOREST<#>ПОЙТИ В ЛЕС
+TRAVEL TO MANSION<#>ПОЙТИ В ПОМЕСТЬЕ
+TRAVEL TO VILLAGE<#>ПОЙТИ В ДЕРЕВНЮ
+TRAVEL TO APARTMENTS<#>ПОЙТИ В АПАРТАМЕНТЫ
+TRAVEL TO<#>ПОЙТИ:
+THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ - 
+DOWNTOWN'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ДЕЛОВОГО РАЙОНА
+SCHOOL'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ШКОЛЫ
+HOSPITAL'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ БОЛЬНИЦЫ
+SEASIDE'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ПОБЕРЕЖЬЯ
+FOREST'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ЛЕСА
+MANSION'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ПОМЕСТЬЯ
+VILLAGE'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ДЕРЕВНИ
+OOO'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ ООО
+APARTMENTS' THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ АПАРТАМЕНТОВ
+'S THREAT LEVEL<#>УРОВЕНЬ УГРОЗЫ
+YOU CAN'T INVESTIGATE#YOUR HOME<#>ВЫ НЕ МОЖЕТЕ ИССЛЕДОВАТЬ#СОБСТВЕННЫЙ ДОМ
+INVESTIGATE<#>ИССЛЕДОВАТЬ:
+This city is changing so fast you can barely recognize it anymore...<#>Этот город меняется так быстро, что теперь вы его едва узнаёте...
+[CHOOSE UP TO TWO DIFFERENT ADDITIONAL ACTIONS PER LOCATION FOR THIS PLAYTHROUGH.]<#>ВЫБЕРИТЕ ДО ДВУХ РАЗНЫХ ДОПОЛНИТЕЛЬНЫХ ДЕЙСТВИЙ НА ЛОКАЦИЮ В ЭТОМ ЗАБЕГЕ.
+[CHOOSE ONE ADDITIONAL ACTION PER LOCATION THAT FITS YOUR TASTE.]<#>ВЫБЕРИТЕ ОДНО ДОПОЛНИТЕЛЬНОЕ ДЕЙСТВИЕ НА ЛОКАЦИЮ, НА ВАШ ВКУС.
+randomize and continue<#>выбрать случайно и продолжить
+SAVE<#>СОХРАНЕНИЕ
+LOAD<#>ЗАГРУЗКА
+confirm and CONTINUE<#>подтвердить и ПРОДОЛЖИТЬ
+HOME<#>ДОМ
+DOWNTOWN<#>ДЕЛОВОЙ РАЙОН
+SCHOOL<#>ШКОЛА
+HOSPITAL<#>БОЛЬНИЦА
+SEASIDE<#>ПОБЕРЕЖЬЕ
+FOREST<#>ЛЕС
+MANSION<#>ПОМЕСТЬЕ
+VILLAGE<#>ДЕРЕВНЯ
+APARTMENT<#>АПАРТАМЕНТЫ
+Regain some STAMINA and REASON by increasing the incoming DOOM.<#>Восстановить немного ВЫНОСЛИВОСТИ и РАССУДКА ценой приближения РОКА.
+OCCULT SHOP<#>ОККУЛЬТНАЯ ЛАВКА
+A wide assortment of useful things with the cutest seller.<#>Широкий ассортимент полезных вещей, вместе с милейшим продавцом.
+A consistent pool of basic items, snacks and drinks.<#>Широкий выбор из обыденных товаров, закусок и напитков.
+Boutique focusing on cursed artifacts and occult stuff.<#>Лавка делает упор на проклятые артефакты и оккультные вещи.
+Manage combat encounters and share your knowledge with the officers.<#>Контролируйте количество столкновений и делитесь информацией со следователями.
+SCHOOLYARD<#>ШКОЛЬНЫЙ ДВОР
+Contains dusty tomes donated by Tokyo University. Study them to learn SPELLS or earn EXP.<#>Хранит пыльные тома, пожертвованные токийским университетом. Изучайте их, чтобы получить ЗАКЛИНАНИЯ или ОПЫТ.
+Convince or force the students gathered here to join you as ALLIES.<#>Убедить или принудить собравшихся учеников стать вашими СОЮЗНИКАМИ.
+Nurse with a morbid reputation. She will treat your MINOR INJURIES for free.<#>Медсестра с мрачной репутацией. Она бесплатно вылечит ваши ЛЁГКИЕ ТРАВМЫ.
+Learn about the town's history and buy occult items, spells and upgrades.<#>Изучить историю города и купить оккультные предметы, заклинания или улучшения.
+PHARMACY<#>АПТЕКА
+ENTER<#>ВХОД
+A building too big for the town's needs. Skip the line and heal your injuries.<#>Здание слишком большое для нужд города. Вылечите травмы вне очереди.
+Here you can buy a wide variety of first aid products and pharmaceutical drugs.<#>Здесь вы можете купить различные средства первой помощи и прочие препараты.
+HARDWARE SHOP<#>МАГАЗИН ИНСТРУМЕНТОВ
+MONUMENT<#>МОНУМЕНТ
+ILLEGAL DEN<#>ПРИТОН
+FUJII-SAN's shop stocks tools for all your DIY and technical needs.<#>Магазин ФУДЗИИ-САНА продаёт инструменты для всех технических и бытовых нужд.
+Forgotten by everyone, the OUTER ENTITY will help you against OLD GODS... for a price.<#>Позабытая всеми, ИНОЗЕМНАЯ СУЩНОСТЬ поможет в борьбе с ДРЕВНИМИ БОГАМИ... за определённую плату.
+Billiard club owned by gangsters is the only place to buy illegal goods.<#>Бильярдный клуб, крышуемый гангстерами - единственное место, где можно купить нелегальный товар.
+This ancient tree, where a lynched witch was buried, can grant you your wishes... for a price.<#>Древнее дерево, под которым захоронена линчёванная ведьма, может исполнить ваши желания... за определённую плату.
+NEIGHBOR<#>СОСЕДКА
+Your friendly neighbour. Enables a mystery and a chance for an ally.<#>Ваша дружелюбная соседка. Может стать союзником в разгадке тайны.
+[manage threat level]#[EXP -> FUNDS]<#>управление УРОВНЕМ УГРОЗЫ#(ОПЫТ -> СРЕДСТВА)
+[study the current mystery]#[DOOM -> spells]<#>изучить текущую тайну#(РОК -> заклинания)
+[costs DOOM to enter]#[recruit allies / learn gossip]<#>вход приблизит РОК (получение#союзников, сплетни)
+[costs DOOM to enter]#[treat MINOR INJURIES]<#>вход приблизит РОК#(лечение ЛЁГКИХ ТРАВМ)
+[costs DOOM to enter]#[DOOM-> rewards]<#>вход приблизит РОК#(РОК -> награды)
+[costs DOOM to enter]#[heal injuries]<#>вход приблизит РОК#(лечение травм)
+[lower DOOM for a price]<#>отдалить РОК за определенную плату
+[unavailable]#[needs higher DOOM]<#>недоступно#(РОК должен быть ближе)
+[wish-granting tree]#[CURSE -> various bonuses]<#>исполняющее желания дерево#(ПРОКЛЯТИЯ -> различные бонусы)
+[chance for an ALLY]<#>(шанс получить СОЮЗНИКА)
+CITY PLANNING#[option]<#>ПЛАНИРОВКА ГОРОДА#(вариант)

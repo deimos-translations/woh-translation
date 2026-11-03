@@ -1,0 +1,179 @@
+challenge<#>испытание
+difficulty<#>сложность
+character<#>персонаж
+backstory<#>предыстория
+OLD GOD<#>ДРЕВНИЙ БОГ
+random<#>случайно
+[GOING COLD TURKEY]<#>ВСЁ, ЗАВЯЗЫВАЮ
+<< I think I've chosen the worst time to quit... >><#>«Думаю, я выбрал худшее время, чтобы бросить...»
+Automatically discard all acquired CIGARETTES. Start with a BOTTLE [WATER] instead.<#>Автоматически выбрасывать все имеющиеся СИГАРЕТЫ. Начать с БУТЫЛКОЙ ВОДЫ.
+[BUT DAD!!]<#>НУ ПАП!
+<< You're grounded for a week, young lady. Why don't you read some books for a change? >><#>«Вы наказаны на неделю, молодая леди. Почему бы вам для разнообразия не почитать несколько книг?»
+Automatically discard all [FIREARM] weapons. Start with an INSPIRING NOVEL instead.<#>Автоматически выбрасывать всё ОГНЕСТРЕЛЬНОЕ оружие. Начать с ВДОХНОВЛЯЮЩЕЙ НОВЕЛЛОЙ.
+SPECIAL RULE<#>СПЕЦИАЛЬНОЕ ПРАВИЛО
+[PAROLE VIOLATION]<#>НАРУШЕНИЕ УДО
+<< You can't get caught again. You won't be able to save the world from behind bars. >><#>«Нельзя, чтобы тебя снова поймали. Не получится спасти мир, сидя за решёткой.»
+Disables the effect of MAYHEM. Start with lower DOOM instead.<#>Выключает эффект ХАОСА. Вы начинаете с меньшим уровнем РОКА.
+[GHASTLY PRESENCE]<#>ПРИЗРАЧНОЕ ПРИСУТСТВИЕ
+<< Don't you see the person following me?... >><#>«Разве ты не видишь человека, преследующего меня?..»
+Start with MIND DRAIN, a random spell and a new personal status, GHASTLY PRESENCE, that will disable all offensive combat actions.<#>Вы начинаете с ИСТОЩЕНИЕМ РАЗУМА, случайным заклинанием и новым статусом ПРИЗРАЧНОЕ ПРИСУТСТВИЕ, который отключает все стандартные действия атаки в бою.
+[GHOST TOWN]<#>ГОРОД-ПРИЗРАК
+<< Only after your photo shoot was canceled did you discover that every business in SHIOKAWA is closed. Did everyone move out or...? >><#>«Только после того, как вашу фотосессию отменили, вы обнаружили, что все предприятия в ШИОКАВЕ закрылись. Все уехали или что?..»
+All additional actions but REST are disabled for the duration of the playthrough.<#>Все дополнительные действия, кроме ОТДЫХА, отключены на протяжении прохождения.
+do not translate<#>do not translate
+do not translate<#>do not translate
+do not translate<#>do not translate
+That encounter was the final straw. Your mind has snapped and you've been locked up in an asylum.#It would be comforting to accept that you were insane; that no OLD GOD is awakening to devour humanity.<#>То столкновение стало последней каплей. Ваш разум не выдержал, и вас заперли в психушке.#Было бы приятно признать, что вы безумны. Что никакой ДРЕВНИЙ БОГ не пробуждается, чтобы поглотить человечество.
+But the drugs haven't made these horrors disappear...<#>Но препараты не могут заставить все эти ужасы исчезнуть...
+Resisting the unknown horror was taking its toll on your health. Weakened, you finally succumb to your injuries, alone. As the dust settles upon your open eyes, reality starts to crumble.<#>Сопротивление неизвестным ужасам повлияло на ваше здоровье. Без сил, вы наконец поддаётесь своим травмам, в одиночестве. Когда пыль оседает на ваших открытых глазах, реальность начинает рушиться.
+OLD GOD is ready to return once more...<#>ДРЕВНИЙ БОГ готов в очередной раз вернуться...
+As the sounds get unbearably loud, your knees suddenly collapse. Your inner ears burst and steaming blood starts gushing from your auditory canal, nose, and mouth!<#>По мере того, как звук становится невыносимо громким, ваши колени подкашиваются. Ваши перепонки лопаются, и кипящая кровь хлещет из ушей, носа и рта!
+You are dead even before your head hits the ground...<#>Вы уже мертвы, когда ваша голова падает на пол...
+Suddenly, you start to suffocate! The boiling blood quickly melts your trachea.#The noxious fumes liquefy your bones and your face collapses under its own weight.<#>Внезапно вы начинаете задыхаться! Кипящая кровь быстро плавит вашу трахею.#Ядовитые пары разжижают ваши кости, и лицо разрушается под собственным весом.
+Found two days later, what's left of your body will never be identified.<#>Два дня спустя, когда найдут останки вашего тела, их никогда не смогут опознать.
+When you enter the room, someone hits you in the head. When you wake up, you realize you're on the floor, naked.#Sitting on top of you is the HISTORY CLUB's president.<#>Когда вы входите в комнату, кто-то бьёт вас по голове. Когда вы приходите в себя, то понимаете, что лежите на полу, без одежды.#Сверху на вас сидит председательница КЛУБА ИСТОРИИ.
+<<We're not accepting new members now... >> she says, raising a ritual dagger.#<<...but you will help us, one way or another.>><#>«Мы пока что не принимаем новых членов...» - говорит она, поднимая ритуальный кинжал.#«...но так или иначе, ты сыграешь свою роль.»
+Later, you wake up aboard a spaceship. The XENOSHIBA CAPTAIN explains to you that Earth is doomed and that they are abducting exceptional individuals to populate a new planet.<#>Позже, вы просыпаетесь на борту космического корабля. КАПИТАН КСЕНОСИБА объясняет вам, что Земля обречена, и они похищают исключительных людей, чтобы заселить новую планету.
+Your new space adventure will continue in GALAXY OF HORROR! (coming soon)<#>Ваше новое космическое приключение продолжится в ГАЛАКТИКЕ УЖАСА! (скоро в продаже)
+Under the mysterious ATH-YOLAZSTH's influence, the city is engulfed in chaos.#All the eldritch magic made our planet a bright waypoint for the bloated OLD GOD...<#>Под действием загадочного АТХ-ЙОЛАЗСТХА город погружается в хаос.#Потусторонняя магия сделала нашу планету привлекательным местом для раздутого ДРЕВНЕГО БОГА...
+...and a tasty treat.#Within the next ten years, Earth will be devoured and there's nothing you can do about it anymore.<#>...а также вкусным угощением. В следующие 10 лет Земля будет полностью поглощена, и вы уже ничего не сможете с этим сделать.
+CTHAC-ATORASU is free once again! The invisible strands of the spider web slowly cover the entire city, entrapping everyone - including you...<#>КТХАК-АТОРАСУ снова свободен! Невидимые пряди паучьей паутины медленно покрывают город целиком, пленя всех - включая вас...
+Wrapped in a cocoon, suspended in a near-death state you will wait days, months, or maybe years until it's finally your turn to be eaten.<#>В коконе, находясь на грани смерти, вы проведёте здесь дни, месяцы, а может и годы, перед тем как придёт ваш черёд стать ужином...
+Suddenly, a pair of hairy hands reach out of the shop's window and violently pull you into the darkness.<#>Внезапно пара мохнатых рук высовывается из витрины магазина и насильно утаскивает вас во тьму.
+A week later, a new mysterious flavor of DOG TREATS is released and becomes a huge hit among the dog shopkeepers.<#>Неделю спустя на рынке появляется новый таинственный вкус «ЛАКОМСТВ ДЛЯ СОБАК», который становится огромным хитом среди собак, владеющих магазинами.
+The horrible OLD GOD has snatched almost everyone from your city. Weeks later, you and a group of survivors have managed to cover every mirror in the building you currently reside in.<#>Ужасный ДРЕВНИЙ БОГ похитил почти всех жителей вашего города. Несколько недель спустя вам и группе выживших удалось завесить все зеркала в здании, в котором вы сейчас находитесь.
+When you see your reflection in your lover's eyes, it takes you a while to realize the gut-wrenching implications. You start to scream, for GOIZO has found another way in.<#>Когда вы видите своё отражение в глазах любимого человека, вы не сразу осознаёте мучительные последствия. Вы кричите, понимая, что ГОЙЗО нашёл как к вам подобраться.
+>>What a wonderrful event this was, oh yes. They say that the Nobles have descended to the strreets of SHIOKAWA to pick theirr meals themselves.<<<#>»Какое это было пррекррасное событие, о да. Говорят, что Благорродные снизошли до улиц ШИОКАВЫ, чтобы самостоятельно забррать свою пищу.«
+>>Whoeverr wasn't devourred durring the unearrthly feast will join the Shatterred Courrt and trravel - neverr to be seen again.<<<#>»Те, кого не поглотят во врремя внеземного пирршества, вступят в Разррушенный Дворр и будет путешествовать - их больше никогда никто не увидит.«
+You're too late! When you arrive at the museum, the firefighters are already struggling to contain the spreading fire! You manage to slip past the police and run inside...<#>Вы опоздали! Когда вы прибываете в музей, пожарные уже изо всех сил пытаются сдержать распространяющийся огонь! Вам удаётся проскользнуть мимо полиции и забежать внутрь...
+You make your way inside the exhibition hall as your skin gets charred.#The last thing you see is ITHOTU, finally breaking free from its marble casket...<#>Вы бежите в выставочный зал, пока ваша кожа обгорает.#Последнее, что вы видите - ИТХОТУ, наконец вырывающегося на свободу из своего мраморного гроба...
+One day, an unseen force directs you to the beach. There, you see a huge group of people. You recognize your friends and neighbors.<#>В один день, незримая сила направляет вас на пляж. Там вы замечаете большую группу людей. Среди них вы узнаёте своих друзей и соседей.
+You join the sacred preparations, undressing and putting a mask on your face.#At midnight, the whole city will enter the water, never to return...<#>Вы присоединяетесь к священным приготовлениям, раздеваетесь и надеваете маску.#В полночь город полностью погрузится в воду и никогда не вернётся...
+When the sun rises again, the river level lowers again, leaving the fields fertile. In nine months, a new generation of KAIBARA villagers will be born.<#>Когда солнце снова встаёт - уровень реки падает, оставляя за собой плодородные поля. Через девять месяцев будет рождено новое поколение жителей КАЙБАРЫ.
+With your mind broken after the ritual, you will be kept alive... at least until the day your child is born.<#>Хоть ритуал и сломал ваш разум, в вас будут поддерживать жизнь... по крайней мере, пока не родится ваше дитя.
+The next day everything feels like a bad dream. You've managed to stop the ritual awakening the eldritch OLD GOD, but what's done is done. It will stir in its slumber again and again, until the stars are right once more.<#>На следующий день всё кажется лишь страшным сном. Вам удалось остановить ритуал пробуждения потустороннего ДРЕВНЕГО БОГА, но некоторые вещи уже не повернуть вспять. Он будет ворочаться в своём сне снова и снова, пока звёзды не сойдутся вновь.
+Congratulations! You are safe... for now.<#>Поздравляем! Вы в безопасности... пока что.
+Basking in the dying sun's morbid glow, your corpse continues to twist and warp, bringing you closer to your primordial, perfect form.<#>Согреваясь в нездоровом сиянии умирающего солнца, ваш труп продолжает скручиваться и деформироваться, приближая вас к изначальной, совершенной форме.
+Soon, the Herald will take you to the Shattered Court, where you will perform and sing mad songs until the end of time itself.<#>Скоро Вестник заберёт вас в Разрушенный Двор, где вы будете выступать и петь безумные песни до самого скончания времён.
+Frozen in fear, you watch as she gets closer. Her sharp scissors are slowly cutting through your cheeks as she asks you:<#>Застыв в страхе, вы наблюдаете, как она приближается. Её острые ножницы медленно разрезают ваши щёки, когда она спрашивает:
+--==aM I bEaUtIfUl?==--<#>--==Я пРеКрАсНа?==--
+STAMINA loss<#>потеря ВЫНОСЛИВОСТИ
+REASON loss<#>потеря РАССУДКА
+unknown<#>неизвестно
+OLD GOD awakening<#>пробуждение ДРЕВНЕГО БОГА
+Earth devoured by ATH-YOLAZSTH<#>Земля поглощена АТХ-ЙОЛАЗСТХОМ
+Organs liquified by CTHAC-ATORASU's venom<#>Органы разжижены ядом КТХАКА-АТОРАСУ
+Killed by the SCISSOR WOMAN<#>Убила ЖЕНЩИНА С НОЖНИЦАМИ
+Lost in the Otherworld<#>Потерялись в Ином мире
+Perished in the hecatomb<#>Смерть в гекатомбе
+Kidnapped by aliens<#>Похитили пришельцы
+Inner ear rupture<#>Разрыв барабанных перепонок
+Snatched by GOIZO<#>Похитил ГОЙЗО
+Minced and cooked<#>Измельчили и приготовили
+Body melted<#>Расплавление тела
+Joined the Underwater Kingdom<#>Присоединение к Подводному Королевству
+Chosen timeline<#>Выбранная хронология
+random<#>случайно
+Additional actions<#>Дополнительные действия
+manual<#>вручную
+Stabbed to death<#>Закололи насмерть
+You didn't complete any mysteries<#>Вы не раскрыли никаких тайн.
+You've managed to solve one mystery plaguing this town.<#>Раскрыта одна тайна, терзающая этот город.
+You've managed to solve<#>Раскрыто тайн, терзающих город: 
+mysteries plaguing this town.<#>
+You didn't unlock any new achievements.<#>Вы не разблокировали новых достижений.
+You unlocked one new achievement.<#>Вы разблокировали одно новое достижение.
+You unlocked<#>Разблокировано достижений:
+new achievements.<#>
+You didn't see any new events.<#>Вы не увидели новых событий.
+You saw one new event.<#>Вы увидели одно новое событие.
+You saw<#>Новые события:
+new events.<#>
+You didn't encounter any new enemies.<#>Вы не столкнулись с новыми врагами.
+You encountered one new enemy.<#>Вы столкнулись с одним новым врагом.
+You encountered<#>Новых врагов встречено:
+new enemies.<#>
+Mouth slit<#>Разрезан рот
+Lost in the OTHERWORLD<#>Потерялись в ИНОМ МИРЕ
+Inner ear burst<#>Разрыв барабанных перепонок
+Lost in YGOTHAEG's gaze<#>Потерялись во взоре ИГОТХАЕГА
+Survived (rioter)<#>Выжили (бунтарь)
+Survived (generic)<#>Выжили (обычный)
+Kidnapped by the Court<#>Похитил Двор
+#Equipped<#>#Снаряжение
+#Incoming doom<#>#Наступивший рок
+Difficulty level<#>Уровень сложности
+Kidnapped by the Court<#>Похитил Двор
+Congratulations! You've survived!<#>Поздравляем! Вы выжили!
+You're taking a break!<#>Вы взяли перерыв!
+The horror is over... for now.<#>Пока что... ужасы закончились.
+You've perished!<#>Вы погибли!
+Moved to KAIBARA<#>Переехали в КАЙБАРУ
+REWARDS FOR SOLVING THIS MYSTERY<#>НАГРАДЫ ЗА РАСКРЫТИЕ ЭТОЙ ТАЙНЫ
+[KNOWLEDGE IS KEY]<#>ЗНАНИЕ - КЛЮЧ
+#Chosen challenge<#>#Выбранное испытание
+Final log entries<#>Последние записи в журнале
+Backstory<#>Предыстория
+Summoned OLD GOD<#>Призванный ДРЕВНИЙ БОГ
+In this run<#>В этом забеге
+Your playthrough lasted<#>Ваше прохождение продлилось
+Level<#>Уровень
+Cause of death<#>Причина смерти
+That's not the only mystery plaguing this town,#you must continue your investigation...<#>Это не единственная тайна, терзающая этот город -#вы должны продолжить расследование...
+Take your time, go outside, take a nap. This doomed town isn't going anywhere...<#>Не торопитесь, выйдите на улицу, вздремните. Этот обречённый город никуда не денется...
+(additional modes will unlock as you progress)<#>(дополнительные режимы будут открываться по мере вашего продвижения)
+The game begins with a ritual. You can choose which OLD GOD will be summoned.##This selection will influence encounters and add unique events to your playthrough.<#>Игра начинается с ритуала. Вы можете выбрать, какой ДРЕВНИЙ БОГ будет призван.##Этот выбор повлияет на столкновения и добавит уникальные события в ваше прохождение.
+It seems that no one wants to reclaim a certain black suitcase. What could be inside?<#>Похоже, что никому не нужен этот чёрный чемодан. Что может быть внутри?
+An old journalist keeps mentioning an old case.<#>Старый журналист продолжает упоминать о старом деле.
+Old teacher left our town in a hurry. Did she leave any clues?<#>Прошлая учительница в спешке покинула наш город. Оставила ли она какие-нибудь зацепки?
+School's library contains many weird and curious titles...<#>В школьной библиотеке много странных и любопытных книг...
+Hospital records mention doctor OOO. How is that possible? He was declared dead twenty years ago!<#>В больничных записях упоминается доктор ООО. Как это возможно? Его объявили умершим двадцать лет назад!
+Recently they hired two nurses from Tokyo. No one knows what do they do, nor where they stay after their shifts.<#>Недавно они наняли двух медсестер из Токио. Никто не знает, чем они занимаются и где остаются после смены.
+You overhear a fisherman talking with someone. <<...I wish the fish didn't look like that.>><#>Вы подслушиваете, как рыбак с кем-то разговаривает. «...Вот бы рыба не выглядела так.»
+<<I'm not setting a foot on this cursed land.>> says an old sailor.<#>«Я больше ни ногой на эту проклятую землю.» - говорит старый моряк.
+A curious red tree has appeared on the crossroad.#Is that a sign?<#>Любопытное красное дерево выросло на перекрёстке.#Это какой-то знак?
+Police have found an empty tent. What could've happened to the owner?<#>Полиция нашла пустую палатку. Что случилось с её хозяином?
+Many mansions around a certain lake have been deserted in the last 10 years. Why?<#>За последние 10 лет рядом с озером многие поместья оказались заброшены. Почему?
+A huge fire has consumed a wing of a mansion, revealing countless human bones...<#>Огромный пожар поглощает крыло поместья, обнажая бесчисленные человеческие кости...
+A priestess was reported missing. Does it have to do with the ongoing harvest festival?<#>Священнослужительница пропала. Связано ли это как-то с праздником урожая?
+A reporter from Tokyo is making a documentary about local legends. You should get in contact with her.<#>Репортёр из Токио снимает документальный фильм о местных легендах. Вы должны с ней связаться.
+Your neighbor, OOO-san, has been acting really strange lately.##Why is that?<#>Ваш сосед, ООО-сан, ведёт себя странно в последнее время.##Что с ним случилось?
+A new family moved in above you last week. You don't like the sounds you hear at night.<#>На прошлой неделе новая семья въехала в квартиру этажом выше. Вам не нравятся звуки, которые вы слышите по ночам.
+ENDLESS MODE<#>БЕСКОНЕЧНЫЙ РЕЖИМ
+TURN<#>ХОД
+Next reward at<#>Следующая награда
+[+4 STAMINA]<#>(+4 ВЫНОСЛИВОСТИ)
+[+4 REASON]<#>(+4 РАССУДКА)
+[+2 FUNDS]<#>(+2 СРЕДСТВ)
+[-5% DOOM]<#>(-5% РОКА)
+[+ITEM]<#>(+ПРЕДМЕТ)
+[+MEDICAL KIT]<#>(+МЕДИЦИНСКИЙ НАБОР)
+[+SPELL]<#>(+ЗАКЛИНАНИЕ)
+[-5% DOOM]<#>(-5% РОКА)
+-ENDLESS MODE-#Select a reward before continuing<#>-БЕСКОНЕЧНЫЙ РЕЖИМ-#Выберите награду перед продолжением
+You decide to spend some time with your family living in a nearby town and rest.##Feeling tainted by the horror you've experienced here, deep inside you know you will be forced to return one day...#-- ----- --##[you shouldn't take all these weird items with you, they will await you in the STORAGE]<#>Вы решаете провести немного времени с семьёй в ближайшем городе и отдохнуть.##Чувствуя, как вас запятнал ужас, который вы здесь испытали, глубоко внутри вы понимаете, что однажды будете вынуждены вернуться...#-- ----- --##(вам не стоит брать все эти странные вещи с собой, они будут ожидать вас в ХРАНИЛИЩЕ)
+You are thinking about spending some time with your family living in a nearby town to rest, but you should probably pack up first.##(saving is disabled until you enter your home)<#>Вы думаете о том, чтобы провести немного времени с вашей семьёй, живущей в ближайшем городе, отдохнуть. Но, возможно, сперва вам стоит собраться.##(сохранения отключены, пока вы не вернётесь домой)
+SAVE AND EXIT<#>СОХР. И ВЫЙТИ
+(disabled)<#>(отключено)
+go back<#>вернуться
+THIS PLAYTHROUGH'S NEW MECHANICS<#>НОВЫЕ МЕХАНИКИ ЭТОГО ПРОХОЖДЕНИЯ
+This character is described by a new stat, FAITH (FTH).#It starts at 5 but depending on your actions, it can drop into negative values, representing your slowly crumbling faith.#There are different bonuses and penalties that vary with the FAITH level. You can check the current status by hovering the cursor over the new stat.<#>У этого персонажа присутствует новая характеристика, ВЕРА (ВЕР).#Она начинается на отметке в 5, но в зависимости от ваших действий, она может опуститься до негативных значений, представляя вашу медленно угасающую веру.#В зависимости от уровня ВЕРЫ вы будете получать различные бонусы или штрафы. Вы можете проверить текущий статус, наведя курсор на новую характеристику.
+Swallowed by The Perfect Form<#>Поглощение идеальной формой
+THE MISSING STARS<#>ПРОПАВШИЕ ЗВЁЗДЫ
+[WRONG BOOK!]<#>НЕ ТА КНИГА!
+<< I swear the covers were identical! >><#>«Я клянусь, обложки были одинаковые!»
+Replace NECRONOMICON with a COOK BOOK, that grants the player random FOOD items every now and then.<#>Заменить НЕКРОНОМИКОН на КУЛИНАРНУЮ КНИГУ, которая периодически даёт игроку случайную еду.
+COOK BOOK<#>КУЛИНАРНАЯ КНИГА
+You won't find any eldritch secrets inside this book. Maybe you can use it some other way?#[NECRONOMICON pages are useless in this playthrough but every investigation you have a 10% chance of creating a FOOD item]<#>В этой книге вы не найдёте никаких потусторонних секретов. Возможно вы могли бы использовать её как-то по-другому?#[страницы НЕКРОНОМИКОНА бесполезны в этом прохождении, но при каждом исследовании локации, у вас есть 10%-й шанс создать ЕДУ]
+Let's cook something new...<#>Приготовим что-нибудь новое...
+INVESTIGATE<#>ИССЛЕДОВАТЬ
+[[SAFE]]<#>БЕЗОПАСНО
+no modifiers to skill checks<#>нет модификаторов к проверкам навыков
+[[LOW]]<#>ЛЕГКО
+-1 modifier to all skill checks<#>модификатор -1 ко всем проверкам навыков
+[[DANGEROUS]]<#>ОПАСНО
+-1 modifier to all skill checks#---#STAMINA/REASON penalties increased<#>модификатор -1 ко всем проверкам навыков#---#штрафы к ВЫНОСЛИВОСТИ/РАССУДКУ увеличены
+[[DOOMED]]<#>РОК
+-2 modifier to all skill checks#---#STAMINA/REASON penalties increased#---#DOOM penalty for investigating this location<#>модификатор -2 ко всем проверкам навыков#---#штрафы к ВЫНОСЛИВОСТИ/РАССУДКУ увеличены#---#увеличенный прирост РОКА за исследование этой локации
+To advance this mystery, use the ENTER additional action while at the hospital to find your friend...<#>Для продвижения в этой тайне, используйте дополнительное действие ВХОДА в госпитале, чтобы найти своего друга...
+To advance this mystery, investigate the circled location. As you progress, the location and the rules may change.<#>Для продвижения в этой тайне, исследуйте обозначенную локацию. По мере вашего прогресса локация и правила могут поменяться.
