@@ -14,9 +14,9 @@ ATTACK!<#>СРАЖАТЬСЯ!
 It's only after the MEAT HORROR falls to the ground dead that you notice a bag further down the cave.##Inside, you find a bunch of neatly folded clothes and a journal.##It belongs to the famous marine biologist you were looking for!<#>Только после того, как МЯСНОЙ УЖАС замертво падает на землю, вы проходите дальше по пещере и замечаете сумку.##Внутри вы находите кучу аккуратно сложенных вещей и журнал.##Он принадлежит известному морскому биологу, которого вы и искали!
 The last entry dates back to when the jellyfish attacks started.##<<The ancient tablet I've found when exploring the caves near SHIOKAWA has... for the lack of a better word, cursed me.>><#>Последняя запись относится к тому времени, когда начались нападения медуз.##«Древняя табличка, которую я нашёл, исследуя пещеры близ ШИОКАВЫ... как бы сказать, прокляла меня.»
 <<I can't explain this, but every other night, my skin slips off my body as if it has a mind of its own...>>##<<It always returns to me in the morning... I just have to wait in the cave where the tablet was. What is happening to me?!>><#>«Я не могу это объяснить, но через ночь моя кожа срывается с моего тела, будто обретая собственный разум...»##«Она всегда возвращается ко мне утром... Мне просто нужно подождать в пещере, где была табличка. Что со мной происходит?!»
-What will happen to the giant skin jellyfish without its host's body? You have no idea, and hopefully, you will never learn the answer yourself.##[MYSTERIOUS MYTH OF MEDUSA METAMORPHOSIS:#ENDING A]<#>Что произойдёт с гигантской кожанной медузой без тела носителя? Вы понятия не имеете и хочется надеяться, что никогда не узнаете ответ.##(МОНСТРУОЗНЫЙ МИФ О МЕТАМОРФОЗАХ МЕДУЗ:#КОНЦОВКА А)
+What will happen to the giant skin jellyfish without its host's body? You have no idea, and hopefully, you will never learn the answer yourself.##[MYSTERIOUS MYTH OF MEDUSA METAMORPHOSIS:#ENDING A]<#>Что произойдёт с гигантской кожаной медузой без тела носителя? Вы понятия не имеете и хочется надеяться, что никогда не узнаете ответ.##(МОНСТРУОЗНЫЙ МИФ О МЕТАМОРФОЗАХ МЕДУЗ:#КОНЦОВКА А)
 [SKIN JELLYFISH]: it's still out there<#>(КОЖАНАЯ МЕДУЗА): всё ещё на свободе
-The famous biologist is spending his vacation at the seaside mansion.##You need to take a bus there.<#>Известный биолог проводит свой отпуск в прибрежном поместье.##Вам нужно поймать автобус до туда.
+The famous biologist is spending his vacation at the seaside mansion.##You need to take a bus there.<#>Известный биолог проводит свой отпуск в прибрежном поместье.##Вам нужно сесть на автобус до туда.
 Taking the bus, you can't help but notice the large number of trees that have suddenly died.##What could be the cause?<#>Находясь в автобусе, вы не можете не заметить большое количество внезапно погибших деревьев.##Что могло стать причиной?..
 You finally arrive at the seaside. The water here is unnaturally cold and unwelco-- wait a minute...<#>Наконец, вы прибываете на побережье. Вода здесь неестественно холодная и непривет--, подождите-ка...
 T-that's weird...##You shouldn't be able to see the LIGHTHOUSE from this side of the bay...<#>С-странно...##МАЯК не должен быть виден с этой стороны залива...
@@ -26,7 +26,7 @@ Inside a dusty study, you find a map of the cliffside with one point clearly mar
 Standing on the beach, you realize something...##The map's coastline doesn't match the actual thing... why's that?<#>Стоя на пляже, вы осознаёте...##Карта берега не совпадает с реальным берегом... почему?
 The tides! The rise and fall of sea level changes the coastline. You should wait...##The low tide reveals a semi-sunken cave which<#>Приливы! Подъём и падение уровня моря меняют берег. Нужно подождать...##Отлив обнажит осушит затопленную пещеру, которая
 corresponds with the point marked on the map.##Reluctantly, you enter into the unknown...<#>находится в точке, отмеченной на карте.##Неохотно, вы вступаете в неизвестность...
-A - SKIN JELLYFISH<#>A - КОЖАНАЯ МЕДУЗА
+A - SKIN JELLYFISH<#>А - КОЖАНАЯ МЕДУЗА
 B - ??<#>Б - ??
 C - ??<#>В - ??
 NIGHTMARE NEWS OF THE NOISY NAILS<#>НЕСЛЫХАННЫЕ НОВОСТИ О НЕЩАДНЫХ НОГТЯХ
@@ -63,7 +63,7 @@ You try to run, but trip and fall to the ground.##The masked man jumps on you an
 ALWAYS WATCHING<#>ВСЕГДА НАБЛЮДАЕТ
 You can't shake off the feeling that you are being watched...#(-2 REASON)<#>Вы не можете избавиться от чувства, что за вами наблюдают...#(-2 РАССУДКА)
 ANOTHER VICTIM<#>ОЧЕРЕДНАЯ ЖЕРТВА
-On your way to the next destination, you stop the tall man wearing a dirty Kabuki mask.#He is talking to a woman and slowly reaching into his pocket...<#>На пути к следующей точке расследования, вы останавливаетесь перед высоким мужчиной в грязной маске Кабуки.#Он разговаривает с женщиной и медленно тянет руку в карман...
+On your way to the next destination, you stop the tall man wearing a dirty Kabuki mask.#He is talking to a woman and slowly reaching into his pocket...<#>На пути к следующей точке расследования, вы натыкаетесь на высокого мужчину в грязной маске Кабуки.#Он разговаривает с женщиной и медленно тянет руку в карман...
 alert the woman<#>предупредить женщину
 run before he notices you<#>убежать, пока он не заметил вас
 You decide to act quickly and run between the pair, screaming.##The panicked woman flees but the masked man grabs you by your neck.##Before you can protest, he takes a pair of pliers out of his pocket and rips off one of your nails.#(why? / -1 STAMINA)<#>Вы решаете действовать быстро и с криками врываетесь между ними.##Женщина, паникуя, сбегает, но мужчина в маске успевает схватить вас за шею.##Вы не успеваете даже возразить, когда он выхватывает из кармана плоскогубцы и отрывает один из ваших ногтей.#(зачем?, -1 ВЫНОСЛИВОСТИ)
@@ -112,7 +112,7 @@ check out the VILLAGE<#>проверить ДЕРЕВНЮ
 explore the FOREST<#>исследовать ЛЕС
 KAIBARA VILLAGE - ARRIVAL#<#>ДЕРЕВНЯ КАЙБАРА - ПРИБЫТИЕ#
 KAIBARA VILLAGE<#>ДЕРЕВНЯ КАЙБАРА
-You can see the curious rock formation from the bridge leading to the village.#The researchers are nowhere to be seen.##Did the weather scare them off?<#>Вы видите любопытное каменное образование с моста, ведущего в деревню.#Исследователей нигде не видно.##Может, их напугала погода?
+You can see the curious rock formation from the bridge leading to the village.#The researchers are nowhere to be seen.##Did the weather scare them off?<#>Вы видите странное каменное образование с моста, ведущего в деревню.#Исследователей нигде не видно.##Может, их отпугнула погода?
 <<KAIBARA VILLAGE, the final stop!>>#The bus suddenly stops as the driver opens the door.#Reluctantly, you notice you're still far from the village itself. However, before you can ask any questions, the bus's doors close...<#>«ДЕРЕВНЯ КАЙБАРЫ, конечная остановка!»#Автобус внезапно останавливается, и водитель открывает двери.#С неохотой, но вы всё же подмечаете, что находитесь ещё далеко от самой деревни. Так или иначе, вы не успеваете даже задать вопрос водителю, когда двери автобуса закрываются...
 CURIOUS ROCK FORMATION<#>ЛЮБОПЫТНОЕ КАМЕННОЕ ОБРАЗОВАНИЕ
 In the distance, you can see the village of KAIBARA.<#>Вдали вы видите деревню КАЙБАРА.
@@ -138,7 +138,7 @@ You can only hope that help will arrive in time.##[FREAKISH FABLE OF A FRIGHTENI
 A - TRUST THE GOVERNMENT<#>А - ДОВЕРИТЬСЯ ПРАВИТЕЛЬСТВУ
 B - SABBATICAL<#>Б - ОТПУСК
 C - BIGGEST LITTLE VILLAGE<#>В - САМАЯ БОЛЬШАЯ МАЛЕНЬКАЯ ДЕРЕВНЯ
-contains two new mysteries<#>содержит три новые тайны
+contains two new mysteries<#>содержит две новые тайны
 partied too hard<#>слишком сильно веселились
 FLOODED NAILS<#>ЗАЛИТЫЕ НОГТИ
 win your sixth playthrough<#>победите в шести забегах

@@ -1,24 +1,24 @@
 [ATTACK THE MASTER CULTIST]<#>АТАКОВАТЬ ВЫСШЕГО КУЛЬТИСТА
 damage<#>урона
 Attack the chanting cultist in an attempt to stop the ritual, dealing<#>Атаковать культиста-заклинателя в попытке остановить ритуал, нанеся
-[SUFFER FOR ME]<#>СТРАДАЙ ДЛЯ МЕНЯ
+[SUFFER FOR ME]<#>ПОКАЖИ СВОИ СТРАДАНИЯ
 Lose 2 STAMINA<#>Вы теряете 2 ВЫНОСЛИВОСТИ
 KICK<#>УДАР
 [attack without a weapon]<#>(атаковать без оружия)
 base chance to hit<#>базовый шанс попасть
 The music is getting louder, you must hurry!<#>Музыка становится громче, вам стоит поспешить!
 A lower multiplier means that actions will take less time.<#>Меньший множитель означает, что действия займут меньше времени.
-Combat sequence saved!<#>Боевая последовательность сохранена!
-[CRY FOR ME]<#>ПЛАЧЬ ДЛЯ МЕНЯ
+Combat sequence saved!<#>Боевая шкала сохранена!
+[CRY FOR ME]<#>ПОКАЖИ СВОИ СЛЁЗЫ
 currently, your chance to hit is lowered by<#>в данный момент ваш шанс на попадание понижен на
 Lose 2 REASON<#>Вы теряете 2 РАССУДКА
-[BLEED FOR ME]<#>ИСТЕКАЙ КРОВЬЮ ДЛЯ МЕНЯ
-Set remaining STAMINA to 3<#>Устанавливает оставшуюся ВЫНОСЛИВОСТЬ на 3
-[GIVE UP FOR ME]<#>СДАЙСЯ ДЛЯ МЕНЯ
-Set remaining REASON to 3<#>Устанавливает оставшийся РАССУДОК на 3
-[DIE FOR ME]<#>УМРИ ДЛЯ МЕНЯ
+[BLEED FOR ME]<#>ПОКАЖИ СВОЮ КРОВЬ
+Set remaining STAMINA to 3<#>Понижает оставшуюся ВЫНОСЛИВОСТЬ до 3
+[GIVE UP FOR ME]<#>ПОКАЖИ СВОЁ ОТЧАЯНИЕ
+Set remaining REASON to 3<#>Понижает оставшийся РАССУДОК до 3
+[DIE FOR ME]<#>ПОКАЖИ СВОЮ СМЕРТЬ
 Kills you instantly.<#>Мгновенно убивает вас.
-[SOMETHING EVIL IS SATED]<#>ИСТИННОЕ ЗЛО НАСЫТИЛОСЬ
+[SOMETHING EVIL IS SATED]<#>НЕЧТО ЗЛОЕ НАСЫТИЛОСЬ
 ...for now.<#>...пока достаточно.
 INCORPOREAL ENEMY<#>БЕСТЕЛЕСНЫЙ ВРАГ
 [this attack can't hurt a ghost enemy]<#>(эта атака не может навредить призраку)
@@ -101,7 +101,7 @@ LOOK FOR AN IMPROVISED WEAPON<#>ПОИСКАТЬ ИМПРОВИЗИРОВАНН�
 pick up a random improvised weapon<#>подобрать случайное оружие
 You missed the attack!<#>Вы промахнулись!
 You prepare to strike...<#>Вы готовитесь к удару...
-[Fill the COMBAT SEQUENCE (white bar) with combat moves and click the 'LAUNCH SEQUENCE' to attack your enemy.]##(right click) - delete the last combat move<#>Заполните БОЕВУЮ ПОСЛЕДОВАТЕЛЬНОСТЬ (белая шкала) боевыми действиями, и нажмите кнопку «ЗАПУСТИТЬ», чтобы атаковать врага.##(правая кнопка мыши) - удалить последнее боевое действие
+[Fill the COMBAT SEQUENCE (white bar) with combat moves and click the 'LAUNCH SEQUENCE' to attack your enemy.]##(right click) - delete the last combat move<#>Заполните БОЕВУЮ ШКАЛУ (белая шкала) боевыми действиями, и нажмите кнопку «ЗАПУСТИТЬ», чтобы атаковать врага.##(правая кнопка мыши) - удалить последнее боевое действие
 [you can't run from this encounter]<#>(вы не можете сбежать из этого боя)
 RUN AWAY<#>СБЕЖАТЬ
 PREPARE YOUR ATTACK<#>ПРИГОТОВИТЬСЯ К АТАКЕ
@@ -142,7 +142,7 @@ You bash<#>Вы избиваете врага -
 You saw through<#>Вы выпускаете кишки врагу -
 You've successfully run from<#>Вы успешно сбегаете от врага -
 ESCAPE<#>ПОБЕГ
-You burn<#>Вы сожгли предмет -
+You burn<#>Вы сжигаете предмет -
 You've found an item<#>Вы нашли предмет -
 Wait, what's that?<#>Стоп, что это?..
 You don't have time to change the equipment.<#>У вас нет времени менять экипировку.
@@ -219,7 +219,7 @@ SEND AGAINST ENEMY<#>ПОСЛАТЬ НА ВРАГА
 CAST THIS SPELL<#>ИСПОЛЬЗОВАТЬ ЭТО ЗАКЛИНАНИЕ
 FORGET THIS SPELL (+1 REASON)<#>ЗАБЫТЬ ЭТО ЗАКЛИНАНИЕ (+1 РАССУДКА)
 AURA: FREE CAST<#>АУРА: БЕСПЛАТНОЕ ЗАКЛИНАНИЕ
-ATH-YOLAZSTH'S GAZE: CASTING THIS DOESN'T COST REASON<#>ВЗГЛЯД АТХ-ЙОЛАЗСТХА: ЭТО ЗАКЛИНАНИЕ НЕ ТРАТИТ РАССУДОК
+ATH-YOLAZSTH'S GAZE: CASTING THIS DOESN'T COST REASON<#>ВЗГЛЯД АТХ-ЙОЛАЗТА: ЭТО ЗАКЛИНАНИЕ НЕ ТРАТИТ РАССУДОК
 TREATMENT - 1 FUNDS<#>ЛЕЧЕНИЕ - 1 СРЕДСТВ
 SURGERY - 2 FUNDS<#>ОПЕРАЦИЯ - 2 СРЕДСТВ
 MODERN MEDICINE CAN'T HELP HERE<#>СОВРЕМЕННАЯ МЕДИЦИНА ТУТ НЕ ПОМОЖЕТ
@@ -252,7 +252,7 @@ STAMINA<#>ВЫНОСЛИВОСТЬ
 REASON<#>РАССУДОК
 DOOM<#>РОК
 NO RITUAL ACTIVE<#>НЕТ АКТИВНЫХ РИТУАЛОВ
-Welcome and thank you for trying WORLD OF HORROR.#Inspired by adventure games from the 80s, the visual overload may initially be a little disorienting. In this short tutorial, I'll do my best to explain various elements and prepare you to fight the horrible OLD GODS.#- Pawel, creator of the game<#>Добро пожаловать и спасибо, что выбрали поиграть в WORLD OF HORROR.#Визуальная нагрузка, вдохновлённая играми-приключениями 80-х, поначалу может дезориентировать. В этом кратком руководстве я постараюсь как можно лучше объяснить различные элементы и подготовить вас к бою с ужасающими ДРЕВНИМИ БОГАМИ.#- Павел, создатель игры
+Welcome and thank you for trying WORLD OF HORROR.#Inspired by adventure games from the 80s, the visual overload may initially be a little disorienting. In this short tutorial, I'll do my best to explain various elements and prepare you to fight the horrible OLD GODS.#- Pawel, creator of the game<#>Добро пожаловать и спасибо, что выбрали поиграть в WORLD OF HORROR.#Нагруженный интерфейс, вдохновлённый играми-приключениями 80-х, поначалу может дезориентировать. В этом кратком руководстве я постараюсь как можно лучше объяснить различные элементы и подготовить вас к бою с ужасающими ДРЕВНИМИ БОГАМИ.#- Павел, создатель игры
 That's the -MAIN GAME SCREEN-. Here, you will interact with your surroundings, solve mysteries and fight enemies.<#>Это -ОСНОВНОЙ ЭКРАН ИГРЫ-. Здесь вы будете взаимодействовать с окружением, раскрывать тайны и сражаться с врагами.
 That's the -USER INTERFACE- part of the screen. ##Here, you'll manage your inventory, cast spells and access the game options.<#>Это часть экрана с -ПОЛЬЗОВАТЕЛЬСКИМ ИНТЕРФЕЙСОМ-. ##Здесь, вы будете управлять инвентарём, использовать заклинания и менять настройки игры.
 All performed actions will be added to the -LOG- here.<#>Все совершённые действия будут добавляться в -ЖУРНАЛ- здесь.

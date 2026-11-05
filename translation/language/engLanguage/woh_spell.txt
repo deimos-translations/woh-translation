@@ -11,7 +11,7 @@ You've already defeated this enemy.<#>Вы уже победили этого в
 This contract won't work on this enemy.<#>Это действие не сработает на этом враге.
 This spell can only be cast when investigating a location.<#>Это заклинание можно использовать только при исследовании локации.
 This spell targets HUMAN enemies only.<#>Это заклинание действует только против ЛЮДЕЙ.
-This spell targets ELDRITCH enemies only.<#>Это заклинание действует только против ПОТУСТОРОННЕЕ.
+This spell targets ELDRITCH enemies only.<#>Это заклинание действует только против ПОТУСТОРОННЕГО.
 Occult signs attract unknown power!<#>Оккультные знаки привлекают неизвестную силу!
 It's too much for your mind! (-1 REASON)<#>Она слишком тяжела для вашего разума! (-1 РАССУДКА)
 CURRENT SPELL LIMIT<#>ТЕКУЩИЙ ЛИМИТ ЗАКЛИНАНИЙ
@@ -100,13 +100,13 @@ FLESH REGROWTH<#>ОТРАЩИВАНИЕ ПЛОТИ
 Your veins extend and seal the ripped flesh!<#>Ваши вены расширяются и затягивают разорванную плоть!
 EXPEL EVIL<#>ИЗГНАНИЕ ЗЛА
 -6% DOOM#[one time use only]#[COST: 2 STAMINA]<#>-6% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-You cough up blood and... s-something else...<#>Вы кашляете кровью и... ч-чем то ещё...
+You cough up blood and... s-something else...<#>Вы кашляете кровью и... ч-чем-то ещё...
 GROW TEETH<#>ОТРАЩИВАНИЕ ЗУБОВ
 adds a new combat action, [BITE], until the end of this mystery#[COST: 2 STAMINA]<#>(до конца текущей тайны): добавляет новое боевое действие - УКУС#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-You cough up blood and... something else...<#>Вы кашляете кровью и... ч-чем то ещё...
+You cough up blood and... something else...<#>Вы кашляете кровью и... ч-чем-то ещё...
 You won't fit more teeth in your mouth.<#>Во рту не поместится больше зубов.
 BRAIN WORMS<#>МОЗГОВЫЕ ЧЕРВИ
--2% DOOM#[one time use only]#[COST: 2 STAMINA]#[forgetting this SPELL costs 2 REASON]<#>-2% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)#(забытие этого ЗАКЛИНАНИЯ стоит 2 РАССУДКА)
+-2% DOOM#[one time use only]#[COST: 2 STAMINA]#[forgetting this SPELL costs 2 REASON]<#>-2% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)#(забыть это ЗАКЛИНАНИЕ будет стоить 2 РАССУДКА)
 [DELVED TOO DEEP]<#>(ЗАБРАЛИСЬ СЛИШКОМ ГЛУБОКО)
 Forcing the worms out of your head isn't pleasant... (-2 REASON)<#>Выгонять червей из своей головы не слишком приятно... (-2 РАССУДКА)
 k<#>к
@@ -126,7 +126,7 @@ EIMI<#>ЭЙМИ
 completing a mystery regains 1 REASON<#>(в конце каждой тайны): восстанавливает 1 РАССУДКА
 <<thanks for saving me>><#>«Спасибо, что спасли меня»
 [gallery curator]<#>(куратор галереи)
-#[EIMI]: +1 REASON<#>#(ЭЙМИ): +1 РАССУДКА
+#[EIMI]: +1 REASON<#>#ЭЙМИ: +1 РАССУДКА
 UCHIDA<#>УЧИДА
 EXP bonus for assessing situation during combat (once per enemy)<#>даёт немного ОПЫТА за оценку обстановки во время боя (один раз на врага)
 'heavy breathing'<#>*тяжело дышит*

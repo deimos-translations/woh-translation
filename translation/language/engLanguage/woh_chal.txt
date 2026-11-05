@@ -5,26 +5,26 @@ backstory<#>предыстория
 OLD GOD<#>ДРЕВНИЙ БОГ
 random<#>случайно
 [GOING COLD TURKEY]<#>ВСЁ, ЗАВЯЗЫВАЮ
-<< I think I've chosen the worst time to quit... >><#>«Думаю, я выбрал худшее время, чтобы бросить...»
-Automatically discard all acquired CIGARETTES. Start with a BOTTLE [WATER] instead.<#>Автоматически выбрасывать все имеющиеся СИГАРЕТЫ. Начать с БУТЫЛКОЙ ВОДЫ.
+<< I think I've chosen the worst time to quit... >><#>«Такой себе момент, чтобы бросить...»
+Automatically discard all acquired CIGARETTES. Start with a BOTTLE [WATER] instead.<#>Вы автоматически выбрасываете все найденные СИГАРЕТЫ. Вы начинаете с БУТЫЛКОЙ ВОДЫ.
 [BUT DAD!!]<#>НУ ПАП!
-<< You're grounded for a week, young lady. Why don't you read some books for a change? >><#>«Вы наказаны на неделю, молодая леди. Почему бы вам для разнообразия не почитать несколько книг?»
-Automatically discard all [FIREARM] weapons. Start with an INSPIRING NOVEL instead.<#>Автоматически выбрасывать всё ОГНЕСТРЕЛЬНОЕ оружие. Начать с ВДОХНОВЛЯЮЩЕЙ НОВЕЛЛОЙ.
+<< You're grounded for a week, young lady. Why don't you read some books for a change? >><#>«Вы наказаны на неделю, молодая леди. Почитай книг и подумай о своём наказании.»
+Automatically discard all [FIREARM] weapons. Start with an INSPIRING NOVEL instead.<#>Вы автоматически выбрасываете всё ОГНЕСТРЕЛЬНОЕ оружие. Вы начинаете с ВДОХНОВЛЯЮЩИМ РОМАНОМ.
 SPECIAL RULE<#>СПЕЦИАЛЬНОЕ ПРАВИЛО
 [PAROLE VIOLATION]<#>НАРУШЕНИЕ УДО
 << You can't get caught again. You won't be able to save the world from behind bars. >><#>«Нельзя, чтобы тебя снова поймали. Не получится спасти мир, сидя за решёткой.»
 Disables the effect of MAYHEM. Start with lower DOOM instead.<#>Выключает эффект ХАОСА. Вы начинаете с меньшим уровнем РОКА.
 [GHASTLY PRESENCE]<#>ПРИЗРАЧНОЕ ПРИСУТСТВИЕ
 << Don't you see the person following me?... >><#>«Разве ты не видишь человека, преследующего меня?..»
-Start with MIND DRAIN, a random spell and a new personal status, GHASTLY PRESENCE, that will disable all offensive combat actions.<#>Вы начинаете с ИСТОЩЕНИЕМ РАЗУМА, случайным заклинанием и новым статусом ПРИЗРАЧНОЕ ПРИСУТСТВИЕ, который отключает все стандартные действия атаки в бою.
+Start with MIND DRAIN, a random spell and a new personal status, GHASTLY PRESENCE, that will disable all offensive combat actions.<#>Вы начинаете с ИСТОЩЕНИЕМ РАЗУМА, случайным заклинанием и новым статусом ПРИЗРАЧНОЕ ПРИСУТСТВИЕ, который отключает все боевые действия в бою.
 [GHOST TOWN]<#>ГОРОД-ПРИЗРАК
-<< Only after your photo shoot was canceled did you discover that every business in SHIOKAWA is closed. Did everyone move out or...? >><#>«Только после того, как вашу фотосессию отменили, вы обнаружили, что все предприятия в ШИОКАВЕ закрылись. Все уехали или что?..»
-All additional actions but REST are disabled for the duration of the playthrough.<#>Все дополнительные действия, кроме ОТДЫХА, отключены на протяжении прохождения.
+<< Only after your photo shoot was canceled did you discover that every business in SHIOKAWA is closed. Did everyone move out or...? >><#>«Только после того, как вашу фотосессию отменили, вы обнаружили, что все здания в ШИОКАВЕ закрылись. Все уехали или что?..»
+All additional actions but REST are disabled for the duration of the playthrough.<#>Все дополнительные действия, кроме ОТДЫХА, отключены на протяжении забега.
 do not translate<#>do not translate
 do not translate<#>do not translate
 do not translate<#>do not translate
 That encounter was the final straw. Your mind has snapped and you've been locked up in an asylum.#It would be comforting to accept that you were insane; that no OLD GOD is awakening to devour humanity.<#>То столкновение стало последней каплей. Ваш разум не выдержал, и вас заперли в психушке.#Было бы приятно признать, что вы безумны. Что никакой ДРЕВНИЙ БОГ не пробуждается, чтобы поглотить человечество.
-But the drugs haven't made these horrors disappear...<#>Но препараты не могут заставить все эти ужасы исчезнуть...
+But the drugs haven't made these horrors disappear...<#>Но препараты не смогут заставить все эти ужасы исчезнуть...
 Resisting the unknown horror was taking its toll on your health. Weakened, you finally succumb to your injuries, alone. As the dust settles upon your open eyes, reality starts to crumble.<#>Сопротивление неизвестным ужасам повлияло на ваше здоровье. Без сил, вы наконец поддаётесь своим травмам, в одиночестве. Когда пыль оседает на ваших открытых глазах, реальность начинает рушиться.
 OLD GOD is ready to return once more...<#>ДРЕВНИЙ БОГ готов в очередной раз вернуться...
 As the sounds get unbearably loud, your knees suddenly collapse. Your inner ears burst and steaming blood starts gushing from your auditory canal, nose, and mouth!<#>По мере того, как звук становится невыносимо громким, ваши колени подкашиваются. Ваши перепонки лопаются, и кипящая кровь хлещет из ушей, носа и рта!
@@ -35,7 +35,7 @@ When you enter the room, someone hits you in the head. When you wake up, you rea
 <<We're not accepting new members now... >> she says, raising a ritual dagger.#<<...but you will help us, one way or another.>><#>«Мы пока что не принимаем новых членов...» - говорит она, поднимая ритуальный кинжал.#«...но так или иначе, ты сыграешь свою роль.»
 Later, you wake up aboard a spaceship. The XENOSHIBA CAPTAIN explains to you that Earth is doomed and that they are abducting exceptional individuals to populate a new planet.<#>Позже, вы просыпаетесь на борту космического корабля. КАПИТАН КСЕНОСИБА объясняет вам, что Земля обречена, и они похищают исключительных людей, чтобы заселить новую планету.
 Your new space adventure will continue in GALAXY OF HORROR! (coming soon)<#>Ваше новое космическое приключение продолжится в ГАЛАКТИКЕ УЖАСА! (скоро в продаже)
-Under the mysterious ATH-YOLAZSTH's influence, the city is engulfed in chaos.#All the eldritch magic made our planet a bright waypoint for the bloated OLD GOD...<#>Под действием загадочного АТХ-ЙОЛАЗСТХА город погружается в хаос.#Потусторонняя магия сделала нашу планету привлекательным местом для раздутого ДРЕВНЕГО БОГА...
+Under the mysterious ATH-YOLAZSTH's influence, the city is engulfed in chaos.#All the eldritch magic made our planet a bright waypoint for the bloated OLD GOD...<#>Под действием загадочного АТХ-ЙОЛАЗТА город погружается в хаос.#Потусторонняя магия сделала нашу планету привлекательным местом для раздутого ДРЕВНЕГО БОГА...
 ...and a tasty treat.#Within the next ten years, Earth will be devoured and there's nothing you can do about it anymore.<#>...а также вкусным угощением. В следующие 10 лет Земля будет полностью поглощена, и вы уже ничего не сможете с этим сделать.
 CTHAC-ATORASU is free once again! The invisible strands of the spider web slowly cover the entire city, entrapping everyone - including you...<#>КТХАК-АТОРАСУ снова свободен! Невидимые пряди паучьей паутины медленно покрывают город целиком, пленя всех - включая вас...
 Wrapped in a cocoon, suspended in a near-death state you will wait days, months, or maybe years until it's finally your turn to be eaten.<#>В коконе, находясь на грани смерти, вы проведёте здесь дни, месяцы, а может и годы, перед тем как придёт ваш черёд стать ужином...
@@ -61,7 +61,7 @@ STAMINA loss<#>потеря ВЫНОСЛИВОСТИ
 REASON loss<#>потеря РАССУДКА
 unknown<#>неизвестно
 OLD GOD awakening<#>пробуждение ДРЕВНЕГО БОГА
-Earth devoured by ATH-YOLAZSTH<#>Земля поглощена АТХ-ЙОЛАЗСТХОМ
+Earth devoured by ATH-YOLAZSTH<#>Земля поглощена АТХ-ЙОЛАЗТОМ
 Organs liquified by CTHAC-ATORASU's venom<#>Органы разжижены ядом КТХАКА-АТОРАСУ
 Killed by the SCISSOR WOMAN<#>Убила ЖЕНЩИНА С НОЖНИЦАМИ
 Lost in the Otherworld<#>Потерялись в Ином мире
@@ -116,13 +116,13 @@ Final log entries<#>Последние записи в журнале
 Backstory<#>Предыстория
 Summoned OLD GOD<#>Призванный ДРЕВНИЙ БОГ
 In this run<#>В этом забеге
-Your playthrough lasted<#>Ваше прохождение продлилось
+Your playthrough lasted<#>Ваш забег продлился
 Level<#>Уровень
 Cause of death<#>Причина смерти
 That's not the only mystery plaguing this town,#you must continue your investigation...<#>Это не единственная тайна, терзающая этот город -#вы должны продолжить расследование...
 Take your time, go outside, take a nap. This doomed town isn't going anywhere...<#>Не торопитесь, выйдите на улицу, вздремните. Этот обречённый город никуда не денется...
 (additional modes will unlock as you progress)<#>(дополнительные режимы будут открываться по мере вашего продвижения)
-The game begins with a ritual. You can choose which OLD GOD will be summoned.##This selection will influence encounters and add unique events to your playthrough.<#>Игра начинается с ритуала. Вы можете выбрать, какой ДРЕВНИЙ БОГ будет призван.##Этот выбор повлияет на столкновения и добавит уникальные события в ваше прохождение.
+The game begins with a ritual. You can choose which OLD GOD will be summoned.##This selection will influence encounters and add unique events to your playthrough.<#>Игра начинается с ритуала. Вы можете выбрать, какой ДРЕВНИЙ БОГ будет призван.##Этот выбор повлияет на встречаемых врагов и добавит уникальные события в ваш забег.
 It seems that no one wants to reclaim a certain black suitcase. What could be inside?<#>Похоже, что никому не нужен этот чёрный чемодан. Что может быть внутри?
 An old journalist keeps mentioning an old case.<#>Старый журналист продолжает упоминать о старом деле.
 Old teacher left our town in a hurry. Did she leave any clues?<#>Прошлая учительница в спешке покинула наш город. Оставила ли она какие-нибудь зацепки?
@@ -135,7 +135,7 @@ A curious red tree has appeared on the crossroad.#Is that a sign?<#>Любопы
 Police have found an empty tent. What could've happened to the owner?<#>Полиция нашла пустую палатку. Что случилось с её хозяином?
 Many mansions around a certain lake have been deserted in the last 10 years. Why?<#>За последние 10 лет рядом с озером многие поместья оказались заброшены. Почему?
 A huge fire has consumed a wing of a mansion, revealing countless human bones...<#>Огромный пожар поглощает крыло поместья, обнажая бесчисленные человеческие кости...
-A priestess was reported missing. Does it have to do with the ongoing harvest festival?<#>Священнослужительница пропала. Связано ли это как-то с праздником урожая?
+A priestess was reported missing. Does it have to do with the ongoing harvest festival?<#>Жрица пропала без вести. Связано ли это как-то с праздником урожая?
 A reporter from Tokyo is making a documentary about local legends. You should get in contact with her.<#>Репортёр из Токио снимает документальный фильм о местных легендах. Вы должны с ней связаться.
 Your neighbor, OOO-san, has been acting really strange lately.##Why is that?<#>Ваш сосед, ООО-сан, ведёт себя странно в последнее время.##Что с ним случилось?
 A new family moved in above you last week. You don't like the sounds you hear at night.<#>На прошлой неделе новая семья въехала в квартиру этажом выше. Вам не нравятся звуки, которые вы слышите по ночам.
@@ -156,8 +156,8 @@ You are thinking about spending some time with your family living in a nearby to
 SAVE AND EXIT<#>СОХР. И ВЫЙТИ
 (disabled)<#>(отключено)
 go back<#>вернуться
-THIS PLAYTHROUGH'S NEW MECHANICS<#>НОВЫЕ МЕХАНИКИ ЭТОГО ПРОХОЖДЕНИЯ
-This character is described by a new stat, FAITH (FTH).#It starts at 5 but depending on your actions, it can drop into negative values, representing your slowly crumbling faith.#There are different bonuses and penalties that vary with the FAITH level. You can check the current status by hovering the cursor over the new stat.<#>У этого персонажа присутствует новая характеристика, ВЕРА (ВЕР).#Она начинается на отметке в 5, но в зависимости от ваших действий, она может опуститься до негативных значений, представляя вашу медленно угасающую веру.#В зависимости от уровня ВЕРЫ вы будете получать различные бонусы или штрафы. Вы можете проверить текущий статус, наведя курсор на новую характеристику.
+THIS PLAYTHROUGH'S NEW MECHANICS<#>НОВЫЕ МЕХАНИКИ ЭТОГО ЗАБЕГА
+This character is described by a new stat, FAITH (FTH).#It starts at 5 but depending on your actions, it can drop into negative values, representing your slowly crumbling faith.#There are different bonuses and penalties that vary with the FAITH level. You can check the current status by hovering the cursor over the new stat.<#>У этого персонажа присутствует новая характеристика, ВЕРА (ВЕР).#Она начинается на отметке в 5, но в зависимости от ваших действий, она может опуститься до отрицательных значений, представляя вашу медленно угасающую веру.#В зависимости от уровня ВЕРЫ вы будете получать различные бонусы или штрафы. Вы можете проверить текущий статус, наведя курсор на новую характеристику.
 Swallowed by The Perfect Form<#>Поглощение идеальной формой
 THE MISSING STARS<#>ПРОПАВШИЕ ЗВЁЗДЫ
 [WRONG BOOK!]<#>НЕ ТА КНИГА!
@@ -167,13 +167,13 @@ COOK BOOK<#>КУЛИНАРНАЯ КНИГА
 You won't find any eldritch secrets inside this book. Maybe you can use it some other way?#[NECRONOMICON pages are useless in this playthrough but every investigation you have a 10% chance of creating a FOOD item]<#>В этой книге вы не найдёте никаких потусторонних секретов. Возможно вы могли бы использовать её как-то по-другому?#[страницы НЕКРОНОМИКОНА бесполезны в этом прохождении, но при каждом исследовании локации, у вас есть 10%-й шанс создать ЕДУ]
 Let's cook something new...<#>Приготовим что-нибудь новое...
 INVESTIGATE<#>ИССЛЕДОВАТЬ
-[[SAFE]]<#>БЕЗОПАСНО
-no modifiers to skill checks<#>нет модификаторов к проверкам навыков
-[[LOW]]<#>ЛЕГКО
--1 modifier to all skill checks<#>модификатор -1 ко всем проверкам навыков
-[[DANGEROUS]]<#>ОПАСНО
--1 modifier to all skill checks#---#STAMINA/REASON penalties increased<#>модификатор -1 ко всем проверкам навыков#---#штрафы к ВЫНОСЛИВОСТИ/РАССУДКУ увеличены
-[[DOOMED]]<#>РОК
--2 modifier to all skill checks#---#STAMINA/REASON penalties increased#---#DOOM penalty for investigating this location<#>модификатор -2 ко всем проверкам навыков#---#штрафы к ВЫНОСЛИВОСТИ/РАССУДКУ увеличены#---#увеличенный прирост РОКА за исследование этой локации
-To advance this mystery, use the ENTER additional action while at the hospital to find your friend...<#>Для продвижения в этой тайне, используйте дополнительное действие ВХОДА в госпитале, чтобы найти своего друга...
+[[SAFE]]<#>(БЕЗОПАСНО)
+no modifiers to skill checks<#>нет модификаторов к проверкам характеристик
+[[LOW]]<#>(ЛЕГКО)
+-1 modifier to all skill checks<#>модификатор -1 ко всем проверкам характеристик
+[[DANGEROUS]]<#>(ОПАСНО)
+-1 modifier to all skill checks#---#STAMINA/REASON penalties increased<#>модификатор -1 ко всем проверкам характеристик#---#штрафы к ВЫНОСЛИВОСТИ/РАССУДКУ увеличены
+[[DOOMED]]<#>(РОК)
+-2 modifier to all skill checks#---#STAMINA/REASON penalties increased#---#DOOM penalty for investigating this location<#>модификатор -2 ко всем проверкам характеристик#---#штрафы к ВЫНОСЛИВОСТИ/РАССУДКУ увеличены#---#увеличенный прирост РОКА за исследование этой локации
+To advance this mystery, use the ENTER additional action while at the hospital to find your friend...<#>Для продвижения в этой тайне, используйте дополнительное действие ВХОДА в больнице, чтобы найти свою подругу...
 To advance this mystery, investigate the circled location. As you progress, the location and the rules may change.<#>Для продвижения в этой тайне, исследуйте обозначенную локацию. По мере вашего прогресса локация и правила могут поменяться.

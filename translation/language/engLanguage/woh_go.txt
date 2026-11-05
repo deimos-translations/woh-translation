@@ -13,7 +13,7 @@ GORE-COVERED STUDENT stabs you!<#>КРОВАВАЯ УЧЕНИЦА пронзае
 GORE-COVERED STUDENT kicks you!<#>КРОВАВАЯ УЧЕНИЦА пинает вас!
 TRAGIC TALE OF THE THAUMATURGY TEACHER<#>ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ
 2-B used to be one of the most outstanding classes in the school.##At least before their teacher's disappearance.<#>2Б был одним из самых выдающихся классов школы.##По крайней мере до того, как руководитель этого класса пропал.
-Her replacement glides through the school, entrancing all those around her with her soft voice and calming emotionless eyes.<#>Теперь по школе грациозно бродит его замена, очаровывая всех окружающих мягким голосом и успокаивающими, бесстрастными глазами.
+Her replacement glides through the school, entrancing all those around her with her soft voice and calming emotionless eyes.<#>Теперь по школе грациозно бродит её замена, очаровывая всех окружающих мягким голосом и успокаивающими, бесстрастными глазами.
 Now, she stands at the front of the class, scribbling occult symbols in chalk and hissing lessons about the old gods.##The children no longer play, but sit in their seats until dark, chanting along. Learning of their eldritch masters and preparing to serve them…<#>Она стоит перед классом, рисуя оккультные символы на доске, проводя уроки о древних богах.##Дети больше не дурачатся, а сидят на своих местах до темноты, подпевая. Изучая своих сверхъестественных хозяев и готовясь служить им...
 Following a rumor, you visit the house of a schoolgirl who acted really strange in class.<#>Следуя слухам, вы посещаете дом школьницы, которая странно вела себя в классе.
 The girl's parents sit crying in the living room, and fearfully point you upstairs.<#>Родители девочки, рыдая, сидят в гостиной и со страхом указывают вам наверх.
@@ -21,7 +21,7 @@ She sits in her bedroom in a bloodstained uniform, a dead rat lying in her hands
 Another lead, the former teacher of the class may prove more useful.<#>Другая зацепка - бывший классный руководитель - может оказаться более полезной.
 Knocking on their door, however, gets you no answer.##Just subtle chittering behind the door.<#>Однако на стук в его дверь вы не получаете ответа.##Слышно лишь тихое бормотание за дверью.
 A little boy from the school has been attacked by his classmates.<#>На одного мальчика напали собственные одноклассники.
-You find him in the hospital covered in bites.##Just what is with this whole 'summoning' that he speaks of between his sobs?<#>Вы находите его в госпитале, всего в ранах от укусов.##Только вот, что означает весь этот «призыв», о котором он говорит между всхлипами?
+You find him in the hospital covered in bites.##Just what is with this whole 'summoning' that he speaks of between his sobs?<#>Вы находите его в больнице, всего в ранах от укусов.##Только вот, что означает весь этот «призыв», о котором он говорит между всхлипами?
 With no other ideas, you decide to wait outside the school itself.<#>Не имея других вариантов, вы решаете ждать рядом со школой.
 The faint chanting doesn't stop and no one enters or leaves the building.<#>Слабое пение изнутри не затихает, и никто не входит и не выходит из здания.
 You hear a scream coming from the school! It's time to enter…<#>Из школы доносится крик! Пора войти...

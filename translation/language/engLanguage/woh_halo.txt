@@ -66,7 +66,7 @@ family's fortune<#>семейное состояние
 BASEBALL<#>БЕЙСБОЛЬНЫЙ МЯЧ
 (use in combat): lower the ENEMY's power down to 0<#>(использование в бою): понижает силу ВРАГА до 0
 <<I'm not the best pitcher but it must be enough.>><#>«Я не лучший подающий, но этого броска должно хватить.»
-You throw the BASEBALL at your enemy!<#>Вы отправляете БЕЙСБОЛЬНЫЙ МЯЧ во врага!
+You throw the BASEBALL at your enemy!<#>Вы кидаете БЕЙСБОЛЬНЫЙ МЯЧ во врага!
 only one I got<#>единственный, что у меня есть
 FAVORITE SNACKS<#>ЛЮБИМЫЙ ПЕРЕКУС
 (use): +3 REASON and STAMINA<#>(использовать): восстанавливает 3 РАССУДКА и ВЫНОСЛИВОСТИ
@@ -74,12 +74,12 @@ FAVORITE SNACKS<#>ЛЮБИМЫЙ ПЕРЕКУС
 You eat your FAVORITE SNACKS.<#>Вы съедаете ваш ЛЮБИМЫЙ ПЕРЕКУС.
 yum yum<#>«Ням-ням!»
 You rummage through your belongings trying to find anything that will help you.<#>Вы роетесь в своих вещах, пытаясь найти что-нибудь полезное.
-You finally pick up<#>Наконец вы подбираете предмет - 
-Hopefully, it will be enough.#(+5% DOOM)<#>Хочется надеяться, что этого будет достаточно.#(+5% РОКА)
-You don't find anything except some loose change laying around.#(+1 FUNDS / +2% DOOM)<#>Вы не находите ничего, кроме какой-то мелочи.#(+1 СРЕДСТВ, +2% РОКА)
+You finally pick up<#>Наконец вы берёте вещь - 
+Hopefully, it will be enough.#(+5% DOOM)<#>Хочется надеяться, что этого хватит.#(+5% РОКА)
+You don't find anything except some loose change laying around.#(+1 FUNDS / +2% DOOM)<#>Вы не находите ничего, кроме мелочи.#(+1 СРЕДСТВ, +2% РОКА)
 It's dangerous here, your STAMINA penalty increased!<#>Здесь опасно, штраф к вашей ВЫНОСЛИВОСТИ увеличен!
 It's dangerous here, your REASON penalty increased!<#>Здесь опасно, штраф к вашему РАССУДКУ увеличен!
-#[DOOM EFFIGY]: DOOM lowered<#>#КУКЛА РОКА: РОК отсрочен
+#[DOOM EFFIGY]: DOOM lowered<#>#(КУКЛА РОКА): РОК отсрочен
 SKIP SUITCASE SCREEN: ON/OFF<#>ПРОПУСТИТЬ ЭКРАН С ЧЕМОДАНОМ: ВКЛ/ВЫКЛ
 SKIP CARD PACK SCREEN: ON/OFF#(all packs enabled)<#>ПРОПУСТИТЬ ЭКРАН НАБОРА КАРТ: ВКЛ/ВЫКЛ#(все наборы включены)
 CREEPY NEIGHBOR: ON/OFF<#>ЖУТКИЙ СОСЕД: ВКЛ/ВЫКЛ
@@ -89,8 +89,8 @@ SKIP PLAYTHROUGH INTRO<#>ПРОПУСКАТЬ ИНТРО В ЗАБЕГАХ
 SKIP MYSTERY TUTORIAL<#>ПРОПУСКАТЬ ОБУЧЕНИЕ В ТАЙНАХ
 MOUSE TRAIL: ON/OFF<#>СЛЕД ОТ МЫШИ: ВКЛ/ВЫКЛ
 SKIP PALETTE CUSTOMIZATION<#>ПРОПУСКАТЬ НАСТРОЙКУ ПАЛИТРЫ
-EXTRA MATH DISPLAYED: ON/OFF<#>ОТОБРАЖАТЬ ДОПОЛНИТЕЛЬНУЮ МАТЕМАТИКУ: ВКЛ/ВЫКЛ
-EXTRA INFORMATION DISPLAYED: ON/OFF<#>ОТОБРАЖАТЬ ДОПОЛНИТЕЛЬНУЮ ИНФОРМАЦИЮ: ВКЛ/ВЫКЛ
+EXTRA MATH DISPLAYED: ON/OFF<#>ОТОБРАЖАТЬ ДОП. МАТЕМАТИКУ: ВКЛ/ВЫКЛ
+EXTRA INFORMATION DISPLAYED: ON/OFF<#>ОТОБРАЖАТЬ ДОП. ИНФОРМАЦИЮ: ВКЛ/ВЫКЛ
 HOME<#>ДОМ
 DOWNTOWN<#>ДЕЛОВОЙ РАЙОН
 SCHOOL<#>ШКОЛА
@@ -105,10 +105,10 @@ SEED<#>СИД
 LEVEL<#>УРОВЕНЬ
 IMPENDING DOOM<#>УРОВЕНЬ РОКА
 select OLD GOD<#>выберите БОГА
-AVAILABLE PERKS<#>ДОСТУПНЫЕ НАВЫКИ
-You've advanced to the next experience level.#Choose one perk and one stat upgrade.##[CHOSEN:<#>Вы продвинулись на следующий уровень.#Выберите один навык и одно улучшение характеристики.##[ВЫБРАНО:
-(select perk and stat)<#>(выберите навык и хар-ку)
-REROLL PERKS<#>ПОМЕНЯТЬ НАВЫКИ
+AVAILABLE PERKS<#>ДОСТУПНЫЕ СПОСОБНОСТИ
+You've advanced to the next experience level.#Choose one perk and one stat upgrade.##[CHOSEN:<#>Вы продвинулись на следующий уровень.#Выберите одну способность и одно улучшение характеристики.##[ВЫБРАНО:
+(select perk and stat)<#>(выберите способность и хар-ку)
+REROLL PERKS<#>ПОМЕНЯТЬ СПОСОБНОСТИ
 +4% DOOM<#>+4% РОКА
 The group must be there somewhere...<#>Группа должна быть где-то там...
 [click a square to explore it]<#>(щёлкните по квадрату, чтобы начать исследование)

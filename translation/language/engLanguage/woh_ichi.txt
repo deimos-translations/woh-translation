@@ -3,12 +3,12 @@ Name: YUMIKO ICHIMURA#20 / FEMALE #When her twin brother suddenly disappeared du
 + STRENGTH#- KNOWLEDGE#starts with LUCKY BAT<#>+ СИЛА#- ИНТЕЛЛЕКТ#начинает со СЧАСТЛИВОЙ БИТОЙ
 YUMIKO<#>ЮМИКО
 NEIGHBOR<#>СОСЕДКА
-Name: KANA#?? / ?? #Neighbor has gone missing while investigating a weird case. KANA is determined to find and rescue them.<#>Имя: КАНА#??, ??#Один из соседей пропал при расследовании загадочного дела. КАНА полна решимости найти и спасти его.
+Name: KANA#?? / ?? #Neighbor has gone missing while investigating a weird case. KANA is determined to find and rescue them.<#>Имя: КАНА#??, ??#Один из её соседей пропал при расследовании загадочного дела. КАНА полна решимости найти и спасти его.
 + FUN#- EYE#starts with SOFT DRINK<#>+ ВЕСЕЛЬЕ#- ГЛАЗ#начинает с ГАЗИРОВКОЙ
 KANA<#>КАНА
 KANA: <<This is not the end.>> (+5% DOOM)<#>КАНА: «Это ещё не конец.» (+5% РОКА)
 SWING AND HIT<#>ВЗМАХ И УДАР
-PREPARE ATTACK combat action increases the damage of the next weapon attack by 2<#>боевое действие ПРИГОТОВИТЬСЯ К АТАКЕ увеличивает урон следующей атаки ОРУЖИЕМ на 2
+PREPARE ATTACK combat action increases the damage of the next weapon attack by 2<#>боевое действие ПОДГОТОВКА АТАКИ увеличивает урон следующей атаки ОРУЖИЕМ на 2
 SWIFT MANEUVER<#>СТРЕМИТЕЛЬНЫЙ МАНЁВР
 DODGE combat action chance increased by 10%<#>шанс успешного УКЛОНЕНИЯ в бою увеличивается на 10%
 THIRD PERK OF YUMI<#>ТРЕТЬЯ СПОСОБНОСТЬ ЮМИ
@@ -25,7 +25,7 @@ BLOOD FRENZY<#>КРОВАВОЕ БЕЗУМИЕ
 <<is that paint?>><#>«Это краска?..»
 EIMI<#>ЭЙМИ
 completing a mystery regains 1 REASON<#>(в конце каждой тайны): восстанавливает 1 РАССУДКА
-<<thanks for saving me>><#>«Спасибо, что спасли меня.»
+<<thanks for saving me>><#>«Спасибо, что спасли меня»
 [gallery curator]<#>(куратор галереи)
 #[EIMI]: +1 REASON<#>#ЭЙМИ: +1 РАССУДКА
 UCHIDA<#>УЧИДА
@@ -58,7 +58,7 @@ KABUKI KILLER stabs you with his knife!<#>УБИЙЦА КАБУКИ ударяе
 KABUKI KILLER slashes you across the face!<#>УБИЙЦА КАБУКИ разрезает вам лицо!
 KABUKI KILLER kicks you in your leg!<#>УБИЙЦА КАБУКИ пинает вас по ноге!
 UNFINISHED CHILD<#>НЕЗАВЕРШЁННОЕ ДИТЯ
-The masked man jumps from behind the door and you barely dodge his blade!#The KABUKI KILLER takes a step back, revealing his gruesome artwork - an unfinished statue of a child made of human nails.##Suddenly, the statue springs to life and bites the man's neck! The serial killer is visibly confused and tries to stop the bleeding as a geyser of blood paints the whole mortuary red.##The being's face slowly turns towards you...<#>Человек в маске выпрыгивает из-за двери, и вы едва уклоняетесь от его клинка!#УБИЙЦА КАБУКИ делает шаг назад, обличая своё жуткое произведение - незаконченную статую ребёнка, сделанную из человеческих ногтей.##Внезапно, статуя оживает и кусает мужчину за шею! Серийный убийца заметно потрясён и пытается остановить кровотечение, когда фонтан крови окрашивает весь морг в цвет крови.##Лицо создания медленно поворачивается к вам...
+The masked man jumps from behind the door and you barely dodge his blade!#The KABUKI KILLER takes a step back, revealing his gruesome artwork - an unfinished statue of a child made of human nails.##Suddenly, the statue springs to life and bites the man's neck! The serial killer is visibly confused and tries to stop the bleeding as a geyser of blood paints the whole mortuary red.##The being's face slowly turns towards you...<#>Человек в маске выпрыгивает из-за двери, и вы едва уклоняетесь от его клинка!#УБИЙЦА КАБУКИ делает шаг назад, обличая своё жуткое произведение - незаконченную статую ребёнка, сделанную из человеческих ногтей.##Внезапно, статуя оживает и кусает мужчину за шею! Серийный убийца заметно потрясён и пытается остановить кровотечение, пока фонтан крови окрашивает стены морга.##Создание медленно поворачивается к вам...
 MANA SHIRAISHI was the KABUKI KILLER's daughter. The thing standing in front of you is her grotesque caricature.<#>МАНА СИРАИСИ была дочерью УБИЙЦЫ КАБУКИ. Создание, стоящее перед вами - её гротескная карикатура.
 UNFINISHED CHILD bites your arm!<#>НЕЗАВЕРШЁННОЕ ДИТЯ кусает вас за руку!
 UNFINISHED CHILD scratches you!<#>НЕЗАВЕРШЁННОЕ ДИТЯ царапает вас!
@@ -92,7 +92,7 @@ At the end of the mystery, raise the DOOM by:<#>В конце тайны, при
 MISERY PARASITE<#>ПАРАЗИТ СТРАДАНИЙ
 MISERY PARASITE grows larger...<#>ПАРАЗИТ СТРАДАНИЙ растёт...
 DOOM<#>РОК
-It was only a matter of time. The MISERY PARASITES took almost everything from you. The last thing they took, after weeks of torture, was your life.<#>Это был лишь вопрос времени. ПАРАЗИТ СТРАДАНИЙ забрал у вас почти всё. Спустя недели пыток, последнее, что он забрал - ваша жизнь.
+It was only a matter of time. The MISERY PARASITES took almost everything from you. The last thing they took, after weeks of torture, was your life.<#>Это был лишь вопрос времени. ПАРАЗИТ СТРАДАНИЙ забрал у вас почти всё. Спустя недели пыток, он, наконец, забрал у вас последнее - жизнь.
 Once a human being, now you've become one with the God of the Inconceivable Sadness.<#>Некогда будучи человеком, теперь вы стали едины с Богом Непостижимой Печали.
 Inconceivable Sadness<#>Непостижимая Печаль
 if the mystery ended right now, DOOM would raise by<#>если тайна будет завершена сейчас, РОК приблизится на

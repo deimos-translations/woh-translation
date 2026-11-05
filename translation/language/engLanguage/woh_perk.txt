@@ -1,12 +1,12 @@
 [UPGRADE]<#>(УЛУЧШЕНИЕ)
-SECOND SIGHT<#>ЯСНОВИДЕНИЕ
+SECOND SIGHT<#>ШЕСТОЕ ЧУВСТВО
 additional damage against GHOST and ELDRITCH enemies<#>вы наносите дополнительный урон в бою с ПРИЗРАКАМИ и ПОТУСТОРОННИМ
 SELF-THERAPY<#>САМОТЕРАПИЯ
 forgetting spells regains extra REASON<#>забывание ЗАКЛИНАНИЙ восстанавливает дополнительный РАССУДОК
 Your self-therapy allows you to forget all this! (+2 REASON)<#>Самотерапия позволяет всё это забыть! (+2 РАССУДКА)
-GHOST CONNECTION<#>СВЯЗЬ С ПРИВЕДЕНИЯМИ
+GHOST CONNECTION<#>СВЯЗЬ С ПРИВИДЕНИЯМИ
 completing a mystery grants a random SPELL<#>(в конце каждой тайны): даёт случайное ЗАКЛИНАНИЕ
-[GHOST CONNECTION] You learn something new!<#>(СВЯЗЬ С ПРИВЕДЕНИЯМИ): вы выучили что-то новое!
+[GHOST CONNECTION] You learn something new!<#>(СВЯЗЬ С ПРИВИДЕНИЯМИ): вы выучили что-то новое!
 ARCANE GRASP<#>МИСТИЦИЗМ
 +2 additional SPELL slots available<#>+2 дополнительных слота ЗАКЛИНАНИЙ
 RUNNING SHOES<#>БЕГОВЫЕ КРОССОВКИ
@@ -45,7 +45,7 @@ IMPROVISE<#>ИМПРОВИЗАЦИЯ
 throwing ITEMS during combat encounters is more effective<#>брошенные в бою ПРЕДМЕТЫ наносят больше УРОНА
 FAST LEARNER<#>СХВАТЫВАНИЕ НА ЛЕТУ
 taking damage in combat grants a small experience bonus<#>получение УРОНА в бою даёт вам немного ОПЫТА
-ANATOMY CLASS<#>УРОКИ АНАТОМИИ
+ANATOMY CLASS<#>КУРСЫ АНАТОМИИ
 extra damage against HUMAN enemies<#>вы наносите одну дополнительную единицу УРОНА в бою с ЛЮДЬМИ
 FIRST AID<#>ПЕРВАЯ ПОМОЩЬ
 defeating an enemy regains 2 REASON<#>победа над врагом восстанавливает 2 РАССУДКА
@@ -140,13 +140,13 @@ You've always been winging it and it finally pays off. (+5 EXP)<#>Вам все�
 --TREATMENT--##<#>--ЛЕЧЕНИЕ--##
 STABLE CONDITION<#>СТАБИЛЬНОЕ СОСТОЯНИЕ
 (discard): nothing happens<#>(избавиться): ничего не произойдёт
-HASTY AID<#>НЕКАЧЕСТВЕННОЕ ЛЕЧЕНИЕ
+HASTY AID<#>ПЛОХОЕ ЛЕЧЕНИЕ
 when taking STAMINA damage in combat, replace HASTY AID with a new random INJURY<#>когда вы получаете урон по ВЫНОСЛИВОСТИ в бою, заменяет статус новой случайной ТРАВМОЙ
 BADLY BRUISED<#>СИЛЬНЫЙ УШИБ
 -1 STRENGTH until the end of the current mystery<#>(до конца текущей тайны): -1 СИЛЫ
 BLOOD LOSS<#>ПОТЕРЯ КРОВИ
 -10% MAX STAMINA<#>-10% МАКС. ВЫНОСЛИВОСТИ
-DISCHARGE SUMMARY<#>ДОКУМЕНТ О ВЫПИСКЕ
+DISCHARGE SUMMARY<#>СПРАВКА О ВЫПИСКЕ
 (discard): +20 EXP<#>(выбросить): +20 ОПЫТА
 HORRIBLE MEMORIES<#>УЖАСНЫЕ ВОСПОМИНАНИЯ
 [they didn't have any anesthetics left]#-1 MAX REASON<#>(у них в запасе не было анестезии)#-1 МАКС. РАССУДКА
@@ -324,7 +324,7 @@ While classes will continue in an old wing, no student will gather in the school
 While classes will continue in an old wing, no student will gather in the schoolyard.<#>Пока уроки проходят в старом крыле, ученики больше не будут собираться на школьном дворе.
 「RIOTS」<#>БУНТЫ
 Dangerous bands of rioters gather around the DOWNTOWN area.<#>Опасные банды бунтарей собираются вокруг ДЕЛОВОГО РАЙОНА.
-Dangerous bands of rioters are gathering around the downtown area. The police are hopeless...<#>Опасные банды бунтарей собираются вокруг делового района. Полиция безнадежна...
+Dangerous bands of rioters are gathering around the downtown area. The police are hopeless...<#>Опасные банды бунтарей собираются вокруг делового района. Полиция безнадёжна...
 「WINDS OF PLAGUE」<#>ЧУМНОЙ ВЕТЕР
 TREATMENT and SURGERY actions cost more<#>Действия ЛЕЧЕНИЯ и ОПЕРАЦИИ теперь стоят дороже.
 A weird epidemic keeps staff at the hospital busy. Skipping the line will cost you more...<#>Странная эпидемия добавляет работы персоналу больницы. Проход вне очереди будет стоить вам больше...

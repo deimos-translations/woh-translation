@@ -1,12 +1,12 @@
 HUNTED HEIRESS<#>ПРЕСЛЕДУЕМАЯ НАСЛЕДНИЦА
-Name: JURI OKUSAWA#21 / FEMALE# #Something terrible is stalking JURI and with each passing day, its presence is getting nearer and nearer...<#>Имя: ЮРИ ОКУСАВА#21, ЖЕНЩИНА##Каждый день нечто ужасное преследует ЮРИ, и его присутствие становится всё ближе и ближе...
+Name: JURI OKUSAWA#21 / FEMALE# #Something terrible is stalking JURI and with each passing day, its presence is getting nearer and nearer...<#>Имя: ЮРИ ОКУСАВА#21, ЖЕНЩИНА##Каждый день нечто ужасное преследует ЮРИ, и оно приближается всё быстрее...
 + PERCEPTION#- DEXTERITY#starts with FAMILY CURSE<#>+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с СЕМЕЙНЫМ ПРОКЛЯТИЕМ
 JURI<#>ЮРИ
 RUNAWAY JACKET<#>КУРТКА БЕГЛЕЦА
-ATTACK THE TEACHER<#>АТАКОВАТЬ УЧИТЕЛЯ
-Maybe if you defeat them, the horror will end?<#>Может, если вы его победите, этот ужас закончится?..
-You attack the teacher, dealing 7 DAMAGE.<#>Вы атаковали учителя, нанеся 7 УРОНА.
-You attack the teacher, dealing 10 DAMAGE.<#>Вы атаковали учителя, нанеся 10 УРОНА.
+ATTACK THE TEACHER<#>АТАКОВАТЬ УЧИТЕЛЬНИЦУ
+Maybe if you defeat them, the horror will end?<#>Может, если вы её победите, этот ужас закончится?..
+You attack the teacher, dealing 7 DAMAGE.<#>Вы атаковали учительницу, нанеся 7 УРОНА.
+You attack the teacher, dealing 10 DAMAGE.<#>Вы атаковали учительницу, нанеся 10 УРОНА.
 MAGICK SWEATER<#>МАГИЧЕСКИЙ СВИТЕР
 The HORROR is slowly getting closer.<#>УЖАС медленно приближается.
 It's too late now.<#>Уже слишком поздно.

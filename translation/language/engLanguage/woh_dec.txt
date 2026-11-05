@@ -1,8 +1,8 @@
 ---KTU-RUFU, THE DREAMING---<#>---КТУ-РУФУ, СПЯЩИЙ---
-The gargantuan body of KTU-RUFU lies submerged within a sunken city, where its boundless reveries sow turmoil and insanity. When the stars are right, KTU-RUFU will awaken once more, and the nightmare shall begin...<#>Гигантское тело КТУ-РУФУ лежит погребённым в затонувшем городе, а его безгранные грёзы сеют смятение и безумие. Когда звёзды сойдутся, КТУ-РУФУ снова пробудится, и кошмарам будет суждено сбыться...
+The gargantuan body of KTU-RUFU lies submerged within a sunken city, where its boundless reveries sow turmoil and insanity. When the stars are right, KTU-RUFU will awaken once more, and the nightmare shall begin...<#>Гигантское тело КТУ-РУФУ лежит погребённым в затонувшем городе, а его всепоглощающие грёзы сеют смятение и безумие. Когда звёзды сойдутся, КТУ-РУФУ вновь пробудится, и кошмарам будет суждено сбыться...
 NIGHTMARES: Losing REASON raises DOOM.<#>КОШМАРЫ: потеря РАССУДКА приближает РОК.
 DREAMING OF SHIOKAWA<#>СНЫ О ШИОКАВЕ
-The gargantuan body of KTU-RUFU lies submerged within a sunken city, where its boundless reveries sow turmoil and insanity. When the stars are right, KTU-RUFU will awaken once more, and the nightmare shall begin...<#>Гигантское тело КТУ-РУФУ лежит погребённым в затонувшем городе, а его безгранные грёзы сеют смятение и безумие. Когда звёзды сойдутся, КТУ-РУФУ снова пробудится, и кошмарам будет суждено сбыться...
+The gargantuan body of KTU-RUFU lies submerged within a sunken city, where its boundless reveries sow turmoil and insanity. When the stars are right, KTU-RUFU will awaken once more, and the nightmare shall begin...<#>Гигантское тело КТУ-РУФУ лежит погребённым в затонувшем городе, а его всепоглощающие грёзы сеют смятение и безумие. Когда звёзды сойдутся, КТУ-РУФУ вновь пробудится, и кошмарам будет суждено сбыться...
 [losing REASON raises DOOM]<#>(потеря РАССУДКА приближает РОК)
 KTU-RUFU<#>КТУ-РУФУ
 The prophecy was right, and there was nothing you could do to stop it. KTU-RUFU's dream of SHIOKAWA has ended.<#>Пророчество было верно, и вы никак не могли помешать его исполнению.#Сон КТУ-РУФУ о ШИОКАВЕ закончился.
@@ -15,18 +15,18 @@ HALLUCINATIONS<#>ГАЛЛЮЦИНАЦИИ
 -1 PERCEPTION<#>-1 ВОСПРИЯТИЯ
 <<...he's not real...>><#>«...он не реален...»
 FLASHBACKS<#>ФЛЕШБЕКИ
--2 DEXTERITY#(discard): +4% DOOM<#>-2 ЛОВКОСТИ#(избавиться): +4% РОКА
+-2 DEXTERITY#(discard): +4% DOOM<#>-2 ЛОВКОСТИ#(выбросить): +4% РОКА
 <<they can't find the body>><#>«Они не найдут тело.»
 TAINTED VIOLIN<#>ЗАПЯТНАННАЯ СКРИПКА
 (equip): faster combat actions<#>(экипировано): действия в бою становятся быстрее
-Its wood has soaked in a curious dark red liquid.<#>Её корпус пропитан любопытной тёмно-красной жидкостью.
+Its wood has soaked in a curious dark red liquid.<#>Её корпус пропитан непонятной тёмно-красной жидкостью.
 You can't get the stains out.<#>Вы не можете вывести эти пятна.
 HOLY GLYPHS<#>СВЯЩЕННЫЕ СИМВОЛЫ
 lower DOOM by 1% for every item in your inventory#[discard on use]#[COST: 2 REASON]<#>отдаляет РОК на 1% за каждый предмет в вашем инвентаре#(одноразовое использование)#(СТОИМОСТЬ: 2 РАССУДКА)
 THE NORWEGIAN<#>НОРВЕЖЕЦ
 BAD DREAMS<#>СТРАШНЫЕ СНЫ
 Staying up is becoming harder and harder for you, but the horrible nightmares you've been having lately worry you.##What if you couldn't wake up from one?<#>Бодрствовать становится всё тяжелее и тяжелее с каждым днём, а вас постоянно беспокоят кошмары.##Что, если однажды вы застрянете в одном из них?
-give in; your body needs it<#>сдайтесь, ваше тело просит об этом...
+give in; your body needs it<#>сдаться, ваше тело просит об этом...
 you can't go to sleep now<#>сейчас нельзя спать
 Your nightmares are getting more realistic each time you close your eyes, but your body feels rested, and you're ready for action.#(+1 STAMINA / -3 REASON)<#>Ваши кошмары становятся всё реалистичнее каждый раз, как вы закрываете глаза. Так или иначе, ваше тело отдохнуло, и вы готовы действовать.#(+1 ВЫНОСЛИВОСТИ, -3 РАССУДКА)
 You drink another cup of coffee, praying that your body will get used to it.#(+STATUS)<#>Вы выпиваете очередную чашку кофе, молясь, что ваше тело привыкнет не спать.#(+СТАТУС)
@@ -46,7 +46,7 @@ fight against this feeling<#>бороться с этим чувством
 KTU-RUFU will rise once again and the world as you know it is about to be consumed by darkness!!#(+10 EXPERIENCE / +2% DOOM)<#>КТУ-РУФУ восстанет снова, и мир, который вы знаете, будет поглощён тьмой!#(+10 ОПЫТА, +2% РОКА)
 You try to fight it, to deny the hunger that can never be sated, but deep down, you know it's no use.##You slowly close your eyes...#(+3 EXPERIENCE)<#>Вы пытаетесь бороться, отрицать голод, который никогда не утолить, но глубоко внутри вы знаете, что это бесполезно.##Вы медленно закрываете глаза...#(+3 ОПЫТА)
 this can't be happening#this can't be happening#this can't be hap-##You open your eyes, half expecting to find yourself in the grip of a nightmare. But everything seems normal. Too normal.#(+4 REASON)<#>этого не может быть#этого не может быть#этого не может бы-##Вы открываете глаза, почти ожидая оказаться в хватке кошмара. Но всё кажется нормальным. Слишком нормальным.#(+4 РАССУДКА)
-The world around you warps and twists in a dizzying display of madness, pushing you to the brink of insanity. You try to hold on, but it's too much, and you collapse in a heap on the ground...###Suddenly, you're jolted back to reality by a police officer staring down at you with confusion and suspicion..#(-2 STAMINA)<#>Мир вокруг вас сжимается и скручивается в головокружительном безумии, толкая вас на грань безумия. Вы пытаетесь держать себя в руках, но мир давит на вас, и вы падаете на землю бесформенной кучей...###Внезапно, вас возвращает в реальность взгляд офицера полиции, уставившегося на вас в замешательстве и подозрении...#(-2 ВЫНОСЛИВОСТИ)
+The world around you warps and twists in a dizzying display of madness, pushing you to the brink of insanity. You try to hold on, but it's too much, and you collapse in a heap on the ground...###Suddenly, you're jolted back to reality by a police officer staring down at you with confusion and suspicion..#(-2 STAMINA)<#>Мир вокруг вас сжимается и скручивается в головокружительном безумии, толкая вас на грань. Вы пытаетесь держать себя в руках, но мир давит на вас, и вы падаете на землю бесформенной кучей...###Внезапно, вас возвращает в реальность взгляд офицера полиции, уставившегося на вас в замешательстве и подозрении...#(-2 ВЫНОСЛИВОСТИ)
 BOX CUTTER (BROKEN)<#>КАНЦЕЛЯРСКИЙ НОЖ (СЛОМАН)
 Your BOX CUTTER's blade broke!<#>Лезвие вашего КАНЦЕЛЯРСКОГО НОЖА сломалось!
 MIMI'S LITTLE PROJECT<#>МАЛЕНЬКИЙ ПРОЕКТ МИМИ
@@ -81,7 +81,7 @@ encounter three DREAM enemies in one playthrough<#>столкнитесь с т�
 KICK-BOX CUTTER<#>КИКБОКСОВЫЙ РЕЗАК
 deal 10 damage with a single kick<#>нанесите 10 урона одним безоружным ударом
 WELCOME TO THE FAMILY<#>ДОБРО ПОЖАЛОВАТЬ В СЕМЬЮ
-let the real JURI in<#>впустите настоящего ЮРИ
+let the real JURI in<#>впустите настоящую ЮРИ
 STEEL BOX<#>СТАЛЬНАЯ ПАЛКА
 break the blade<#>сломайте клинок
 CAN YOU TRUST THEM?<#>МОЖНО ЛИ ИМ ДОВЕРЯТЬ?
@@ -91,7 +91,7 @@ complete the [MIMI'S LITTLE PROJECT] challenge<#>завершите испыта
 CATCH ME IF YOU CAN<#>ПОЙМАЙ, ЕСЛИ СМОЖЕШЬ
 handcuff the ultimate opportunist<#>наденьте наручники на абсолютного оппортуниста
 RAIN OF SPIDERS<#>ДОЖДЬ ИЗ ПАУКОВ
-as YASHIRO, complete a TRUE BELIEVER playthrough with CTHAC-ATORASU as the OLD GOD<#>за ЯСИРО, завершите забег на сложности ИСТИННЫЙ ВЕРУЮЩИЙ с КТХАК-АТОРАСУ в качестве ДРЕВНЕГО БОГА
+as YASHIRO, complete a TRUE BELIEVER playthrough with CTHAC-ATORASU as the OLD GOD<#>за ЯШИРО, завершите забег на сложности ИСТИННО ВЕРУЮЩИЙ с КТХАК-АТОРАСУ в качестве ДРЕВНЕГО БОГА
 EXIT TO MENU<#>ВЫЙТИ В МЕНЮ
 EXIT (confirm)<#>ВЫЙТИ (подтвердить)
 EXTRA MATH DISPLAYED: ON/OFF<#>ОТОБРАЖЕНИЕ ДОП. МАТЕМАТИКИ: ВКЛ/ВЫКЛ

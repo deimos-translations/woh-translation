@@ -12,8 +12,8 @@ CONTINUE<#>ПРОДОЛЖИТЬ
 DISPLAY EXTRA MATH<#>ОТОБРАЖАТЬ ДОПОЛНИТЕЛЬНУЮ МАТЕМАТИКУ
 FULL SCREEN/WINDOWED<#>ПОЛНЫЙ ЭКРАН/В ОКНЕ
 FULL SCREEN STRETCH: ON/OFF<#>РАСТЯГИВАНИЕ ОКНА В ПОЛНОМ РЕЖИМЕ: ВКЛ/ВЫКЛ
-1BIT MODE<#>РЕЖИМ 1БИТ
-2BIT MODE<#>РЕЖИМ 2БИТ
+1BIT MODE<#>РЕЖИМ 1-БИТ
+2BIT MODE<#>РЕЖИМ 2-БИТ
 LAST PALETTE AVAILABLE<#>ПОСЛЕДНЯЯ ДОСТУПНАЯ ПАЛИТРА
 PREVIOUS PALETTE<#>ПРОШЛАЯ ПАЛИТРА
 NEXT PALETTE<#>СЛЕДУЮЩАЯ ПАЛИТРА
@@ -40,7 +40,7 @@ STATUS<#>СТАТУС
 YOU<#>ВЫ
 OLD GOD<#>ДРЕВНИЙ БОГ
 TOWN STATUS<#>СТАТУС ГОРОДА
-ALLIES AND PERKS<#>СОЮЗНИКИ И СПОСОБНОСТИ
+ALLIES AND PERKS<#>СОЮЗНИКИ И СПОСОБНОСТЬ
 'a feeling of paranoia and discomfort is almost palpable in the air...'<#>чувство паранойи почти что ощутимо в воздухе...
 [as DOOM progresses, OLD GOD's influence will slowly corrupt and change this calm, seaside town]<#>(по мере приближения РОКА влияние ДРЕВНЕГО БОГА будет медленно порочить и искажать этот спокойный прибрежный город)
 CREDITS AND THANKS<#>ТИТРЫ И БЛАГОДАРНОСТИ
@@ -55,7 +55,7 @@ RESET YOUR PROGRESS<#>СБРОСИТЬ ПРОГРЕСС
 Explore the vast cosmos and learn about things older than time.<#>Исследуйте обширный космос и изучайте вещи, которые старше самого времени.
 Check your achievement progress and plan your next playthrough.<#>Проверьте свой список достижений и спланируйте следующий забег.
 Check what events you've seen and how many are you still missing.<#>Проверьте, какие события вы видели, а какие до сих пор пропустили.
-Check what enemies you've defeated and how many are still lurking out there.<#>Проверьте, каких врагов вы победили, и сколько из них до сих пор таится в тьме.
+Check what enemies you've defeated and how many are still lurking out there.<#>Проверьте, каких врагов вы победили, и сколько из них до сих пор таится во тьме.
 Currently, you can only edit the .ito files manually in a text editor. The in-game editor is a work in progress.<#>На данный момент вы можете редактировать файлы .ito только вручную в текстовом редакторе. Внутриигровой редактор находится в разработке.
 Mods have been temporarily turned off and will be coming soon!# #Thank you for your patience!<#>Моды были временно выключены и скоро вернутся!# #Спасибо за ожидание!
 back to#menu<#>вернуться в#меню
@@ -123,19 +123,19 @@ timeline B#(OCCULT CAPITAL OF JAPAN)<#>хронология Б#(ОККУЛЬТН
 Item statistics randomization:#ON##Enables a random cost and statistics variation to all items this playthrough.<#>Случайные характеристики предметов:#ВКЛ##Включает случайное изменение стоимости и характеристик для всех предметов в этом забеге.
 Item statistics randomization:#OFF##Cost and statistics of all items stay the same every playthrough.<#>Случайные характеристики предметов:#ВЫКЛ##Стоимость и характеристики всех предметов остаются одинаковыми в каждом забеге.
 When leveling-up, use the character-exclusive perk cards only<#>При повышении уровня предлагаются только карты, эксклюзивные для этого персонажа.
-When leveling-up the character, enable all unlocked perk cards.<#>При повышении уровня предлагаются все разблокированные карты навыков.
+When leveling-up the character, enable all unlocked perk cards.<#>При повышении уровня предлагаются все разблокированные карты способностей.
 prioritize new content<#>предпочитать новый контент
 keep the content randomized<#>оставить контент случайным
 [don't randomize the price and statistics of item you find and buy this playthrough]<#>(не делать случайными цены и характеристики предметов, которые вы находите и покупаете в этом забеге)
 [randomize the price and statistics of item you find and buy this playthrough]<#>(сделать случайными цены и характеристики предметов, которые вы находите и покупаете в этом забеге)
 [an increased chance of encountering mysteries you have not completed yet]<#>(повышает шанс столкнуться с тайнами, которые вы ещё не разгадали)
 [an even chance of encountering all mysteries]<#>(одинаковая возможность столкновения со всеми тайнами)
-[when leveling up, the game will only draw generic and character-exclusive perk cards]<#>(при повышении уровня игра будет предлагать только обычные и эксклюзивные для вашего персонажа карты навыков)
-[when leveling up, the game will draw random unlocked perk cards]<#>(при повышении уровня игра будет предлагать случайные разблокированные карты навыков)
+[when leveling up, the game will only draw generic and character-exclusive perk cards]<#>(при повышении уровня игра будет предлагать только обычные и эксклюзивные для вашего персонажа карты способностей)
+[when leveling up, the game will draw random unlocked perk cards]<#>(при повышении уровня игра будет предлагать случайные разблокированные карты способностей)
 [timeline choice determines the choice of available additional actions and changes in both mysteries and endings]<#>(хронология определяет выбор доступных дополнительных действий и изменений как в тайнах, так и в концовках)
 [Every year, our city is visited by hundreds of tourists interested in the paranormal]<#>(Каждый год наш город посещают сотни туристов, заинтересованных в паранормальном)
 SELECT YOUR CHALLENGE<#>ВЫБЕРИТЕ СВОЁ ИСПЫТАНИЕ
-set difficulty to HOD<#>установить сложность на Предвест. Рока
+set difficulty to HOD<#>установить сложность на "Предвест. рока"
 (MUSIC)<#>(МУЗЫКА)
 (SFX)<#>(ЭФФЕКТЫ)
 <<I can't be caught with this...>> [ITEM discarded]<#>«Меня не должны увидеть с этим...» (ПРЕДМЕТ выброшен)
@@ -202,7 +202,7 @@ One last thing... a tall man left a suitcase for you this morning. He said you w
 ROBED FIGURES CAN BE SEEN GATHERING IN THE WOODS AT NIGHT. PEOPLE ARE GOING MISSING.#DISGUSTING CREATURES ARE TERRORIZING THE SEASIDE...<#>ФИГУРЫ В РОБАХ СОБИРАЮТСЯ В ЛЕСУ ПО НОЧАМ, ПРОПАДАЮТ ЛЮДИ.#ОТВРАТИТЕЛЬНЫЕ СОЗДАНИЯ ТЕРРОРИЗИРУЮТ ПОБЕРЕЖЬЕ...
 THE RAPID TECHNOLOGICAL PROGRESS OF THE MODERN ERA BRINGS COMFORT...#BUT ALSO NEW UNKNOWN THREATS.<#>СТРЕМИТЕЛЬНЫЙ ТЕХНОЛОГИЧЕСКИЙ ПРОГРЕСС СОВРЕМЕННОГО МИРА СУЛИТ КОМФОРТ...#НО ТАКЖЕ НОВЫЕ, НЕИЗВЕСТНЫЕ УГРОЗЫ.
 OLD GODS, MALICIOUS ELDRITCH BEINGS WHO RULED THE EARTH EONS AGO,#ARE AWAKENING AS REALITY STARTS TO CRUMBLE...<#>ДРЕВНИЕ БОГИ, ОПАСНЫЕ ПОТУСТОРОННИЕ СУЩЕСТВА, КОТОРЫЕ ПРАВИЛИ ЗЕМЛЁЙ ЦЕЛЫЕ ЭПОХИ,#ПРОБУЖДАЮТСЯ, КОГДА РЕАЛЬНОСТЬ НАЧИНАЕТ РАЗРУШАТЬСЯ...
-ARMED WITH CLUES, SPELLS, AND YOUR DWINDLING SANITY, YOU'LL INVESTIGATE#MYSTERIES ACROSS THE CITY... AND IN REALMS BEYOND.<#>ВООРУЖЁННЫЕ УЛИКАМИ, ЗАКЛИНАНИЯМИ И БЫСТРО ИССЕКАЮЩИМ РАЗУМОМ, ВЫ БУДЕТЕ РАССЛЕДОВАТЬ#ТАЙНЫ ЭТОГО ГОРОДА... И ОБЛАСТИ ЗА ГРАНЬЮ МЫСЛИМОГО.
+ARMED WITH CLUES, SPELLS, AND YOUR DWINDLING SANITY, YOU'LL INVESTIGATE#MYSTERIES ACROSS THE CITY... AND IN REALMS BEYOND.<#>ВООРУЖЁННЫЕ УЛИКАМИ, ЗАКЛИНАНИЯМИ И БЫСТРО ИССЯКАЮЩИМ РАЗУМОМ, ВЫ БУДЕТЕ РАССЛЕДОВАТЬ#ТАЙНЫ ЭТОГО ГОРОДА... И ОБЛАСТИ ЗА ГРАНЬЮ МЫСЛИМОГО.
 AN OLD TRAIN SLOWS DOWN AND STOPS AT ITS LAST STATION.##---##THE END OF THE WORLD IS AT HAND, AND YOU'VE FINALLY ARRIVED IN THE DOOMED TOWN...<#>СТАРЫЙ ПОЕЗД ЗАМЕДЛЯЕТСЯ И ПРИБЫВАЕТ НА КОНЕЧНУЮ СТАНЦИЮ.##---##КОНЕЦ СВЕТА УЖЕ БЛИЗОК, И ВЫ НАКОНЕЦ ПРИБЫЛИ В ЭТОТ ОБРЕЧЁННЫЙ ГОРОД...
 EXTENDED<#>РАСШИРЕНИЯ
 UNLOCKS:<#>РАЗБЛОКИРОВАНО:
@@ -262,9 +262,9 @@ PAID IN BLOOD<#>ПЛАТА КРОВЬЮ
 have your ALLY die during a combat encounter<#>позвольте СОЮЗНИКУ умереть во время боя
 EXORCISM<#>ЭКЗОРЦИЗМ
 exorcise a ghost<#>изгоните призрака
-NEVER-ENDING SUMMER<#>НЕСКОНЧАЕМОЕ ЛЕТО
+NEVER-ENDING SUMMER<#>БЕСКОНЕЧНОЕ ЛЕТО
 change the date and stop the curse<#>измените дату и остановите проклятие
-RESTLESS<#>НЕУСТАННЫЙ
+RESTLESS<#>НЕУСТАННОСТЬ
 complete a playthrough without resting<#>завершите забег, ни разу не отдохнув
 SCHOLAR<#>УЧЕНИК
 research five spells in a single game<#>изучите пять заклинаний в одном забеге
@@ -325,7 +325,7 @@ win a playthrough using HUNTED BY THE CULT backstory<#>выиграйте заб
 ELDRITCH BACKSTORY IV<#>ЖУТКАЯ ПРЕДЫСТОРИЯ IV
 win a playthrough using SEVENTH CURSE backstory<#>выиграйте забег, используя предысторию СЕДЬМОЕ ПРОКЛЯТИЕ
 ELDRITCH BACKSTORY V<#>ЖУТКАЯ ПРЕДЫСТОРИЯ V
-win a playthrough using ILL-FATED backstory<#>выиграйте забег, используя предысторию ЗЛОПОЛУЧНЫЙ
+win a playthrough using ILL-FATED backstory<#>выиграйте забег, используя предысторию ЗЛАЯ СУДЬБА
 CLUB MEMBER<#>ЧЛЕН КЛУБА
 join the club<#>вступите в клуб
 ELDRITCH BACKSTORY VI<#>ЖУТКАЯ ПРЕДЫСТОРИЯ VI
@@ -333,7 +333,7 @@ win a playthrough using KNIGHT ERRANT backstory<#>выиграйте забег,
 SOFT SIDE<#>ДОБРАЯ СТОРОНА
 buy and return an expensive drug<#>купите, а затем верните дорогой препарат его владельцу
 BLOOD DEAL<#>КРОВАВАЯ СДЕЛКА
-feed an OUTER ENTITY<#>накормите ИНОЗЕМНУЮ СУЩНОСТЬ
+feed an OUTER ENTITY<#>накормите НЕЗЕМНУЮ СУЩНОСТЬ
 SHIOKAWA HISTORY I<#>ИСТОРИЯ ШИОКАВЫ I
 unlock 15 achievements<#>разблокируйте 15 достижений
 SHIOKAWA HISTORY II<#>ИСТОРИЯ ШИОКАВЫ II
@@ -357,7 +357,7 @@ reach turn 50 in ENDLESS mode<#>достигните 50-го хода в БЕС�
 MIRA<#>МИРА
 solve the BLUE GEM riddle<#>решите загадку с СИНИМ САМОЦВЕТОМ
 SOMETHING EVIL<#>НЕЧТО ЗЛОЕ
-meet and defeat SOMETHING EVIL<#>встретьте и победите ИСТИННОЕ ЗЛО
+meet and defeat SOMETHING EVIL<#>встретьте и победите НЕЧТО ЗЛОЕ
 TRUE ANARCHY<#>ИСТИННАЯ АНАРХИЯ
 complete the [PAROLE VIOLATION] challenge<#>завершите испытание НАРУШЕНИЕ УДО
 HAIL TO THE KING<#>СЛАВА КОРОЛЮ
@@ -388,7 +388,7 @@ EVENTS<#>СОБЫТИЯ
 EVENTS CODEX<#>СПИСОК СОБЫТИЙ
 ENEMIES<#>ВРАГИ
 ENEMY BESTIARY<#>БЕСТИАРИЙ ВРАГОВ
-THE OUTER BEING<#>ИНОЗЕМНАЯ СУЩНОСТЬ
+THE OUTER BEING<#>НЕЗЕМНАЯ СУЩНОСТЬ
 GO BACK<#>ВЕРНУТЬСЯ
 check all<#>выбрать всё
 uncheck all<#>убрать всё

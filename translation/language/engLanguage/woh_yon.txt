@@ -55,7 +55,7 @@ You wonder just how much things are changing out there without you around.##If n
 You can't see outside anymore...<#>Вы больше не видите ничего снаружи...
 You still change clothes every day, but is there any point if you're not going outside?<#>Вы до сих пор меняете одежду каждый день, но какой в этом смысл, если наружу всё равно не выбраться?
 Your pantry is starting to run out of easy meals, and you don't have the energy to cook.<#>В холодильнике кончаются готовые блюда, а готовить у вас уже нет сил.
-Just standing in here makes you light-headed.#The bed is too tempting-- you shouldn't stay long.<#>У вас кружится голова, даже когда вы просто стоите.#Кровать слишком соблазнительна - вам не стоит долго стоять.
+Just standing in here makes you light-headed.#The bed is too tempting-- you shouldn't stay long.<#>У вас кружится голова, даже когда вы просто стоите.#Кровать слишком соблазнительна - стоит скорее лечь в неё.
 Your mind is hazy. It's all blurring together.#You just want to sleep.<#>Ваш разум затуманен. В глазах всё расплывается.#Вам просто хочется спать.
 You're beginning to doubt this door will ever open again.##(it's better that way)<#>Вы начинаете сомневаться, что эта дверь когда-либо снова откроется.##(так даже лучше...)
 ... what were you doing again?<#>...что вы снова делали?
@@ -69,8 +69,8 @@ throw it away<#>выбросить
 It's not exactly a pleasant meal - meat definitely shouldn't be this crunchy - but food is food.#(+2 STAMINA)<#>Не самое изысканное блюдо - мясо точно не должно быть таким хрустящим - но еда есть еда.#(+2 ВЫНОСЛИВОСТИ)
 You already regret your decision by the first disgusting bite. ##An hour later, you feel something writhing in your stomach, trying to get out. Maybe that meat was too fresh...#(+ STATUS)<#>Вы жалеете о своём решении уже после первого отвратительного укуса.##Часом позже вы чувствуете, как что-то скручивается у вас в животе, пытаясь выбраться. Может, это мясо было чересчур свежим...#(+СТАТУС)
 Trusting your judgement, you chuck the can into the garbage. Your stomach growls at you in discontentment.#(-1 STAMINA)<#>Вынеся приговор банке, вы кидаете её в мусор. Желудок недовольно урчит на вас.#(-1 ВЫНОСЛИВОСТИ)
-CLOGGED DRAIN<#>ЗАБИТАЯ РАКОВИНА
-When you go to use the bathroom, you notice there's a clump of hair coming up the sink drain. ##You're certain that it's not yours.<#>Когда вы идёте в ванную, вы замечаете комок волос, торчащий из слива раковины.##Вы уверены, что они не ваши.
+CLOGGED DRAIN<#>ЗАБИТЫЙ СЛИВ
+When you go to use the bathroom, you notice there's a clump of hair coming up the sink drain. ##You're certain that it's not yours.<#>Когда вы идёте в ванную, вы замечаете комок волос, торчащий из слива.##Вы уверены, что они не ваши.
 pull it out<#>вытащить их
 You tug the strand up out of the drain, only to find a few coins tied to the end of the hair. You pocket the money and try not to think about it.#(+1 FUNDS)<#>Вы вытаскиваете комок из слива и обнаруживаете несколько монет, привязанных к кончикам волос. Вы забираете деньги и стараетесь не думать об этом.#(+1 СРЕДСТВ)
 There's a startling amount of resistance when you pull. Before you can react, the hair is suddenly yanked back down the drain and out of sight.#(-1 REASON)<#>Вы встречаете поразительное сопротивление, когда начинаете тянуть. Прежде чем вы успеваете отреагировать, волосы засасываются обратно в слив и исчезают.#(-1 РАССУДКА)

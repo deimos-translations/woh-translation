@@ -26,12 +26,12 @@ I - THE MAGICIAN<#>I - ФОКУСНИК
 +2 MAX REASON; remove all MAGIC slots<#>+2 МАКС. РАССУДКА; удаляет все слоты МАГИИ
 XI - STRENGTH<#>XI - СИЛА
 +2 STRENGTH<#>+2 СИЛЫ
--1 STRENGTH; +1 KNOWLEDGE<#>-1 СИЛА; +1 ИНТЕЛЛЕКТА
-CONSPIRACY FREAK<#>ПОМЕШАННЫЙ НА КОНСПИРОЛОГИИ
+-1 STRENGTH; +1 KNOWLEDGE<#>-1 СИЛЫ; +1 ИНТЕЛЛЕКТА
+CONSPIRACY FREAK<#>ПОМЕШАТЕЛЬСТВО НА КОНСПИРОЛОГИИ
 <<they will finally admit you were right all along...>><#>«я наконец заставлю их в это поверить...»
-[every mystery, a new conspiracy will emerge, adding an additional task for you to complete]<#>(в каждой тайне, всплывёт новая конспирация, добавляя вам дополнительное задание)
+[every mystery, a new conspiracy will emerge, adding an additional task for you to complete]<#>(в каждой тайне всплывёт новый заговор, добавляя вам дополнительное задание)
 SCORCHING HEAT<#>ОБЖИГАЮЩИЙ ВОЗДУХ
-Increased STAMINA damage from all sources.<#>Повышает урон по ВЫНОСЛИВОСТИ от всего.
+Increased STAMINA damage from all sources.<#>Повышает урон по ВЫНОСЛИВОСТИ от всех источников.
 THICK MIST<#>ГУСТОЙ ТУМАН
 -10% chance for all combat actions.<#>-10% точности для всех боевых действий.
 OVERCAST SKY<#>ПАСМУРНОЕ НЕБО
@@ -39,9 +39,9 @@ no effect<#>нет эффектов
 HEAVY RAIN<#>ЛИВЕНЬ
 A chance of getting a DRENCHED status each time you investigate an outdoor-type location<#>Шанс получить статус ПРОМОКАНИЕ при расследовании любой локации типа "улица".
 CREPUSCULAR RAYS<#>СУМЕРЕЧНЫЕ ЛУЧИ
-+1 REASON at the start of the mystery<#>(в начале каждой тайны:) +1 РАССУДКА
++1 REASON at the start of the mystery<#>(в начале каждой тайны): +1 РАССУДКА
 COLD WAVE<#>ЗАМОРОЗКИ
-Increased REASON damage from all sources.<#>Повышенный урон по РАССУДКУ от всего.
+Increased REASON damage from all sources.<#>Повышенный урон по РАССУДКУ от всех источников.
 XXI - THE WORLD<#>XXI - МИР
 After completing a mystery, regain 2 STAMINA and 2 REASON<#>После завершения тайны, восстанавливает 2 ВЫНОСЛИВОСТИ и 2 РАССУДКА
 After completing a mystery, gain +4% DOOM and one random stat.<#>После завершения тайны, добавляет 4% РОКА и повышает случайную характеристику.
@@ -53,10 +53,10 @@ Take -1 DAMAGE during events to a minimum of 1.#[saved so far:<#>Вы получ
 53<#>
 54<#>
 ---IKT-YOSIS, THE FIRST NIGHTMARE---<#>---ИКТ-ЙОЗИС, ПЕРВЫЙ КОШМАР---
-Coming not from above, but below, IKT-YOSIS has been resting in a gargantuan chamber underneath the mountains. A series of rituals has begun to reshape the world, weakening the walls of its tomb.<#>Сколь верёвочке не виться, а ИКТ-ЙОЗИС всё отдыхает в своём гигантском поместье под породой местных холмов. Из-за серии ритуалтов мир начал перестраиваться, разрушая стены его гробницы.
+Coming not from above, but below, IKT-YOSIS has been resting in a gargantuan chamber underneath the mountains. A series of rituals has begun to reshape the world, weakening the walls of its tomb.<#>Сколь верёвочке ни виться, а ИКТ-ЙОЗИС всё отдыхает в своём гигантском поместье под породой местных холмов. Из-за серии ритуалов мир начал перестраиваться, разрушая стены его гробницы.
 NEW DAWN OF NIGHTMARES: Adds new dreadful WEIRD WEATHER effects to every mystery.<#>НОВЫЙ РАССВЕТ КОШМАРОВ: Добавляет новые ужасающие эффекты СТРАННОЙ ПОГОДЫ в начале каждой тайны.
-AS BELOW SO ABOVE<#>СКОЛЬ ВЕРЁВОЧКЕ НЕ ВИТЬСЯ
-Coming not from above, but below, IKT-YOSIS has been resting in a gargantuan chamber underneath the mountains. A series of rituals has begun to reshape the world, weakening the walls of its tomb.<#>Сколь верёвочке не виться, а ИКТ-ЙОЗИС всё отдыхает в своём гигантском поместье под породой местных холмов. Из-за серии ритуалтов мир начал перестраиваться, разрушая стены его гробницы.
+AS BELOW SO ABOVE<#>СКОЛЬ ВЕРЁВОЧКЕ НИ ВИТЬСЯ
+Coming not from above, but below, IKT-YOSIS has been resting in a gargantuan chamber underneath the mountains. A series of rituals has begun to reshape the world, weakening the walls of its tomb.<#>Сколь верёвочке ни виться, а ИКТ-ЙОЗИС всё отдыхает в своём гигантском поместье под породой местных холмов. Из-за серии ритуалов мир начал перестраиваться, разрушая стены его гробницы.
 [new WEIRD WEATHER effects]<#>(новые эффекты СТРАННОЙ ПОГОДЫ)
 IKT-YOSIS<#>ИКТ-ЙОЗИС
 The prophecy was right, and there was nothing you could do to stop it. KTU-RUFU’s dream of SHIOKAWA has ended.<#>Пророчество было верно, и вы никак не могли помешать его исполнению. Сон КТУ-РУФУ о ШИОКАВЕ закончился.
@@ -64,10 +64,10 @@ Being a part of this dream, you and everyone you know have ceased to exist…<#>
 Just a dream?...<#>Лишь сон?..
 RESHAPING SHIOKAWA<#>ПРЕОБРАЖЕНИЕ ШИОКАВЫ
 A second eldritch weather effect will activate each mystery.<#>Второй древний эффект погоды будет активирован в начале каждой тайны.
-<<was it all just a dream?>><#>«это всего лишь сон?»
+<<was it all just a dream?>><#>«Это... был всего лишь сон?»
 SATOSHI MURAMATSU<#>САТОШИ МУРАМАЦУ
 HIKER<#>ПУТЕШЕСТВЕННИК
-Name: SATOSHI MURAMATSU#23 / MALE# #Growing up in a small village, hiking wasn’t just a hobby for SATOSHI. It was a way to escape a home that always felt too small.#Recently, the once-familiar trails began changing and the landmarks disappearing, replaced by weird shrines.<#>Имя: САТОШИ МУРАМАЦУ#23 / МУЖЧИНА# #Родившись в маленькой деревне, у САТОШИ не было хобби, кроме путешествий. Ему всегда хотелось сбежать из дома, который ощущался слишком маленьким.#Недавно, когда-то известные ему тропы начали меняться, а ориентиры пропадать, заменяясь странными святилищами.
+Name: SATOSHI MURAMATSU#23 / MALE# #Growing up in a small village, hiking wasn’t just a hobby for SATOSHI. It was a way to escape a home that always felt too small.#Recently, the once-familiar trails began changing and the landmarks disappearing, replaced by weird shrines.<#>Имя: САТОШИ МУРАМАЦУ#23, МУЖЧИНА##Родившись в маленькой деревне, у САТОШИ не было хобби, кроме путешествий. Ему всегда хотелось сбежать из дома, который ощущался слишком маленьким.#Недавно, когда-то известные ему тропы начали меняться, а ориентиры пропадать, сменяясь странными святилищами.
 +DEXTERITY#-PERCEPTION#starts with TRAIL WISDOM<#>+ ЛОВКОСТЬ#- ВОСПРИЯТИЕ#начинает с ЧУЙКОЙ ТУРИСТА
 SATOSHI<#>САТОШИ
 BOTCHED BROADCAST<#>ПЛОХАЯ ПЕРЕДАЧА
@@ -79,29 +79,29 @@ ignore it and search the cabin<#>проигнорировать и обыска�
 You pick up a broken chair leg and smash the TV. The eerie atmosphere ends in an instant, but you can’t help but shudder seeing the cables inside wriggle and pulse like tentacles or blood vessels.#You quickly exit the cabin, leaving the weird TV behind.#(+5 EXP / -1 REASON)<#>Вы поднимаете ножку от сломанного стула и бьёте по экрану. Жуткая атмосфера мгновенно сходит, но вы содрогаетесь, увидев что провода внутри извиваются и пульсируют, словно щупальца или вены.#Вы быстро покидаете дом, оставляя странный телевизор позади.#(+5 ОПЫТА / -1 РАССУДКА)
 You stay still, stunned by the weird broadcast in front of you. You recognize some of your old injuries, now just faded scars on the figure's body on the TV. You also spot some new ones you don’t recognize. You make a mental note to protect these parts of your body.#(+10 EXP)<#>Вы замираете, ошеломлённые странной передачей перед вами. Вы узнаёте некоторые из своих старых ран, теперь лишь ставших шрамами на теле в телевизоре. Вы также замечаете новые раны. Вы отмечаете про себя, что лучше защищать эти части тела.#(+10 ОПЫТА)
 You stay still, stunned by the weird broadcast in front of you. But when the figure picks up a knife and moves it to the throat, you suddenly feel sick and avoid looking at it.#(-1 STAMINA)<#>Вы замираете, ошеломлённые странной передачей перед вами. Но когда человек на экране берёт нож и подносит к горлу, вам становится плохо и вы отводите взгляд.#(-1 ВЫНОСЛИВОСТИ)
-You try to communicate with the older version of you, using your hands to gesture. To your surprise, the figure in the broadcast stops screaming and begins mimicking your stance and gestures. It feels strange, like looking into a mirror, but the knowledge that you’ll live long enough to get old is strangely comforting.#(+2 REASON)<#>Вы пытаетесь связаться с постаревшей версией себя, жестикулируя руками. К вашему удивлению, человек в передаче перестаёт покрикивать, и начинает повторять ваши действия. Выглядит странно, словно смотришь в зеркало, но знание о том, что вы проживёте до старости необычно успокивает.
+You try to communicate with the older version of you, using your hands to gesture. To your surprise, the figure in the broadcast stops screaming and begins mimicking your stance and gestures. It feels strange, like looking into a mirror, but the knowledge that you’ll live long enough to get old is strangely comforting.#(+2 REASON)<#>Вы пытаетесь связаться с постаревшей версией себя, жестикулируя руками. К вашему удивлению, человек в передаче перестаёт покрикивать, и начинает повторять ваши действия. Выглядит странно, словно смотришь в зеркало, но знание о том, что вы проживёте до старости необычно успокаивает.#(+2 РАССУДКА)
 You try to communicate with the older version of you, using your hands to gesture. The face in the broadcast ignores your attempts and you feel like you’re wasting your time.#(+2% DOOM)<#>Вы пытаетесь связаться с постаревшей версией себя, жестикулируя руками. Человек в передаче игнорирует ваши попытки, и вы думаете, что вы теряете время напрасно.#(+2% РОКА)
-You rummage through the cabin, trying to avoid the accusatory stare of your older self.#(+ITEM)<#>Вы проноситесь через домик, пытаясь избежать осудительный взгляд постаревшего себя.#(+ПРЕДМЕТ)
+You rummage through the cabin, trying to avoid the accusatory stare of your older self.#(+ITEM)<#>Вы проноситесь через домик, пытаясь избежать осуждающего взгляда постаревшего себя.#(+ПРЕДМЕТ)
 HOT HOT SPRING<#>ЧРЕЗВЫЧАЙНО ГОРЯЧИЙ ИСТОЧНИК
 The overgrown hot spring steams invitingly, chasing away the chill. You almost want to ignore the bones floating in the water, clean and polished. The air smells of copper but it also reminds you of your best memories from childhood.<#>Заросший горячий источник заманивает вас паром, отгоняя холод. Вам хочется не обращать внимания на кости, плавающие в воде - чистые и глянцевые. Воздух пахнет металлом, но также напоминает о лучших эпизодах из детства.
 enter the water<#>войти в воду
 remove a bone for inspection<#>забрать кость для исследования
 leave immediately<#>немедленно уйти
-You remove your clothes, too eager to jump into the inviting spring. You soak in the weird coppery-smelling water feeling stronger and rejuvenated.#(+2 STAMINA)<#>Вы снимаете одежду, безудержно прыгая в манящий источник. Вы плескаетесь в воде, странно пахнущей металлом, и чувствуете себя как новые.
+You remove your clothes, too eager to jump into the inviting spring. You soak in the weird coppery-smelling water feeling stronger and rejuvenated.#(+2 STAMINA)<#>Вы снимаете одежду, безудержно прыгая в манящий источник. Вы плескаетесь в воде, странно пахнущей металлом, и чувствуете себя как новые.#(+2 ВЫНОСЛИВОСТИ)
 You remove your clothes, too eager to jump into the inviting spring. You soak in the weird coppery-smelling water, totally oblivious to the searing heat slowly boiling you alive.#(-1 STAMINA / +INJURY)<#>Вы снимаете одежду, безудержно прыгая в манящий источник. Вы плескаетесь в воде, странно пахнущей металлом, совершенно не замечая того, что она варит вас заживо.#(-1 ВЫНОСЛИВОСТИ / +ТРАВМА)
 You manage to fish out a bone, it looks like a human femur but you can’t be sure. It reminds you of the chicken bones stripped of meat after boiling the soup for too long.#(+5 EXPERIENCE)<#>Вам удаётся выловить кость - выглядит как человеческая бедренная, но вы не уверены. Она напоминает вам куриную кость, от которой отошло мясо после долгой варки.#(+5 ОПЫТА)
 You try to fish out the bone but burn your hands in the hot water.#(+INJURY)<#>Вы пытаетесь выловить кость, но обжигаете руки в горячей воде.#(+ТРАВМА)
-You quickly leave the hot spring, not trusting yourself to stay near the hot spring any longer. You’re worried that you’ll think of the inviting water for days to come.#(-1 REASON)<#>Вы быстро покидаете горячий источник, не решаясь находится близко. Но в то же время вы боитесь, что эта манящая вода будет ещё долго приходить в мысли.
+You quickly leave the hot spring, not trusting yourself to stay near the hot spring any longer. You’re worried that you’ll think of the inviting water for days to come.#(-1 REASON)<#>Вы быстро покидаете горячий источник, не решаясь находиться близко. Но в то же время вы боитесь, что эта манящая вода будет ещё долго приходить в мысли.#(-1 РАССУДКА)
 Required DOOM for the next card:<#>Необходимый РОК до следующей карты:
 Pay 20 EXP to reveal another card.<#>Отдать 20 ОПЫТА чтобы открыть новую карту.
 Pay 2 REASON to reveal another card.<#>Отдать 2 РАССУДКА чтобы открыть новую карту.
 FOOD WASTE<#>НЕСЪЕДЕННАЯ ЕДА
 One of the patrons is actively rotting where they sit, hunched over their bowl. They lift their head to order another, and collapse across the counter.<#>Один из посетителей активно разлагается на стуле, склонившись перед своей тарелкой. Он поворачивает голову, чтобы заказать ещё порцию, и падает у прилавка.
 keep watching<#>наблюдать далее
-The staff wordlessly drag the patron's body into the kitchen...#(+3 EXPERIENCE / -2 REASON)<#>Персонал безмолвно уносит тело посетителя на кухню...#(+3 ОПЫТА / -2 РАССУДКА)
+The staff wordlessly drag the patron's body into the kitchen...#(+3 EXPERIENCE / -2 REASON)<#>Персонал безмолвно утаскивает тело посетителя на кухню...#(+3 ОПЫТА / -2 РАССУДКА)
 share your SMELLY MEAT<#>поделиться ВОНЮЧИМ МЯСОМ
 [needs 'SMELLY MEAT' item]<#>(необходим предмет "ВОНЮЧЕЕ МЯСО")
-You share some of your SMELLY MEAT and manage to move forward without problems.#(-2% DOOM)<#>Вы делитесь ПАХУЧИМ МЯСОМ и идёте дальше без каких-либо проблем.
+You share some of your SMELLY MEAT and manage to move forward without problems.#(-2% DOOM)<#>Вы делитесь ПАХУЧИМ МЯСОМ и идёте дальше без каких-либо проблем.#(-2% РОКА)
 INSATIABLE<#>НЕНАСЫТНОСТЬ
 You're pretty sure that glassy-eyed patron in the corner was here yesterday, too. In that exact same spot, with the exact same ramen. You watch her for quite a while, but her bowl never runs empty, and she never stops eating, constantly pushing more into her lips...<#>Вы уверены, что эта посетительница со стеклянными глазами в углу была здесь и вчера. В том же самом месте, с тем же самым раменом. Вы долго наблюдаете за ней, но рамен в её тарелке никогда не кончается, а она всё продолжает его есть, пихая больше и больше себе в рот...
 As the woman eats, one of her fingers slips down her chopsticks and into her mouth.#She bites it clean off and swallows it down like the rest. And she just keeps eating.##You're going to be sick.#(-2 STAMINA)<#>Пока женщина ест, один из её пальцев оказывается между палочек, и попадает ей в рот.#Она сразу же откусывает его и проглатывает со всем остальным. И продолжает есть.##Вас сейчас стошнит.#(-2 ВЫНОСЛИВОСТИ)
@@ -115,42 +115,42 @@ The smell of blood and decay overcomes you as you push open the door to the old 
 search through the bodies<#>обыскать тела
 examine the shelves<#>изучить полки
 Your stomach ties itself in knots, but you hold it together. Your efforts are rewarded as you discover student ID cards from each of the corpses. These could be useful.#(+10 EXPERIENCE)<#>Ваш желудок завязывается в узелок, но вы держитесь. Ваши усилия награждаются, когда вы находите бейджики учеников на трупах. Они могут пригодиться.#(+10 ОПЫТА)
-You steel yourself as best you can, but soon lose your nerve, staggering out of the room and struggling not to vomit.#(-2 STAMINA)<#>Вы держитесь как можете, но вдруг теряете выдержку, вылетая из комнаты и пытаясь сдержать рвоту.
+You steel yourself as best you can, but soon lose your nerve, staggering out of the room and struggling not to vomit.#(-2 STAMINA)<#>Вы держитесь как можете, но вдруг теряете выдержку, вылетая из комнаты и пытаясь сдержать рвоту.#(-2 ВЫНОСЛИВОСТИ)
 Among the various pieces of rusted equipment, you discover one of the bloodied tools the killer must have used for their twisted experiment.#(+ITEM)<#>Среди разных ржавых инструментов, вы находите окровавленные, которые убийца мог использовать для своего ужасного эксперимента.#(+ПРЕДМЕТ)
 There's nothing of importance among the shelves. As you leave, the stench of death sticks to your clothes, a grim reminder of just how many you've already failed to save...#(+2% DOOM)<#>На полках ничего важного. Покидая комнату, вы чуете что запах смерти уже пропитал вашу одежду, будучи жестоким напоминанием о жизнях тех многих, кого вам не удалось спасти...#(+2% РОКА)
 SCALED TOME<#>ЧЕШУЙНЫЙ ТОМ
-In a dusty corner of the school library, one of the books sits alone on its shelf. Its appearance is slimy and damp, bound in what looks like fish scales.##Something draws you toward it...<#>В пыльном углу школьной библиотеки, одна из книг одиноко стоит на своей полке. Она какая-то слизистая и мокрая, обшитая чем-то вроде рыбьих чешуек.##Что-то в ней привлекает вас...
+In a dusty corner of the school library, one of the books sits alone on its shelf. Its appearance is slimy and damp, bound in what looks like fish scales.##Something draws you toward it...<#>В пыльном углу школьной библиотеки, одна из книг одиноко стоит на своей полке. Она какая-то склизкая и мокрая, обшитая чем-то вроде рыбьих чешуек.##Что-то в ней привлекает вас...
 read it<#>прочитать её
 All the pages are written in a language you can't understand.<#>Все страницы написаны на языке, которого вы не понимаете.
->>... and so They wept onto the bare rock, and it grew rich with miserable life, purged from its home in the sea. But so long as their flesh craves water, and their souls unity, all mankind shall return to the waves.<<##... maybe there's... something to this...#(-2 REASON / +CURSE)<#>«...так они проливали слёзы на гранитный камень, и он полнился их жалкими жизнями, изгнанными из своего дома в океане. Но пока их плоть жаждет быть в море, а их души едины, человечество когда-нибудь растворится в волнах.»
+>>... and so They wept onto the bare rock, and it grew rich with miserable life, purged from its home in the sea. But so long as their flesh craves water, and their souls unity, all mankind shall return to the waves.<<##... maybe there's... something to this...#(-2 REASON / +CURSE)<#>«...так они проливали слёзы на гранитный камень, и он полнился их жалкими жизнями, изгнанными из своего дома в океане. Но пока их плоть жаждет быть в море, а их души едины, человечество когда-нибудь растворится в волнах.»##Может... в этом заключено какие-то послание...#(-2 РАССУДКА, +ПРОКЛЯТИЕ)
 SOMETHING INSIDE<#>ВНУТРИ ЧТО-ТО ЕСТЬ
-While moving through the hallway, a loud thud startles you. It came from the wall right next to you, so you start to think it must be from a room behind there...#...but isn't this wall on the outside of the building?#(-1 REASON / +5 EXPERIENCE)<#>Двигаясь по коридору, вы пугаетесь от громкого стука. Он исходил из стены прямо напротив вас, так что должно быть, по ту сторону лежит помещение...#...но эта стена же ведёт наружу здания?#(-1 РАССУДКА / +5 ОПЫТА)
+While moving through the hallway, a loud thud startles you. It came from the wall right next to you, so you start to think it must be from a room behind there...#...but isn't this wall on the outside of the building?#(-1 REASON / +5 EXPERIENCE)<#>Двигаясь по коридору, вы пугаетесь от громкого стука. Он исходил из стены прямо напротив вас, так что должно быть, по ту сторону лежит помещение...#...но за этой стеной же улица?#(-1 РАССУДКА, +5 ОПЫТА)
 BREAKING AND ENTERING<#>ВЗЛОМ С ПРОНИКНОВЕНИЕМ
-The entrance to the victim's apartment is locked and wrapped in caution tape. The place could hold valuable clues, but getting in without drawing any attention could be difficult…<#>Дверь в квартиру жертвы закрыта и обёрнута полицеской лентой. Там могут находиться важные зацепки, но войти без привлечения внимания будет тяжело...
+The entrance to the victim's apartment is locked and wrapped in caution tape. The place could hold valuable clues, but getting in without drawing any attention could be difficult…<#>Дверь в квартиру жертвы закрыта и обёрнута полицейской лентой. Там могут находиться важные зацепки, но войти без привлечения внимания будет тяжело...
 force it open<#>открыть силой
 pick the lock<#>взломать замок
-You charge, slamming your shoulder against the door and throwing it wide open. Before anyone can notice you, you quickly inspect the place. The one detail that stands out to you is strange scuff marks around the vents...#(+5 EXPERIENCE)<#>Вы врываетесь плечом вперёд, вышибая дверь настижь. Пока никто не пришёл, вы стремительно осматриваете место. Одна странная деталь выдаёт себя - царапины вокруг вентиляционных отверстий...#(+5 ОПЫТА)
+You charge, slamming your shoulder against the door and throwing it wide open. Before anyone can notice you, you quickly inspect the place. The one detail that stands out to you is strange scuff marks around the vents...#(+5 EXPERIENCE)<#>Вы врываетесь плечом вперёд, вышибая дверь настежь. Пока никто не пришёл, вы стремительно осматриваете место. Одна странная деталь выдаёт себя - царапины вокруг вентиляционных отверстий...#(+5 ОПЫТА)
 You throw your weight against the door several times, but it refuses to budge. All you get for your trouble are bruises the next morning.#(-1 STAMINA)<#>Вы бьётесь о дверь несколько раз, но она всё не поддаётся. За свою настырность вы получаете лишь синяки.#(-1 ВЫНОСЛИВОСТИ)
-The lock pops open with a click, and you slip into the apartment unnoticed. Upon investigating, it seems the victim was a model. You find a few strange letters on her desk from a 'distant admirer'. The contents are sickening.#(+7 EXPERIENCE)<#>Замок щёлкает и открывается, и вы незаметно прошмыгиваете в квартиру. Улики говорят о том, что жертва была моделью. Вы находите несколько странных записок на её столе от "неизвестного фаната". Содержимое вызывает отвращение.#(+7 ОПЫТА)
-You concentrate, prodding a bobby pin around inside the lock, but it seems stuck. You hear a neighbor coming down the hallway and have to flee.#(+2% DOOM)<#>Вы концентрируетесь, закручивая скрепку в замок, но он похоже заел. Вы слышите соседей, идущих по коридору, и вам приходиться бежать.#(+2% РОКА)
+The lock pops open with a click, and you slip into the apartment unnoticed. Upon investigating, it seems the victim was a model. You find a few strange letters on her desk from a 'distant admirer'. The contents are sickening.#(+7 EXPERIENCE)<#>Замок щёлкает и открывается, и вы незаметно прошмыгиваете в квартиру. Улики говорят о том, что жертва была моделью. Вы находите несколько странных записок на её столе от "тайного поклонника". Содержимое вызывает отвращение.#(+7 ОПЫТА)
+You concentrate, prodding a bobby pin around inside the lock, but it seems stuck. You hear a neighbor coming down the hallway and have to flee.#(+2% DOOM)<#>Вы концентрируетесь, закручивая скрепку в замок, но он похоже заел. Вы слышите соседей, идущих по коридору, и вам приходится бежать.#(+2% РОКА)
 AROUND IN CIRCLES<#>ХОДЬБА ПО КРУГУ
 You're hopelessly lost. All of these trees look exactly the same. You take a moment to stop, and try to get your bearings by thinking about where you've been...##...only to find you can't remember anymore.#(-10 EXPERIENCE)<#>Вы безнадёжно потерялись. Все деревья выглядят одинаково. Вы ненадолго останавливаетесь, и пытаетесь взять себя в руки, размышляя о своём маршруте...##...лишь чтобы понять, что вы ничего не помните.#(-10 ОПЫТА)
 MAW ALTAR<#>АЛТАРЬ ПАСТИ
-In a clearing, you find a primitive altar, a symbol laid out with branches, enclosed in a ring of teeth. Teeth too large, too bent, too wrong to belong to anything natural.<#>На опушке, вы находите простой алтарь - символ, выложенный из веток, заключённый в круге из зубов. Больших, изогнутых зубов, явно не принадлежащих чему-то с этой планеты.
+In a clearing, you find a primitive altar, a symbol laid out with branches, enclosed in a ring of teeth. Teeth too large, too bent, too wrong to belong to anything natural.<#>На опушке, вы находите простой алтарь - символ, выложенный из веток, заключённый в круге из зубов. Больших, изогнутых зубов, явно не с этой планеты.
 inspect the teeth<#>изучить клыки
 ignore the altar<#>игнорировать алтарь
-You pluck some of the teeth from the dirt and discover strange runes on the underside. It dawns on you that these might have been human teeth after all...#(+SPELL)<#>Вы подбираете несколько зубов с земли и замечаете странные руны на обороте. Возможно, это всё таки человеческие зубы...#(+ЗАКЛИНАНИЕ)
-As you reach into the circle, you hear a sickening snap, and suddenly the teeth have closed up on you from the dirt like a bear trap! Screaming, you barely manage to free yourself without losing a limb to the jaws.#(+INJURY)<#>Как только вы опускаете руку в круг, вы слышите ужасный щелчок, и внезапно зубы схлопываются вокруг вашей руки, словно капкан! Крича от ужаса, вам едва удаётся освободиться, не потеряв руку в ловушке.
-Although disconcerted by the sight, you keep heading along the way. You're barely a few meters away, though, when you hear an animal's cry and a disgusting crunch behind you.##When you turn to look, the altar is gone. In its place is disturbed dirt and a decapitated deer's head, freshly bleeding from the neck.#(-3 REASON)<#>Напугавшись от вида, вы идёте дальше. Не пройдя и пары метров, вы вдруг слышите животный вой и отвратительный щелчок позади.##Обернувшись посмотреть, вы не замечаете алтаря. На его месте лишь переполошенная земля и откусанная голова оленя, из-под которой сочится кровь.#(-3 РАССУДКА)
+You pluck some of the teeth from the dirt and discover strange runes on the underside. It dawns on you that these might have been human teeth after all...#(+SPELL)<#>Вы подбираете несколько зубов с земли и замечаете странные руны на обороте. Возможно, это всё-таки человеческие зубы...#(+ЗАКЛИНАНИЕ)
+As you reach into the circle, you hear a sickening snap, and suddenly the teeth have closed up on you from the dirt like a bear trap! Screaming, you barely manage to free yourself without losing a limb to the jaws.#(+INJURY)<#>Как только вы опускаете руку в круг, вы слышите ужасный щелчок, и внезапно зубы схлопываются вокруг вашей руки, словно капкан! Крича от ужаса, вам едва удаётся освободиться, не потеряв руку в ловушке.#(+ТРАВМА)
+Although disconcerted by the sight, you keep heading along the way. You're barely a few meters away, though, when you hear an animal's cry and a disgusting crunch behind you.##When you turn to look, the altar is gone. In its place is disturbed dirt and a decapitated deer's head, freshly bleeding from the neck.#(-3 REASON)<#>Напугавшись от вида, вы идёте дальше. Не пройдя и пары метров, вы вдруг слышите животный вой и отвратительный хруст позади.##Обернувшись посмотреть, вы не замечаете алтаря. На его месте лишь переполошенная земля и откусанная голова оленя, из-под которой сочится кровь.#(-3 РАССУДКА)
 VICTIM LEDGERS<#>КНИГА ЖЕРТВ
 You stumble onto a rusted-out shed. It doesn't look like it's been touched in years, but as you step inside, you find dozens of scrawled notes nailed to the walls.##The most recent of these notes bears the names of the three missing students.<#>Вы натыкаетесь на проржавевший сарай. Похоже, что тут годами никого не было, но зайдя внутрь вы обнаруживаете дюжину изрезанных записок, прибитых к стенам.##Самые недавние из них носят имена трёх недавно пропавших учеников.
 MAKOTO<#>МАКОТО
 JUNPEI<#>ДЗЮНПЭЙ
 HITOMI<#>ХИТОМИ
 >>Combative. Left to wander. Succumbed to the woods. Sense of self was consumed. Followed obediently once retrieved. Nothing but a husk.<<<#>«Воинственная. Вывезена в лес. Была им поглощена. Личность была уничтожена. Покорно слушалась после возвращения. Осталась лишь сухая оболочка.»
-##>>Offered unto the house.<<#(+5 EXPERIENCE)<#>##«Была отправлена дому.»
+##>>Offered unto the house.<<#(+5 EXPERIENCE)<#>##«Была отправлена дому.»#(+5 ОПЫТА)
 >>Emotional. Cried and pleaded. Lost all hope once isolated from his friends. Taken to the porch and harvested.<<<#>«Эмоциональный. Плакал и молил. Потерял всю надежду, будучи отделённый от друзей. Был пожнан на крыльце.»
->>Desperate. Begged pathetically with every breath she could. Chosen to witness.<<#>>Not a single word after that.<<<#>«Отчаянная. Жалобно молила каждую секунду своей жизни. Принуждена быть свидетелем.»
+>>Desperate. Begged pathetically with every breath she could. Chosen to witness.<<#>>Not a single word after that.<<<#>«Отчаянная. Жалобно молила каждую секунду своей жизни. Принуждена наблюдать.»
 SUSPICIOUS APARTMENT<#>ПОДОЗРИТЕЛЬНЫЙ ДОМ
 ICE AXE<#>ЛЕДОРУБ
 +2 STR for the event skill checks<#>+2 СИЛЫ на проверках характеристик в событиях
@@ -161,32 +161,32 @@ LUCKY COIN<#>СЧАСТЛИВАЯ МОНЕТКА
 How did this coin end up here?...<#>Как эта монетка тут оказалась?...
 a medieval coin<#>средневековая монетка
 LUCKY COIN (BROKEN)<#>СЧАСТЛИВАЯ МОНЕТКА (СЛОМАНА)
-+3% DOOM#(use): fail the next event stat check, repairs the item<#>+3% РОКА#(использовать): провалить следующую проверку характеристик, починить монетку
++3% DOOM#(use): fail the next event stat check, repairs the item<#>+3% РОКА#(использовать): провалить следующую проверку характеристик, чинит монетку
 AOSHIMA<#>АОСИМА
 +3% DOOM#absorbs a fatal blow<#>+3% РОКА#перенимает смертельный удар
 <<...don't worry about me.>><#>«...обо мне не волнуйся.»
-[adoring cultist]<#>(воодушевлённый культист)
+[adoring cultist]<#>(преданный культист)
 AOSHIMA decides to protect you with her life! (+2 STAMINA / +2 REASON)<#>АОСИМА защищает вас ценой своей жизни! (+2 ВЫНОСЛИВОСТИ / +2 РАССУДКА)
 KIMURA<#>КИМУРА
-+20% chance to all OFFENSIVE combat actions#+1 damage taken in combat<#>Шанс попадания всех боевых действий увеличивается на 20%#в бою вы получаете на одну единицу урона больше
++20% chance to all OFFENSIVE combat actions#+1 damage taken in combat<#>Шанс попадания всех АТАКУЮЩИХ действий увеличивается на 20%#в бою вы получаете на одну единицу урона больше
 <<give'em hell, boss>><#>«задайте им жару, босс»
 [reckless thug]<#>(безбашенный бандит)
-RESCUE DOG<#>СЛУЖЕБНЫЙ ПЁС
+RESCUE DOG<#>ПОИСКОВАЯ СОБАКА
 investigating FOREST or MOUNTAIN location has a small chance of recruiting a random ALLY<#>исследование ЛЕСА или ГОР имеет маленький шанс получить нового СОЮЗНИКА
 >>woof!<<<#>«гав!»
 [dog]<#>(собака)
-Following your RESCUE DOG, you stumble upon a lost person...<#>Следуя за СЛУЖЕБНОЙ СОБАКОЙ, вы натыкаетесь на потерявшегося человека...
+Following your RESCUE DOG, you stumble upon a lost person...<#>Следуя за ПОИСКОВОЙ СОБАКОЙ, вы натыкаетесь на потерявшегося человека...
 x<#>
 x<#>
 x<#>
 x<#>
 SUSPICIOUS ANTLERS<#>ПОДОЗРИТЕЛЬНЫЕ РОГА
-Just off the trail, you stumble upon a massive pair of antlers. They are far too large for any animal you know. The ground around them is stained red.##Whatever dropped the antlers must still be nearby.<#>Немного сойдя с дороги, вы натыкаетесь на массивные рога. Они слишком большие для любого известного вам животного. Земля вокруг них окрашена в красный.##Что бы не оставило их здесь, оно, должно быть, неподалёку.
+Just off the trail, you stumble upon a massive pair of antlers. They are far too large for any animal you know. The ground around them is stained red.##Whatever dropped the antlers must still be nearby.<#>Немного сойдя с дороги, вы натыкаетесь на массивные рога. Они слишком большие для любого известного вам животного. Земля вокруг них окрашена в красный.##Какое бы существо ни сбросило их здесь, оно должно быть неподалёку.
 examine the antlers<#>изучить рога
 take a piece as a trophy<#>забрать как трофей
-You spot symbols, carved into the base of the antlers. You sketch them quickly to investigate them later.#(+5 EXPERIENCE)<#>Вы замечаете символы, вырезанные на основе рогов. Вы быстро переносите их на бумагу для дальнейшего расследования.#(+5 ОПЫТА)
+You spot symbols, carved into the base of the antlers. You sketch them quickly to investigate them later.#(+5 EXPERIENCE)<#>Вы замечаете символы, вырезанные на основании рогов. Вы быстро переносите их на бумагу для дальнейшего расследования.#(+5 ОПЫТА)
 As you begin to study the antler, a distant howl startles you, and you stumble back in fear.#(+1% DOOM)<#>Как только вы принимаетесь осматривать рога, вдали раздаётся вой. Вы пугаетесь и осторожно уходите в страхе.#(+1% РОКА)
-You snap off a piece without any incident. It will surely fetch you a good price back in town.#(+2 FUNDS)<#>Вы отламываете кусочек без проишествий. За такой трофей в городе заплатят хорошие деньги.#(+2 СРЕДСТВ)
+You snap off a piece without any incident. It will surely fetch you a good price back in town.#(+2 FUNDS)<#>Вы отламываете кусочек без происшествий. За такой трофей в городе заплатят хорошие деньги.#(+2 СРЕДСТВ)
 The moment the antler breaks, blood gushes from the severed point. The foul-smelling liquid gets into your eyes and mouth, and you spend the next thirty minutes trying to get rid of it.#(-1 STAMINA / -1 REASON)<#>Как только вы отламываете кусочек, из трещины начинает сочиться кровь. Скверно пахнущая жидкость попадает вам в глаза и рот, и следующие полчаса вы пытаетесь отмыться.#(-1 ВЫНОСЛИВОСТИ / -1 РАССУДКА)
 HOWLING CAVERN<#>ВОЮЩАЯ ПЕЩЕРА
 You discover a narrow cave high up in the cliffs. As you approach it, you can hear an unnatural, faint howling. It reminds you of a labored breath… or chanting.<#>Вы обнаруживаете узкую пещеру высоко в горах. Как только вы приближаетесь к ней, вы слышите неестественный, тихий вой. Он напоминает вам тяжёлое дыхание... или какой-то заговор.
@@ -194,22 +194,22 @@ enter cautiously<#>осторожно войти
 shout into the cavern<#>выкрикнуть в пещеру
 Avoiding loose rocks and tripwires, you find a forgotten relic tucked in a small crevice.#(+ITEM)<#>Проскальзывая между рыхлых камней и растяжек, вы находите забытую реликвию, оставленную в маленькой щели.#(+ПРЕДМЕТ)
 You slip on the wet rock and land hard on your back. You flee before anything inside can notice you.#(-1 STAMINA)<#>Вы поскальзываетесь на влажном камне и жёстко падаете на спину. Вы быстро сбегаете, пока из пещеры ничего не вылезло.#(-1 ВЫНОСЛИВОСТИ)
-The howling pauses before beginning to mimic your voice perfectly. You quickly flee the cavern. (+5 EXPERIENCE)<#>Вой останавливается, но затем начинает повторять ваш голос точь-в-точь. Вы быстро сбегаете из пещеры.
-Your words echo back… twisted.##You stagger away, terrified. (-2 REASON)<#>Ваши слова раздаются эхом... они искажены.##Вы в ужасе уходите.
+The howling pauses before beginning to mimic your voice perfectly. You quickly flee the cavern. (+5 EXPERIENCE)<#>Вой останавливается, но затем начинает повторять ваш голос точь-в-точь. Вы быстро сбегаете из пещеры. (+5 ОПЫТА)
+Your words echo back… twisted.##You stagger away, terrified. (-2 REASON)<#>Ваши слова раздаются эхом... они искажены.##Вы в ужасе уходите. (-2 РАССУДКА)
 BURIED STAIRCASE<#>СПУСК ПОД ЗЕМЛЮ
 Your boot hits something hard under the tall grass. It’s a rusty metal hatch! You squat down next to it, and the air seeping up hits your nose. It smells faintly of incense and rot.<#>Ваш ботинок наткнулся на что-то твёрдое под высокой травой. Это ржавый металлический люк! Вы наклоняетесь к нему, и затхлый воздух проникает в ваши ноздри. Пахнет сочетанием ладана и гнили.
 descend carefully<#>осторожно спуститься
 block the entrance<#>перекрыть вход
-You reach the bottom of a small concrete bunker unharmed and find an assortment of ritual trinkets and occult notes.#(+SPELL)<#>Вы добираетесь до дна маленького бетонного бункера без проишествий и находите набор ритуальных артефактов и оккультных записей.#(+ЗАКЛИНАНИЕ)
-You try to open the rusty hatch, but you cut yourself on the metal edge.#(+INJURY)<#>Вы пытаетесь открыть ржавый люк, но ранитесь о металлические края.
+You reach the bottom of a small concrete bunker unharmed and find an assortment of ritual trinkets and occult notes.#(+SPELL)<#>Вы добираетесь до дна маленького бетонного бункера без происшествий и находите набор ритуальных артефактов и оккультных записей.#(+ЗАКЛИНАНИЕ)
+You try to open the rusty hatch, but you cut yourself on the metal edge.#(+INJURY)<#>Вы пытаетесь открыть ржавый люк, но ранитесь о металлические края.#(+ТРАВМА)
 You pile rocks over the hatch.##Hopefully it will be enough…#(+1 REASON / +1% DOOM)<#>Вы складываете кучку камней поверх люка.##Хоть бы этого было достаточно...#(+1 РАССУДКА / +1% РОКА)
 STRANGE CONSTELLATION<#>СТРАННОЕ СОЗВЕЗДИЕ
-Nights fall early here in the mountains. As you set up your camp, you notice something weird. A constellation you don’t recognize.##It reminds you of a sigil you’ve seen in a forbidden occult tome.#(+2 EXPERIENCE / -1 REASON)<#>Ночи заметны в горах раньше. Установив палатку, вы замечаете что-то странное. Созвездие, которого вы не помните.##Оно напоминает вам о символе, который вы видели в запретной оккультной книге.#(+2 ОПЫТА / -1 РАССУДОКК)
+Nights fall early here in the mountains. As you set up your camp, you notice something weird. A constellation you don’t recognize.##It reminds you of a sigil you’ve seen in a forbidden occult tome.#(+2 EXPERIENCE / -1 REASON)<#>Ночи заметны в горах раньше. Установив палатку, вы замечаете что-то странное. Созвездие, которого вы не помните.##Оно напоминает вам о символе, который вы видели в запретной оккультной книге.#(+2 ОПЫТА / -1 РАССУДОК)
 HANGING ROPE<#>СВИСАЮЩАЯ ВЕРЁВКА
-As you walk along a steep path, you notice a length of rope dangling from a branch above. There’s no sign of a body, but the branch itself is worn smooth. Just like someone swung there for days.##Cold wind rustles the surrounding trees and you shiver…<#>Прогуливаясь по крутому склону, вы замечаете длинную верёвку, свисающую с ветки дерева. Нет никаких следов насилия, но сама ветка потёрта. Будто кто-то висел на ней продолжительное рвемя.##Листья шелестят на холодном ветру, и вас пробирает дрожь...
+As you walk along a steep path, you notice a length of rope dangling from a branch above. There’s no sign of a body, but the branch itself is worn smooth. Just like someone swung there for days.##Cold wind rustles the surrounding trees and you shiver…<#>Прогуливаясь по крутому склону, вы замечаете длинную верёвку, свисающую с ветки дерева. Нет никаких следов насилия, но сама ветка потёрта. Будто кто-то висел на ней продолжительное время.##Листья шелестят на холодном ветру, и вас пробирает дрожь...
 cut down the rope<#>срезать верёвку
 ignore it and move on<#>проигнорировать и идти дальше
-You climb the tree and cut down the old rope. The air around you suddenly feels lighter.#(-2% DOOM)<#>Вы забираетесь на дерево, и отрезаете верёвку. Атмосфера вдруг внезапно разряжается.#(-2% РОКА)
+You climb the tree and cut down the old rope. The air around you suddenly feels lighter.#(-2% DOOM)<#>Вы забираетесь на дерево, и отрезаете верёвку. Атмосфера вдруг разряжается.#(-2% РОКА)
 The rope suddenly coils around your neck and tightens as if it were a live python. You manage to wrench free, but the bruises will remain.#(-2 STAMINA)<#>Верёвка внезапно обвивается вокруг вашей шеи, словно живая змея. Вам удаётся ослабить её, но след останется.#(-2 ВЫНОСЛИВОСТИ)
 You leave it swinging gently in the breeze. Somehow, you feel heavier as you continue.#(-1 REASON)<#>Вы оставляете её неспешно покачиваться на ветру. По какой-то причине атмосфера тяжелеет.#(-1 РАССУДКА)
 DEADFALL RITUAL<#>РИТУАЛ БУРЕЛОМА
@@ -217,11 +217,11 @@ While resting beneath a tangle of fallen trees, you notice the branches above yo
 FORBIDDEN TRAIL<#>ТАЙНЫЕ ТРОПЫ
 A red trail blaze painted on a tree looks slightly different than the others. It’s wetter, fresher, and smells faintly metallic.#(-1 STAMINA)<#>Дерево помечено чуть другой красной краской, нежели все остальные. Она пожиже, посвежее, и отдаёт лёгким запахом металла.#(-1 ВЫНОСЛИВОСТИ)
 TRAIL OF BLOOD (EYES)<#>ДОРОГА КРОВИ (ГЛАЗА)
-Following the winding staircase, you find a metal gate that blocks your way.#You pause and spot thin threads stretched across the steps. The tripwires are almost invisible in the darkness.<#>Следуя по круговой лестнице, вы обнаруживаете металлические ворота, блокирующие вам путь.#Вы останавливаетесь и замечаете тонкие нити, протянутые через ступеньки. Они практически незаметны во тьме.
+Following the winding staircase, you find a metal gate that blocks your way.#You pause and spot thin threads stretched across the steps. The tripwires are almost invisible in the darkness.<#>Следуя по винтовой лестнице, вы обнаруживаете металлические ворота, блокирующие вам путь.#Вы останавливаетесь и замечаете тонкие нити, протянутые через ступеньки. Они практически незаметны во тьме.
 try to avoid them<#>постараться на них не наступать
-(not enough perception)#You miss a second wire, and your foot snaps it. There’s a loud clang as the rusted weights swing towards you.#You throw yourself to the side, barely dodging, but the weight slices your shoulder.##With a buzz, the gate opens.#(-3 STAMINA)<#>(недостаточно восприятия)#Вы наступаете на вторую же нить, и она рвётся. Вы слышите громкий щелчок, после чего на вас летит ржавая гиря.#Вы отпрыгиваете в сторону, едва успех уклониться, но гиря задевает ваше плечо.
+(not enough perception)#You miss a second wire, and your foot snaps it. There’s a loud clang as the rusted weights swing towards you.#You throw yourself to the side, barely dodging, but the weight slices your shoulder.##With a buzz, the gate opens.#(-3 STAMINA)<#>(недостаточно восприятия)#Вы наступаете на вторую же нить, и она рвётся. Вы слышите громкий щелчок, после чего на вас летит ржавая гиря.#Вы отпрыгиваете в сторону, едва успев уклониться, но гиря задевает ваше плечо.##Ворота гудят и открываются.#(-3 ВЫНОСЛИВОСТИ)
 With slow, deliberate steps, you manage to bypass every trap.##With a buzz, the gate opens.#(+10 EXP)<#>Медленными и выверенными шагами вы обходите все ловушки.##Ворота гудят и открываются.#(+10 ОПЫТА)
-HIKING BOOTS<#>БОТИНКИ ДЛЯ ПУТЕШЕСТВИЙ
+HIKING BOOTS<#>ПОХОДНЫЕ БОТИНКИ
 +2 DEXTERITY for all event skill checks<#>+2 ЛОВКОСТИ во всех проверках характеристик
 Surprisingly, they don't weigh that much.<#>К удивлению, не особо-то и тяжёлые.
 protects the ankles<#>защищают лодыжки
@@ -240,11 +240,11 @@ Heavy, but it will protect you against the elements.<#>Тяжёлая, но за
 smelly but reliable<#>грязная но надёжная
 You set up your TENT to rest. (+1 STAMINA)<#>Вы установили ПАЛАТКУ и отдохнули. (+1 ВЫНОСЛИВОСТИ)
 You set up your TENT to rest. (+1 REASON)<#>Вы установили ПАЛАТКУ и отдохнули. (+1 РАССУДКА)
-AMULET OF SAFEKEEPING<#>АМУЛЕТ СПАСИТЕЛЯ
+AMULET OF SAFEKEEPING<#>ОБЕРЕГ
 (single use): +2 STAMINA and REASON when your health drops below zero.<#>(одноразовое использование): +2 ВЫНОСЛИВОСТИ и РАССУДКА, если ваше здоровье опускается ниже нуля.
 You just hope you won’t need to use it.<#>Вы надеетесь, что вам не придётся его использовать.
 ancient sigil<#>древний артефакт
-AMULET OF SAFEKEEPING turns into dust. (+2 STAMINA / +2 REASON)<#>АМУЛЕТ СПАСИТЕЛЯ обращается в пыль. (+2 ВЫНОСЛИВОСТИ / +2 РАССУДКА)
+AMULET OF SAFEKEEPING turns into dust. (+2 STAMINA / +2 REASON)<#>ОБЕРЕГ обращается в пыль. (+2 ВЫНОСЛИВОСТИ / +2 РАССУДКА)
 TOOL BELT<#>ПОЯС ДЛЯ ИНСТРУМЕНТОВ
 +1 STAMINA#+1 MAX STAMINA#[HEAVY TOOL]-type weapons deal extra damage<#>+1 ВЫНОСЛИВОСТИ#+1 МАКС. ВЫНОСЛИВОСТИ#оружие типа (ТЯЖЁЛЫЙ ИНСТРУМЕНТ) наносит больше урона
 Your father would love it.<#>Для вашего бати.
@@ -286,14 +286,14 @@ worse healing#(use): +2% DOOM; +1 STAMINA and +1 REASON<#>лечение ста�
 <<can you smell it?>><#>«чуешь запах мяса?»
 MEAT PUPPET<#>МАРИОНЕТКА ИЗ ПЛОТИ
 Name: MAKOTO YAMAUCHI#22 / FEMALE# #It took her a week to stumble out of that forest. Her soul is gone.##Something else is steering the flesh now.<#>Имя: МАКОТО ЯМАУТИ#22 / ЖЕНЩИНА# #У неё ушла неделя на то, чтобы выбраться из того леса. Она потеряла свою душу.##Нечто другое теперь движет её плотью.
-+ KNOWLEDGE#- CHARISMA#starts with a MEAT PUPPET<#>+ ИНТЕЛЛЕКТ#- ХАРИЗМА#начинает с КОЖАНЫМ МЕШКОМ
++ KNOWLEDGE#- CHARISMA#starts with a MEAT PUPPET<#>+ ИНТЕЛЛЕКТ#- ХАРИЗМА#начинает будучи МАРИОНЕТКОЙ ИЗ ПЛОТИ
 MAKOTO<#>МАКОТО
 WINDOW SHOPPING<#>НЕТ, ТОЛЬКО ПОКАЗЫВАЕМ
 As you pass by a closed clothing store, you notice something unnerving. A row of mannequins is all facing the streets, their heads seemingly tilted toward you.##A cold shiver runs down your spine.<#>Проходя мимо закрытого магазина одежды, вы замечаете что-то пугающее. Манекены выстроены в ряд лицом к улице, но их головы повёрнуты только на вас.##По спине пробегают мурашки.
 investigate the window<#>изучить окно
 ignore the mannequins<#>игнорировать манекены
-You spot a faint symbol carved into the glass. You don’t recognize it, but decide to scribble it down in your notebook for future reference.#(+7 EXPERIENCE)<#>Вы замечаете мелкий символ, вырезанные на стекле. Вы его не знаете. но решаете записать его в дневнике на будущее.#(+7 ОПЫТА)
-One of the mannequins suddenly collapses to the floor, startling you enough to stumble over the curb and fall down. As your body is carelessly splayed across the street, a speeding car charges past you. You narrowly avoid being decapitated by its tires.#(-2 STAMINA)<#>Один из манекенов вдруг падает на землю, пугая вас. Вы спотыкаетесь о бордюр и падаете. Пока вы распластываетесь по дороге, мимо вас пролетает машина. Вам едва удаётся спасти свою голову от колёс.
+You spot a faint symbol carved into the glass. You don’t recognize it, but decide to scribble it down in your notebook for future reference.#(+7 EXPERIENCE)<#>Вы замечаете мелкий символ, вырезанный на стекле. Вы его не знаете, но решаете записать его в дневнике на будущее.#(+7 ОПЫТА)
+One of the mannequins suddenly collapses to the floor, startling you enough to stumble over the curb and fall down. As your body is carelessly splayed across the street, a speeding car charges past you. You narrowly avoid being decapitated by its tires.#(-2 STAMINA)<#>Один из манекенов вдруг падает на землю, пугая вас. Вы спотыкаетесь о бордюр и падаете. Пока вы распластываетесь по дороге, мимо вас пролетает машина. Вам едва удаётся спасти свою голову от колёс.#(-2 ВЫНОСЛИВОСТИ)
 You avert your gaze and quicken your pace.#(-1 REASON)<#>Вы уводите взгляд и ускоряете шаг.#(-1 РАССУДКА)
 EAR PROTECTION<#>НАУШНИКИ
 protects against RINGING EARS<#>защищают от ЗВОНА В УШАХ
@@ -334,12 +334,12 @@ Digging carefully, you find a strange charm embedded in the straw.#(+ITEM)<#>О�
 You cut your hand on a fish bone! The waves crash, dragging the bundle back into the sea…#(-1 STAMINA / +1% DOOM)<#>Вы порезали руку о рыбную кость! Волны ударили, утащив свёрток обратно в море...#(-1 ВЫНОСЛИВОСТИ / +1% РОКА)
 You step away quickly. Something about the ocean feels… hungrier than usual tonight.#(-1 REASON)<#>Вы быстро отходите. Что-то океан какой-то... более голодный сегодня.#(-1 РАССУДКА)
 OLD SHRINE<#>СТАРЫЙ ХРАМ
-You stumble upon a moss-covered shrine in the forest. An offering bowl lies cracked at its base, and the smell of incense lingers faintly, though it seems like no one has been here for years.<#>Вы натыкаетесь на заросший мохом храм в лесу. На его пороге лежит раскрытая подносительная чаша, и вокруг тянет лёгким запахом благовоний - хотя кажется что тут годами никого не было.
+You stumble upon a moss-covered shrine in the forest. An offering bowl lies cracked at its base, and the smell of incense lingers faintly, though it seems like no one has been here for years.<#>Вы натыкаетесь на заросший мохом храм в лесу. На его пороге лежит чаша для подношений, и вокруг тянет лёгким запахом благовоний - хотя кажется что тут годами никого не было.
 pray<#>молиться
 search the shrine<#>обыскать храм
 You feel like something has accepted your presence in this forest.#(+2 REASON)<#>Вы чувствуете, что ваше присутствие в этом лесу было одобрено.#(+2 РАССУДКА)
 Your prayers go unanswered. A cold wind cuts through the trees, chilling you to the bone.#(+2% DOOM)<#>Ваши мольбы остаются без ответа. Холодный ветер прорезается сквозь деревья, пробирая вас до костей.#(+2% РОКА)
-Beneath the offering bowl, you find a bundle of yellowed papers tied with a cord. They feel warm to the touch.#(+ITEM)#(FOREST’S THREAT LEVEL INCREASED)<#>(УРОВЕНЬ УГРОЗЫ ЛЕСА ПОВЫШЕН)
+Beneath the offering bowl, you find a bundle of yellowed papers tied with a cord. They feel warm to the touch.#(+ITEM)#(FOREST’S THREAT LEVEL INCREASED)<#>Под чашой подношений, вы находите кучку пожелтевшей бумаги, связанной нитью. На ощупь тёплая.#(+ПРЕДМЕТ)#(УРОВЕНЬ УГРОЗЫ ЛЕСА ПОВЫШЕН)
 CURSED SCRIPT<#>ПРОКЛЯТЫЙ МАНУСКРИПТ
 +1 KNOWLEDGE while held in the inventory#(use): learn a random spell, lower DOOM by 3%<#>(в инвентаре): +1 ИНТЕЛЛЕКТА#(использовать): изучить новое случайное заклинание и понизить РОК на 3%
 A bundle of fragile, yellowed papers covered in unsettling stories.<#>Кучка хлипких, пожелтевших бумаг, исписанных беспокойными историями.
@@ -369,11 +369,11 @@ break the wall<#>сломать стену
 talk to the wall<#>поговорить со стеной
 You smash through the plaster, finding a curious bundle hidden underneath.#(+ITEM)<#>Вы проламываете гипс, находя внутри загадочный свёрток.#(+ПРЕДМЕТ)
 The wall caves in, and a grotesque, eyeless face presses against yours, screaming.##You wake up drenched in sweat.#(-2 STAMINA)<#>Стена выгинается в вашу сторону, и безликое, кричащее лицо образуется напротив вашего.##Вы просыпаетесь в холодном поту.#(-2 ВЫНОСЛИВОСТИ)
-The sobbing gradually weakens, replaced by silence.#You feel as though you helped someone find peace.#(+2 REASON)<#>Плач медленно заменяется тишиной.#Словно вы помогли кому-то обрести мир.#(+2 РАССУДКА)
+The sobbing gradually weakens, replaced by silence.#You feel as though you helped someone find peace.#(+2 REASON)<#>Плач медленно заменяется тишиной.#Словно вы помогли кому-то обрести покой.#(+2 РАССУДКА)
 The crying turns into a mocking laughter that follows you through the apartment.#(-2 REASON)<#>Плач заменяется насмешливым хохотанием, следующим за вами по квартире.#(-2 РАССУДКА)
 SURE FOOTING<#>УВЕРЕННАЯ СТОЙКА
 Gain +5 EXPERIENCE for each event DEXTERITY check<#>Вы получаете +5 ОПЫТА за каждую проверку ЛОВКОСТИ в событиях
-You’ve been training for this. (+5 EXPERIENCE)<#>Вы к этому готовились. (+5 JGSNF)
+You’ve been training for this. (+5 EXPERIENCE)<#>Вы к этому готовились. (+5 ОПЫТА)
 SURVIVALIST<#>ВЫЖИВАЛЬЩИК
 Gain a random [SURVIVAL]-type item at the start of each mystery<#>(в начале каждой тайны): вы получаете случайный предмет типа "ВЫЖИВАНИЕ"
 TRAILBREAKER<#>ПЕРВОПРОХОДЕЦ
@@ -396,7 +396,7 @@ ECHOING RUMBLE<#>ОТЗВУКИ ГРОХОТА
 BLOODY MIST<#>КРОВАВЫЙ ТУМАН
 <<A coppery-smelling mist creeps down from the mountains, staining clothes and skin…>>##[-2 MAX REASON for the remainder of the playthrough.]<#>«Пахнущий металлом туман сходит с гор, цепляясь за одежду и кожу...»##(-2 МАКС. РАССУДКА до конца забега.)
 ACID RAIN<#>КИСЛОТНЫЙ ДОЖДЬ
-<<Bitter, stinging rain falls from the clouds, burning skin and leaving black stains on stone…>>##[-2 MAX STAMINA for the remainder of the playthrough.]<#>«Горький, обжигающий дождь падает с неба, обжигая кожу и оставляя тёмные пятна на камнях...»##(-2 МАКС. ВЫНОСЛИВОСТИ до конца забега.)
+<<Bitter, stinging rain falls from the clouds, burning skin and leaving black stains on stone…>>##[-2 MAX STAMINA for the remainder of the playthrough.]<#>«Горький, жгучий дождь падает с неба, жаля кожу и оставляя тёмные пятна на камнях...»##(-2 МАКС. ВЫНОСЛИВОСТИ до конца забега.)
 UNREAL SEASONS<#>РАЗМЫТЫЕ СЕЗОНЫ
 <<In a single day, snow falls, flowers bloom and cicadas scream in unbearable heat…>>##[+5% DOOM]<#>«Снег падает, цветы цветут, цикады плачут в невыносимой жаре - и всё за один и тот же день...»##(+5% РОКА)
 CLAIRVOYANCE<#>ЯСНОВИДЕНИЕ
@@ -404,7 +404,7 @@ CLAIRVOYANCE<#>ЯСНОВИДЕНИЕ
 Fate is in your favor today...<#>Удача сегодня на вашей стороне...
 FORTUNE’S FAVOR<#>ГОСПОЖА УДАЧА
 During combat, automatically avoid the first enemy attack<#>Во время боя, вы автоматически уклоняетесь от первой атаки врага
-ARCANA ALIGNMENT<#>ЗВЁЗДЫ СОШЛИСЬ
+ARCANA ALIGNMENT<#>ЧЁТКИЕ СОЗВЕЗДИЯ
 Regain STAMINA and REASON every time you select a new TAROT card<#>Восстанавливает ВЫНОСЛИВОСТЬ и РАССУДОК каждый раз, когда вы выбираете новую карту ТАРО
 You’re following the cards… (+2 STAMINA / REASON)<#>Вы следуете картам... (+2 ВЫНОСЛИВОСТИ / РАССУДКА)
 CULT HEIRESS<#>НАСЛЕДНИЦА КУЛЬТА
@@ -421,7 +421,7 @@ STAINED NOTEBOOK<#>ЗАПЯТНАННЫЙ ДНЕВНИК
 We are children all to the house, and the witch is our mother. This we must not forget in our endeavours- unlike a certain man. Thus, we shall finish what she began so many years ago - her metamorphosis is yet incomplete.<#>Мы все дети этого дома, и ведьма - наша мать. Об этом мы не должны забывать никогда - в отличие от некоторых. Засим, мы закончим то, что она начала много лет назад - её метаморфоз ещё не завершён.
 For that, we must gather flesh for the witch. Flesh to scale the walls around her. She must be fed until her divine form runneth over, and she is risen from the depths to embody the house. Then we shall join her in her reverie.<#>Поэтому, мы должны собрать плоть для ведьмы. Плоть, которой будут обиты стены, окружающие её. Её необходимо питать, пока не раскроется её священная форма, и она не взойдёт из глубин, воплотив дом. И тогда мы присоединимся к её грёзам.
 JUNPEI'S CORPSE<#>ТРУП ДЗЮНПЭЯ
-HITOMI gasps as you step through the brush. Before you lies something a pale red, spilled all over, splayed out across the forest floor. The shape is malformed and difficult to even make sense of in the darkness. You can't tell where the foliage stops and the viscera starts.<#>ХИТОМИ охает, проходя через заросли. На траве перед вами распласталась какая-то бледно-красная искажённая форма. Тяжело разобрать,  что это в темноте. Непонятно, где заканчивается трава, а где начинается кровь.
+HITOMI gasps as you step through the brush. Before you lies something a pale red, spilled all over, splayed out across the forest floor. The shape is malformed and difficult to even make sense of in the darkness. You can't tell where the foliage stops and the viscera starts.<#>ХИТОМИ охает, проходя через заросли. На траве перед вами распласталась какая-то бледно-красная искажённая форма. Тяжело разобрать, что это в темноте. Непонятно, где заканчивается трава, а где начинается кровь.
 <<oh god...>><#>«о господи...»
 As you struggle to make sense of the scene, a glint catches your eye. You pluck it from the ground. In your hands lie a cracked pair of glasses.##This is all that's left of JUNPEI.#(+ITEM / -3 REASON / -3 STAMINA)<#>Стараясь разобрать увиденное, вы замечаете отблеск. Вы подбираете их с земли. В ваших руках лежат разбитые очки.##Всё, что осталось от ДЗЮНПЭЯ.#(+ПРЕДМЕТ / -3 РАССУДКА / -3 ВЫНОСЛИВОСТИ)
 HOLE-RIDDEN MASK<#>СКВОЗНАЯ МАСКА
@@ -450,15 +450,15 @@ UNBOTHERED<#>ПОФИГИСТ
 all combat actions are slower until the end of the current mystery##(discard): change clothes / +3% DOOM<#>(до конца текущей тайны): все боевые действия медленнее##(выбросить): сменяет вашу одежду / +3% РОКА
 ENDLESS MODE<#>БЕСКОНЕЧНЫЙ РЕЖИМ
 SHIOKAWA is doomed, and all hope is lost! Die fighting against impossible odds.<#>ШИОКАВА обречена, никакой надежды нет! Погибните, сражаясь с неотвратимой судьбой.
-YEARBOOK<#>АЛЬМАНАХ
+YEARBOOK<#>ЕЖЕГОДНИК
 <<I must document everything, or they won't believe me.>><#>«Мне нужно всё записать, или они мне не поверят.»
 Start with a new item, KOUJI'S PHOTO ALBUM. You can't enter the LIGHTHOUSE without completing it.<#>Вы начинаете с новым предметом, ФОТОАЛЬБОМОМ КОДЗИ. Вы не можете войти в МАЯК не заполнив его.
 KOUJI'S PHOTO ALBUM<#>ФОТОАЛЬБОМ КОДЗИ
 Complete the horizontal set of photos to unlock rewards. Use a FLASH action to take a photo.<#>Заполните ряд из фотографий чтобы получить награды. Используйте действие ВСПЫШКА чтобы сделать фотографию.
-+20 EXPERIENCE#+1 PERCEPTION<#>+20 ОПЫТА#+1 ВОСПРИЯТИЕ
-+4 STAMINA / REASON#+1 STRENGTH<#>+4 ВЫНОСЛИВОСТИ / РАССУДКА
++20 EXPERIENCE#+1 PERCEPTION<#>+20 ОПЫТА#+1 ВОСПРИЯТИЯ
++4 STAMINA / REASON#+1 STRENGTH<#>+4 ВЫНОСЛИВОСТИ / РАССУДКА#+1 СИЛЫ
 +20 EXPERIENCE#+1 KNOWLEDGE<#>+20 ОПЫТА#+1 ИНТЕЛЛЕКТА
--10% DOOM#+1 DEXTERITY<#>-10% РОКА#+1 ЛОВКОСТЬ
+-10% DOOM#+1 DEXTERITY<#>-10% РОКА#+1 ЛОВКОСТИ
 AQUAPHOBIA<#>АКВАФОБИЯ
 You can't use the bath between mysteries.<#>Вы не можете использовать ванную между тайнами.
 <<It's lurking in the water...>><#>«Оно скрывается в воде...»
@@ -466,8 +466,8 @@ You can't use the bath between mysteries.<#>Вы не можете исполь�
 PHASMOPHOBIA<#>ФАЗМОФОБИЯ
 GHOST-type enemies deal extra damage.<#>Враги типа "ПРИЗРАК" наносят больше урона.
 <<What was that?>><#>«Что это было?»
-DARK WATER<#>МУТНЫЕ ВОДЫ
-<<That ghost is hunting me down, please believe me!>><#>«Это приведение меня преследует, пожалуйста, поверьте!»
+DARK WATER<#>ТЁМНЫЕ ВОДЫ
+<<That ghost is hunting me down, please believe me!>><#>«Это привидение меня преследует, пожалуйста, поверьте!»
 Start the playthrough with AQUAPHOBIA and PHASMOPHOBIA curses.<#>Вы начинаете забег с проклятиями АКВАФОБИЯ и ФАЗМОФОБИЯ.
 KOUJI<#>КОДЗИ
 +2 PERCEPTION<#>+2 ВОСПРИЯТИЯ
@@ -481,28 +481,28 @@ CONSPIRACIES<#>КОНСПИРАЦИИ
 COOL JACKET<#>КРУТАЯ КОФТОЧКА
 GOTH PARTY<#>ВИЧХАУС ЛОБНЯ
 LACE FRILL BUTTON UP<#>КЛАССИЧЕСКАЯ ЛОЛИТА
-LATEST CONSPIRACY<#>ПОСЛЕДНЯЯ КОНСПИРАЦИЯ
+LATEST CONSPIRACY<#>ПОСЛЕДНИЙ ЗАГОВОР
 REWARD<#>НАГРАДА
 PENALTY<#>ШТРАФ
-CONSPIRACY OF RUST<#>КОНСПИРАЦИЯ РЖАВЧИНЫ
+CONSPIRACY OF RUST<#>ЗАГОВОР РЖАВЧИНЫ
 <<your equipment looks battered and fragile...>><#>«ваша экипировка выглядит потрёпанной и хрупкой...»
 To complete: discard an item<#>Чтобы выполнить: выбросите предмет
-CONSPIRACY OF BLOOD<#>КОНСПИРАЦИЯ КРОВИ
+CONSPIRACY OF BLOOD<#>ЗАГОВОР КРОВИ
 <<they injected you with something when you were a kid...>><#>«они ввели вам что-то вместе с прививкой в детстве...»
 To complete: visit a doctor<#>Чтобы выполнить: посетите врача
-CONSPIRACY OF TRUST<#>КОНСПИРАЦИЯ ДОВЕРИЯ
+CONSPIRACY OF TRUST<#>ЗАГОВОР ДОВЕРИЯ
 <<you can't trust anyone...>><#>«никому нельзя доверять...»
 To complete: let one ally go or have no allies at the end of a mystery<#>Чтобы выполнить: отпустите одного союзника, либо не имейте союзников в конце тайны
-CONSPIRACY OF TIME<#>КОНСПИРАЦИЯ ВРЕМЕНИ
+CONSPIRACY OF TIME<#>ЗАГОВОР ВРЕМЕНИ
 <<they want you to waste time on meaningless stuff...>><#>«они заставляют меня тратить время на бесполезные вещи...»
 To complete: don't finish a sidequest<#>Чтобы выполнить: не завершайте дополнительное задание
-CONSPIRACY OF FEAR<#>КОНСПИРАЦИЯ СТРАХА
+CONSPIRACY OF FEAR<#>ЗАГОВОР СТРАХА
 <<you can't let anyone stop you...>><#>«я никому не позволю задерживать меня...»
 To complete: escape from combat<#>Чтобы выполнить: сбегите из боя
-CONSPIRACY OF GREED<#>КОНСПИРАЦИЯ ЖАДНОСТИ
+CONSPIRACY OF GREED<#>ЗАГОВОР ЖАДНОСТИ
 <<you must prepare yourself for the worst...>><#>«нужно готовиться к худшему...»
 To complete: buy an item<#>Чтобы выполнить: купите предмет
-CONSPIRACY OF RUMORS<#>КОНСПИРАЦИЯ СЛУХОВ
+CONSPIRACY OF RUMORS<#>ЗАГОВОР СЛУХОВ
 <<they know something you don't...>><#>«они знают то, чего не знаю я...»
 To complete: ask for gossip<#>Чтобы выполнить: спросите о сплетнях
 +1 FUNDS<#>+1 СРЕДСТВ
@@ -516,7 +516,7 @@ To complete: ask for gossip<#>Чтобы выполнить: спросите о
 -2 STAMINA<#>-2 ВЫНОСЛИВОСТИ
 -2 REASON<#>-2 РАССУДКА
 +5% DOOM<#>+5% РОКА
-SALT-DRIED EYES<#>ЗАСОЛЕННЫЕ ГЛАЗА
+SALT-DRIED EYES<#>ЗАСОЛЁННЫЕ ГЛАЗА
 [your eyes burn and crust over with a thin layer of salt, making the world blur]#-1 PERCEPTION<#>(ваши глаза покрываются тонкой солевой коркой и щиплят, размывая мир)#-1 ВОСПРИЯТИЯ
 <<is it an infection?>><#>«это инфекция?»
 HOLLOWED VEIN<#>ПОЛАЯ ВЕНА
@@ -538,7 +538,7 @@ PRIMAL FEAR<#>ПЕРВОБЫТНЫЙ УЖАС
 -2 STAMINA after completing each mystery<#>(в конце каждой тайны): -2 ВЫНОСЛИВОСТИ
 <<it can't be...>><#>«не может быть...»
 TIRED<#>УСТАЛОСТЬ
--1 to all stats until the end of the mystery#REST additional action removes it<#>(до конца текущей тайны): -1 ко всем характеристиками#доп. действие ОТДЫХА удаляет этот статус
+-1 to all stats until the end of the mystery#REST additional action removes it<#>(до конца текущей тайны): -1 ко всем характеристикам#доп. действие ОТДЫХА удаляет этот статус
 <<...yawn...>><#>«...*зевок*...»
 UNDER-PREPARED<#>НЕГОТОВНОСТЬ
 -1 to all stats for all event skill checks<#>-1 ко всем проверкам характеристик
@@ -558,10 +558,10 @@ Following a trail, you spot someone waving at you from the slope ahead. When you
 A hiker who encountered something evil in the fog. They now wander, trying to remember who they were.<#>Турист, встретивший что-то ужасное в тумане. Теперь он бродит, пытаясь вспомнить самого себя.
 The HOLLOWED HIKER swings a rusted knife!<#>БЕЗЛИКИЙ ТУРИСТ размахивает ржавым ножом!
 The HOLLOWED HIKER stumbles towards you!<#>БЕЗЛИКИЙ ТУРИСТ сталкивается с вами!
-The HOLLOWED HIKER claws at your face!<#>БЕЗЛИКИЙ ТУРИСТ цапапает ваше лицо!
+The HOLLOWED HIKER claws at your face!<#>БЕЗЛИКИЙ ТУРИСТ царапает ваше лицо!
 SKINNY MONK<#>ТОЩИЙ МОНАХ
-You find a shrine tucked into the rock wall, spotting an emaciated figure sitting in stillness. Unsure if that’s just a statue, you take a step back.##The figure rises up and points his crooked finger at you.<#>Вы находите храм, дверь которого встроена в горную породу, замечая внутри истощённый силуэт, склонившийся в тишине. Будучи неуверенным в том, статуя ли это, вы делаете шаг назад.##Силуэт встаёт и указывает своим изогнутым пальцем на вас.
-A monk who starved himself to glimpse the other side. Now, he seeks to consume others to preserve his vision.<#>Монах, моривший себя голодом с целью обрести потусторонее зрение. Теперь, он поглощает других, чтобы сохранить его.
+You find a shrine tucked into the rock wall, spotting an emaciated figure sitting in stillness. Unsure if that’s just a statue, you take a step back.##The figure rises up and points his crooked finger at you.<#>Вы находите храм, дверь которого встроена в горную породу, замечая внутри истощённый силуэт, склонившийся в тишине. Неуверенные в том, статуя ли это, вы делаете шаг назад.##Силуэт встаёт и указывает своим изогнутым пальцем на вас.
+A monk who starved himself to glimpse the other side. Now, he seeks to consume others to preserve his vision.<#>Монах, моривший себя голодом с целью обрести потустороннее зрение. Теперь, он поглощает других, чтобы сохранить его.
 SKINNY MONK lunges forward!<#>ТОЩИЙ МОНАХ делает выпад!
 SKINNY MONK bites your arm!<#>ТОЩИЙ МОНАХ кусает вас за руку!
 SKINNY MONK chants with bleeding gums!<#>ТОЩИЙ МОНАХ колдует сквозь кровоточащие дёсна!
@@ -577,15 +577,15 @@ A villager, cursed to carry the sacred tree up the mountain for eternity.<#>Жи
 TREE-BEARER mutters an old prayer!<#>ДРЕВОНЕСУЩИЙ бормочет древние молитвы!
 TREE-BEARER swings a club at you!<#>ДРЕВОНЕСУЩИЙ бьёт вас дубиной!
 TREE-BEARER attacks you!<#>ДРЕВОНЕСУЩИЙ атакует вас!
-SPINAL CENTIPEDE<#>МНОГОНОЖКА-СКЕЛЕТ
+SPINAL CENTIPEDE<#>ПОЗВОНОЧНАЯ МНОГОНОЖКА
 Something long and bone-white scurries past your leg, causing you to trip. As you try to get up, the thing slithers upright. It twitches, as if deciding whether your own spine will fit in.<#>Что-то длинное и белое как кость проносится у вас под ногами, из-за чего вы спотыкаетесь. Когда вы пытаетесь встать, существо вытягивается перед вами. Оно вертится, словно примеряя ваш позвоночник.
 Made from the fused spines of unlucky victims, it’s looking for a new donor.<#>Собранная из позвоночников невезучих пациентов, она ищет нового донора.
-SPINAL CENTIPEDE writhes toward you!<#>МНОГОНОЖКА-СКЕЛЕТ ползёт к вам!
-SPINAL CENTIPEDE slashes your shins!<#>МНОГОНОЖКА-СКЕЛЕТ бьёт по вашей голени!
+SPINAL CENTIPEDE writhes toward you!<#>ПОЗВОНОЧНАЯ МНОГОНОЖКА ползёт к вам!
+SPINAL CENTIPEDE slashes your shins!<#>ПОЗВОНОЧНАЯ МНОГОНОЖКА бьёт по вашей голени!
 You feel something pulling on your spine!<#>Вы чувствуете, как что-то забирается вам на спину!
 BLACKBOARD SHRIEKER<#>СКРИПЯЩИЙ ДОСКОЙ
 When you step into an empty classroom, the blackboard begins to screech violently, revealing a thin figure crawling out of it.##Your ears begin to ring…#no, they begin to bleed.<#>Когда вы входите в пустой класс, доска начинает дьявольски скрипеть, когда из неё вылезает тощая фигура.##У вас в ушах звенит...#нет, они кровоточат.
-An angry spirit of a bullied student, trapped between chalk lines.<#>Злобный дух затравленного ученка, запертого между надписями мелом.
+An angry spirit of a bullied student, trapped between chalk lines.<#>Злобный дух затравленного ученика, запертого между надписями мелом.
 BLACKBOARD SHRIEKER screams painfully!<#>СКРИПЯЩИЙ ДОСКОЙ ужасающе кричит!
 A piece of chalk explodes in your mouth!<#>Кусок мела взрывается у вас во рту!
 Your name appears on the blackboard!<#>Ваше имя появляется на школьной доске!
@@ -608,22 +608,22 @@ BARNACLE BLOOM whips you with kelp-like vines!<#>ЦВЕТУЩИЙ МОЛЮСК �
 BARNACLE BLOOM shoots you with salt crystals!<#>ЦВЕТУЩИЙ МОЛЮСК направляет в вас кристаллы соли!
 BARNACLE BLOOM launches briny spores at you!<#>ЦВЕТУЩИЙ МОЛЮСК выпускает солёные споры!
 WHISPERING HIKER<#>БОРМОЧУЩАЯ ТУРИСТКА
-A pale figure stands ahead, swaying gently. You can see its lips moving, though no sound reaches your ears…<#>Впереди вас стоит бледный человек, немного покаячиваясь. Вы замечаете движения её губ, но не слышите ни звука...
+A pale figure stands ahead, swaying gently. You can see its lips moving, though no sound reaches your ears…<#>Впереди вас стоит бледная девушка, немного покачиваясь. Вы замечаете движения её губ, но не слышите ни звука...
 Lost in the forest, she shouted for help until the forest claimed her voice.<#>Потерянная в лесу, она выкрикивала о помощи, пока лес не отнял у неё дар речи.
 A cold whisper passes through you!<#>Холодное бормотание пробирает вас!
 Her translucent hand brushes your arm!<#>Её прозрачная ладонь задевает вашу руку!
 WHISPERING HIKER attacks you!<#>БОРМОЧУЩАЯ ТУРИСТКА атакует вас!
-LIGHT SLEEPER<#>ПЛОХО СПИТСЯ
-<<Why does my neighbor keep banging on the pipes and screaming all night?>><#>«Почему мой сосед всё бьёт по батарее да кричит всю ночь?»
+LIGHT SLEEPER<#>ЧУТКИЙ СОН
+<<Why does my neighbor keep banging on the pipes and screaming all night?>><#>«Почему мой сосед всё бьёт по батарее и кричит всю ночь?»
 [begin every mystery with a TIRED status]<#>(вы начинаете каждую тайну со статусом УСТАЛОСТЬ)
 <<I'm not crazy!>><#>«Я нормальный!»
 <<Yet another sleepless night...>><#>«Ещё одна бессонная ночь...»
-INBRED INHERITOR<#>ЖЕРТВА ИНЦЕСТА
-A gaunt figure begins crawling down the staircase on all fours, his joints bending in a way that makes you nauseous. He is clutching a bundle of children’s toys to his chest, whispering something you can’t fully understand. When he notices you watching, he smiles…##…you’ve finally come home.<#>Гигантское существо сползает по ступенькам на четвереньках, его суставы сжимаются и вызывают у вас тошноту. Оно сжимает кучку детских игрушек у своей груди, шепча что-то непонятное вам. Когда он замечает вас, у него проступает улыбка...##...вы наконец пришли домой.
+INBRED INHERITOR<#>ВЫРОДОК-НАСЛЕДНИК
+A gaunt figure begins crawling down the staircase on all fours, his joints bending in a way that makes you nauseous. He is clutching a bundle of children’s toys to his chest, whispering something you can’t fully understand. When he notices you watching, he smiles…##…you’ve finally come home.<#>Тощее существо сползает по ступенькам на четвереньках, его суставы сжимаются и вызывают у вас тошноту. Оно сжимает кучку детских игрушек у своей груди, шепча что-то непонятное вам. Когда он замечает вас, у него проступает улыбка...##...вы наконец пришли домой.
 The last remaining heir of the mansion, twisted by generations of inbreeding and occult practices. He still lurks in the attic, searching for a new family.<#>Последний оставшийся наследник поместья, изуродованный поколениями инцеста и оккультных ритуалов. Он всё ещё живёт на чердаке, в поисках новой семьи.
-INBRED INHERITOR lunges at you!<#>ЖЕРТВА ИНЦЕСТА напрыгивает на вас!
-INBRED INHERITOR shakes his toys violently!<#>ЖЕРТВА ИНЦЕСТА безумно трясёт своими игрушками!
-INBRED INHERITOR spits blood at you!<#>ЖЕРТВА ИНЦЕСТА плюёт кровью!
+INBRED INHERITOR lunges at you!<#>ВЫРОДОК-НАСЛЕДНИК напрыгивает на вас!
+INBRED INHERITOR shakes his toys violently!<#>ВЫРОДОК-НАСЛЕДНИК безумно трясёт своими игрушками!
+INBRED INHERITOR spits blood at you!<#>ВЫРОДОК-НАСЛЕДНИК плюёт кровью!
 MASK-MAKER<#>МАСОЧНИК
 You spot a lantern swaying between the houses, its dull orange glow cutting through the fog.#Before you can react, a masked figure steps into view. His quiet mumbling underneath a mask seems gentle and almost friendly, but something about him freezes your blood with fear…<#>Вы замечаете лампу, свисающую между домов, тусклый жёлтый цвет которой проступает сквозь туман.#Не успеваете вы и отреагировать, как в ваше поле зрения входит человек в маске. Его тихое бормотание из-под маски кажется дружелюбным и деликатным, но в нём есть что-то, из-за чего у вас кровь стынет в жилах...
 After the festival honoring a local mountain spirit was abandoned following a tragedy years ago, the mask-maker still wanders at night, trying to find a proper sacrifice.<#>После того, как несколько лет назад про фестиваль в честь местного горного духа забыли и случилась трагедия, масочник бродит в ночи, пытаясь найти подходящую жертву.
@@ -631,7 +631,7 @@ MASK-MAKER swings his lantern at you!<#>МАСОЧНИК размахивает 
 MASK-MAKER stabs you with a knife!<#>МАСОЧНИК бьёт вас ножом!
 MASK-MAKER raises his withered hand!<#>МАСОЧНИК поднимает свою увядшую руку!
 FAMILY PORTRAIT<#>СЕМЕЙНЫЙ ПОРТРЕТ
-A massive painting dominates the room you’ve just entered. At first glance, it’s a typical family portrait, but the longer you look, the more details seem wrong.#Their smiles are too tight, their eyes too wet. And the smallest child’s finger seems to be…##pointing at you.<#>Огромная картина сторожит комноту, в которую вы только что вошли. На первый взгляд, обычный семейный портрет, но чем дольше смотришь - тем больше проглядывается деталей.#Улыбки слишком натянутые, глаза слишком слезливые. И похоже, что младший ребёнок семьи...##указывает на вас.
+A massive painting dominates the room you’ve just entered. At first glance, it’s a typical family portrait, but the longer you look, the more details seem wrong.#Their smiles are too tight, their eyes too wet. And the smallest child’s finger seems to be…##pointing at you.<#>Огромная картина сторожит комнату, в которую вы только что вошли. На первый взгляд, обычный семейный портрет, но чем дольше смотришь - тем больше проглядывается деталей.#Улыбки слишком натянутые, глаза слишком слезливые. И похоже, что младший ребёнок семьи...##указывает на вас.
 look closer<#>присмотреться
 tear it down<#>порвать его
 You inspect a canvas and learn something curious. The portrait has been repainted many times, each new layer hiding a previous one.#(+10 EXPERIENCE)<#>Вы изучаете портрет и узнаёте кое-что интересное. Его много раз перерисовывали, один слой поверх другого.#(+10 ОПЫТА)
@@ -645,22 +645,22 @@ Finish a playthrough in the 1.2 update<#>Завершите забег в обн
 GOTTA GET RIGHT<#>КОНТРОЛЬНЫЙ ВЫСТРЕЛ
 get three guns in one playthrough<#>заполучить три огнестрела в одном забеге
 FINALLY, I CAN RELAX…<#>НАКОНЕЦ-ТО, МОЖНО РАССЛАБИТЬСЯ...
-complete the [DARK WATER] challenge<#>завершить испытание (МУТНАЯ ВОДА)
+complete the [DARK WATER] challenge<#>завершить испытание (ТЁМНЫЕ ВОДЫ)
 SAY CHEESE…<#>УЛЫБОЧКУ...
-complete the [YEARBOOK] challenge<#>завершить испытание (АЛЬМАНАХ)
+complete the [YEARBOOK] challenge<#>завершить испытание (ЕЖЕГОДНИК)
 …AND DIE<#>...И НА ПОКОЙ
 finish the photo album before entering the lighthouse<#>заполнить фотоальбом перед входом на маяк
 LET’S GO HIKING<#>В ПОХОД
 investigate MOUNTAINS location ten times in one playthrough and win<#>исследовать локацию ГОРЫ десять раз в одном забеге и выиграть
-THE WEATHER’S... FINE?<#>ПОГОДОА... НОРМАЛЬНАЯ?
+THE WEATHER’S... FINE?<#>ПОГОДА... НОРМАЛЬНАЯ?
 as HIKER, complete a TRUE BELIEVER playthrough<#>за ПУТЕШЕСТВЕННИКА, завершите забег на сложности ИСТИННО ВЕРУЮЩИЙ
 I HATE THIS NOISE<#>НЕНАВИЖУ ЭТОТ ЗВУК
 as MORIKO, equip EAR PROTECTION<#>за МОРИКО, экипируйте НАУШНИКИ
 ---THE WAR FOR SHIOKAWA---<#>---ВОЙНА ЗА ШИОКАВУ---
 Four rival cults have succeeded in summoning their ancient patrons, plunging our town into a nightmare of overlapping horrors...<#>Четыре соперничающих культа преуспели в призыве своих древних покровителей, погрузив наш город в кошмар из перекликающихся ужасов.
-WE ARE DOOMED: Activates the special rules of CTHAC-ATORASU, GOIZO, ATH-YOLAZSTH and ITHOTU<#>МЫ ОБРЕЧЕНЫ: Активирует особые правила КТХАКА-АТОРАСУ, ГОЙЗО, АТХ-ЙОЛАЗСТХА, и ИТХОТУ
+WE ARE DOOMED: Activates the special rules of CTHAC-ATORASU, GOIZO, ATH-YOLAZSTH and ITHOTU<#>МЫ ОБРЕЧЕНЫ: Активирует особые правила КТХАКА-АТОРАСУ, ГОЙЗО, АТХ-ЙОЛАЗТА, и ИТХОТУ
 WAR FOR SHIOKAWA<#>ВОЙНА ЗА ШИОКАВУ
-HARBINGER OF FATE<#>ПРЕДВЕСТНИК НАДЕЖДЫ
+HARBINGER OF FATE<#>ПРЕДВЕСТНИК СУДЬБЫ
 complete a HARBINGER OF DOOM playthrough successfully<#>пройдите забег ПРЕДВЕСТНИКА РОКА
 BEST FRIEND AWARD<#>НОМИНАЦИЯ НА ЛУЧШЕГО ДРУГА
 complete the [WORLD OF FRIENDSHIP] challenge<#>завершите испытание (МИР ДРУЖБЫ)
@@ -670,9 +670,9 @@ EXPERT COMMUTER<#>ИСКУШЁННЫЙ ПАССАЖИР
 take the metro ride ten times in one playthrough<#>прокатиться на метро десять раз в одном забеге
 SHIOKAWA HISTORY VII<#>ИСТОРИЯ ШИОКАВЫ VII
 unlock 60 achievements<#>разблокируйте 60 достижений
-MISSING GIRL #2<#>ПРОПВШАЯ ДЕВУШКА #2
-complete the TAPES OF TERROR scenario<#>завершите сценарий ЗАПИСИ УЖАСА
-MIDNIGHT MEAT TRAIN<#>ПОЛУНОЧНЫЙ ПОЕЗД ПЛОТИ
+MISSING GIRL #2<#>ПРОПАВШАЯ ДЕВУШКА #2
+complete the TAPES OF TERROR scenario<#>завершите сценарий о ПЕЧАЛЬНЫХ ПЛЁНКАХ
+MIDNIGHT MEAT TRAIN<#>ПОЛУНОЧНЫЙ ЭКСПРЕСС
 defeat the metro stalker<#>победите сталкера в метро
 CLOSE AND PERSONAL<#>БЛИЗКОЕ К СЕРДЦУ
 try combat casting<#>попробуйте боевые заклинания
@@ -688,7 +688,7 @@ MEMORY OF HITOMI<#>ПАМЯТЬ О ХИТОМИ
 MEMORY OF YOU<#>ПАМЯТЬ О СЕБЕ
 [I was... a good person]#-10% DOOM<#>(Я... была хорошим человеком)#(-10% РОКА)
 DISTRACTED<#>ОТВЛЕЧЕНИЕ
-As you continue your investigation, the empty slots in your photo album begin to annoy you.##Maybe you should put the current case aside and focus on filling out the album?<#>По мере продвижения расследования, пустые места в фотоальбоме начинают раздражать вас.##Может, приостановить дело и сконцентрироваться на альбоме:
+As you continue your investigation, the empty slots in your photo album begin to annoy you.##Maybe you should put the current case aside and focus on filling out the album?<#>По мере продвижения расследования, пустые места в фотоальбоме начинают раздражать вас.##Может, приостановить дело и сконцентрироваться на альбоме?
 search for enemies<#>искать врагов
 continue with your investigation<#>продолжить расследование
 You spend the next day exploring places where supposedly monsters could be seen...<#>Вы тратите весь день, исследуя места, где предположительно могут быть монстры.
@@ -708,26 +708,26 @@ BIZARRE DIAGNOSIS<#>НЕПОНЯТНЫЙ ДИАГНОЗ
 TOO BUSY TO HEAL<#>НЕТ ВРЕМЕНИ НА БОЛЬНИЦУ
 (discard): -1 MAX STAMINA#get PAINKILLER<#>(удалить): -1 МАКС. ВЫНОСЛИВОСТИ#даёт БОЛЕУТОЛЯЮЩЕЕ
 SHIFTING GROUND<#>СМЕЩЕНИЕ ПЛИТ
-You stumble as the cracks appear in the ground, as if something far below has shifted in its sleep. You can’t help but recognize the pattern of the quakes.##Is it… breathing?<#>Вы спотыкаетесь о появившиеся в земле трещины, будто что-то пол землёй начало смещаться, просыпаясь ото сна. Вы узнаёте узоры на земле.##Бог... дышит?
+You stumble as the cracks appear in the ground, as if something far below has shifted in its sleep. You can’t help but recognize the pattern of the quakes.##Is it… breathing?<#>Вы спотыкаетесь о появившиеся в земле трещины, будто что-то под землёй начало смещаться, просыпаясь ото сна. Вы узнаёте узоры на земле.##Бог... дышит?
 press your ear to the ground<#>приложить ухо к земле
 back away carefully<#>осторожно уйти
-You’ve been listening to the weird noise for far too long, but somehow, you think you understood some of the sounds.#(+SPELL / +2% DOOM)<#>Вы очень долго вслушивались в странные звуки, и каким-то образом поняли некоторые из них.
+You’ve been listening to the weird noise for far too long, but somehow, you think you understood some of the sounds.#(+SPELL / +2% DOOM)<#>Вы очень долго вслушивались в странные звуки, и каким-то образом поняли некоторые из них.#(+ЗАКЛИНАНИЕ, +2% РОКА)
 All you’ve achieved is getting yourself covered in mud.#(+1% DOOM)<#>Вы лишь запачкались в грязи.#(+1% РОКА)
-No way you’re going to risk falling into a potential sinkhole.#(-1 STAMINA)<#>Вы не будете рисковать упасть в одну из трещин.#(-1 ВЫНОСЛИВОСТЬ)
-XII - THE HANGED MAN<#>XII - ПОВЕШЕННЫЙ
+No way you’re going to risk falling into a potential sinkhole.#(-1 STAMINA)<#>Вы не рискнёте упасть в одну из трещин.#(-1 ВЫНОСЛИВОСТИ)
+XII - THE HANGED MAN<#>XII - ВИСЕЛЬНИК
 Extra damage against HUMAN enemies<#>Дополнительный урон против врагов типа ЧЕЛОВЕК
 Gain a random ALLY<#>Получить случайного СОЮЗНИКА
 The ground suddenly gives way without any warning, and SHIOKAWA slides downward into a single, bottomless sinkhole.<#>Земля внезапно уходит из-под ног, и ШИОКАВА падает в одну огромную бездонную яму.
 Streets, buildings, and roads are erased in moments. The door of IKT-YOSIS's prison has opened.<#>Улицы, постройки и дороги моментально разрушаются. Дверь в тюрьму ИКТ-ЙОЗИСА была открыта.
 Dragged into the underground<#>Утащены под землю
-Rival cults spill into the streets, their hidden chants turning into open violence. Riots quickly engulf the city and the surrounding areas.<#>Соперничающие культы выходят на улицы, и их секретный оккультизм перерострает в открытую жестокость. Погромы быстро поглощают город и прилегающие территории.
+Rival cults spill into the streets, their hidden chants turning into open violence. Riots quickly engulf the city and the surrounding areas.<#>Соперничающие культы выходят на улицы, и их секретный оккультизм перерастает в открытую жестокость. Погромы быстро поглощают город и прилегающие территории.
 No god answers the calls in the ruins of SHIOKAWA.<#>Ни один бог не ответит на мольбы с руин ШИОКАВЫ.
 Shot during riots<#>Подстрелены в беспорядках
-The current conspiracy is fulfilled.<#>Текущая конспирация завершена.
+The current conspiracy is fulfilled.<#>Текущий заговор раскрыт.
 TINFOIL HAT<#>ШЛЯПА ИЗ ФОЛЬГИ
-win a playthrough using CONSPIRACY backstory<#>пройдите забег с предысторией КОНСПИРАЦИЯ
+win a playthrough using CONSPIRACY backstory<#>пройдите забег с предысторией ПОМЕШАТЕЛЬСТВО НА КОНСПИРОЛОГИИ
 NIGHT OWL<#>СОВА
-win a playthrough using LIGHT SLEEPER backstory<#>пройдите забег с предысторией ПЛОХО СПИТЬСЯ
+win a playthrough using LIGHT SLEEPER backstory<#>пройдите забег с предысторией ПЛОХО СПИТСЯ
 METEOROPATHY<#>МЕТЕОРОПАТИЯ
 Check the weather outside 5 times in a single playthrough<#>Проверьте погоду 5 раз в одном забеге
 METRO STALKER<#>СТАЛКЕР В МЕТРО
@@ -743,12 +743,12 @@ wooden mask<#>деревянная маска
 WE ARE DOOMED<#>МЫ ОБРЕЧЕНЫ
 multiple effects<#>несколько эффектов
 AIKO<#>АЙКО
-+2 DEXTERITY#faster offensive actions<#>+2 ЛОВКОСТИ#действия в бою быстрее
++2 DEXTERITY#faster offensive actions<#>+2 ЛОВКОСТИ#боевые действия становятся быстрее
 << Like my new haircut?>><#>«Нравится моя новая причёска?»
 [ATHLETE]<#>(АТЛЕТ)
 You've snatched a lab coat hanging on one of the chairs.<#>Вы схватили лабораторный халат, свисающий с одного из стульев.
 You get a nice view of the lighthouse.<#>Хороший вид на маяк.
-You spend some time setting up the telescope. You marvel over the stars and the moon until you see... it.#The blasphemous body of the god burns into your retinas.<#>Вы потратили некоторые время, чтобы установить телескоп. Вы глазеете на звёзды и луну, пока не замечаете... его.#Порочное тело бога впечатывается в вашу голову.
+You spend some time setting up the telescope. You marvel over the stars and the moon until you see... it.#The blasphemous body of the god burns into your retinas.<#>Вы потратили некоторое время, чтобы установить телескоп. Вы глазеете на звёзды и луну, пока не замечаете... его.#Порочное тело бога впечатывается в вашу голову.
 But it doesn't end there, the image burrowing deeper and deeper...#until you fall onto the ground, dead.<#>Но всё не кончается на этом. Изображение проникает глубже и глубже...#пока вы не падаете замертво.
 Brain destroyed<#>Уничтожение мозга
 NOT SUMMONED YET<#>ЕЩЁ НЕ ПРИЗВАНО

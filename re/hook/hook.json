@@ -1,9 +1,0 @@
-{
-  "size": 330,
-  "relocations": [
-    {
-      "offset": 149,
-      "symbol": "g_table"
-    }
-  ]
-}
