@@ -1,7 +1,7 @@
 """Replace sprite frames and font atlases in a data.win with PNGs from two folders, matched by name.
 
 Each frame PNG must be named <sprite>_<frame>.png (as written by `woh.py extract`). Files whose sprite or frame does not exist in the
-data.win are skipped with a message. Each font PNG must be named <font>.png and have the size of that font's atlas, otherwise the run fails.
+data.win are skipped with a message. Each frame PNG and each font PNG (named <font>.png) must have the size of the texture it replaces, otherwise the run fails.
 
 Runs replace_sprites.csx through UndertaleModCli and saves the result to --out.
 

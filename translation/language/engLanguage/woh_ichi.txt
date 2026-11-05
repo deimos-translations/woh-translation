@@ -1,99 +1,99 @@
-BASEBALL PLAYER<#>БЕЙСБОЛИСТКА
-Name: YUMIKO ICHIMURA#20 / FEMALE #When her twin brother suddenly disappeared during a family holiday, Yumiko swore to find him, no matter the cost...<#>Имя: ЮМИКО ИЧИМУРА#20, ЖЕНЩИНА#Когда её брат-близнец внезапно исчез во время семейного отпуска, Юмико поклялась найти его, какой бы ни была цена...
-+ STRENGTH#- KNOWLEDGE#starts with LUCKY BAT<#>+ СИЛА#- ИНТЕЛЛЕКТ#начинает со СЧАСТЛИВОЙ БИТОЙ
-YUMIKO<#>ЮМИКО
-NEIGHBOR<#>СОСЕДКА
-Name: KANA#?? / ?? #Neighbor has gone missing while investigating a weird case. KANA is determined to find and rescue them.<#>Имя: КАНА#??, ??#Один из её соседей пропал при расследовании загадочного дела. КАНА полна решимости найти и спасти его.
-+ FUN#- EYE#starts with SOFT DRINK<#>+ ВЕСЕЛЬЕ#- ГЛАЗ#начинает с ГАЗИРОВКОЙ
-KANA<#>КАНА
-KANA: <<This is not the end.>> (+5% DOOM)<#>КАНА: «Это ещё не конец.» (+5% РОКА)
-SWING AND HIT<#>ВЗМАХ И УДАР
-PREPARE ATTACK combat action increases the damage of the next weapon attack by 2<#>боевое действие ПОДГОТОВКА АТАКИ увеличивает урон следующей атаки ОРУЖИЕМ на 2
-SWIFT MANEUVER<#>СТРЕМИТЕЛЬНЫЙ МАНЁВР
-DODGE combat action chance increased by 10%<#>шанс успешного УКЛОНЕНИЯ в бою увеличивается на 10%
-THIRD PERK OF YUMI<#>ТРЕТЬЯ СПОСОБНОСТЬ ЮМИ
-<#>
-FUNGAL GROWTH<#>ГРИБНОЙ НАРОСТ
--2 MAX REASON#(discard): lose 3 STAMINA<#>-2 МАКС. РАССУДКА#(избавиться): потерять 3 ВЫНОСЛИВОСТИ
-<<What's that smell?>><#>«Что это за запах?»
-PROTECTIVE CARVINGS<#>ЗАЩИТНЫЕ ПОРЕЗЫ
-receive -1 DAMAGE during combat encounters#[COST: 4 STAMINA]<#>в бою враги наносят вам на 1 УРОНА меньше#(СТОИМОСТЬ: 4 ВЫНОСЛИВОСТИ)
-You carve the protective symbols on your chest and arms... (-4 STAMINA)<#>Вы вырезаете защитные символы на своей груди и руках... (-4 ВЫНОСЛИВОСТИ)
-PROTECTIVE CARVINGS#[-1 DAMAGE received]<#>ЗАЩИТНЫЕ ПОРЕЗЫ#(-1 входящего УРОНА)
-BLOOD FRENZY<#>КРОВАВОЕ БЕЗУМИЕ
-+1 DAMAGE / receive additional combat damage#(discard): lose 3 STAMINA<#>+1 УРОНА; враги наносят вам больше УРОНА#(снять): потерять 3 ВЫНОСЛИВОСТИ
-<<is that paint?>><#>«Это краска?..»
-EIMI<#>ЭЙМИ
-completing a mystery regains 1 REASON<#>(в конце каждой тайны): восстанавливает 1 РАССУДКА
-<<thanks for saving me>><#>«Спасибо, что спасли меня»
-[gallery curator]<#>(куратор галереи)
-#[EIMI]: +1 REASON<#>#ЭЙМИ: +1 РАССУДКА
-UCHIDA<#>УЧИДА
-EXP bonus for assessing situation during combat (once per enemy)<#>даёт немного ОПЫТА за оценку обстановки во время боя (один раз на врага)
-'heavy breathing'<#>*тяжело дышит*
-[otaku creep]<#>(жуткий отаку)
-UCHIDA stammers some facts about your enemy. (+7 EXP)<#>УЧИДА бормочет несколько фактов о вашем враге. (+7 ОПЫТА)
-T'CITHURA<#>Т'СИТХУРА
-As you get closer to the bridge leading out of the village, MATSUDA-SAN suddenly stops.#<<I... know this tune...>>##Before you can react, he begins to undress and runs into the darkness. Shocked, you begin to hear a faint moaning coming from the rock formation.#What you see there feels unreal. All the villagers are naked! They are dancing around the pillars as something slowly emerges from the river...<#>По мере того, как вы приближаетесь к мосту, ведущему из деревни, МАЦУДА-САН внезапно останавливается.#«Я... знаю эту мелодию...»##Прежде чем вы успеваете среагировать, он раздевается и убегает в темноту. Всё ещё в шоке, вы слышите слабые стоны, исходящие от каменного строения.#То, что вы видите, ощущается нереальным. Все жители раздеты! Они танцуют вокруг столбов, пока что-то медленно восстаёт из реки...
-T'CITHURA'S DANCE<#>ТАНЕЦ Т'СИТХУРЫ
-KAIBARA'S VILLAGERS will heal T'CITHURA every turn<#>ЖИТЕЛИ КАЙБАРЫ будут лечить Т'СИТХУРУ каждый ход
-The fertility goddess has been caring for KAIBARA village for centuries, asking for human sacrifices in return.<#>Богиня плодородия заботилась о деревне КАЙБАРА веками, взамен требуя человеческие жертвоприношения.
-KAIBARA'S VILLAGERS<#>ЖИТЕЛИ КАЙБАРЫ
-the fertility goddess<#>богиня плодородия
-You feel the urge to enter the water...<#>Вы чувствуете желание войти в воду...
-You want to join the fertility dance...<#>Вы хотите присоединиться к танцу плодородия...
-You feel strangely aroused...<#>Вы чувствуете странное возбуждение...
-The mad ritual dance heals T'CITHURA! (+1 HEALTH)<#>Безумный ритуальный танец лечит Т'СИТХУРУ! (+1 ЗДОРОВЬЯ)
-MEAT HORROR<#>МЯСНОЙ УЖАС
-Waves violently crash against the rocks as the gory horror begins to circle you...<#>Волны яростно разбиваются о скалы, когда кровавый ужас начинает окружать вас...
-Cursed by an ancient tablet he accidentally found, the marine biologist's skin began to act independently.<#>Кожа морского биолога, который был проклят случайно найденной древней табличкой, теперь живёт независимой жизнью.
-MEAT HORROR attacks you!<#>МЯСНОЙ УЖАС атакует вас!
-MEAT HORROR scratches you!<#>МЯСНОЙ УЖАС царапает вас!
-MEAT HORROR bites you!<#>МЯСНОЙ УЖАС кусает вас!
-KABUKI KILLER<#>УБИЙЦА КАБУКИ
-The masked man jumps from behind the door and you barely dodge his blade!#<<I can't let you leave this room...>>##Are you going to become his last victim?<#>Человек в маске выпрыгивает из-за двери, и вам едва удаётся уклониться от его клинка!#«Я не могу позволить тебе покинуть эту комнату...»##Вы будете его последней жертвой?
-ASAO SHIRAISHI lost his daughter in an accident. Now, he is determined to do anything to bring her back.<#>АСАО СИРАИСИ потерял свою дочь в результате несчастного случая. Теперь он готов на что угодно, чтобы вернуть её.
-the desperate father<#>отчаявшийся отец
-KABUKI KILLER stabs you with his knife!<#>УБИЙЦА КАБУКИ ударяет вас ножом!
-KABUKI KILLER slashes you across the face!<#>УБИЙЦА КАБУКИ разрезает вам лицо!
-KABUKI KILLER kicks you in your leg!<#>УБИЙЦА КАБУКИ пинает вас по ноге!
-UNFINISHED CHILD<#>НЕЗАВЕРШЁННОЕ ДИТЯ
-The masked man jumps from behind the door and you barely dodge his blade!#The KABUKI KILLER takes a step back, revealing his gruesome artwork - an unfinished statue of a child made of human nails.##Suddenly, the statue springs to life and bites the man's neck! The serial killer is visibly confused and tries to stop the bleeding as a geyser of blood paints the whole mortuary red.##The being's face slowly turns towards you...<#>Человек в маске выпрыгивает из-за двери, и вы едва уклоняетесь от его клинка!#УБИЙЦА КАБУКИ делает шаг назад, обличая своё жуткое произведение - незаконченную статую ребёнка, сделанную из человеческих ногтей.##Внезапно, статуя оживает и кусает мужчину за шею! Серийный убийца заметно потрясён и пытается остановить кровотечение, пока фонтан крови окрашивает стены морга.##Создание медленно поворачивается к вам...
-MANA SHIRAISHI was the KABUKI KILLER's daughter. The thing standing in front of you is her grotesque caricature.<#>МАНА СИРАИСИ была дочерью УБИЙЦЫ КАБУКИ. Создание, стоящее перед вами - её гротескная карикатура.
-UNFINISHED CHILD bites your arm!<#>НЕЗАВЕРШЁННОЕ ДИТЯ кусает вас за руку!
-UNFINISHED CHILD scratches you!<#>НЕЗАВЕРШЁННОЕ ДИТЯ царапает вас!
-UNFINISHED CHILD bites your leg!<#>НЕЗАВЕРШЁННОЕ ДИТЯ кусает вас за ногу!
----ZHECTAST, THE HORROR FROM THE STARS---<#>---ЖЕКТАСТ, ЗВЁЗДНЫЙ УЖАС---
-A big meteorite fell down on a field in a village near SHIOKAWA. A farmer who found it contacted researchers from Tokyo, but when they arrived, all they found was a wet puddle of pinkish goo.<#>Большой метеорит упал на поле рядом с хутором близ ШИОКАВЫ. Фермер, нашедший метеорит, связался с токийскими исследователями. Но когда они прибыли, всё, что им удалось обнаружить - мокрая лужица розоватой слизи.
-PERFECT FORM: Every 21% of DOOM, characters receive -1 to all stats.<#>ИДЕАЛЬНАЯ ФОРМА: каждые 21% РОКА, вы теряете 1 единицу всех характеристик.
-THE PERFECT FORM<#>ИДЕАЛЬНАЯ ФОРМА
-A big meteorite fell down on a field in a village near SHIOKAWA. A farmer who found it contacted researchers from Tokyo, but when they arrived, all they found was a wet puddle of pinkish goo.<#>Большой метеорит упал на поле рядом с хутором близ ШИОКАВЫ. Фермер, нашедший метеорит, связался с токийскими исследователями. Но когда они прибыли, всё, что им удалось обнаружить - мокрая лужица розоватой слизи.
-[every 21% DOOM lowers all your stats by 1]<#>каждые 21% РОКА,#вы теряете 1 единицу всех#характеристик
-You take a step towards the Perfect Form. (-1 ALL STATS)<#>Вы приближаетесь к идеальной форме. (-1 ХАРАКТЕРИСТИК)
-ZHECTAST<#>ЖЕКТАСТ
-PERFECT FORM<#>ИДЕАЛЬНАЯ ФОРМА
-every 21% DOOM lowers your stats by 1<#>каждые 21% РОКА, вы теряете 1 единицу всех характеристик
----EH-ŻHAL, THE INCONCEIVABLE SADNESS---<#>---ЭХ-ЖАЛ, НЕПОСТИЖИМАЯ ПЕЧАЛЬ---
-Slithering through the twisted tapestry of dimensions, the festering servants of EH-ŻHAL latch onto new vessels, ravenously devouring the very essence of human suffering, swelling their grotesque forms. Slowly but inevitably, the hosts succumb, their bodies and minds becoming one with the burgeoning god.<#>Скользя по хитросплетённому ковру измерений, гниющие слуги ЭХ-ЖАЛА захватывают новые сосуды, жадно пожирая саму суть человеческих страданий, вспучивая гротескные формы. Медленно, но неизбежно, носители сдаются, а их тела и разум становятся едины с расцветающим богом...
-AL-MISERY: Each mystery, a new status will start to weigh you down.<#>АЛЬ-СТРАДАНИЕ: каждую новую тайну вас будет отягощать новый статус.
-AL-MISERY<#>АЛЬ-СТРАДАНИЕ
-each mystery, a new status will start to weigh you down<#>(каждую новую тайну вас будет отягощать новый статус)
-EH-ŻHAL<#>ЭХ-ЖАЛ
-THE INCONCEIVABLE SADNESS<#>НЕПОСТИЖИМАЯ ПЕЧАЛЬ
-The insidious PARASITE swells in size, its tendrils snaking ever deeper into the crevices of your existence...<#>Коварный ПАРАЗИТ увеличивается в размерах, его щупальца всё глубже проникают в разломы вашего существования...
-At the end of the mystery, raise the DOOM by:<#>В конце тайны, приближает РОК на:
-2% for each ALLY<#>2% за каждого СОЮЗНИКА
-2% for each FUNDS<#>2% за каждую ЕД. СРЕДСТВ
-2% for each ITEM in inventory<#>2% за каждый ПРЕДМЕТ в инвентаре
-2% for each SPELL learned<#>2% за каждое выученное ЗАКЛИНАНИЕ
-1% for every 10 EXP (rounded down)<#>1% за каждые 10 ОПЫТА (округляется)
-1% for each active INJURY<#>1% за каждую активную ТРАВМУ
-1% for each active CURSE<#>1% за каждое активное ПРОКЛЯТИЕ
-MISERY PARASITE<#>ПАРАЗИТ СТРАДАНИЙ
-MISERY PARASITE grows larger...<#>ПАРАЗИТ СТРАДАНИЙ растёт...
-DOOM<#>РОК
-It was only a matter of time. The MISERY PARASITES took almost everything from you. The last thing they took, after weeks of torture, was your life.<#>Это был лишь вопрос времени. ПАРАЗИТ СТРАДАНИЙ забрал у вас почти всё. Спустя недели пыток, он, наконец, забрал у вас последнее - жизнь.
-Once a human being, now you've become one with the God of the Inconceivable Sadness.<#>Некогда будучи человеком, теперь вы стали едины с Богом Непостижимой Печали.
-Inconceivable Sadness<#>Непостижимая Печаль
-if the mystery ended right now, DOOM would raise by<#>если тайна будет завершена сейчас, РОК приблизится на
-Throw away 1 FUNDS<#>Выбросить 1 ЕД. СРЕДСТВ
+BASEBALL PLAYER|БЕЙСБОЛИСТКА
+Name: YUMIKO ICHIMURA#20 / FEMALE #When her twin brother suddenly disappeared during a family holiday, Yumiko swore to find him, no matter the cost...|Имя: ЮМИКО ИЧИМУРА#20, ЖЕНЩИНА#Когда её брат-близнец внезапно исчез во время семейного отпуска, Юмико поклялась найти его, какой бы ни была цена...
++ STRENGTH#- KNOWLEDGE#starts with LUCKY BAT|+ СИЛА#- ИНТЕЛЛЕКТ#начинает со СЧАСТЛИВОЙ БИТОЙ
+YUMIKO|ЮМИКО
+NEIGHBOR|СОСЕДКА
+Name: KANA#?? / ?? #Neighbor has gone missing while investigating a weird case. KANA is determined to find and rescue them.|Имя: КАНА#??, ??#Один из её соседей пропал при расследовании загадочного дела. КАНА полна решимости найти и спасти его.
++ FUN#- EYE#starts with SOFT DRINK|+ ВЕСЕЛЬЕ#- ГЛАЗ#начинает с ГАЗИРОВКОЙ
+KANA|КАНА
+KANA: <<This is not the end.>> (+5% DOOM)|КАНА: «Это ещё не конец.» (+5% РОКА)
+SWING AND HIT|ВЗМАХ И УДАР
+PREPARE ATTACK combat action increases the damage of the next weapon attack by 2|боевое действие ПОДГОТОВКА АТАКИ увеличивает урон следующей атаки ОРУЖИЕМ на 2
+SWIFT MANEUVER|СТРЕМИТЕЛЬНЫЙ МАНЁВР
+DODGE combat action chance increased by 10%|шанс успешного УКЛОНЕНИЯ в бою увеличивается на 10%
+THIRD PERK OF YUMI|ТРЕТЬЯ СПОСОБНОСТЬ ЮМИ
+|
+FUNGAL GROWTH|ГРИБНОЙ НАРОСТ
+-2 MAX REASON#(discard): lose 3 STAMINA|-2 МАКС. РАССУДКА#(избавиться): потерять 3 ВЫНОСЛИВОСТИ
+<<What's that smell?>>|«Что это за запах?»
+PROTECTIVE CARVINGS|ЗАЩИТНЫЕ ПОРЕЗЫ
+receive -1 DAMAGE during combat encounters#[COST: 4 STAMINA]|в бою враги наносят вам на 1 УРОНА меньше#(СТОИМОСТЬ: 4 ВЫНОСЛИВОСТИ)
+You carve the protective symbols on your chest and arms... (-4 STAMINA)|Вы вырезаете защитные символы на своей груди и руках... (-4 ВЫНОСЛИВОСТИ)
+PROTECTIVE CARVINGS#[-1 DAMAGE received]|ЗАЩИТНЫЕ ПОРЕЗЫ#(-1 входящего УРОНА)
+BLOOD FRENZY|КРОВАВОЕ БЕЗУМИЕ
++1 DAMAGE / receive additional combat damage#(discard): lose 3 STAMINA|+1 УРОНА; враги наносят вам больше УРОНА#(снять): потерять 3 ВЫНОСЛИВОСТИ
+<<is that paint?>>|«Это краска?..»
+EIMI|ЭЙМИ
+completing a mystery regains 1 REASON|(в конце каждой тайны): восстанавливает 1 РАССУДКА
+<<thanks for saving me>>|«Спасибо, что спасли меня»
+[gallery curator]|(куратор галереи)
+#[EIMI]: +1 REASON|#ЭЙМИ: +1 РАССУДКА
+UCHIDA|УЧИДА
+EXP bonus for assessing situation during combat (once per enemy)|даёт немного ОПЫТА за оценку обстановки во время боя (один раз на врага)
+'heavy breathing'|*тяжело дышит*
+[otaku creep]|(жуткий отаку)
+UCHIDA stammers some facts about your enemy. (+7 EXP)|УЧИДА бормочет несколько фактов о вашем враге. (+7 ОПЫТА)
+T'CITHURA|Т'СИТХУРА
+As you get closer to the bridge leading out of the village, MATSUDA-SAN suddenly stops.#<<I... know this tune...>>##Before you can react, he begins to undress and runs into the darkness. Shocked, you begin to hear a faint moaning coming from the rock formation.#What you see there feels unreal. All the villagers are naked! They are dancing around the pillars as something slowly emerges from the river...|По мере того, как вы приближаетесь к мосту, ведущему из деревни, МАЦУДА-САН внезапно останавливается.#«Я... знаю эту мелодию...»##Прежде чем вы успеваете среагировать, он раздевается и убегает в темноту. Всё ещё в шоке, вы слышите слабые стоны, исходящие от каменного строения.#То, что вы видите, ощущается нереальным. Все жители раздеты! Они танцуют вокруг столбов, пока что-то медленно восстаёт из реки...
+T'CITHURA'S DANCE|ТАНЕЦ Т'СИТХУРЫ
+KAIBARA'S VILLAGERS will heal T'CITHURA every turn|ЖИТЕЛИ КАЙБАРЫ будут лечить Т'СИТХУРУ каждый ход
+The fertility goddess has been caring for KAIBARA village for centuries, asking for human sacrifices in return.|Богиня плодородия заботилась о деревне КАЙБАРА веками, взамен требуя человеческие жертвоприношения.
+KAIBARA'S VILLAGERS|ЖИТЕЛИ КАЙБАРЫ
+the fertility goddess|богиня плодородия
+You feel the urge to enter the water...|Вы чувствуете желание войти в воду...
+You want to join the fertility dance...|Вы хотите присоединиться к танцу плодородия...
+You feel strangely aroused...|Вы чувствуете странное возбуждение...
+The mad ritual dance heals T'CITHURA! (+1 HEALTH)|Безумный ритуальный танец лечит Т'СИТХУРУ! (+1 ЗДОРОВЬЯ)
+MEAT HORROR|МЯСНОЙ УЖАС
+Waves violently crash against the rocks as the gory horror begins to circle you...|Волны яростно разбиваются о скалы, когда кровавый ужас начинает окружать вас...
+Cursed by an ancient tablet he accidentally found, the marine biologist's skin began to act independently.|Кожа морского биолога, который был проклят случайно найденной древней табличкой, теперь живёт независимой жизнью.
+MEAT HORROR attacks you!|МЯСНОЙ УЖАС атакует вас!
+MEAT HORROR scratches you!|МЯСНОЙ УЖАС царапает вас!
+MEAT HORROR bites you!|МЯСНОЙ УЖАС кусает вас!
+KABUKI KILLER|УБИЙЦА КАБУКИ
+The masked man jumps from behind the door and you barely dodge his blade!#<<I can't let you leave this room...>>##Are you going to become his last victim?|Человек в маске выпрыгивает из-за двери, и вам едва удаётся уклониться от его клинка!#«Я не могу позволить тебе покинуть эту комнату...»##Вы будете его последней жертвой?
+ASAO SHIRAISHI lost his daughter in an accident. Now, he is determined to do anything to bring her back.|АСАО СИРАИСИ потерял свою дочь в результате несчастного случая. Теперь он готов на что угодно, чтобы вернуть её.
+the desperate father|отчаявшийся отец
+KABUKI KILLER stabs you with his knife!|УБИЙЦА КАБУКИ ударяет вас ножом!
+KABUKI KILLER slashes you across the face!|УБИЙЦА КАБУКИ разрезает вам лицо!
+KABUKI KILLER kicks you in your leg!|УБИЙЦА КАБУКИ пинает вас по ноге!
+UNFINISHED CHILD|НЕЗАВЕРШЁННОЕ ДИТЯ
+The masked man jumps from behind the door and you barely dodge his blade!#The KABUKI KILLER takes a step back, revealing his gruesome artwork - an unfinished statue of a child made of human nails.##Suddenly, the statue springs to life and bites the man's neck! The serial killer is visibly confused and tries to stop the bleeding as a geyser of blood paints the whole mortuary red.##The being's face slowly turns towards you...|Человек в маске выпрыгивает из-за двери, и вы едва уклоняетесь от его клинка!#УБИЙЦА КАБУКИ делает шаг назад, обличая своё жуткое произведение - незаконченную статую ребёнка, сделанную из человеческих ногтей.##Внезапно, статуя оживает и кусает мужчину за шею! Серийный убийца заметно потрясён и пытается остановить кровотечение, пока фонтан крови окрашивает стены морга.##Создание медленно поворачивается к вам...
+MANA SHIRAISHI was the KABUKI KILLER's daughter. The thing standing in front of you is her grotesque caricature.|МАНА СИРАИСИ была дочерью УБИЙЦЫ КАБУКИ. Создание, стоящее перед вами - её гротескная карикатура.
+UNFINISHED CHILD bites your arm!|НЕЗАВЕРШЁННОЕ ДИТЯ кусает вас за руку!
+UNFINISHED CHILD scratches you!|НЕЗАВЕРШЁННОЕ ДИТЯ царапает вас!
+UNFINISHED CHILD bites your leg!|НЕЗАВЕРШЁННОЕ ДИТЯ кусает вас за ногу!
+---ZHECTAST, THE HORROR FROM THE STARS---|---ЖЕКТАСТ, ЗВЁЗДНЫЙ УЖАС---
+A big meteorite fell down on a field in a village near SHIOKAWA. A farmer who found it contacted researchers from Tokyo, but when they arrived, all they found was a wet puddle of pinkish goo.|Большой метеорит упал на поле рядом с хутором близ ШИОКАВЫ. Фермер, нашедший метеорит, связался с токийскими исследователями. Но когда они прибыли, всё, что им удалось обнаружить - мокрая лужица розоватой слизи.
+PERFECT FORM: Every 21% of DOOM, characters receive -1 to all stats.|ИДЕАЛЬНАЯ ФОРМА: каждые 21% РОКА, вы теряете 1 единицу всех характеристик.
+THE PERFECT FORM|ИДЕАЛЬНАЯ ФОРМА
+A big meteorite fell down on a field in a village near SHIOKAWA. A farmer who found it contacted researchers from Tokyo, but when they arrived, all they found was a wet puddle of pinkish goo.|Большой метеорит упал на поле рядом с хутором близ ШИОКАВЫ. Фермер, нашедший метеорит, связался с токийскими исследователями. Но когда они прибыли, всё, что им удалось обнаружить - мокрая лужица розоватой слизи.
+[every 21% DOOM lowers all your stats by 1]|каждые 21% РОКА,#вы теряете 1 единицу всех#характеристик
+You take a step towards the Perfect Form. (-1 ALL STATS)|Вы приближаетесь к идеальной форме. (-1 ХАРАКТЕРИСТИК)
+ZHECTAST|ЖЕКТАСТ
+PERFECT FORM|ИДЕАЛЬНАЯ ФОРМА
+every 21% DOOM lowers your stats by 1|каждые 21% РОКА, вы теряете 1 единицу всех характеристик
+---EH-ŻHAL, THE INCONCEIVABLE SADNESS---|---ЭХ-ЖАЛ, НЕПОСТИЖИМАЯ ПЕЧАЛЬ---
+Slithering through the twisted tapestry of dimensions, the festering servants of EH-ŻHAL latch onto new vessels, ravenously devouring the very essence of human suffering, swelling their grotesque forms. Slowly but inevitably, the hosts succumb, their bodies and minds becoming one with the burgeoning god.|Скользя по хитросплетённому ковру измерений, гниющие слуги ЭХ-ЖАЛА захватывают новые сосуды, жадно пожирая саму суть человеческих страданий, вспучивая гротескные формы. Медленно, но неизбежно, носители сдаются, а их тела и разум становятся едины с расцветающим богом...
+AL-MISERY: Each mystery, a new status will start to weigh you down.|АЛЬ-СТРАДАНИЕ: каждую новую тайну вас будет отягощать новый статус.
+AL-MISERY|АЛЬ-СТРАДАНИЕ
+each mystery, a new status will start to weigh you down|(каждую новую тайну вас будет отягощать новый статус)
+EH-ŻHAL|ЭХ-ЖАЛ
+THE INCONCEIVABLE SADNESS|НЕПОСТИЖИМАЯ ПЕЧАЛЬ
+The insidious PARASITE swells in size, its tendrils snaking ever deeper into the crevices of your existence...|Коварный ПАРАЗИТ увеличивается в размерах, его щупальца всё глубже проникают в разломы вашего существования...
+At the end of the mystery, raise the DOOM by:|В конце тайны, приближает РОК на:
+2% for each ALLY|2% за каждого СОЮЗНИКА
+2% for each FUNDS|2% за каждую ЕД. СРЕДСТВ
+2% for each ITEM in inventory|2% за каждый ПРЕДМЕТ в инвентаре
+2% for each SPELL learned|2% за каждое выученное ЗАКЛИНАНИЕ
+1% for every 10 EXP (rounded down)|1% за каждые 10 ОПЫТА (округляется)
+1% for each active INJURY|1% за каждую активную ТРАВМУ
+1% for each active CURSE|1% за каждое активное ПРОКЛЯТИЕ
+MISERY PARASITE|ПАРАЗИТ СТРАДАНИЙ
+MISERY PARASITE grows larger...|ПАРАЗИТ СТРАДАНИЙ растёт...
+DOOM|РОК
+It was only a matter of time. The MISERY PARASITES took almost everything from you. The last thing they took, after weeks of torture, was your life.|Это был лишь вопрос времени. ПАРАЗИТ СТРАДАНИЙ забрал у вас почти всё. Спустя недели пыток, он, наконец, забрал у вас последнее - жизнь.
+Once a human being, now you've become one with the God of the Inconceivable Sadness.|Некогда будучи человеком, теперь вы стали едины с Богом Непостижимой Печали.
+Inconceivable Sadness|Непостижимая Печаль
+if the mystery ended right now, DOOM would raise by|если тайна будет завершена сейчас, РОК приблизится на
+Throw away 1 FUNDS|Выбросить 1 ЕД. СРЕДСТВ

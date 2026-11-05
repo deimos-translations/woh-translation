@@ -17,7 +17,8 @@ Game files are read from the Steam install (`--game DIR` for another library). D
 `build/<exe md5:8>-<data md5:8>/`, so a game update simply starts a new cache. Stages whose outputs exist are skipped; `--force STAGE`
 reruns one, and is needed after editing a script, since script changes do not invalidate outputs. Actions always run.
 
-Only `woh.py sync` writes tracked files: `translation/language/*.txt` and `translation/exe_strings.txt`. Run it after a game update.
+`woh.py sync` writes the tracked translation files: `translation/language/*.txt` and `translation/exe_strings.txt`. Run it after a game update.
+`woh.py ghidra-import` rewrites the exe's line in `hashes.txt` each time the exe is disassembled. `pipeline/act/hash_images.py` writes the sprite lines for the PNGs in `img/translation` (the sprites that need translating); run it after a game update.
 
 **Installing the translation into the game folder:** `woh.py install` builds the language files and `data.win` (translated frames and
 font atlases) and copies them in; `--exe` adds the patched exe, which has never been run in the game. Files this pipeline wrote are recorded in `build/produced.md5` and refused as
@@ -101,7 +102,7 @@ label-only from disassembly.
 - `refs.tsv`: every code reference to those copies, from `ExportStringRefs.java`. Only RIP-relative `lea` is used; `mov` entries
   are Ghidra value propagation and are ignored. Texts without a `lea` reference (the two-letter `MC`..`CC` codes, odd fragments) can
   not be changed by `patch.py`, which warns if one is translated.
-- `translation/exe_strings.txt`: the document, `source<#>translation`, one line per distinct string; `woh.py sync` refreshes it and
+- `translation/exe_strings.txt`: the document, `source|translation`, one line per distinct string; `woh.py sync` refreshes it and
   keeps existing translations. Escapes: `\`, `\r`, `\n`, `\t`; `#` is the game's line break. Empty translation = untouched.
 - `patch.py --literal` repoints every copy's loads at the translation in `.ruloc`. Any length. It is the fallback for text modified
   before drawing, at the cost of the logic guarantee, and is refused for compared texts.

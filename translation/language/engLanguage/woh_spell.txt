@@ -1,137 +1,137 @@
-[RITUAL]<#>(РИТУАЛ)
---SPELL--###<#>--ЗАКЛИНАНИЕ--###
-[SUPPORT]<#>(ПОДДЕРЖКА)
-[HEALING]<#>(ЛЕЧЕНИЕ)
-[COMBAT]<#>(БОЙ)
-[OFFENSIVE]<#>(АТАКА)
-[DEFENSIVE]<#>(ЗАЩИТА)
-[SEAL]<#>(ПЕЧАТЬ)
-[INVESTIGATION]<#>(РАССЛЕДОВАНИЕ)
-You've already defeated this enemy.<#>Вы уже победили этого врага.
-This contract won't work on this enemy.<#>Это действие не сработает на этом враге.
-This spell can only be cast when investigating a location.<#>Это заклинание можно использовать только при исследовании локации.
-This spell targets HUMAN enemies only.<#>Это заклинание действует только против ЛЮДЕЙ.
-This spell targets ELDRITCH enemies only.<#>Это заклинание действует только против ПОТУСТОРОННЕГО.
-Occult signs attract unknown power!<#>Оккультные знаки привлекают неизвестную силу!
-It's too much for your mind! (-1 REASON)<#>Она слишком тяжела для вашего разума! (-1 РАССУДКА)
-CURRENT SPELL LIMIT<#>ТЕКУЩИЙ ЛИМИТ ЗАКЛИНАНИЙ
-MIND DRAIN<#>ИСТОЩЕНИЕ РАЗУМА
-deals 5 damage#regain 2 REASON#[COST: -1 MAX REASON]<#>наносит 5 урона#восстанавливает 2 РАССУДКА#(СТОИМОСТЬ: -1 МАКС. РАССУДКА)
-You reach out your hand in an occult gesture, draining ENEMY's mind!<#>Вы вытягиваете руку в оккультном знаке, истощая разум ВРАГА!
-REGENERATION<#>РЕГЕНЕРАЦИЯ
-regain 4 STAMINA#[COST: 2 REASON]<#>восстанавливает 4 ВЫНОСЛИВОСТИ#(СТОИМОСТЬ: 2 РАССУДКА)
-You can feel your wounds slowly closing!<#>Вы чувствуете, как ваши раны медленно затягиваются!
-SKIN REMOVAL<#>УДАЛЕНИЕ КОЖИ
-deals 6 damage#[COST: 3 REASON]<#>наносит 6 урона#(СТОИМОСТЬ: 3 РАССУДКА)
-The skin of your enemy starts falling off in big patches!<#>Кожа врага начинает отслаиваться большими кусками!
-MULTIPLY WOUND<#>ПРИУМНОЖЕНИЕ РАН
-deals damage to an enemy, which increases the lower your STAMINA is#[COST: 2 STAMINA]<#>наносит урон врагу#чем меньше у вас ВЫНОСЛИВОСТИ, тем больше урон#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-The wounds of your enemy explode with gore!<#>Раны вашего врага взрываются кровью!
-K'NPHA RITUAL<#>РИТУАЛ К'НПХА
-when your allies die, a random STAT gets raised by 1#[COST: 2 REASON]<#>когда ваши союзники умирают, случайная ХАРАКТЕРИСТИКА повышается на 1#(СТОИМОСТЬ: 2 РАССУДКА)
-Part of your ally's essence stays with you!<#>Часть сущности вашего союзника остаётся с вами!
-K'NPHA RITUAL#[allies -> stats]<#>РИТУАЛ К'НПХА#(союзники -> характеристики)
-INVISIBILITY<#>НЕВИДИМОСТЬ
-until the end of the current mystery, there is no DOOM penalty for escaping from combat#[COST: 4 REASON]<#>(до конца текущей тайны): побег из боя не приближает РОК#(СТОИМОСТЬ: 4 РАССУДКА)
-You shift into the shadow realm!<#>Вы переноситесь в царство теней!
-You are already invisible!<#>Вы уже невидимы!
-ABOLISH<#>РАЗВЕЯТЬ
-lowers ELDRITCH enemy DAMAGE by 1#[COST: 3 STAMINA]<#>ПОТУСТОРОННИЕ враги наносят вам на 1 УРОНА меньше#(СТОИМОСТЬ: 3 ВЫНОСЛИВОСТИ)
-A magic barrier appears, absorbing the damage!<#>Появляется магический барьер, поглощающий урон!
-Additional barriers won't help!<#>Дополнительные барьеры не помогут!
-ABSORB<#>ПОГЛОТИТЬ
-deals 3 damage, gain 2 STAMINA#[COST: 4 REASON]<#>наносит 3 урона, восстанавливает 2 ВЫНОСЛИВОСТИ#(СТОИМОСТЬ: 4 РАССУДКА)
-You suck the life force out of your enemy!<#>Вы поглощаете жизненную силу своего врага!
-THIRD EYE<#>ТРЕТИЙ ГЛАЗ
-+1 KNOWLEDGE and PERCEPTION until the end of the mystery#[effect doesn't stack]#[COST: 3 REASON]<#>(до конца текущей тайны): +1 ИНТЕЛЛЕКТА и ВОСПРИЯТИЯ#(эффект не складывается)#(СТОИМОСТЬ: 3 РАССУДКА)
-You can feel your inner eye open!<#>Вы чувствуете раскрытие третьего глаза!
-You wouldn't want a fourth eye, would you?<#>Вам же не нужен четвёртый глаз?
-ITHOTU FLAME<#>ПЛАМЯ ИТХОТУ
-deals 8 damage#+2% DOOM#[COST: 1 REASON]#[COST: 1 STAMINA]<#>наносит 8 урона#+2% РОКА#(СТОИМОСТЬ: 1 РАССУДКА)#(СТОИМОСТЬ: 1 ВЫНОСЛИВОСТИ)
-A column of fire engulfs the enemy!<#>Пламенный столб поглощает врага!
-SEAL OF SAVVESH<#>ПЕЧАТЬ САВВЕША
-+1 STRENGTH#[discard on use]#[COST: 4 REASON]<#>+1 СИЛЫ#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
-A new seal appears on your skin!<#>На вашей коже появляется новая печать!
-SEAL OF BRAM'EL<#>ПЕЧАТЬ БРАМ'ЕЛЯ
-+1 KNOWLEDGE#[discard on use]#[COST: 4 REASON]<#>+1 ИНТЕЛЛЕКТА#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
-THREAD OF FATE<#>НИТЬ СУДЬБЫ
-defeat target HUMAN enemy#[discard on use]#[COST: 4 REASON]<#>мгновенно наносит поражение любому ЧЕЛОВЕКУ#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
-Enemy falls to the ground, dead.<#>Враг замертво падает на землю.
-ANCESTRAL STRENGTH<#>СИЛА ПРЕДКОВ
-+1 DAMAGE#[COST: 4 REASON]<#>+1 К УРОНУ#(СТОИМОСТЬ: 4 РАССУДКА)
-Someone is guiding your moves...<#>Кто-то направляет ваши движения...
-ANCESTRAL STRENGTH#[+1 DAMAGE]<#>СИЛА ПРЕДКОВ#(+1 К УРОНУ)
-ENTHRALLMENT<#>ПОРАБОЩЕНИЕ
-gain an additional follower#[discard on use]#[COST: 4 REASON]<#>получить дополнительного последователя#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
-A new person follows your lead...<#>Новый человек следует за вами...
-AWAKEN<#>ПРОБУДИТЬСЯ
-gain a permanent boost of two randomly selected stats#[COST: 10% DOOM]<#>навсегда повышает две случайные характеристики#(СТОИМОСТЬ: 10% РОКА)
-You've attracted the attention of something evil...<#>Вы привлекли внимание чего-то ужасного...
-BINDING AGONY<#>СВЯЗУЮЩАЯ АГОНИЯ
-target enemy's damage is lowered by 1#[COST: 3 REASON]<#>понижает УРОН текущего врага на 1#(СТОИМОСТЬ: 3 РАССУДКА)
-BINDING AGONY makes their movement slower!<#>СВЯЗУЮЩАЯ АГОНИЯ замедляет движения врага!
-WITNESS CURSE<#>ПРОКЛЯТИЕ СВИДЕТЕЛЯ
-converts all combat STAMINA damage taken into extra DOOM#[COST: 2 REASON]<#>в бою, превращает весь урон по ВЫНОСЛИВОСТИ в дополнительный РОК#(СТОИМОСТЬ: 2 РАССУДКА)
-WITNESS CURSE#[- STAMINA -> + DOOM]<#>ПРОКЛЯТИЕ СВИДЕТЕЛЯ#(- ВЫНОСЛИВОСТЬ -> + РОК)
-SHADOW SHROUD<#>ТЕНЕВОЙ ПОКРОВ
-for the duration of this mystery, ignore location's THREAT level#[COST: 3 REASON]<#>(до конца текущей тайны): вы игнорируете уровень УГРОЗЫ локаций#(СТОИМОСТЬ: 3 РАССУДКА)
-You feel more in tune with the weird...<#>Вы чувствуете, будто стали ближе к потустороннему...
-MEND<#>ПОПРАВКА
-gain 1 REASON#[COST: 2 STAMINA]<#>восстанавливает 1 РАССУДКА#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-You regain some of the lost REASON.<#>Вы восстановили немного потерянного РАССУДКА.
-VOID<#>ПУСТОТА
-ignore the current event and instantly investigate a random OTHERWORLD location#[one time use only]#[COST: 3 REASON]<#>проигнорировать текущее событие и мгновенно исследовать случайную ПОТУСТОРОННЮЮ локацию#(одноразовое использование)#(СТОИМОСТЬ: 3 РАССУДКА)
-CAUTERIZE<#>ПРИЖИГАНИЕ
-+2 STAMINA#[one time use only]<#>восстанавливает 2 ВЫНОСЛИВОСТИ#(одноразовое использование)
-The torn flesh closes, stopping the bleeding.<#>Разорванная плоть смыкается, останавливая кровотечение.
-MEMORY EXTRACT<#>ОЧИЩЕНИЕ ВОСПОМИНАНИЙ
-+2 REASON#[COST: 10 EXP]<#>восстанавливает 2 РАССУДКА#(СТОИМОСТЬ: 10 ОПЫТА)
-Traumatic memories leave your mind...<#>Травмы прошлого покидают ваш разум...
-This spell requires more EXPERIENCE.<#>Это заклинание требует больше ОПЫТА.
-ASHEN CONTRACT<#>ПЕПЕЛЬНЫЙ КОНТРАКТ
-immediately kills any non-eldritch enemy#[one time use only]#[COST: 7% DOOM]<#>мгновенно наносит поражение любому НЕ ПОТУСТОРОННЕМУ врагу#(одноразовое использование)#(СТОИМОСТЬ: 7% РОКА)
-It is done.<#>Готово.
-MIDASU TOUCH<#>КАСАНИЕ МИДАСУ
-+1 FUNDS#[COST: 2 STAMINA]<#>+1 СРЕДСТВ#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-Your fingernail turns silver, you rip it off!<#>Ваш ноготь превращается в серебро, и вы его отрываете!
-Your tooth turns to gold, you twist it off!<#>Ваш зуб превращается в золото, и вы его выкручиваете!
-FLESH REGROWTH<#>ОТРАЩИВАНИЕ ПЛОТИ
-+3 STAMINA#-2 MAX STAMINA<#>восстанавливает 3 ВЫНОСЛИВОСТИ#-2 МАКС. ВЫНОСЛИВОСТИ
-Your veins extend and seal the ripped flesh!<#>Ваши вены расширяются и затягивают разорванную плоть!
-EXPEL EVIL<#>ИЗГНАНИЕ ЗЛА
--6% DOOM#[one time use only]#[COST: 2 STAMINA]<#>-6% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-You cough up blood and... s-something else...<#>Вы кашляете кровью и... ч-чем-то ещё...
-GROW TEETH<#>ОТРАЩИВАНИЕ ЗУБОВ
-adds a new combat action, [BITE], until the end of this mystery#[COST: 2 STAMINA]<#>(до конца текущей тайны): добавляет новое боевое действие - УКУС#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
-You cough up blood and... something else...<#>Вы кашляете кровью и... ч-чем-то ещё...
-You won't fit more teeth in your mouth.<#>Во рту не поместится больше зубов.
-BRAIN WORMS<#>МОЗГОВЫЕ ЧЕРВИ
--2% DOOM#[one time use only]#[COST: 2 STAMINA]#[forgetting this SPELL costs 2 REASON]<#>-2% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)#(забыть это ЗАКЛИНАНИЕ будет стоить 2 РАССУДКА)
-[DELVED TOO DEEP]<#>(ЗАБРАЛИСЬ СЛИШКОМ ГЛУБОКО)
-Forcing the worms out of your head isn't pleasant... (-2 REASON)<#>Выгонять червей из своей головы не слишком приятно... (-2 РАССУДКА)
-k<#>к
-a<#>а
-n<#>н
-a<#>а
-UNEARTHLY SUTURE<#>НЕЗЕМНОЙ ШОВ
-receive 1 free INJURY removal#[COST: 4% DOOM]<#>вы получаете одно бесплатное лечение ТРАВМЫ#(СТОИМОСТЬ: 4% РОКА)
-BOOK OF GORE<#>КНИГА КРОВИ
-+3 REASON and STAMINA#add 1 random INJURY<#>восстанавливает 3 РАССУДКА и ВЫНОСЛИВОСТИ#добавляет 1 случайную ТРАВМУ
-GHOSTLY SPEAR<#>ПРИЗРАЧНОЕ КОПЬЁ
-deals 6 damage#[COST: -1 MAX STAMINA]<#>наносит 6 урона#(СТОИМОСТЬ: -1 МАКС. ВЫНОСЛИВОСТИ)
-A gory spear extends out of your hand, impaling your enemy!<#>Кровавое копьё вытягивается из вашей руки, пронзая врага!
-ASHEN CHIROGRAPH<#>ПЕПЕЛЬНЫЙ ХИРОГРАФ
-receive 1 free CURSE removal#[COST: 4% DOOM]<#>вы получаете одно бесплатное снятие ПРОКЛЯТИЯ#(СТОИМОСТЬ: 4% РОКА)
-EIMI<#>ЭЙМИ
-completing a mystery regains 1 REASON<#>(в конце каждой тайны): восстанавливает 1 РАССУДКА
-<<thanks for saving me>><#>«Спасибо, что спасли меня»
-[gallery curator]<#>(куратор галереи)
-#[EIMI]: +1 REASON<#>#ЭЙМИ: +1 РАССУДКА
-UCHIDA<#>УЧИДА
-EXP bonus for assessing situation during combat (once per enemy)<#>даёт немного ОПЫТА за оценку обстановки во время боя (один раз на врага)
-'heavy breathing'<#>*тяжело дышит*
-[otaku creep]<#>(жуткий отаку)
-UCHIDA stammers some facts about your enemy. (+7 EXP)<#>УЧИДА бормочет несколько фактов о вашем враге. (+7 ОПЫТА)
-You handcuff the subdued enemy!<#>Вы надеваете наручники на ослабленного врага!
-You can't handcuff this enemy yet!<#>Вы ещё не можете надеть наручники на этого врага!
-This item won't work on this enemy!<#>Этот предмет не сработает на этом противнике!
+[RITUAL]|(РИТУАЛ)
+--SPELL--###|--ЗАКЛИНАНИЕ--###
+[SUPPORT]|(ПОДДЕРЖКА)
+[HEALING]|(ЛЕЧЕНИЕ)
+[COMBAT]|(БОЙ)
+[OFFENSIVE]|(АТАКА)
+[DEFENSIVE]|(ЗАЩИТА)
+[SEAL]|(ПЕЧАТЬ)
+[INVESTIGATION]|(РАССЛЕДОВАНИЕ)
+You've already defeated this enemy.|Вы уже победили этого врага.
+This contract won't work on this enemy.|Это действие не сработает на этом враге.
+This spell can only be cast when investigating a location.|Это заклинание можно использовать только при исследовании локации.
+This spell targets HUMAN enemies only.|Это заклинание действует только против ЛЮДЕЙ.
+This spell targets ELDRITCH enemies only.|Это заклинание действует только против ПОТУСТОРОННЕГО.
+Occult signs attract unknown power!|Оккультные знаки привлекают неизвестную силу!
+It's too much for your mind! (-1 REASON)|Она слишком тяжела для вашего разума! (-1 РАССУДКА)
+CURRENT SPELL LIMIT|ТЕКУЩИЙ ЛИМИТ ЗАКЛИНАНИЙ
+MIND DRAIN|ИСТОЩЕНИЕ РАЗУМА
+deals 5 damage#regain 2 REASON#[COST: -1 MAX REASON]|наносит 5 урона#восстанавливает 2 РАССУДКА#(СТОИМОСТЬ: -1 МАКС. РАССУДКА)
+You reach out your hand in an occult gesture, draining ENEMY's mind!|Вы вытягиваете руку в оккультном знаке, истощая разум ВРАГА!
+REGENERATION|РЕГЕНЕРАЦИЯ
+regain 4 STAMINA#[COST: 2 REASON]|восстанавливает 4 ВЫНОСЛИВОСТИ#(СТОИМОСТЬ: 2 РАССУДКА)
+You can feel your wounds slowly closing!|Вы чувствуете, как ваши раны медленно затягиваются!
+SKIN REMOVAL|УДАЛЕНИЕ КОЖИ
+deals 6 damage#[COST: 3 REASON]|наносит 6 урона#(СТОИМОСТЬ: 3 РАССУДКА)
+The skin of your enemy starts falling off in big patches!|Кожа врага начинает отслаиваться большими кусками!
+MULTIPLY WOUND|ПРИУМНОЖЕНИЕ РАН
+deals damage to an enemy, which increases the lower your STAMINA is#[COST: 2 STAMINA]|наносит урон врагу#чем меньше у вас ВЫНОСЛИВОСТИ, тем больше урон#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
+The wounds of your enemy explode with gore!|Раны вашего врага взрываются кровью!
+K'NPHA RITUAL|РИТУАЛ К'НПХА
+when your allies die, a random STAT gets raised by 1#[COST: 2 REASON]|когда ваши союзники умирают, случайная ХАРАКТЕРИСТИКА повышается на 1#(СТОИМОСТЬ: 2 РАССУДКА)
+Part of your ally's essence stays with you!|Часть сущности вашего союзника остаётся с вами!
+K'NPHA RITUAL#[allies -> stats]|РИТУАЛ К'НПХА#(союзники -> характеристики)
+INVISIBILITY|НЕВИДИМОСТЬ
+until the end of the current mystery, there is no DOOM penalty for escaping from combat#[COST: 4 REASON]|(до конца текущей тайны): побег из боя не приближает РОК#(СТОИМОСТЬ: 4 РАССУДКА)
+You shift into the shadow realm!|Вы переноситесь в царство теней!
+You are already invisible!|Вы уже невидимы!
+ABOLISH|РАЗВЕЯТЬ
+lowers ELDRITCH enemy DAMAGE by 1#[COST: 3 STAMINA]|ПОТУСТОРОННИЕ враги наносят вам на 1 УРОНА меньше#(СТОИМОСТЬ: 3 ВЫНОСЛИВОСТИ)
+A magic barrier appears, absorbing the damage!|Появляется магический барьер, поглощающий урон!
+Additional barriers won't help!|Дополнительные барьеры не помогут!
+ABSORB|ПОГЛОТИТЬ
+deals 3 damage, gain 2 STAMINA#[COST: 4 REASON]|наносит 3 урона, восстанавливает 2 ВЫНОСЛИВОСТИ#(СТОИМОСТЬ: 4 РАССУДКА)
+You suck the life force out of your enemy!|Вы поглощаете жизненную силу своего врага!
+THIRD EYE|ТРЕТИЙ ГЛАЗ
++1 KNOWLEDGE and PERCEPTION until the end of the mystery#[effect doesn't stack]#[COST: 3 REASON]|(до конца текущей тайны): +1 ИНТЕЛЛЕКТА и ВОСПРИЯТИЯ#(эффект не складывается)#(СТОИМОСТЬ: 3 РАССУДКА)
+You can feel your inner eye open!|Вы чувствуете раскрытие третьего глаза!
+You wouldn't want a fourth eye, would you?|Вам же не нужен четвёртый глаз?
+ITHOTU FLAME|ПЛАМЯ ИТХОТУ
+deals 8 damage#+2% DOOM#[COST: 1 REASON]#[COST: 1 STAMINA]|наносит 8 урона#+2% РОКА#(СТОИМОСТЬ: 1 РАССУДКА)#(СТОИМОСТЬ: 1 ВЫНОСЛИВОСТИ)
+A column of fire engulfs the enemy!|Пламенный столб поглощает врага!
+SEAL OF SAVVESH|ПЕЧАТЬ САВВЕША
++1 STRENGTH#[discard on use]#[COST: 4 REASON]|+1 СИЛЫ#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
+A new seal appears on your skin!|На вашей коже появляется новая печать!
+SEAL OF BRAM'EL|ПЕЧАТЬ БРАМ'ЕЛЯ
++1 KNOWLEDGE#[discard on use]#[COST: 4 REASON]|+1 ИНТЕЛЛЕКТА#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
+THREAD OF FATE|НИТЬ СУДЬБЫ
+defeat target HUMAN enemy#[discard on use]#[COST: 4 REASON]|мгновенно наносит поражение любому ЧЕЛОВЕКУ#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
+Enemy falls to the ground, dead.|Враг замертво падает на землю.
+ANCESTRAL STRENGTH|СИЛА ПРЕДКОВ
++1 DAMAGE#[COST: 4 REASON]|+1 К УРОНУ#(СТОИМОСТЬ: 4 РАССУДКА)
+Someone is guiding your moves...|Кто-то направляет ваши движения...
+ANCESTRAL STRENGTH#[+1 DAMAGE]|СИЛА ПРЕДКОВ#(+1 К УРОНУ)
+ENTHRALLMENT|ПОРАБОЩЕНИЕ
+gain an additional follower#[discard on use]#[COST: 4 REASON]|получить дополнительного последователя#(одноразовое использование)#(СТОИМОСТЬ: 4 РАССУДКА)
+A new person follows your lead...|Новый человек следует за вами...
+AWAKEN|ПРОБУДИТЬСЯ
+gain a permanent boost of two randomly selected stats#[COST: 10% DOOM]|навсегда повышает две случайные характеристики#(СТОИМОСТЬ: 10% РОКА)
+You've attracted the attention of something evil...|Вы привлекли внимание чего-то ужасного...
+BINDING AGONY|СВЯЗУЮЩАЯ АГОНИЯ
+target enemy's damage is lowered by 1#[COST: 3 REASON]|понижает УРОН текущего врага на 1#(СТОИМОСТЬ: 3 РАССУДКА)
+BINDING AGONY makes their movement slower!|СВЯЗУЮЩАЯ АГОНИЯ замедляет движения врага!
+WITNESS CURSE|ПРОКЛЯТИЕ СВИДЕТЕЛЯ
+converts all combat STAMINA damage taken into extra DOOM#[COST: 2 REASON]|в бою, превращает весь урон по ВЫНОСЛИВОСТИ в дополнительный РОК#(СТОИМОСТЬ: 2 РАССУДКА)
+WITNESS CURSE#[- STAMINA -> + DOOM]|ПРОКЛЯТИЕ СВИДЕТЕЛЯ#(- ВЫНОСЛИВОСТЬ -> + РОК)
+SHADOW SHROUD|ТЕНЕВОЙ ПОКРОВ
+for the duration of this mystery, ignore location's THREAT level#[COST: 3 REASON]|(до конца текущей тайны): вы игнорируете уровень УГРОЗЫ локаций#(СТОИМОСТЬ: 3 РАССУДКА)
+You feel more in tune with the weird...|Вы чувствуете, будто стали ближе к потустороннему...
+MEND|ПОПРАВКА
+gain 1 REASON#[COST: 2 STAMINA]|восстанавливает 1 РАССУДКА#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
+You regain some of the lost REASON.|Вы восстановили немного потерянного РАССУДКА.
+VOID|ПУСТОТА
+ignore the current event and instantly investigate a random OTHERWORLD location#[one time use only]#[COST: 3 REASON]|проигнорировать текущее событие и мгновенно исследовать случайную ПОТУСТОРОННЮЮ локацию#(одноразовое использование)#(СТОИМОСТЬ: 3 РАССУДКА)
+CAUTERIZE|ПРИЖИГАНИЕ
++2 STAMINA#[one time use only]|восстанавливает 2 ВЫНОСЛИВОСТИ#(одноразовое использование)
+The torn flesh closes, stopping the bleeding.|Разорванная плоть смыкается, останавливая кровотечение.
+MEMORY EXTRACT|ОЧИЩЕНИЕ ВОСПОМИНАНИЙ
++2 REASON#[COST: 10 EXP]|восстанавливает 2 РАССУДКА#(СТОИМОСТЬ: 10 ОПЫТА)
+Traumatic memories leave your mind...|Травмы прошлого покидают ваш разум...
+This spell requires more EXPERIENCE.|Это заклинание требует больше ОПЫТА.
+ASHEN CONTRACT|ПЕПЕЛЬНЫЙ КОНТРАКТ
+immediately kills any non-eldritch enemy#[one time use only]#[COST: 7% DOOM]|мгновенно наносит поражение любому НЕ ПОТУСТОРОННЕМУ врагу#(одноразовое использование)#(СТОИМОСТЬ: 7% РОКА)
+It is done.|Готово.
+MIDASU TOUCH|КАСАНИЕ МИДАСУ
++1 FUNDS#[COST: 2 STAMINA]|+1 СРЕДСТВ#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
+Your fingernail turns silver, you rip it off!|Ваш ноготь превращается в серебро, и вы его отрываете!
+Your tooth turns to gold, you twist it off!|Ваш зуб превращается в золото, и вы его выкручиваете!
+FLESH REGROWTH|ОТРАЩИВАНИЕ ПЛОТИ
++3 STAMINA#-2 MAX STAMINA|восстанавливает 3 ВЫНОСЛИВОСТИ#-2 МАКС. ВЫНОСЛИВОСТИ
+Your veins extend and seal the ripped flesh!|Ваши вены расширяются и затягивают разорванную плоть!
+EXPEL EVIL|ИЗГНАНИЕ ЗЛА
+-6% DOOM#[one time use only]#[COST: 2 STAMINA]|-6% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
+You cough up blood and... s-something else...|Вы кашляете кровью и... ч-чем-то ещё...
+GROW TEETH|ОТРАЩИВАНИЕ ЗУБОВ
+adds a new combat action, [BITE], until the end of this mystery#[COST: 2 STAMINA]|(до конца текущей тайны): добавляет новое боевое действие - УКУС#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)
+You cough up blood and... something else...|Вы кашляете кровью и... ч-чем-то ещё...
+You won't fit more teeth in your mouth.|Во рту не поместится больше зубов.
+BRAIN WORMS|МОЗГОВЫЕ ЧЕРВИ
+-2% DOOM#[one time use only]#[COST: 2 STAMINA]#[forgetting this SPELL costs 2 REASON]|-2% РОКА#(одноразовое использование)#(СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ)#(забыть это ЗАКЛИНАНИЕ будет стоить 2 РАССУДКА)
+[DELVED TOO DEEP]|(ЗАБРАЛИСЬ СЛИШКОМ ГЛУБОКО)
+Forcing the worms out of your head isn't pleasant... (-2 REASON)|Выгонять червей из своей головы не слишком приятно... (-2 РАССУДКА)
+k|к
+a|а
+n|н
+a|а
+UNEARTHLY SUTURE|НЕЗЕМНОЙ ШОВ
+receive 1 free INJURY removal#[COST: 4% DOOM]|вы получаете одно бесплатное лечение ТРАВМЫ#(СТОИМОСТЬ: 4% РОКА)
+BOOK OF GORE|КНИГА КРОВИ
++3 REASON and STAMINA#add 1 random INJURY|восстанавливает 3 РАССУДКА и ВЫНОСЛИВОСТИ#добавляет 1 случайную ТРАВМУ
+GHOSTLY SPEAR|ПРИЗРАЧНОЕ КОПЬЁ
+deals 6 damage#[COST: -1 MAX STAMINA]|наносит 6 урона#(СТОИМОСТЬ: -1 МАКС. ВЫНОСЛИВОСТИ)
+A gory spear extends out of your hand, impaling your enemy!|Кровавое копьё вытягивается из вашей руки, пронзая врага!
+ASHEN CHIROGRAPH|ПЕПЕЛЬНЫЙ ХИРОГРАФ
+receive 1 free CURSE removal#[COST: 4% DOOM]|вы получаете одно бесплатное снятие ПРОКЛЯТИЯ#(СТОИМОСТЬ: 4% РОКА)
+EIMI|ЭЙМИ
+completing a mystery regains 1 REASON|(в конце каждой тайны): восстанавливает 1 РАССУДКА
+<<thanks for saving me>>|«Спасибо, что спасли меня»
+[gallery curator]|(куратор галереи)
+#[EIMI]: +1 REASON|#ЭЙМИ: +1 РАССУДКА
+UCHIDA|УЧИДА
+EXP bonus for assessing situation during combat (once per enemy)|даёт немного ОПЫТА за оценку обстановки во время боя (один раз на врага)
+'heavy breathing'|*тяжело дышит*
+[otaku creep]|(жуткий отаку)
+UCHIDA stammers some facts about your enemy. (+7 EXP)|УЧИДА бормочет несколько фактов о вашем враге. (+7 ОПЫТА)
+You handcuff the subdued enemy!|Вы надеваете наручники на ослабленного врага!
+You can't handcuff this enemy yet!|Вы ещё не можете надеть наручники на этого врага!
+This item won't work on this enemy!|Этот предмет не сработает на этом противнике!

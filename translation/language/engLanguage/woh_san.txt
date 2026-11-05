@@ -1,34 +1,34 @@
-HUNTED HEIRESS<#>ПРЕСЛЕДУЕМАЯ НАСЛЕДНИЦА
-Name: JURI OKUSAWA#21 / FEMALE# #Something terrible is stalking JURI and with each passing day, its presence is getting nearer and nearer...<#>Имя: ЮРИ ОКУСАВА#21, ЖЕНЩИНА##Каждый день нечто ужасное преследует ЮРИ, и оно приближается всё быстрее...
-+ PERCEPTION#- DEXTERITY#starts with FAMILY CURSE<#>+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с СЕМЕЙНЫМ ПРОКЛЯТИЕМ
-JURI<#>ЮРИ
-RUNAWAY JACKET<#>КУРТКА БЕГЛЕЦА
-ATTACK THE TEACHER<#>АТАКОВАТЬ УЧИТЕЛЬНИЦУ
-Maybe if you defeat them, the horror will end?<#>Может, если вы её победите, этот ужас закончится?..
-You attack the teacher, dealing 7 DAMAGE.<#>Вы атаковали учительницу, нанеся 7 УРОНА.
-You attack the teacher, dealing 10 DAMAGE.<#>Вы атаковали учительницу, нанеся 10 УРОНА.
-MAGICK SWEATER<#>МАГИЧЕСКИЙ СВИТЕР
-The HORROR is slowly getting closer.<#>УЖАС медленно приближается.
-It's too late now.<#>Уже слишком поздно.
-ELUSIVE<#>НЕУЛОВИМАЯ
--5% DOOM<#>-5% РОКА
-TEST OF WILL<#>ИСПЫТАНИЕ ВОЛИ
-+2 KNOWLEDGE#+2% DOOM<#>+2 ИНТЕЛЛЕКТА#+2% РОКА
-ESCAPEE<#>БЕГЛЯНКА
-+2 DEXTERITY#+2% DOOM<#>+2 ЛОВКОСТИ#+2% РОКА
-ON THE RUN<#>В БЕГАХ
-until the HORROR catches you, leveling up costs 50 EXPERIENCE less<#>пока УЖАС вас не поймает, повышение уровня стоит на 50 ОПЫТА меньше
-<<it's getting closer>><#>«Оно приближается...»
-<<Here's our chance!>><#>«Вот, наш шанс!»
-<<Attack the enemy!>><#>«Атакуйте врага!»
-<<We are winning!>><#>«Мы побеждаем!»
-<<Surround the enemy!>><#>«Окружайте врага!»
-ORDER YOUR ALLIES TO ATTACK<#>ПРИКАЗАТЬ СОЮЗНИКАМ АТАКОВАТЬ
-FLASH combat action adds a chance to dodge the incoming attack<#>Боевое действие «ВСПЫШКА» даёт вам шанс уклониться от следующей атаки врага
-looking for an improvised weapon results in two items, instead of one<#>поиск импровизированного оружия дал два предмета вместо одного
-fell out of a window!<#>выпадает из окна!
-was hit by a truck!<#>попадает под грузовик!
-tripped and broke their neck!<#>спотыкается и ломает шею!
-walked into an empty elevator shaft!<#>падает в пустую шахту лифта!
-was struck by lighting!<#>поразила молния!
-suddenly died!<#>внезапно умирает!
+HUNTED HEIRESS|ПРЕСЛЕДУЕМАЯ НАСЛЕДНИЦА
+Name: JURI OKUSAWA#21 / FEMALE# #Something terrible is stalking JURI and with each passing day, its presence is getting nearer and nearer...|Имя: ЮРИ ОКУСАВА#21, ЖЕНЩИНА##Каждый день нечто ужасное преследует ЮРИ, и оно приближается всё быстрее...
++ PERCEPTION#- DEXTERITY#starts with FAMILY CURSE|+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с СЕМЕЙНЫМ ПРОКЛЯТИЕМ
+JURI|ЮРИ
+RUNAWAY JACKET|КУРТКА БЕГЛЕЦА
+ATTACK THE TEACHER|АТАКОВАТЬ УЧИТЕЛЬНИЦУ
+Maybe if you defeat them, the horror will end?|Может, если вы её победите, этот ужас закончится?..
+You attack the teacher, dealing 7 DAMAGE.|Вы атаковали учительницу, нанеся 7 УРОНА.
+You attack the teacher, dealing 10 DAMAGE.|Вы атаковали учительницу, нанеся 10 УРОНА.
+MAGICK SWEATER|МАГИЧЕСКИЙ СВИТЕР
+The HORROR is slowly getting closer.|УЖАС медленно приближается.
+It's too late now.|Уже слишком поздно.
+ELUSIVE|НЕУЛОВИМАЯ
+-5% DOOM|-5% РОКА
+TEST OF WILL|ИСПЫТАНИЕ ВОЛИ
++2 KNOWLEDGE#+2% DOOM|+2 ИНТЕЛЛЕКТА#+2% РОКА
+ESCAPEE|БЕГЛЯНКА
++2 DEXTERITY#+2% DOOM|+2 ЛОВКОСТИ#+2% РОКА
+ON THE RUN|В БЕГАХ
+until the HORROR catches you, leveling up costs 50 EXPERIENCE less|пока УЖАС вас не поймает, повышение уровня стоит на 50 ОПЫТА меньше
+<<it's getting closer>>|«Оно приближается...»
+<<Here's our chance!>>|«Вот, наш шанс!»
+<<Attack the enemy!>>|«Атакуйте врага!»
+<<We are winning!>>|«Мы побеждаем!»
+<<Surround the enemy!>>|«Окружайте врага!»
+ORDER YOUR ALLIES TO ATTACK|ПРИКАЗАТЬ СОЮЗНИКАМ АТАКОВАТЬ
+FLASH combat action adds a chance to dodge the incoming attack|Боевое действие «ВСПЫШКА» даёт вам шанс уклониться от следующей атаки врага
+looking for an improvised weapon results in two items, instead of one|поиск импровизированного оружия дал два предмета вместо одного
+fell out of a window!|выпадает из окна!
+was hit by a truck!|попадает под грузовик!
+tripped and broke their neck!|спотыкается и ломает шею!
+walked into an empty elevator shaft!|падает в пустую шахту лифта!
+was struck by lighting!|поразила молния!
+suddenly died!|внезапно умирает!

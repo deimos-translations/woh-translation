@@ -45,12 +45,7 @@ foreach (string file in Directory.EnumerateFiles(fontDir, "*.png").OrderBy(f => 
     string name = Path.GetFileNameWithoutExtension(file);
     UndertaleFont font = Data.Fonts.ByName(name) ?? throw new InvalidOperationException($"No font {name} in data.win.");
     UndertaleTexturePageItem old = font.Texture;
-    UndertaleTexturePageItem item = AddPage(file, old);
-    if (item.SourceWidth != old.SourceWidth || item.SourceHeight != old.SourceHeight)
-    {
-        throw new InvalidOperationException($"{name}.png is {item.SourceWidth}x{item.SourceHeight}, the font's atlas is {old.SourceWidth}x{old.SourceHeight}: its glyph table would not fit.");
-    }
-    font.Texture = item;
+    font.Texture = AddPage(file, old);
     fonts++;
 }
 
@@ -58,11 +53,16 @@ Console.WriteLine($"Replaced {fonts} fonts.");
 
 // A new page per image: the old atlas is shared with other assets, so it stays untouched.
 // Keeps the old item's placement and bounding box so the image lines up as before.
+// The image must be the size of the texture it replaces: a different size would not fit the old placement (for fonts, the glyph table).
 UndertaleTexturePageItem AddPage(string file, UndertaleTexturePageItem old)
 {
     using MagickImage image = TextureWorker.ReadBGRAImageFromFile(file);
     ushort width = (ushort)image.Width;
     ushort height = (ushort)image.Height;
+    if (old is not null && (width != old.SourceWidth || height != old.SourceHeight))
+    {
+        throw new InvalidOperationException($"{Path.GetFileName(file)} is {width}x{height}, the texture it replaces is {old.SourceWidth}x{old.SourceHeight}.");
+    }
 
     UndertaleEmbeddedTexture page = new();
     page.Name = new UndertaleString($"Texture {Data.EmbeddedTextures.Count}");

@@ -43,7 +43,7 @@ def main(exe_path, strings_path, hooks_path, meta_path):
 
     translations = {}
     for line in open(strings_path, encoding="utf-8", newline=""):
-        source, _, translation = line.rstrip("\r\n").partition("<#>")
+        source, _, translation = line.rstrip("\r\n").partition("|")
         if translation and source not in ("DOOM", "STA", "REA", "ALL"):
             translations[test_hook_unescape(source)] = test_hook_unescape(translation)
     assert translations, "the document has no hook translations"

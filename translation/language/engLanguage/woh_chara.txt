@@ -1,196 +1,196 @@
-eng<#>eng
-WORLD OF HORROR<#>WORLD OF HORROR
-<<At the beginning, no one had any idea what we were up against.>><#>«Поначалу никто не догадывался, с чем мы имеем дело.»
-[NO EFFECT]<#>(НЕТ ЭФФЕКТА)
-MEDICAL HISTORY<#>ПЛОХАЯ МЕДКНИЖКА
-<<Brittle bones run in your family and you've spent each summer in a cast.>><#>«Хрупкие кости передаются в вашей семье по наследству, и каждое лето вы проводите в гипсе.»
-[you start with extra EXP and BANDAGES but an INJURY may occur whenever the player takes damage in combat]<#>(вы начинаете с дополнительным ОПЫТОМ и БИНТАМИ, но в любой момент, когда получаете урон в бою, вы можете также получить ТРАВМУ)
-HUNTED BY THE CULT<#>ПРЕСЛЕДОВАНИЕ КУЛЬТОМ
-<<You've managed to run from them once, but the cult is tireless...>><#>«Вы умудрились убежать от них однажды, но культ неутомим...»
-[solving mysteries reduces more DOOM but you get more unique combat encounters]<#>(раскрытие тайн отдаляет РОК дальше, но вы будете попадать в большее количество уникальных боёв)
-THE SEVENTH CURSE<#>СЕДЬМОЕ ПРОКЛЯТИЕ
-<<Your family was cursed. Everyone around you will die...>><#>«Ваша семья была проклята. Все вокруг вас будут умирать...»
-[you start the playthrough with more FUNDS but can't have any HUMAN allies]<#>(вы начинаете забег с большим количеством СРЕДСТВ, но не можете заиметь союзников-ЛЮДЕЙ)
-ILL-FATED<#>ЗЛАЯ СУДЬБА
-<<You were born under a bad moon...>><#>«Вы родились в плохую лунную фазу...»
-[all event skill checks automatically fail]<#>(все проверки характеристик автоматически проваливаются)
-KNIGHT-ERRANT<#>СТРАНСТВУЮЩИЙ РЫЦАРЬ
-<<Only I can save our town...>><#>«Лишь я могу спасти этот город...»
-[receive a major penalty each time you complete a mystery with a sub-A ending]<#>(вы получаете серьёзный штраф каждый раз, когда тайна раскрывается с концовкой ниже чем А)
-SCARS<#>ШРАМЫ
-<<I've made it through hell and back, you won't break me now.>><#>«Мне удалось пройти через ад, вам меня не сломить.»
-[lowers incoming damage by 1, drastically lowers MAX STAMINA and REASON]<#>(понижает входящий урон на 1, существенно понижает МАКС. ВЫНОСЛИВОСТЬ и РАССУДОК)
-CURIOUS BIRTHMARK<#>СТРАННАЯ РОДИНКА
-<<Doctor, if it looks 'fine', please explain to me, why is it changing its shape?>><#>«Доктор, если она выглядит "нормально", пожалуйста, объясните мне, почему она меняет форму?»
-[any damage taken in combat can cause a CURSE]<#>(любой урон, полученный в бою, может навлечь на вас ПРОКЛЯТИЕ)
-ELDRITCH PARASITE<#>ПОТУСТОРОННИЙ ПАРАЗИТ
-<<Something is... growing inside me.>><#>«Что-то... растёт внутри меня.»
-[you start with extra STAMINA and REASON but can't regain them]<#>(вы начинаете с дополнительными ВЫНОСЛИВОСТЬЮ и РАССУДКОМ, но не можете восстанавливать их)
-FATALIST<#>ФАТАЛИСТ
-<<It's... pointless, I can't change my fate...>><#>«Это бессмысленно... Мне не изменить свою судьбу...»
-[you must solve the mysteries in the order they appear on the board]<#>(вы обязаны раскрывать тайны в том порядке, в котором они появляются на доске)
-TRANSFER STUDENT<#>НОВЕНЬКАЯ УЧЕНИЦА
-Name: KIRIE MINAMI#20 / FEMALE# #Could the ghosts following her be in any way connected with all the weird events happening in this town?<#>Имя: КИРИЭ МИНАМИ#20, ЖЕНЩИНА##Могут ли призраки, преследующие её, как-либо быть связаны с загадочными событиями, происходящими в этом городе?
-+ KNOWLEDGE#- STRENGTH#starts with one random SPELL<#>+ ИНТЕЛЛЕКТ#- СИЛА#начинает с одним случайным ЗАКЛИНАНИЕМ
-KIRIE<#>КИРИЭ
-SWIMMING TEAM CAPTAIN<#>КАПИТАН КОМАНДЫ ПЛОВЦОВ
-Name: AIKO TAKAHASHI#20 / FEMALE# #Barely surviving after a ghost of a drowned man kept her underwater, she is determined to solve this mystery.<#>Имя: АЙКО ТАКАХАШИ#20, ЖЕНЩИНА##Едва оставшись в живых после того, как её чуть не утопил призрак утопленника, АЙКО полна решимости раскрыть любую тайну.
-+ DEXTERITY#- KNOWLEDGE#starts with combat speed bonus<#>+ ЛОВКОСТЬ#- ИНТЕЛЛЕКТ#начинает с бонусом к скорости в бою
-AIKO<#>АЙКО
-YAKUZA DRIVER<#>ВОДИТЕЛЬ-ЯКУДЗА
-Name: HARU#24 / MALE# #Robbing that old abandoned manor was a mistake. With his friends dead and mutilated, and a vengeful horror chasing him, no speed is too fast.<#>Имя: ХАРУ#24, МУЖЧИНА##Решение обнести то старое заброшенное поместье было ошибкой. Когда его друзья оказались мертвы и изувечены, а за ним начал погоню мстительный ужас, скорость потеряла всякий предел.
-+ STRENGTH#- KNOWLEDGE#starts with CIGARETTES<#>+ СИЛА#- ИНТЕЛЛЕКТ#начинает с СИГАРЕТАМИ
-HARU<#>ХАРУ
-TEEN IDOL<#>ПОДРОСТОК-ИДОЛ
-MIZUKI HAMASAKI#20 / FEMALE# #What a strange world we live in, where stopping an ancient evil is the easiest way to boost your career.<#>Имя: МИЗУКИ ХАМАСАКИ#20, ЖЕНЩИНА##В каком же странном мире мы живём, где победа над древним злом - легчайший путь продвинуться по карьерной лестнице.
-+ CHARISMA#- STRENGTH#starts with a random ALLY<#>+ ХАРИЗМА#- СИЛА#начинает со случайным СОЮЗНИКОМ
-MIZUKI<#>МИЗУКИ
-PHOTOGRAPHER<#>ФОТОГРАФ
-Name: KOUJI TAGAWA#20 / MALE# #They say a picture is worth a thousand words.#The government won't sweep this one under the rug.<#>Имя: КОДЗИ ТАГАВА#20, МУЖЧИНА##Говорят, что один снимок стоит тысячи слов.#А такой снимок правительство точно не сможет скрыть.
-+ PERCEPTION#- DEXTERITY#starts with a CAMERA<#>+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с КАМЕРОЙ
-KOUJI<#>КОДЗИ
-MED STUDENT<#>МЕД. СТУДЕНТКА
-Name: MIMI#22 / FEMALE# #Finally a way to put into practice everything she's learned so far.<#>Имя: МИМИ#22, ЖЕНЩИНА##Наконец-то, возможность попрактиковаться в том, что она успела выучить.
-+ KNOWLEDGE#- DEXTERITY#starts with a SCALPEL<#>+ ИНТЕЛЛЕКТ#- ЛОВКОСТЬ#начинает со СКАЛЬПЕЛЕМ
-MIMI<#>МИМИ
-RIOTER<#>БУНТАРКА
-Name: MIKU#20 / FEMALE# #Rebellious misfit keen on spreading chaos. She will protect her hometown, even if only for her own selfish reasons.<#>Имя: МИКУ#20, ЖЕНЩИНА##Непокорная особа, любящая сеять хаос. Она будет защищать свой город, но по собственным эгоистичным причинам.
-+ STRENGTH#- PERCEPTION#increasing DOOM grants various bonuses<#>+ СИЛА#- ВОСПРИЯТИЕ#приближение РОКА даёт вам различные бонусы
-MIKU<#>МИКУ
-HUNTER'S DAUGHTER<#>ДОЧЬ ОХОТНИКА
-Name: MORIKO ISHII#20 / FEMALE# #Ignoring her father's warnings, she decided to hunt the monster killing the animals to protect this forest... and, unknowingly, save the world.<#>Имя: МОРИКО ИШИИ#20, ЖЕНЩИНА##Игнорируя предупреждения своего отца, она решила выследить монстра, убивающего животных. Она хочет защитить этот лес... и, сама того не зная, спасти мир.
-+ PERCEPTION#- DEXTERITY#starts with her father's shotgun<#>+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с ОТЦОВСКИМ ДРОБОВИКОМ
-MORIKO<#>МОРИКО
-WITCH<#>ВЕДЬМА
-Name: AYAKA KUROI#20 / FEMALE# #They didn't want to participate in Ayaka's ritual. Now, they are all dead and their souls will continue to torment her.<#>Имя: АЯКА КУРОЙ#20, ЖЕНЩИНА##Они не хотели участвовать в ритуале Аяки. Теперь они все мертвы, а их души продолжают мучить её...
-+ KNOWLEDGE#- LUCK#starts with ONYX MEDALLION<#>+ ИНТЕЛЛЕКТ#- УДАЧА#начинает с ОНИКСОВЫМ МЕДАЛЬОНОМ
-AYAKA<#>АЯКА
-EX-CULTIST<#>БЫВШИЙ КУЛЬТИСТ
-Name: TOSHIAKI WAKAMATSU#20 / MALE# #When Toshiaki discovered the club's sinister intention, he flew into action, stealing their most prized possession. This cursed book will either save or doom our entire world...<#>Имя: ТОШИАКИ ВАКАМАЦУ#20, МУЖЧИНА##Когда Тошиаки узнал о зловещих намерениях культа, он начал действовать, похитив у них самую ценную вещь. Эта проклятая книга либо спасёт, либо обречёт весь мир...
-+ PERCEPTION#- STRENGTH#starts with NECRONOMICON<#>+ ВОСПРИЯТИЕ#- СИЛА#начинает с НЕКРОНОМИКОНОМ
-TOSHIAKI<#>ТОШИАКИ
-PRIEST<#>СВЯЩЕННИК
-Name: YASHIRO KAWAJI#24 / MALE# #While he didn't technically complete his studies at the seminary, a worrying letter from his sister forced Yashiro to take the first train to Shiokawa. After all, she died a few years ago...<#>Имя: ЯШИРО КАВАДЗИ#24, МУЖЧИНА##Несмотря на то, что технически он не закончил обучение в семинарии, тревожное письмо от его сестры вынудило Яширо сесть на первый же поезд до Шиокавы. Всё же, она умерла несколько лет назад...
-+ KNOWLEDGE#- CHARISMA#starts with BRONZE CRUCIFIX<#>+ ИНТЕЛЛЕКТ#- ХАРИЗМА#начинает с БРОНЗОВЫМ РАСПЯТИЕМ
-YASHIRO<#>ЯШИРО
-You need to leave this smelly town soon.<#>Вам нужно как можно скорее покинуть этот смрадный город.
-The cards predicted this...<#>Карты это предсказали...
-What a lovely day today.<#>Какой сегодня милый денёк.
-The order won't matter anyway...<#>Порядок в любом случае не имеет значения...
-PRIEST<#>СВЯЩЕННИК
-CHUPACABRA SWEATER<#>СВИТЕР С ЧУПАКАБРОЙ
-EXQUISITE TASTE<#>ИЗЫСКАННЫЙ ВКУС
-<<Only a few places are good enough for me.>><#>«Лишь некоторые места достаточно хороши для меня.»
-[only one additional action is available per location]<#>(лишь одно дополнительное действие доступно на каждой локации)
-The cult members are on your trail!<#>Члены культа у вас на хвосте!
-The curse continues to follow you...<#>Проклятие продолжает преследовать вас...
-Something is growing inside you...<#>Что-то растёт внутри вас...
-You were born under a bad moon...<#>Вы родились в плохую лунную фазу...
-You've been waiting for this your entire life...<#>Вы ждали этого всю вашу жизнь...
-The parasite stirs.<#>Паразит шевелится...
-You've been through worse...<#>Вы бывали в ситуациях и похуже...
-INCOGNITO<#>ИНКОГНИТО
-<<SORRY I DON'T CELEBRATE THAT>><#>«ИЗВИНИТЕ, Я ТАКОМУ НЕ ПОКЛОНЯЮСЬ.»
-HAPPIEST LEMON<#>СЧАСТЛИВЕЙШИЙ ЛИМОН
-COMMONER<#>ПРОСТОЛЮДИН
-<<I was supposed to die.>><#>«Мне суждено было умереть.»
-[you can't gain EXPERIENCE]<#>вы не можете получать ОПЫТ
-BOOKWORM<#>КНИЖНЫЙ ЧЕРВЬ
-SPORT JACKET<#>СПОРТИВНАЯ КУРТКА
-TEEN WITCH II<#>ЮНАЯ ВЕДЬМА II
-WINDSTOPPER<#>ВЕТРОВКА
-HIS SWEATER<#>ЕГО СВИТЕР
-RUNAWAY JACKET<#>КУРТКА БЕГЛЕЦА
-CULT OF THE CORN<#>КУЛЬТ КУКУРУЗЫ
-HUNTER'S SWEATER<#>СВИТЕР ОХОТНИКА
-WARM JACKET<#>ТЁПЛАЯ КУРТКА
-EST.65<#>EST.65
-MORI KEI<#>МОРИ КЕЙ
-HAIL TO THE KING<#>СЛАВА КОРОЛЮ
-ASPIRING IDOL<#>НАЧИНАЮЩИЙ ИДОЛ
-INNOCENT STUDENT<#>НЕВИННАЯ УЧЕНИЦА
-THE COLLECTION<#>КОЛЛЕКЦИЯ
-REBEL OUTFIT<#>БУНТАРСКИЙ НАРЯД
-PRIVATE SCHOOL<#>ЧАСТНАЯ ШКОЛА
-<STAR><#><ЗВЕЗДА>
-SKELETON<#>СКЕЛЕТ
-REPORTER<#>РЕПОРТЁР
-BLOODY SWEATER<#>КРОВАВЫЙ СВИТЕР
-JUNIOR SALARYMAN<#>МЛАДШИЙ КЛЕРК
-HAWAII<#>ГАВАЙИ
-LEATHER REBEL<#>КОЖАНАЯ БУНТАРКА
-CHAD<#>ЧАД
-DORAKYURA<#>ДОРАКЬЮРА
-THUG JACKET<#>КУРТКА БАНДИТА
-BAR BRAWL<#>ДРАКА В БАРЕ
-MAFIA<#>МАФИЯ
-SAMURAI<#>САМУРАЙ
-LEATHER<#>КОЖА
-T-SHIRT<#>ФУТБОЛКА
-DOG GOD FESTIVAL<#>ФЕСТИВАЛЬ БОГА-СОБАКИ
-RIOT JACKET<#>БУНТАРСКАЯ КУРТКА
-BAND T-SHIRT<#>ФУТБОЛКА ФАНАТА
-COOL STUDENT<#>КРУТАЯ УЧЕНИЦА
-TOKYO<#>ТОКИО
-OCCULT TANK-TOP<#>ОККУЛЬТНЫЙ ТОП
-ALTERNATYWKA<#>АЛЬТЕРНАТИВКА
-LITTLE DEVIL<#>МАЛЕНЬКИЙ ДЬЯВОЛ
-NURSE<#>МЕДСЕСТРА
-TANK-TOP<#>ТОП
-P.CULTURE<#>П-КУЛЬТУРА
-GOOD GIRL<#>ХОРОШАЯ ДЕВОЧКА
-TRACKSUIT<#>СПОРТИВНЫЙ КОСТЮМ
-SURF!<#>СЁРФ!
-(ACTUAL) NURSE<#>(НАСТОЯЩАЯ) МЕДСЕСТРА
-TRANSFER GIRL<#>НОВЕНЬКАЯ УЧЕНИЦА
-CASUAL SHIRT<#>ПОВСЕДНЕВНАЯ ФУТБОЛКА
-TEEN WITCH<#>ЮНАЯ ВЕДЬМА
-HIRIE<#>ХИРИЕ
-60S<#>60-е
-WZ.86<#>WZ.86
-SHEET GHOST<#>ПРИЗРАК-ПРОСТЫНЬ
-CAPTAIN<#>КАПИТАН
-GYM CLOTHES<#>НАРЯД ДЛЯ КАЧАЛКИ
-SAKHALIN<#>САХАЛИН
-TEACHER'S PET<#>ЛЮБИМИЦА УЧИТЕЛЯ
-VANITY JACKET<#>ШКОЛЬНЫЙ ЖИЛЕТ
-MUMMY<#>МУМИЯ
-SPORT TEAM<#>СПОРТИВНАЯ КОМАНДА
-CUTE SHIRT<#>МИЛАЯ ФУТБОЛКА
-ALWAYS RUNNING<#>ВСЕГДА НА БЕГУ
-chosen perk packs<#>выбранные наборы способностей
-A new page was added to the NECRONOMICON.<#>Новая страница была добавлена в НЕКРОНОМИКОН.
-I've failed them... (+6% DOOM)<#>Я подвёл их... (+6% РОКА)
-You've lost the hunting cultists... for now. (-1% DOOM)<#>Культисты скрылись... пока что. (-1% РОКА)
-FAITH<#>ВЕРА
-(passive effect):#-2 MAX STAMINA/REASON#+1 DAMAGE#+1 STRENGTH#(effect per mystery):#-10 EXPERIENCE<#>(пассивно):#-2 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#+1 УРОНА#+1 СИЛЫ#(один раз на тайну):#-10 ОПЫТА
-(passive effect):#-1 MAX STAMINA/REASON#(effect per mystery):#-5 EXPERIENCE<#>(пассивно):#-1 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#(один раз на тайну):#-5 ОПЫТА
-(passive effect):#+2 MAX STAMINA/REASON#+1 DEXTERITY#(effect per mystery):#regain 1 STAMINA/REASON#+20 EXPERIENCE<#>(пассивно):#+2 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#+1 ЛОВКОСТИ#(один раз на тайну):#восстанавливает 1 ВЫНОСЛИВОСТИ, РАССУДКА#+20 ОПЫТА
-(passive effect):#+1 MAX STAMINA/REASON#(effect per mystery):#+10 EXPERIENCE<#>(пассивно):#+1 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#(один раз на тайну):#+10 ОПЫТА
-CURRENT VALUE<#>ТЕКУЩЕЕ ЗНАЧЕНИЕ
-#increase FAITH by defeating enemies and solving mysteries#decrease FAITH by getting damaged in combat#-----#<#>#повышайте ВЕРУ, побеждая врагов и раскрывая тайны#понижайте ВЕРУ, получая урон в бою#-----#
-RANDOM CHARACTER<#>СЛУЧАЙНЫЙ ПЕРСОНАЖ
-Randomly selects one of the unlocked characters!<#>Случайно выбирает одного из разблокированных персонажей.
-[cheaper PHARMACY items]<#>товары в АПТЕКЕ#становятся дешевле
-+1 REASON / STAMINA<#>+1 РАССУДКА, ВЫНОСЛИВОСТИ
-BRAVE<#>ХРАБРЕЦ
-COWARD<#>ТРУС
-AKITO<#>АКИТО
-CHIHARU<#>ТИХАРУ
-DOI<#>ДОИ
-HACHI<#>ХАТИ
-HARUE<#>ХАРУЭ
-HIKARU<#>ХИКАРУ
-KAEDE<#>КАЭДЭ
-KAIRI<#>КАЙРИ
-TARU<#>ТАРУ
-REIKO<#>РЕЙКО
-MICHI<#>МИТИ
-KOHAKU<#>КОХАКУ
-CHARISMA<#>ХАРИЗМЫ
-KNOWLEDGE<#>ИНТЕЛЛЕКТА
-DEXTERITY<#>ЛОВКОСТИ
-PERCEPTION<#>ВОСПРИЯТИЯ
-STRENGTH<#>СИЛЫ
-LUCK<#>УДАЧИ
-STUDENT<#>УЧЕНИК
+eng|eng
+WORLD OF HORROR|WORLD OF HORROR
+<<At the beginning, no one had any idea what we were up against.>>|«Поначалу никто не догадывался, с чем мы имеем дело.»
+[NO EFFECT]|(НЕТ ЭФФЕКТА)
+MEDICAL HISTORY|ПЛОХАЯ МЕДКНИЖКА
+<<Brittle bones run in your family and you've spent each summer in a cast.>>|«Хрупкие кости передаются в вашей семье по наследству, и каждое лето вы проводите в гипсе.»
+[you start with extra EXP and BANDAGES but an INJURY may occur whenever the player takes damage in combat]|(вы начинаете с дополнительным ОПЫТОМ и БИНТАМИ, но в любой момент, когда получаете урон в бою, вы можете также получить ТРАВМУ)
+HUNTED BY THE CULT|ПРЕСЛЕДОВАНИЕ КУЛЬТОМ
+<<You've managed to run from them once, but the cult is tireless...>>|«Вы умудрились убежать от них однажды, но культ неутомим...»
+[solving mysteries reduces more DOOM but you get more unique combat encounters]|(раскрытие тайн отдаляет РОК дальше, но вы будете попадать в большее количество уникальных боёв)
+THE SEVENTH CURSE|СЕДЬМОЕ ПРОКЛЯТИЕ
+<<Your family was cursed. Everyone around you will die...>>|«Ваша семья была проклята. Все вокруг вас будут умирать...»
+[you start the playthrough with more FUNDS but can't have any HUMAN allies]|(вы начинаете забег с большим количеством СРЕДСТВ, но не можете заиметь союзников-ЛЮДЕЙ)
+ILL-FATED|ЗЛАЯ СУДЬБА
+<<You were born under a bad moon...>>|«Вы родились в плохую лунную фазу...»
+[all event skill checks automatically fail]|(все проверки характеристик автоматически проваливаются)
+KNIGHT-ERRANT|СТРАНСТВУЮЩИЙ РЫЦАРЬ
+<<Only I can save our town...>>|«Лишь я могу спасти этот город...»
+[receive a major penalty each time you complete a mystery with a sub-A ending]|(вы получаете серьёзный штраф каждый раз, когда тайна раскрывается с концовкой ниже чем А)
+SCARS|ШРАМЫ
+<<I've made it through hell and back, you won't break me now.>>|«Мне удалось пройти через ад, вам меня не сломить.»
+[lowers incoming damage by 1, drastically lowers MAX STAMINA and REASON]|(понижает входящий урон на 1, существенно понижает МАКС. ВЫНОСЛИВОСТЬ и РАССУДОК)
+CURIOUS BIRTHMARK|СТРАННАЯ РОДИНКА
+<<Doctor, if it looks 'fine', please explain to me, why is it changing its shape?>>|«Доктор, если она выглядит "нормально", пожалуйста, объясните мне, почему она меняет форму?»
+[any damage taken in combat can cause a CURSE]|(любой урон, полученный в бою, может навлечь на вас ПРОКЛЯТИЕ)
+ELDRITCH PARASITE|ПОТУСТОРОННИЙ ПАРАЗИТ
+<<Something is... growing inside me.>>|«Что-то... растёт внутри меня.»
+[you start with extra STAMINA and REASON but can't regain them]|(вы начинаете с дополнительными ВЫНОСЛИВОСТЬЮ и РАССУДКОМ, но не можете восстанавливать их)
+FATALIST|ФАТАЛИСТ
+<<It's... pointless, I can't change my fate...>>|«Это бессмысленно... Мне не изменить свою судьбу...»
+[you must solve the mysteries in the order they appear on the board]|(вы обязаны раскрывать тайны в том порядке, в котором они появляются на доске)
+TRANSFER STUDENT|НОВЕНЬКАЯ УЧЕНИЦА
+Name: KIRIE MINAMI#20 / FEMALE# #Could the ghosts following her be in any way connected with all the weird events happening in this town?|Имя: КИРИЭ МИНАМИ#20, ЖЕНЩИНА##Могут ли призраки, преследующие её, как-либо быть связаны с загадочными событиями, происходящими в этом городе?
++ KNOWLEDGE#- STRENGTH#starts with one random SPELL|+ ИНТЕЛЛЕКТ#- СИЛА#начинает с одним случайным ЗАКЛИНАНИЕМ
+KIRIE|КИРИЭ
+SWIMMING TEAM CAPTAIN|КАПИТАН КОМАНДЫ ПЛОВЦОВ
+Name: AIKO TAKAHASHI#20 / FEMALE# #Barely surviving after a ghost of a drowned man kept her underwater, she is determined to solve this mystery.|Имя: АЙКО ТАКАХАШИ#20, ЖЕНЩИНА##Едва оставшись в живых после того, как её чуть не утопил призрак утопленника, АЙКО полна решимости раскрыть любую тайну.
++ DEXTERITY#- KNOWLEDGE#starts with combat speed bonus|+ ЛОВКОСТЬ#- ИНТЕЛЛЕКТ#начинает с бонусом к скорости в бою
+AIKO|АЙКО
+YAKUZA DRIVER|ВОДИТЕЛЬ-ЯКУДЗА
+Name: HARU#24 / MALE# #Robbing that old abandoned manor was a mistake. With his friends dead and mutilated, and a vengeful horror chasing him, no speed is too fast.|Имя: ХАРУ#24, МУЖЧИНА##Решение обнести то старое заброшенное поместье было ошибкой. Когда его друзья оказались мертвы и изувечены, а за ним начал погоню мстительный ужас, скорость потеряла всякий предел.
++ STRENGTH#- KNOWLEDGE#starts with CIGARETTES|+ СИЛА#- ИНТЕЛЛЕКТ#начинает с СИГАРЕТАМИ
+HARU|ХАРУ
+TEEN IDOL|ПОДРОСТОК-ИДОЛ
+MIZUKI HAMASAKI#20 / FEMALE# #What a strange world we live in, where stopping an ancient evil is the easiest way to boost your career.|Имя: МИЗУКИ ХАМАСАКИ#20, ЖЕНЩИНА##В каком же странном мире мы живём, где победа над древним злом - легчайший путь продвинуться по карьерной лестнице.
++ CHARISMA#- STRENGTH#starts with a random ALLY|+ ХАРИЗМА#- СИЛА#начинает со случайным СОЮЗНИКОМ
+MIZUKI|МИЗУКИ
+PHOTOGRAPHER|ФОТОГРАФ
+Name: KOUJI TAGAWA#20 / MALE# #They say a picture is worth a thousand words.#The government won't sweep this one under the rug.|Имя: КОДЗИ ТАГАВА#20, МУЖЧИНА##Говорят, что один снимок стоит тысячи слов.#А такой снимок правительство точно не сможет скрыть.
++ PERCEPTION#- DEXTERITY#starts with a CAMERA|+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с КАМЕРОЙ
+KOUJI|КОДЗИ
+MED STUDENT|МЕД. СТУДЕНТКА
+Name: MIMI#22 / FEMALE# #Finally a way to put into practice everything she's learned so far.|Имя: МИМИ#22, ЖЕНЩИНА##Наконец-то, возможность попрактиковаться в том, что она успела выучить.
++ KNOWLEDGE#- DEXTERITY#starts with a SCALPEL|+ ИНТЕЛЛЕКТ#- ЛОВКОСТЬ#начинает со СКАЛЬПЕЛЕМ
+MIMI|МИМИ
+RIOTER|БУНТАРКА
+Name: MIKU#20 / FEMALE# #Rebellious misfit keen on spreading chaos. She will protect her hometown, even if only for her own selfish reasons.|Имя: МИКУ#20, ЖЕНЩИНА##Непокорная особа, любящая сеять хаос. Она будет защищать свой город, но по собственным эгоистичным причинам.
++ STRENGTH#- PERCEPTION#increasing DOOM grants various bonuses|+ СИЛА#- ВОСПРИЯТИЕ#приближение РОКА даёт вам различные бонусы
+MIKU|МИКУ
+HUNTER'S DAUGHTER|ДОЧЬ ОХОТНИКА
+Name: MORIKO ISHII#20 / FEMALE# #Ignoring her father's warnings, she decided to hunt the monster killing the animals to protect this forest... and, unknowingly, save the world.|Имя: МОРИКО ИШИИ#20, ЖЕНЩИНА##Игнорируя предупреждения своего отца, она решила выследить монстра, убивающего животных. Она хочет защитить этот лес... и, сама того не зная, спасти мир.
++ PERCEPTION#- DEXTERITY#starts with her father's shotgun|+ ВОСПРИЯТИЕ#- ЛОВКОСТЬ#начинает с ОТЦОВСКИМ ДРОБОВИКОМ
+MORIKO|МОРИКО
+WITCH|ВЕДЬМА
+Name: AYAKA KUROI#20 / FEMALE# #They didn't want to participate in Ayaka's ritual. Now, they are all dead and their souls will continue to torment her.|Имя: АЯКА КУРОЙ#20, ЖЕНЩИНА##Они не хотели участвовать в ритуале Аяки. Теперь они все мертвы, а их души продолжают мучить её...
++ KNOWLEDGE#- LUCK#starts with ONYX MEDALLION|+ ИНТЕЛЛЕКТ#- УДАЧА#начинает с ОНИКСОВЫМ МЕДАЛЬОНОМ
+AYAKA|АЯКА
+EX-CULTIST|БЫВШИЙ КУЛЬТИСТ
+Name: TOSHIAKI WAKAMATSU#20 / MALE# #When Toshiaki discovered the club's sinister intention, he flew into action, stealing their most prized possession. This cursed book will either save or doom our entire world...|Имя: ТОШИАКИ ВАКАМАЦУ#20, МУЖЧИНА##Когда Тошиаки узнал о зловещих намерениях культа, он начал действовать, похитив у них самую ценную вещь. Эта проклятая книга либо спасёт, либо обречёт весь мир...
++ PERCEPTION#- STRENGTH#starts with NECRONOMICON|+ ВОСПРИЯТИЕ#- СИЛА#начинает с НЕКРОНОМИКОНОМ
+TOSHIAKI|ТОШИАКИ
+PRIEST|СВЯЩЕННИК
+Name: YASHIRO KAWAJI#24 / MALE# #While he didn't technically complete his studies at the seminary, a worrying letter from his sister forced Yashiro to take the first train to Shiokawa. After all, she died a few years ago...|Имя: ЯШИРО КАВАДЗИ#24, МУЖЧИНА##Несмотря на то, что технически он не закончил обучение в семинарии, тревожное письмо от его сестры вынудило Яширо сесть на первый же поезд до Шиокавы. Всё же, она умерла несколько лет назад...
++ KNOWLEDGE#- CHARISMA#starts with BRONZE CRUCIFIX|+ ИНТЕЛЛЕКТ#- ХАРИЗМА#начинает с БРОНЗОВЫМ РАСПЯТИЕМ
+YASHIRO|ЯШИРО
+You need to leave this smelly town soon.|Вам нужно как можно скорее покинуть этот смрадный город.
+The cards predicted this...|Карты это предсказали...
+What a lovely day today.|Какой сегодня милый денёк.
+The order won't matter anyway...|Порядок в любом случае не имеет значения...
+PRIEST|СВЯЩЕННИК
+CHUPACABRA SWEATER|СВИТЕР С ЧУПАКАБРОЙ
+EXQUISITE TASTE|ИЗЫСКАННЫЙ ВКУС
+<<Only a few places are good enough for me.>>|«Лишь некоторые места достаточно хороши для меня.»
+[only one additional action is available per location]|(лишь одно дополнительное действие доступно на каждой локации)
+The cult members are on your trail!|Члены культа у вас на хвосте!
+The curse continues to follow you...|Проклятие продолжает преследовать вас...
+Something is growing inside you...|Что-то растёт внутри вас...
+You were born under a bad moon...|Вы родились в плохую лунную фазу...
+You've been waiting for this your entire life...|Вы ждали этого всю вашу жизнь...
+The parasite stirs.|Паразит шевелится...
+You've been through worse...|Вы бывали в ситуациях и похуже...
+INCOGNITO|ИНКОГНИТО
+<<SORRY I DON'T CELEBRATE THAT>>|«ИЗВИНИТЕ, Я ТАКОМУ НЕ ПОКЛОНЯЮСЬ.»
+HAPPIEST LEMON|СЧАСТЛИВЕЙШИЙ ЛИМОН
+COMMONER|ПРОСТОЛЮДИН
+<<I was supposed to die.>>|«Мне суждено было умереть.»
+[you can't gain EXPERIENCE]|вы не можете получать ОПЫТ
+BOOKWORM|КНИЖНЫЙ ЧЕРВЬ
+SPORT JACKET|СПОРТИВНАЯ КУРТКА
+TEEN WITCH II|ЮНАЯ ВЕДЬМА II
+WINDSTOPPER|ВЕТРОВКА
+HIS SWEATER|ЕГО СВИТЕР
+RUNAWAY JACKET|КУРТКА БЕГЛЕЦА
+CULT OF THE CORN|КУЛЬТ КУКУРУЗЫ
+HUNTER'S SWEATER|СВИТЕР ОХОТНИКА
+WARM JACKET|ТЁПЛАЯ КУРТКА
+EST.65|EST.65
+MORI KEI|МОРИ КЕЙ
+HAIL TO THE KING|СЛАВА КОРОЛЮ
+ASPIRING IDOL|НАЧИНАЮЩИЙ ИДОЛ
+INNOCENT STUDENT|НЕВИННАЯ УЧЕНИЦА
+THE COLLECTION|КОЛЛЕКЦИЯ
+REBEL OUTFIT|БУНТАРСКИЙ НАРЯД
+PRIVATE SCHOOL|ЧАСТНАЯ ШКОЛА
+<STAR>|<ЗВЕЗДА>
+SKELETON|СКЕЛЕТ
+REPORTER|РЕПОРТЁР
+BLOODY SWEATER|КРОВАВЫЙ СВИТЕР
+JUNIOR SALARYMAN|МЛАДШИЙ КЛЕРК
+HAWAII|ГАВАЙИ
+LEATHER REBEL|КОЖАНАЯ БУНТАРКА
+CHAD|ЧАД
+DORAKYURA|ДОРАКЬЮРА
+THUG JACKET|КУРТКА БАНДИТА
+BAR BRAWL|ДРАКА В БАРЕ
+MAFIA|МАФИЯ
+SAMURAI|САМУРАЙ
+LEATHER|КОЖА
+T-SHIRT|ФУТБОЛКА
+DOG GOD FESTIVAL|ФЕСТИВАЛЬ БОГА-СОБАКИ
+RIOT JACKET|БУНТАРСКАЯ КУРТКА
+BAND T-SHIRT|ФУТБОЛКА ФАНАТА
+COOL STUDENT|КРУТАЯ УЧЕНИЦА
+TOKYO|ТОКИО
+OCCULT TANK-TOP|ОККУЛЬТНЫЙ ТОП
+ALTERNATYWKA|АЛЬТЕРНАТИВКА
+LITTLE DEVIL|МАЛЕНЬКИЙ ДЬЯВОЛ
+NURSE|МЕДСЕСТРА
+TANK-TOP|ТОП
+P.CULTURE|П-КУЛЬТУРА
+GOOD GIRL|ХОРОШАЯ ДЕВОЧКА
+TRACKSUIT|СПОРТИВНЫЙ КОСТЮМ
+SURF!|СЁРФ!
+(ACTUAL) NURSE|(НАСТОЯЩАЯ) МЕДСЕСТРА
+TRANSFER GIRL|НОВЕНЬКАЯ УЧЕНИЦА
+CASUAL SHIRT|ПОВСЕДНЕВНАЯ ФУТБОЛКА
+TEEN WITCH|ЮНАЯ ВЕДЬМА
+HIRIE|ХИРИЕ
+60S|60-е
+WZ.86|WZ.86
+SHEET GHOST|ПРИЗРАК-ПРОСТЫНЬ
+CAPTAIN|КАПИТАН
+GYM CLOTHES|НАРЯД ДЛЯ КАЧАЛКИ
+SAKHALIN|САХАЛИН
+TEACHER'S PET|ЛЮБИМИЦА УЧИТЕЛЯ
+VANITY JACKET|ШКОЛЬНЫЙ ЖИЛЕТ
+MUMMY|МУМИЯ
+SPORT TEAM|СПОРТИВНАЯ КОМАНДА
+CUTE SHIRT|МИЛАЯ ФУТБОЛКА
+ALWAYS RUNNING|ВСЕГДА НА БЕГУ
+chosen perk packs|выбранные наборы способностей
+A new page was added to the NECRONOMICON.|Новая страница была добавлена в НЕКРОНОМИКОН.
+I've failed them... (+6% DOOM)|Я подвёл их... (+6% РОКА)
+You've lost the hunting cultists... for now. (-1% DOOM)|Культисты скрылись... пока что. (-1% РОКА)
+FAITH|ВЕРА
+(passive effect):#-2 MAX STAMINA/REASON#+1 DAMAGE#+1 STRENGTH#(effect per mystery):#-10 EXPERIENCE|(пассивно):#-2 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#+1 УРОНА#+1 СИЛЫ#(один раз на тайну):#-10 ОПЫТА
+(passive effect):#-1 MAX STAMINA/REASON#(effect per mystery):#-5 EXPERIENCE|(пассивно):#-1 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#(один раз на тайну):#-5 ОПЫТА
+(passive effect):#+2 MAX STAMINA/REASON#+1 DEXTERITY#(effect per mystery):#regain 1 STAMINA/REASON#+20 EXPERIENCE|(пассивно):#+2 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#+1 ЛОВКОСТИ#(один раз на тайну):#восстанавливает 1 ВЫНОСЛИВОСТИ, РАССУДКА#+20 ОПЫТА
+(passive effect):#+1 MAX STAMINA/REASON#(effect per mystery):#+10 EXPERIENCE|(пассивно):#+1 МАКС. ВЫНОСЛИВОСТИ, РАССУДКА#(один раз на тайну):#+10 ОПЫТА
+CURRENT VALUE|ТЕКУЩЕЕ ЗНАЧЕНИЕ
+#increase FAITH by defeating enemies and solving mysteries#decrease FAITH by getting damaged in combat#-----#|#повышайте ВЕРУ, побеждая врагов и раскрывая тайны#понижайте ВЕРУ, получая урон в бою#-----#
+RANDOM CHARACTER|СЛУЧАЙНЫЙ ПЕРСОНАЖ
+Randomly selects one of the unlocked characters!|Случайно выбирает одного из разблокированных персонажей.
+[cheaper PHARMACY items]|товары в АПТЕКЕ#становятся дешевле
++1 REASON / STAMINA|+1 РАССУДКА, ВЫНОСЛИВОСТИ
+BRAVE|ХРАБРЕЦ
+COWARD|ТРУС
+AKITO|АКИТО
+CHIHARU|ТИХАРУ
+DOI|ДОИ
+HACHI|ХАТИ
+HARUE|ХАРУЭ
+HIKARU|ХИКАРУ
+KAEDE|КАЭДЭ
+KAIRI|КАЙРИ
+TARU|ТАРУ
+REIKO|РЕЙКО
+MICHI|МИТИ
+KOHAKU|КОХАКУ
+CHARISMA|ХАРИЗМЫ
+KNOWLEDGE|ИНТЕЛЛЕКТА
+DEXTERITY|ЛОВКОСТИ
+PERCEPTION|ВОСПРИЯТИЯ
+STRENGTH|СИЛЫ
+LUCK|УДАЧИ
+STUDENT|УЧЕНИК

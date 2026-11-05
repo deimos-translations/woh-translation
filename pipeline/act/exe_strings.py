@@ -2,7 +2,7 @@
 
 Usage: python -I pipeline/act/exe_strings.py <targets.tsv> [document]   (normally `woh.py sync`)
 
-One line per distinct string: `source<#>translation`. Control characters are escaped as `\\`, `\r`, `\n`, `\t`
+One line per distinct string: `source|translation`. Control characters are escaped as `\\`, `\r`, `\n`, `\t`
 and `#` is the game's own line break, so keep both as they are. An empty translation leaves the string untouched.
 The first four lines (`DOOM`, `STA`, `REA`, `ALL`) are the battle damage labels: what the combat screens show for that
 damage type. They are not copies of strings in the exe, so an empty one keeps its English text.

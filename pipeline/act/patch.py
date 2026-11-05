@@ -8,7 +8,7 @@ The input file is never modified. The tables it reads are generated for this exa
    damage type (the logic literals of the same name are not touched). If any is translated, the `if (language == 7)` guard of the
    label-substitution block in the three draw events is NOPed and the 12 startup loads feeding that block's label strings are
    repointed (patch_sites.tsv); an empty entry keeps its English key as the label.
-2. Draw-time translation (default): every other non-empty `source<#>translation` line becomes an entry of a hash table. The 16
+2. Draw-time translation (default): every other non-empty `source|translation` line becomes an entry of a hash table. The 16
    built-ins that draw or measure text (draw_text*, string_width*, string_height*; draw_hooks.tsv) are pointed at stubs that
    replace the text argument by its translation for the duration of the call and put the original back afterwards, so the values
    the game compares and stores are never changed. Only a string passed whole to one of those built-ins can be translated.

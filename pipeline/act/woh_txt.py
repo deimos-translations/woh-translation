@@ -1,14 +1,15 @@
 """Keep translation/language/engLanguage/*.txt as the translation source, and generate .jn files from it.
 
 .jn format: one "English|Japanese" line per string (woh_ui.jn also starts with a header line "English|Japanese").
-woh_ver.jn is plain text: its lines are whole English paragraphs with no Japanese column, and "|" can appear in the text.
-txt format: one "<eng><#><rus>" line per .jn string line (header omitted), same order. An empty <rus> is written as an empty string.
-<<#>> is game markup: a <#> inside it is not the separator.
+woh_ver.jn is plain text with no Japanese column: its English is the part before the first "|" (line 1 repeats the English after the "|", which is not kept).
+txt format: one "<eng>|<rus>" line per .jn string line (header omitted), same order. An empty <rus> is written as an empty string.
+The separator is the first "|" in the line.
 
 carry: rewrite each txt from the untranslated .jn files in --source. Each new English line takes the Russian of the
   txt line with the same English. English that is no longer in the game is reported as dropped.
 apply: write each translated .jn into output/language/engLanguage. The Japanese column and header come from
-  the --source .jn files. Fails if a txt English no longer matches the source (run carry first).
+  the --source .jn files. Lines are matched by English. Fails if a txt English is missing from the source (run carry first);
+  warns if the txt lines are in a different order from the .jn file.
 
 The source files must be the game's originals: files this pipeline wrote are refused.
 
@@ -19,11 +20,9 @@ Usage (normally `woh.py sync` and `woh.py text`):
 
 import argparse
 import pathlib
-import re
 import sys
 from collections import defaultdict, deque
 
-MARKUP_OR_SEP = re.compile(r"<<#>>|<#>")
 HEADER = "English|Japanese"
 PLAIN_TEXT = {"woh_ver.jn"}
 HERE = pathlib.Path(__file__).resolve().parent
@@ -56,17 +55,15 @@ def write_lines(path, lines):
 def columns(name, line):
     """Return (english, japanese); japanese is None for plain-text lines."""
     if name in PLAIN_TEXT:
-        return line, None
+        return line.partition("|")[0], None
     en, sep, ja = line.partition("|")
     return (en, ja) if sep else (line, None)
 
 
 def split_entry(entry):
-    """Split "<eng><#><rus>" at the first <#> that is not part of <<#>> markup."""
-    for match in MARKUP_OR_SEP.finditer(entry):
-        if match.group() == SEP:
-            return entry[:match.start()], entry[match.end():]
-    return None
+    """Split "<eng>|<rus>" at the first "|"."""
+    en, sep, ru = entry.partition(SEP)
+    return (en, ru) if sep else None
 
 
 def carry(source):
@@ -109,14 +106,30 @@ def apply(source):
         if len(entries) != len(source_lines):
             sys.exit(f"{txt.name}: {len(entries)} entries, but {src.name} has {len(source_lines)} lines; run carry")
 
-        out = list(head)
-        for line, entry in zip(source_lines, entries):
-            en, ja = columns(src.name, line)
+        pool = defaultdict(deque)
+        for entry_number, entry in enumerate(entries):
             parts = split_entry(entry)
-            if parts is None or parts[0] != en:
-                sys.exit(f"{txt.name}: entry does not match source line {en!r}; run carry")
-            text = parts[1]
+            if parts is None:
+                sys.exit(f"{txt.name}: line without {SEP}: {entry!r}")
+            pool[parts[0]].append((entry_number, parts[1]))
+
+        out = list(head)
+        reordered = []
+        for position, line in enumerate(source_lines):
+            en, ja = columns(src.name, line)
+            queue = pool.get(en)
+            if not queue:
+                sys.exit(f"{txt.name}: no entry for source line {en!r}; run carry")
+            entry_number, text = queue.popleft()
+            if entry_number != position:
+                reordered.append((en, entry_number, position))
             out.append(text if ja is None else f"{text}|{ja}")
+
+        if reordered:
+            en, entry_number, position = reordered[0]
+            print(f"warning: {txt.name}: {len(reordered)} of {len(source_lines)} lines are in a different order from "
+                  f"{src.name} (first: {en!r} is on txt line {entry_number + 1}, expected line {position + 1})",
+                  file=sys.stderr)
 
         write_lines(OUTPUT / src.name, out)
         common.record_produced(OUTPUT / src.name)

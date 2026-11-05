@@ -1,18 +1,18 @@
-"""Hash every image extracted from a World of Horror data.win.
+"""Record the sha256 of the translated sprites of a World of Horror data.win in hashes.txt.
 
 Runs pipeline/generate/export_woh.csx through UndertaleModCli into a temporary
-directory, then prints one line per PNG (sprite frames and font atlases):
-  <sha256><TAB><relative path>
+directory, then hashes the sprite frames that have a PNG in img/translation
+(the sprites the translation replaces). Fails if one of them is not in the
+data.win. The exe's hash is written by `woh.py ghidra-import`.
 
 Usage:
-  python -I pipeline/act/hash_images.py [DATA.WIN] [--utmt UndertaleModCli.exe] > hashes.tsv
+  python -I pipeline/act/hash_images.py [DATA.WIN] [--utmt UndertaleModCli.exe]
 
 DATA.WIN defaults to the Steam install. --utmt falls back to the UTMT_CLI env
 var, then UndertaleModCli on PATH. UndertaleModCli output goes to stderr.
 """
 
 import argparse
-import hashlib
 import os
 import shutil
 import subprocess
@@ -52,10 +52,13 @@ def main():
             stdout=sys.stderr,
         )
 
-        for png in sorted(out.rglob("*.png"), key=lambda p: p.relative_to(out).as_posix()):
-            with png.open("rb") as f:
-                digest = hashlib.file_digest(f, "sha256").hexdigest()
-            print(f"{digest}\t{png.relative_to(out).as_posix()}")
+        wanted = sorted(png.name for png in (common.ROOT / "img" / "translation").glob("*.png"))
+        found = {png.name: png for png in sprites.glob("*.png")}
+        missing = [name for name in wanted if name not in found]
+        if missing:
+            sys.exit(f"not in data.win: {', '.join(missing)}")
+        common.record_hashes(".png", [(common.sha256(found[name]), name) for name in wanted])
+        print(f"hashes.txt: {len(wanted)} sprites")
 
 
 if __name__ == "__main__":

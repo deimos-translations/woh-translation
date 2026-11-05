@@ -1,41 +1,41 @@
-SHIOKAWA SCHOOL<#>ШКОЛА ШИОКАВЫ
-As you near the gym hall, the chanting and rhythmic drums grow louder, threatening to intoxicate you.#You creak the door open and stifle a scream. The entire school is gathered around a huge portal surrounded by black candles. From within, the bellowing of the beast being summoned echoes.#The teacher stands at the front, covered in a purple robe, her true form revealed...<#>Когда вы приближаетесь к спортивному залу, пение и ритмичные удары барабанов становятся громче, словно угрожая одурманить вас.#Вы со скрипом открываете дверь, едва сдерживая крик. Вся школа собралась вокруг огромного портала, окружённого чёрными свечами. Изнутри, эхом доносится рёв призванного зверя.#Перед порталом стоит учительница, одетая в фиолетовую мантию. Она раскрывает свой истинный облик...
-The school building has become a portal to an unknown place. Close it before it's too late!<#>Здание школы превратилось в портал, ведущий в неизвестность. Закройте его, пока не стало слишком поздно!
-KNOWLEDGE IS POWER<#>ЗНАНИЕ - СИЛА
-The portal grows bigger...<#>Портал разрастается...
-The school shakes...<#>Школа сотрясается...
-The portal is pulling you in...<#>Портал затягивает вас внутрь...
-GORE-COVERED STUDENT<#>КРОВАВАЯ УЧЕНИЦА
-Suddenly, the teacher's chest rips apart, showering the classroom with gore. From within, a child coated in meat and intestines leaps out, screeching with joy!<#>Внезапно грудная клетка учителя разрывается, поливая класс кровью. Оттуда, визжа от радости, выпрыгивает дитя, покрытое мясом и кишками!
-How did she end up in that teacher's stomach?<#>Как она оказалась в желудке учителя?
-GORE-COVERED STUDENT attacks you!<#>КРОВАВАЯ УЧЕНИЦА атакует вас!
-GORE-COVERED STUDENT stabs you!<#>КРОВАВАЯ УЧЕНИЦА пронзает вас!
-GORE-COVERED STUDENT kicks you!<#>КРОВАВАЯ УЧЕНИЦА пинает вас!
-TRAGIC TALE OF THE THAUMATURGY TEACHER<#>ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ
-2-B used to be one of the most outstanding classes in the school.##At least before their teacher's disappearance.<#>2Б был одним из самых выдающихся классов школы.##По крайней мере до того, как руководитель этого класса пропал.
-Her replacement glides through the school, entrancing all those around her with her soft voice and calming emotionless eyes.<#>Теперь по школе грациозно бродит её замена, очаровывая всех окружающих мягким голосом и успокаивающими, бесстрастными глазами.
-Now, she stands at the front of the class, scribbling occult symbols in chalk and hissing lessons about the old gods.##The children no longer play, but sit in their seats until dark, chanting along. Learning of their eldritch masters and preparing to serve them…<#>Она стоит перед классом, рисуя оккультные символы на доске, проводя уроки о древних богах.##Дети больше не дурачатся, а сидят на своих местах до темноты, подпевая. Изучая своих сверхъестественных хозяев и готовясь служить им...
-Following a rumor, you visit the house of a schoolgirl who acted really strange in class.<#>Следуя слухам, вы посещаете дом школьницы, которая странно вела себя в классе.
-The girl's parents sit crying in the living room, and fearfully point you upstairs.<#>Родители девочки, рыдая, сидят в гостиной и со страхом указывают вам наверх.
-She sits in her bedroom in a bloodstained uniform, a dead rat lying in her hands.##Asked why she killed it, she just grins.<#>Она сидит в своей спальне в окровавленной форме и держит в руках дохлую крысу.##На вопрос, почему она убила её, она лишь ухмыляется.
-Another lead, the former teacher of the class may prove more useful.<#>Другая зацепка - бывший классный руководитель - может оказаться более полезной.
-Knocking on their door, however, gets you no answer.##Just subtle chittering behind the door.<#>Однако на стук в его дверь вы не получаете ответа.##Слышно лишь тихое бормотание за дверью.
-A little boy from the school has been attacked by his classmates.<#>На одного мальчика напали собственные одноклассники.
-You find him in the hospital covered in bites.##Just what is with this whole 'summoning' that he speaks of between his sobs?<#>Вы находите его в больнице, всего в ранах от укусов.##Только вот, что означает весь этот «призыв», о котором он говорит между всхлипами?
-With no other ideas, you decide to wait outside the school itself.<#>Не имея других вариантов, вы решаете ждать рядом со школой.
-The faint chanting doesn't stop and no one enters or leaves the building.<#>Слабое пение изнутри не затихает, и никто не входит и не выходит из здания.
-You hear a scream coming from the school! It's time to enter…<#>Из школы доносится крик! Пора войти...
-THE LESION LESSON<#>ЧЛЕНОВРЕДИТЕЛЬСКИЕ УРОКИ
-Climbing a tree, you get a better view of the class.#Weird schematics of some portal drawn on the blackboard could help in the future.<#>Вы забираетесь на дерево, с которого вам предстаёт лучший вид на класс.#Странные схемы какого-то портала, нарисованные на доске, могут помочь в будущем.
-WEIRD CLASSROOM<#>СТРАННЫЙ КЛАСС
-DARK CORRIDOR<#>ТЁМНЫЙ КОРИДОР
-You sneak in through a window and skulk across the shadowy corridors.##All the classrooms have emptied out. Peering into one, you spot the corpse of a teacher nailed to the chalkboard. Shaking, you approach it.<#>Вы прокрадываетесь через окно и прячетесь в тенях коридоров.##Все кабинеты пусты. Заглядывая в один, вы обнаруживаете труп учителя, прибитый к доске. Дрожа, вы приближаетесь к нему.
-You spot an odd bulge protruding from his stomach.###It writhes against your fingers as you probe it.<#>Вы замечаете странную выпуклость, выступающую у него на животе.###Когда вы к ней прикасаетесь, то чувствуете, что выпуклость извивается.
-PREPARE FOR COMBAT<#>ПРИГОТОВИТЬСЯ К БОЮ
-investigate DOWNTOWN twice to complete this quest<#>Исследуйте ДЕЛОВОЙ РАЙОН дважды, чтобы завершить это задание.
-With her dying scream, the teacher throws herself into the portal.##Her vicious master shows no mercy - you hear it devour her before the connection shuts.<#>С предсмертным криком учительница запрыгивает в портал.##Её злобный хозяин не проявляет милосердия - вы слышите, как он пожирает её, прежде чем связь обрывается.
-The confused children lie on the ground crying.#Thanks to you, however, they are safe.##[TRAGIC TALE OF THE THAUMATURGY TEACHER:#ENDING A]<#>Растерянные дети лежат на полу, рыдая.#Благодаря вам теперь они в безопасности.##(ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ:#КОНЦОВКА А)
-With her dying scream, the teacher throws herself into the portal - dragging the children with her. Her vicious master shows no mercy - you hear it devour them all before the connection shuts.<#>С предсмертным криком учительница запрыгивает в портал, забирая детей с собой.##Её злобный хозяин не проявляет милосердия - вы слышите, как он пожирает их всех, прежде чем связь обрывается.
-The children will no longer harm anyone... but their parents will weep for them.##[TRAGIC TALE OF THE THAUMATURGY TEACHER:#ENDING B]<#>Дети больше никому не навредят... Но их родители будут горевать.##(ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ:#КОНЦОВКА Б)
-A - SAVED BY THE BELL<#>А - СПАСЁННЫЕ ЗВОНКОМ
-B - DIABOLICAL DETENTION<#>Б - ДЬЯВОЛЬСКАЯ ПРОДЛЁНКА
+SHIOKAWA SCHOOL|ШКОЛА ШИОКАВЫ
+As you near the gym hall, the chanting and rhythmic drums grow louder, threatening to intoxicate you.#You creak the door open and stifle a scream. The entire school is gathered around a huge portal surrounded by black candles. From within, the bellowing of the beast being summoned echoes.#The teacher stands at the front, covered in a purple robe, her true form revealed...|Когда вы приближаетесь к спортивному залу, пение и ритмичные удары барабанов становятся громче, словно угрожая одурманить вас.#Вы со скрипом открываете дверь, едва сдерживая крик. Вся школа собралась вокруг огромного портала, окружённого чёрными свечами. Изнутри, эхом доносится рёв призванного зверя.#Перед порталом стоит учительница, одетая в фиолетовую мантию. Она раскрывает свой истинный облик...
+The school building has become a portal to an unknown place. Close it before it's too late!|Здание школы превратилось в портал, ведущий в неизвестность. Закройте его, пока не стало слишком поздно!
+KNOWLEDGE IS POWER|ЗНАНИЕ - СИЛА
+The portal grows bigger...|Портал разрастается...
+The school shakes...|Школа сотрясается...
+The portal is pulling you in...|Портал затягивает вас внутрь...
+GORE-COVERED STUDENT|КРОВАВАЯ УЧЕНИЦА
+Suddenly, the teacher's chest rips apart, showering the classroom with gore. From within, a child coated in meat and intestines leaps out, screeching with joy!|Внезапно грудная клетка учителя разрывается, поливая класс кровью. Оттуда, визжа от радости, выпрыгивает дитя, покрытое мясом и кишками!
+How did she end up in that teacher's stomach?|Как она оказалась в желудке учителя?
+GORE-COVERED STUDENT attacks you!|КРОВАВАЯ УЧЕНИЦА атакует вас!
+GORE-COVERED STUDENT stabs you!|КРОВАВАЯ УЧЕНИЦА пронзает вас!
+GORE-COVERED STUDENT kicks you!|КРОВАВАЯ УЧЕНИЦА пинает вас!
+TRAGIC TALE OF THE THAUMATURGY TEACHER|ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ
+2-B used to be one of the most outstanding classes in the school.##At least before their teacher's disappearance.|2Б был одним из самых выдающихся классов школы.##По крайней мере до того, как руководитель этого класса пропал.
+Her replacement glides through the school, entrancing all those around her with her soft voice and calming emotionless eyes.|Теперь по школе грациозно бродит её замена, очаровывая всех окружающих мягким голосом и успокаивающими, бесстрастными глазами.
+Now, she stands at the front of the class, scribbling occult symbols in chalk and hissing lessons about the old gods.##The children no longer play, but sit in their seats until dark, chanting along. Learning of their eldritch masters and preparing to serve them…|Она стоит перед классом, рисуя оккультные символы на доске, проводя уроки о древних богах.##Дети больше не дурачатся, а сидят на своих местах до темноты, подпевая. Изучая своих сверхъестественных хозяев и готовясь служить им...
+Following a rumor, you visit the house of a schoolgirl who acted really strange in class.|Следуя слухам, вы посещаете дом школьницы, которая странно вела себя в классе.
+The girl's parents sit crying in the living room, and fearfully point you upstairs.|Родители девочки, рыдая, сидят в гостиной и со страхом указывают вам наверх.
+She sits in her bedroom in a bloodstained uniform, a dead rat lying in her hands.##Asked why she killed it, she just grins.|Она сидит в своей спальне в окровавленной форме и держит в руках дохлую крысу.##На вопрос, почему она убила её, она лишь ухмыляется.
+Another lead, the former teacher of the class may prove more useful.|Другая зацепка - бывший классный руководитель - может оказаться более полезной.
+Knocking on their door, however, gets you no answer.##Just subtle chittering behind the door.|Однако на стук в его дверь вы не получаете ответа.##Слышно лишь тихое бормотание за дверью.
+A little boy from the school has been attacked by his classmates.|На одного мальчика напали собственные одноклассники.
+You find him in the hospital covered in bites.##Just what is with this whole 'summoning' that he speaks of between his sobs?|Вы находите его в больнице, всего в ранах от укусов.##Только вот, что означает весь этот «призыв», о котором он говорит между всхлипами?
+With no other ideas, you decide to wait outside the school itself.|Не имея других вариантов, вы решаете ждать рядом со школой.
+The faint chanting doesn't stop and no one enters or leaves the building.|Слабое пение изнутри не затихает, и никто не входит и не выходит из здания.
+You hear a scream coming from the school! It's time to enter…|Из школы доносится крик! Пора войти...
+THE LESION LESSON|ЧЛЕНОВРЕДИТЕЛЬСКИЕ УРОКИ
+Climbing a tree, you get a better view of the class.#Weird schematics of some portal drawn on the blackboard could help in the future.|Вы забираетесь на дерево, с которого вам предстаёт лучший вид на класс.#Странные схемы какого-то портала, нарисованные на доске, могут помочь в будущем.
+WEIRD CLASSROOM|СТРАННЫЙ КЛАСС
+DARK CORRIDOR|ТЁМНЫЙ КОРИДОР
+You sneak in through a window and skulk across the shadowy corridors.##All the classrooms have emptied out. Peering into one, you spot the corpse of a teacher nailed to the chalkboard. Shaking, you approach it.|Вы прокрадываетесь через окно и прячетесь в тенях коридоров.##Все кабинеты пусты. Заглядывая в один, вы обнаруживаете труп учителя, прибитый к доске. Дрожа, вы приближаетесь к нему.
+You spot an odd bulge protruding from his stomach.###It writhes against your fingers as you probe it.|Вы замечаете странную выпуклость, выступающую у него на животе.###Когда вы к ней прикасаетесь, то чувствуете, что выпуклость извивается.
+PREPARE FOR COMBAT|ПРИГОТОВИТЬСЯ К БОЮ
+investigate DOWNTOWN twice to complete this quest|Исследуйте ДЕЛОВОЙ РАЙОН дважды, чтобы завершить это задание.
+With her dying scream, the teacher throws herself into the portal.##Her vicious master shows no mercy - you hear it devour her before the connection shuts.|С предсмертным криком учительница запрыгивает в портал.##Её злобный хозяин не проявляет милосердия - вы слышите, как он пожирает её, прежде чем связь обрывается.
+The confused children lie on the ground crying.#Thanks to you, however, they are safe.##[TRAGIC TALE OF THE THAUMATURGY TEACHER:#ENDING A]|Растерянные дети лежат на полу, рыдая.#Благодаря вам теперь они в безопасности.##(ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ:#КОНЦОВКА А)
+With her dying scream, the teacher throws herself into the portal - dragging the children with her. Her vicious master shows no mercy - you hear it devour them all before the connection shuts.|С предсмертным криком учительница запрыгивает в портал, забирая детей с собой.##Её злобный хозяин не проявляет милосердия - вы слышите, как он пожирает их всех, прежде чем связь обрывается.
+The children will no longer harm anyone... but their parents will weep for them.##[TRAGIC TALE OF THE THAUMATURGY TEACHER:#ENDING B]|Дети больше никому не навредят... Но их родители будут горевать.##(ТРАГИЧЕСКАЯ ТАЙНА УЧИТЕЛЯ ТАУМАТУРГИИ:#КОНЦОВКА Б)
+A - SAVED BY THE BELL|А - СПАСЁННЫЕ ЗВОНКОМ
+B - DIABOLICAL DETENTION|Б - ДЬЯВОЛЬСКАЯ ПРОДЛЁНКА

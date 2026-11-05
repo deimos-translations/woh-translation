@@ -171,6 +171,7 @@ def ghidra_import():
         shutil.rmtree(copy.parent)
     if "Save succeeded" not in text:  # an exited process is not enough
         sys.exit("Ghidra import did not save the project (see out/logs/ghidra-import.log)")
+    common.record_hashes(".exe", [(common.sha256(game / common.EXE), common.EXE)])  # the exe this disassembly is of
     pathlib.Path("ghidra/imported.ok").write_text("ok\n")
 
 

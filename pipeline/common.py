@@ -15,8 +15,9 @@ STEAM = (pathlib.Path(r"C:\Program Files (x86)\Steam\steamapps\common\WOH") if s
          else pathlib.Path.home() / ".local/share/Steam/steamapps/common/WOH")
 PATCH_SECTIONS = {b".ruloc", b".ruhook"}  # patch.py appends these to the exe
 LABEL_KEYS = ["DOOM", "STA", "REA", "ALL"]  # battle damage labels: logic keys that patch.py and make_targets treat specially
-SEPARATOR = "<#>"
+SEPARATOR = "|"
 _PRODUCED = BUILD / "produced.md5"
+HASHES = ROOT / "hashes.txt"  # tracked: <sha256><TAB><file name> lines for the exe and the translated sprites
 
 
 def md5(path):
@@ -25,6 +26,20 @@ def md5(path):
         for block in iter(lambda: file.read(1 << 20), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def sha256(path):
+    with open(path, "rb") as file:
+        return hashlib.file_digest(file, "sha256").hexdigest()
+
+
+def record_hashes(suffix, entries):
+    """Replace the hashes.txt lines whose file name ends with suffix by entries ((sha256, name) pairs); other lines stay."""
+    kept = []
+    if HASHES.exists():
+        kept = [line for line in HASHES.read_text(encoding="utf-8").splitlines() if line and not line.partition("\t")[2].endswith(suffix)]
+    lines = kept + [f"{digest}\t{name}" for digest, name in entries]
+    HASHES.write_text("".join(f"{line}\n" for line in sorted(lines, key=lambda line: line.partition("\t")[2])), encoding="utf-8", newline="\n")
 
 
 def game_dir(game=None):
