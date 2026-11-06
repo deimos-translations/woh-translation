@@ -297,9 +297,9 @@ No files found.|
 Divide by zero|
 Waiting for input|
 user signed in|
-Logging in...|
-Logging in... DONE\r\nImporting data...|
-Logging in... DONE\r\nImporting data... DONE\r\nLoading game...|
+Logging in...|Входим...
+Logging in... DONE\r\nImporting data...|Входим... ГОТОВО\r\nИмпортируем данные...
+Logging in... DONE\r\nImporting data... DONE\r\nLoading game...|Входим... ГОТОВО\r\nИмпортируем данные... ГОТОВО\r\nЗагружаем игру...
 Press V to switch between 1.22 and 1.25.|
 琴 and 氤|
 meme demon|

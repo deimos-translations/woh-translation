@@ -1,10 +1,10 @@
-"""Discover the anonymous runtime helpers of a YYC build statically, from the exe alone: `python -I resolve_helpers.py <exe> <funcmap.tsv> <symbols.json>`
+"""Находит анонимные вспомогательные функции времени выполнения сборки YYC статически, только по exe: `python -I resolve_helpers.py <exe> <funcmap.tsv> <symbols.json>`
 
-Nothing here is stored per build. Each helper is identified by what it is: a runtime error string it holds, its place among what other
-helpers call, or how often game code calls it. Every rule must give exactly the expected result, otherwise the run stops and names the
-helper: a wrong address would silently change the sprite report. If a rule stops after a GameMaker runtime upgrade, the rule needs changing.
+Ничего не сохраняется для каждой сборки. Каждая вспомогательная функция определяется по тому, чем она является: строке ошибки времени выполнения, которую она содержит, её месту среди того, что вызывают другие
+вспомогательные функции, или тому, как часто её вызывает код игры. Каждое правило должно давать ровно ожидаемый результат, иначе запуск останавливается и называет
+вспомогательную функцию: неверный адрес молча изменил бы отчёт о спрайтах. Если правило перестаёт работать после обновления среды выполнения GameMaker, правило нужно менять.
 
-Output keeps one symbol per line, which is what Symbols.java parses."""
+Вывод содержит один символ на строку — именно это разбирает Symbols.java."""
 import bisect
 import collections
 import json

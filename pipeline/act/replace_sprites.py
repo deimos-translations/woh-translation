@@ -1,14 +1,14 @@
-"""Replace sprite frames and font atlases in a data.win with PNGs from two folders, matched by name.
+"""Заменяет кадры спрайтов и атласы шрифтов в data.win на PNG из двух папок, сопоставляя по имени.
 
-Each frame PNG must be named <sprite>_<frame>.png (as written by `woh.py extract`). Files whose sprite or frame does not exist in the
-data.win are skipped with a message. Each frame PNG and each font PNG (named <font>.png) must have the size of the texture it replaces, otherwise the run fails.
+Каждый PNG кадра должен называться <sprite>_<frame>.png (как его записывает `woh.py extract`). Файлы, чьи спрайт или кадр отсутствуют в
+data.win, пропускаются с сообщением. Каждый PNG кадра должен быть дополненной ограничивающей рамкой заменяемого кадра (как при экспорте), а каждый PNG шрифта (с именем <font>.png) — размером заменяемого атласа; иначе запуск завершится ошибкой.
 
-Runs replace_sprites.csx through UndertaleModCli and saves the result to --out.
+Запускает replace_sprites.csx через UndertaleModCli и сохраняет результат в --out.
 
-Usage:
+Использование:
   python -I pipeline/act/replace_sprites.py [--images DIR] [--fonts DIR] [--data DATA.WIN] [--out OUT.WIN] [--utmt UndertaleModCli.exe]
 
---data defaults to the Steam install. --utmt falls back to the UTMT_CLI env var, then UndertaleModCli on PATH.
+--data по умолчанию указывает на установку Steam. --utmt берёт путь из переменной окружения UTMT_CLI, затем ищет UndertaleModCli в PATH.
 """
 
 import argparse
@@ -25,11 +25,11 @@ import common  # noqa: E402
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--images", type=Path, default=common.ROOT / "img" / "translation", help="folder of <sprite>_<frame>.png files")
-    parser.add_argument("--fonts", type=Path, default=common.ROOT / "font", help="folder of <font>.png atlases")
-    parser.add_argument("--data", type=Path, default=common.STEAM / common.DATA_WIN, help="data.win to read")
-    parser.add_argument("--out", type=Path, default=common.OUTPUT / common.DATA_WIN, help="modified data.win to write")
-    parser.add_argument("--utmt", default=os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli"), help="UndertaleModCli executable")
+    parser.add_argument("--images", type=Path, default=common.ROOT / "img" / "translation", help="папка файлов <sprite>_<frame>.png")
+    parser.add_argument("--fonts", type=Path, default=common.ROOT / "img" / "translation" / "font", help="папка атласов <font>.png")
+    parser.add_argument("--data", type=Path, default=common.STEAM / common.DATA_WIN, help="data.win для чтения")
+    parser.add_argument("--out", type=Path, default=common.OUTPUT / common.DATA_WIN, help="изменённый data.win для записи")
+    parser.add_argument("--utmt", default=os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli"), help="исполняемый файл UndertaleModCli")
     args = parser.parse_args()
 
     if not args.utmt:

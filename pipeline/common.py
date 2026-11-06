@@ -1,6 +1,8 @@
-"""What the pipeline scripts share: where the game is, the cache of one build, and the guard against using our own output as input."""
+"""Общее для скриптов конвейера: где находится игра, кэш одной сборки и защита от использования собственного вывода как входных данных."""
+import functools
 import hashlib
 import pathlib
+import re
 import struct
 import sys
 
@@ -20,6 +22,7 @@ _PRODUCED = BUILD / "produced.md5"
 HASHES = ROOT / "hashes.txt"  # tracked: <sha256><TAB><file name> lines for the exe and the translated sprites
 
 
+@functools.cache  # one process hashes the same game file several times (guard, cache key, ...)
 def md5(path):
     digest = hashlib.md5()
     with open(path, "rb") as file:
@@ -31,6 +34,23 @@ def md5(path):
 def sha256(path):
     with open(path, "rb") as file:
         return hashlib.file_digest(file, "sha256").hexdigest()
+
+
+def data_win_chunks(data):
+    """Offset of the contents of each chunk of a data.win, by its four-letter tag."""
+    chunks, position = {}, 8
+    while position < len(data):
+        chunks[data[position:position + 4].decode("latin1")] = position + 8
+        position += 8 + struct.unpack_from("<I", data, position + 4)[0]
+    return chunks
+
+
+UNESCAPES = {"\\\\": "\\", "\\r": "\r", "\\n": "\n", "\\t": "\t"}
+
+
+def unescape(text):
+    """Undo the `\\\\`, `\\r`, `\\n`, `\\t` escapes of the translation documents."""
+    return re.sub(r"\\[\\rnt]", lambda match: UNESCAPES[match.group()], text)
 
 
 def record_hashes(suffix, entries):

@@ -1,17 +1,17 @@
-"""Writes a World of Horror `save.ito` with every unlock set the way the game itself stores it.
+"""Записывает World of Horror `save.ito` со всеми разблокировками, установленными так, как их сохраняет сама игра.
 
-The save is the plain-text INI `%LOCALAPPDATA%\\wohgame\\save.ito` (scr_systemload -> scr_openini("save.ito") -> ini_read_*).
-Stored values (see pipeline/README.md, "Save file"):
-- [achievement]: every cell holds its own 4-digit code, written by endgame_check_achievements when a run ends ("yes" is only the in-run
-  marker; the unlock checks compare against the code). The save_codes stage generates that table, 121 "row,col" cells + the plain keys 1..26.
-- [pantheon]: 001..005 hold the codes endgame_check_pantheon writes.
-- [events], [enemies], [mysteries]: the game stores the string "yes".
-Everything else in an existing file ([options], [town], [city], [challenges], ...) is kept as it is.
+Сохранение — это простой текстовый INI `%LOCALAPPDATA%\\wohgame\\save.ito` (scr_systemload -> scr_openini("save.ito") -> ini_read_*).
+Сохраняемые значения (см. pipeline/README.md, "Save file"):
+- [achievement]: каждая ячейка хранит свой 4-значный код, который записывает endgame_check_achievements при завершении забега ("yes" — лишь
+  маркер текущего забега; проверки разблокировок сравнивают с кодом). Этап save_codes создаёт эту таблицу: 121 ячейка "row,col" + простые ключи 1..26.
+- [pantheon]: 001..005 хранят коды, которые записывает endgame_check_pantheon.
+- [events], [enemies], [mysteries]: игра хранит строку "yes".
+Всё остальное в существующем файле ([options], [town], [city], [challenges], ...) сохраняется как есть.
 
-    woh.py save [existing save.ito] <output file>
-    python -I pipeline/act/save_cheat.py <save_codes.json> <save_keys.json> [existing save.ito] <output file>
+    woh.py save [существующий save.ito] <выходной файл>
+    python -I pipeline/act/save_cheat.py <save_codes.json> <save_keys.json> [существующий save.ito] <выходной файл>
 
-The key lists come from the analysed build (the save_keys stage), except the [events] count: re-check it after a game update (pipeline/README.md, "Save file").
+Списки ключей берутся из проанализированной сборки (этап save_keys), кроме счётчика [events]: перепроверьте его после обновления игры (pipeline/README.md, "Save file").
 """
 import json
 import sys

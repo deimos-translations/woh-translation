@@ -1,6 +1,6 @@
-"""Native test of the real assembled hook against a fake built-in. Runs only this test code.
+"""Нативный тест реального собранного хука против фиктивной встроенной функции. Запускает только этот тестовый код.
 
-Usage: python -I pipeline/check/test_hook.py   (Windows only, clang on PATH; assembles the hook and its test double, runs them in executable memory)
+Использование: python -I pipeline/check/test_hook.py   (только Windows, clang в PATH; собирает хук и его тестовую подмену, запускает их в исполняемой памяти)
 """
 import ctypes
 import pathlib

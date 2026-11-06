@@ -1,8 +1,8 @@
-"""Tier C refinement: classify each C sprite by what receives its id-valued double constants.
-usage: python -I scripts/tierc_filter.py <sprite_usage.tsv> <consumers.tsv> <slots.tsv> <out.tsv>
-verdict: assigned  = a variable-set helper receives it (slot names listed)
-         unresolved = some constant has no found consumer (stored into an RValue/array element/static table)
-         coord     = every found consumer is arithmetic/compare (`+= -= *=`, compare, free)
+"""Уточнение Tier C: классифицирует каждый спрайт C по тому, что получает его двойные константы-идентификаторы.
+использование: python -I scripts/tierc_filter.py <sprite_usage.tsv> <consumers.tsv> <slots.tsv> <out.tsv>
+verdict: assigned  = вспомогательная функция установки переменной получает его (перечислены имена слотов)
+         unresolved = у некоторой константы нет найденного потребителя (сохранена в RValue/элемент массива/статическую таблицу)
+         coord     = каждый найденный потребитель — арифметика/сравнение (`+= -= *=`, compare, free)
 """
 import json, sys, collections
 

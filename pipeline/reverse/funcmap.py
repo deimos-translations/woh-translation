@@ -1,6 +1,6 @@
-"""Function VA -> GML name: `python -I funcmap.py <exe> <out.tsv>`
-The runtime reads a table in .data of (name pointer, function, data pointer) triples, 24 bytes each; the name is a `gml_Object_<obj>_<Event>_<n>` or
-`gml_Script_<name>` string in .rdata. We find every qword that points at such a string and take the qword right after it as the function."""
+"""VA функции -> имя GML: `python -I funcmap.py <exe> <out.tsv>`
+Среда выполнения читает таблицу в .data из троек (указатель на имя, функция, указатель на данные) по 24 байта каждая; имя — строка `gml_Object_<obj>_<Event>_<n>` или
+`gml_Script_<name>` в .rdata. Мы находим каждое qword, которое указывает на такую строку, и берём qword сразу после него как функцию."""
 import re, struct, sys
 
 exe, out = sys.argv[1:3]

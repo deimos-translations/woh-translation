@@ -1,25 +1,26 @@
-"""World of Horror translation pipeline: reverse engineer the installed build, generate the artifacts, do the action.
+# /// script
+# dependencies = ["pillow"]
+# ///
+"""Конвейер перевода World of Horror: обратная инженерия установленной сборки, создание артефактов, выполнение действий.
 
-    python -I woh.py [--game DIR] [--force STAGE,STAGE] <command> [arguments]
+    uv run woh.py [--game DIR] [--force STAGE,STAGE] <команда> [аргументы]
 
-Commands (each one runs whatever it needs that is not built yet):
-    install [--exe]         build text and sprites and copy them into the game folder (--exe: also the patched exe)
-    all                     the complete install tree in output/: exe, text, sprites
-    exe [--literal]         patched worldofhorror.exe (--literal: also repoint the exe's own copies of texts no code compares)
-    text                    translated language files
-    sprites                 data.win with the translated frames and fonts
-    sync                    refresh the tracked translation documents from the game (the only command that writes tracked files)
-    report                  which sprites and frames are used, and translation_audit.tsv
-    extract                 every sprite frame into img/source/, fonts into the cache
-    ocr                     text found in the extracted frames
-    save [IN] OUT           a save with everything unlocked
-    check                   dimension test, plus the native hook tests on Windows
-    list                    every stage, grouped: re (reverse engineering), gen (artifacts), act (actions)
+Команды (каждая запускает всё, что ей нужно и что ещё не собрано):
+    build [--no-exe] [--no-text] [--no-sprites] [--no-hashes] [--literal]
+                            полная сборка в output/: language/engLanguage/*.jn, data.win, worldofhorror.exe; hashes.txt; каждый --no-* пропускает эту часть
+                            (--literal: также перенаправить собственные копии текстов exe, которые код не сравнивает)
+    sync                   обновить отслеживаемые документы перевода из игры (единственная команда, которая пишет в отслеживаемые файлы)
+    report                 какие спрайты и кадры используются, и translation_audit.tsv
+    extract                каждый кадр спрайта в img/source/, шрифты в кэш
+    ocr                    текст, найденный в извлечённых кадрах
+    save [IN] OUT          сохранение со всеми разблокировками
+    check                  тест размеров, а также нативные тесты хука в Windows
+    list                   все этапы по группам: re (обратная инженерия), gen (артефакты), act (действия)
 
-Game files default to the Steam install; --game DIR is for another Steam library. Everything derived from them is kept in
-build/<exe md5:8>-<data md5:8>/, so artifacts always belong to the installed build. Stages whose outputs exist are skipped.
-Tools come from the environment: GHIDRA_HEADLESS (analyzeHeadless), WOH_GHIDRA_JAVA (JAVA_HOME for Ghidra), UTMT_CLI (UndertaleModCli).
-Clang and uv are taken from PATH.
+Файлы игры по умолчанию берутся из установки Steam; --game DIR нужен для другой библиотеки Steam. Всё, что из них производится, хранится в
+build/<exe md5:8>-<data md5:8>/, поэтому артефакты всегда относятся к установленной сборке. Этапы, чьи выходные данные уже есть, пропускаются.
+Инструменты берутся из окружения: GHIDRA_HEADLESS (analyzeHeadless), WOH_GHIDRA_JAVA (JAVA_HOME для Ghidra), UTMT_CLI (UndertaleModCli).
+Clang и uv берутся из PATH.
 """
 import argparse
 import json
@@ -35,7 +36,7 @@ ROOT = pathlib.Path(__file__).resolve().parent
 PIPELINE = ROOT / "pipeline"
 sys.path.insert(0, str(PIPELINE))
 sys.path.insert(0, str(PIPELINE / "reverse"))
-import common  # noqa: E402
+import common
 
 REVERSE, GENERATE, ACT, CHECK = (PIPELINE / name for name in ("reverse", "generate", "act", "check"))
 OUT = "out/sprites"
@@ -44,13 +45,42 @@ DEBUG_VARIABLES = ["debug", "god_debug"]  # assumed false; resolved to slot addr
 SPRITE_INDEX_VARIABLE = "sprite_index"
 DEBUG_ID_KINDS = {"nenm": "enemy", "evt": "event", "itm": "item", "upg": "perk", "stat": "status", "spl": "spell", "fol": "ally"}  # in output order
 SAVE_DECOMPILE_TIMEOUT = "1800"
+# The B of the "A/B" small-card label: the 22x22 box at (30, 162) of img/source/s_smallcard_24.png, '#' black, '.' white.
+SMALLCARD_X, SMALLCARD_Y, SMALLCARD_SIZE = 30, 162, 22
+SMALLCARD_BOX = (
+    "#....................#",
+    "...................##.",
+    "...###............###.",
+    "...###...........###..",
+    "..##.##.........###...",
+    "..##.##........###....",
+    "..#####.......###.....",
+    ".##...##.....###......",
+    ".##...##....###.......",
+    "...........###........",
+    "..........###.........",
+    ".........###..........",
+    "........###...........",
+    ".......###....######..",
+    "......###.....##...##.",
+    ".....###......##...##.",
+    "....###.......######..",
+    "...###........##...##.",
+    "..###.........##...##.",
+    ".###..........######..",
+    ".##...................",
+    "#....................#",
+)
+SMALLCARD_RECOLOR = ((19, 14), (20, 15), (20, 14), (19, 15))  # (x, y) inside the box: black becomes white
+_BLACK, _WHITE = (0, 0, 0, 255), (255, 255, 255, 255)
+SMALLCARD_ORIGINAL = bytes(channel for row in SMALLCARD_BOX for cell in row for channel in (_BLACK if cell == "#" else _WHITE))
 
 STAGES = {}  # name -> (group, outputs, needs, function), in definition order
 done = set()
 forced = set()
 game = None  # the game folder
 literal = False
-with_exe = False
+skipped = set()  # build parts left out by --no-exe, --no-text, --no-sprites
 command_args = []
 
 
@@ -70,7 +100,7 @@ def build(name):
     if name in done:
         return
     done.add(name)
-    group, outputs, needs, function = STAGES[name]
+    _group, outputs, needs, function = STAGES[name]
     for need in needs:
         build(need)
     if outputs and name not in forced and all(os.path.exists(path) and os.path.getsize(path) > 0 for path in outputs):
@@ -94,10 +124,8 @@ def build(name):
 def run_python(script, *args, stdout=None):
     command = [sys.executable, "-I", str(script), *map(str, args)]
     log_path = pathlib.Path("out/logs", pathlib.Path(script).name + ".log")
-    with open(log_path, "w", encoding="utf-8") as log:
-        target = open(stdout, "w", encoding="utf-8", newline="\n") if stdout else log
-        with target:
-            result = subprocess.run(command, stdout=target, stderr=log if stdout else subprocess.STDOUT, text=True)
+    with open(log_path, "w", encoding="utf-8") as log, (open(stdout, "w", encoding="utf-8", newline="\n") if stdout else log) as target:
+        result = subprocess.run(command, stdout=target, stderr=log if stdout else subprocess.STDOUT, text=True, check=False)
     if result.returncode:
         sys.exit(f"failed: {' '.join(command)} (see {log_path.resolve()})")
 
@@ -123,7 +151,7 @@ def ghidra_command(*args):
 def run_ghidra_logged(log_name, command):
     log_path = pathlib.Path("out/logs", log_name + ".log")
     with open(log_path, "w", encoding="utf-8") as log:
-        result = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, env=ghidra_env())
+        result = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, env=ghidra_env(), check=False)
     text = log_path.read_text(encoding="utf-8", errors="replace")
     if result.returncode or " error:" in text or "SCRIPT ERROR" in text or "The class could not be found" in text or "OutOfMemoryError" in text:
         sys.exit(f"Ghidra {log_name} failed (see {log_path.resolve()})")
@@ -148,11 +176,7 @@ def rows(path):
 def data_win_counts():
     with open(game / common.DATA_WIN, "rb") as file:
         data = file.read()
-    position, chunks = 8, {}
-    while position < len(data):
-        chunks[data[position:position + 4]] = position + 8
-        position += 8 + struct.unpack_from("<I", data, position + 4)[0]
-    return struct.unpack_from("<I", data, chunks[b"SPRT"])[0]
+    return struct.unpack_from("<I", data, common.data_win_chunks(data)["SPRT"])[0]
 
 
 # ---------------------------------------------------------------- step 1: reverse engineering
@@ -266,7 +290,9 @@ def config():
 
 @stage("scan-flow", "re", OUT + "/flow.tsv", needs=("ghidra-import", "config"))
 def scan_flow():
-    run_ghidra("Flow.java", OUT + "/flow.tsv", *json.load(open("out/sprite_config.json"))["debug_slots"])
+    with open("out/sprite_config.json") as file:
+        debug_slots = json.load(file)["debug_slots"]
+    run_ghidra("Flow.java", OUT + "/flow.tsv", *debug_slots)
 
 
 @stage("decomp-save", "re", "out/decomp/save.ok", needs=("ghidra-import", "funcmap"))
@@ -393,7 +419,6 @@ def extract_frames():
     os.makedirs("out/extract/fonts", exist_ok=True)
     env = dict(os.environ, WOH_OUT=os.path.abspath("out/extract"), WOH_SPRITES=str(frames_dir))
     subprocess.run([utmt(), "load", str(game / common.DATA_WIN), "-s", str(GENERATE / "export_woh.csx")], env=env, check=True, stdout=sys.stderr)
-    (frames_dir / ".build").write_text(CACHE.name + "\n")
 
 
 @stage("ocr-text", "gen", "out/ocr_text.txt", needs=("extract-frames",))
@@ -418,33 +443,29 @@ def text():
     run_shown(sys.executable, "-I", ACT / "woh_txt.py", "apply", "--source", game / common.LANGUAGE)
 
 
-@stage("sprites", "act")
+@stage("sprites", "act", needs=("sprite-images",))
 def sprites():
-    run_shown(sys.executable, "-I", ACT / "replace_sprites.py", "--data", game / common.DATA_WIN, "--utmt", utmt())
+    run_shown(sys.executable, "-I", ACT / "replace_sprites.py", "--images", os.path.abspath(os.path.join(OUT, "images")), "--data", game / common.DATA_WIN, "--utmt", utmt())
 
 
-@stage("all", "act", needs=("exe", "text", "sprites"))
-def build_all():
-    say(f"install tree: {common.OUTPUT}")
+@stage("hashes", "act", needs=("extract-frames",))
+def source_hashes():
+    """sha256 of each extracted frame in img/source that has a PNG of the same name in img/translation: the game's original pixels, tracked in hashes.txt."""
+    source = ROOT / "img" / "source"
+    wanted = sorted(path.name for path in (ROOT / "img" / "translation").glob("*.png"))
+    missing = [name for name in wanted if not (source / name).is_file()]
+    if missing:
+        sys.exit(f"not in img/source: {', '.join(missing)}")
+    common.record_hashes(".png", [(common.sha256(source / name), name) for name in wanted])
+    say(f"hashes.txt: {len(wanted)} sprites")
 
 
-def replace_file(source, destination):
-    """Copy, then swap in: a failed copy (full disk, game running) must not leave a damaged game file."""
-    partial = destination.with_name(destination.name + ".woh-partial")
-    shutil.copyfile(source, partial)
-    os.replace(partial, destination)
-
-
-@stage("install", "act", needs=("text", "sprites"))
-def install():
-    files = [(common.OUTPUT / common.DATA_WIN, game / common.DATA_WIN)]
-    files += [(path, game / common.LANGUAGE / path.name) for path in sorted((common.OUTPUT / common.LANGUAGE).glob("*.jn"))]
-    if with_exe:
-        build("exe")
-        files.append((common.OUTPUT / common.EXE, game / common.EXE))
-    for source, destination in files:
-        replace_file(source, destination)
-    say(f"installed {len(files)} files into {game}\nto build again, first restore the originals with Steam's \"Verify integrity of game files\"")
+@stage("build", "act")
+def build_output():
+    for part in ("exe", "text", "sprites", "hashes"):
+        if part not in skipped:
+            build(part)
+    say(f"output: {common.OUTPUT}")
 
 
 @stage("sync", "act", needs=("targets",))
@@ -455,7 +476,8 @@ def sync():
 
 @stage("report", "act", needs=("audit", "debug-ids"))
 def report():
-    say("".join(open("out/sprite_report.md", encoding="utf-8").readlines()[4:11]))
+    with open("out/sprite_report.md", encoding="utf-8") as file:
+        say("".join(file.readlines()[4:11]))
     say(f"reports: {CACHE / 'out'}")
 
 
@@ -469,10 +491,64 @@ def ocr():
     say(f"OCR text: {CACHE / 'out' / 'ocr_text.txt'}")
 
 
+def smallcard_recoloured(path):
+    """The image at path as RGBA with the small-card B recoloured, or None when its box is not the original."""
+    from PIL import Image  # Pillow, declared in the script header
+
+    box = (SMALLCARD_X, SMALLCARD_Y, SMALLCARD_X + SMALLCARD_SIZE, SMALLCARD_Y + SMALLCARD_SIZE)
+    with Image.open(path) as image:
+        if image.crop(box).convert("RGBA").tobytes() != SMALLCARD_ORIGINAL:
+            return None
+        rgba = image.convert("RGBA")
+    for x, y in SMALLCARD_RECOLOR:
+        rgba.putpixel((SMALLCARD_X + x, SMALLCARD_Y + y), _WHITE)
+    return rgba
+
+
+def psd_to_png(source, destination):
+    """Dump the PSD's composite, the flattened picture Photoshop stores with the file, as RGBA PNG."""
+    from PIL import Image  # Pillow, declared in the script header
+
+    with Image.open(source) as psd:
+        psd.convert("RGBA").save(destination)
+
+
+@stage("sprite-images", "act", needs=("extract-frames",))
+def sprite_images():
+    """The PNGs that sprites writes into data.win, in out/sprites/images: every img/translation PNG, and each img/source frame without a translation.
+    Each PSD in img/translation is dumped to a PNG of the same name in img/translation, and that PNG is used. A frame whose small-card box is still the original gets the B recoloured, except frames with a PSD in img/translation. Nothing else in the img folders is changed."""
+    translation = ROOT / "img" / "translation"
+    source = ROOT / "img" / "source"
+    images = pathlib.Path(OUT, "images")
+    shutil.rmtree(images, ignore_errors=True)
+    images.mkdir(parents=True)
+    psds = sorted(translation.glob("*.psd"))
+    for psd in psds:
+        psd_to_png(psd, translation / (psd.stem + ".png"))
+    dumped = {psd.stem + ".png" for psd in psds}
+    translated, recoloured = set(), 0
+    for path in sorted(translation.glob("*.png")):
+        translated.add(path.name)
+        patched = None if path.name in dumped else smallcard_recoloured(path)
+        if patched is None:
+            shutil.copyfile(path, images / path.name)
+        else:
+            patched.save(images / path.name)
+            recoloured += 1
+    for path in sorted(source.glob("*.png")):
+        if path.name in translated:
+            continue
+        patched = smallcard_recoloured(path)
+        if patched is not None:
+            patched.save(images / path.name)
+            recoloured += 1
+    say(f"sprite images: {len(translated)} from img/translation ({len(psds)} dumped from PSD), {recoloured} small cards recoloured")
+
+
 @stage("save", "act", needs=("save-codes", "save-keys"))
 def save():
     if len(command_args) not in (1, 2):
-        sys.exit("usage: woh.py save [existing save.ito] <output file>")
+        sys.exit("использование: woh.py save [существующий save.ito] <выходной файл>")
     run_shown(sys.executable, "-I", ACT / "save_cheat.py", "out/save_codes.json", "out/save_keys.json", *command_args)
 
 
@@ -480,24 +556,28 @@ def save():
 def check():
     run_shown("uv", "run", CHECK / "test_translation_dimensions.py")
     run_shown(sys.executable, "-I", CHECK / "test_hook.py")
+    run_shown(sys.executable, "-I", CHECK / "test_outputs.py")
     patched = common.OUTPUT / common.EXE
     if patched.exists():
         run_shown(sys.executable, "-I", CHECK / "image_check.py", patched)
         run_shown(sys.executable, "-I", CHECK / "check_patched.py", patched, common.TRANSLATION / "exe_strings.txt", "out/draw_hooks.tsv", "out/hook.json")
 
 
-COMMANDS = ["install", "all", "exe", "text", "sprites", "sync", "report", "extract", "ocr", "save", "check"]
+COMMANDS = ["build", "sync", "report", "extract", "ocr", "save", "check"]
 
 
 def main():
-    global game, literal, with_exe, command_args, CACHE
+    global game, literal, skipped, command_args, CACHE
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--game", help="game folder (default: the Steam install)")
-    parser.add_argument("--force", default="", help="comma-separated stages to run again even if their outputs exist")
-    parser.add_argument("--literal", action="store_true", help="with exe: also repoint the exe's own copies of texts no code compares")
-    parser.add_argument("--exe", action="store_true", help="with install: also install the patched exe, which has not been tested in the game")
+    parser.add_argument("--game", help="папка игры (по умолчанию установка Steam)")
+    parser.add_argument("--force", default="", help="этапы через запятую, которые нужно запустить заново, даже если их выходные данные есть")
+    parser.add_argument("--literal", action="store_true", help="с build: также перенаправить собственные копии текстов exe, которые код не сравнивает")
+    parser.add_argument("--no-exe", action="store_true", help="с build: не включать пропатченный worldofhorror.exe")
+    parser.add_argument("--no-text", action="store_true", help="с build: не включать файлы языка")
+    parser.add_argument("--no-sprites", action="store_true", help="с build: не включать data.win")
+    parser.add_argument("--no-hashes", action="store_true", help="с build: не включать hashes.txt")
     parser.add_argument("command", choices=COMMANDS + ["list"])
-    parser.add_argument("args", nargs="*", help="with save: [existing save.ito] <output file>")
+    parser.add_argument("args", nargs="*", help="с save: [существующий save.ito] <выходной файл>")
     arguments = parser.parse_args()
 
     if arguments.command == "list":
@@ -508,7 +588,8 @@ def main():
     unknown = forced - STAGES.keys()
     if unknown:
         sys.exit(f"unknown stage(s): {', '.join(sorted(unknown))}")
-    literal, with_exe, command_args = arguments.literal, arguments.exe, [os.path.abspath(arg) for arg in arguments.args]
+    literal, command_args = arguments.literal, [os.path.abspath(arg) for arg in arguments.args]
+    skipped = {part for part, flag in (("exe", arguments.no_exe), ("text", arguments.no_text), ("sprites", arguments.no_sprites), ("hashes", arguments.no_hashes)) if flag}
 
     game = common.game_dir(arguments.game).resolve()
     common.require_pristine_game(game)

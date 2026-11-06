@@ -1,14 +1,14 @@
-"""Build targets.tsv (every code-referenced copy of every translatable string) for the analysed build.
+"""Строит targets.tsv (каждую копию каждой переводимой строки, на которую ссылается код) для проанализированной сборки.
 
-Usage: python -I pipeline/generate/make_targets.py <pool_strings.tsv> <exe_strings.txt> <patch_sites.tsv> <targets.tsv>
+Использование: python -I pipeline/generate/make_targets.py <pool_strings.tsv> <exe_strings.txt> <patch_sites.tsv> <targets.tsv>
 
-pool_strings.tsv comes from ExportPoolStrings.java: every address of the game's string pool that code references, with the text found
-there. Only referenced addresses are copies that matter, and a referenced address is a copy even when no NUL precedes it (it follows
-binary data) or when it points into a longer literal. A byte scan finds neither case reliably.
+pool_strings.tsv создаёт ExportPoolStrings.java: каждый адрес пула строк игры, на который ссылается код, с текстом, найденным там.
+Важны только адреса, на которые есть ссылки; адрес со ссылкой считается копией, даже если перед ним нет NUL (он идёт после
+двоичных данных) или если он указывает внутрь более длинного литерала. Побайтовый поиск надёжно не находит ни один из этих случаев.
 
-Translatable texts are: the sources in the translation document, plus every short ALL-CAPS token (`PREP`, `S.ATK`, `MAGIC`, ...) and
-quoted ALL-CAPS name (`'HAPPY LEMON'`), except the damage-type keys and label strings that patch.py handles itself. Output lines:
-`<hex VA>\t<escaped text>`, with `\\`, CR, LF and TAB written as `\\\\`, `\\r`, `\\n`, `\\t`. Texts with no code reference are reported.
+Переводимые тексты: источники из документа перевода, плюс каждый короткий токен из заглавных букв (`PREP`, `S.ATK`, `MAGIC`, ...) и
+имя из заглавных букв в кавычках (`'HAPPY LEMON'`), кроме ключей типов урона и строк подписей, которыми patch.py занимается сам. Строки вывода:
+`<hex VA>\t<escaped text>`, где `\\`, CR, LF и TAB записываются как `\\\\`, `\\r`, `\\n`, `\\t`. Тексты без ссылок в коде сообщаются.
 """
 import collections
 import pathlib
@@ -16,17 +16,11 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # -I does not add the script directory
-from common import LABEL_KEYS, SEPARATOR  # noqa: E402
-
-UNESCAPES = {"\\\\": "\\", "\\r": "\r", "\\n": "\n", "\\t": "\t"}
+from common import LABEL_KEYS, SEPARATOR, unescape
 
 
 def escape(text):
     return "".join({"\\": "\\\\", "\r": "\\r", "\n": "\\n", "\t": "\\t"}.get(char, char) for char in text)
-
-
-def unescape(text):
-    return re.sub(r"\\[\\rnt]", lambda match: UNESCAPES[match.group()], text)
 
 
 def is_label_like(text):
@@ -41,18 +35,20 @@ def label_literals(patch_sites_path):
 
 def main(pool_path, document_path, patch_sites_path, targets_path):
     pool = []  # (VA, text) in address order
-    for line in open(pool_path, encoding="utf-8", newline=""):
-        va, text, _count = line.rstrip("\n").split("\t")
-        pool.append((va, unescape(text)))
+    with open(pool_path, encoding="utf-8", newline="") as file:
+        for line in file:
+            va, text, _count = line.rstrip("\n").split("\t")
+            pool.append((va, unescape(text)))
 
     excluded = set(LABEL_KEYS) | label_literals(patch_sites_path)
     wanted = {}  # insertion-ordered set: the document's order is the order of earlier target lists
     document = pathlib.Path(document_path)
     if document.exists():
-        for line in open(document, encoding="utf-8", newline=""):
-            text = unescape(line.rstrip("\r\n").partition(SEPARATOR)[0])
-            if text not in excluded:
-                wanted[text] = None
+        with open(document, encoding="utf-8", newline="") as file:
+            for line in file:
+                text = unescape(line.rstrip("\r\n").partition(SEPARATOR)[0])
+                if text not in excluded:
+                    wanted[text] = None
 
     added = []
     for _va, text in pool:
@@ -72,7 +68,7 @@ def main(pool_path, document_path, patch_sites_path, targets_path):
     missing = [text for text in wanted if not copies[text]]
     print(f"{len(wanted) - len(missing)} texts with code-referenced copies, {len(lines)} copies, {len(added)} added by the ALL-CAPS rule")
     for text in missing:
-        print(f"  no code reference (dropped): {text!a}")
+        print(f"  no code reference: {text!a}")
 
 
 if __name__ == "__main__":

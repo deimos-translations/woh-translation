@@ -1,5 +1,5 @@
-"""Replace builtin-id slots in decompiled .c files with names: `python -I slotnames.py <exe> <file.c>...` (writes <file>.named.c).
-A builtin call is FUN_1420df500(self,other,&ret,argc,CONCAT44(x,DAT_slot),args); the slot's name pointer sits 8 bytes BEFORE it."""
+"""Заменяет слоты id встроенных функций в декомпилированных .c файлах на имена: `python -I slotnames.py <exe> <file.c>...` (записывает <file>.named.c).
+Вызов встроенной функции: FUN_1420df500(self,other,&ret,argc,CONCAT44(x,DAT_slot),args); указатель на имя слота находится на 8 байт ДО него."""
 import re, struct, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import slotstrings

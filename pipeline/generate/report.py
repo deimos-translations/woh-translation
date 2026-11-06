@@ -1,20 +1,23 @@
-"""Final classification of every sprite and frame: `report.py <data.win>`, run by woh.py from the build's cache directory.
+"""Итоговая классификация каждого спрайта и кадра: `report.py <data.win>`, запускается woh.py из папки кэша сборки.
 
-  USED    drawn by code that surely runs: a constant-id draw in strictly reachable code, a draw through a variable found by flow analysis, or the default
-          sprite of an object that surely exists and is drawn by the engine / draws sprite_index.
-  WEAK    drawn only by code that runs if weakly-evidenced objects exist (`@moderate`: ids in tables / family neighbours; `@loose`: objects nothing
-          visibly creates) or by the default sprite of such an object.
-  MAYBE   indirect evidence only: a constant stored in a sprite variable with no draw read found, a constant whose consumer could not be resolved, the
-          default sprite of an object whose Draw event draws other sprites (leans unused), ids that collide with numbers. The `note` says which way it leans.
-  UNUSED  no use found: no reference, only arithmetic / coordinate uses, or the default sprite of an object nothing creates.
-Frames: a sprite drawn only with constant sub-images has exact frames (frames never drawn are UNUSED, frames drawn only in weaker code are at most WEAK);
-a sprite with a variable sub-image or another route (object default, sprite variable) keeps its class for every frame, basis `dynamic` (it is used, which
-frame shows is decided at run time).
-Outputs: out/sprite_report.tsv, out/sprite_frame_report.tsv, out/sprite_report.md."""
+  USED    отрисовывается кодом, который наверняка выполняется: отрисовка с константным id в строго достижимом коде, отрисовка через переменную, найденную анализом потока, или
+          спрайт по умолчанию объекта, который наверняка существует и рисуется движком / рисует sprite_index.
+  WEAK    отрисовывается только кодом, который выполняется, если существуют слабо подтверждённые объекты (`@moderate`: id в таблицах / соседи семейства; `@loose`: объекты, которые ничто
+          видимо не создаёт), или спрайтом по умолчанию такого объекта.
+  MAYBE   только косвенные признаки: константа, сохранённая в спрайтовую переменную, для которой не найдено чтение при отрисовке; константа, потребитель которой не удалось определить; спрайт по умолчанию
+          объекта, чьё событие Draw рисует другие спрайты (склоняется к неиспользуемому); id, совпадающие с числами. `note` говорит, в какую сторону он склоняется.
+  UNUSED  использование не найдено: нет ссылок, только арифметические / координатные использования, или спрайт по умолчанию объекта, который ничто не создаёт.
+Кадры: спрайт, отрисованный только с константными подизображениями, имеет точные кадры (кадры, которые никогда не рисовались, — UNUSED; кадры, рисованные только в более слабом коде, — не выше WEAK);
+спрайт с переменным подизображением или другим путём (спрайт по умолчанию объекта, спрайтовая переменная) сохраняет свой класс для каждого кадра, основание `dynamic` (он используется, а какой кадр показан, решается во время выполнения).
+Выходные файлы: out/sprite_report.tsv, out/sprite_frame_report.tsv, out/sprite_report.md."""
 import collections
+import pathlib
 import re
 import struct
 import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # -I does not add the script directory
+import common
 
 SMALL_ID = 40  # ids below this collide with plain numbers
 ORDER = ['USED', 'WEAK', 'MAYBE', 'UNUSED']
@@ -28,12 +31,8 @@ def rows(path):
     return list(tsv(path))[1:]
 
 
-d = open(sys.argv[1], 'rb').read()
-chunks = {}
-pos = 8
-while pos < len(d):
-    chunks[d[pos:pos + 4].decode('latin1')] = pos + 8
-    pos += 8 + struct.unpack_from('<I', d, pos + 4)[0]
+d = pathlib.Path(sys.argv[1]).read_bytes()
+chunks = common.data_win_chunks(d)
 n_sprites = struct.unpack_from('<I', d, chunks['SPRT'])[0]
 frame_count = [struct.unpack_from('<I', d, struct.unpack_from('<I', d, chunks['SPRT'] + 4 + 4 * i)[0] + 84)[0] for i in range(n_sprites)]
 
@@ -54,7 +53,7 @@ def classify(sid, verdict):
         strong = evidence in ('room', 'const')
         if mode in ('auto', 'self-own', 'self-inherit'):
             how = 'the engine draws it' if mode == 'auto' else 'its Draw event draws sprite_index'
-            return ('USED' if strong else 'WEAK'), 'default sprite of an object %s; %s' % ('placed or created by reachable code' if strong else 'that exists only weakly (%s)' % evidence, how)
+            return ('USED' if strong else 'WEAK'), 'default sprite of an object {}; {}'.format('placed or created by reachable code' if strong else f'that exists only weakly ({evidence})', how)
         if mode == 'hidden':
             return 'MAYBE', 'default sprite of an invisible object; leans unused'
         return 'MAYBE', 'default sprite of an object whose Draw event draws other sprites; leans unused'
@@ -92,7 +91,7 @@ for sid in sorted(final):
         if used_all == 'dynamic' or fr[7]:
             summary = 'dynamic'
         else:
-            summary = 'constant: frames %s drawn, %s never drawn' % (used_all, fr[9])
+            summary = f'constant: frames {used_all} drawn, {fr[9]} never drawn'
     sprite_rows.append((sid, name, cls, verdict, n, summary, note))
     for f in range(n):
         fcls, fnote, basis = cls, note, 'single' if n == 1 else 'n/a'
@@ -108,17 +107,15 @@ for sid in sorted(final):
                     if fcls == 'USED':
                         fcls, fnote = 'WEAK', 'frame drawn only in code that is not strictly reachable'
                 else:
-                    fcls, fnote = 'UNUSED', 'frame never drawn (the sprite is only drawn at frames %s)' % fr[6]
+                    fcls, fnote = 'UNUSED', f'frame never drawn (the sprite is only drawn at frames {fr[6]})'
         frame_rows.append((sid, name, f, fcls, basis, verdict, fnote))
 
 with open('out/sprite_report.tsv', 'w', encoding='utf-8', newline='\n') as out:
     out.write('id\tname\tclass\tverdict\tframes\tframe_use\tnote\n')
-    for r in sprite_rows:
-        out.write('\t'.join(map(str, r)) + '\n')
+    out.writelines('\t'.join(map(str, r)) + '\n' for r in sprite_rows)
 with open('out/sprite_frame_report.tsv', 'w', encoding='utf-8', newline='\n') as out:
     out.write('id\tname\tframe\tclass\tbasis\tverdict\tnote\n')
-    for r in frame_rows:
-        out.write('\t'.join(map(str, r)) + '\n')
+    out.writelines('\t'.join(map(str, r)) + '\n' for r in frame_rows)
 
 by_class = collections.defaultdict(list)
 for r in sprite_rows:
@@ -129,19 +126,20 @@ with open('out/sprite_report.md', 'w', encoding='utf-8', newline='\n') as md:
     md.write('# Sprite usage report\n\nGenerated by `woh.py report`. Debug mode is assumed off (`debug`, `god_debug` = false).\n\n')
     md.write('| class | sprites | frames |\n|---|---|---|\n')
     for cls in ORDER:
-        md.write('| %s | %d | %d |\n' % (cls, len(by_class[cls]), frame_tally[cls]))
-    md.write('| total | %d | %d |\n\n' % (len(sprite_rows), len(frame_rows)))
-    md.write('Frames with basis `dynamic` (the sprite is used, the frame is chosen at run time): %s.\n\n' % ', '.join('%s %d' % (c, dynamic_frames[c]) for c in ORDER))
+        md.write(f'| {cls} | {len(by_class[cls])} | {frame_tally[cls]} |\n')
+    md.write(f'| total | {len(sprite_rows)} | {len(frame_rows)} |\n\n')
+    dynamic_text = ', '.join(f'{c} {dynamic_frames[c]}' for c in ORDER)
+    md.write(f'Frames with basis `dynamic` (the sprite is used, the frame is chosen at run time): {dynamic_text}.\n\n')
     for cls in ('UNUSED', 'MAYBE', 'WEAK'):
-        md.write('## %s (%d sprites)\n\n' % (cls, len(by_class[cls])))
+        md.write(f'## {cls} ({len(by_class[cls])} sprites)\n\n')
         groups = collections.defaultdict(list)
         for r in by_class[cls]:
-            groups[r[6]].append(r[1] + (' (%d frames)' % r[4] if r[4] > 1 else ''))
+            groups[r[6]].append(r[1] + (f' ({r[4]} frames)' if r[4] > 1 else ''))
         for note, names in sorted(groups.items(), key=lambda kv: -len(kv[1])):
-            md.write('- **%s** (%d): %s\n' % (note, len(names), ', '.join(names)))
+            md.write(f"- **{note}** ({len(names)}): {', '.join(names)}\n")
         md.write('\n')
     part = [r for r in sprite_rows if r[5].startswith('constant') and not r[5].endswith(' never drawn') and r[2] in ('USED', 'WEAK')]
     md.write('## Sprites drawn only at constant frames (frames never drawn are UNUSED)\n\n')
     for r in part:
-        md.write('- %s [%s]: %s\n' % (r[1], r[2], r[5]))
+        md.write(f'- {r[1]} [{r[2]}]: {r[5]}\n')
 print({c: (len(by_class[c]), frame_tally[c]) for c in ORDER})

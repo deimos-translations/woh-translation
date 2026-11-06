@@ -6,7 +6,7 @@ running the patched game unless stated. Addresses quoted in these notes are exam
 
 ## The pipeline
 
-`python -I woh.py <command>` (`woh.py --help` lists them) does three things, in order and only as needed:
+`uv run woh.py <command>` (`woh.py --help` lists them; the script header declares Pillow) does three things, in order and only as needed:
 
 1. **Reverse engineer** (`pipeline/reverse/`): headless Ghidra imports the installed exe, then scripts find patch sites, draw hooks,
    strings and the scans the sprite analysis reads. Variable slots and runtime helpers are found without Ghidra, directly from the exe.
@@ -17,11 +17,11 @@ Game files are read from the Steam install (`--game DIR` for another library). D
 `build/<exe md5:8>-<data md5:8>/`, so a game update simply starts a new cache. Stages whose outputs exist are skipped; `--force STAGE`
 reruns one, and is needed after editing a script, since script changes do not invalidate outputs. Actions always run.
 
-`woh.py sync` writes the tracked translation files: `translation/language/*.txt` and `translation/exe_strings.txt`. Run it after a game update.
-`woh.py ghidra-import` rewrites the exe's line in `hashes.txt` each time the exe is disassembled. `pipeline/act/hash_images.py` writes the sprite lines for the PNGs in `img/translation` (the sprites that need translating); run it after a game update.
+`woh.py sync` writes the tracked translation files: `translation/*.txt` and `translation/exe_strings.txt`. Run it after a game update.
+`woh.py ghidra-import` rewrites the exe's line in `hashes.txt` each time the exe is disassembled. `woh.py build` writes the sprite lines of `hashes.txt`: the sha256 of each extracted frame in `img/source` that has a PNG of the same name in `img/translation` (`--no-hashes` skips it).
 
-**Installing the translation into the game folder:** `woh.py install` builds the language files and `data.win` (translated frames and
-font atlases) and copies them in; `--exe` adds the patched exe, which has never been run in the game. Files this pipeline wrote are recorded in `build/produced.md5` and refused as
+**Building the translation:** `woh.py build` writes the language files, the patched exe and `data.win` (translated frames and font atlases) to `output/`
+and does not touch the game folder; copy them in yourself. The patched exe has never been run in the game. Files this pipeline wrote are recorded in `build/produced.md5` and refused as
 input, as is any exe with our sections. To build again after installing, run Steam's "Verify integrity of game files".
 
 ### Setup
@@ -82,7 +82,7 @@ producers and `newcombat_penalty` disagree (probable cause of broken battles aft
 
 ## Patching (statically verified, NOT run in the game)
 
-`woh.py exe` (reads the generated `patch_sites.tsv`; output goes to `output/`, the input is never overwritten):
+`woh.py build` (reads the generated `patch_sites.tsv`; output goes to `output/`, the input is never overwritten):
 1. NOPs the three `lang == 7` guards so the label block runs for every language.
 2. Repoints the label loads at UTF-8 text in a new `.ruloc` section. The text comes from the first four lines of `translation/exe_strings.txt`
    (`DOOM`, `STA`, `REA`, `ALL`). An empty entry keeps its English key as the label; if all four are empty the guards and loads are

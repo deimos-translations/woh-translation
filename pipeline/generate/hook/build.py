@@ -1,9 +1,9 @@
-"""Assemble hook.s into <out dir>/hook.bin + hook.json (needs clang on PATH; woh.py runs this into the build's cache).
+"""Собирает hook.s в <out dir>/hook.bin + hook.json (нужен clang в PATH; woh.py запускает это в кэш сборки).
 
-Usage: python -I pipeline/generate/hook/build.py <out dir>
+Использование: python -I pipeline/generate/hook/build.py <out dir>
 
-hook.bin is the raw `.text` of the object. Its relocations are REL32s against the table that patch.py places in `.ruloc`; patch.py
-resolves them. hook.json: { "size": N, "symbols": {global name: offset in hook.bin}, "relocations": [{"offset": o, "symbol": name}] }.
+hook.bin — это сырой `.text` объекта. Его перемещения — REL32 относительно таблицы, которую patch.py размещает в `.ruloc`; patch.py
+их разрешает. hook.json: { "size": N, "symbols": {глобальное имя: смещение в hook.bin}, "relocations": [{"offset": o, "symbol": name}] }.
 """
 import json
 import pathlib

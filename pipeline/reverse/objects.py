@@ -1,7 +1,7 @@
-"""Object census from data.win: `python -I objects.py <data.win> <out.tsv>`
-cols: id, name, sprite_name, parent_id (-100 = none), room_instances (count over all rooms), visible, draw_own (Draw events), draw_eff (own or inherited).
-OBJT entry words: name, sprite, visible, solid, depth, persistent, uses-physics, parent, texture mask, physics block..., vertex count at word 17, then
-friction/awake/kinematic and the vertices, then the event lists (15 types; type 8 = Draw). An object without a Draw event draws its sprite itself."""
+"""Перепись объектов из data.win: `python -I objects.py <data.win> <out.tsv>`
+колонки: id, name, sprite_name, parent_id (-100 = нет), room_instances (количество по всем комнатам), visible, draw_own (события Draw), draw_eff (свои или унаследованные).
+Слова записи OBJT: name, sprite, visible, solid, depth, persistent, uses-physics, parent, texture mask, блок физики..., количество вершин в слове 17, затем
+friction/awake/kinematic и вершины, затем списки событий (15 типов; тип 8 = Draw). Объект без события Draw рисует свой спрайт сам."""
 import collections, struct, sys
 
 data_win, out = sys.argv[1:3]

@@ -1,9 +1,9 @@
-"""Constants assigned to sprite-valued variables, per sprite.
-usage: python -I sprite_vars.py <sprite_usage.tsv> <slots.tsv> <lval.tsv> <setsites.tsv> <elem.tsv> <out.tsv>
-Sources: lval.tsv (LvalStores.java: in-place writes through the lvalue getter), setsites.tsv (SetSites.java: set helpers) and elem.tsv
-(ElemStores.java: constants stored into an accessor-returned RValue, e.g. `quest_image[i] = n`; the root variable is a best-effort backward scan).
-SPRITE_VARS is a name-based judgement (the variable reads at computed draw sites plus names that say "image/art/icon"); the value alone is
-ambiguous below ~40 because small integers collide with counters, so every hit stays a hint, not proof.
+"""Константы, присвоенные спрайтовым переменным, по каждому спрайту.
+использование: python -I sprite_vars.py <sprite_usage.tsv> <slots.tsv> <lval.tsv> <setsites.tsv> <elem.tsv> <out.tsv>
+Источники: lval.tsv (LvalStores.java: записи на месте через геттер lvalue), setsites.tsv (SetSites.java: вспомогательные функции установки) и elem.tsv
+(ElemStores.java: константы, сохранённые в RValue, который возвращает аксессор, например `quest_image[i] = n`; корневая переменная находится обратным проходом с приближением).
+SPRITE_VARS — суждение по именам (чтения переменных в вычисляемых местах отрисовки плюс имена, содержащие "image/art/icon"); само по себе значение
+неоднозначно ниже ~40, потому что малые целые совпадают со счётчиками, поэтому каждое совпадение остаётся подсказкой, а не доказательством.
 """
 import sys, collections
 

@@ -8,23 +8,23 @@
 
 ```sh
 # Linux
-UTMT_CLI=/путь/к/UndertaleModCli python3 -I woh.py install
+UTMT_CLI=/путь/к/UndertaleModCli python3 -I woh.py build
 ```
 
 ```powershell
 # Windows
 $env:UTMT_CLI = "C:\путь\к\UndertaleModCli.exe"
-python -I woh.py install
+python -I woh.py build
 ```
 
-Скрипт соберёт файлы локализации и новый `data.win` с переведёнными картинками и шрифтами, а затем скопирует их в папку игры.
+Скрипт соберёт файлы локализации, пропатченный `worldofhorror.exe` и новый `data.win` с переведёнными картинками и шрифтами в папку `output/`. Папку игры он не меняет: скопируйте `output/language/engLanguage/*.jn` в `language/engLanguage/`, а `data.win` и `worldofhorror.exe` в корень папки игры.
 
 Игра ищется в стандартной папке Steam:
 
 - Windows: `C:\Program Files (x86)\Steam\steamapps\common\WOH`
 - Linux: `~/.local/share/Steam/steamapps/common/WOH`
 
-Если игра установлена в другую библиотеку Steam, укажите её папку: `woh.py --game "ПАПКА" install`.
+Если игра установлена в другую библиотеку Steam, укажите её папку: `woh.py --game "ПАПКА" build`.
 
 ### Как откатить или установить заново
 
@@ -34,9 +34,9 @@ python -I woh.py install
 
 ### Текст, зашитый в исполняемый файл
 
-Часть текста находится не в файлах локализации, а в самом `worldofhorror.exe`. Команда `woh.py install --exe` дополнительно устанавливает пропатченный exe.
+Часть текста находится не в файлах локализации, а в самом `worldofhorror.exe`. Команда `woh.py build` собирает и пропатченный exe.
 
-Эта возможность не проверялась в самой игре, поэтому по умолчанию выключена. Для неё также нужны [Ghidra](https://ghidra-sre.org/) (путь к `analyzeHeadless` в переменной `GHIDRA_HEADLESS`) и `clang`. Первый анализ игры занимает десятки минут, но его результат сохраняется.
+Эта возможность не проверялась в самой игре. Для неё также нужны [Ghidra](https://ghidra-sre.org/) (путь к `analyzeHeadless` в переменной `GHIDRA_HEADLESS`) и `clang`. Первый анализ игры занимает десятки минут, но его результат сохраняется.
 
 ## Команды
 
@@ -44,11 +44,12 @@ python -I woh.py install
 
 | Команда             | Что делает                                                               |
 | ------------------- | ------------------------------------------------------------------------ |
-| `install [--exe]`   | Собирает перевод и копирует его в папку игры                             |
-| `all`               | Собирает всё в папку `output/`, не трогая игру                           |
-| `text`              | Собирает файлы локализации                                               |
-| `sprites`           | Собирает `data.win` с переведёнными картинками и шрифтами                |
-| `exe [--literal]`   | Собирает пропатченный `worldofhorror.exe`                                |
+| `build`             | Собирает всё в папку `output/`, не трогая игру                           |
+| `build --no-exe`    | То же, но без пропатченного `worldofhorror.exe`                          |
+| `build --no-text`   | То же, но без файлов локализации                                         |
+| `build --no-sprites`| То же, но без `data.win`                                                 |
+| `build --no-hashes` | То же, но без записи хешей исходных кадров в `hashes.txt`                |
+| `build --literal`   | То же, и exe дополнительно заменяет тексты, которые код не сравнивает    |
 | `sync`              | Обновляет файлы перевода после обновления игры, сохраняя готовый перевод |
 | `report`            | Показывает, какие спрайты и кадры игра действительно использует          |
 | `extract`           | Извлекает все кадры в `img/source/`                                      |
@@ -64,12 +65,12 @@ python -I woh.py install
 | Путь                                             | Содержимое                                                                                                          |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | `woh.py`                                         | Точка входа: все команды запускаются через него                                                                     |
-| `translation/language/engLanguage/`              | Перевод игрового текста                                                                                             |
+| `translation/*.txt`                              | Перевод игрового текста                                                                                             |
 | `translation/exe_strings.txt`                    | Перевод текста из `worldofhorror.exe`                                                                               |
 | `translation/todo.txt`, `translation/unused.txt` | Какие картинки ещё нужно перевести и какие переведённые игра не использует                                          |
 | `translation/notes.md`                           | Заметки о переводе                                                                                                  |
 | `img/translation/`                               | Переведённые картинки, `.png` и исходники `.psd`. Их можно открыть в любом подходящем приложении (Photoshop, Krita) |
-| `font/`                                          | Отредактированные листы шрифтов `silver_big`, `silver_small` и `silver_vsmall`                                      |
+| `img/translation/font/`                          | Отредактированные листы шрифтов `silver_big`, `silver_small` и `silver_vsmall`                                      |
 | `pipeline/reverse/`                              | Шаг 1: анализ установленной версии игры                                                                             |
 | `pipeline/generate/`                             | Шаг 2: создание нужных для сборки файлов                                                                            |
 | `pipeline/act/`                                  | Шаг 3: сборка перевода, сохранений и картинок                                                                       |

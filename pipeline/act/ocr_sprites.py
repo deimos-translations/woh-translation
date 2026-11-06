@@ -1,12 +1,12 @@
 # /// script
 # dependencies = ["rapidocr-onnxruntime", "numpy", "pillow"]
 # ///
-"""OCR every extracted sprite frame and write the text found in each one.
+"""OCR каждого извлечённого кадра спрайта и запись найденного в нём текста.
 
-Output is tab-separated, one detected text per line: <frame file name> <TAB> <text>
+Вывод с разделителем-табуляцией, один найденный текст на строку: <имя файла кадра> <TAB> <текст>
 
-Usage:
-  uv run pipeline/act/ocr_sprites.py [--sprites DIR] [--out FILE]   (normally `woh.py ocr`)
+Использование:
+  uv run pipeline/act/ocr_sprites.py [--sprites DIR] [--out FILE]   (обычно `woh.py ocr`)
 """
 
 import argparse
@@ -40,8 +40,8 @@ def prep(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--sprites", type=Path, default=ROOT / "img" / "source", help="directory of extracted PNG frames")
-    parser.add_argument("--out", type=Path, default=ROOT / "output" / "ocr_text.txt", help="output text file")
+    parser.add_argument("--sprites", type=Path, default=ROOT / "img" / "source", help="папка извлечённых PNG-кадров")
+    parser.add_argument("--out", type=Path, default=ROOT / "output" / "ocr_text.txt", help="выходной текстовый файл")
     args = parser.parse_args()
 
     frames = sorted(args.sprites.glob("*.png"))

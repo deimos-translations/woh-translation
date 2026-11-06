@@ -1,4 +1,4 @@
-"""The translation table the hook reads (layout documented in hook.s) and the 16-byte stubs that enter it."""
+"""Таблица перевода, которую читает хук (раскладка описана в hook.s), и 16-байтовые заглушки, которые в неё входят."""
 import struct
 
 FNV_OFFSET, FNV_PRIME = 0x811C9DC5, 0x01000193

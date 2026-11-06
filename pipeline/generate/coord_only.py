@@ -1,8 +1,8 @@
-"""C sprites whose id-valued constants only ever go into coordinate variables: run by woh.py from the build's cache directory
-A small id such as 207 collides with a y position. A variable is a coordinate variable when a sprite draw takes it as its x (XMM3) or y ([rsp+0x20])
-argument (flow.tsv `D` rows, fields x3 / s20) -- `x`, `y`, `bya`, `bxa`, `tyy`, `char_x`, ... If every live store of the constant (Flow `W` rows and
-ElemStores `elem.tsv`) goes into such variables, the sprite has no sprite-valued use: out/sprite_coordonly.tsv (id, name, tier, stores, variables).
-sprite_final.py reads it and turns C-unresolved / C-assigned-weak / C-assigned into C-coord for those sprites."""
+"""Спрайты C, чьи константы-идентификаторы попадают только в координатные переменные: запускается woh.py из папки кэша сборки.
+Малый id, например 207, совпадает с позицией y. Переменная является координатной, когда вызов отрисовки спрайта принимает её как аргумент x (XMM3) или y ([rsp+0x20])
+(строки `D` flow.tsv, поля x3 / s20) -- `x`, `y`, `bya`, `bxa`, `tyy`, `char_x`, ... Если каждое живое сохранение константы (строки Flow `W` и
+ElemStores `elem.tsv`) идёт в такие переменные, у спрайта нет использования как значения спрайта: out/sprite_coordonly.tsv (id, name, tier, stores, variables).
+sprite_final.py читает его и превращает C-unresolved / C-assigned-weak / C-assigned в C-coord для этих спрайтов."""
 import collections
 
 

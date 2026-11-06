@@ -1,8 +1,8 @@
-"""The save keys the unlocks need, from the exe: `python -I save_keys.py <exe> <funcmap.tsv> <ini_calls.txt> <save_keys.json>`
+"""Ключи сохранения, нужные разблокировкам, из exe: `python -I save_keys.py <exe> <funcmap.tsv> <ini_calls.txt> <save_keys.json>`
 
-ini_calls.txt is inicalls.py on scr_systemsave, whose ini_write_string calls name every key of these sections (the [events] keys are built
-in a loop, so save_cheat.py keeps their count). The pantheon codes are the 6-digit string literals of endgame_check_pantheon, in order:
-pantheon 001..005."""
+ini_calls.txt — это вывод inicalls.py для scr_systemsave, чьи вызовы ini_write_string называют каждый ключ этих разделов (ключи [events] создаются
+в цикле, поэтому save_cheat.py хранит их количество). Коды пантеона — 6-значные строковые литералы endgame_check_pantheon по порядку:
+пантеон 001..005."""
 import json
 import pathlib
 import re

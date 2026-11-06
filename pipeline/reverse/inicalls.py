@@ -1,6 +1,5 @@
-"""List builtin calls (ini_read_*/ini_write_*) in a function with their literal arguments, from raw code (no decompiler).
-`python -I inicalls.py <exe> <funcVA hex> [builtin names...]`. Arguments = the last N `lea rdx,[literal-slot]` before each call; reals show as the
-double loaded by `mov rax,imm64`/`movsd`-free constants are not tracked (printed as '#')."""
+"""Список вызовов встроенных функций (ini_read_*/ini_write_*) в функции с их литеральными аргументами, из сырого кода (без декомпилятора).
+`python -I inicalls.py <exe> <funcVA hex> [имена встроенных функций...]`. Аргументы = последние N `lea rdx,[literal-slot]` перед каждым вызовом; вещественные числа показываются как double, загруженный через `mov rax,imm64`/`movsd`; константы без `movsd` не отслеживаются (выводятся как '#')."""
 import re, struct, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import slotstrings

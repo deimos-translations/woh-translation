@@ -1,22 +1,22 @@
-"""Reachability of the code that draws each sprite: run by woh.py from the build's cache directory, inputs are the out/ tables.
+"""Достижимость кода, который рисует каждый спрайт: запускается woh.py из папки кэша сборки, входные данные — таблицы out/.
 
-A draw call only counts if the function around it can run, and an object only counts if something that can run creates it.
-  roots   events of objects that can exist (plus the events of their ancestors: inheritance / event_inherited), room code, the startup initializers
+Вызов отрисовки учитывается, только если функция вокруг него может выполниться, а объект учитывается, только если его создаёт что-то выполнимое.
+  roots   события объектов, которые могут существовать (плюс события их предков: наследование / event_inherited), код комнат, стартовые инициализаторы
           gml_GlobalScript_*
-  edges   direct calls (flow.tsv `C`), and every read of the variable slot named X by a function: a script X is called through the global variable X
-          that gml_GlobalScript_X binds to the body gml_Script_X (flow.tsv `R`)
-Object liveness, by how sure we are that the object can exist:
-  strict    placed in a room, or created with a literal id by a function that is itself reachable (fixpoint: reachability needs live objects,
-            live objects need reachable creators)
-  moderate  also objects whose id appears as a constant (call argument or stored value) in a function that is reachable at that level (id tables;
-            fixpoint again; collisions with plain numbers are possible)
-  loose     every object
-Family propagation (moderate): an object whose neighbours in id order and name prefix are live counts as creatable (ids built as base + n).
-Debug mode is assumed off (`debug`, `god_debug` read as 0): Flow.java decides the branches that test them, drops the call edges, draws, writes,
-creation sites and reads inside the blocks that become unreachable, and the event handler that sets the flag is not a root.
-A sprite's `reach` is the lowest level at which a function holding one of its constant-id draw calls is reachable (none = only in code that cannot run).
-Not modelled: conditions (`if (debug)`), calls through variables/methods other than script names, `event_perform` into objects of another kind,
-variable-id creation (101 sites) -- those are why `moderate` exists.
+  edges   прямые вызовы (flow.tsv `C`) и каждое чтение функцией слота переменной с именем X: скрипт X вызывается через глобальную переменную X,
+          которую gml_GlobalScript_X связывает с телом gml_Script_X (flow.tsv `R`)
+Живучесть объекта, по тому, насколько мы уверены, что объект может существовать:
+  strict    размещён в комнате или создан с литеральным id функцией, которая сама достижима (неподвижная точка: достижимость требует живых объектов,
+            живые объекты требуют достижимых создателей)
+  moderate  также объекты, чей id встречается как константа (аргумент вызова или сохранённое значение) в функции, достижимой на этом уровне (таблицы id;
+            снова неподвижная точка; возможны совпадения с обычными числами)
+  loose     каждый объект
+Распространение по семействам (moderate): объект, соседи которого по порядку id и префиксу имени живы, считается создаваемым (id строятся как base + n).
+Режим отладки считается выключенным (`debug`, `god_debug` читаются как 0): Flow.java решает, какие ветки их проверяют, отбрасывает рёбра вызовов, отрисовки, записи,
+места создания и чтения внутри блоков, которые становятся недостижимыми, а обработчик события, который устанавливает флаг, не является корнем.
+`reach` спрайта — самый низкий уровень, на котором достижима функция, содержащая один из его вызовов отрисовки с константным id (none = только в коде, который не может выполниться).
+Не моделируется: условия (`if (debug)`), вызовы через переменные/методы, кроме имён скриптов, `event_perform` в объекты другого вида,
+создание с id из переменной (101 место) — поэтому и существует `moderate`.
 Outputs: out/func_reach.tsv (func, name, level), out/objects_alive.tsv (id, name, sprite, evidence, level), out/sprite_reach.tsv (id, name, reach, draw functions, reachable at strict, example owner)."""
 import collections
 import json
@@ -34,7 +34,8 @@ slot_name = dict(tsv('out/sprites/slots.tsv'))
 
 # --- call graph, draw sites ---
 script_by_name = {n[len('gml_Script_'):]: fn for fn, n in names.items() if n.startswith('gml_Script_')}
-DEBUG_SLOTS = set(json.load(open('out/sprite_config.json'))['debug_slots'])  # `debug`, `god_debug` slot VAs (woh.py resolves them by name): assumed false; Flow.java was run with them
+with open('out/sprite_config.json') as file:
+    DEBUG_SLOTS = set(json.load(file)['debug_slots'])  # `debug`, `god_debug` slot VAs (woh.py resolves them by name): assumed false; Flow.java was run with them
 
 
 def live(r):
@@ -65,10 +66,16 @@ for r in flow_rows:
 # --- object creation sites (functions) ---
 placed = {i for i, o in enumerate(objs) if int(o[4])}
 create_funcs = collections.defaultdict(set)
+id_funcs = collections.defaultdict(set)  # object index -> functions holding its id as a constant (call argument or stored value)
 for r in tsv('out/sprites/scriptcalls.tsv'):
+    if r[0] in dead_sites:
+        continue
     a = r[4].split(',')
-    if len(a) == 3 and a[2].startswith('c:') and r[0] not in dead_sites:
+    if len(a) == 3 and a[2].startswith('c:'):
         create_funcs[int(float(a[2][2:]))].add(r[1])
+    for x in a:
+        if x.startswith('c:'):
+            id_funcs[int(float(x[2:]))].add(r[1])
 for r in tsv('out/sprites/bcalls.tsv'):
     if r[0] in dead_sites:
         continue
@@ -79,15 +86,9 @@ for r in tsv('out/sprites/bcalls.tsv'):
         a = r[4].split(',')
         if len(a) == 4 and a[3].startswith('c:'):
             create_funcs[int(float(a[3][2:]))].add(r[1])
-id_funcs = collections.defaultdict(set)  # object index -> functions holding its id as a constant (call argument or stored value)
-for r in tsv('out/sprites/scriptcalls.tsv'):
-    for a in r[4].split(','):
-        if a.startswith('c:') and r[0] not in dead_sites:
-            id_funcs[int(float(a[2:]))].add(r[1])
-for r in tsv('out/sprites/bcalls.tsv'):
-    for a in r[4].split(','):
-        if a.startswith('c:') and r[0] not in dead_sites:
-            id_funcs[int(float(a[2:]))].add(r[1])
+    for x in r[4].split(','):
+        if x.startswith('c:'):
+            id_funcs[int(float(x[2:]))].add(r[1])
 for r in flow_rows:
     if r[0] == 'W' and live(r):
         for c in r[4].split(','):
@@ -197,7 +198,7 @@ with open('out/objects_alive.tsv', 'w', encoding='utf-8', newline='\n') as f:
         else:
             ev = 'none'
         level = 'strict' if i in strict_alive else 'moderate' if i in moderate_alive else 'loose'
-        f.write('%d\t%s\t%s\t%s\t%s\n' % (i, o[1], o[2], ev, level))
+        f.write(f"{i}\t{o[1]}\t{o[2]}\t{ev}\t{level}\n")
 
 with open('out/func_reach.tsv', 'w', encoding='utf-8', newline='\n') as f:
     f.write('func' + chr(9) + 'name' + chr(9) + 'level' + chr(10))
@@ -217,5 +218,5 @@ with open('out/sprite_reach.tsv', 'w', encoding='utf-8', newline='\n') as f:
             continue
         level = next((label for label, s in sets if fs & s), 'none')
         tally[level] += 1
-        f.write('%d\t%s\t%s\t%d\t%d\t%s\n' % (sid, r[1], level, len(fs), len(fs & sets[0][1]), names.get(sorted(fs)[0], sorted(fs)[0])))
+        f.write(f"{sid}\t{r[1]}\t{level}\t{len(fs)}\t{len(fs & sets[0][1])}\t{names.get(min(fs), min(fs))}\n")
 print(dict(tally))

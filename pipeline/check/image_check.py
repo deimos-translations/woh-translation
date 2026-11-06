@@ -1,6 +1,6 @@
-"""Ask the Windows loader whether files are valid PE images, without executing them (SEC_IMAGE mapping).
+"""Спрашивает загрузчик Windows, являются ли файлы корректными PE-образами, не выполняя их (отображение SEC_IMAGE).
 
-Usage: python -I pipeline/check/image_check.py <exe> [<exe> ...]   (error 193 = malformed image)
+Использование: python -I pipeline/check/image_check.py <exe> [<exe> ...]   (ошибка 193 = повреждённый образ)
 """
 import ctypes
 import sys

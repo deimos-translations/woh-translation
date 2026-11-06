@@ -1,6 +1,6 @@
-"""Slot -> literal map from the startup initializers: `lea rcx,[slot]; lea rdx,[lit]; call 1420d8090` (either lea order).
-`python -I slotstrings.py <exe> <out.tsv> [call-target-VA]`; the target is auto-detected (most common call target of that pattern) when omitted.
-Also usable as a module (load())."""
+"""Карта слот -> литерал из стартовых инициализаторов: `lea rcx,[slot]; lea rdx,[lit]; call 1420d8090` (любой порядок lea).
+`python -I slotstrings.py <exe> <out.tsv> [VA цели вызова]`; цель определяется автоматически (самая частая цель вызова этого шаблона), если не указана.
+Также можно использовать как модуль (load())."""
 import re, struct, sys
 BASE = 0x140000000
 def load(path, target=None, literal_addresses=False):

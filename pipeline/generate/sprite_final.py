@@ -1,20 +1,20 @@
-"""Final per-sprite verdict: run by woh.py from the build's cache directory, inputs are the out/ tables.
+"""Итоговый вердикт по каждому спрайту: запускается woh.py из папки кэша сборки, входные данные — таблицы out/.
 
-Object liveness and reach come from reach.py (out/objects_alive.tsv, out/sprite_reach.tsv): an object is live when it is placed in a room or created
-with a literal id by a reachable function (const), its id is a constant in a reachable function (idconst, weak), or a same-family neighbour is live (family: ids are base + n); `@moderate` / `@loose` on a
-verdict means every function with a constant-id draw call of that sprite is only reachable if such weakly-evidenced / evidence-free objects exist.
-Draw mode of an object: hidden (`visible` off) | auto (no Draw event in the object or its parents, the engine draws the sprite) | self-own /
-self-inherit (the Draw event that applies, own or the parent's, draws sprite_index or calls draw_self, directly or in a callee up to 3 levels) |
-other-own / other-inherit (it has a Draw event that does not).
+Живучесть объектов и достижимость берутся из reach.py (out/objects_alive.tsv, out/sprite_reach.tsv): объект живой, когда он размещён в комнате или создан
+с литеральным id достижимой функцией (const), его id — константа в достижимой функции (idconst, weak), или живой сосед того же семейства (family: id — base + n); `@moderate` / `@loose` у вердикта
+означает, что каждая функция с вызовом отрисовки этого спрайта с константным id достижима, только если существуют такие объекты со слабыми или без доказательств.
+Режим отрисовки объекта: hidden (`visible` выключен) | auto (нет события Draw у объекта или его предков, движок рисует спрайт) | self-own /
+self-inherit (применимое событие Draw, своё или родительское, рисует sprite_index или вызывает draw_self, напрямую или в вызываемой функции до 3 уровней) |
+other-own / other-inherit (у него есть событие Draw, которое этого не делает).
 
-Sprite verdict:
-  A / A-flow          drawn: literal id, or a draw whose id is a double constant (Flow.java)
-  <tier>+drawn        a draw reads a variable that holds it (flow_solve.py)
-  B-<evidence>-<mode> default sprite of a created object, with the draw mode of its best object
-  B-none, B-none+var  default sprite of an object nothing creates (+var: also assigned to a sprite variable)
-  C-assigned          constant stored into a specific sprite variable        C-assigned-weak  only into image/text_art-like variables
-  C-coord             only arithmetic/compare                                 C-unresolved / C-noconst
-  D                   no reference at all"""
+Вердикт спрайта:
+  A / A-flow          рисуется: литеральный id или отрисовка, чей id — double-константа (Flow.java)
+  <tier>+drawn        отрисовка читает переменную, которая его содержит (flow_solve.py)
+  B-<evidence>-<mode> спрайт по умолчанию созданного объекта, с режимом отрисовки его лучшего объекта
+  B-none, B-none+var  спрайт по умолчанию объекта, который ничто не создаёт (+var: также присвоен спрайтовой переменной)
+  C-assigned          константа, сохранённая в конкретную спрайтовую переменную        C-assigned-weak  только в переменные, похожие на image/text_art
+  C-coord             только арифметика/сравнение                                      C-unresolved / C-noconst
+  D                   нет ссылок вообще"""
 import collections
 import json
 import re
@@ -29,7 +29,8 @@ def tsv(path):
 
 
 objs = rows('out/objects.tsv')
-slots = dict(l.rstrip('\n').split('\t') for l in open('out/sprites/slots.tsv'))
+with open('out/sprites/slots.tsv') as file:
+    slots = dict(l.rstrip('\n').split('\t') for l in file)
 
 # --- object liveness (reach.py: evidence room | const | idconst | const-unreachable | idconst-unreachable | none) ---
 ev = collections.defaultdict(set)
@@ -40,7 +41,8 @@ rank = {'room': 0, 'const': 1, 'idconst': 2, 'const-weak': 3, 'family': 4, 'cons
 reach_of = {int(r[0]): r[2] for r in list(tsv('out/sprite_reach.tsv'))[1:]}
 
 # --- which Draw events draw the instance's own sprite ---
-CONFIG = json.load(open('out/sprite_config.json'))  # build-specific addresses, resolved by woh.py
+with open('out/sprite_config.json') as file:
+    CONFIG = json.load(file)  # build-specific addresses, resolved by woh.py
 SPRITE_INDEX = CONFIG['sprite_index']
 si_funcs = set()  # functions that draw `sprite_index` or call the instance-based native (draw_self)
 calls = collections.defaultdict(set)
@@ -100,8 +102,9 @@ for i, o in enumerate(objs):
         top = min(ev[i], key=rank.get)
         if rank[top] < rank.get(best[o[2]], 9):
             best[o[2]] = top
-        if mode_rank[draw_mode(i)] < mode_rank[mode[o[2]]]:
-            mode[o[2]] = draw_mode(i)
+        this_mode = draw_mode(i)
+        if mode_rank[this_mode] < mode_rank[mode[o[2]]]:
+            mode[o[2]] = this_mode
 
 # --- variable evidence ---
 tierc = {int(r[0]): r for r in rows('out/sprite_tierc.tsv')}
@@ -150,5 +153,5 @@ with open('out/sprite_final.tsv', 'w', encoding='utf-8', newline='\n') as f:
         if reach_of.get(sid, 'strict') != 'strict':
             verdict += '@' + reach_of[sid]  # its constant-id draw calls only sit in code that is reachable at a weaker level
         tally[verdict] += 1
-        f.write('%d\t%s\t%s\t%s\n' % (sid, name, verdict, detail))
+        f.write(f"{sid}\t{name}\t{verdict}\t{detail}\n")
 print(dict(sorted(tally.items())))

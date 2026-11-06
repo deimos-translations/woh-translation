@@ -1,54 +1,45 @@
-"""Patch worldofhorror.exe so it shows translated text without changing any value the game logic uses.
+"""Патчит worldofhorror.exe, чтобы он показывал переведённый текст, не меняя ни одного значения, которое использует логика игры.
 
-Usage: python -I pipeline/act/patch.py [--game DIR] [--output EXE] [--strings FILE] [--literal]   (normally run by `woh.py exe`)
+Использование: python -I pipeline/act/patch.py [--game DIR] [--output EXE] [--strings FILE] [--literal]   (обычно запускается `woh.py build`)
 
-The input file is never modified. The tables it reads are generated for this exact build by woh.py, in the build's cache. Changes:
+Входной файл никогда не изменяется. Таблицы, которые он читает, создаёт woh.py для этой точной сборки, в кэше сборки. Изменения:
 
-1. Battle damage labels: the document entries `DOOM`, `STA`, `REA` and `ALL` set the text the combat draw events show for each
-   damage type (the logic literals of the same name are not touched). If any is translated, the `if (language == 7)` guard of the
-   label-substitution block in the three draw events is NOPed and the 12 startup loads feeding that block's label strings are
-   repointed (patch_sites.tsv); an empty entry keeps its English key as the label.
-2. Draw-time translation (default): every other non-empty `source|translation` line becomes an entry of a hash table. The 16
-   built-ins that draw or measure text (draw_text*, string_width*, string_height*; draw_hooks.tsv) are pointed at stubs that
-   replace the text argument by its translation for the duration of the call and put the original back afterwards, so the values
-   the game compares and stores are never changed. Only a string passed whole to one of those built-ins can be translated.
-3. `--literal` (optional): additionally repoints every code reference to the exe's own copies of the source text (refs.tsv), but only
-   for texts that no code compares (usage.tsv, class != logic). This also reaches text that is built or modified before drawing, at
-   the cost of the guarantee for those texts.
+1. Подписи урона в бою: записи документа `DOOM`, `STA`, `REA` и `ALL` задают текст, который показывают боевые события отрисовки для каждого
+   типа урона (логические литералы с теми же именами не трогаются). Если хотя бы одна переведена, охранное условие `if (language == 7)` блока подстановки подписей в трёх событиях отрисовки заменяется на NOP,
+   а 12 загрузок при запуске, которые подают строки подписей этого блока, перенаправляются (patch_sites.tsv); пустая запись оставляет английский ключ как подпись.
+2. Перевод во время отрисовки (по умолчанию): каждая другая непустая строка `source|translation` становится записью хеш-таблицы. 16
+   встроенных функций, которые рисуют или измеряют текст (draw_text*, string_width*, string_height*; draw_hooks.tsv), перенаправляются на заглушки, которые на время вызова заменяют текстовый аргумент его переводом и после вызова возвращают оригинал, поэтому значения,
+   которые сравнивает и сохраняет игра, никогда не меняются. Перевести можно только строку, переданную целиком одной из этих встроенных функций.
+3. `--literal` (необязательно): дополнительно перенаправляет каждую ссылку кода на собственные копии исходного текста exe (refs.tsv), но только
+   для текстов, которые никакой код не сравнивает (usage.tsv, class != logic). Это также затрагивает текст, который строится или изменяется до отрисовки, ценой гарантии для этих текстов.
 
-New text, the table and the hook live in two appended sections: `.ruloc` (read/write data) and `.ruhook` (code). Everything uses
-relative addresses; the hook's reference to the table is resolved here (hook.json). An unwind entry for the hook is appended to
-`.pdata`. Every original byte is verified before it is changed. If there is nothing to change, the output is an identical copy.
+Новый текст, таблица и хук находятся в двух добавленных секциях: `.ruloc` (данные для чтения и записи) и `.ruhook` (код). Всё использует
+относительные адреса; ссылка хука на таблицу разрешается здесь (hook.json). Запись unwind для хука добавляется в
+`.pdata`. Каждый исходный байт проверяется перед изменением. Если менять нечего, результат — идентичная копия.
 """
 import argparse
 import ast
 import json
 import pathlib
-import re
 import struct
 import sys
 from collections import Counter, defaultdict
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path[:0] = [str(HERE.parent), str(HERE.parent / "generate" / "hook")]  # -I does not add the script directory
-import common  # noqa: E402
-import table  # noqa: E402
-from common import LABEL_KEYS, SEPARATOR  # noqa: E402
+import common
+import table
+from common import LABEL_KEYS, SEPARATOR, unescape
 
 IMAGE_BASE = 0x140000000
 FILE_ALIGN = 0x200
 SECT_ALIGN = 0x1000
-UNESCAPES = {"\\\\": "\\", "\\r": "\r", "\\n": "\n", "\\t": "\t"}
 DATA_FLAGS, CODE_FLAGS = 0xC0000040, 0x60000020  # initialized data read/write; code execute/read
 UNWIND_ALLOC_0x48 = bytes([0x01, 0x04, 0x01, 0x00, 0x04, 0x82, 0x00, 0x00])  # prolog `sub rsp,0x48` (4 bytes), one code, padded
 
 
 def align(value, to):
     return (value + to - 1) // to * to
-
-
-def unescape(text):
-    return re.sub(r"\\[\\rnt]", lambda match: UNESCAPES[match.group()], text)
 
 
 class Pool:
@@ -71,24 +62,27 @@ class Pool:
 
 def read_translations(path):
     translations = {}
-    for number, line in enumerate(open(path, encoding="utf-8", newline="\n"), 1):
-        line = line.rstrip("\r\n")  # CRLF documents: control characters inside strings are escaped, so none is real
-        if not line:
-            continue
-        source, separator, translation = line.partition(SEPARATOR)
-        if not separator:
-            raise SystemExit(f"{path}:{number}: missing {SEPARATOR}")
-        if translation:
-            translations[unescape(source)] = unescape(translation)
+    with open(path, encoding="utf-8", newline="\n") as file:
+        for number, line in enumerate(file, 1):
+            line = line.rstrip("\r\n")  # CRLF documents: control characters inside strings are escaped, so none is real
+            if not line:
+                continue
+            source, separator, translation = line.partition(SEPARATOR)
+            if not separator:
+                raise SystemExit(f"{path}:{number}: missing {SEPARATOR}")
+            if translation:
+                translations[unescape(source)] = unescape(translation)
     return translations
 
 
 def read_tsv(path):
-    return [line.rstrip("\n").split("\t") for line in open(path, encoding="utf-8", newline="") if line.strip()]
+    with open(path, encoding="utf-8", newline="") as file:
+        return [line.rstrip("\n").split("\t") for line in file if line.strip()]
 
 
 def main(src, dst, tables, strings_path=None, literal=False):
-    data = bytearray(open(src, "rb").read())
+    """Write the patched exe to dst. Returns False when nothing changed (dst is then an identical copy of src)."""
+    data = bytearray(pathlib.Path(src).read_bytes())
 
     pe = struct.unpack_from("<I", data, 0x3C)[0]
     nsec = struct.unpack_from("<H", data, pe + 6)[0]
@@ -175,9 +169,9 @@ def main(src, dst, tables, strings_path=None, literal=False):
 
     if not pool.data:
         # a zero-size section makes the image invalid (loader error 193), so add none
-        open(dst, "wb").write(data)
+        pathlib.Path(dst).write_bytes(data)
         print(f"wrote {dst}: nothing to change, identical to the input")
-        return
+        return False
 
     last_end = max(rptr + rsize for _, _, _, rsize, rptr in sections)
     header_off = sec_table + 40 * nsec
@@ -242,19 +236,20 @@ def main(src, dst, tables, strings_path=None, literal=False):
     struct.pack_into("<H", data, pe + 6, nsec + new_sections)
     struct.pack_into("<I", data, opt + 56, size_of_image)
     data += body
-    open(dst, "wb").write(data)
+    pathlib.Path(dst).write_bytes(data)
     print(f"wrote {dst}: .ruloc at RVA {data_rva:#x} ({data_size} bytes)" + (f", .ruhook at RVA {code_rva:#x} ({len(code)} bytes)" if has_code else ""))
+    return True
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    parser.add_argument("--game", help="game folder (default: the Steam install)")
+    parser.add_argument("--game", help="папка игры (по умолчанию установка Steam)")
     parser.add_argument("--output", type=pathlib.Path, default=common.OUTPUT / common.EXE)
     parser.add_argument("--strings", type=pathlib.Path, default=common.TRANSLATION / "exe_strings.txt")
-    parser.add_argument("--literal", action="store_true", help="also repoint the exe's own copies of texts no code compares")
+    parser.add_argument("--literal", action="store_true", help="также перенаправить собственные копии текстов exe, которые код не сравнивает")
     arguments = parser.parse_args()
     game = common.game_dir(arguments.game)
     common.require_pristine_game(game)
     arguments.output.parent.mkdir(parents=True, exist_ok=True)
-    main(game / common.EXE, arguments.output, common.cache_dir(game) / "out", arguments.strings, arguments.literal)
-    common.record_produced(arguments.output)
+    if main(game / common.EXE, arguments.output, common.cache_dir(game) / "out", arguments.strings, arguments.literal):
+        common.record_produced(arguments.output)  # an identical copy is the original game file, not our output

@@ -1,6 +1,6 @@
-"""Which translation images are used? Run by woh.py from the build's cache directory, last.
-Maps every img/translation/*.png and every translation/todo.txt line (`img/source/<sprite>_<frame>.png`) to the frame classes of
-out/sprite_frame_report.tsv (USED / WEAK / MAYBE / UNUSED, see report.py) and writes out/translation_audit.tsv."""
+"""Какие изображения перевода используются? Запускается woh.py из папки кэша сборки последним.
+Сопоставляет каждый img/translation/*.png и каждую строку translation/todo.txt (`img/source/<sprite>_<frame>.png`) с классами кадров из
+out/sprite_frame_report.tsv (USED / WEAK / MAYBE / UNUSED, см. report.py) и записывает out/translation_audit.tsv."""
 import collections
 import os
 import pathlib

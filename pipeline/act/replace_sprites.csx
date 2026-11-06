@@ -32,7 +32,7 @@ foreach (string file in Directory.EnumerateFiles(inDir, "*.png").OrderBy(f => f,
         continue;
     }
 
-    sprite.Textures[frame] = new UndertaleSprite.TextureEntry { Texture = AddPage(file, sprite.Textures[frame]?.Texture) };
+    sprite.Textures[frame] = new UndertaleSprite.TextureEntry { Texture = AddPage(file, sprite.Textures[frame]?.Texture, true) };
     replaced++;
 }
 
@@ -45,23 +45,28 @@ foreach (string file in Directory.EnumerateFiles(fontDir, "*.png").OrderBy(f => 
     string name = Path.GetFileNameWithoutExtension(file);
     UndertaleFont font = Data.Fonts.ByName(name) ?? throw new InvalidOperationException($"No font {name} in data.win.");
     UndertaleTexturePageItem old = font.Texture;
-    font.Texture = AddPage(file, old);
+    font.Texture = AddPage(file, old, false);
     fonts++;
 }
 
 Console.WriteLine($"Replaced {fonts} fonts.");
 
 // A new page per image: the old atlas is shared with other assets, so it stays untouched.
-// Keeps the old item's placement and bounding box so the image lines up as before.
-// The image must be the size of the texture it replaces: a different size would not fit the old placement (for fonts, the glyph table).
-UndertaleTexturePageItem AddPage(string file, UndertaleTexturePageItem old)
+// Frames are exported padded (export_woh.csx: ExportAsPNG padded), so the PNG is the whole bounding box with the padding already in it:
+// it must be the bounding box and is placed at the origin. Fonts are exported unpadded: the image must be the old source size and keeps the old placement (the glyph table).
+UndertaleTexturePageItem AddPage(string file, UndertaleTexturePageItem old, bool padded)
 {
     using MagickImage image = TextureWorker.ReadBGRAImageFromFile(file);
     ushort width = (ushort)image.Width;
     ushort height = (ushort)image.Height;
-    if (old is not null && (width != old.SourceWidth || height != old.SourceHeight))
+    if (old is not null)
     {
-        throw new InvalidOperationException($"{Path.GetFileName(file)} is {width}x{height}, the texture it replaces is {old.SourceWidth}x{old.SourceHeight}.");
+        ushort expectedWidth = padded ? old.BoundingWidth : old.SourceWidth;
+        ushort expectedHeight = padded ? old.BoundingHeight : old.SourceHeight;
+        if (width != expectedWidth || height != expectedHeight)
+        {
+            throw new InvalidOperationException($"{Path.GetFileName(file)} is {width}x{height}, the texture it replaces is {expectedWidth}x{expectedHeight}.");
+        }
     }
 
     UndertaleEmbeddedTexture page = new();
@@ -75,8 +80,8 @@ UndertaleTexturePageItem AddPage(string file, UndertaleTexturePageItem old)
     item.SourceY = 0;
     item.SourceWidth = width;
     item.SourceHeight = height;
-    item.TargetX = old is null ? (ushort)0 : old.TargetX;
-    item.TargetY = old is null ? (ushort)0 : old.TargetY;
+    item.TargetX = old is null || padded ? (ushort)0 : old.TargetX;
+    item.TargetY = old is null || padded ? (ushort)0 : old.TargetY;
     item.TargetWidth = width;
     item.TargetHeight = height;
     item.BoundingWidth = old is null ? width : old.BoundingWidth;

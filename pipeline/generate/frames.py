@@ -1,32 +1,32 @@
-"""Which frames (sub-images) of each sprite does the game draw? `frames.py <data.win>`, run by woh.py from the build's cache directory
+"""Какие кадры (подизображения) каждого спрайта рисует игра? `frames.py <data.win>`, запускается woh.py из папки кэша сборки.
 
-Draw natives take (instance, sprite, sub-image, x, y, ...): the sub-image is the XMM2 argument (Flow.java `D` rows, field x2); the builtin-path
-draw_sprite_tiled(_ext) takes it as argument 1. A constant sub-image names one frame; a variable (image_index, a counter) or an unknown value means
-the sprite is animated or chosen at run time, i.e. any frame can show; -1 means "the instance's image_index", also dynamic.
-A sprite's used frames are only a proof when EVERY route to the screen is a constant-frame draw, so a sprite is `dynamic` as soon as it also
-  - is the default sprite of an object that can exist (the engine / draw_self / sprite_index animate it with image_speed),
-  - is assigned to a sprite variable (sprite_vars.py) or reached through a variable by a draw (flow_solve.py).
-Frames used are listed per reachability level (func_reach.tsv): `strict` counts only draws in code that surely runs.
-Output: out/sprite_frames.tsv (id, name, frames, fps_or_speed, level, used_strict, used_all, dynamic_reasons, unused_strict, unused_all)."""
+Нативные функции отрисовки принимают (instance, sprite, sub-image, x, y, ...): sub-image — аргумент XMM2 (строки `D` Flow.java, поле x2); путь через
+встроенную функцию draw_sprite_tiled(_ext) принимает его как аргумент 1. Константное sub-image называет один кадр; переменная (image_index, счётчик) или неизвестное значение означает,
+что спрайт анимирован или выбирается во время выполнения, то есть любой кадр может появиться; -1 означает "image_index экземпляра", тоже динамически.
+Использованные кадры спрайта являются доказательством, только если КАЖДЫЙ путь к экрану — отрисовка с константным кадром, поэтому спрайт помечается `dynamic`, как только он также
+  - является спрайтом по умолчанию объекта, который может существовать (движок / draw_self / sprite_index анимируют его через image_speed),
+  - присвоен спрайтовой переменной (sprite_vars.py) или достигается через переменную при отрисовке (flow_solve.py).
+Использованные кадры перечисляются по уровню достижимости (func_reach.tsv): `strict` учитывает только отрисовки в коде, который наверняка выполняется.
+Вывод: out/sprite_frames.tsv (id, name, frames, fps_or_speed, level, used_strict, used_all, dynamic_reasons, unused_strict, unused_all)."""
 import collections
 import math
+import pathlib
 import struct
 import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # -I does not add the script directory
+import common
 
 
 def tsv(path):
     return (l.rstrip('\n').split('\t') for l in open(path, encoding='utf-8'))
 
 
-d = open(sys.argv[1], 'rb').read()
-chunks = {}
-pos = 8
-while pos < len(d):
-    chunks[d[pos:pos + 4].decode('latin1')] = pos + 8
-    pos += 8 + struct.unpack_from('<I', d, pos + 4)[0]
+d = pathlib.Path(sys.argv[1]).read_bytes()
+chunks = common.data_win_chunks(d)
 sprt = chunks['SPRT']
 n_sprites = struct.unpack_from('<I', d, sprt)[0]
-ptrs = struct.unpack_from('<%dI' % n_sprites, d, sprt + 4)
+ptrs = struct.unpack_from(f'<{n_sprites}I', d, sprt + 4)
 frames = [struct.unpack_from('<I', d, q + 84)[0] for q in ptrs]  # word 21: frame count, then the TPAG pointers
 speed = [struct.unpack_from('<f', d, q + 68)[0] for q in ptrs]
 
@@ -42,7 +42,7 @@ sites = []  # (sprite id, function, frame number or None for dynamic)
 def frame_of(text):
     if text.startswith('k:'):
         value = float(text[2:])
-        return None if value < 0 else int(math.floor(value))
+        return None if value < 0 else math.floor(value)
     return None  # v:..., u, anything else
 
 
@@ -54,7 +54,7 @@ for r in tsv('out/sprites/flow.tsv'):
 for r in tsv('out/sprites/bcalls.tsv'):
     if slot_name.get(r[2], '').startswith('draw_sprite_tiled'):
         a = r[4].split(',')
-        if a and a[0].startswith('c:'):
+        if a and a[0].startswith('c:') and int(float(a[0][2:])) < n_sprites:
             sites.append((int(float(a[0][2:])), r[1], frame_of('k:' + a[1][2:]) if len(a) > 1 and a[1].startswith('c:') else None))
 
 # --- other routes that make the frame dynamic ---
@@ -104,5 +104,5 @@ with open('out/sprite_frames.tsv', 'w', encoding='utf-8', newline='\n') as out:
         elif frames[sid] > 1:
             summary['constant-frame multi-frame sprites'] += 1
             summary['unused frames (any level)'] += una
-        out.write('%d\t%s\t%d\t%.3g\t%s\t%s\t%s\t%s\t%s\t%s\n' % (sid, names[sid], frames[sid], speed[sid], best_level[sid], us, ua, ','.join(why), uns, una))
+        out.write(f"{sid}\t{names[sid]}\t{frames[sid]}\t{speed[sid]:.3g}\t{best_level[sid]}\t{us}\t{ua}\t{','.join(why)}\t{uns}\t{una}\n")
 print('constant-id draws of', len(site_count), 'sprites;', dict(summary))
