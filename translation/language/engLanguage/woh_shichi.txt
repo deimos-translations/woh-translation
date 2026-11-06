@@ -5,7 +5,7 @@ Some say the company has found a better wood source because the cost of getting 
 But that doesn’t explain why all the leaves on the trees around the camp turned crimson-red overnight. And the blood-curdling screams that could sometimes be heard at night…|Но это не объясняет, почему все листья на деревьях вокруг леса стали багрово-красными за ночь. И почему в ночном лесу иногда слышатся крики, от которых стынет кровь в жилах...
 OLD MONASTERY|СТАРЫЙ МОНАСТЫРЬ
 TERRIBLE TIMBER|ДРЕВО УЖАСА
-Investigate the SEASIDE location four times to complete this quest.|Исследуйте локацию ПОБЕРЕЖЬЕ трижды для завершения этого задания.
+Investigate the SEASIDE location four times to complete this quest.|Исследуйте локацию ПОБЕРЕЖЬЕ четырежды для завершения этого задания.
 In one of the company’s old warehouses, you discover that they left all their equipment behind.#(+ITEM)|В одном из старых складов компании, вы узнаёте, что они оставили всё своё снаряжение.#(+ПРЕДМЕТ)
 You decide to visit the library to find any information about the logging company.|Вы решаете посетить библиотеку, чтобы получить информацию о лесозаготовительной компании.
 Maybe there’s a valid reason they left SHIOKAWA?|Может, они покинули ШИОКАВУ по весомой причине?
