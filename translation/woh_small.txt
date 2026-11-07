@@ -1,0 +1,711 @@
+eng|eng
+[SHARP]|(ОСТРОЕ)
+[ONE-HANDED]|(ОДНОРУЧ)
+[DEX]|(ЛОВ)
+[BLUNT]|(ТУПОЕ)
+[TWO-HANDED]|(ДВУРУЧ)
+[FIREARM]|(ОГНЕСТРЕЛ)
+[FIRE]|(ОГОНЬ)
+[STR]|(СИЛ)
+[PER]|(ВОС)
+[KNW]|(ИНТ)
+[MAGIC]|(МАГИЯ)
+DAMAGE: |УРОН: 
+SPEED: |СКОРОСТЬ: 
+CHANCE TO HIT: |ШАНС ПОПАСТЬ: 
+--EQUIPMENT (SLOT A)--|--ЭКИПИРОВКА (СЛОТ А)--
+--EQUIPMENT (SLOT B)--|--ЭКИПИРОВКА (СЛОТ Б)--
+--TRINKET (SLOT C)--|--АКСЕССУАР (СЛОТ В)--
+STEAK KNIFE|НОЖ ДЛЯ МЯСА
+The sharpened edge can slice through the toughest cuts of meat. You can only hope that the red stains are from steak...|Острая кромка способна прорезать даже самое жёсткое мясо. Вам остаётся лишь надеяться, что эти пятна крови от стейков...
+You hold onto your STEAK KNIFE, preparing for combat.|Вы сжимаете НОЖ ДЛЯ МЯСА, готовясь к бою.
+weird red stains...|странные красные пятна...
+CAMERA|КАМЕРА
+1 KNOWLEDGE|+1 ИНТЕЛЛЕКТА
+High quality lens, ready in a flash. A solid choice with an ample supply of film.|Высококачественный объектив, мгновенная вспышка. Идеальный выбор, если у вас достаточно плёнки.
+You take a photo with flash, disorienting the enemy!|Вы делаете фото со вспышкой, дезориентируя врага!
+sturdy camera|прочная камера
+[TECHNOLOGY]|(ТЕХНОЛОГИЯ)
+[OFFENSIVE]|(АТАКА)
+[ACTION]|(ДЕЙСТВИЕ)
+--TECHNIQUE--|--ТЕХНИКА--
+STEEL PIPE|СТАЛЬНАЯ ТРУБА
+(use): adds a new action for later use in combat|(использовать): добавляет новое действие в бою
+Crude, but easy to use and powerful. You're unsure whether it's the rust you're smelling or the dried blood.|Грубое, но мощное и лёгкое в использовании оружие. Вы не уверены, исходит от неё запах ржавчины или крови.
+With great effort, you take a swing and bash the enemy with your STEEL PIPE!|С большим усилием вы замахиваетесь и ударяете врага СТАЛЬНОЙ ТРУБОЙ!
+a good sidearm|хорошее оружие
+NICE RING|МИЛОЕ КОЛЬЦО
+(equip): +1 CHARISMA#(use): gain 2 FUNDS|(экипировано): +1 ХАРИЗМЫ#(использовать): +2 СРЕДСТВ
+A fancy ring, turned up during an investigation. No weird markings, you could try to sell it.|Модное кольцо, обнаруженное в ходе расследования. На нём нет никаких необычных меток, и вы можете попытаться продать его.
+You've managed to sell the NICE RING. (+2 FUNDS)|Вам удалось продать МИЛОЕ КОЛЬЦО. (+2 СРЕДСТВ)
+fancy|изысканно
+[JEWELRY]|(УКРАШЕНИЯ)
+[ARMOR]|(БРОНЯ)
+KENDO HELMET|ШЛЕМ ДЛЯ КЕНДО
+small chance of ignoring STAMINA loss in combat|(экипировано): небольшой шанс проигнорировать потерю ВЫНОСЛИВОСТИ в бою
+It's better than nothing.|Лучше, чем ничего.
+KENDO HELMET protects you from an attack!|ШЛЕМ ДЛЯ КЕНДО защищает вас от атаки!
+school's equipment|школьное оборудование
+[MEDICINE]|(МЕДИЦИНА)
+SEWING KIT|НАБОР ДЛЯ ШИТЬЯ
+--TRINKET--|--АКСЕССУАР--
+(use): +3 STAMINA#-1 CHARISMA|(использовать): восстанавливает 3 ВЫНОСЛИВОСТИ#-1 ХАРИЗМЫ
+Shouldn't you ask a doctor to do it?|Может, лучше попросить доктора?..
+Clenching your teeth, you start suturing your wound.|Стиснув зубы, вы начинаете зашивать рану.
+two needles and thread|две иголки и нитка
+[ITEM]|(ПРЕДМЕТ)
+[ADDICTIVE]|(ПРИВЫК.)
+[LIQUID]|(ЖИДКОСТЬ)
+[BLESSED]|(СВЯТОЕ)
+[FLESH]|(ПЛОТЬ)
+[BOOK]|(КНИГА)
+[ILLICIT]|(НЕЗАКОННОЕ)
+[LIGHT SOURCE]|(ИСТ. СВЕТА)
+[IMPORTANT]|(ВАЖНОЕ)
+[FOOD]|(ЕДА)
+[ELDRITCH]|(ПОТУСТ.)
+[OCCULT]|(ОККУЛЬТ.)
+[CASSETTE]|(КАССЕТА)
+[TOY]|(ИГРУШКА)
+[CONTAINER]|(КОНТЕЙНЕР)
+[CORROSIVE]|(КИСЛОТА)
+[POWDER]|(ПОРОШОК)
+[TOY]|(ИГРУШКА)
+[AMULET]|(АМУЛЕТ)
+[FOLKLORE]|(ФОЛЬКЛОР)
+[DOCUMENT]|(ДОКУМЕНТ)
+[ACCESSORY]|(АКСЕССУАР)
+[TOOL]|(ИНСТРУМЕНТ)
+[CLOTH]|(ОДЕЖДА)
+[DOG]|(СОБАКА)
+[SUPPLIES]|(ПРИПАСЫ)
+[MILITARY]|(ВОЕННОЕ)
+[PERSONAL]|(ЛИЧНОЕ)
+[CURSED]|(ПРОКЛЯТОЕ)
+[KEY]|(КЛЮЧ)
+[TAG]|(МЕТКА)
+[TAG2]|(МЕТКА2)
+[TAG3]|(МЕТКА3)
+[TAG4]|(МЕТКА4)
+--TRINKET (USABLE)--|--АКСЕССУАР (ИСПОЛЬЗУЕМЫЙ)--
+BACKPACK|РЮКЗАК
+allows two additional INVENTORY slots|(экипировано): даёт два дополнительных слота ИНВЕНТАРЯ
+You could fit a lot in here...|Сюда можно много чего запихать...
+irreplaceable in travel|незаменим в путешествиях
+WINE BOTTLE|БУТЫЛКА ВИНА
+(use): +3 REASON, flip this card|(использовать): восстанавливает 3 РАССУДКА#добавляет статус ПОХМЕЛЬЕ
+foreign, dry|иностранное, сухое
+Ugh, what is this stuff? (+ STATUS)|Ух, что это такое? (+СТАТУС)
+CIGARETTES|СИГАРЕТЫ
+(use): +1 REASON#adds a new STATUS|(использовать): восстанавливает 1 РАССУДКА#добавляет новый СТАТУС
+'Smoking kills.'|«Курение убивает.»
+Smoking kills, and you don't feel like you would survive this.|Курение убивает, но вам и так не кажется, что вы всё это переживёте.
+You fear you can get used to it...|Вам страшно, что вы привыкните...
+You smoke a cigarette and start coughing uncontrollably!|Вы выкуриваете сигарету и начинаете бесконтрольно кашлять!
+You smoke a cigarette on your way...|Вы выкуриваете сигаретку по дороге...
+SMALL CANDLE|МАЛЕНЬКАЯ СВЕЧА
+[smaller DOOM penalty for escaping from combat]|(экипировано): действие «ПОБЕГ ИЗ БОЯ» приближает меньше РОКА
+Small candle made from corpse wax.|Маленькая свечка, сделанная из трупного воска.
+made from corpse wax|сделана из трупного воска
+CARPENTER HAMMER|МОЛОТОК
+[small chance of recovering lost STAMINA after defeating an enemy]|(экипировано): небольшой шанс восстановить потерянную ВЫНОСЛИВОСТЬ в конце боя
+Do you like hurting other people?|«Тебе нравится причинять людям боль?»
+Hurting other people feels good. (+1 STAMINA)|Приятно причинять людям боль. (+1 ВЫНОСЛИВОСТИ)
+surprisingly powerful|удивительно мощный
+HOLY CANDLE|СВЯТАЯ СВЕЧА
+[+1 LUCK while held in the inventory]#(use): +2 REASON|(когда в инвентаре): +1 УДАЧИ#(использовать): восстанавливает 2 РАССУДКА
+A special candle with anti-spirit effects.|Особая свеча с противопризрачным эффектом.
+This item targets GHOST enemies only.|Этот предмет действует только на ПРИЗРАКОВ.
+You light up the HOLY CANDLE.|Вы зажигаете СВЯТУЮ СВЕЧУ.
+what is this?...|что это?..
+MUMMIFIED HEART|СЕРДЦЕ ВАМПИРА
+(use): defeat VAMPIRE enemy|(использовать): мгновенно наносит поражение любому врагу-ВАМПИРУ
+It smells of exotic incense...|Пахнет экзотическими благовониями...
+This item targets VAMPIRE enemies only.|Этот предмет действует только на ВАМПИРОВ.
+You stab the MUMMIFIED HEART with an iron nail.|Вы забиваете железный гвоздь в СЕРДЦЕ ВАМПИРА.
+d-did it move?|о-оно двинулось?
+HUMAN SUIT|ЧЕЛОВЕЧЕСКИЙ КОСТЮМ
+Is it lambskin leather?|Это кожа ягненка?
+LIBRARY NOTES|ЗАМЕТКИ ИЗ БИБЛИОТЕКИ
+(use): gain a random SPELL#lose 1-2 REASON|(использовать): вы получаете случайное ЗАКЛИНАНИЕ и теряете 1-2 РАССУДКА
+They cover a few dusty and boring books.|Конспекты по некоторым пыльным и скучным книгам.
+Inside the notes you find a curious passage... (-1 REASON)|Вы находите интересный отрывок в заметках... (-1 РАССУДКА)
+forbidden knowledge|запретные знания
+POLICE REVOLVER|ПОЛИЦЕЙСКИЙ РЕВОЛЬВЕР
+[damage when shot: 9]|(урон от выстрела: 9)
+New Manbu N60, designed in the 60s.|Новый Манбу Н60, разработанный в 60-х.
+You pull the trigger, but nothing happens!|Вы нажимаете на спуск, но ничего не происходит!
+You pull the gun's hammer back, preparing for combat!|Вы взводите курок, готовясь к бою!
+service revolver|служебный револьвер
+FLARE GUN|СИГНАЛЬНЫЙ ПИСТОЛЕТ
+(use): deals 2 damage to target enemy (8 damage if ELDRITCH or PLANT type)|наносит 2 урона врагу (8 урона, если враг - ПОТУСТОРОННИЙ или РАСТЕНИЕ)
+I hope they are flammable.|Я надеюсь, что они воспламеняются.
+You shoot your flare gun at the enemy. (-2 HEALTH)|Вы стреляете из ракетницы по врагу. (-2 ЗДОРОВЬЯ)
+The flare lodges easily into flesh and continues to burn! (-6 HEALTH)|Сигнальная ракета легко пробивает плоть и загорается! (-6 ЗДОРОВЬЯ)
+one use only|одноразовый
+FLASHLIGHT|ФОНАРИК
++1 PERCEPTION|(экипировано): +1 ВОСПРИЯТИЯ
+I hope the batteries are still okay.|Остаётся надеяться, что батарейки ещё работают.
+the batteries seem okay|похоже, батарейки в порядке
+PAINKILLER|БОЛЕУТОЛЯЮЩИЕ
+(use): +2 STAMINA|(использовать): +2 ВЫНОСЛИВОСТИ
+Be careful not to overdose on these.|Не переборщите.
+don't overdose it|не поймать бы передозировку
+BLUE GEM|СИНИЙ САМОЦВЕТ
+[it feels cold in your hand]|(холодный наощупь)
+It vibrates slightly in your hand.|Немного вибрирует в руке.
+[it is vibrating in your pocket]|(вибрирует даже в кармане)
+what is it?...|что это?..
+BOX CUTTER|КАНЦЕЛЯРСКИЙ НОЖ
+It looks like it'll break very easily.|Выглядит очень хрупким.
+Sharp yet fragile.|Столь же острый, сколь и хрупкий.
+LONG PIG STEAK|СТЕЙК «ГАННИБАЛ ЛЕКТЕР»
+(use): +2 STAMINA#adds a new STATUS|(использовать): восстанавливает 2 ВЫНОСЛИВОСТИ#добавляет новый СТАТУС
+It smells incredible.|Пахнет невероятно.
+You devour the steak. Who knew you had such an appetite? (+ CURSE)|Вы сожрали стейк. Кто бы знал, что у вас так разыграется аппетит? (+ПРОКЛЯТИЕ)
+smells delicious|пахнет вкусно
+CASSETTE PLAYER|ПРОИГРЫВАТЕЛЬ КАССЕТ
+NO CASSETTE INSERTED|КАССЕТА НЕ ВСТАВЛЕНА
+CURRENTLY LISTENING|В ДАННЫЙ МОМЕНТ ИГРАЕТ
+LISTENED:|ПРОСЛУШАНО:
+CASSETTE A|КАССЕТА А
+(use): insert a cassette into CASSETTE PLAYER, replacing the old cassette|(использовать): вставить кассету в ПРОИГРЫВАТЕЛЬ, заменив старую кассету
+I wonder what's recorded on it...|Интересно, что на ней записано...
+CASSETTE B|КАССЕТА Б
+LUMP OF FLESH|КУСОК ПЛОТИ
+(use): +5 STAMINA#adds a new STATUS|(использовать): восстанавливает 5 ВЫНОСЛИВОСТИ#добавляет новый СТАТУС
+Slimy and smelly, what is it?! It's pulsating slowly in your hand.|Скользкое и вонючее, что это за мясо?! Оно медленно пульсирует в вашей руке.
+You place LUMP OF FLESH on your wound, and it connects with your body.|Вы подносите КУСОК ПЛОТИ к своей ране, и он сливается с вашим телом.
+It wasn't a good idea...|Это была плохая идея...
+it's undulating slowly...|он медленно пульсирует...
+RITUAL MASK|РИТУАЛЬНАЯ МАСКА
+[small chance of ignoring REASON loss in combat]|(экипировано): небольшой шанс проигнорировать потерю РАССУДКА в бою
+Ghastly pale yellow in color.|Она имеет призрачный, бледно-жёлтый оттенок.
+RITUAL MASK protects you from the attack!|РИТУАЛЬНАЯ МАСКА защищает вас от атаки!
+creepy|жуткая
+DUSTY GRIMOIRE|ПЫЛЬНЫЙ ГРИМУАР
+(use): random effect#COST: 2 REASON|(использовать): случайный эффект#(СТОИМОСТЬ: 2 РАССУДКА)
+You feel drowsy just by#looking at the cover.|Вы чувствуете сонливость,#просто смотря на обложку.
+This chapter may help you stop the elder god. (+15 EXP)|Эта глава может помочь вам остановить древнего бога. (+15 ОПЫТА)
+This chapter seems to be about various rituals. (+ SPELL)|Похоже, что эта глава - про различные ритуалы. (+ЗАКЛИНАНИЕ)
+A sudden stream of forbidden knowledge forcibly enters your mind. (+ CURSE)|Внезапный поток запретных знаний проникает в ваш разум. (+ПРОКЛЯТИЕ)
+Could it be?.. There's still some hope! (-4% DOOM)|Может ли это быть?.. Надежда всё ещё есть! (-4% РОКА)
+forbidden knowledge|запретные знания
+RITUAL DAGGER|РИТУАЛЬНЫЙ КИНЖАЛ
+[small chance of recovering REASON after defeating an enemy]|(экипировано): небольшой шанс восстановить РАССУДОК в конце боя
+Its blade is covered with a strange liquid...|Его лезвие покрыто странной жидкостью...
+You feel ENEMY's strength being channeled into you! (+1 REASON)|Вы чувствуете, как вам передаётся сила ВРАГА! (+1 РАССУДКА)
+is that blood?...|это кровь?..
+HUMAN SKULL|ЧЕЛОВЕЧЕСКИЙ ЧЕРЕП
+random result after casting a SPELL|(экипировано): использование ЗАКЛИНАНИЙ даёт случайный результат
+Constantly trying to speak.|Постоянно пытается что-то сказать.
+The skull starts violently shaking as the enemy recoils in pain!|Череп начинает сильно трястись, и враг отшатывается от боли!
+As you cast a spell, another rune appears on the skull.|Когда вы произносите заклинание, на черепе появляется очередная руна.
+You feel calmer. (+1 REASON)|Вам становится спокойнее. (+1 РАССУДКА)
+it twitches slightly|он слегка подёргивается
+GLASS EYE|СТЕКЛЯННЫЙ ГЛАЗ
+(use): +1 PERCEPTION|(использовать): +1 ВОСПРИЯТИЯ
+S-should you do it?...|С-стоит ли вам это делать?..
+You slam the glass eye into your eye socket, crushing your own eye! (-1 REASON)|Вы вклиниваете стеклянный глаз себе в глазницу, раздавливая собственный! (-1 РАССУДКА)
+You start bleeding heavily (-3 STAMINA)|У вас начинается тяжёлое кровотечение. (-3 ВЫНОСЛИВОСТИ)
+The sight from the destroyed eye... returns, changed. (+1 PERCEPTION)|Раздавленный глаз снова видит, но... по-другому... (+1 ВОСПРИЯТИЯ)
+same size as your eye|размером с мой глаз
+KATANA|КАТАНА
+Its blade was folded over a million times.|Её лезвие ковалось миллионом ударов.
+an old sword|древний меч
+BONE SAW|МЕДИЦИНСКАЯ ПИЛА
+[extra damage against UNDEAD enemies]|(экипировано): одна единица доп. УРОНА в боях с НЕЖИТЬЮ
+It's clunky in use.|Неуклюжа в использовании.
+CURSED DOLL|ПРОКЛЯТАЯ КУКЛА
+(use): deals 4-6 damage#COST: 1-2 STAMINA|(использовать): наносит 4-6 урона#(СТОИМОСТЬ: 1-2 ВЫНОСЛИВОСТИ)
+It's covered in dried blood...|Покрыта засохшей кровью...
+You stab the doll with a pin. A sudden pain shocks you!|Вы протыкаете куклу иглой. Внезапная боль шокирует вас!
+creepy|жуткая
+EMPTY BOTTLE|ПУСТАЯ БУТЫЛКА
+[it can be used to store liquids]|можно использовать для хранения жидкостей
+You could fill this bottle with something.|Вы могли бы наполнить её чем-нибудь.
+BOTTLE [SLUDGE]|БУТЫЛКА (ЖИЖА)
+deals extra damage when thrown|(при броске): наносит дополнительный урон
+It's filled with a black and thick sludge.|Она наполнена тёмной густой жидкостью.
+BOTTLE [MILK]|БУТЫЛКА (МОЛОКО)
+(use): +1 STAMINA|(использовать): восстанавливает 1 ВЫНОСЛИВОСТИ
+Tasty milk.|Вкусное молоко.
+~glug glug~|*глоть глоть*
+moo-moo brand|у коровы нет других забот...
+RITUAL ROBE|РИТУАЛЬНАЯ РОБА
+additional MAGIC slot|(экипировано): даёт дополнительный слот МАГИИ
+Surprisingly heavy and clunky in use.|Удивительно тяжела и громоздка в ношении.
+slightly too big|немного большевата
+CHAMPAGNE|ШАМПАНСКОЕ
+(use): +1 REASON for each ALLY|(использовать): восстанавливает 1 РАССУДКА за каждого СОЮЗНИКА
+foreign, dry|иностранное, сухое
+good year|хорошая выдержка
+FOREST TAPES|ПЛЁНКИ ИЗ ЛЕСА
+Seemingly broken, but maybe you can find a way to repair them.|Похоже сломаны, но может получится починить.
+Who could help me with that?|Кто бы мог с этим помочь?
+DUST OF SEEING|ПЫЛЬ ПРОЗРЕНИЯ
+[momentarily renders invisible creatures partially visible]#(use): sets enemy POWER to 0|на мгновение делает невидимых существ частично видимыми#(использовать): понижает СИЛУ врага до 0
+White dust. It has no smell.|Белая пыль. Без запаха.
+You throw the dust in the air!|Вы кидаете пыль в воздух!
+What is it?...|Что это?..
+PRESCRIPTION PILLS|ТАБЛЕТКИ ПО РЕЦЕПТУ
+(use): +2 REASON|(использовать): восстанавливает 2 РАССУДКА
+It's called HYPNOCIL. It will help you sleep but there are not too many pills left.|«ГИПНОЦИЛ». Поможет выспаться, но осталось не так много.
+You swallow the pill. You needed that! (+2 REASON)|Вы проглатываете таблетку. Вы в ней нуждались! (+2 РАССУДКА)
+don't overdose it|лучше не перебарщивать
+STALKER'S MASK|МАСКА ПРЕСЛЕДОВАТЕЛЯ
++1 DAMAGE against HUMAN enemies|(экипировано): вы наносите на 1 УРОНА больше в боях с ЛЮДЬМИ
+Good thing the teeth are a part of the mask.|Хорошо, что зубы - уже часть маски.
+BASEBALL BAT|БЕЙСБОЛЬНАЯ БИТА
+Baseball bat used by school's team.|Бейсбольная бита, какие используют в школьной сборной.
+A wooden baseball bat.|Деревянная бейсбольная бита.
+school's bat|школьная бита
+FOREIGN CIGARETTES|ИМПОРТНЫЕ СИГАРЕТЫ
+LIBRARY BOOK|КНИГА ИЗ БИБЛИОТЕКИ
+(use): +10 EXP|(использовать): +10 ОПЫТА
+A heavy book with a thick cover. It's long overdue.|Тяжёлая книга с толстой обложкой. Возврат давно просрочен.
+long overdue|возврат давно просрочен
+PANCAKES|БЛИНЫ
+(use): +2 STAMINA#-2% DOOM|(использовать): восстанавливают 2 ВЫНОСЛИВОСТИ#-2% РОКА
+Not the healthiest breakfast option but it smells fantastic.|Не самый полезный завтрак, но пахнут просто фантастически.
+smells fantastic|пахнут фантастически
+CURIOUS PACKAGE|ЛЮБОПЫТНАЯ ПОСЫЛКА
+you shouldn't open it now|вам не стоит открывать её сейчас
+What could be inside?|что может быть внутри?
+what's inside?|что внутри?
+ARMY KNIFE|АРМЕЙСКИЙ НОЖ
+Stainless steel.|Нержавеющая сталь.
+You hold onto your ARMY KNIFE, preparing for combat.|Вы сжимаете АРМЕЙСКИЙ НОЖ, готовясь к бою.
+a sharp knife|острое лезвие
+ELDRITCH AMULET|ПОТУСТОРОННИЙ АМУЛЕТ
++10 REASON when worn|(экипировано): даёт 10 РАССУДКА
+It could be your last hope to make it through.|Возможно это ваша последняя надежда пережить всё это.
+looks really old|выглядит очень старым
+CURSED CARTRIDGE|ПРОКЛЯТЫЙ КАРТРИДЖ
+thrown items deal extra damage|(экипировано): брошенные в бою ПРЕДМЕТЫ наносят больше УРОНА
+CURIOUS STATUETTE|ЛЮБОПЫТНАЯ СТАТУЭТКА
++1 KNOWLEDGE while held in the inventory.|(когда в инвентаре): +1 ИНТЕЛЛЕКТА
+POCKET KNIFE|КАРМАННЫЙ НОЖ
+(use): automatically escape from combat without the DOOM penalty|(использовать): мгновенно сбежать из боя, не приближая РОК
+It may be useful when something grabs you...|Может быть полезным, если вас что-нибудь схватит...
+your last resort|ваша последняя надежда
+SCALPEL|СКАЛЬПЕЛЬ
+LUCKY EARRINGS|СЧАСТЛИВЫЕ СЕРЬГИ
+(equip): +2 LUCK|(экипировано): +2 УДАЧИ
+Fancy earrings.|Модные серьги.
+festival souvenir|сувенир с фестиваля
+CORPSE DUST|ТРУПНАЯ ПЫЛЬ
+(use): +20 EXP#-2 LUCK|(использовать): +20 ОПЫТА#-2 УДАЧИ
+it shimmers in your hand|мерцает в руке
+Can your nostrils become haunted?|Наполнятся ли ваши ноздри призраками?
+You snort the CORPSE DUST!|Вы вдыхаете ТРУПНУЮ ПЫЛЬ!
+HUNTING RIFLE|ОХОТНИЧЬЯ ВИНТОВКА
+[damage when shot: 32]|(урон от выстрела: 32)
+An old rifle.|Старая винтовка.
+HAPPI COAT|ПАЛЬТО HAPPI
++1 LUCK|(экипировано): +1 УДАЧИ
+It's a nice pattern.|Милый узор.
+TAIYAKI|ТАЯКИ
+(use): +1 REASON|(использовать): восстанавливает 1 РАССУДКА
+Tasty!|Вкусно!
+WOODEN BAT|ДЕРЕВЯННАЯ БИТА
+You take a warning swing, preparing for combat.|Вы угрожающе замахиваетесь, готовясь к бою.
+Slightly dusty.|Немного пыльная.
+MAP|КАРТА
+investigating VILLAGE or FOREST locations has a small chance of lowering DOOM|(экипировано): небольшой шанс отдалить РОК при исследовании ДЕРЕВНИ или ЛЕСА
+It's a map of SHIOKAWA and the surrounding area.|Это - карта ШИОКАВЫ и прилегающих окрестностей.
+Someone has marked new paths on it.|Кто-то обозначил на ней новые тропы.
+You mark the subtle changes on the map. (-2% DOOM)|Вы отмечаете едва заметные изменения на карте. (-2% РОКА)
+Huh, this road wasn't here before... (-2% DOOM)|Ох, этой дороги здесь раньше не было... (-2% РОКА)
+map of the city|карта города
+PRESCRIPTION|РЕЦЕПТ
+[where could you fill a prescription like this?]|(где бы вам могли продать лекарство по этому рецепту?)
+It's for an expensive pharmacy drug.|Он для дорогого фармацевтического препарата.
+(use): fill a prescription#COST: 4 FUNDS|(использовать): купить лекарства#(СТОИМОСТЬ: 4 СРЕДСТВ)
+drug prescription|рецепт на таблетки
+BRANCH|ВЕТКА
+[fast to equip]|(можно быстро экипировать)
+It won't last too many swings.|Хватит лишь на пару взмахов.
+COMPASS|КОМПАС
++2 EXP for each investigated location|(экипировано): при каждом исследовании локации даёт 2 ОПЫТА
+It will surely be useful.|Он безусловно будет полезным.
+Your compass helps you find your way. (+2 EXP)|Компас помогает вам сориентироваться. (+2 ОПЫТА)
+an old thing|старая вещь
+ENERGY DRINK|ЭНЕРГЕТИК
+(use): +1 DEXTERITY until the end of the current mystery|(использовать): до конца текущей тайны, даёт +1 ЛОВКОСТИ
+Not the healthiest thing in the world.|Не самая здоровая вещь на планете.
+SALT|СОЛЬ
+(use): deals 8 damage to GHOST-type enemies|(использовать): наносит 8 урона ПРИЗРАКАМ
+Kitchen salt.|Кухонная соль.
+You throw the salt around you, weakening your enemy!|Вы разбрасываете соль вокруг себя, ослабляя противника!
+STRAIGHT RAZOR|ОПАСНАЯ БРИТВА
+It reminds you of a certain American heist thriller film. You don't need to shave right now.|Она напоминает вам один американский триллер об ограблении. Пока нет нужды бриться.
+You flip your STRAIGHT RAZOR open, preparing for combat.|Вы выкидываете лезвие БРИТВЫ, готовясь к бою.
+avoid unnecessary cuts|избегайте случайных порезов
+PRAYER BEADS|МОЛИТВЕННЫЕ ЧЁТКИ
+faster SPIRITUAL actions|(экипировано): СПИРИТУАЛЬНЫЕ действия становятся быстрее
+Wooden beads. They fill you with hope.|Деревянные чётки. Они наполняют вас надеждой.
+Unsui-san's|принадлежат Унсуи-сану
+BROKEN BOTTLE|РАЗБИТАЯ БУТЫЛКА
+[fast to equip]|(можно быстро экипировать)
+A discarded bottle turned into a weapon.|Разбитая бутылка стала оружием.
+a glass tulip|стеклянная розочка
+FRIEND'S DIARY|ДНЕВНИК ДРУГА
+Other pages seem irrelevant to the case. I hope they're okay...|Другие страницы, похоже, не относятся к делу. Надеюсь, с ним всё хорошо...
+Maru is acting strange. I need to talk with her after class. I hope she didn't attempt the ritual herself.|Мару ведёт себя странно. Мне нужно поговорить с ней после уроков. Надеюсь, она не пробовала совершить ритуал сама.
+I've hidden the candles in one of the classrooms. Tomorrow I  will try to perform the ritual.|Я спрятал свечи в одном кабинете. Завтра я попытаюсь совершить ритуал.
+A strange tall woman has been following me all day, I must hurry up.|Странная высокая женщина следила за мной весь день, я должен поспешить.
+This sigil can weaken the demon for a while.##Careful with the lines.|Этот символ может ослабить демона на время.##Аккуратней с линиями.
+CAN OF ACID|КАНИСТРА С КИСЛОТОЙ
+(use): deals 7 damage to ELDRITCH enemies|(использовать): наносит 7 урона ПОТУСТОРОННИМ врагам
+This item works only on ELDRITCH enemies.|Этот предмет действует только на ПОТУСТОРОННИХ врагов.
+Your eyes sting from the fumes as you pour the acid.|Ваши глаза щиплет от паров, которые оставляет кислота.
+metal tool|для травления металлов
+TINY KEY|МАЛЕНЬКИЙ КЛЮЧ
+[can be used to open certain locks]|можно использовать для открытия определенных замков
+GOBLET|КУБОК
+[constantly cold to the touch]|постоянно холодный на ощупь
+It looks ancient. What was it doing in school?...|Выглядит древним. Что он делал в школе?..
+SMELLY MEAT|ВОНЮЧЕЕ МЯСО
+[rancid meat of an unknown source]|прогорклое мясо неизвестного происхождения
+Disgusting.|Отвратительно.
+Maybe it's not that bad?...|Может, оно не такое уж и плохое?..
+smells horrible|пахнет ужасно
+CROWBAR|ЛОМ
+lightweight and durable|лёгкий и прочный
+FIRE AXE|ПОЖАРНЫЙ ТОПОР
+an excellent melee weapon|превосходное холодное оружие
+heavy and powerful|тяжёлый и мощный
+CASSETTE C|КАССЕТА В
+SWITCHBLADE|ВЫКИДНОЙ НОЖ
+LIGHTHOUSE KEY|КЛЮЧ ОТ МАЯКА
+could it be one of the keys needed to open the lighthouse?|это один из тех ключей, которыми открывается маяк?
+'KARUKOSA' MASK|МАСКА «КАРУКОСА»
+faster SPIRITUAL actions|(экипировано): СПИРИТУАЛЬНЫЕ действия становятся быстрее
+Weird design with many strings.|Странный фасон со множеством завязок.
+can you see in it?|в ней что-нибудь видно?
+ANCIENT RING|ДРЕВНЕЕ КОЛЬЦО
++1 STRENGTH#+5% DOOM|(экипировано): +1 СИЛЫ#+5% РОКА
+it must be really old|на вид действительно древнее
+SHOVEL|ЛОПАТА
+[small chance of gaining FUNDS after defeating an enemy]|(экипировано): небольшой шанс получить единицу СРЕДСТВ в конце боя
+You dig out something extra... (+1 FUNDS)|Вы что-то откапываете... (+1 СРЕДСТВ)
+BANDAGE|БИНТ
+[you can heal one minor INJURY while keeping this item in the INVENTORY]|(когда в инвентаре): вы можете вылечить одну лёгкую ТРАВМУ
+You bandage your wounds...|Вы латаете раны...
+CURSED SCISSORS|ПРОКЛЯТЫЕ НОЖНИЦЫ
+[small chance of raising DOOM after each attack]|(экипировано): небольшой шанс приблизить РОК после каждой атаки
+You shouldn't use cursed scissors in combat...|Вам не стоило использовать проклятые ножницы в бою...
+TORCH|ФАКЕЛ
+[counts as a light source]|(источник света)
+CRESTFALLEN MASK|МРАЧНАЯ МАСКА
+-10% DOOM|(экипировано): -10% РОКА
+VIGIL PAMPHLET|БРОШЮРА БДЕНИЯ
+We would like to thank you on behalf of our client for participating in this vigil on such short notice.##He was a spiritual person and left instructions we are asking you to follow closely.|Мы хотели бы поблагодарить вас от имени нашего клиента за такое скорое согласие поучаствовать в бдении.##Он был духовной личностью и оставил инструкции, которым мы просим вас следовать.
+9pm - start of the vigil#10pm - pray over the body|21:00 - начало; 22:00 - молиться над телом
+clap|хлопок
+bow|поклон
+modest supper|скромный ужин
+light up fireplace|разжечь камин
+11pm|23:00
+12am - pray over the body|00:00 - молиться над телом
+1am - ...#2am|01:00 - ...; 02:00
+3am - cover the mirror#in the storage room#4am - ...#5am - end of the vigil|03:00 - завесить зеркало в хранилище; 04:00 - ...; 05:00 - конец
+9pm - start of the vigil|21:00 - начало
+MEAT CLEAVER|ТЕСАК
+The sharpened edge can slice through the toughest cuts of meat.|Острая кромка способна прорезать даже самое жёсткое мясо.
+You hold onto your MEAT CLEAVER, preparing for combat.|Вы сжимаете ТЕСАК, готовясь к бою.
+a crude weapon|грубое оружие
+BLACK HAIR|ТЁМНЫЕ ВОЛОСЫ
+(use): combines with SEWING KIT|(использовать): объединяются с НАБОРОМ ДЛЯ ШИТЬЯ
+a lock of human hair|локон человеческих волос
+You replace the sewing kit's thread with black hair... why?|Вы заменяете нитки из швейного набора чёрными волосами... зачем?
+You don't have a SEWING KIT to combine it with.|У вас нет НАБОРА ДЛЯ ШИТЬЯ для объединения.
+human hair|человеческие волосы
+SEWING KIT (HAIR)|НАБОР ДЛЯ ШИТЬЯ (ВОЛОСЫ)
+(use): +3 STAMINA#+3 REASON|(использовать): +3 ВЫНОСЛИВОСТИ#+3 РАССУДКА
+TOME OF ROT|КНИГА ГНИЛИ
+(use): deals 8 damage to HUMAN enemies#[adds new STATUS]|(использовать): наносит 8 урона ЛЮДЯМ#(добавляет новый СТАТУС)
+As you read the incantation, your enemy starts to fall apart!|Вы читаете заклинание, и ваш враг начинает разваливаться на части!
+The eldritch rot spreads to your hand!|Потустороннее гниение распространяется на вашу руку!
+slow and painful decay|медленное и болезненное гниение
+FATAL FLORA|РОКОВАЯ ФЛОРА
+(use): deals 8 damage to PLANT enemies#[adds new status]|(использовать): наносит 8 урона РАСТЕНИЯМ#(добавляет новый СТАТУС)
+Guide to Toxic Flowers|Введение в токсичные цветы
+DOG TREATS|СОБАЧЬИ ВКУСНЯШКИ
+while in INVENTORY, all ITEMS in the SHOP are cheaper by 1 FUNDS|(когда в инвентаре): все ПРЕДМЕТЫ в МАГАЗИНЕ становятся дешевле на 1
+'Happy Dog' brand, tastes like chicken!|Продукция бренда «Счастливая собака», с куриным вкусом!
+'Woof!'|«Гав!»
+GRUESOME TOTEM|УЖАСНЫЙ ТОТЕМ
+-10% DOOM#-3 MAX REASON|(экипировано): -10% РОКА#-3 МАКС. РАССУДКА
+You should get rid of it.|Вам стоит от него избавиться.
+PAIN MEDICATION|АНАЛЬГЕТИК
+(use): +4 STAMINA#-2 MAX REASON|(использовать): +4 ВЫНОСЛИВОСТИ#-2 МАКС. РАССУДКА
+You _really_ don't like needles... Is it really safe?|Вам _совсем_ не нравятся иглы... Это вообще безопасно?
+EXPERIMENTAL DRUG|ПРЕПАРАТ X
+(use): +4 REASON#-2 MAX STAMINA|(использовать): +4 РАССУДКА#-2 МАКС. ВЫНОСЛИВОСТИ
+You _really_ don't like needles... Is it really safe?|Вам _совсем_ не нравятся иглы... Это вообще безопасно?
+SHIOKAWA HERALD (A)|ВЕСТНИК ШИОКАВЫ (А)
+An article covers a group of scientists from Tokyo. They were exploring and mapping weird cave formations, found in the cliffs.#(...) The search of the missing team of scientists continues. The only clue so far is a code, written on a cavern wall:|Статья посвящена группе учёных из Токио. Они исследовали и наносили на карту странные пещерные образования, найденные в скалах.#(...) Поиски пропавшей команды учёных продолжаются. Единственная зацепка на данный момент - это код, написанный на стене пещеры:
+ARCHITECT'S JOURNAL|ЖУРНАЛ АРХИТЕКТОРА
+'(...) One house owner, however, decided to make use of the cave tunnel.#'It's a natural concert hall' he claims. (...)'|«(...) Один домовладелец, однако, решил найти туннелю применение.#«Это - естественный концертный зал», - заявил он. (...)»
+RENTED BOOKS|ВЗЯТЫЕ КНИГИ
+EXTRA AMMO|ДОПОЛНИТЕЛЬНЫЕ БОЕПРИПАСЫ
+(use): +3 AMMUNITION|(использовать): +3 ПАТРОНОВ
+SPORT RIFLE|СПОРТИВНАЯ ВИНТОВКА
+[damage when shot: 14]|(урон от выстрела: 14)
+rifle used in competitions|винтовка, используемая на соревнованиях
+BURNT NOTES|СГОРЕВШИЕ ЗАМЕТКИ
+'(...) legend from the ---- prefecture eels tell of a small vil--ge of robbers who would ki-l all visitors and dump their corps-s into a lake full of eels. (...) eels of the ---- prefectu-- -ould lay their eggs inside huma--- ---- ---- (...)'|«(...) легенда из ---- префектуры рассказывает историю о маленькой дер--не грабителей, которые убива-и всех посетителей и выбрасывали их т-ла в озеро, полное угрей. (...) угри в ---- префекту-- -огли откладывать яйца внутри люд--- ---- ---- (...)»
+BOTTLE [WATER]|БУТЫЛКА (ВОДА)
+(use): +1 STAMINA|(использовать): +1 ВЫНОСЛИВОСТИ
+~glug glug~|*глоть глоть*
+refreshing|освежает
+MEDICAL KIT|АПТЕЧКА
+(use): gain 2 BANDAGES#[you can heal one major INJURY while keeping this item in the INVENTORY]|(использовать): получить 2 БИНТА#(когда в инвентаре): вы можете вылечить одну серьёзную ТРАВМУ
+Army-issued medical kit.|Аптечка армейского образца.
+You empty the contents of the medical kit. (+2 BANDAGES)|Вы опустошаете внутренности аптечки. (+2 БИНТА)
+You use the medical kit to treat your wound!|Вы используете аптечку, чтобы вылечить свою травму!
+OLD SHOTGUN|СТАРЫЙ ДРОБОВИК
+[damage when shot: 15]|(урон от выстрела: 15)
+Your father's old shotgun.|Старый дробовик вашего отца.
+You raise your OLD SHOTGUN. <<...don't come any closer!>>|Вы поднимаете СТАРЫЙ ДРОБОВИК. «...не подходи ближе!»
+I must return it|Я должна вернуть его
+SOFT DRINK|ГАЗИРОВКА
+(use): +2 REASON|(использовать): +2 РАССУДКА
+You haven't seen this brand before.|Вы никогда раньше не видели газировку этого бренда.
+local brand|местный бренд
+ROCK RING|КАМЕННОЕ КОЛЬЦО
++1 STRENGTH#-2 MAX REASON|(экипировано): +1 СИЛЫ#-2 МАКС. РАССУДКА
+Surprisingly heavy... It's not actually made of stone, is it?|Удивительно тяжёлое... Оно же на самом деле не из камня?
+surprisingly heavy|удивительно тяжёлое
+PATINA RING|КОЛЬЦО ИЗ ПАТИНЫ
++1 DEXTERITY#-2 MAX STAMINA|(экипировано): +1 ЛОВКОСТИ#-2 МАКС. ВЫНОСЛИВОСТИ
+Surprisingly light... It looks like it's going to fall apart any second now.|Удивительно лёгкое... Выглядит так, будто готово развалиться в следующее же мгновение.
+surprisingly light|удивительно лёгкое
+DEMON MASK|МАСКА ДЕМОНА
++1 DAMAGE#-4 MAX STAMINA|(экипировано): +1 УРОНА#-4 МАКС. ВЫНОСЛИВОСТИ
+DIY FLAMETHROWER|КУСТАРНЫЙ ОГНЕМЁТ
+[fast to equip]|(можно быстро экипировать)
+INSPIRING NOVEL|ВДОХНОВЛЯЮЩИЙ РОМАН
+(use): +2 DAMAGE until#the end of the mystery|(использовать): +2 УРОНА до#конца тайны
+You've read this book countless times.|Вы читали эту книгу бессчётное количество раз.
+ONYX MEDALLION|ОНИКСОВЫЙ МЕДАЛЬОН
++2 CURSES every mystery#(once per mystery):#cure one CURSE|+2 ПРОКЛЯТИЯ каждую тайну#(один раз на тайну):#снять одно ПРОКЛЯТИЕ
+The ONYX MEDALLION burns your skin!|ОНИКСОВЫЙ МЕДАЛЬОН обжигает кожу!
+'it fell from the sky'|«Он упал с небес...»
+NECRONOMICON|НЕКРОНОМИКОН
+-AURA OF AZAL-HOTH-##lower DOOM by 10% by completing a mystery#[PASSIVE]|-АУРА АЗАЛ-ХОТХА-##(пассивно): отдаляет РОК на 10%, когда вы завершаете тайну
+##retrieve more pages when you level up|##получайте больше страниц по мере повышения уровня
+BRICK|КИРПИЧ
+OLD COIN|СТАРАЯ МОНЕТКА
+(use): grants one#free CURSE removal|(использовать): даёт одно бесплатное снятие ПРОКЛЯТИЯ
+You break the coin in half.|Вы разламываете монетку надвое.
+HEAVY DUTY FLASHLIGHT|СВЕРХМОЩНЫЙ ФОНАРЬ
+[counts as a light source]|(источник света)
+MONKEY WRENCH|РАЗВОДНОЙ КЛЮЧ
+[HEAVY TOOL]: -1 STRENGTH|(ТЯЖЁЛЫЙ ИНСТРУМЕНТ): -1 СИЛЫ
+BRONZE CRUCIFIX|БРОНЗОВОЕ РАСПЯТИЕ
+(equip): allows you to fight GHOST enemies normally#(use): break it in half|(экипировано): позволяет сражаться с ПРИЗРАКАМИ как обычно#(использовать): сломать пополам
+SKELETON KEY|МАСТЕР-КЛЮЧ
+(use): open a random remaining LIGHTHOUSE padlock#COST: 15% DOOM|(использовать): открывает случайный закрытый замок в маяке#СТОИМОСТЬ: 15% РОКА
+HANDCUFFS|НАРУЧНИКИ
+(while in inventory): lower HUMAN enemy's POWER by 5#(use): defeat a HUMAN enemy with 12 or less HEALTH remaining|(когда в инвентаре): понижает СИЛУ любого ЧЕЛОВЕКА на 5#(использовать): мгновенно победить любого ЧЕЛОВЕКА, у которого 12 или меньше здоровья
+You subdue the weakened enemy!|Вы заковываете ослабленного врага!
+RUSTY SICKLE|РЖАВЫЙ СЕРП
+[small chance of dealing 1 extra DAMAGE]|(экипировано): небольшой шанс нанести врагу дополнительную единицу УРОНА
+FOREST NOTE|ЗАПИСКА ИЗ ЛЕСА
+I write this for everyone wanting to stay behind.##The sacrifice is worth it.#Life's meaning comes from our relationships.#Share death, and that connection will outlast you.##There won't be anything left but US.|Я пишу это для всех, кто не хочет участвовать.##Жертва того стоит.#Смысл жизни проистекает из наших отношений.#Раздели смерть с другим, и эта связь останется вечной.##Кроме НАС, больше ничего не останется...
+Everyone here is waiting for you so if you lose your resolve##just listen to the VOICE OF HUMANITY|Все здесь ждут тебя, так что, если ты утратишь свою решимость,##просто прислушайся к ГОЛОСУ ЧЕЛОВЕЧЕСТВА.
+GOBLET (BLOOD)|КУБОК (КРОВЬ)
+[constantly cold to the touch]#(use): drink the blood|постоянно холодный наощупь#(использовать): выпить кровь
+It looks ancient. What was it doing in school?...|Выглядит древним. Что он делал в школе?..
+The blood drunk from the goblet is surprisingly cold and smooth.|Кровь, отпитая из кубка, на удивление холодная и приятная.
+It rejuvenates you and clears your mind. (+6 STAMINA / +6 REASON)|Она омолаживает ваше тело и очищает разум. (+6 ВЫНОСЛИВОСТИ, +6 РАССУДКА)
+BOTTLE [BLOOD]|БУТЫЛКА (КРОВЬ)
+(use): drink the blood#[filled with boiling blood]|(использовать): выпить кровь#(заполнена кипящей кровью)
+OCCULT DIARY|ОККУЛЬТНЫЙ ДНЕВНИК
+(use): -3% DOOM|(использовать): -3% РОКА
+You burn the cursed diary. (-3% DOOM)|Вы сжигаете проклятый дневник. (-3% РОКА)
+RITUAL MASK (PUMPKIN)|РИТУАЛЬНАЯ МАСКА (ТЫКВА)
+(use): cook and eat it#[small chance of ignoring REASON loss in combat]|(использовать): приготовить и съесть её#(экипировано): небольшой шанс проигнорировать потерю РАССУДКА в бою
+Ghastly pale yellow in color.|Призрачного, бледно-жёлтого цвета.
+RITUAL MASK protects you from the attack!|РИТУАЛЬНАЯ МАСКА защищает вас от атаки!
+Tasty! (+2 STAMINA)|Вкусно! (+2 ВЫНОСЛИВОСТИ)
+creepy|жуткая
+SPIRAL HOOD|СПИРАЛЬНЫЙ КАПЮШОН
++2 STRENGTH / DEXTERITY# -2 PERCEPTION|(экипировано): +2 СИЛЫ и ЛОВКОСТИ#-2 ВОСПРИЯТИЯ
+creepy|жуткий
+CHAINSAW|БЕНЗОПИЛА
+[HEAVY TOOL]: -1 STRENGTH|(ТЯЖЁЛЫЙ ИНСТРУМЕНТ): -1 СИЛЫ
+SWITCHBLADE|ВЫКИДНОЙ НОЖ
+BRICK|КИРПИЧ
+LUCKY BAT|СЧАСТЛИВАЯ БИТА
++2 LUCK|(экипировано): +2 УДАЧИ
+You can't find anything useful in the notes. You throw them away.|Вы не находите ничего полезного в записках. Вы выкидываете их.
+The forbidden knowledge transcribed on the notes sear your brain... (-2 REASON)|Запретные знания, запечатлённые в заметках, иссушают ваш мозг... (-2 РАССУДКА)
+Using a pocket knife, you escape! (-4% DOOM)|Вы используете карманный нож и сбегаете! (-4% РОКА)
+Even with a pocket knife, you won't be able to escape!|Даже используя карманный нож, вам не удаётся сбежать!
+You fill the prescription and recieve a drug.|Вы покупаете лекарство по рецепту.
+Now, where would you find the girl who dropped it?|Где вы теперь найдёте девушку, уронившую его?
+You don't have enough money!|У вас недостаточно денег!
+This action requires a HUMAN enemy!|Это действие эффективно только против ЛЮДЕЙ!
+This action requires a PLANT enemy!|Это действие эффективно только против РАСТЕНИЙ!
+Your faith is crumbling! (-7 FAITH)|Ваша вера угасает! (-7 ВЕРЫ)
+You've already equipped|Вы уже экипировали:
+HOSPITAL PASS|ПРОПУСК ВРАЧА
+[allows you to skip some encounters at the HOSPITAL]|(когда в инвентаре): позволяет пропустить некоторые столкновения в БОЛЬНИЦЕ
+An obvious forgery but it should be enough to fool the overworked staff at the hospital.|Очевидная подделка, но её должно быть достаточно, чтобы одурачить перегруженный работой персонал больницы.
+'an obvious forgery'|очевидная подделка
+SEMI-AUTO|САМОЗАРЯДНЫЙ ПИСТОЛЕТ
+[damage when shot: 7]|(урон от выстрела: 7)
+A pistol smuggled into Japan. Still in good condition.|Пистолет, завезённый в Японию контрабандой. Всё ещё в хорошем состоянии.
+why did you do it?...|зачем ты это сделал?..
+ARM SLING|ПОДВЯЗКА ДЛЯ РУКИ
++4 STAMINA|(экипировано): восстанавливает 4 ВЫНОСЛИВОСТИ
+You should let your arm rest a bit before taking it off.|Вы должны дать руке немного отдохнуть, прежде чем снимать её.
+a temporary solution|временное решение
+ROSARY|ЧЁТКИ
+(equip): +3 FAITH#+1 REASON|(экипировано): +3 ВЕРЫ#даёт 1 РАССУДКА
+An old wooden rosary.|Старые деревянные чётки.
+<<Glory Be>>|«Да приидет Царствие Твое»
+CHAINSAW (NO FUEL)|БЕНЗОПИЛА (БЕЗ ТОПЛИВА)
+[needs fuel to be functional again]|(необходимо топливо, чтобы снова завести её)
+A deadly tool... if you can manage to make it run again.|Смертельный инструмент... если вы сможете её снова завести.
+<<...>>|«...»
+FUEL|ТОПЛИВО
+(use): attempt to refill something that runs on gasoline|(использовать): попытаться заправить что-нибудь, что требует топлива
+A heavy can filled with fuel.|Тяжёлая канистра, наполненная топливом.
+You refuel the chainsaw, making it usable again. Groovy.|Вы заправляете бензопилу, теперь она снова полезна. Клёво!
+You don't have anything that needs refueling.|У вас нет ничего, что нуждалось бы в заправке.
+<<...>>|«...»
+CHAINSAW|БЕНЗОПИЛА
+Now that it's properly fueled, it should last you for a long time.|Теперь, когда она заправлена - вам хватит её надолго.
+a brutal weapon|брутальное оружие
+RESEARCH NOTES|ИССЛЕДОВАТЕЛЬСКИЕ ЗАМЕТКИ
+(...) The pillars are related to the cult of T(...), a fertility goddess. People here refuse to help us with the work and forbid us from researching the village's archives. (...)|(...) Колонны связаны с культом Т(...), богиней плодородия. Местные отказываются помогать нам с работой и запрещают изучать деревенские архивы. (...)
+You nearly trip over a brick laying on the floor.|Вы чуть не спотыкаетесь о кирпич, лежащий на полу.
+You decide to pick it up.|Вы решаете его подобрать.
+You throw the pack of cigarettes away.|Вы выкидываете пачку сигарет.
+-AURA OF AZAL-HOTH-##<<the cult can't be allowed to have this cursed book!>>##completing a mystery lowers DOOM by 10%#[PASSIVE]|-АУРА АЗАЛ-ХОТХА-##«культ не должен заполучить себе эту проклятую книгу!»##(в конце каждой тайны): отдаляет РОК на 10%
+The NECRONOMICON you've stolen contains powerful spells and horrible secrets.#To activate its power, retrieve more pages when you level up.|НЕКРОНОМИКОН, который вы украли, содержит могущественные заклинания и ужасающие секреты.#Чтобы воспользоваться его силой, находите больше страниц, когда повышаете уровень.
+The power of RAGH-ZHULL fills you! (+1 DAMAGE)|Вас наполняет сила РАГХ-ЗУЛЛА! (+1 УРОНА)
+F'THOTH cleanses your surroundings! (-3% DOOM)|Ф'ТХОТХ очищает ваше окружение! (-3% РОКА)
+You don't have enough experience!|У вас недостаточно опыта!
+SHEBBE cares deeply for her followers!|ШЕББЕ сокровенно заботится о своих последователях!
+So it shall be done. (+15% DOOM)|Да будет так. (+15% РОКА)
+CTHUR-IZTO mends your flesh! (+3 STAMINA / +3 REASON)|КТХУР-ИЗТО восстанавливает вашу плоть! (+3 ВЫНОСЛИВОСТИ, +3 РАССУДКА)
+is trembling with fear.#<<P-please, don't make me attack t-them.>>|дрожит от страха.#«П-пожалуйста, не заставляй меня д-драться.»
+gulps and clenches their fists.# <<w-we'll make it out of this alive, for sure!>>|сглатывает и сжимает кулаки.# «Мы переживём это, точно говорю!»
+barks knowingly.|понимающе лает.
+is wagging its tail.|виляет хвостом.
+looks at you as you pat its head.|смотрит на вас, когда вы гладите его по голове.
+looks around, uncertain.##<<Let's get out of this forest, okay?>>|неуверенно оглядывается.##«Давай выбираться из этого леса, ладно?»
+suddenly stops.##<<W-what was that noise?...>>|внезапно останавливается.##«Ч-что это был за шум?..»
+smiles a bit.##<<At least the weather is nice.>>|слабо улыбается.##«По крайней мере, погода неплохая.»
+shivers.##<<I don't like the way the villagers look at us...>>|дрожит.##«Мне не нравится, как жители смотрят на нас...»
+gets closer.##<<Should we be wearing masks? It looks like everyone else is...>>|подходит ближе.##«Может, нам тоже надеть маски? Похоже, что все их носят...»
+looks around.##<<We spent one summer vacation in this village a few years ago.>>|осматривается.##«Несколько лет назад мы провели в этой деревне летние каникулы.»
+sniffs.##<<What's that smell?>>|принюхивается.##«Что это за запах?»
+grabs your arm.##<<You know, they say this hospital is haunted... but that's just an urban legend, right?>>|берёт вас за руку.##«Знаешь, говорят, что эта больница проклята... но это просто городская легенда, верно?»
+: <<Can I just stay in the waiting room and read a magazine?>>|: «Может, я просто останусь в приёмной и почитаю журнал?»
+touches your arm.##<<There's a nice restaurant around the corner here, are you hungry?>>|берёт вас за руку.##«Тут неподалёку есть неплохой ресторан... может, зайдём?»
+suddenly stiffens.##<<...that man has been following us for a while...>>|внезапно застывает.##«...этот парень преследует нас уже некоторое время...»
+looks at you, waiting.|смотрит на вас, ожидая.
+smiles faintly.|слабо ухмыляется.
+looks around.##<<Did you hear th... nevermind.>>|осматривается.##«Ходит слух, что... неважно.»
+shivers.##<<Is it me or did it suddenly get colder?>>|дрожит.##«Мне кажется, или тут внезапно похолодало?»
+looks at you and blushes.##<<Good thing we're together in this... right?>>|смотрит на вас и краснеет.##«Как хорошо, что мы здесь вместе... верно?»
+hands you a parting gift! (+1 STAT)|вручает вам прощальный подарок! (+1 ХАРАКТЕРИСТИКА)
+leaves the party!|покидает команду!
+--ALLY--|--СОЮЗНИКИ--
+FUJIKO|ФУДЗИКО
+your KICK action deals additional 1 DAMAGE|боевое действие УДАР наносит на 1 УРОНА больше
+<<hrmph...>>|«Хрмпф...»
+[sukeban girl]|(девушка-хулиганка)
+KAZUMI|КАЗУМИ
+cheaper TREATMENT and SURGERY actions|действия ЛЕЧЕНИЯ и ОПЕРАЦИИ становятся дешевле
+<<I can patch that up>>|«Я могу залатать эту рану.»
+[nurse]|(медсестра)
+IWA|ИВА
++2 STRENGTH|+2 СИЛЫ
+<<I'm the best>>|«Я - лучший!»
+[chef]|(шеф)
+ASATO|АСАТО
+(let go): gain 2 SPELLS|(отпустить): получить 2 ЗАКЛИНАНИЯ
+<<follow me>>|«Следуй за мной.»
+[witch]|(ведьма)
+ASATO teaches you a few simple incantations.|АСАТО учит вас нескольким простым заклинаниям.
+DOG|СОБАКА
+higher chance of finding items after combat|повышает шанс на нахождение предметов в конце боя
+<<woof>>|«Гав!»
+[dog]|(собака)
+YOICHI|ЙОИЧИ
+(let go): double your available FUNDS|(отпустить): удваивает ваши СРЕДСТВА
+<<I know all the loopholes>>|«Я знаю все лазейки.»
+[salaryman]|(клерк)
+HERMIT|ОТШЕЛЬНИК
+<<y-you don't ww-ant to learn the truth>>#(let go): -5 REASON#-10% DOOM|«Т-ты не х-хочешь знать правду...»#(отпустить): -5 РАССУДКА#-10% РОКА
+...|...
+[haunted]|(одержимый)
+<<Forget about me...>> (-5 REASON / -10% DOOM)|«Забудь обо мне...» (-5 РАССУДКА, -10% РОКА)
+RYOKO|РИОКО
++1 to weapon's DAMAGE|ОРУЖИЕ наносит одну дополнительную единицу УРОНА
+<<I know a faster way>>|«Я знаю короткий путь!»
+[park ranger]|(смотритель парка)
+CAMP DOG|ПОХОДНАЯ СОБАКА
++1 additional INVENTORY slot|+1 дополнительный СЛОТ ИНВЕНТАРЯ
+<<woof woof>>|«Гав гав!»
+MASAFUMI|МАСАФУМИ
++1 damage against GHOST enemies|вы наносите на 1 УРОНА больше в бою с ПРИЗРАКАМИ
+<<I detect something>>|«Я что-то обнаружил...»
+[ghost hunter]|(охотник за привидениями)
+MARIA|МАРИЯ
++1 CIGARETTE for each defeated enemy|+1 СИГАРЕТА за каждого побеждённого врага
+<<let me paint that>>|«Позволь мне зарисовать это.»
+[haunted artist]|(преследуемая художница)
+MARIA: <<You look like you could use a smoke.>> (+1 CIGARETTE)|МАРИЯ: «Выглядишь так, будто тебе не помешало бы покурить.» (+1 СИГАРЕТА)
+ATTACK DOG|БОЙЦОВСКАЯ СОБАКА
++1 extra DAMAGE|+1 дополнительного УРОНА
+IKUMI|ИКУМИ
++1 to all skill checks in OTHERWORLD locations|+1 ко всем проверкам навыков в ПОТУСТОРОННИХ локациях
+<<these angles don't make sense>>|«Эти углы бессмысленны...»
+[architecture student]|(студентка-архитектор)
+MASAKO|МАСАКО
+faster combat actions, may drain your health|действия в бою становятся быстрее, но вы можете потерять здоровье
+<<let me help you>>|«Давай помогу.»
+[ghastly parasite]|(призрачный паразит)
+MASAKO hovers a little bit too close... (-1 STAMINA)|МАСАКО подлетает слишком близко... (-1 ВЫНОСЛИВОСТИ)
+RYUICHI|РЮЙТИ
+(use): pay 2 FUNDS to lower DOOM by 0-3%|(использовать): заплатить 2 СРЕДСТВ, чтобы отдалить РОК на 0-3%
+<<they will pay for this>>|«Они заплатят за это!»
+[informant with the broken hands]|(информатор со сломанными руками)
+KANA|КАНА
+receive -1 DAMAGE from attacks during combat encounters|во время боя, вы получаете на 1 УРОНА меньше
+ready for adventure|готова к приключениям
+[friendly neighbor][IMPORTANT]|(дружелюбная соседка)(ВАЖНАЯ)
+KYOKO|КИОКО
++5% DOOM#+1 extra DAMAGE|+5% РОКА#+1 дополнительного УРОНА
+the forest wants her dead|лес хочет её смерти
+[missing hiker]|(пропавшая туристка)
+AIKO'S FRIEND|ПОДРУГА АЙКО
+allows one additional INVENTORY slot|даёт один дополнительный СЛОТ ИНВЕНТАРЯ
+carrying an empty bag|несёт пустую сумку
+[she's always had my back]|(она всегда прикрывала меня)
+HIROYUKI MIZUTANI|ХИРОЮКИ МИЗУТАНИ
+completing a mystery regains 1 STAMINA|восстанавливает 1 ВЫНОСЛИВОСТИ в конце тайны
+truth seeker|искатель правды
+[mysterious janitor]|(загадочный уборщик)
+#[HIROYUKI]: +1 STAMINA|#(ХИРОЮКИ): +1 ВЫНОСЛИВОСТИ
+JACOB'S GOLONKA|РУЛЬКА ЯКОВА
+(use): +1 STAMINA, +1 MAX STAMINA#+2% DOOM|(использовать): восстанавливает 1 ВЫНОСЛИВОСТИ, +1 МАКС. ВЫНОСЛИВОСТИ#+2% РОКА
+acquired taste|дело вкуса
+MYSTERY YAKITORI|ЗАГАДОЧНЫЙ ЯКИТОРИ
+(use): +4 REASON, -1 STAMINA|(использовать): восстанавливает 4 РАССУДКА, -1 ВЫНОСЛИВОСТИ
+unknown meat|неизвестное мясо
+RYUICHI sells you important information...|РЮЙТИ продаёт вам важную информацию...
+REIKO|РЕЙКО
+completing a mystery grants 1 FUNDS|даёт 1 СРЕДСТВ в конце тайны
+<<it will be fine, trust me>>|«Всё будет хорошо, поверь мне.»
+[naive socialite]|(наивная светская львица)
+#[REIKO]: +1 FUNDS|#(РЕЙКО): +1 СРЕДСТВ

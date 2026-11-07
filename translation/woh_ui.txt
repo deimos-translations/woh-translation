@@ -1,0 +1,401 @@
+NEW STORY|НОВАЯ ИСТОРИЯ
+OPTIONS|НАСТРОЙКИ
+EXTRA|ДОПОЛНИТЕЛЬНО
+EXIT|ВЫХОД
+WORLD OF HORROR|WORLD OF HORROR
+(CLICK ANYWHERE TO CONTINUE)|НАЖМИТЕ, ЧТОБЫ ПРОДОЛЖИТЬ
+START DEMO|НАЧАТЬ ДЕМО
+MODS|МОДЫ
+VOLUME DOWN|УМЕНЬШИТЬ ГРОМКОСТЬ
+VOLUME UP|УВЕЛИЧИТЬ ГРОМКОСТЬ
+CONTINUE|ПРОДОЛЖИТЬ
+DISPLAY EXTRA MATH|ОТОБРАЖАТЬ ДОПОЛНИТЕЛЬНУЮ МАТЕМАТИКУ
+FULL SCREEN/WINDOWED|ПОЛНЫЙ ЭКРАН/В ОКНЕ
+FULL SCREEN STRETCH: ON/OFF|РАСТЯГИВАНИЕ ОКНА В ПОЛНОМ РЕЖИМЕ: ВКЛ/ВЫКЛ
+1BIT MODE|РЕЖИМ 1-БИТ
+2BIT MODE|РЕЖИМ 2-БИТ
+LAST PALETTE AVAILABLE|ПОСЛЕДНЯЯ ДОСТУПНАЯ ПАЛИТРА
+PREVIOUS PALETTE|ПРОШЛАЯ ПАЛИТРА
+NEXT PALETTE|СЛЕДУЮЩАЯ ПАЛИТРА
+FIRST PALETTE AVAILABLE|ПЕРВАЯ ДОСТУПНАЯ ПАЛИТРА
+DISABLE EXTRA EFFECTS FOR CERTAIN SCENES (MORE FPS)|ОТКЛЮЧИТЬ ДОПОЛНИТЕЛЬНЫЕ ЭФФЕКТЫ ДЛЯ ОПРЕДЕЛЁННЫХ КАТСЦЕН (БОЛЬШЕ FPS)
+1X SCALE|МАСШТАБ 1Х
+2X SCALE|МАСШТАБ 2Х
+3X SCALE|МАСШТАБ 3Х
+FULLSCREEN BORDER STYLE A|СТИЛЬ ГРАНИЦ В ПОЛНОМ РЕЖИМЕ А
+FULLSCREEN BORDER STYLE B|СТИЛЬ ГРАНИЦ В ПОЛНОМ РЕЖИМЕ Б
+FULLSCREEN ON/OFF|ПОЛНЫЙ ЭКРАН: ВКЛ/ВЫКЛ
+VOLUME|ГРОМКОСТЬ
+(LOG IN TO PROCEED)|(ВОЙДИТЕ ДЛЯ ПРОДОЛЖЕНИЯ)
+WHAT'S NEW?|ЧТО НОВОГО?
+cases solved|дел раскрыто
+DOOM|РОК
+ITEM LIMIT|ЛИМИТ ВЕЩЕЙ
+SPELL LIMIT|ЛИМИТ ЗАКЛИНАНИЙ
+CHARACTER LEVEL|УРОВЕНЬ ПЕРСОНАЖА
+EXPERIENCE|ОПЫТ
+ITEMS|ВЕЩИ
+SPELLS|ЗАКЛИНАНИЯ
+STATUS|СТАТУС
+YOU|ВЫ
+OLD GOD|ДРЕВНИЙ БОГ
+TOWN STATUS|СТАТУС ГОРОДА
+ALLIES AND PERKS|СОЮЗНИКИ И СПОСОБНОСТЬ
+'a feeling of paranoia and discomfort is almost palpable in the air...'|чувство паранойи почти что ощутимо в воздухе...
+[as DOOM progresses, OLD GOD's influence will slowly corrupt and change this calm, seaside town]|(по мере приближения РОКА влияние ДРЕВНЕГО БОГА будет медленно порочить и искажать этот спокойный прибрежный город)
+CREDITS AND THANKS|ТИТРЫ И БЛАГОДАРНОСТИ
+ACHIEVEMENTS|ДОСТИЖЕНИЯ
+EVENTS CODEX|СПИСОК СОБЫТИЙ
+ENEMY BESTIARY|БЕСТИАРИЙ ВРАГОВ
+PANTHEON|ПАНТЕОН
+EVENT EDITOR|РЕДАКТОР СОБЫТИЙ
+ENDINGS ENCYCLOPEDIA|ЭНЦИКЛОПЕДИЯ КОНЦОВОК
+RESET YOUR PROGRESS|СБРОСИТЬ ПРОГРЕСС
+!!WARNING!! This will reset your game's progress including achievements and CODEX/BESTIARY entries.|!!ВНИМАНИЕ!! Это сбросит прогресс вашей игры, включая достижения и разделы СПИСОК/БЕСТИАРИЙ.
+Explore the vast cosmos and learn about things older than time.|Исследуйте обширный космос и изучайте вещи, которые старше самого времени.
+Check your achievement progress and plan your next playthrough.|Проверьте свой список достижений и спланируйте следующий забег.
+Check what events you've seen and how many are you still missing.|Проверьте, какие события вы видели, а какие до сих пор пропустили.
+Check what enemies you've defeated and how many are still lurking out there.|Проверьте, каких врагов вы победили, и сколько из них до сих пор таится во тьме.
+Currently, you can only edit the .ito files manually in a text editor. The in-game editor is a work in progress.|На данный момент вы можете редактировать файлы .ito только вручную в текстовом редакторе. Внутриигровой редактор находится в разработке.
+Mods have been temporarily turned off and will be coming soon!# #Thank you for your patience!|Моды были временно выключены и скоро вернутся!# #Спасибо за ожидание!
+back to#menu|вернуться в#меню
+progress|прогресс
+Multiple padlocks prevent you from entering the building.##You need five KEYS.|Замки не дают вам войти в здание.##Вам необходимы пять КЛЮЧЕЙ.
+The ominous lighthouse has been closed down for longer than you can remember...|Зловещий маяк закрыт столько, сколько вы себя помните...
+LEAVE|УЙТИ
+ENTER LIGHTHOUSE|ВОЙТИ В МАЯК
+OPEN PADLOCK|ОТКРЫТЬ ЗАМОК
+You don't have a fitting key to open this padlock.|У вас нет подходящего ключа, чтобы открыть этот замок.
+You used the key to open one of the padlocks.|Вы использовали ключ и открыли один из замков.
+You've already opened this padlock.|Вы уже открыли этот замок.
+One or more padlocks prevents you from entering the lighthouse.|Один или несколько замков не дают вам войти в маяк.
+If it's your first time playing WORLD OF HORROR, it is recommended that you start with the 'SPINE-CHILLING STORY OF SCHOOL SCISSORS' option before trying more complex playthroughs.|Если вы новичок в МИРЕ УЖАСА, то рекомендуется начать с «СУДОРОЖНОГО СЮЖЕТА О САДИСТСКИХ НОЖНИЦАХ», перед тем как пробовать более сложные сценарии.
+QUICK PLAY options|опции БЫСТРОЙ ИГРЫ
+C O M B A T|БОЙ
+DIFFICULTY|СЛОЖНОСТЬ
+TIMELINE|ХРОНОЛОГИЯ
+complexity|сложность
+Would you like to customize your next playthrough's look?##There are many color palettes and display modes to choose from.|Хотели бы вы изменить вид вашего следующего забега?##В игре много цветовых палитр и режимов отображения на ваш выбор.
+#EXTENDED|#РАСШИРЕННОЕ
+(don't ask again)|больше не спрашивать
+(ask again next time)|спросить в следующий раз
+RANDOMIZE|СЛУЧАЙНО
+SPINE-CHILLING STORY OF SCHOOL SCISSORS|СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ
+EXTRACURRICULAR ACTIVITY|ВНЕКЛАССНАЯ ДЕЯТЕЛЬНОСТЬ
+QUICK PLAY|БЫСТРАЯ ИГРА
+(CUSTOMIZE THE PLAYTHROUGH)|НАСТРОИТЬ ЗАБЕГ
+--- DEATH MODE: random ---|--- РЕЖИМ СМЕРТИ: случайно ---
+--- DEATH MODE: LAST STAND ---#Starting new encounters will kill you if you drop below 1 STAMINA/REASON but you can drop to -5 in combat. This option will allow you to rethink your strategy, forget spells or use a healing item.|--- РЕЖИМ СМЕРТИ: ПОСЛЕДНИЙ БОЙ ---#Если вы вступаете в новый бой, имея меньше 1 ВЫНОСЛИВОСТИ/РАССУДКА - вы умираете, но в бою показатели могут опускаться до -5. Эта настройка позволит вам подумать над стратегией, забыть заклинания или использовать лечение.
+--- DEATH MODE: SUDDEN DEATH ---#Dropping below 1 STAMINA/REASON will kill you immediately.#Just like in real life.|--- РЕЖИМ СМЕРТИ: ВНЕЗАПНАЯ СМЕРТЬ ---#Падение ВЫНОСЛИВОСТИ/РАССУДКА ниже 1 убьёт вас мгновенно.#Прямо как в реальной жизни.
+SPINE-CHILLING STORY OF SCHOOL SCISSORS##A tiny section of a standard playthrough, showcasing one of the available mysteries.|СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ##Небольшой отрезок обычного забега, показывающий одну из доступных тайн.
+EXTRACURRICULAR ACTIVITY##This option will prepare the standard [SKEPTIC] playthrough for you, allowing you to start the game without worrying about in-depth stuff for now.|ВНЕКЛАССНАЯ ДЕЯТЕЛЬНОСТЬ##Эта настройка подготовит стандартный (СКЕПТИК) забег, позволяя начать игру, пока что не беспокоясь о деталях.
+A true chaos.#This option will start a new playthrough, randomly selecting CHARACTER, OLD GOD, BACKGROUND and more.|Настоящий хаос.#Эта опция начнёт новый забег, случайно выбрав ПЕРСОНАЖА, ДРЕВНЕГО БОГА, ПРЕДЫСТОРИЮ и так далее.
+Choose your own character, background and other playthrough specifics.|Выберите своего персонажа, предысторию и другие специфики забега.
+FOUND YOU|ПОПАЛИСЬ
+May|Май
+June|Июнь
+customize the playthrough by choosing:#←CHARACTER&BACKGROUND->|настройте забег, выбрав:<-ПЕРСОНАЖА и ПРЕДЫСТОРИЮ->
+CHALLENGES|ИСПЫТАНИЯ
+Test yourself with a selection of challenges|Проверьте свои силы в различных испытаниях
+(locked)|(закрыто)
+Bad decisions, like running from enemies and reading occult books can raise a location's THREAT LEVEL, making it more dangerous to explore in the future.|Плохие решения, такие как побег от врагов и чтение оккультных книг, могут повысить УРОВЕНЬ УГРОЗЫ локации, делая её более опасной для исследования в будущем.
+A quickplay option.##Start the game with a randomly selected CHARACTER and OLD GOD.|Настройка быстрой игры.##Начать игру со случайно выбранными ПЕРСОНАЖЕМ и ДРЕВНИМ БОГОМ.
+EXTRA OPTIONS|ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ
+CULTIST|КУЛЬТИСТ
+MAX STAMINA|МАКС. ВЫНОСЛИВОСТЬ
+MAX REASON|МАКС. РАССУДОК
+start with 4 FUNDS|начать с 4 СРЕДСТВАМИ
+start with 5 FUNDS|начать с 5 СРЕДСТВАМИ
+start with 3 FUNDS|начать с 3 СРЕДСТВАМИ
+start with 0 FUNDS|начать с 0 СРЕДСТВ
+THREAT level increased|уровень УГРОЗЫ повышен
+THREAT level lowered|уровень УГРОЗЫ понижен
+character's STATS decreased|ХАРАКТЕРИСТИКИ персонажа понижены
+stronger enemies|враги сильнее
+weaker enemies|враги слабее
+TRUE BELIEVER|ИСТИННО ВЕРУЮЩИЙ
+INITIATE|НАЧИНАЮЩИЙ
+HARBINGER OF DOOM|ПРЕДВЕСТНИК РОКА
+SKEPTIC|СКЕПТИК
+BASIC OPTIONS|БАЗОВЫЕ НАСТРОЙКИ
+timeline A#(WORLD OF HORROR)|хронология А#(МИР УЖАСА)
+timeline B#(OCCULT CAPITAL OF JAPAN)|хронология Б#(ОККУЛЬТНАЯ СТОЛИЦА ЯПОНИИ)
+Item statistics randomization:#ON##Enables a random cost and statistics variation to all items this playthrough.|Случайные характеристики предметов:#ВКЛ##Включает случайное изменение стоимости и характеристик для всех предметов в этом забеге.
+Item statistics randomization:#OFF##Cost and statistics of all items stay the same every playthrough.|Случайные характеристики предметов:#ВЫКЛ##Стоимость и характеристики всех предметов остаются одинаковыми в каждом забеге.
+When leveling-up, use the character-exclusive perk cards only|При повышении уровня предлагаются только карты, эксклюзивные для этого персонажа.
+When leveling-up the character, enable all unlocked perk cards.|При повышении уровня предлагаются все разблокированные карты способностей.
+prioritize new content|предпочитать новый контент
+keep the content randomized|оставить контент случайным
+[don't randomize the price and statistics of item you find and buy this playthrough]|(не делать случайными цены и характеристики предметов, которые вы находите и покупаете в этом забеге)
+[randomize the price and statistics of item you find and buy this playthrough]|(сделать случайными цены и характеристики предметов, которые вы находите и покупаете в этом забеге)
+[an increased chance of encountering mysteries you have not completed yet]|(повышает шанс столкнуться с тайнами, которые вы ещё не разгадали)
+[an even chance of encountering all mysteries]|(одинаковая возможность столкновения со всеми тайнами)
+[when leveling up, the game will only draw generic and character-exclusive perk cards]|(при повышении уровня игра будет предлагать только обычные и эксклюзивные для вашего персонажа карты способностей)
+[when leveling up, the game will draw random unlocked perk cards]|(при повышении уровня игра будет предлагать случайные разблокированные карты способностей)
+[timeline choice determines the choice of available additional actions and changes in both mysteries and endings]|(хронология определяет выбор доступных дополнительных действий и изменений как в тайнах, так и в концовках)
+[Every year, our city is visited by hundreds of tourists interested in the paranormal]|(Каждый год наш город посещают сотни туристов, заинтересованных в паранормальном)
+SELECT YOUR CHALLENGE|ВЫБЕРИТЕ СВОЁ ИСПЫТАНИЕ
+set difficulty to HOD|установить сложность на "Предвест. рока"
+(MUSIC)|(МУЗЫКА)
+(SFX)|(ЭФФЕКТЫ)
+<<I can't be caught with this...>> [ITEM discarded]|«Меня не должны увидеть с этим...» (ПРЕДМЕТ выброшен)
+#[THERE'S STILL HOPE] -4% DOOM|#НАДЕЖДА ЕЩЁ ЕСТЬ: -4% РОКА
+#[THERE'S STILL HOPE] -3% DOOM|#НАДЕЖДА ЕЩЁ ЕСТЬ: -3% РОКА
+#[THERE IS NO HOPE] -2% DOOM|#НАДЕЖДЫ НЕТ: -2% РОКА
+#[YOU ARE ALREADY DOOMED]|#ВЫ УЖЕ ОБРЕЧЕНЫ
+#[THERE'S STILL HOPE] -5% DOOM|#НАДЕЖДА ЕЩЁ ЕСТЬ: -5% РОКА
+#[THOROUGH INVESTIGATION]: +15 EXP|#ТЩАТЕЛЬНОЕ РАССЛЕДОВАНИЕ: +15 ОПЫТА
+#[TIRELESS]: +1 REASON / STAMINA|#НЕУТОМИМОСТЬ: +1 РАССУДКА, ВЫНОСЛИВОСТИ
+#[TIME PASSES]: +1 DAY|#ВРЕМЯ ЛЕТИТ: +1 ДЕНЬ
+STAMINA|ВЫНОСЛИВОСТЬ
+REASON|РАССУДОК
+FUNDS|СРЕДСТВА
+[WARNING] Your health dropped too low!|(ВНИМАНИЕ) Ваше здоровье опустилось слишком низко!
+[WARNING] You will die at the beginning of your next encounter!|(ВНИМАНИЕ) Вы умрёте в начале следующего боя!
+[!!!] You've got enough experience to level up!|(!!!) У вас достаточно опыта для нового уровня!
+Lost in time and space, you drift in nothingness until something pulls you towards the light...|Потерявшись во времени и пространстве, вы парите в небытие, пока что-то не начинает тянуть вас в сторону света...
+ [strength check]| (проверка на силу)
+ [dexterity check]| (проверка на ловкость)
+ [perception check]| (проверка на восприятие)
+ [knowledge check]| (проверка на интеллект)
+ [charisma check]| (проверка на харизму)
+yes|да
+no|нет
+skip|пропустить
+WELCOME TO 「WORLD OF HORROR」!|ДОБРО ПОЖАЛОВАТЬ В «WORLD OF HORROR»!
+(IMPORTANT MESSAGES WILL APPEAR HERE)|(ЗДЕСЬ БУДУТ ПОЯВЛЯТЬСЯ ВАЖНЫЕ СООБЩЕНИЯ)
+You've sustained a new injury:|Вы получили новую травму -
+You've learned a new spell:|Вы выучили новое заклинание -
+You've started a new mystery:|Вы расследуете новую тайну -
+You've found a new item:|Вы получили новый предмет -
+You've gained a new status:|Вы получили новый статус -
+A new ally has joined you:|Новый союзник присоединился к вам -
+random|случайно
+standard|стандартно
+halloween|хэллоуин
+last stand|последний бой
+sudden death|внезапная смерть
+Start your playthrough with a randomly chosen timeline.|Начните забег со случайно выбранной хронологией.
+TIMELINE A#(WORLD OF HORROR)#Timeline choice determines changes in mysteries and their endings.|ХРОНОЛОГИЯ А#(МИР УЖАСА)#Хронология определяет изменения в тайнах и их концовках.
+TIMELINE B#(OCCULT CAPITAL OF JAPAN)#Every year, our city is visited by hundreds of tourists interested in the paranormal.|ХРОНОЛОГИЯ Б#(ОККУЛЬТНАЯ СТОЛИЦА ЯПОНИИ)#Каждый год наш город посещают сотни туристов, заинтересованных в паранормальном.
+story|сюжет
+easy|легко
+normal|нормально
+hard|сложно
+v.hard|оч. сложно
+Start your playthrough with a randomly chosen difficulty level|Начните забег со случайно выбранным уровнем сложности.
+Get the full gameplay experience with a selection of tiny changes to make the dreadful town of SHIOKAWA a more hospitable place.|Испытайте полноценный игровой опыт с помощью набора крошечных изменений, делающих ужасающий город ШИОКАВА более гостеприимным местом.
+Something weird is happening here but I'm sure that together, we can deal with it!|Здесь происходит что-то странное, но думаю, что вместе мы разберёмся!
+Evil forces are gathering around SHIOKAWA. Let's hope we can make it out alive...|Силы зла собираются вокруг ШИОКАВЫ. Будем надеяться, что мы сможем пережить это...
+We can't save everyone but we have to try.|Мы не можем спасти всех, но нам нужно постараться.
+This place is doomed, flee while you still can!|Это место обречено, бегите, пока ещё можете!
+WORLD OF HORROR#BASE GAME##Card pack containing everything you need to play this 1bit horror investigation game.|WORLD OF HORROR#БАЗОВАЯ ИГРА##Набор карт, содержащий всё что вам нужно для игры в это 1-битное хоррор-расследование.
+WORLD OF HORROR#UNLOCKABLES##Contains all cards you've unlocked through achievements.|WORLD OF HORROR#ОТКРЫТЫЙ КОНТЕНТ##Содержит все карты, которые вы разблокировали через достижения.
+WORLD OF HORROR#MORE STUDENTS##Contains additional#4 skins for random student allies.|WORLD OF HORROR#БОЛЬШЕ УЧЕНИКОВ##Содержит дополнительные#4 образа для случайных союзников-учеников.
+Contains additional eight events and encounters|Содержит восемь дополнительных событий и боёв
+[unlock while playing]|(разблокируйте в игре)
+Contains additional five events and encounters.|Содержит пять дополнительных событий и боёв.
+Contains three additional mysteries.|Содержит три дополнительных тайны.
+One of the core ideas behind WORLD OF HORROR is modularity, allowing you to mix and match various card packs with different content.##Simply select card packs you want to be included and continue by pressing the arrow on the bottom.|Одна из трёх основных идей, лежащих в основе WORLD OF HORROR - это модульность, позволяющая вам смешивать и подбирать различные наборы карт с разным контентом.##Просто выберите наборы карт, которые хотите использовать, и продолжите, нажав на кнопку снизу.
+One last thing... a tall man left a suitcase for you this morning. He said you will know the password.##...I wonder, what could that mean?|И последнее... Высокий мужчина оставил вам чемодан этим утром. Он сказал, что вы знаете пароль.##...Интересно, что бы это значило?
+[CITY OF SHIOKAWA, JAPAN. 198X]#SOMETHING STRANGE IS HAPPENING IN OUR TOWN...|(ГОРОД ШИОКАВА, ЯПОНИЯ. 198X)#НЕЧТО СТРАННОЕ ПРОИСХОДИТ В НАШЕМ ГОРОДЕ...
+ROBED FIGURES CAN BE SEEN GATHERING IN THE WOODS AT NIGHT. PEOPLE ARE GOING MISSING.#DISGUSTING CREATURES ARE TERRORIZING THE SEASIDE...|ФИГУРЫ В РОБАХ СОБИРАЮТСЯ В ЛЕСУ ПО НОЧАМ, ПРОПАДАЮТ ЛЮДИ.#ОТВРАТИТЕЛЬНЫЕ СОЗДАНИЯ ТЕРРОРИЗИРУЮТ ПОБЕРЕЖЬЕ...
+THE RAPID TECHNOLOGICAL PROGRESS OF THE MODERN ERA BRINGS COMFORT...#BUT ALSO NEW UNKNOWN THREATS.|СТРЕМИТЕЛЬНЫЙ ТЕХНОЛОГИЧЕСКИЙ ПРОГРЕСС СОВРЕМЕННОГО МИРА СУЛИТ КОМФОРТ...#НО ТАКЖЕ НОВЫЕ, НЕИЗВЕСТНЫЕ УГРОЗЫ.
+OLD GODS, MALICIOUS ELDRITCH BEINGS WHO RULED THE EARTH EONS AGO,#ARE AWAKENING AS REALITY STARTS TO CRUMBLE...|ДРЕВНИЕ БОГИ, ОПАСНЫЕ ПОТУСТОРОННИЕ СУЩЕСТВА, КОТОРЫЕ ПРАВИЛИ ЗЕМЛЁЙ ЦЕЛЫЕ ЭПОХИ,#ПРОБУЖДАЮТСЯ, КОГДА РЕАЛЬНОСТЬ НАЧИНАЕТ РАЗРУШАТЬСЯ...
+ARMED WITH CLUES, SPELLS, AND YOUR DWINDLING SANITY, YOU'LL INVESTIGATE#MYSTERIES ACROSS THE CITY... AND IN REALMS BEYOND.|ВООРУЖЁННЫЕ УЛИКАМИ, ЗАКЛИНАНИЯМИ И БЫСТРО ИССЯКАЮЩИМ РАЗУМОМ, ВЫ БУДЕТЕ РАССЛЕДОВАТЬ#ТАЙНЫ ЭТОГО ГОРОДА... И ОБЛАСТИ ЗА ГРАНЬЮ МЫСЛИМОГО.
+AN OLD TRAIN SLOWS DOWN AND STOPS AT ITS LAST STATION.##---##THE END OF THE WORLD IS AT HAND, AND YOU'VE FINALLY ARRIVED IN THE DOOMED TOWN...|СТАРЫЙ ПОЕЗД ЗАМЕДЛЯЕТСЯ И ПРИБЫВАЕТ НА КОНЕЧНУЮ СТАНЦИЮ.##---##КОНЕЦ СВЕТА УЖЕ БЛИЗОК, И ВЫ НАКОНЕЦ ПРИБЫЛИ В ЭТОТ ОБРЕЧЁННЫЙ ГОРОД...
+EXTENDED|РАСШИРЕНИЯ
+UNLOCKS:|РАЗБЛОКИРОВАНО:
+[item]|(предмет)
+[location]|(локация)
+[spell]|(заклинание)
+[character]|(персонаж)
+[ally]|(союзник)
+[outfit]|(наряд)
+[backstory]|(предыстория)
+[old god]|(древний бог)
+[game mode]|(режим игры)
+[status]|(статус)
+[card pack]|(набор карт)
+[injury]|(травма)
+CHAIN SMOKER|ЗАЯДЛЫЙ КУРИЛЬЩИК
+at any point in the game, have 30 cigarettes in the inventory|заимейте 30 сигарет в инвентаре в любой момент игры
+JUNIOR PRIEST|МЛАДШИЙ СВЯЩЕННИК
+purify two cursed places in a single playthrough|очистите два проклятых места в одном забеге
+PARANOIA AGENT|АГЕНТ ПАРАНОЙИ
+defeat an enemy with a BASEBALL BAT|победите врага БЕЙСБОЛЬНОЙ БИТОЙ
+PEEPING TOM|ВЫГЛЯДЫВАТЕЛЬ
+discover a hole in the painting|найдите отверстие в картине
+PERFECT DISGUISE|ИДЕАЛЬНАЯ МАСКИРОВКА
+enter the overgrown factory wearing RITUAL ROBE and 'KARUKOSA' MASK|войдите в заросшую фабрику в РИТУАЛЬНОМ ОДЕЯНИИ и МАСКЕ «КАРУКОСА»
+FREQUENT BUYER|ПОСТОЯННЫЙ КЛИЕНТ
+shop for items ten times in a single playthrough|купите 10 предметов в одном забеге
+LIGHTBURN|ЛУЧЕЗАРНЫЙ
+equip two sources of light at the same time|экипируйте два источника света одновременно
+OTHERWORDLY THIRST|ПОТУСТОРОННЯЯ ЖАЖДА
+drink the blood of a forgotten beast and survive|выпейте кровь забытого зверя и выживите
+JUNIOR SCOUT|ЮНЫЙ РАЗВЕДЧИК
+investigate 20 locations with a COMPASS equipped|изучите 20 локаций с экипированным КОМПАСОМ
+HOUSE OF PAPER|БУМАЖНЫЙ ДОМ
+as MIKU, take a hostage wearing TOKYO outfit|за МИКУ, возьмите заложника, пока носите наряд ТОКИО
+THIS IS FOR MY FRIENDS|ЭТО ЗА МОИХ ДРУЗЕЙ
+as AIKO, defeat the MAD JANITOR|за АЙКО, победите БЕЗУМНОГО УБОРЩИКА
+WAIT FOR IT|ВОТ, СЕЙЧАС
+during combat, prepare to strike but don't attack that turn|во время боя приготовьтесь к удару, но не атакуйте в этот ход
+TEAM KILL|КОМАНДНОЕ УБИЙСТВО
+backstab a follower|предайте своего последователя
+SAY HELLO|СКАЖИ ПРИВЕТ
+meet your _other_ neighbor|познакомьтесь с вашим _другим_ соседом
+JUNIOR LIBRARIAN|МЛАДШИЙ БИБЛИОТЕКАРЬ
+discard three books in one playthrough|выбросьте три книги за один забег
+WE DON'T NEED EYES|ТАМ ГЛАЗА НЕ НУЖНЫ
+destroy your eye and open the third one|потеряйте свои глаза, а затем откройте третий
+TRUE IDOL|НАСТОЯЩИЙ ИДОЛ
+at any point in the game, have 4 followers|заимейте 4 последователя в любой момент игры
+CLASSY RITUAL|СТИЛЬНЫЙ РИТУАЛ
+sacrifice your ALLY with a RITUAL DAGGER equipped|пожертвуйте своего СОЮЗНИКА, пока у вас экипирован РИТУАЛЬНЫЙ КЛИНОК
+PEEKING TOM|ПОДГЛЯДЫВАТЕЛЬ
+meet a school wraith haunting the corridor|встретьте школьного призрака, бродящего по коридору
+AWOO|АУ-У-У
+call Junko|позвоните Дзюнко
+PAID IN BLOOD|ПЛАТА КРОВЬЮ
+have your ALLY die during a combat encounter|позвольте СОЮЗНИКУ умереть во время боя
+EXORCISM|ЭКЗОРЦИЗМ
+exorcise a ghost|изгоните призрака
+NEVER-ENDING SUMMER|БЕСКОНЕЧНОЕ ЛЕТО
+change the date and stop the curse|измените дату и остановите проклятие
+RESTLESS|НЕУСТАННОСТЬ
+complete a playthrough without resting|завершите забег, ни разу не отдохнув
+SCHOLAR|УЧЕНИК
+research five spells in a single game|изучите пять заклинаний в одном забеге
+TRANSFER GIRL|НОВАЯ УЧЕНИЦА
+complete a game with the first character|завершите игру за первого персонажа
+FIT GIRL|СПОРТСМЕНКА
+complete a game with the second character|завершите игру за второго персонажа
+THUG SURVIVOR|ВЫЖИВШИЙ БАНДИТ
+complete a game with the third character|завершите игру за третьего персонажа
+IDOL SURVIVOR|ВЫЖИВШИЙ ИДОЛ
+complete a game with the fourth character|завершите игру за четвёртого персонажа
+REPORTER SURVIVOR|ВЫЖИВШИЙ РЕПОРТЁР
+complete a game with the fifth character|завершите игру за пятого персонажа
+LUNGFUL OF AIR|ПОЛНОЙ ГРУДЬЮ
+complete the [COLD TURKEY] challenge|завершите испытание ВСЁ, ЗАВЯЗЫВАЮ
+GROUNDED FOREVER|НАКАЗАНА, НАВСЕГДА
+complete the [BUT DAD!!] challenge|завершите испытание НУ ПАП!
+STUDENT SURVIVOR|ВЫЖИВШАЯ УЧЕНИЦА
+complete a game with the sixth character|завершите игру за шестого персонажа
+CHAOS SURVIVOR|ПЕРЕЖИВШАЯ ХАОС
+complete a game with the seventh character|завершите игру за седьмого персонажа
+BAD LUCK|НЕ ПОВЕЗЛО
+roll a 1 during a stat check|получите единицу во время проверки навыков
+FROM THE BRINK|НА КРАЮ ПРОПАСТИ
+defeat an OLD GOD with over 90% DOOM|победите ДРЕВНЕГО БОГА, имея более 90% РОКА
+NEED NO EDUCATION|УЧЁБА НЕ НУЖНА
+burn down the school building|сожгите здание школы
+BOOP|БУП
+surprise the dog|удивите пёсика
+MY DEAR GHOST|МОЙ ДОРОГОЙ ПРИЗРАК
+complete the [GHASTLY PRESENCE] challenge|завершите испытание ПРИЗРАЧНОЕ ПРИСУТСТВИЕ
+MOST POPULAR IDOL|САМЫЙ ИЗВЕСТНЫЙ ИДОЛ
+complete the [GHOST TOWN] challenge|завершите испытание ГОРОД-ПРИЗРАК
+WORLD SAVED I|МИР СПАСЁН I
+win your first playthrough|выиграйте свой первый забег
+WORLD SAVED II|МИР СПАСЁН II
+win your second playthrough|выиграйте свой второй забег
+WORLD SAVED III|МИР СПАСЁН III
+win your third playthrough|выиграйте свой третий забег
+WORLD SAVED IV|МИР СПАСЁН IV
+win your fourth playthrough|выиграйте свой четвёртый забег
+WORLD DOOMED I|МИР ОБРЕЧЁН I
+lose your playthrough due to REASON loss|проиграйте забег из-за потери РАССУДКА
+WORLD DOOMED II|МИР ОБРЕЧЁН II
+lose your playthrough due to STAMINA loss|проиграйте забег из-за потери ВЫНОСЛИВОСТИ
+PAINTED HOSPITAL|РАСКРАШЕННАЯ БОЛЬНИЦА
+win your fifth playthrough|выиграйте свой пятый забег
+ONYX MEDALLION|ОНИКСОВЫЙ МЕДАЛЬОН
+gather five curses|получите пять проклятий
+WORLD DOOMED III|МИР ОБРЕЧЁН III
+lose your playthrough due to DOOM|проиграйте забег из-за РОКА
+ELDRITCH BACKSTORY I|ЖУТКАЯ ПРЕДЫСТОРИЯ I
+win a playthrough using WORLD OF HORROR backstory|выиграйте забег, используя предысторию МИР УЖАСА
+ELDRITCH BACKSTORY II|ЖУТКАЯ ПРЕДЫСТОРИЯ II
+win a playthrough using MEDICAL HISTORY backstory|выиграйте забег, используя предысторию ПЛОХАЯ МЕДКНИЖКА
+ELDRITCH BACKSTORY III|ЖУТКАЯ ПРЕДЫСТОРИЯ III
+win a playthrough using HUNTED BY THE CULT backstory|выиграйте забег, используя предысторию ПРЕСЛЕДОВАНИЕ КУЛЬТОМ
+ELDRITCH BACKSTORY IV|ЖУТКАЯ ПРЕДЫСТОРИЯ IV
+win a playthrough using SEVENTH CURSE backstory|выиграйте забег, используя предысторию СЕДЬМОЕ ПРОКЛЯТИЕ
+ELDRITCH BACKSTORY V|ЖУТКАЯ ПРЕДЫСТОРИЯ V
+win a playthrough using ILL-FATED backstory|выиграйте забег, используя предысторию ЗЛАЯ СУДЬБА
+CLUB MEMBER|ЧЛЕН КЛУБА
+join the club|вступите в клуб
+ELDRITCH BACKSTORY VI|ЖУТКАЯ ПРЕДЫСТОРИЯ VI
+win a playthrough using KNIGHT ERRANT backstory|выиграйте забег, используя предысторию СТРАНСТВУЮЩИЙ РЫЦАРЬ
+SOFT SIDE|ДОБРАЯ СТОРОНА
+buy and return an expensive drug|купите, а затем верните дорогой препарат его владельцу
+BLOOD DEAL|КРОВАВАЯ СДЕЛКА
+feed an OUTER ENTITY|накормите НЕЗЕМНУЮ СУЩНОСТЬ
+SHIOKAWA HISTORY I|ИСТОРИЯ ШИОКАВЫ I
+unlock 15 achievements|разблокируйте 15 достижений
+SHIOKAWA HISTORY II|ИСТОРИЯ ШИОКАВЫ II
+unlock 20 achievements|разблокируйте 20 достижений
+SHIOKAWA HISTORY III|ИСТОРИЯ ШИОКАВЫ III
+unlock 25 achievements|разблокируйте 25 достижений
+SHIOKAWA HISTORY IV|ИСТОРИЯ ШИОКАВЫ IV
+unlock 30 achievements|разблокируйте 30 достижений
+SHIOKAWA HISTORY V|ИСТОРИЯ ШИОКАВЫ V
+unlock 40 achievements|разблокируйте 40 достижений
+SHIOKAWA HISTORY VI|ИСТОРИЯ ШИОКАВЫ VI
+unlock 50 achievements|разблокируйте 50 достижений
+TRUE DESPAIR|ИСТИННОЕ ОТЧАЯНИЕ
+win a playthrough on hard difficulty|выиграйте забег на высокой сложности
+FINAL STAND I|ПОСЛЕДНИЙ БОЙ I
+reach turn 30 in ENDLESS mode|достигните 30-го хода в БЕСКОНЕЧНОМ режиме
+FINAL STAND II|ПОСЛЕДНИЙ БОЙ II
+reach turn 40 in ENDLESS mode|достигните 40-го хода в БЕСКОНЕЧНОМ режиме
+FINAL STAND III|ПОСЛЕДНИЙ БОЙ III
+reach turn 50 in ENDLESS mode|достигните 50-го хода в БЕСКОНЕЧНОМ режиме
+MIRA|МИРА
+solve the BLUE GEM riddle|решите загадку с СИНИМ САМОЦВЕТОМ
+SOMETHING EVIL|НЕЧТО ЗЛОЕ
+meet and defeat SOMETHING EVIL|встретьте и победите НЕЧТО ЗЛОЕ
+TRUE ANARCHY|ИСТИННАЯ АНАРХИЯ
+complete the [PAROLE VIOLATION] challenge|завершите испытание НАРУШЕНИЕ УДО
+HAIL TO THE KING|СЛАВА КОРОЛЮ
+as MORIKO, defeat an enemy with a working CHAINSAW|за МОРИКО, победите врага, используя рабочую БЕНЗОПИЛУ
+GOOD OLD TIMES|КАК В СТАРЫЕ ДОБРЫЕ
+equip CARPENTER HAMMER with both EXPEL EVIL and REGENERATION learned|экипируйте МОЛОТОК, пока у вас изучены заклинания ИЗГНАНИЕ ЗЛА и РЕГЕНЕРАЦИЯ
+PRIMUM NON NOCERE|PRIMUM NON NOCERE
+defeat DREAM DEVOURER without killing a single patient|победите ПОЖИРАТЕЛЯ СНОВ, не убив ни одного пациента
+SWEATER GIRL|ДЕВУШКА В СВИТЕРЕ
+find the missing girl|найдите пропавшую девушку
+ELDRITCH BACKSTORY VII|ЖУТКАЯ ПРЕДЫСТОРИЯ VII
+win a playthrough using SCARS backstory|выиграйте забег, используя предысторию ШРАМЫ
+ELDRITCH BACKSTORY VIII|ЖУТКАЯ ПРЕДЫСТОРИЯ VIII
+win a playthrough using CURIOUS BIRTHMARK backstory|выиграйте забег, используя предысторию ЛЮБОПЫТНАЯ РОДИНКА
+ELDRITCH BACKSTORY IX|ЖУТКАЯ ПРЕДЫСТОРИЯ IX
+win a playthrough using ELDRITCH PARASITE backstory|выиграйте забег, используя предысторию ПОТУСТОРОННИЙ ПАРАЗИТ
+ELDRITCH BACKSTORY X|ЖУТКАЯ ПРЕДЫСТОРИЯ X
+win a playthrough using EXQUISITE TASTE backstory|выиграйте забег, используя предысторию ИЗЫСКАННЫЙ ВКУС
+ELDRITCH BACKSTORY XXX|ЖУТКАЯ ПРЕДЫСТОРИЯ XXX
+win a playthrough using FATALIST backstory|выиграйте забег, используя предысторию ФАТАЛИСТ
+EVENT EDITOR|РЕДАКТОР СОБЫТИЙ
+EXTRAS|ДОПОЛНИТЕЛЬНО
+TRACK THIS ACHIEVEMENT|ОТСЛЕЖИВАТЬ ДОСТИЖЕНИЕ
+ACHIEVEMENTS|ДОСТИЖЕНИЯ
+Achievements unlocked:|Достижений разблокировано:
+progress|прогресс
+EVENTS|СОБЫТИЯ
+EVENTS CODEX|СПИСОК СОБЫТИЙ
+ENEMIES|ВРАГИ
+ENEMY BESTIARY|БЕСТИАРИЙ ВРАГОВ
+THE OUTER BEING|НЕЗЕМНАЯ СУЩНОСТЬ
+GO BACK|ВЕРНУТЬСЯ
+check all|выбрать всё
+uncheck all|убрать всё
+FULL|ПОЛНОЕ
+coming soon|скоро будет
+CHARACTER|ПЕРСОНАЖ
+BACKSTORY|ПРЕДЫСТОРИЯ
+audio-visual|аудио-визуал
+extra|дополнительно
+language|язык

@@ -1,0 +1,719 @@
+[MONSTER]|(МОНСТР)
+[FEMALE]|(ЖЕНЩИНА)
+[MALE]|(МУЖЧИНА)
+[??]|(??)
+[HUMAN]|(ЧЕЛОВЕК)
+weak against:|слабость к:
+[BLUNT]|(ТУПОЕ)
+[SHARP]|(ОСТРОЕ)
+[VAMPIRE]|(ВАМПИР)
+[FIRE]|(ОГОНЬ)
+[MAGIC]|(МАГИЯ)
+[UNDEAD]|(НЕЖИТЬ)
+No special skill.|Нет особых навыков.
+[ELDRITCH]|(ПОТУСТОРОННЕЕ)
+??|??
+you can't run from this encounter|вы не можете сбежать из этого боя
+[PLANT]|(РАСТЕНИЕ)
+[GHOST]|(ПРИЗРАК)
+[FOUND YOU]|(ПОПАЛИСЬ)
+this enemy can regain health with successful strikes|этот противник может восстанавливать здоровье при успешных атаках
+[Tutorial will continue during combat]|(Обучение продолжится по ходу боя)
+You get bashed in the head!|Вас ударили по голове!
+An old wound reopened!|Старая рана вновь открылась!
+You dodged the attack!|Вы уклонились от атаки!
+You get a feeling you are getting closer.|Вам кажется, что вы приближаетесь.
+You kill|Вы убили
+for plotting against you!|за заговор против вас!
+helps you double your FUNDS!|помогает вам удвоить СРЕДСТВА!
+What went wrong?!... (+3% DOOM)|Что пошло не так?.. (+3% РОКА)
+You don't have enough experience!|У вас недостаточно опыта!
+[story action]|(сюжетное действие)
+time needed|времени необходимо
+(Ritual was too short to have an effect!)|(Ритуал был слишком коротким, чтобы возыметь эффект!)
+(Ritual was too long to have an effect!)|(Ритуал был слишком длинным, чтобы возыметь эффект!)
+Nothing happens! You think you got|Ничего не происходит! Похоже, что вы угадали
+ritual move(s) right!|из ритуальных движений!
+You've successfully banished the ghost! (+15 EXP)|Вы успешно изгнали призрака! (+15 ОПЫТА)
+Nothing happens! This ritual will only work on GHOST enemies!|Ничего не происходит! Этот ритуал действует только на ПРИЗРАКОВ!
+RIBCAGE WOMAN|РЁБЕРНАЯ ЖЕНЩИНА
+Following the ghastly music, you find yourself in a forest.#The sound is getting closer...|Следуя за призрачной музыкой, вы оказываетесь в лесу.#Музыка становится ближе...
+RIBS MELODY|МЕЛОДИЯ РЁБЕР
+A monster obsessed with her twisted sense of beauty.#She takes the rib bones from beautiful women and uses them to hide and protect her own hideous face.|Монстр, одержимый своим искажённым чувством красоты.#Она вырывает рёбра красивых женщин и использует их, чтобы скрыть и защитить своё отвратительное лицо.
+The ribs expand, revealing a disfigured face!|Рёбра раздвигаются, обнажая изуродованное лицо!
+Wires and ribs brush against each other.|Её жилы и рёбра соприкасаются друг с другом.
+RIBCAGE WOMAN scratches you with her nails!|РЁБЕРНАЯ ЖЕНЩИНА царапает вас ногтями!
+RIBCAGE WOMAN stabs you with a rib bone!|РЁБЕРНАЯ ЖЕНЩИНА ударяет вас ребром!
+RIBCAGE WOMAN attacks you!|РЁБЕРНАЯ ЖЕНЩИНА атакует вас!
+RIBCAGE WOMAN closes her ribs on your flesh!|РЁБЕРНАЯ ЖЕНЩИНА захватывает вашу кожу своими рёбрами!
+She tears your flesh apart as she takes a step back!|Она разрывает вашу плоть, делая шаг назад!
+RIOTER|БУНТАРКА
+Suddenly, an empty bottle smashes on the wall behind you.#You cover yourself from the glass fragments and notice a masked assailant holding a baseball bat...|Внезапно пустая бутылка разбивается об стену позади вас.#Вы закрываетесь от осколков стекла и замечаете приближающегося человека в маске, с бейсбольной битой в руках...
+RIOT|БУНТ
+her POWER and damage increase with DOOM|её СИЛА и УРОН увеличиваются вместе с РОКОМ
+One of the many disturbed people. They see the increasing chaos as a way of venting their anger.|Одна из многих неуравновешенных. Они видят в нарастающем хаосе способ выплеснуть свой гнев.
+RIOTER grabs a bottle filled with fuel|БУНТАРКА берёт бутылку, наполненную горючим.
+<<Show me what you've got, loser!>>|«Покажи, что умеешь, лузер!»
+RIOTER hits you with a baseball bat!|БУНТАРКА бьёт вас бейсбольной битой!
+RIOTER kicks you!|БУНТАРКА пинает вас!
+RIOTER assaults you!|БУНТАРКА нападает на вас!
+RIOTER throws a Molotov cocktail at you!|БУНТАРКА кидает в вас коктейль Молотова!
+You are engulfed in flames!|Вас охватывает пламя!
+BLOODSUCKER|КРОВОСОС
+Walking through the hospital corridor, you hear disgusting slurping sounds coming from a closet...|Проходя по больничному коридору, вы слышите отвратительное чавканье, доносящееся из больничной кладовой...
+VAMPIRE|ВАМПИР
+These monsters will do anything to satisfy their unquenchable thirst... even if it means going through years of nursing school so they can inhabit hospitals undetected.|Эти монстры пойдут на что угодно, лишь бы утолить ненасытный голод... даже если придётся терпеть годы медицинского обучения, чтобы незаметно проникать в больницу.
+BLOODSUCKER takes a step back, preparing to jump...|КРОВОСОС делает шаг назад, готовясь к прыжку...
+BLOODSUCKER hisses|КРОВОСОС шипит.
+BLOODSUCKER tears into you!|КРОВОСОС набрасывается на вас!
+BLOODSUCKER bites you!|КРОВОСОС кусает вас!
+BLOODSUCKER grabs you!|КРОВОСОС хватает вас!
+BLOODSUCKER jumps at you, trying to bite your neck!|КРОВОСОС прыгает на вас, пытаясь укусить за шею!
+You are bleeding all over!|Вы истекаете кровью!
+Enemy regains health!|Противник восстанавливает здоровье!
+OBSESSED MAN|ОДЕРЖИМЫЙ МУЖЧИНА
+<<STOP RIGHT THERE!>> you hear a voice coming from behind you!##<<YOU WON'T DESTROY MY LIFE'S WORK!!>>|«Стоять!» - вы слышите голос, доносящийся сзади.##«ТЫ НЕ УНИЧТОЖИШЬ РАБОТУ ВСЕЙ МОЕЙ ЖИЗНИ!»
+CORNERED ANIMAL|ЗАГНАННЫЙ ЗВЕРЬ
+when injured, they deal double damage|когда этот враг ранен, он наносит двойной урон
+A violent man obsessed to the point of madness.|Жестокий человек, одержимый до безумия.
+OBSESSED MAN punches you!|ОДЕРЖИМЫЙ МУЖЧИНА ударяет вас!
+OBSESSED MAN kicks you!|ОДЕРЖИМЫЙ МУЖЧИНА пинает вас!
+OBSESSED MAN attacks you!|ОДЕРЖИМЫЙ МУЖЧИНА атакует вас!
+The enemy roars in rage!|Враг ревёт от ярости!
+HEADLESS MANNEQUIN|БЕЗГОЛОВЫЙ МАНЕКЕН
+A headless person stumbles out of the sculpting classroom...#and it's reaching for your head!|Безголовая фигура, спотыкаясь, выходит из кабинета искусства...#и тянется к вашей голове!
+NECK GRAB|ЗАХВАТ ЗА ШЕЮ
+their attacks may cause additional damage|атаки этого врага могут нанести дополнительный урон
+An animated statue longing for a human head of its own.|Ожившая статуя, мечтающая о собственной человеческой голове.
+HEADLESS MANNEQUIN cuts you with a knife!|БЕЗГОЛОВЫЙ МАНЕКЕН режет вас ножом!
+HEADLESS MANNEQUIN grabs you by the neck!|БЕЗГОЛОВЫЙ МАНЕКЕН хватает вас за шею!
+HEADLESS MANNEQUIN stabs you!|БЕЗГОЛОВЫЙ МАНЕКЕН пронзает вас!
+The enemy grabs your head and starts pulling! (-1ALL)|Противник хватает вас за голову, и начинает тянуть! (-1 ВСЕХ)
+CANUS, THE LUNAR CAT|КАНУС, ЛУННЫЙ КОТ
+Cool air suddenly fills your mouth; it tastes metallic.##Before you can react, you hear a low growling sound coming from behind you...|Внезапно вам в нос бьёт прохладный воздух, оставляя металлический привкус.##Прежде чем вы успеваете среагировать, вы слышите низкое рычание, доносящееся сзади...
+LUNAR NIGHTMARE|ЛУННЫЙ УЖАС
+their damage equals to 1 plus the number of your allies|его урон равен 1 + количество ваших союзников
+Hailing from the lush jungles of Tindalos, the lunar cats prey on struggling artists, sending them nightmares.|Родом из густых джунглей Тиндалоса, ЛУННЫЙ КОТ охотится на бедных художников, насылая на них кошмары.
+CANUS whispers horrible things to you!|КАНУС шепчет вам ужасные вещи!
+CANUS scratches you!|КАНУС царапает вас!
+CANUS tears into you!|КАНУС набрасывается на вас!
+HOLE-RIDDEN THING|ДЫРЯВОЕ СОЗДАНИЕ
+Suddenly, a wall before you withers and falls apart, revealing a hole-ridden monstrosity...|Внезапно стена перед вами увядает и разваливается, обнажая продырявленное насквозь чудовище...
+LOST DETECTIVE|ПРОПАВШИЙ ДЕТЕКТИВ
+Once a detective investigating a missing person case, now he's slowly turning into a monster seeking those who have also found the cursed jade statuette.|Некогда он расследовал дело о пропавшем человеке, а теперь медленно превращается в монстра, разыскивающего тех, кто тоже нашёл проклятую нефритовую статуэтку.
+HOLE-RIDDEN THING suddenly stops...|ДЫРЯВОЕ СОЗДАНИЕ внезапно останавливается...
+HOLE-RIDDEN THING smirks a little... you think.|ДЫРЯВОЕ СОЗДАНИЕ слегка ухмыляется... как вам кажется.
+Just by standing nearby, you feel sick!|Лишь стоя рядом, вам уже не по себе!
+Its presence makes you weaker!|Его присутствие ослабляет вас!
+HOLE-RIDDEN THING attacks you!|ДЫРЯВОЕ СОЗДАНИЕ атакует вас!
+Just by standing nearby, you feel weaker!|Лишь стоя рядом, вы ослабеваете!
+HOLE-RIDDEN THING reaches its hand and...|ДЫРЯВОЕ СОЗДАНИЕ вытягивает руку, и...
+Your exposed skin bursts into holes!|Ваша кожа покрывается дырами!
+LEECH GIRL|ДЕВУШКА С ПИЯВКАМИ
+A shape shimmers beneath the surface. With a splashy sound, something emerges from the murky depths...|Под поверхностью мерцает какая-то фигура. С плеском что-то восстаёт из мутных глубин...
+MORBID FUMES|ЗАРАЗНЫЕ ИСПАРЕНИЯ
+a random chance of losing additional health|вы имеете случайный шанс потерять дополнительное здоровье
+Strangled by her jealous girlfriend, she became food for leeches. Now, they are looking for a new host.|Будучи задушенной завидующей подругой, она стала едой для пиявок. Теперь они ищут нового носителя.
+Leeches start crawling towards you!|Пиявки начинают ползти к вам!
+LEECH GIRL smiles.|ДЕВУШКА С ПИЯВКАМИ ухмыляется.
+LEECH GIRL attack you!|ДЕВУШКА С ПИЯВКАМИ атакует вас!
+LEECH GIRL hits you!|ДЕВУШКА С ПИЯВКАМИ ударяет вас!
+LEECH GIRL punches you!|ДЕВУШКА С ПИЯВКАМИ бьёт вас!
+Taking a step back, you slip and fall!|Делая шаг назад, вы спотыкаетесь и падаете!
+Slimy leeches get stuck to your skin!|Склизкие пиявки присасываются к вашей коже!
+You start coughing badly... (-1 STAMINA)|Вы начинаете сильно кашлять... (-1 ВЫНОСЛИВОСТИ)
+SCISSOR WOMAN|ЖЕНЩИНА С НОЖНИЦАМИ
+Twisting and twitching, the demon woman enters the classroom, cackling menacingly...#<<Am I beautiful?>>|Извиваясь и дёргаясь, демоническая женщина входит в класс, угрожающе хихикая...#«Я прекрасна?»
+DEMON|ДЕМОН
+A morbid urban legend. OLD GOD's corrupting influence has made it real.|Жуткая городская легенда. Порочное влияние ДРЕВНЕГО БОГА сделало её реальной.
+SCISSOR WOMAN raises her scissors!|ЖЕНЩИНА С НОЖНИЦАМИ поднимает свои ножницы!
+SCISSOR WOMAN cackles menacingly|ЖЕНЩИНА С НОЖНИЦАМИ угрожающе смеётся...
+SCISSOR WOMAN stabs you, covering the wall in blood!|ЖЕНЩИНА С НОЖНИЦАМИ пронзает вас, покрывая стену кровью!
+SCISSOR WOMAN stabs you!|ЖЕНЩИНА С НОЖНИЦАМИ пронзает вас!
+SCISSOR WOMAN slashes you with her scissors!|ЖЕНЩИНА С НОЖНИЦАМИ режет вас ножницами!
+SCISSOR WOMAN cuts your face!|ЖЕНЩИНА С НОЖНИЦАМИ изрезает ваше лицо!
+You feel your cheeks split in half!|Вы чувствуете, что вашу щеку разрезало надвое!
+TATORU|ТАТОРУ
+You follow the faint sound to a telephone line pole.#The moment you notice giant hairy balls underneath it, they start to twitch and rise...|Слабый звук ведёт вас к столбу телефонной линии.#Когда вы замечаете огромные мохнатые шары под ним, они начинают дёргаться и подниматься...
+TATTLE|БОЛТОВНЯ
+Parasitic monsters who connect to random people through telephone lines, using tales of idle gossip to lure these victims to a remote spot to be ambushed and eaten.|Паразитические монстры, которые подключаются к случайным людям по телефонным линиям, сплетнями заманивают жертв в отдалённые места, где подкарауливают их и съедают.
+TATORU flies closer...|ТАТОРУ подлетает ближе...
+<<Did you see what that woman was wearing?...>>|«Ты представляешь, во что была одета та женщина...»
+TATORU tries to kiss you with its giant lips!|ТАТОРУ пытается поцеловать вас своими гигантскими губами!
+TATORU attacks you!|ТАТОРУ атакует вас!
+TATORU hits you!|ТАТОРУ ударяет вас!
+TATORU gives you a huge smooch and giggles.|ТАТОРУ крепко целует вас и хихикает.
+Your skin burns!|Ваша кожа горит!
+MAYIMA|МАЙИМА
+Suddenly, a familiar person climbs out of the manhole...|Внезапно, знакомый человек вылезает из люка...
+GHASTLY GUEST|ПРИЗРАЧНЫЙ ГОСТЬ
+What are you doing here?|Что ты здесь делаешь?
+MAYIMA punches you!|МАЙИМА ударяет вас!
+MAYIMA kicks you!|МАЙИМА пинает вас!
+MAYIMA attacks you!|МАЙИМА атакует вас!
+BLOATED SWIMMER|РАЗДУТЫЙ ПЛОВЕЦ
+Something was in the water. Hands grab you by the legs and begin dragging you downward...##The tragic accident at the pool was all but forgotten...#until now.|В воде что-то было. Чьи-то руки хватают вас за ноги и начинают утаскивать вниз...##Трагическое происшествие в бассейне было полностью забыто...#до сих пор.
+BLOATED BELLY|РАЗДУТЫЙ ЖИВОТ
+may explode when attacked|может взорваться после получения урона
+The tragic accident at the pool was all but forgotten... until now.|Трагическое происшествие в бассейне было полностью забыто... до сих пор.
+BLOATED SWIMMER smacks you with a tentacle!|РАЗДУТЫЙ ПЛОВЕЦ хлещет вас щупальцем!
+BLOATED SWIMMER attacks you!|РАЗДУТЫЙ ПЛОВЕЦ атакует вас!
+BLOATED SWIMMER hits you!|РАЗДУТЫЙ ПЛОВЕЦ ударяет вас!
+APARTMENT STALKER|КВАРТИРНЫЙ СТАЛКЕР
+You hear rustling on the other side of your apartment door.#Someone is trying to get in...|Вы слышите возню по ту сторону двери вашей квартиры.#Кто-то пытается попасть внутрь...
+CONCUSSION|СОТРЯСЕНИЕ
+his attacks can randomly cause CONCUSSION status|атаки врага с некоторым шансом могут наложить статус СОТРЯСЕНИЕ
+There's a rumor of a masked assailant going door to door beating tenants with a baseball bat. But that's just a story, right?...|Ходят слухи о преступнике в маске, который ходит от двери к двери и избивает жильцов бейсбольной битой. Но это лишь байка, верно?..
+APARTAMENT STALKER bashes you in the head with his baseball bat!|КВАРТИРНЫЙ СТАЛКЕР ударяет вас по голове бейсбольной битой!
+APARTAMENT STALKER lunges at you with his bat!|КВАРТИРНЫЙ СТАЛКЕР замахивается на вас битой!
+APARTAMENT STALKER attacks you!|КВАРТИРНЫЙ СТАЛКЕР атакует вас!
+TOILET GHOST|ТУАЛЕТНЫЙ ПРИЗРАК
+You back off from the toilet as the door slowly opens. A girl in a tattered uniform is standing there. Her head twists unnaturally as she makes a roaring, rattling noise.#A door behind you slams shut.|Вы отходите от кабинки туалета, когда она медленно открывается. Внутри стоит девушка в оборванной форме. Её голова неестественно поворачивается, и она издаёт ужасный, звенящий рёв.#Выход из туалета позади вас закрывается.
+Rumors tell of a female ghost occupying the last stall in the toilet on the third floor.|Ходят слухи о призраке-женщине, занимающей последнюю туалетную кабинку на третьем этаже.
+TOILET GHOST starts twitching.|ТУАЛЕТНЫЙ ПРИЗРАК начинает подёргиваться.
+TOILET GHOST circles you slowly...|ТУАЛЕТНЫЙ ПРИЗРАК медленно кружит вокруг вас...
+TOILET GHOST's hand flies through your chest!|Рука ТУАЛЕТНОГО ПРИЗРАКА пролетает сквозь вашу грудь!
+TOILET GHOST freaks you out!|ТУАЛЕТНЫЙ ПРИЗРАК пугает вас!
+TOILET GHOST sucks REASON out of you!|ТУАЛЕТНЫЙ ПРИЗРАК высасывает из вас РАССУДОК!
+TOILET GHOST flies through your body!|ТУАЛЕТНЫЙ ПРИЗРАК пролетает сквозь ваше тело!
+You can feel your sanity leaving with her!|Вы чувствуете, как рассудок покидает вас вместе с ней!
+ANIMATED HEAD|ОЖИВШАЯ ГОЛОВА
+You were startled when you discovered that headless body.##You were horrified when you saw its head, hanging in the middle of the room and laughing!...|Вы вздрагиваете, обнаружив обезглавленное тело.##На вас нахлынивает ужас, когда вы видите смеющуюся голову, висящую посреди комнаты!
+A grieving husband tried to reanimate his tragically lost wife. His spell worked partially, reviving just the corpse's hair.#The detached head ripped out his throat mere seconds later.|Горюющий муж, попытавшийся возродить трагично умершую жену. Его заклинание частично сработало, возродив лишь волосы на трупе.#Оторванная голова разорвала ему горло всего через несколько секунд.
+ANIMATED HEAD wraps its hair around you!|ОЖИВШАЯ ГОЛОВА обвивает свои волосы вокруг вас!
+ANIMATED HEAD attacks you!|ОЖИВШАЯ ГОЛОВА атакует вас!
+ANIMATED HEAD bites you!|ОЖИВШАЯ ГОЛОВА кусает вас!
+MAD JANITOR|БЕЗУМНЫЙ УБОРЩИК
+Not giving up after the previous failure, the obsessed janitor has found another body to experiment on - you!|Не сдаваясь после предыдущего эксперимента, одержимый уборщик нашёл новое тело для опытов - ваше!
+RELENTLESS|УПОРНЫЙ
+A man obsessed with mermaids. One day he decided to make his own.|Человек, одержимый русалками. Однажды он решил создать собственную.
+MAD JANITOR raises his axe|БЕЗУМНЫЙ УБОРЩИК поднимает топор.
+He swings his axe menacingly.|Он угрожающе размахивает топором.
+MAD JANITOR swings his axe!|БЕЗУМНЫЙ УБОРЩИК размахивает топором!
+MAD JANITOR strikes you!|БЕЗУМНЫЙ УБОРЩИК поражает вас!
+MAD JANITOR attacks you with his axe!|БЕЗУМНЫЙ УБОРЩИК атакует вас топором!
+MAD JANITOR swings down his axe!|БЕЗУМНЫЙ УБОРЩИК наносит удар топором!
+It hits you, dealing massive damage!|Он наносит по вам удар, нанося огромный урон!
+CULT DELINQUENT|КУЛЬТИСТ-НАЛЁТЧИК
+You try to lose the masked man who has been following you the whole morning. You eventually find yourself in a dead end.#Looking for a way out, you hear a branch snapping behind you...|Вы пытаетесь оторваться от человека в маске, преследующего вас всё утро. В один момент вы оказываетесь в тупике.#В поисках выхода вы слышите, как позади вас кто-то наступает на ветку...
+MAYHEM|ХАОС
+each successful attack raises DOOM by 1%|каждая успешная атака врага приближает РОК на 1%
+A member of a local cult serving their eldritch masters.|Участник местного культа, служащий своим потусторонним хозяевам.
+CULT DELINQUENT stabs you with a dagger!|КУЛЬТИСТ-НАЛЁТЧИК ударяет вас кинжалом!
+CULT DELINQUENT attacks you!|КУЛЬТИСТ-НАЛЁТЧИК атакует вас!
+CULT DELINQUENT kicks you!|КУЛЬТИСТ-НАЛЁТЧИК пинает вас!
+MAGICIAN|ВОЛШЕБНИК
+<<Our master is coming and we all can bask in its glory!>>|«Наш хозяин приближается и всё, что мы можем сделать - греться в лучах его славы!»
+RELENTLESS|БЕЗЖАЛОСТНЫЙ
+One of the many people granted maddening powers by the OLD GOD.|Один из многих людей, одарённых безумной силой самим ДРЕВНИМ БОГОМ.
+MAGICIAN saps strength from you!|ВОЛШЕБНИК вытягивает из вас силу!
+MAGICIAN sends you flying!|ВОЛШЕБНИК отправляет вас в полёт!
+MAGICIAN attacks you!|ВОЛШЕБНИК атакует вас!
+DREAM DEVOURER|ПОЖИРАТЕЛЬ СНОВ
+The creature causing the contagious coma plaguing your town has taken notice of you! You must defend yourself or perish!|Существо, вызывающее заразную кому, мучающую ваш город, заметило вас! Защищайтесь или умрите!
+A cosmic parasite feeding off the dreams and memories of ordinary people.|Космический паразит, питающийся снами и воспоминаниями обычных людей.
+DREAM DEVOURER tries to swallow you whole!|ПОЖИРАТЕЛЬ СНОВ пытается проглотить вас заживо!
+Your mind is on fire!|Ваш разум в смятении!
+DREAM DEVOURER melts your memories!|ПОЖИРАТЕЛЬ СНОВ растворяет ваши воспоминания!
+DREAM DEVOURER tears at your flesh!|ПОЖИРАТЕЛЬ СНОВ разрывает вашу плоть!
+DREAM DEVOURER feeds on your nightmares!|ПОЖИРАТЕЛЬ СНОВ питается вашими страхами!
+DREAM DEVOURER... smiles?|ПОЖИРАТЕЛЬ СНОВ... ухмыляется?..
+DREAM DEVOURER grabs you!|ПОЖИРАТЕЛЬ СНОВ хватает вас!
+STALKER GIRL|ДЕВУШКА-СТАЛКЕР
+She said she would do everything to be with you, even if it meant to cheat death itself...|Она сказала, что сделает всё, чтобы быть с вами, даже если это означает обмануть саму смерть...
+A girl so in love with you, she killed herself in a ritual to bond you together.|Девушка любит вас настолько, что пожертвовала собственной жизнью в ритуале, дабы связать вас навеки.
+STALKER GIRL scratches you!|ДЕВУШКА-СТАЛКЕР царапает вас!
+STALKER GIRL bites you!|ДЕВУШКА-СТАЛКЕР кусает вас!
+STALKER GIRL jumps at you with sinister laughter!|ДЕВУШКА-СТАЛКЕР прыгает на вас, жутко хохоча!
+YOUNG WITCH|ЮНАЯ ВЕДЬМА
+Hearing footsteps behind you, you realize you aren't the only student here. A girl wearing a demon's mask starts giggling as she gets closer...|Слыша шаги позади, вы понимаете, что вы здесь не одни. Девушка в маске демона, приближаясь, хихикает...
+LOVE SPELL|ПРИВОРОТ
+male characters suffer additional REASON damage|мужские персонажи получают дополнительный урон по РАССУДКУ
+Amateur magician for whom simple love spells proved to be insufficient. Why stop at just one boy, she said one day, when you can have them all?|Волшебница-любительница, которой простые привороты показались слабыми. Зачем останавливаться на одном парне, сказала она, когда можно заполучить всех?
+YOUNG WITCH takes a step back, preparing to strike.|ЮНАЯ ВЕДЬМА делает шаг назад, готовясь к удару.
+YOUNG WITCH giggles.|ЮНАЯ ВЕДЬМА хихикает.
+YOUNG WITCH slashes you with a boxcutter!|ЮНАЯ ВЕДЬМА режет вас канцелярским ножом!
+YOUNG WITCH attacks you!|ЮНАЯ ВЕДЬМА атакует вас!
+YOUNG WITCH takes a swing with her boxcutter...|ЮНАЯ ВЕДЬМА замахивается канцелярским ножом...
+YOUNG WITCH slashes you across the neck!|ЮНАЯ ВЕДЬМА разрезает вам шею!
+A minor artery is opened, spraying her with blood!|Малая артерия вскрывается, разбрызгивая на неё кровь!
+There is something strangely charming about her...|В ней есть нечто жутко привлекательное...
+GHOUL|ГУЛЬ
+A sudden growl, coming from behind a corner, makes you stop...|Внезапный рык, доносящийся из-за угла, заставляет вас остановиться...
+CORPSE EATER|ПОЖИРАТЕЛЬ ТРУПОВ
+The creatures hiding themselves in our society by day, and eating corpses by night.|Существа, прячущиеся среди нас днём и пожирающие трупы ночью.
+(placeholder)|(placeholder)
+(placeholder)|(placeholder)
+GHOUL bites you!|ГУЛЬ кусает вас!
+GHOUL scratches you!|ГУЛЬ царапает вас!
+GHOUL attacks you!|ГУЛЬ атакует вас!
+RUMU GHOST|ПРИЗРАК РУМУ
+Countless spoons fly out of a cupboard when a ghastly figure materializes in the middle of the room...|Бесчисленное количество ложек вылетает из буфета, когда посреди комнаты материализуется жуткая фигура...
+CHEEP|ПИСК
+An actor who died in a tragic spoon accident.|Актёр, погибший в трагическом происшествии с ложкой.
+|
+|
+RUMU GHOST freezes you!|ПРИЗРАК РУМУ обездвиживает вас!
+RUMU GHOST sucks your life force away!|ПРИЗРАК РУМУ высасывает вашу жизненную силу!
+RUMU GHOST attacks you!|ПРИЗРАК РУМУ атакует вас!
+ASPIRING MODEL|НАЧИНАЮЩАЯ МОДЕЛЬ
+Hearing footsteps, you turn around. Behind you stands a pretty woman in a sweater.#<<natural beauty... yes, this is exactly what I need>>##You shudder seeing the weird woman reaching into her pocket and producing a nasty-looking knife.###<<pretty face... mind if I borrow it?>>|Услышав шаги, вы разворачиваетесь. Позади вас стоит красивая женщина в свитере.#«Естественная красота... да, это именно то, что мне нужно...»##Вы вздрагиваете, когда странная женщина достаёт из кармана отвратительно выглядящий нож.###«Милое личико... не против, если я его позаимствую?»
+A desperate woman who will do -anything- to get noticed.|Отчаявшаяся женщина, которая сделает -всё что угодно-, чтобы получить внимание.
+ASPIRING MODEL cuts you with her knife!|НАЧИНАЮЩАЯ МОДЕЛЬ режет вас ножом!
+ASPIRING MODEL scratches you!|НАЧИНАЮЩАЯ МОДЕЛЬ царапает вас!
+ASPIRING MODEL attacks you!|НАЧИНАЮЩАЯ МОДЕЛЬ атакует вас!
+<<WHAT HAVE YOU DONE?! MY FACE... IT'S RUINED!>>|«ЧТО ТЫ ДЕЛАЕШЬ?! МОЁ ЛИЦО... ИЗУРОДОВАНО!»
+AKA MANTO|АКА МАНТО
+You hear a click coming from the door's direction.##You're locked in here with this crazy man!|Вы слышите, как щёлкает дверь.##Вы заперты здесь с этим безумцем!
+The man wearing a red coat, preying on helpless students.|Мужчина в красном пальто, который охотится на беспомощных учеников.
+AKA MANTO starts swinging his knife.|АКА МАНТО начинает размахивать ножом!
+You can't see any way out!|Вы не видите пути наружу!
+AKA MANTO is choking you!|АКА МАНТО удушает вас!
+AKA MANTO stabs you!|АКА МАНТО ударяет вас!
+AKA MANTO attacks you!|АКА МАНТО атакует вас!
+AKA MANTO steps closer and lifts you up...|АКА МАНТО подходит ближе и хватает вас...
+He stabs you multiple times!|Он несколько раз пронзает вас ножом!
+KINOKO GATHERER|СБОРЩИК КИНОКО
+What you thought was just a discarded pile of clothes suddenly moves. As it stands up, a cloud of white powder is released into the air...|То, что вам показалось лишь кучей выброшенной одежды, внезапно приходит в движение. Когда она поднимается, в воздухе возникает облачко белой пыли...
+Infected with a rare mold, this man has turned into a fungal colony.|Инфицированный редкой плесенью, этот мужчина стал колонией для грибов.
+KINOKO GATHERER's fungal spores make you cough!|Грибные споры СБОРЩИКА КИНОКО вызывают у вас кашель!
+KINOKO GATHERER stabs you with a knife!|СБОРЩИК КИНОКО ударяет вас ножом!
+KINOKO GATHERER attacks you!|СБОРЩИК КИНОКО атакует вас!
+FORGOTTEN SPECIMEN|ЗАБЫТЫЙ ВИД
+You carefully enter the biology classroom.#The room seems empty at first, until you switch the lights on. You gasp in horror. Lying in a pool of blood is one of the teachers, with a fruit knife in their hand. There's a jar of formaldehyde on the nearest table. Mesmerized by the spiral pattern on the sea creature's skin, you step over the dead body and come closer...##And then the voices start...|Вы осторожно входите в кабинет биологии.#На первый взгляд комната выглядит пустой, пока вы не включаете свет. Вы в ужасе ахаете: один из учителей лежит в луже крови с ножом для чистки фруктов в руке. На столе рядом стоит банка с формальдегидом. Спиральные узоры на коже морского существа гипнотизируют вас, вы переступаете через мёртвое тело, подходите ближе...##И начинаете слышать голоса...
+A body of an unknown sea creature floating gently in a jar of formaldehyde.|В банке с формальдегидом плавает тело неизвестного морского существа.
+Everything in the classroom starts to waver.|Всё в классе начинает трястись.
+You can't break the FORGOTTEN SPECIMEN's gaze.|Вы не можете оторвать взгляд от ЗАБЫТОГО ВИДА.
+You involuntarily attack yourself!|Вы непроизвольно атакуете себя!
+You are forced to attack yourself!|Вы вынуждены атаковать себя!
+You involuntarily attack yourself!|Вы непроизвольно атакуете себя!
+Your headache gets worse and worse...|Ваша голова болит всё сильнее и сильнее...
+A blood vessel pops in your brain!|В вашем мозгу лопается кровеносный сосуд!
+AKA MANTO (TRUE FORM)|АКА МАНТО (ИСТИННАЯ ФОРМА)
+The tall man in the red coat slowly takes their mask off as stall walls wither and rot, and reality starts to crumble...|Высокий мужчина в красном пальто медленно снимает свою маску, пока стены вокруг начинают увядать и гнить, а реальность - рушиться...
+The ageless horror, awakening once again to sate its hunger.|Вечный ужас, пробудившийся вновь, чтобы утолить свой голод.
+Something doesn't feel right...|Что-то не так...
+W-where are you?|Г-где вы?..
+AKA MANTO is choking you!|АКА МАНТО удушает вас!
+AKA MANTO stabs you!|АКА МАНТО ударяет вас!
+AKA MANTO attacks you!|АКА МАНТО атакует вас!
+AKA MANTO steps closer and lifts you up...|АКА МАНТО подходит ближе и хватает вас...
+In his face you see all your worst fears!|В его лице вы видите все свои худшие страхи!
+BLOATED TEACHER|РАЗДУТЫЙ УЧИТЕЛЬ
+A bloated figure emerges from the murky water blocking your only way out of the pool...|Раздутая фигура встаёт из мутной воды, перекрывая единственный путь из бассейна...
+BLOATED LEGION|РАЗДУТЫЙ ЛЕГИОН
+The remains of a long-forgotten teacher.|Останки давным-давно забытого учителя.
+BLOATED TEACHER disappears underwater!|РАЗДУТЫЙ УЧИТЕЛЬ исчезает под водой!
+BLOATED TEACHER gurgles and murmurs.|РАЗДУТЫЙ УЧИТЕЛЬ булькает и бормочет.
+BLOATED TEACHER hits you!|РАЗДУТЫЙ УЧИТЕЛЬ ударяет вас!
+BLOATED TEACHER attacks you!|РАЗДУТЫЙ УЧИТЕЛЬ атакует вас!
+BLOATED TEACHER attacks you!|РАЗДУТЫЙ УЧИТЕЛЬ атакует вас!
+BLOATED TEACHER emerges from the water!|РАЗДУТЫЙ УЧИТЕЛЬ поднимается из воды!
+He forces pieces of his rancid flesh into your mouth!|Он насильно пихает свою тухлую плоть вам в рот!
+SCISSOR WOMAN (HORROR)|ЖЕНЩИНА С НОЖНИЦАМИ (УЖАС)
+INFESTED GIRL|ЗАРАЖЁННАЯ ДЕВУШКА
+A wet splash behind you makes you stop. You slowly turn around to see a young girl sluggishly walking in your direction.#In her eyeball, there's a swarm of disgusting worms. One of them falls to the floor with a wet splash....|Влажный всплеск позади заставляет вас остановиться. Вы медленно оборачиваетесь и видите молодую девушку, вяло бредущую в вашу сторону.#В её глазнице роятся отвратительные черви. Один из них падает на пол, всплёскивая воду...
+INFESTED|ЗАРАЖЁННАЯ
+This girl must've eaten too many worm eggs that supposedly keep people slim.#It seems like they've hatched in the wrong place...|Эта девушка, должно быть, съела слишком много яиц червей, которые якобы помогают не толстеть.#Похоже, они обосновались не в том месте...
+INFESTED GIRL reaches into her eye socket.|ЗАРАЖЁННАЯ ДЕВУШКА лезет рукой в свою глазницу.
+INFESTED GIRL coughs up a handful of worms.|ЗАРАЖЁННАЯ ДЕВУШКА выкашливает горсть червей.
+INFESTED GIRL hits you!|ЗАРАЖЁННАЯ ДЕВУШКА ударяет вас!
+INFESTED GIRL scratches your face!|ЗАРАЖЁННАЯ ДЕВУШКА царапает ваше лицо!
+INFESTED GIRL attacks you!|ЗАРАЖЁННАЯ ДЕВУШКА атакует вас!
+INFESTED GIRL grabs a handful of worms...|ЗАРАЖЁННАЯ ДЕВУШКА берёт горсть червей...
+She shoves them in your mouth!|Она пихает их вам в рот!
+MAGICIAN (GLITCHED)|ВОЛШЕБНИК (ГЛЮЧНЫЙ)
+<<Ou-rrr mAste-er is-s-co ming and-d we all can bb-baSk in its glORy!>>|«На-шшш хОзяи-ин пр-р-иб лижается и в-всё, что мы можем д-дЕлать -- кк-купАться в лУч-чах его сс-слАвы!»
+On-n-ne of the m-ma__ pEOple gr-r-r-ranted maDdEniNg powers by ATH-Y___ZSTH.|О-о-один из б-безумн__ лЮДей, одар-р-рённых беЗзуМНой силой АТХ-Й__ЗТХОМ
+JANE DOE|ДЖЕЙН ДОУ
+The horror of countless autopsies stands before you...|Ужас бесчисленных вскрытий стоит перед вами...
+An entity composed of the countless bodies examined in this hospital.|Существо, сформированное из бесчисленных тел, проходивших обследование в этой больнице.
+JANE DOE attacks you!|ДЖЕЙН ДОУ атакует вас!
+JANE DOE scares you!|ДЖЕЙН ДОУ пугает вас!
+JANE DOE attacks you!|ДЖЕЙН ДОУ атакует вас!
+DIMENSIONAL HOUND|ПРОСТРАНСТВЕННАЯ ГОНЧАЯ
+Suddenly, everything around starts twisting and collapsing, revealing an otherwordly landscape...##The hunt is on!|Внезапно всё вокруг начинает сжиматься и разрушаться, обнажая потусторонний ландшафт...##Охота началась!
+OVERWHELM|ПОТРЯСЕНИЕ
+defeating this enemy will rouse the attention of its master|победа над этим врагом привлечёт к вам внимание его хозяина
+The great hunt has begun and soon, the hound's owners will catch you.|Великая охота началась, и скоро владельцы гончей вас нагонят.
+DIMENSIONAL HOUND bites you!|ПРОСТРАНСТВЕННАЯ ГОНЧАЯ кусает вас!
+DIMENSIONAL HOUND charges into you!|ПРОСТРАНСТВЕННАЯ ГОНЧАЯ бросается на вас!
+DIMENSIONAL HOUND mauls you!|ПРОСТРАНСТВЕННАЯ ГОНЧАЯ истязает вас!
+DOPPELGAENGER|ДВОЙНИК
+VAMPIRE MOTHER|МАТЬ ВАМПИРОВ
+TWISTED CORPSE|ИСКАЖЁННЫЙ ТРУП
+Not wanting to wait for an elevator, you decide to take the rarely used stairs.##You suddenly trip but grab the railing at the last second.#When you get up to inspect what caused you to trip, you freeze in terror...#It is slowly standing up...|Не желая ждать лифт, вы решаете пойти по редко используемым ступенькам.##Вы внезапно поскальзываетесь, но успеваете ухватиться за перила в последний момент.#Когда вы решаете посмотреть, на чём поскользнулись, вы застываете в ужасе...#Оно медленно поднимается...
+Two years ago, a drunk salaryman fell down the stairs and broke his neck.#Now, his restless spirit is doomed to continually repeat the accident, breaking even more bones.|Два года назад пьяный клерк упал на ступеньках и сломал шею.#Теперь его беспокойный дух обречён постоянно повторять несчастный случай, ломая всё больше костей.
+TWISTED CORPSE takes a step back...|ИСКАЖЁННЫЙ ТРУП делает шаг назад...
+TWISTED CORPSE twists his head in an unnatural way.|ИСКАЖЁННЫЙ ТРУП неестественно выворачивает голову.
+TWISTED CORPSE grabs you!|ИСКАЖЁННЫЙ ТРУП хватает вас!
+TWISTED CORPSE bites you!|ИСКАЖЁННЫЙ ТРУП кусает вас!
+TWISTED CORPSE attacks you!|ИСКАЖЁННЫЙ ТРУП атакует вас!
+TWISTED CORPSE coils around you, suffocating you!|ИСКАЖЁННЫЙ ТРУП обворачивается вокруг вас, удушая!
+You manage to shake him off, gasping for air.|Вам удаётся сбросить его, и вы хватаете воздух ртом.
+DROWNER SPONGE|ГУБКА-УТОПЛЕННИК
+Walking on the beach you spot a weirdly colored rock.#It seems to be covered in some kind of black algae.##Getting closer, you realize it's not a rock...|Бродя по пляжу, вы замечаете странно окрашенный камень.#Похоже, что он покрыт каким-то видом чёрных водорослей.##Приближаясь к нему, вы понимаете, что это не камень...
+This species of algae only grows on the flesh of dead animals.|Этот вид водорослей растёт лишь на телах мёртвых животных.
+DROWNER SPONGE jumps at you!|ГУБКА-УТОПЛЕННИК прыгает на вас!
+DROWNER SPONGE claws at you!|ГУБКА-УТОПЛЕННИК хватает вас когтями!
+DROWNER SPONGE attacks you!|ГУБКА-УТОПЛЕННИК атакует вас!
+MAD DOCTOR|БЕЗУМНЫЙ ДОКТОР
+CLASS OF 1971|КЛАСС 1971-ГО
+In the summer of 1971, an entire class trip fell into the sea when a rock they were standing on collapsed.##Their bodies were never found... until now.|Летом 1971-го, школьный класс, поехавший в путешествие, упал в море, когда глыба, на которой стояли ученики, обвалилась.##Их тела так и не были найдены... до сих пор.
+An amalgamation of broken limbs and crushed bodies. It can only feel fear and pain.|Уродство из сломанных конечностей и расплющенных тел. Ему ведомы лишь чувства страха и боли.
+CLASS OF 1971 mauls you!|КЛАСС 1971-ГО истязает вас!
+CLASS OF 1971 hits you with one of its many arms!|КЛАСС 1971-ГО ударяет вас одной из множества рук!
+CLASS OF 1971 attacks you!|КЛАСС 1971-ГО атакует вас!
+LUMPY OFFICER|РАЗБУХШИЙ ОФИЦЕР
+Following a weird gargling sound, you enter an alley.#Standing in the shadows, you notice someone wearing a policeman's uniform.##<<'m-moVe al-along-g-g, cci-iti-zen, nnoOthiNgg tt-to see-e hErRrre..>>##You've made a horrible mistake...|Следуя за странным булькающим звуком, вы входите в переулок.#Стоя в тени, вы замечаете человека в полицейской форме.##«Д-дВиг-гАйтесь да-дальше-е-е, грр-ажж-жданин, з-здес-сь ннеЕ на чЧт-тоо смотррет-ть..»##Зря вы сюда заглянули...
+SERVE AND PROTECT|СЛУЖИТЬ И ЗАЩИЩАТЬ
+defeating this enemy will lower DOOM by 3%|победа над этим противником отдалит РОК на 3%
+It is said that if you try to call an emergency number at 4:44, it will instead connect you with hell.|Говорят, что если вы попытаетесь позвонить по экстренному номеру в 4:44, он соединит вас с адом.
+LUMPY OFFICER reaches for his gun!|РАЗБУХШИЙ ОФИЦЕР тянется за своим оружием!
+<<hhh-aNds uP, cci-iti-zen!>>|«Ррр-уКки ввЕрх, грр-ажж-жданин!»
+LUMPY OFFICER punches you!|РАЗБУХШИЙ ОФИЦЕР ударяет вас!
+LUMPY OFFICER tries to grab you!|РАЗБУХШИЙ ОФИЦЕР пытается схватить вас!
+LUMPY OFFICER attacks you!|РАЗБУХШИЙ ОФИЦЕР атакует вас!
+LUMPY OFFICER raises his service revolver and aims...|РАЗБУХШИЙ ОФИЦЕР поднимает свой служебный револьвер и целится...
+You are shot!|Вас подстрелили!
+DOLL NURSE|МЕДСЕСТРА-КУКЛА
+You stumble upon a nurse trying to open the door to the intensive care unit, constantly mumbling something...##When she turns around, her face makes you scream in horror!|Вы натыкаетесь на медсестру, которая пытается открыть дверь в отдел реанимации и без остановки что-то бормочет...##Когда она оборачивается, вы кричите в ужасе, увидев её лицо!
+BLIND|СЛЕПОТА
+won't attack unless provoked|не будет атаковать, если не провоцировать
+A keen astronomy fan. Staring at it for too long, she discovered the horrible truth about our sun.#The Solar Worms have marked her.|Заядлая любительница астрономии. Долго изучая небо, она открыла ужасную правду о нашем солнце.#Звёздные черви пометили её.
+DOLL NURSE suddenly gets quiet...|МЕДСЕСТРА-КУКЛА внезапно затихает...
+DOLL NURSE starts laughing maniacally!|МЕДСЕСТРА-КУКЛА начинает маниакально смеяться!
+DOLL NURSE grabs you while screaming!|МЕДСЕСТРА-КУКЛА с криками хватает вас!
+DOLL NURSE screams blasphemies!|МЕДСЕСТРА-КУКЛА выкрикивает богохульства!
+DOLL NURSE attacks you!|МЕДСЕСТРА-КУКЛА атакует вас!
+DOLL NURSE starts speaking in a weird language...|МЕДСЕСТРА-КУКЛА начинает говорить на странном языке...
+You feel sick hearing this forbidden knowledge!|Вам становится плохо, когда вы слышите эти запретные знания!
+The enemy doesn't do anything this turn...|Враг не делает ничего в этом ходу...
+BURNING MAN|ГОРЯЩИЙ ЧЕЛОВЕК
+Walking on the beach, you discover a giant charred pit.#As you wonder what was burned here and why, you hear a crackling sound getting louder, as everything around you becomes scorching hot...|Бродя по пляжу, вы обнаруживаете огромную выжженную яму.#Задаваясь вопросом, почему и что здесь сгорело, вы слышите потрескивание, становящееся громче, а воздух вокруг вас становится обжигающе горячим...
+The memory of a man, burned alive during an immortality ritual gone wrong. Now a burning horror, condemned to eternal pain.|Память человека, сожжённого заживо, когда ритуал бессмертия пошёл не по плану. Ныне, он - горящий ужас, приговорённый к вечной боли.
+BURNING MAN suddenly stands still...|ГОРЯЩИЙ ЧЕЛОВЕК внезапно замирает...
+BURNING MAN thrashes around!|ГОРЯЩИЙ ЧЕЛОВЕК мечется!
+BURNING MAN releases a stream of fire that hits you!|ГОРЯЩИЙ ЧЕЛОВЕК создаёт поток огня, задевая вас!
+BURNING MAN spews fire, burning you!|ГОРЯЩИЙ ЧЕЛОВЕК плюётся огнём, поджигая вас!
+BURNING MAN grabs you!!|ГОРЯЩИЙ ЧЕЛОВЕК хватает вас!
+BURNING MAN leaps onto you, tripping you over and setting you on fire!|ГОРЯЩИЙ ЧЕЛОВЕК прыгает на вас, сбивает с ног и поджигает!
+You are badly burned!|У вас тяжёлые ожоги!
+CULT MEMBER|ЧЛЕН КУЛЬТА
+In the middle of a room, you see a man tied to a chair. You rush in to help. When you remove his gag, though, the man starts shouting curses and ancient prophecies!#You fall onto the floor, your mind flooded with unspeakable images as the man slowly stands up, completely ignoring the chair he was seemingly tied to.|Посреди комнаты вы видите человека, привязанного к стулу. Вы бежите на помощь. Но когда вы вытаскиваете кляп, он начинает выкрикивать проклятия и древние пророчества!#Вы падаете на пол, ваш разум заполняется неописуемыми изображениями, пока человек медленно встаёт, полностью игнорируя стул к которому он, казалось, был привязан.
+POSSESSED|ПОРАБОЩЁННЫЙ
+After an evil spirit possessed this man, his fellow cultists left him here to rethink the situation.|После того, как злой дух поработил этого человека, его культисты-товарищи оставили его здесь поразмыслить над ситуацией.
+CULT MEMBER yells loudly!|ЧЛЕН КУЛЬТА громко кричит!
+CULT MEMBER shouts ancient curses!!|ЧЛЕН КУЛЬТА выкрикивает древние проклятия!
+Your mind is flooded with unspeakable images!|Ваш разум заполняют неописуемые изображения!
+SCISSOR WOMAN (BURNED)|ЖЕНЩИНА С НОЖНИЦАМИ (ОБОЖЖЁННАЯ)
+SNIFFLING GARDENER|СОПЯЩАЯ САДОВНИЦА
+In an otherwise bleak village, the look of the most beautiful flower patch surprises you. As you get closer to compliment the gardener, you stop, hearing weird sniffling sounds...|В этой обычной, унылой деревне, вас удивляет прекрасный вид цветочной клумбы. Когда вы подходите к садовнице, чтобы похвалить её, вы останавливаетесь, услышав странные сопящие звуки...
+NOSE|НОС
+When AKARI-SAN bought the seeds of an unknown exotic plant, she had no idea its pollen would soon change and mutate her.|Когда АКАРИ-САН купила семена неизвестного экзотического растения, она и понятия не имела, что его пыльца вскоре преобразит её.
+SNIFFLING GARDENER stabs you with her shears!|СОПЯЩАЯ САДОВНИЦА ударяет вас секатором!
+SNIFFLING GARDENER hits you with a spade!|СОПЯЩАЯ САДОВНИЦА ударяет вас лопатой!
+SNIFFLING GARDENER attacks you!|СОПЯЩАЯ САДОВНИЦА атакует вас!
+MARU|МАРУ
+On the roof, you find the girl your friend was talking about. In one hand, she holds a bag. In the other, a pair of bloody scissors...|На крыше вы находите девушку, о которой говорил ваш друг. В одной руке она держит сумку. В другой - пару кровавых ножниц...
+MARU was the bullied girl who tried to summon the Scissor Lady. The entity scarred and marked her to serve it until it became strong enough.|МАРУ была затравленной девочкой, которая попыталась призвать женщину с ножницами. Существо изранило и пометило её. Она должна была служитель женщине, пока та сама не станет достаточно сильной.
+MARKED BY THE SCISSOR LADY|ПОМЕЧЕННАЯ ЖЕНЩИНОЙ С НОЖНИЦАМИ
+MARU stabs you with her scissors!|МАРУ ударяет вас ножницами!
+MARU bashes you with a bag!|МАРУ бьёт вас сумкой!
+MARU howls and slashes you with her scissors!|МАРУ завывает и режет вас ножницами!
+SWEATY ASSAILANT|ПОТЕЮЩИЙ ПРЕСТУПНИК
+As the old bus drives away, you see the village in the distance.#Hoping it won't rain too much, you stop to look at the clouds. Suddenly, you hear splashing sounds behind you...##That's strange, you thought, you were the only passenger on that bus...|Старый автобус уезжает, и вы видите деревню вдалеке.#Надеясь, что сильного дождя не будет, вы останавливаетесь посмотреть на облака. Внезапно вы слышите всплеск позади...##Странно, подумали вы, ведь вы были единственным пассажиром в автобусе...
+KPP CLUB|КЛУБ КПП
+The masked man knew you were going to take this route. Is he a local?|Мужчина в маске знал, что вы пойдёте по этому пути. Он местный?
+SWEATY ASSAILANT prepares to tackle you!|ПОТЕЮЩИЙ ПРЕСТУПНИК готовится толкнуть вас!
+SWEATY ASSAILANT grunts loudly!|ПОТЕЮЩИЙ ПРЕСТУПНИК громко хрюкает!
+SWEATY ASSAILANT stabs you with his knife!|ПОТЕЮЩИЙ ПРЕСТУПНИК ударяет вас ножом!
+SWEATY ASSAILANT attacks you!|ПОТЕЮЩИЙ ПРЕСТУПНИК атакует вас!
+SWEATY ASSAILANT kicks you!|ПОТЕЮЩИЙ ПРЕСТУПНИК пинает вас!
+SWEATY ASSAILANT jumps on you, tripping you over!|ПОТЕЮЩИЙ ПРЕСТУПНИК прыгает на вас, сбивая с ног!
+You land in a puddle of water, getting all wet!|Вы приземляетесь в лужу, насквозь промокая!
+CULTIST HUNTER A|КУЛЬТИСТ-ОХОТНИК А
+Barely dodging a knife swing, you fall to the ground.#The short-haired woman giggles and takes a step back.##<<You can run from us, but you can't hide... friend!>>|Едва увернувшись от взмаха ножом, вы падаете на землю.#Коротковолосая девушка хихикает и делает шаг назад.##«Ты можешь бежать от нас, но тебе не спрятаться... дружище!»
+Member of a cult that's been following you. More hunters will surely follow...|Член культа, который преследовал вас. За ним наверняка последуют другие охотники...
+CULTIST HUNTER A stabs you with her knife!|КУЛЬТИСТ-ОХОТНИК А ударяет вас ножом!
+CULTIST HUNTER A attacks you!|КУЛЬТИСТ-ОХОТНИК А атакует вас!
+CULTIST HUNTER A kicks you!|КУЛЬТИСТ-ОХОТНИК А пинает вас!
+CULTIST HUNTER B|КУЛЬТИСТ-ОХОТНИК Б
+Suddenly, a window behind you breaks with a bang!#Startled, you notice a masked man, hunting rifle in his hands.##Silent and calm, the man loads another bullet in...|Внезапно окно позади вас с грохотом разбивается!#Перепугавшись, вы замечаете человека в маске с охотничьей винтовкой в руках.##Тихо и спокойно он заряжает ещё одну пулю...
+CULTIST HUNTER B hits you with the butt of his rifle!|КУЛЬТИСТ-ОХОТНИК Б ударяет вас прикладом винтовки!
+CULTIST HUNTER B shoots you!|КУЛЬТИСТ-ОХОТНИК Б стреляет в вас!
+CULTIST HUNTER B kicks you!|КУЛЬТИСТ-ОХОТНИК Б пинает вас!
+OETARU|ОЭТАРУ
+The cursed chants amplified by the cave system make you dizzy. To your horror, you notice the sound has awakened something else...|От проклятых песнопений, усиленных пещерной системой, у вас кружится голова. К своему ужасу вы замечаете, что этот звук пробудил нечто...
+THE INNER COIL|ВНУТРЕННЯЯ СПИРАЛЬ
+Attracted by the chants amplified by the cave system, OETARU has awakened and is awaiting its sacrifice.|Привлечённый песнопениями, раздающимися эхом по пещерам, ОЭТАРУ пробудился и ждёт своих жертв.
+Just looking at the creature drains your sanity!|Простой взгляд на это создание истощает ваш рассудок!
+You scream, trying to silence the chants!|Вы кричите, пытаясь заглушить пение!
+The barrier between worlds is cracking!|Барьер между мирами трескается!
+TIME WARPER|ИСКРИВИТЕЛЬ ВРЕМЕНИ
+Suddenly, everything slows to a crawl...|Внезапно всё сильно замедляется...
+June 1992|Июнь 1992
+<<Y-you shouldn't be here. Not y-yet...>>|«В-вы не должны здесь быть. Н-не сейчас...»
+TIME WARPER steals some of your lifespan!|ИСКРИВИТЕЛЬ ВРЕМЕНИ похищает несколько лет вашей жизни!
+You feel older... and weaker!|Вы чувствуете себя старее... и слабее!
+TIME WARPER attacks you!|ИСКРИВИТЕЛЬ ВРЕМЕНИ атакует вас!
+PUPPET MATRON|КУКОЛЬНАЯ МАТРОНА
+Hearing a shuffling sound coming from behind a wardrobe, you decide to push it out of the way. You discover a niche in the wall. Someone has put three dusty dolls in there.##When you try to reach and grab one, however, they jump off and scatter around the room, giggling!|Услышав шуршание, доносящееся из-за шкафа, вы решаете отодвинуть его в сторону. Вы обнаруживаете в стене отверстие. Кто-то положил туда три пыльные куклы.##Однако, когда вы пытаетесь дотянуться и схватить одну из них, они выпрыгивают и разбегаются по комнате, хихикая!
+TOY|ИГРУШКА
+The souls of a lynched family of cannibals live in these dolls.|В этих куклах живут души линчёванной семьи каннибалов.
+PUPPET MATRON stabs you in the shin!|КУКОЛЬНАЯ МАТРОНА пронзает вам голень!
+PUPPET MATRON starts climbing you!|КУКОЛЬНАЯ МАТРОНА начинает забираться на вас!
+PUPPET MATRON slashes your arm!|КУКОЛЬНАЯ МАТРОНА режет вам руку!
+AKANE|АКАНЕ
+Following a weak, wavering cry, you enter a dark room.#Inside, you spot a figure hunched in the corner. You recognize the expensive clothes but this... thing can't possibly be a human!##<<D-O--N--'T -LO-o-K a-AT m-Ee!!!!>>|Услышав слабый прерывистый крик, вы входите в тёмную комнату.#Внутри вы замечаете фигуру, сгорбившуюся в углу. Вы узнаёте на ней дорогую одежду, но... это существо никак не может быть человеком!##«Н-Н--Е-- -СМ-о-Т-Р-Ии н-НА м-Ен-Я!!!!»
+FAILED RITUAL|НЕУДАВШИЙСЯ РИТУАЛ
+transformed by her greed|преображённая собственной жадностью
+The family member corrupted by the mansion's eldritch influence.|Член семьи, искажённый потусторонним влиянием поместья.
+In a blind rage, AKANE smashes you with her fist!|В слепом гневе АКАНЕ ударяет вас кулаком!
+AKANE bites your arm, tearing off some flesh!|АКАНЕ кусает вашу руку, отрывая плоть!
+AKANE leaps at you, punching and kicking!|АКАНЕ прыгает на вас, ударяя и пиная!
+HAWADO AND MIYAKO|ХАВАДО И МИЯКО
+Entering a dark room, you spot Hawado and his wife, hugging each other. When they turn around, you scream in terror.##Their bodies are slowly becoming one and their fused faces express the same thing:##Rage.|Войдя в тёмную комнату, вы замечаете Хавадо и его жену, обнимающих друг друга. Когда они оборачиваются, вы кричите от ужаса.##Их лица медленно сливаются, отражая лишь одну эмоцию:##Ярость.
+finally fused together|наконец-то вместе
+Their screaming is horrifying!|Их крик ужасен!
+The pair thrashes around the room!|Пара мечется по комнате!
+The sight of the writhing pair drives you mad!|Вид извивающейся пары сводит вас с ума!
+SOTOMURA|СОТОМУРА
+You stumble upon Sotomura, furiously scratching his scar.#With each motion, he gets a little deeper.#With each motion, more blood appears.##With each motion, he takes a step towards you...|Вы натыкаетесь на СОТОМУРУ, яростно чешущего свой шрам.#С каждым движением он проникает всё глубже.#С каждым движением появляется всё больше крови.##С каждым движением он делает к вам шаг...
+the itching won't stop|зуд не остановить
+SOTOMURA attacks you!|СОТОМУРА атакует вас!
+SOTOMURA scratches you!|СОТОМУРА царапает вас!
+SOTOMURA attacks you!|СОТОМУРА атакует вас!
+PERVERTED INNKEEPER|РАЗВРАТНЫЙ ВЛАДЕЛЕЦ ГОСТИНИЦЫ
+Worried and furious about the hole in the wall, you enter the inn from the back, trying to find the room that connects with yours. Thinking you've finally found it, you enter...##...and scream!|Расстроившись и одновременно разозлившись на отверстие в стене, вы входите в гостиницу с чёрного хода, пытаясь найти комнату, смежную с вашей. Думая, что вы наконец нашли её, вы входите...##...и кричите!
+he must've seen too much|он видел слишком много
+WATANABE-SAN inherited the inn a few years ago and has been spying on guests until the fateful day when he saw _IT_.|ВАТАНАБЕ-САН унаследовал гостиницу несколько лет назад и шпионил за постояльцами до того рокового дня, когда увидел _ЭТО_.
+PERVERTED INNKEEPER attacks you!|РАЗВРАТНЫЙ ВЛАДЕЛЕЦ ГОСТИНИЦЫ атакует вас!
+PERVERTED INNKEEPER scratches you!|РАЗВРАТНЫЙ ВЛАДЕЛЕЦ ГОСТИНИЦЫ царапает вас!
+PERVERTED INNKEEPER attacks you!|РАЗВРАТНЫЙ ВЛАДЕЛЕЦ ГОСТИНИЦЫ атакует вас!
+TAKASHI-SAN|ТАКАШИ-САН
+Climbing up the winding staircase, you are stopped by a masked man wearing an expensive suit.#<<The rules have changed, kiddo...>> he says, taking the jacket and the mask off.##<<Nothing personal, really...>>|Когда вы поднимаетесь по винтовой лестнице, вас останавливает мужчина в маске и дорогом костюме.#«Правила поменялись, дитя...» - говорит он, снимая пиджак и маску.##«Ничего личного, честно...»
+One of the conspirators trying to awaken the OLD GODS.|Один из заговорщиков, пытающихся пробудить ДРЕВНИХ БОГОВ.
+THE ULTIMATE OPPORTUNIST|АБСОЛЮТНЫЙ ОППОРТУНИСТ
+TAKASHI-SAN prevents you from taking another step!|ТАКАШИ-САН не даёт вам сделать и шагу!
+<<Just give up, kiddo.>>|«Просто сдавайся, дитя.»
+TAKASHI-SAN forces you to take a step back!|ТАКАШИ-САН вынуждает вас отступить назад!
+HORRIBLE OLD MAN|ЧУДОВИЩНЫЙ СТАРИК
+The bloated corpse of your 'uncle' slowly floats into the room as the remaining walls collapse.##<<thE cOntRacT... iS noT oVeR yET....>>|Раздутый труп вашего «дяди» медленно заплывает в комнату, пока оставшиеся стены рушатся.##«КОнтРаКт... еЩЁ Не рАзОрВАн...»
+The old man claiming to be your uncle. Died in 1838 and 1943.|Старик, утверждающий, что он ваш дядя. Дядя, умерший в 1838-м и в 1943-м.
+CHEATED DEATH TWICE|ОБМАНУЛ СМЕРТЬ ДВАЖДЫ
+HORRIBLE OLD MAN smiles.|ЧУДОВИЩНЫЙ СТАРИК ухмыляется.
+HORRIBLE OLD MAN doesn't do anything.|ЧУДОВИЩНЫЙ СТАРИК ничего не делает.
+HORRIBLE OLD MAN floats around you.|ЧУДОВИЩНЫЙ СТАРИК кружит вокруг вас.
+SOMETHING TRULY EVIL|НЕЧТО ВОИСТИНУ ЗЛОЕ
+In the distance, the bell tolls and everything gets dark...##[YOUR#DEMISE#IS HERE]|Вдали звенит колокол, и вокруг темнеет...##(ВАША#КОНЧИНА#ЗДЕСЬ)
+FOUND YOU|ПОПАЛИСЬ
+[FOUND YOU]|(ПОПАЛИСЬ)
+[FOUND YOU]|(ПОПАЛИСЬ)
+[SOMETHING TRULY EVIL WILL END YOU]|(НЕЧТО ВОИСТИНУ ЗЛОЕ ПРИКОНЧИТ ВАС)
+[YOU CAN'T RUN FROM SOMETHING TRULY EVIL]|(ВАМ НЕ СБЕЖАТЬ ОТ ИСТИННОГО ЗЛА)
+[SOMETHING TRULY EVIL HAS FOUND YOU]|(НЕЧТО ВОИСТИНУ ЗЛОЕ НАШЛО ВАС)
+MAN-EATING PLANT|РАСТЕНИЕ-ЛЮДОЕД
+Walking through the forest, you spot a pair of legs sticking out of a bush.#Before you can do anything, however, they twitch and move...|Бродя по лесу, вы замечаете пару ног, торчащих из куста.#Прежде чем вы успеваете что-либо сделать, они начинают дёргаться и двигаться...
+A Tokyo gardening company sent multiple seed packets to SHIOKAWA. MAN-EATING PLANT is one of their experiments.|Токийская садовая компания послала несколько упаковок семян в ШИОКАВУ. РАСТЕНИЕ-ЛЮДОЕД - один из их экспериментов.
+MAN-EATING PLANT slaps you with a vine!|РАСТЕНИЕ-ЛЮДОЕД ударяет вас лозой!
+MAN-EATING PLANT spits acid at you!|РАСТЕНИЕ-ЛЮДОЕД плюётся в вас кислотой!
+MAN-EATING PLANT attacks you!|РАСТЕНИЕ-ЛЮДОЕД атакует вас!
+BARK WOMAN|ЖЕНЩИНА ИЗ КОРЫ
+Walking through a tree nursery, you suddenly stop. Something feels... off.##Isn't it too early for the leaves to change their color?##Before you can continue your investigation, someone grabs your leg!|Проходя через лесопитомник, вы внезапно останавливаетесь. Что-то... не так.##Не слишком ли рано желтеют листья?##Вы не успеваете и двинуться дальше, как кто-то хватает вас за ногу!
+BARK|КОРА
+all incoming damage is lowered by 1|весь получаемый врагом урон снижен на 1
+His third victim.#She was chopped to pieces and buried in a tree nursery, causing the nearby leaves to change their color to a sickly yellow.|Его третья жертва.#Её разрубили на куски и закопали в лесопитомнике, из-за чего близлежащие листья изменили свой цвет на болезненно-жёлтый.
+BARK WOMAN impales you with a branch!|ЖЕНЩИНА ИЗ КОРЫ пронзает вас веткой!
+BARK WOMAN hits you with a root!|ЖЕНЩИНА ИЗ КОРЫ ударяет вас корнем!
+BARK WOMAN attacks you!|ЖЕНЩИНА ИЗ КОРЫ атакует вас!
+SHIRO-SAN|ШИРО-САН
+Falling through the hole in the floor, you find yourself in an overgrown basement. In the corner lies a man you recognize. It's Shiro-san, the missing gardener!##You must help him escape this cursed place!|Упав через дыру в полу, вы оказываетесь в заросшем подвале. В углу лежит человек, которого вы узнаёте. Это ШИРО-САН, пропавший садовник!##Вы должны помочь ему сбежать из этого проклятого места!
+THE GARDENER|САДОВНИК
+THE GARDEN|САД
+The fungus has completely taken control of the husk that once was SHIRO-SAN.|Грибы полностью взяли контроль над телом, которое когда-то было ШИРО-САНОМ.
+FUNGUS-CONTROLLED SHIRO-SAN attacks you!|КОНТРОЛИРУЕМЫЙ ГРИБАМИ ШИРО-САН атакует вас!
+FUNGUS-CONTROLLED SHIRO-SAN attacks you!|КОНТРОЛИРУЕМЫЙ ГРИБАМИ ШИРО-САН атакует вас!
+FUNGUS-CONTROLLED SHIRO-SAN attacks you!|КОНТРОЛИРУЕМЫЙ ГРИБАМИ ШИРО-САН атакует вас!
+Plants attack the gardener! (-3 HEALTH)|Растения атакуют САДОВНИКА! (-3 ЗДОРОВЬЯ)
+You protect the gardener and plants attack you! (-3 ALL)|Вы защищаете САДОВНИКА, и растения атакуют вас! (-3 ВСЕХ)
+TOGETHER|ВМЕСТЕ
+You listen to the staticky signal on the other end. It's harsh to your ear.##But then, the noise begins to slowly change into something beautiful...##You want to join it.|Вы прислушиваетесь к статике на той стороне. Она давит на уши.##Но затем шум начинает медленно превращаться в нечто прекрасное...##Вам хочется присоединиться.
+Malicious force of an unknown origin.|Опасная сила неизвестного происхождения.
+Why should you resist?...|Зачем ты сопротивляешься?..
+Join the voices...|Прислушайся к голосам...
+It will be all over soon...|Скоро всё закончится...
+STALK-CHAN|СТЕБЕЛЬ-ТЯН
+Walking through the park, you spot a girl standing in the bush. Getting closer you suddenly realize… she isn’t standing in the bush.##She’s a part of it!|Гуляя по парку, вы замечаете девушку, стоящую в кустах. Приближаясь, вы внезапно осознаёте... она не стоит в кустах.##Она - их часть!
+Following a weird love ritual, she was turned into a bush.|Следуя странному любовному ритуалу, она превратилась в куст.
+STALK-CHAN whips you with a vine!|СТЕБЕЛЬ-ТЯН хлещет вас лозой!
+STALK-CHAN stabs you with a branch!|СТЕБЕЛЬ-ТЯН ударяет вас веткой!
+STALK-CHAN attacks you!|СТЕБЕЛЬ-ТЯН атакует вас!
+VENGEFUL ATHLETE|МСТИТЕЛЬНАЯ АТЛЕТКА
+RITSUKO-CHAN was the most promising athlete in her school. When she suddenly disappeared, the case was quickly closed without any suspects.##Today, she has finally dug herself out…|РИЦУКО-ТЯН была самой многообещающей атлеткой в своей школе. Когда она внезапно исчезла, дело было закрыто по причине отсутствия подозреваемых.##Сегодня она наконец раскопала себя...
+RITSUKO-CHAN was killed by a boyfriend of her jealous rival.|РИЦУКО-ТЯН была убита парнем своей ревнивой соперницы.
+VENGEFUL ATHLETE attacks you!|МСТИТЕЛЬНАЯ АТЛЕТКА атакует вас!
+VENGEFUL ATHLETE kicks you!|МСТИТЕЛЬНАЯ АТЛЕТКА пинает вас!
+VENGEFUL ATHLETE punches you!|МСТИТЕЛЬНАЯ АТЛЕТКА ударяет вас!
+ANATOMY HORROR|АНАТОМИЧЕСКИЙ УЖАС
+They performed countless dissections to find the answer.#Instead, they found… it.|Они провели бесчисленное количество вскрытий, чтобы найти ответ.#Вместо этого, они нашли... это.
+Spirits of countless patients killed in the name of science.|Души бесчисленных пациентов, убитых во имя науки.
+ANATOMY HORROR drains you!|АНАТОМИЧЕСКИЙ УЖАС опустошает вас!
+ANATOMY HORROR attacks you!|АНАТОМИЧЕСКИЙ УЖАС атакует вас!
+ANATOMY HORROR attacks you!|АНАТОМИЧЕСКИЙ УЖАС атакует вас!
+KOI WOMAN|ЖЕНЩИНА-КОИ
+You spot a woman on the beach and decide to get closer and ask what is she doing alone at this late hour. When the woman turns around, you stop. Her mouth is opening and shutting, gulping in air as if it was unnatural to her. ##In her large eyes there’s only rage.|Вы замечаете женщину на пляже и решаете спросить, что она делает здесь одна в такой поздний час. Когда женщина оборачивается, вы теряете речь. Её рот открывается и закрывается, сглатывая воздух неестественным образом. ##В её огромных глазах видна лишь ярость.
+The vengeful woman cursed by a sea deity to live her life as an abomination.|Мстительная женщина, проклятая морским божеством прожить остаток своей жизни в виде такого уродства.
+KOI WOMAN slaps you!|ЖЕНЩИНА-КОИ ударяет вас!
+KOI WOMAN attacks you!|ЖЕНЩИНА-КОИ атакует вас!
+KOI WOMAN attacks you!|ЖЕНЩИНА-КОИ атакует вас!
+DREAM EATER|ПОЖИРАТЕЛЬ СНОВ
+You discover a giant plush toy half-buried in a ditch. Feeling uneasy, you take a step back but it’s already too late…|Вы обнаруживаете гигантскую плюшевую игрушку, наполовину закопанную в канаве. Ощущая тяжесть, вы делаете шаг назад, но уже слишком поздно...
+An imaginary friend luring unsuspecting children into the forest to devour them.|Воображаемый друг, заманивающий ничего не подозревающих детей в лес, чтобы сожрать их.
+Why should you resist?...|Зачем ты сопротивляешься?..
+Join the voices...|Прислушайся к голосам...
+It will be all over soon...|Скоро всё закончится...
+GIGOLO|ЖИГОЛО
+Suddenly, it got really cold in the corridor. As you turn to leave, you’re stopped by a man with unnaturally pale skin and giant lips. He kisses the air and takes a step closer…|Внезапно в коридоре сильно похолодало. Когда вы собираетесь уходить, вас останавливает мужчина с неестественно бледной кожей и огромными губами. Он посылает поцелуй и подходит всё ближе...
+An incubus preying on weak-willed people in order to drain their life force.|Демон, охотящийся за слабовольными людьми и высасывающий из них жизненную силу.
+GIGOLO slaps you!|ЖИГОЛО ударяет вас!
+GIGOLO kisses the air!|ЖИГОЛО посылает поцелуй!
+GIGOLO grabs you!|ЖИГОЛО хватает вас!
+VENT CRAWLER|ПОЛЗАЮЩИЙ ПО ВЕНТИЛЯЦИИ
+You cautiously crawl inside the vent, determined to solve this macabre mystery.#Nothing could prepare you for the source of the skittering sound getting louder... and closer.|Вы осторожно ползёте по вентиляции в полной решимости раскрыть эту ужасную тайну.#Ничего не предвещало беды, как вдруг вы слышите шуршание, становящееся всё громче... и ближе.
+The perverted thoughts of the neighbor materialized under the corrupting influence of the OLD GODS.|Извращённые мысли соседа материализовались под порочным влиянием ДРЕВНИХ БОГОВ.
+A centipede crawls on your face!|По вашему лицу ползёт многоножка!
+VENT CRAWLER bites you!|ПОЛЗАЮЩИЙ ПО ВЕНТИЛЯЦИИ кусает вас!
+VENT CRAWLER stabs you with its leg!|ПОЛЗАЮЩИЙ ПО ВЕНТИЛЯЦИИ ударяет вас своей ногой!
+THE SEEPING APOSTLE|ПРОНИКАЮЩИЙ АПОСТОЛ
+Whatever the sailors caught in the sea is here.#Tonight is your only chance to stop it!|Здесь находится нечто, что моряки выловили в море.#Сегодня ваш последний шанс остановить его!
+The wreck of a sunken submarine caused an underwater explosion. The shockwave ruptured the primordial egg, hidden deep within the ocean's floor by the Ancients...|Затонувшей субмарина взорвалась под водой. Ударная волна разбила первобытное яйцо, спрятанное Древними глубоко на дне океана...
+Black goo starts climbing up your legs!|По вашим ногам начинает подниматься тёмная жижа!
+THE SEEPING APOSTLE attacks you!|ПРОНИКАЮЩИЙ АПОСТОЛ атакует вас!
+THE SEEPING APOSTLE attacks you!|ПРОНИКАЮЩИЙ АПОСТОЛ атакует вас!
+NAMELESS HORROR|БЕЗЫМЯННЫЙ УЖАС
+This summoning ritual must be stopped at all costs!|Этот ритуал призыва нужно остановить любой ценой!
+AWAKE AND HUNGRY|ПРОБУЖДЁННЫЙ И ГОЛОДНЫЙ
+The terrifying AM-HEMET summoned by the cult may cause the death of millions.|Ужасающий АМ-ХЕМЕТ, призванный культом, может стать причиной смерти миллионов людей.
+MASKED CULTIST stabs you with a knife!|КУЛЬТИСТ В МАСКЕ ударяет вас ножом!
+MASTER CULTIST chants the forbidden spells!|ВЫСШИЙ КУЛЬТИСТ исполняет запретные заклинания!
+NAMELESS HORROR stares at you!|БЕЗЫМЯННЫЙ УЖАС взирает на вас!
+MR. PACHINKO|МИСТЕР ПАТИНКО
+You are stopped by two men, asking you to borrow some money...|Вас останавливают двое мужчин и просят одолжить немного денег...
+...everyone has something to sell|...каждому есть что продать
+They lost their fortune at the gambling place. Luckily, a rusty-smelling man decided to help them...|Они проиграли всё в игорном заведении. К счастью, пахнущий ржавчиной мужчина решил им помочь...
+MR. COIN|МИСТЕР МОНЕТКА
+MR. PACHINKO attacks you!|МИСТЕР ПАТИНКО атакует вас!
+MR. PACHINKO attacks you!|МИСТЕР ПАТИНКО атакует вас!
+MR. COIN punches you!|МИСТЕР МОНЕТКА ударяет вас!
+ANOMALY ATTENDANT|СЛУЖИТЕЛЬНИЦА АНОМАЛИИ
+You are stopped by two nurses. Ready to apologize and explain yourself, you notice their weird smiles... dead stares... sharp knives...|Вас останавливают две медсестры. Вы уж было готовились объясниться, но замечаете их странные ухмылки... мёртвые взгляды... и острые ножи...
+midnight shift|полуночная смена
+The university-funded hospital was too big for SHIOKAWA. Afraid of losing their jobs, they started supplying their own patients.|Финансируемая университетом больница была слишком большой для ШИОКАВЫ. Боясь потерять работу, они начали продавать собственных пациентов.
+CORPSE CAREGIVER|УХАЖИВАЮЩАЯ ЗА ТРУПАМИ
+ANOMALY ATTENDANT slashes you with a knife!|СЛУЖИТЕЛЬНИЦА АНОМАЛИИ режет вас ножом!
+CORPSE CAREGIVER gives you a chilling stare!|УХАЖИВАЮЩАЯ ЗА ТРУПАМИ смотрит на вас леденящим взглядом!
+The nurse attacks you!|Медсестра атакует вас!
+YOU?|ВЫ?
+<<Do you like what I did with my face? I've always admired you, you know, even when you acted like you didn't know me at all.>>##<<I think, the result is _perfect_... too perfect, in fact, for two people to share the same face!>>|«Тебе нравится результат моей работы над лицом? Я всегда равняюсь на тебя, даже когда ты не особо меня замечаешь.»##«Я думаю, результат просто _идеален_... на самом деле, слишком идеален, чтобы у двух людей было одно лицо!»
+Ignored by everyone, this kid decided to replace the person they envied the most - you!|Забытое всеми, это дитя решило заменить человека, которому завидовало больше всего - вас!
+Your friend raises the butcher knife you involuntarily brought...|Ваш друг поднимает мясницкий нож, невольно принесённый вами...
+Your friend attacks you!|Ваш друг атакует вас!
+Your friend punches you!|Ваш друг ударяет вас!
+Your friend kicks you!|Ваш друг пинает вас!
+WHITE DEATH|БЕЛАЯ СМЕРТЬ
+The nauseating smell of a disemboweled corpse hits your nose. The thing that slaughtered your friends is here...|Тошнотный запах выпотрошенного трупа ударяет вам в нос. Создание, убившее ваших друзей, здесь...
+An ancient, bloodthirsty being, awakened by a group of thugs, ransacking the mansion it slept in.|Древнее кровожадное существо, пробуждённое группой бандитов, рыщет по поместью, в котором оно спало.
+why'd you come back?|зачем ты снова здесь?
+WHITE DEATH comes closer...|БЕЛАЯ СМЕРТЬ приближается...
+WHITE DEATH is silent...|БЕЛАЯ СМЕРТЬ молчит...
+WHITE DEATH slashes you!|БЕЛАЯ СМЕРТЬ режет вас!
+WHITE DEATH kicks you!|БЕЛАЯ СМЕРТЬ пинает вас!
+WHITE DEATH attacks you!|БЕЛАЯ СМЕРТЬ атакует вас!
+WHITE DEATH slashes you across the chest!|БЕЛАЯ СМЕРТЬ изрезает вашу грудь!
+You start bleeding!|У вас начинается кровотечение!
+PILLAR VAMPIRE|ВАМПИР-СТАТУЯ
+You enter a room full of wooden statues. You are amazed by how realistic some of them look. So realistic, in fact, that you could've sworn one of them blinked...|Вы входите в комнату, полную деревянных статуй. Вы потрясены тем, насколько некоторые из них реалистичны. Настолько, что вы бы поклялись, что одна из них моргнула...
+Once a great sculptor, he sacrificed everything to be able to continue his work.|Некогда великий скульптор пожертвовал всем, чтобы завершить свою работу.
+living in the walls|живущий в стенах
+PILLAR VAMPIRE bites you in the arm!|ВАМПИР-СТАТУЯ кусает вас за руку!
+PILLAR VAMPIRE hisses at you!|ВАМПИР-СТАТУЯ шипит на вас!
+PILLAR VAMPIRE slashes you with his claws!|ВАМПИР-СТАТУЯ изрезает вас своими когтями!
+TWISTED DOG|ИСКАЖЁННЫЙ ПЁС
+You can see a dog chewing on something in the distance.##Is that... a human bone!?|Вы видите собаку, которая что-то обгладывает вдалеке.##Это... человеческая кость?!
+A domestic animal corrupted by the slowly awakening OLD GOD.|Домашнее животное, искажённое медленно пробуждающимся ДРЕВНИМ БОГОМ.
+TWISTED DOG jumps at you!|ИСКАЖЁННЫЙ ПЁС прыгает на вас!
+TWISTED DOG sinks its teeth in your leg!|ИСКАЖЁННЫЙ ПЁС вонзает зубы вам в ногу!
+TWISTED DOG bites you in the arm!|ИСКАЖЁННЫЙ ПЁС кусает вас за руку!
+TSUTA-CHAN|ЦУТА-ТЯН
+Your path is blocked by a rotting corpse covered in poison ivy.|Ваш путь преграждает гниющий труп, покрытый ядовитым плющом.
+When the plant's roots reached her brain, she came back to life.|Когда корни растения достигли её мозга, она вернулась к жизни.
+TSUTA-CHAN whips you with a vine!|ЦУТА-ТЯН ударяет вас лозой!
+TSUTA-CHAN attacks you!|ЦУТА-ТЯН атакует вас!
+TSUTA-CHAN bites you in the arm!|ЦУТА-ТЯН кусает вас за руку!
+ICHIRO-SAN|ИТИРО-САН
+The mad painter slowly takes off his dark glasses...|Безумный художник медленно снимает тёмные очки...
+ICHIRO-SAN has found a way to connect us with other dimensions using his canvases and portals.|ИТИРО-САН нашёл способ соединить нас с другими измерениями, используя свои полотна и порталы.
+ICHIRO-SAN stabs you with a knife!|ИТИРО-САН ударяет вас ножом!
+He stabs you! <<You will become my next masterpiece!>>|Он бьёт вас ножом! «Ты станешь моим следующим произведением!»
+He slashes you! <<I'm the greatest painter to live!>>|Он режет вас! «Я величайший художник из всех ныне живых!»
+THE PAINTING|КАРТИНА
+The painted monster reaches out from the canvas and grabs a surprised ICHIRO-san by his neck.##<<N-no! T-this is n-not what was s-supposed to happen!>>|Нарисованный монстр вытягивается из холста и хватает поражённого ИТИРО-САНА за шею.##«Н-нет! Э-этого н-не д-должно было произойти!»
+his ultimate creation|его величайшее творение
+THE PAINTING sucks out your life energy!|КАРТИНА высасывает из вас жизненную силу!
+THE PAINTING makes you go mad!|КАРТИНА сводит вас с ума!
+THE PAINTING chills you to the bone!|КАРТИНА пробирает вас до костей!
+GOSSIP JUNKIE|ЛЮБИТЕЛЬНИЦА СПЛЕТЕН
+The telephone sounds and multiple voices are too loud for you to ignore. When you enter the apartment, everything turns silent...|Из-за двери доносятся звуки телефона и голоса, слишком громкие, чтобы их проигнорировать. Когда вы входите в квартиру, всё затихает...
+She spent her life on a phone, gossiping. It's only natural to continue doing it in death.|Она провела всю свою жизнь на трубке, сплетничая. Естественно, она продолжила делать это даже после смерти.
+GOSSIP JUNKIE spreads a nasty rumor about you!|ЛЮБИТЕЛЬНИЦА СПЛЕТЕН распускает о вас неприятные слухи!
+GOSSIP JUNKIE shares forbidden knowledge!|ЛЮБИТЕЛЬНИЦА СПЛЕТЕН делится запретными знаниями!
+GOSSIP JUNKIE stares at you!|ЛЮБИТЕЛЬНИЦА СПЛЕТЕН пялится на вас!
+GLUED CORPSE|СКЛЕЕННЫЙ ТРУП
+You can hear a faint sobbing sound coming from an alley nearby.#There, you approach a man on his knees.#When you take a step closer, he suddenly stops and perks up.##You can hear the nauseating sound of tearing skin...|Вы слышите тихие всхлипы, исходящие из переулка поблизости.#Вы входите и замечаете мужчину, стоящего на коленях.#Когда вы приближаетесь к нему, он внезапно замирает, а затем оживляется.##Вы слышите тошнотворный звук рвущейся кожи...
+When he finally died, his wife glued his face shut. He won't hurt her ever again.|Когда он наконец умер, его жена заклеила ему лицо. Он больше никогда не навредит ей.
+GLUED CORPSE bites your hand!|СКЛЕЕННЫЙ ТРУП кусает вас за руку!
+GLUED CORPSE headbutts you!|СКЛЕЕННЫЙ ТРУП бьёт вас головой!
+GLUED CORPSE attacks you!|СКЛЕЕННЫЙ ТРУП атакует вас!
+TAPEWORM SALARYMAN|КЛЕРК-ЛЕНТОЧНЫЙ ЧЕРВЬ
+Someone taps you on your back.#<<Sh-shorry, ish the bush shtill running? I'm sho late for a meeting, the boshsh ish going to kill me.>>##Startled, you quickly turn around, shocked by what you see there...|Кто-то хлопает вас по спине.#«П-проштите, вы не шнаете, когда будет автобуш? Я так опашдываю на вштречу, бошш меня прошто убьёт.»##В страхе вы быстро оборачиваетесь, и вас потрясает увиденное...
+Attaching itself to a company, it will continue to slowly drain it.|Присасываясь к носителю, он медленно истощает его.
+TAPEWORM SALARYMAN tries to attach itself to you!|КЛЕРК-ЛЕНТОЧНЫЙ ЧЕРВЬ пытается присосаться к вам!
+TAPEWORM SALARYMAN slaps you!|КЛЕРК-ЛЕНТОЧНЫЙ ЧЕРВЬ ударяет вас!
+TAPEWORM SALARYMAN tries to bite you!|КЛЕРК-ЛЕНТОЧНЫЙ ЧЕРВЬ пытается укусить вас!
+DRAIN SWIMMER|СТОЧНЫЙ ПЛОВЕЦ
+A weird, bubbling sound lures you to the dark shower room. On the floor, you find a swimsuit thrown over a grotesque leathery coil. Wait, that's not a coil!...|Странный булькающий звук заманивает вас в тёмную душевую. На полу вы находите купальник, наброшенный на гротескный кожаный мешок. Погодите, это не мешок!..
+After Futaba drowned in a bathtub, her body slowly moved through the drain pipes to continue her swimming training.|После того, как Футаба утонула в ванной, её тело медленно путешествовало по сточным трубам, тем самым не пропуская уроки плавания.
+DRAIN SWIMMER wraps herself around you!|СТОЧНЫЙ ПЛОВЕЦ обвивается вокруг вас!
+DRAIN SWIMMER chokes you!|СТОЧНЫЙ ПЛОВЕЦ душит вас!
+DRAIN SWIMMER throws herself at you!|СТОЧНЫЙ ПЛОВЕЦ напрыгивает на вас!
+FORGOTTEN PATIENT|ЗАБЫТЫЙ ПАЦИЕНТ
+<<I'm sorry, have you seen the doctor?...>>##<<He suddenly disappeared and I'm not sure whether the surgery is over...>>|«Простите, вы не видели доктора?..»##«Он будто испарился, и я не уверен, завершилась ли операция...»
+Doctors going missing resulted in the deaths of many patients awaiting their surgery.|Пропажа докторов в итоге привела к смерти многих пациентов, ожидавших операцию.
+FORGOTTEN PATIENT starts crying!|ЗАБЫТЫЙ ПАЦИЕНТ начинает плакать!
+FORGOTTEN PATIENT sprays you with blood!|ЗАБЫТЫЙ ПАЦИЕНТ заливает вас кровью!
+FORGOTTEN PATIENT stabs you with her rib bone!|ЗАБЫТЫЙ ПАЦИЕНТ ударяет вас своим ребром!
+GOBLIN SEAL|ГОБЛИН-ТЮЛЕНЬ
+Following a barking sound, you find yourself on a beach, surrounded by rocks...|Следуя за звуком лая, вы оказываетесь на пляже, окружённом камнями...
+The corrupting influence of the OLD GOD affects all animals.|Порочное влияние ДРЕВНЕГО БОГА действует на всех животных.
+GOBLIN SEAL bites you in the leg!|ГОБЛИН-ТЮЛЕНЬ кусает вас за ногу!
+GOBLIN SEAL slaps you!|ГОБЛИН-ТЮЛЕНЬ ударяет вас!
+GOBLIN SEAL grabs you with its teeth!|ГОБЛИН-ТЮЛЕНЬ хватает вас зубами!
+DREAM SALESMAN|ПРОДАВЕЦ ГРЁЗ
+You are surprised to find a well-dressed man sitting on a rock in the middle of a forest. When you get closer, however, you discover that he's wearing a realistic mask that falls on the ground.##>>Do you have a moment to s-spp-e-ak-k a-b-b-o-u-t-t t-th--iii-isii pr-r-o-d-c-t?? . ?.?. <<|Вы удивляетесь, завидев стильно одетого мужчину, сидящего на камне посреди леса. Когда вы приближаетесь, то понимаете, что это была маска, которая теперь спала на землю.##«У вас есть минутка п-поо-г-го-в-ор-рить о-оо-б э-эт--ооо-мм т-то-в-а-р-е?? . ?.?.»
+He spent his life selling lies to unsuspecting people. Now, these lies are everything he knows.|Он провёл всю свою жизнь, продавая ложь доверчивым людям. Теперь эта ложь - всё, что он знает.
+DREAM SALESMAN grabs you!|ПРОДАВЕЦ ГРЁЗ хватает вас!
+DREAM SALESMAN attacks you!|ПРОДАВЕЦ ГРЁЗ атакует вас!
+DREAM SALESMAN tells you his sweet lies!|ПРОДАВЕЦ ГРЁЗ рассказывает вам сладкую ложь!
+HUMAN LANTERN|ЧЕЛОВЕК-ФОНАРЬ
+Following a weird light, you enter an abandoned village building. The whole room is illuminated by countless paper lanterns in many colors. One lantern, however, begins to get closer...|Следуя за странным светом, вы входите в заброшенное здание деревни. Комната целиком освещена бесчисленным количеством бумажных фонариков разных цветов. Один из них, однако, начинает приближаться...
+All ancient buildings hide their morbid secrets.|Все древние строения скрывают ужасающие секреты.
+HUMAN LANTERN freezes you!|ЧЕЛОВЕК-ФОНАРЬ обездвиживает вас!
+HUMAN LANTERN scares you!|ЧЕЛОВЕК-ФОНАРЬ пугает вас!
+HUMAN LANTERN attacks you!|ЧЕЛОВЕК-ФОНАРЬ атакует вас!
+CYCLOPS NEIGHBOR|СОСЕДКА-ЦИКЛОП
+Passing by a faulty elevator, its doors suddenly open. You take a step back noticing a weird tall woman, standing in the darkness.##<<Do you live here? I've never s-e-e-n you...>>|Когда вы проходите мимо неисправного лифта, его двери внезапно открываются. Вы делаете шаг назад, замечая странную высокую женщину, стоящую во тьме.##«Ты живёшь здесь? Я никогда тебя не в-и-и-д-е-л-а...»
+She's already devoured one of your neighbors. Will you be next?|Она уже сожрала одного из ваших соседей. Вы будете следующей жертвой?
+CYCLOPS NEIGHBOR attacks you!|СОСЕДКА-ЦИКЛОП атакует вас!
+CYCLOPS NEIGHBOR kicks you!|СОСЕДКА-ЦИКЛОП пинает вас!
+CYCLOPS NEIGHBOR punches you in the face!|СОСЕДКА-ЦИКЛОП ударяет вас в лицо!
