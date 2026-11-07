@@ -1,21 +1,43 @@
-import struct, sys, re
-d = open(sys.argv[1],'rb').read(); B=0x140000000
-pe = struct.unpack_from('<I', d, 0x3c)[0]; n = struct.unpack_from('<H', d, pe+6)[0]; so = struct.unpack_from('<H', d, pe+20)[0]
-secs = [(d[pe+24+so+i*40:pe+24+so+i*40+8].rstrip(b'\0').decode(),)+struct.unpack_from('<IIII', d, pe+24+so+i*40+8) for i in range(n)]
-def off(va):
-    r=va-B
-    for nm,vs,sva,rs,rp in secs:
-        if sva <= r < sva+max(vs,rs): return rp+r-sva
-data=[s for s in secs if s[0]=='.data'][0]; rd=[s for s in secs if s[0]=='.rdata'][0]
-lo,hi=B+data[2],B+data[2]+data[1]
-rlo,rhi=B+rd[2],B+rd[2]+rd[1]
-o0=data[4]; cnt=data[3]//8
-out={}
-for i in range(cnt):
-    q=struct.unpack_from('<Q',d,o0+i*8)[0]
-    if rlo<=q<rhi:
-        s=d[off(q):off(q)+64].split(b'\0')[0]
-        # a slot is `[name pointer][dword id, initially 0xffffffff]`; the layout check lets 1-2 character names (x, y, id) in without noise
-        if re.fullmatch(rb'[a-z][a-z0-9_]{0,50}', s) and (len(s) >= 3 or struct.unpack_from('<I',d,o0+i*8+8)[0] == 0xffffffff):
-            out[lo+i*8+8]=s.decode()
-for k,v in sorted(out.items()): print('%x\t%s'%(k,v))
+"""Map of built-in function and variable slots: `python -I allslots.py <exe>` prints `<slot VA hex>\t<name>` to stdout.
+A slot is `[name pointer][dword id, initially 0xffffffff]` in .data; the name lives in .rdata."""
+
+import pathlib
+import re
+import struct
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
+import common
+
+BASE = 0x140000000
+data_bytes = pathlib.Path(sys.argv[1]).read_bytes()
+sections = common.pe_sections(data_bytes)
+
+
+def offset_of(va):
+    rva = va - BASE
+    for vsize, section_rva, rsize, raw in sections.values():
+        if section_rva <= rva < section_rva + max(vsize, rsize):
+            return raw + rva - section_rva
+    return None
+
+
+data_vsize, data_rva, data_rsize, data_raw = sections[".data"]
+rdata_vsize, rdata_rva, _, _ = sections[".rdata"]
+low, high = BASE + data_rva, BASE + data_rva + data_vsize
+rdata_low, rdata_high = BASE + rdata_rva, BASE + rdata_rva + rdata_vsize
+slots = {}
+for index in range(data_rsize // 8):
+    pointer = struct.unpack_from("<Q", data_bytes, data_raw + index * 8)[0]
+    if rdata_low <= pointer < rdata_high:
+        start = offset_of(pointer)
+        name = data_bytes[start : start + 64].split(b"\0")[0]
+        # the layout check lets 1-2 character names (x, y, id) in without noise
+        if re.fullmatch(rb"[a-z][a-z0-9_]{0,50}", name) and (
+            len(name) >= 3
+            or struct.unpack_from("<I", data_bytes, data_raw + index * 8 + 8)[0]
+            == 0xFFFFFFFF
+        ):
+            slots[low + index * 8 + 8] = name.decode()
+for slot, name in sorted(slots.items()):
+    print(f"{slot:x}\t{name}")

@@ -1,21 +1,22 @@
-"""Хранит translation/*.txt как источник перевода и создаёт из него .jn файлы.
+"""Keeps translation/*.txt as the translation source and builds .jn files from it.
 
-Формат .jn: одна строка "English|Japanese" на каждую строку текста (woh_ui.jn также начинается со строки-заголовка "English|Japanese").
-woh_ver.jn — простой текст без японской колонки: его английский текст — часть до первого "|" (первая строка повторяет английский после "|", это не сохраняется).
-Формат txt: одна строка "<eng>|<rus>" на каждую строку .jn с текстом (заголовок пропущен), в том же порядке. Пустой <rus> записывается как пустая строка.
-Разделитель — первый "|" в строке.
+.jn format: one line "English|Japanese" per text line (woh_ui.jn also starts with a header line "English|Japanese").
+woh_ver.jn is plain text without a Japanese column: its English text is the part before the first "|" (the first line repeats the English after "|", which is not saved).
+txt format: one line "<eng>|<rus>" per text line of the .jn (header skipped), in the same order. An empty <rus> is written as an empty string.
+The separator is the first "|" in the line.
 
-carry: перезаписать каждый txt из непереведённых .jn файлов в --source. Каждая новая английская строка получает русский текст
-  строки txt с тем же английским. Английские строки, которых больше нет в игре, сообщаются как удалённые.
-apply: записать каждый переведённый .jn в output/language/engLanguage. Японская колонка и заголовок берутся из .jn файлов --source.
-  Строки сопоставляются по английскому тексту. Завершается с ошибкой, если английского текста из txt нет в источнике (сначала запустите carry);
-  выдаёт предупреждение, если строки txt идут в другом порядке, чем в .jn файле.
+carry: overwrite every txt from the untranslated .jn files in --source. Each new English line gets the Russian text
+  of the txt line with the same English. English lines no longer in the game are reported as removed.
+apply: write every translated .jn to output/language/engLanguage. The Japanese column and header come from the --source .jn files.
+  Lines are matched by English text. Fails if the txt's English text is missing from the source (run carry first);
+  warns if the txt lines are in a different order than in the .jn file.
 
-Исходные файлы должны быть оригиналами игры: файлы, записанные этим конвейером, отклоняются.
+The source files must be the game's originals: files written by this pipeline are rejected.
 
-Использование (обычно `woh.py sync` и `woh.py build --no-exe --no-sprites`):
+Usage (usually `woh.py sync` and `woh.py build --no-exe --no-sprites`):
   python -I pipeline/act/woh_txt.py carry [--source DIR]
   python -I pipeline/act/woh_txt.py apply [--source DIR]
+
 """
 
 import argparse
@@ -44,7 +45,7 @@ def read_lines(path):
 
 def split_header(lines):
     head = lines[:1] if lines and lines[0] == HEADER else []
-    return head, lines[len(head):]
+    return head, lines[len(head) :]
 
 
 def write_lines(path, lines):
@@ -74,7 +75,7 @@ def carry(source):
         _, new_lines = split_header(read_lines(jn_path))
 
         pool = defaultdict(deque)
-        for entry in (read_lines(txt) if txt.exists() else []):
+        for entry in read_lines(txt) if txt.exists() else []:
             parts = split_entry(entry)
             if parts is None:
                 sys.exit(f"{txt.name}: line without {SEP}: {entry!r}")
@@ -94,7 +95,9 @@ def carry(source):
 
         dropped = sum(1 for queue in pool.values() for ru in queue if ru)
         write_lines(txt, out)
-        print(f"{txt.name}: {len(out)} lines, {unmatched} without a match, {dropped} translations dropped")
+        print(
+            f"{txt.name}: {len(out)} lines, {unmatched} without a match, {dropped} translations dropped"
+        )
 
 
 def apply(source):
@@ -106,7 +109,9 @@ def apply(source):
         head, source_lines = split_header(read_lines(src))
         entries = read_lines(txt)
         if len(entries) != len(source_lines):
-            sys.exit(f"{txt.name}: {len(entries)} entries, but {src.name} has {len(source_lines)} lines; run carry")
+            sys.exit(
+                f"{txt.name}: {len(entries)} entries, but {src.name} has {len(source_lines)} lines; run carry"
+            )
 
         pool = defaultdict(deque)
         for entry_number, entry in enumerate(entries):
@@ -125,13 +130,16 @@ def apply(source):
             entry_number, text = queue.popleft()
             if entry_number != position:
                 reordered.append((en, entry_number, position))
+            text = text or en  # not translated yet: keep the English
             out.append(text if ja is None else f"{text}|{ja}")
 
         if reordered:
             en, entry_number, position = reordered[0]
-            print(f"warning: {txt.name}: {len(reordered)} of {len(source_lines)} lines are in a different order from "
-                  f"{src.name} (first: {en!r} is on txt line {entry_number + 1}, expected line {position + 1})",
-                  file=sys.stderr)
+            print(
+                f"warning: {txt.name}: {len(reordered)} of {len(source_lines)} lines are in a different order from "
+                f"{src.name} (first: {en!r} is on txt line {entry_number + 1}, expected line {position + 1})",
+                file=sys.stderr,
+            )
 
         write_lines(OUTPUT / src.name, out)
         common.record_produced(OUTPUT / src.name)
@@ -139,13 +147,21 @@ def apply(source):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     commands = parser.add_subparsers(dest="command", required=True)
-    for name, help_text in (("carry", "обновить txt файлы из непереведённых .jn файлов"),
-                            ("apply", "записать переведённые .jn файлы в output/language/engLanguage")):
+    for name, help_text in (
+        ("carry", "update the txt files from the untranslated .jn files"),
+        ("apply", "write the translated .jn files to output/language/engLanguage"),
+    ):
         command = commands.add_parser(name, help=help_text)
-        command.add_argument("--source", type=pathlib.Path, default=SOURCE,
-                             help="папка с непереведёнными .jn файлами (по умолчанию английская папка Steam)")
+        command.add_argument(
+            "--source",
+            type=pathlib.Path,
+            default=SOURCE,
+            help="folder with the untranslated .jn files (default: the Steam English folder)",
+        )
     args = parser.parse_args()
 
     if args.command == "carry":

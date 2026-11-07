@@ -1,14 +1,14 @@
-"""Заменяет кадры спрайтов и атласы шрифтов в data.win на PNG из двух папок, сопоставляя по имени.
+"""Replaces sprite frames and font atlases in data.win with PNGs from two folders, matching by name.
 
-Каждый PNG кадра должен называться <sprite>_<frame>.png (как его записывает `woh.py extract`). Файлы, чьи спрайт или кадр отсутствуют в
-data.win, пропускаются с сообщением. Каждый PNG кадра должен быть дополненной ограничивающей рамкой заменяемого кадра (как при экспорте), а каждый PNG шрифта (с именем <font>.png) — размером заменяемого атласа; иначе запуск завершится ошибкой.
+Each frame PNG must be named <sprite>_<frame>.png (as `woh.py extract` writes it). Files whose sprite or frame is missing from
+data.win are skipped with a message. Each frame PNG must be the padded bounding box of the frame it replaces (as in the export), and each font PNG (named <font>.png) must be the size of the atlas it replaces; otherwise the run fails.
 
-Запускает replace_sprites.csx через UndertaleModCli и сохраняет результат в --out.
+Runs replace_sprites.csx through UndertaleModCli and saves the result to --out.
 
-Использование:
+Usage:
   python -I pipeline/act/replace_sprites.py [--images DIR] [--fonts DIR] [--data DATA.WIN] [--out OUT.WIN] [--utmt UndertaleModCli.exe]
 
---data по умолчанию указывает на установку Steam. --utmt берёт путь из переменной окружения UTMT_CLI, затем ищет UndertaleModCli в PATH.
+--data defaults to the Steam install. --utmt takes the path from the UTMT_CLI environment variable, then looks for UndertaleModCli on PATH.
 """
 
 import argparse
@@ -20,16 +20,42 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))  # -I does not add the script directory
-import common  # noqa: E402
+import common
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--images", type=Path, default=common.ROOT / "img" / "translation", help="папка файлов <sprite>_<frame>.png")
-    parser.add_argument("--fonts", type=Path, default=common.ROOT / "img" / "translation" / "font", help="папка атласов <font>.png")
-    parser.add_argument("--data", type=Path, default=common.STEAM / common.DATA_WIN, help="data.win для чтения")
-    parser.add_argument("--out", type=Path, default=common.OUTPUT / common.DATA_WIN, help="изменённый data.win для записи")
-    parser.add_argument("--utmt", default=os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli"), help="исполняемый файл UndertaleModCli")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "--images",
+        type=Path,
+        default=common.ROOT / "img" / "translation",
+        help="folder of <sprite>_<frame>.png files",
+    )
+    parser.add_argument(
+        "--fonts",
+        type=Path,
+        default=common.ROOT / "img" / "translation" / "font",
+        help="folder of <font>.png atlases",
+    )
+    parser.add_argument(
+        "--data",
+        type=Path,
+        default=common.STEAM / common.DATA_WIN,
+        help="data.win to read",
+    )
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=common.OUTPUT / common.DATA_WIN,
+        help="modified data.win to write",
+    )
+    parser.add_argument(
+        "--utmt",
+        default=os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli"),
+        help="UndertaleModCli executable",
+    )
     args = parser.parse_args()
 
     if not args.utmt:
@@ -42,12 +68,21 @@ def main():
     common.require_pristine(args.data)
     args.out.parent.mkdir(parents=True, exist_ok=True)
 
-    env = {**os.environ, "WOH_IN": str(args.images.resolve()), "WOH_FONTS": str(args.fonts.resolve())}
+    env = {
+        **os.environ,
+        "WOH_IN": str(args.images.resolve()),
+        "WOH_FONTS": str(args.fonts.resolve()),
+    }
     subprocess.run(
         [
-            args.utmt, "load", str(args.data.resolve()),
-            "-s", str(HERE / "replace_sprites.csx"),
-            "-o", str(args.out.resolve()), "-f",
+            args.utmt,
+            "load",
+            str(args.data.resolve()),
+            "-s",
+            str(HERE / "replace_sprites.csx"),
+            "-o",
+            str(args.out.resolve()),
+            "-f",
         ],
         env=env,
         check=True,

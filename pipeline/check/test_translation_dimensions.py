@@ -1,9 +1,9 @@
 # /// script
 # dependencies = ["pillow"]
 # ///
-"""Проверяет, что у каждого PNG в img/translation есть PNG с тем же именем в img/source того же размера.
+"""Checks that every PNG in img/translation has a same-named PNG in img/source of the same size.
 
-Запуск: uv run pipeline/check/test_translation_dimensions.py   (сначала `woh.py extract`)
+Run: uv run pipeline/check/test_translation_dimensions.py   (`woh.py extract` first)
 """
 
 import unittest

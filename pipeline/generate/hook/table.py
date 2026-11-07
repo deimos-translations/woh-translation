@@ -1,4 +1,5 @@
-"""Таблица перевода, которую читает хук (раскладка описана в hook.s), и 16-байтовые заглушки, которые в неё входят."""
+"""The translation table the hook reads (layout described in hook.s) and the 16-byte stubs that go into it."""
+
 import struct
 
 FNV_OFFSET, FNV_PRIME = 0x811C9DC5, 0x01000193
@@ -30,7 +31,9 @@ def build_table(translations):
         body += text
         body += b"\0" * (-(header + len(body)) % 8)
         refstring_off = header + len(body)
-        body += struct.pack("<QII", 0, 1, (len(text) - 1) | 0x80000000)  # text pointer is filled in by the hook
+        body += struct.pack(
+            "<QII", 0, 1, (len(text) - 1) | 0x80000000
+        )  # text pointer is filled in by the hook
         slot = fnv1a(key[:-1]) & (count - 1)
         while entries[slot] is not None:
             slot = (slot + 1) & (count - 1)

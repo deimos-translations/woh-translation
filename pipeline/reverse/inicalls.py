@@ -1,47 +1,76 @@
-"""Список вызовов встроенных функций (ini_read_*/ini_write_*) в функции с их литеральными аргументами, из сырого кода (без декомпилятора).
-`python -I inicalls.py <exe> <funcVA hex> [имена встроенных функций...]`. Аргументы = последние N `lea rdx,[literal-slot]` перед каждым вызовом; вещественные числа показываются как double, загруженный через `mov rax,imm64`/`movsd`; константы без `movsd` не отслеживаются (выводятся как '#')."""
-import re, struct, sys, os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+"""Lists built-in function calls (ini_read_*/ini_write_*) in a function with their literal arguments, from raw code (no decompiler).
+`python -I inicalls.py <exe> <funcVA hex> [built-in function names...]`. Arguments = the last N `lea rdx,[literal-slot]` before each call; real numbers are shown as the double loaded via `mov rax,imm64`/`movsd`; constants without `movsd` are not tracked (printed as '#')."""
+
+import pathlib
+import re
+import struct
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
+import common
 import slotstrings
+
+BASE = 0x140000000
 exe, fva = sys.argv[1], int(sys.argv[2], 16)
-want = set(sys.argv[3:]) or {'ini_read_string', 'ini_read_real', 'ini_write_string', 'ini_write_real'}
-d = open(exe, 'rb').read(); B = 0x140000000
-pe = struct.unpack_from('<I', d, 0x3c)[0]; n = struct.unpack_from('<H', d, pe + 6)[0]; so = struct.unpack_from('<H', d, pe + 20)[0]
-secs = [struct.unpack_from('<IIII', d, pe + 24 + so + i * 40 + 8) for i in range(n)]
-names = [d[pe + 24 + so + i * 40:pe + 24 + so + i * 40 + 8].rstrip(b'\0') for i in range(n)]
-data_section = secs[names.index(b'.data')]
+want = set(sys.argv[3:]) or {
+    "ini_read_string",
+    "ini_read_real",
+    "ini_write_string",
+    "ini_write_real",
+}
+d = pathlib.Path(exe).read_bytes()
+secs = common.pe_sections(d)
+data_vsize, data_rva, _, _ = secs[".data"]
+
+
 def off(va):
-    r = va - B
-    for vs, sva, rs, rp in secs:
-        if sva <= r < sva + max(vs, rs): return rp + r - sva
+    r = va - BASE
+    for vs, sva, rs, rp in secs.values():
+        if sva <= r < sva + max(vs, rs):
+            return rp + r - sva
+    return None
+
+
 LIT = slotstrings.load(exe)
+
+
 def bname(slot):
     o = off(slot - 8)
-    q = struct.unpack_from('<Q', d, o)[0]
-    if not 0x140000000 <= q < 0x150000000: return None
-    s = d[off(q):off(q) + 64].split(b'\0')[0]
-    return s.decode('latin1') if re.fullmatch(rb'[A-Za-z_]\w{2,60}', s) else None
+    q = struct.unpack_from("<Q", d, o)[0]
+    if not BASE <= q < 0x150000000:
+        return None
+    s = d[off(q) : off(q) + 64].split(b"\0")[0]
+    return s.decode("latin1") if re.fullmatch(rb"[A-Za-z_]\w{2,60}", s) else None
+
+
 # function range from .pdata
-pd = secs[names.index(b'.pdata')]
-pdo, pds = pd[3], pd[2]
+_, _, pds, pdo = secs[".pdata"]
 end = None
 for i in range(0, pds, 12):
-    b, e, _ = struct.unpack_from('<III', d, pdo + i)
-    if B + b == fva: end = B + e; break
-o0 = off(fva); code = d[o0:o0 + (end - fva)]
-print('function', hex(fva), 'size', len(code), file=sys.stderr)
+    b, e, _ = struct.unpack_from("<III", d, pdo + i)
+    if BASE + b == fva:
+        end = BASE + e
+        break
+o0 = off(fva)
+code = d[o0 : o0 + (end - fva)]
+print("function", hex(fva), "size", len(code), file=sys.stderr)
 args = []
-for m in re.finditer(rb'\x48\x8d\x15(....)|\x48\x8d\x0d(....)|\x8b[\x05\x0d\x15](....)', code, re.S):
+for m in re.finditer(
+    rb"\x48\x8d\x15(....)|\x48\x8d\x0d(....)|\x8b[\x05\x0d\x15](....)", code, re.DOTALL
+):
     a = fva + m.start()
     if m.group(1) is not None:
-        t = struct.unpack('<i', m.group(1))[0] + a + 7
-        if t in LIT: args.append(LIT[t])
+        t = struct.unpack("<i", m.group(1))[0] + a + 7
+        if t in LIT:
+            args.append(LIT[t])
     elif m.group(2) is not None:
-        t = struct.unpack('<i', m.group(2))[0] + a + 7
-        if t in LIT: args.append(LIT[t])
+        t = struct.unpack("<i", m.group(2))[0] + a + 7
+        if t in LIT:
+            args.append(LIT[t])
     elif m.group(3) is not None:
-        ln = 7 if code[m.start()] == 0x48 else 6
-        t = struct.unpack('<i', m.group(3))[0] + a + 6
-        nm = bname(t) if B + data_section[1] <= t < B + data_section[1] + data_section[0] else None
+        t = struct.unpack("<i", m.group(3))[0] + a + 6
+        nm = bname(t) if BASE + data_rva <= t < BASE + data_rva + data_vsize else None
         if nm in want:
-            print(nm, args[-3:]); args = []
+            print(nm, args[-3:])
+            args = []

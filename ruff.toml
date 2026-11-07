@@ -1,0 +1,21 @@
+target-version = "py312"
+extend-exclude = ["build", "output", "img"]
+
+[lint]
+select = ["ALL"]
+ignore = [
+    "COM812",   # conflicts with the formatter
+    "D", "ANN", "CPY", "EM", "TRY003", "FBT",  # docstrings, annotations, message style: not wanted in one-off scripts
+    "INP001",   # scripts, not packages
+    "T201",     # print is the output of these tools
+    "S101",     # asserts validate exe bytes before patching
+    "S311", "S324", "S603", "S607",  # test randomness, md5 as cache key, trusted tool launches
+    "E501",     # long Russian docstrings
+    "RUF001", "RUF002", "RUF003",  # Cyrillic text
+    "PLR0911", "PLR0912", "PLR0913", "PLR0915", "PLR0917", "PLR2004", "C901",  # complexity/magic numbers in byte parsing
+    "PT",       # stdlib unittest
+    "ERA001",
+    "PLW0603",  # woh.py keeps run state in module globals
+    "PLC0415",  # Pillow is imported where used (script header declares it)
+    "E402",     # sys.path is set up before importing the sibling modules
+]

@@ -1,12 +1,12 @@
 # /// script
 # dependencies = ["rapidocr-onnxruntime", "numpy", "pillow"]
 # ///
-"""OCR каждого извлечённого кадра спрайта и запись найденного в нём текста.
+"""OCR every extracted sprite frame and record the text found in it.
 
-Вывод с разделителем-табуляцией, один найденный текст на строку: <имя файла кадра> <TAB> <текст>
+Tab-separated output, one found text per line: <frame file name> <TAB> <text>
 
-Использование:
-  uv run pipeline/act/ocr_sprites.py [--sprites DIR] [--out FILE]   (обычно `woh.py ocr`)
+Usage:
+  uv run pipeline/act/ocr_sprites.py [--sprites DIR] [--out FILE]   (usually `woh.py ocr`)
 """
 
 import argparse
@@ -34,14 +34,28 @@ def prep(path):
     img = Image.open(path).convert("RGBA")
     canvas = Image.new("RGBA", img.size, (255, 255, 255, 255))
     canvas.alpha_composite(img)
-    scaled = canvas.convert("RGB").resize((img.width * SCALE, img.height * SCALE), Image.NEAREST)
+    scaled = canvas.convert("RGB").resize(
+        (img.width * SCALE, img.height * SCALE), Image.NEAREST
+    )
     return np.asarray(scaled)
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--sprites", type=Path, default=ROOT / "img" / "source", help="папка извлечённых PNG-кадров")
-    parser.add_argument("--out", type=Path, default=ROOT / "output" / "ocr_text.txt", help="выходной текстовый файл")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "--sprites",
+        type=Path,
+        default=ROOT / "img" / "source",
+        help="folder of extracted PNG frames",
+    )
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=ROOT / "output" / "ocr_text.txt",
+        help="output text file",
+    )
     args = parser.parse_args()
 
     frames = sorted(args.sprites.glob("*.png"))
@@ -52,9 +66,13 @@ def main():
     with args.out.open("w", encoding="utf-8", newline="\n") as out:
         for i, frame in enumerate(frames, 1):
             result, _ = engine(prep(frame))
-            for _, text, conf in result or []:
-                text = " ".join(text.split())
-                if conf >= MIN_CONF and sum(ch.isalnum() for ch in text) >= 2 and is_text(text):
+            for _, raw_text, conf in result or []:
+                text = " ".join(raw_text.split())
+                if (
+                    conf >= MIN_CONF
+                    and sum(ch.isalnum() for ch in text) >= 2
+                    and is_text(text)
+                ):
                     out.write(f"{frame.name}\t{text}\n")
             if i % 500 == 0:
                 print(f"{i}/{len(frames)}", file=sys.stderr, flush=True)

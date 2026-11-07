@@ -1,7 +1,8 @@
-"""Тесты записи файлов: защиты patch.py от записи без изменений, цикла carry/apply в woh_txt.py и проверки хешей hashes.txt. Только стандартная библиотека.
+"""Tests of file writing: patch.py's guards against writing without changes, the carry/apply cycle in woh_txt.py and the hashes.txt hash checks. Standard library only.
 
-Использование: python -I pipeline/check/test_outputs.py   (обычно `woh.py check`)
+Usage: python -I pipeline/check/test_outputs.py   (usually `woh.py check`)
 """
+
 import pathlib
 import struct
 import sys
@@ -21,17 +22,19 @@ def minimal_pe():
     data = bytearray(0x200)
     pe = 0x40
     struct.pack_into("<I", data, 0x3C, pe)
-    data[pe:pe + 4] = b"PE\0\0"
+    data[pe : pe + 4] = b"PE\0\0"
     struct.pack_into("<H", data, pe + 6, 1)  # NumberOfSections
     struct.pack_into("<H", data, pe + 20, 0xF0)  # SizeOfOptionalHeader
-    struct.pack_into("<8sIIII", data, pe + 24 + 0xF0, b".text", 0x100, 0x1000, 0x200, 0x200)
+    struct.pack_into(
+        "<8sIIII", data, pe + 24 + 0xF0, b".text", 0x100, 0x1000, 0x200, 0x200
+    )
     return bytes(data)
 
 
 class NoChangeGuardTest(unittest.TestCase):
     def test_no_change_returns_false_and_writes_an_identical_copy(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            tmp = pathlib.Path(tmp)
+        with tempfile.TemporaryDirectory() as tmp_name:
+            tmp = pathlib.Path(tmp_name)
             src, dst = tmp / "in.exe", tmp / "out.exe"
             src.write_bytes(minimal_pe())
             self.assertFalse(patch.main(src, dst, tmp, None))
@@ -43,21 +46,36 @@ class TranslationRoundTripTest(unittest.TestCase):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = pathlib.Path(tmp.name)
-        self.source, self.translation, self.output = root / "source", root / "translation", root / "output"
+        self.source, self.translation, self.output = (
+            root / "source",
+            root / "translation",
+            root / "output",
+        )
         self.source.mkdir()
-        (self.source / "woh_a.jn").write_bytes(b"English|Japanese\r\nHELLO|KANA\r\nBYE|KANA2")
-        for target, name, value in ((woh_txt, "LANGUAGE", self.translation), (woh_txt, "OUTPUT", self.output),
-                                    (common, "require_pristine", lambda path: None), (common, "record_produced", lambda *paths: None)):
+        (self.source / "woh_a.jn").write_bytes(
+            b"English|Japanese\r\nHELLO|KANA\r\nBYE|KANA2"
+        )
+        for target, name, value in (
+            (woh_txt, "LANGUAGE", self.translation),
+            (woh_txt, "OUTPUT", self.output),
+            (common, "require_pristine", lambda _path: None),
+            (common, "record_produced", lambda *_paths: None),
+        ):
             patcher = mock.patch.object(target, name, value)
             patcher.start()
             self.addCleanup(patcher.stop)
 
     def test_carry_then_apply_writes_translations_in_source_order(self):
         woh_txt.carry(self.source)
-        self.assertEqual((self.translation / "woh_a.txt").read_bytes(), b"HELLO|\r\nBYE|")
+        self.assertEqual(
+            (self.translation / "woh_a.txt").read_bytes(), b"HELLO|\r\nBYE|"
+        )
         (self.translation / "woh_a.txt").write_bytes(b"HELLO|HI\r\nBYE|BYE RU")
         woh_txt.apply(self.source)
-        self.assertEqual((self.output / "woh_a.jn").read_bytes(), b"English|Japanese\r\nHI|KANA\r\nBYE RU|KANA2")
+        self.assertEqual(
+            (self.output / "woh_a.jn").read_bytes(),
+            b"English|Japanese\r\nHI|KANA\r\nBYE RU|KANA2",
+        )
 
     def test_apply_stops_on_a_language_file_without_a_txt(self):
         woh_txt.carry(self.source)
@@ -73,10 +91,22 @@ class HashesTest(unittest.TestCase):
             hashes = pathlib.Path(tmp, "hashes.txt")
             hashes.write_text("aaa\tone.png\nbbb\ttwo.png\n", encoding="utf-8")
             with mock.patch.object(common, "HASHES", hashes):
-                self.assertEqual(common.changed_hashes({"one.png": "aaa", "two.png": "ccc", "three.png": "ddd"}), ["two.png"])
-                common.record_hashes(lambda name: name.endswith(".png"), [("ccc", "two.png"), ("ddd", "three.png")])  # accepted: replaces, adds, drops one.png
-                self.assertEqual(common.read_hashes(), {"two.png": "ccc", "three.png": "ddd"})
-                self.assertEqual(common.changed_hashes({"two.png": "ccc", "three.png": "ddd"}), [])
+                self.assertEqual(
+                    common.changed_hashes(
+                        {"one.png": "aaa", "two.png": "ccc", "three.png": "ddd"}
+                    ),
+                    ["two.png"],
+                )
+                common.record_hashes(
+                    lambda name: name.endswith(".png"),
+                    [("ccc", "two.png"), ("ddd", "three.png")],
+                )  # accepted: replaces, adds, drops one.png
+                self.assertEqual(
+                    common.read_hashes(), {"two.png": "ccc", "three.png": "ddd"}
+                )
+                self.assertEqual(
+                    common.changed_hashes({"two.png": "ccc", "three.png": "ddd"}), []
+                )
 
 
 if __name__ == "__main__":
