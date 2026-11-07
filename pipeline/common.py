@@ -36,30 +36,54 @@ def sha256(path):
         return hashlib.file_digest(file, "sha256").hexdigest()
 
 
-def data_win_chunks(data):
-    """Offset of the contents of each chunk of a data.win, by its four-letter tag."""
-    chunks, position = {}, 8
-    while position < len(data):
-        chunks[data[position:position + 4].decode("latin1")] = position + 8
-        position += 8 + struct.unpack_from("<I", data, position + 4)[0]
-    return chunks
-
-
-UNESCAPES = {"\\\\": "\\", "\\r": "\r", "\\n": "\n", "\\t": "\t"}
+UNESCAPES = {"\\\\": "\\", "\\r": "\r", "\\n": "\r\n", "\\l": "\n", "\\t": "\t", "\\!": "!"}
+POOL_UNESCAPES = {"\\\\": "\\", "\\r": "\r", "\\n": "\n", "\\t": "\t"}  # ExportPoolStrings.java writes CR and LF separately
+LITERAL_MARK = "!"  # exe_strings.txt: a line starting with it also has the exe's own copies of its source replaced (patch.py)
 
 
 def unescape(text):
-    """Undo the `\\\\`, `\\r`, `\\n`, `\\t` escapes of the translation documents."""
-    return re.sub(r"\\[\\rnt]", lambda match: UNESCAPES[match.group()], text)
+    """Undo the escapes of the translation documents: `\\\\` backslash, `\\n` CRLF (the game's line break), `\\l` bare LF, `\\r` bare CR, `\\t` TAB,
+    `\\!` an exclamation mark (a source that starts with `!` is written `\\!` in exe_strings.txt, where a leading `!` is the literal mark)."""
+    return re.sub(r"\\[\\rnlt!]", lambda match: UNESCAPES[match.group()], text)
 
 
-def record_hashes(suffix, entries):
-    """Replace the hashes.txt lines whose file name ends with suffix by entries ((sha256, name) pairs); other lines stay."""
+def parse_entry(line):
+    """One exe_strings.txt line without its line break -> (literal, source, has_separator, translation); source and translation stay escaped."""
+    literal = line.startswith(LITERAL_MARK)
+    source, separator, translation = line[literal:].partition(SEPARATOR)
+    return literal, source, bool(separator), translation
+
+
+def escape(text):
+    """Inverse of unescape: a game text as it is written in the documents, so CRLF is `\\n` and the documents hold no `\\r\\n`."""
+    return text.replace("\\", "\\\\").replace("\r\n", "\\n").replace("\n", "\\l").replace("\r", "\\r").replace("\t", "\\t")
+
+
+def unescape_pool(text):
+    """Undo the escapes of pool_strings.tsv: `\\\\`, `\\r`, `\\n` (LF), `\\t`."""
+    return re.sub(r"\\[\\rnt]", lambda match: POOL_UNESCAPES[match.group()], text)
+
+
+def record_hashes(owned, entries):
+    """Replace the hashes.txt lines whose file name owned(name) accepts by entries ((sha256, name) pairs); other lines stay."""
     kept = []
     if HASHES.exists():
-        kept = [line for line in HASHES.read_text(encoding="utf-8").splitlines() if line and not line.partition("\t")[2].endswith(suffix)]
+        kept = [line for line in HASHES.read_text(encoding="utf-8").splitlines() if line and not owned(line.partition("\t")[2])]
     lines = kept + [f"{digest}\t{name}" for digest, name in entries]
     HASHES.write_text("".join(f"{line}\n" for line in sorted(lines, key=lambda line: line.partition("\t")[2])), encoding="utf-8", newline="\n")
+
+
+def read_hashes():
+    """hashes.txt as {file name: sha256}."""
+    if not HASHES.exists():
+        return {}
+    return {name: digest for digest, _, name in (line.partition("\t") for line in HASHES.read_text(encoding="utf-8").splitlines() if line)}
+
+
+def changed_hashes(current):
+    """The names in current ({file name: sha256}) whose recorded hash in hashes.txt is different. A name that is not recorded yet is not changed."""
+    recorded = read_hashes()
+    return sorted(name for name, digest in current.items() if recorded.get(name, digest) != digest)
 
 
 def game_dir(game=None):

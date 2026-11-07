@@ -30,6 +30,10 @@ public final class Symbols {
         return values;
     }
 
+    public static boolean has(String name) {
+        return VALUES.containsKey(name);
+    }
+
     public static Set<String> set(String name) {
         Set<String> value = VALUES.get(name);
         if (value == null) throw new IllegalStateException("no symbol " + name);

@@ -2,7 +2,7 @@
 
 Ничего не сохраняется для каждой сборки. Каждая вспомогательная функция определяется по тому, чем она является: строке ошибки времени выполнения, которую она содержит, её месту среди того, что вызывают другие
 вспомогательные функции, или тому, как часто её вызывает код игры. Каждое правило должно давать ровно ожидаемый результат, иначе запуск останавливается и называет
-вспомогательную функцию: неверный адрес молча изменил бы отчёт о спрайтах. Если правило перестаёт работать после обновления среды выполнения GameMaker, правило нужно менять.
+вспомогательную функцию: неверный адрес молча изменил бы результат анализа. Если правило перестаёт работать после обновления среды выполнения GameMaker, правило нужно менять.
 
 Вывод содержит один символ на строку — именно это разбирает Symbols.java."""
 import bisect
@@ -93,7 +93,6 @@ def only(name, candidates):
 def resolve(image, gml_functions):
     last_gml = max(gml_functions)
     game_end = last_gml + image.size_of(last_gml)
-    runtime = [function for function in image.starts if function >= game_end]
     found = {"game_end": game_end}
     size, rva, _, _ = image.sections[".data"]
     found["slot_lo"], found["slot_hi"] = BASE + rva, BASE + rva + size
@@ -103,6 +102,12 @@ def resolve(image, gml_functions):
     found["to_int"] = only("to_int", image.holding("I32 argument is undefined"))
     array_writers = image.holding("Unable to write to immutable array")  # the accessor and two rarely called relatives
     found["array_element"] = only("array_element", (function for function in array_writers if image.game_callers(function, game_end) >= 1000))
+
+    # array read `a[i]` with a constant index: `cmp eax,<length>; jl <error>; mov edx,<i>; call <array_get>` (the bounds check the runtime inlines); one target takes all of them
+    reads = collections.Counter()
+    for match in re.finditer(rb"\x83\xf8.\x0f\x8c....\xba....\xe8(....)", image.text, re.S):
+        reads[image.text_va + match.start() + 19 + struct.unpack_from("<i", match.group(1))[0]] += 1
+    found["array_get"] = only("array_get", (target for target, count in reads.items() if count >= 1000 and target >= game_end))
 
     # free / copy / init are the three most called functions in the game; init and copy both call free
     by_calls = sorted(image.callers, key=lambda target: image.game_callers(target, game_end), reverse=True)
@@ -122,41 +127,14 @@ def resolve(image, gml_functions):
         sys.exit(f"helper `arith`: expected add and two others, found {sorted(hex(a) for a in arith)}")
     found["arith"] = sorted(arith)
 
-    # the small game-range wrappers: around the arith helper that never converts to int, and compare-with-int (cvtsi2sd xmm0,edx, then compare)
-    real_only = only("real-only arith", (function for function in arith if found["to_int"] not in image.calls_in[function]))
-    wrappers = {function for function in image.starts if function < game_end and function not in gml_functions and image.size_of(function) <= 140
-                and {free, real_only} <= image.calls_in.get(function, set()) and image.game_callers(function, game_end) >= 300}
-    compare_int = [function for function in image.starts if function < game_end and function not in gml_functions and image.size_of(function) <= 140
-                   and b"\xf2\x0f\x2a\xc2" in image.body(function) and image.game_callers(function, game_end) >= 300]
-    found["tierc_arith"] = sorted({only("tierc wrapper", wrappers), only("compare_int", compare_int)})
-
-    # sprite natives: everything that draws a sprite fetches it through the one callee the registered draw built-ins share
-    fetch_users = image.holding("Trying to draw non-existing sprite.")
-    draw_self = only("draw_self", (function for function in fetch_users if image.game_callers(function, game_end) > 0))
-    candidates = [callee for callee in image.calls_in[draw_self] if callee >= game_end]
-    fetch = max(candidates, key=lambda callee: len(image.callers[callee]))
-    natives = {function for function in runtime if fetch in image.calls_in.get(function, ()) and image.game_callers(function, game_end) > 0} - {draw_self}
-    ordered = sorted(natives, key=lambda function: image.game_callers(function, game_end), reverse=True)
-    if len(ordered) != 3:
-        sys.exit(f"helper `draw natives`: expected 3, found {[hex(n) for n in ordered]}")
-    found["draw_sprite"], found["draw_sprite_ext"], found["draw_sprite_part"] = ordered
-    found["draw_self"] = draw_self
-
-    # variable access: one compilation unit, laid out in source order around the setter that holds the read-only error
+    # variable access: one compilation unit, laid out in source order around the setter that holds the read-only error (it anchors the getters)
     setter = only("setter", image.holding("Writing to variable '%s' in managed object '%s' which is read-only. %s"))
     family = sorted(target for target in image.callers if setter - 0x1000 <= target < setter + 0xC00 and image.game_callers(target, game_end) >= 10)
     if len(family) != 12 or family[5] != setter:
         sys.exit(f"helper `variable access`: expected 12 functions with the setter sixth, found {[hex(f) for f in family]}")
-    get_slot, get_self, set_slot, op_any, op_self, _, op_other, _, get_any, get_other, set_any, set_other = family
+    get_slot, get_self, _, _, _, _, _, _, get_any, get_other, _, _ = family
     found["getters"] = [get_self, get_slot, get_other, get_any]
-    found["setters"] = [setter, set_other, set_slot]  # set_any converts its target and tail-jumps to set_other, so only Flow.java sees it (setters_flow)
-    found["setters_flow"] = [setter, set_other, set_slot, set_any]
-    found["op_setters"] = [op_any, op_self, op_other]
 
-    created = [function for function, name in gml_functions.items() if name in ("gml_Script_instance_create", "gml_GlobalScript_instance_create")]
-    if len(created) != 2:
-        sys.exit(f"helper `create_wrappers`: found {[hex(c) for c in created]}")
-    found["create_wrappers"] = sorted(created)
     return found
 
 

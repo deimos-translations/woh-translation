@@ -9,16 +9,19 @@ running the patched game unless stated. Addresses quoted in these notes are exam
 `uv run woh.py <command>` (`woh.py --help` lists them; the script header declares Pillow) does three things, in order and only as needed:
 
 1. **Reverse engineer** (`pipeline/reverse/`): headless Ghidra imports the installed exe, then scripts find patch sites, draw hooks,
-   strings and the scans the sprite analysis reads. Variable slots and runtime helpers are found without Ghidra, directly from the exe.
-2. **Generate artifacts** (`pipeline/generate/`): the hook binary, string target lists, sprite reports, save codes, debug IDs.
+   strings and the string value flow that `usage.tsv` needs. Variable slots and runtime helpers are found without Ghidra, directly from the exe.
+2. **Generate artifacts** (`pipeline/generate/`): the hook binary, string target lists, save codes.
 3. **Act** (`pipeline/act/`): patch the exe, write language files, replace sprites, write a save.
 
 Game files are read from the Steam install (`--game DIR` for another library). Derived files live in the ignored
-`build/<exe md5:8>-<data md5:8>/`, so a game update simply starts a new cache. Stages whose outputs exist are skipped; `--force STAGE`
-reruns one, and is needed after editing a script, since script changes do not invalidate outputs. Actions always run.
+`build/<exe md5:8>-<data md5:8>/`, so a game update simply starts a new cache. Stages whose outputs exist are skipped, unless
+a declared input (`translation/exe_strings.txt` for `targets`) is newer than them or a stage they need rewrote its
+outputs with different contents in the same run: a source added to `exe_strings.txt` reruns `targets` and then `string-refs` (Ghidra).
+`--force STAGE` reruns one, and is needed after editing a script, since script changes do not invalidate outputs. Actions always run.
 
-`woh.py sync` writes the tracked translation files: `translation/*.txt` and `translation/exe_strings.txt`. Run it after a game update.
-`woh.py ghidra-import` rewrites the exe's line in `hashes.txt` each time the exe is disassembled. `woh.py build` writes the sprite lines of `hashes.txt`: the sha256 of each extracted frame in `img/source` that has a PNG of the same name in `img/translation` (`--no-hashes` skips it).
+`woh.py sync` writes the tracked translation files `translation/*.txt`. Run it after a game update. `translation/exe_strings.txt` is kept by hand:
+sync only checks it against the build and writes the exe texts missing from it to `exe_strings_candidates.txt` in the build cache.
+`hashes.txt` is the record of the game files the translation was made against: the sha256 of the exe, of each frame in `img/source` that has a PNG of the same name in `img/translation`, and of each font atlas (`font/<name>.png`) that has one in `img/translation/font` (the game's original pixels). `woh.py build` first checks the current files against it and refuses to write anything if one of them differs, listing the changed names (the game was updated: review those translations); a name not recorded yet is accepted, and after the outputs were written `build` adds the new names and drops those of deleted translations. `--no-exe` / `--no-sprites` leave the exe / the sprites and fonts out of both the check and the record. `woh.py hashes` is the only command that accepts changed files: it replaces the recorded hashes with the current ones. `woh.py check` compares the edited font atlases with the game's (`check/font_check.py`): same size, which characters' cells differ, and fails on changes outside every glyph cell.
 
 **Building the translation:** `woh.py build` writes the language files, the patched exe and `data.win` (translated frames and font atlases) to `output/`
 and does not touch the game folder; copy them in yourself. The patched exe has never been run in the game. Files this pipeline wrote are recorded in `build/produced.md5` and refused as
@@ -87,8 +90,8 @@ producers and `newcombat_penalty` disagree (probable cause of broken battles aft
 2. Repoints the label loads at UTF-8 text in a new `.ruloc` section. The text comes from the first four lines of `translation/exe_strings.txt`
    (`DOOM`, `STA`, `REA`, `ALL`). An empty entry keeps its English key as the label; if all four are empty the guards and loads are
    left alone. Any length works.
-3. Translated hardcoded strings go through the draw-time hook (below), added to the same output. `--literal` (optional) additionally
-   repoints the exe's own copies (see next section).
+3. Translated hardcoded strings go through the draw-time hook (below), added to the same output. Entries marked `!` additionally
+   have the exe's own copies repointed (see next section).
 
 Logic literals are untouched. The PE has no signature or overlay and enough header slack to append a section. The block was judged
 label-only from disassembly.
@@ -97,23 +100,35 @@ label-only from disassembly.
 
 - `targets.tsv`: candidate strings and all their copies (VA, escaped text), built by `make_targets.py` from
   `ExportPoolStrings.java` (every code-referenced string). Selection: the sources already in `translation/exe_strings.txt`, plus short ALL-CAPS
-  tokens (`PREP`, `S.ATK`, `MAGIC`, ...) and quoted ALL-CAPS names (`'HAPPY LEMON'`), excluding the damage-type keys and label strings
+  tokens (`PREP`, `S.ATK`, `MAGIC`, ...) and quoted ALL-CAPS names (`'HAPPY LEMON'`), and multi-word English text (`Logging in... DONE`, `current weather: `; no `_`, `[`, `gml_` or backslash), excluding the damage-type keys and label strings
   `patch.py` handles.
 - `refs.tsv`: every code reference to those copies, from `ExportStringRefs.java`. Only RIP-relative `lea` is used; `mov` entries
   are Ghidra value propagation and are ignored. Texts without a `lea` reference (the two-letter `MC`..`CC` codes, odd fragments) can
   not be changed by `patch.py`, which warns if one is translated.
-- `translation/exe_strings.txt`: the document, `source|translation`, one line per distinct string; `woh.py sync` refreshes it and
-  keeps existing translations. Escapes: `\`, `\r`, `\n`, `\t`; `#` is the game's line break. Empty translation = untouched.
-- `patch.py --literal` repoints every copy's loads at the translation in `.ruloc`. Any length. It is the fallback for text modified
-  before drawing, at the cost of the logic guarantee, and is refused for compared texts.
+- `translation/exe_strings.txt`: the document, `source|translation`, one line per distinct string, kept by hand and holding only translated
+  entries. Escapes: `\\` backslash, `\n` the game's CRLF line break, `\l` a bare LF, `\r` a bare CR, `\t` tab, `\!` an exclamation mark;
+  `#` is the game's own line break. `woh.py sync` never changes it: it writes the targets missing from it to the build cache's
+  `out/exe_strings_candidates.txt` (`source|` lines to copy over) and lists document entries without a code copy in this build.
+- A leading `!` (`!source|translation`, a source starting with `!` is written `\!`) marks an entry for literal replacement: `patch.py`
+  repoints every copy's loads at the translation in `.ruloc`. Any length. It is for text modified before drawing, at the cost of the
+  logic guarantee; the patch stops before changing anything if a marked text is `logic` in `usage.tsv`. Unmarked entries are hook-only.
 - Being in the document does not make a string safe to translate: some are logic keys (`SVR KICK`, `ALLY ATK`, `NO CASH`) compared
   against values created elsewhere.
 
 ### Will a translation change behaviour?
 
 - No code reference lands inside a target string (`StringUses.java`, `interior`): replacing a string start moves every reference to it.
-- Usage classes (`StringUses.java` + `classify_usage.py` -> `usage.tsv`): `logic` = tested with the compare helper right after
-  the load (e.g. `SVR KICK`, `ALLY ATK`, `LOOK FOR#A WEAK SPOT`, `PREP`); the rest are not compared near the load.
+- Usage classes (`StringUses.java` + `classify_usage.py` -> `usage.tsv`): `logic` = the compare helper is called within the next six calls after
+  the load (e.g. `SVR KICK`, `ALLY ATK`, `PREP`); the rest are not compared near the load. Compares that `Flow.java` (strings mode, `V` rows) shows to
+  have a known number as an operand and no string are not counted: `rolled` is loaded right before the `language == 1..9` checks that choose its
+  translation, and was wrongly `logic` (so its `!` mark was refused). Such a text is built into a longer one by concatenation (`[` + `rolled` + `: `
+  + ...), so only a `!` mark can translate it; the draw-time hook never sees it whole.
+  A text is also `logic` when some variable name (`slots.tsv`) ends in `_<text>`: code builds the name by concatenation, e.g. `game_init` does
+  `variable_global_set("status_" + name, ...)` over a status list. Replacing `fearful` there left `status_fearful` unset, and every battle failed
+  in `newcombat_init` with "Cannot compare unset variables". `iktyosis` and `nails` match the same rule.
+  A text is also `logic` when code copies its slot into a static cell (`mov rax,[slot]; mov [static],rax`, a byte scan of `.text`): YYC builds
+  the case table of a string `switch` that way and compares through the table later, outside the six-call window. `draw_script_event_location`
+  switches on event-deck keys (`forest`, ..., `satoshi`, `toshiro`, `yumiko`).
 - `PREP` etc. are action IDs: `combat_loadactions` / `combat_clickactions` build arrays like `["PREP", 20*i, 40*j]`, `combat_action`
   compares the ID, and the same string is the button text. Text and key are one value.
 - Replacing every copy keeps comparisons between values that both originate from exe literals equal. It does not guarantee: a value
@@ -147,10 +162,8 @@ Logic values are never changed; the text argument of the text-drawing built-ins 
   before drawing is not); a translation longer than the original may overflow a layout; `string_width` of a translated text is measured
   on the translation (good), but code that measures the original and draws with the hook sees different widths.
 
-## Sprite usage
+## Sprites in `data.win`
 
-Which `data.win` sprites are drawn is analysed statically; see "Static sprite usage analysis" below for the method and results.
-Key facts:
 - `data.win` ships with a YYC build: YYC only replaces the GML bytecode (no `CODE`/`VARI`/`FUNC` chunks). Sprites, textures, audio,
   fonts, object and room definitions still live in `data.win`; the exe has none of the image data. Assets are referenced by **index**
   (`SPRT` order), never by name, so a name grep finds nothing.
@@ -159,8 +172,9 @@ Key facts:
 
 ## Not scanned
 
-Strings under 2 characters, UTF-16 text, mixed-case single words (almost all keyboard-mash cheat sequences), multi-word strings not
-already in `translation/exe_strings.txt` (the ALL-CAPS rule in `make_targets.py` is the only one that adds new texts), and `data.win`.
+Strings under 2 characters, UTF-16 text, mixed-case single words (almost all keyboard-mash cheat sequences), identifiers and debug tags
+(`_`, `[`, `gml_`) and `data.win`. The rules in `make_targets.py` (ALL-CAPS tokens, multi-word English text) are the only ones that add
+texts to the candidates report.
 
 ## Save file (format confirmed against a real game-written `save.ito`; unlocks NOT yet confirmed in the game)
 
@@ -190,7 +204,7 @@ already in `translation/exe_strings.txt` (the ALL-CAPS rule in `make_targets.py`
   codes and events/enemies/mysteries to `"yes"`. Not touched (semantics not derived): `challenges`, `city`, `translation`, `options`
   unlock flags (`suitcase`, `cardpack`, `backpack`, `neighbor`, `controller`), pantheon 006..009.
 - Debug code in the exe (`omenu_debug`): menu entries `all achievmt`, `allachiev`, `unlock first/second/third 24 achievements`; the
-  handlers of the first two were not located. See "Debug features" below for the debug features and the generated `out/debug_ids.tsv` for the typed-ID tables.
+  handlers of the first two were not located. See "Debug features" below for the debug features.
 
 ## Debug features
 
@@ -287,7 +301,7 @@ So after pressing them, finish the run (for example with "Give good ending") ins
 
 #### 4.2 Numpad spawn console (works on any run screen, not only the tab) **[code]**
 Press a numpad key to arm a mode, type a three-digit ID (the digits of the asset name, for example `191` for `itm_191_hitomisjacket`),
-then press the same numpad key again to confirm. The valid IDs are in the generated `out/debug_ids.tsv` (columns `kind`, `id`, `asset`).
+then press the same numpad key again to confirm. The valid IDs are the `NNN` of the `data.win` object names of each kind (`itm_NNN_*`, `evt_NNN_*`, ...).
 
 | Numpad | Mode | IDs (count) | What it creates |
 |---|---|---|---|
@@ -352,7 +366,7 @@ While holding **B** on the run screen:
 
 1. Title screen: Ctrl+Shift+H, then `U`: walk the language files line by line, F3 for the line-break mode, F2 to compare with another language.
 2. Ctrl+Shift+H, then F2: flip language 0/1 live while a screen is open; F5 for Japanese combat text.
-3. In a run: numpad 2 + `NNN` to open any event card (`out/debug_ids.tsv` lists them, and `woh_event.jn` has the text), numpad 5 + `NNN` for any enemy,
+3. In a run: numpad 2 + `NNN` to open any event card (the ID is the `NNN` of `evt_NNN_*`, and `woh_event.jn` has the text), numpad 5 + `NNN` for any enemy,
    numpad 0 for items, numpad 1 for status cards, numpad 4 for perks, numpad 9 for spells. This is the fastest way to see a given piece of text in context.
 4. Unlock everything for testing: `save_cheat.py` (see "Save file" above), or the three unlock buttons plus "Give good ending".
 
@@ -361,98 +375,4 @@ While holding **B** on the run screen:
 - Debug flag and key handlers: `gml_Object_omenu_front_KeyPress_72/73/78/85`, `gml_Object_overload_KeyPress_53/113/114/115/116`,
   `gml_Object_o_newgod_Mouse_5`, `gml_Object_o_newgod_Keyboard_66`, `gml_Object_o_newgod_Step_0` -> `gml_Script_newgod_debug` (numpad
   console), `gml_Object_o_newgod_Draw_0` (debug tab), `gml_Object_omenu_front_Draw_0` (line tester). Addresses change per build.
-- The typed-ID tables are in the generated `out/debug_ids.tsv`. The huge draw events and `newgod_debug` do not decompile in reasonable time.
-
-## Static sprite usage analysis
-
-Which of the sprites in `data.win` (363 sprites, 5305 frames in the build seen) does World of Horror actually draw? This is answered
-**statically**, from the exe and `data.win`, without running the game. See "Sprite usage" above for the engine facts it relies on.
-
-### Run it
-
-`woh.py report` (about 15 minutes, most of it the Ghidra scans; see "Setup" above). It:
-1. discovers the runtime helpers (`resolve_helpers.py` -> `out/symbols.json`),
-2. resolves the build-specific variable slots (`debug`, `god_debug`, `sprite_index`) by name into `out/sprite_config.json`,
-3. runs every scan and table builder below as needed,
-4. writes `out/sprite_report.md` (summary), `out/sprite_report.tsv` (per sprite), `out/sprite_frame_report.tsv` (per frame) and
-   `out/translation_audit.tsv` (maps `img/translation/*.png` to the verdicts via `audit_files.py`).
-
-### Verdicts
-
-| Class | Meaning |
-|---|---|
-| USED | drawn by code that surely runs |
-| WEAK | drawn only by code that runs if weakly-evidenced objects exist |
-| MAYBE | indirect evidence only; the note says which way it leans |
-| UNUSED | no evidence of a draw |
-
-Underlying evidence per sprite (`out/sprite_final.tsv`): **A** a native draw helper is called with the sprite id as a literal;
-**B** default sprite of an object in `OBJT`; **C** only a double constant equal to the id appears in game code (weak: many are
-coordinates); **D** no reference at all. A and B are refined by whether the drawing code is reachable and whether the object can exist.
-
-### How it works
-
-- **Draw natives.** The game never calls the registered `draw_sprite*` built-in implementations; YYC calls native helpers directly with
-  the sprite id in `EDX` (`draw_sprite`, `draw_sprite_ext`, two minor ones; `draw_self` uses the instance's `sprite_index`).
-  `draw_sprite_tiled*` is reached only through the builtin-by-id call path. Draw natives take `(instance, sprite, sub-image = XMM2,
-  x = XMM3, y = [rsp+0x20])`.
-- **Constant sites.** `SpriteRefs.java` lists every game call of the natives with the `MOV EDX,imm32` literal (`dyn` when computed from a
-  variable) and counts sprite-id-valued double constants. `sprite_usage.py` joins them with `SPRT` names and `OBJT` default sprites
-  (tiers A/B/C/D).
-- **Constants that are only coordinates.** `Consumers.java` + `tierc_filter.py` classify the consumer of each id-valued constant
-  (arithmetic/compare helpers = coordinate); `coord_only.py` drops sprites whose id only flows into draw x/y variables.
-- **Computed draws.** About 400 draw sites read a variable (`sprite_index` most, then `char_portrait`, `text_art`, `custom_art`,
-  `my_sprite`, `quest_progress_image`, `event_image`). Constants written into sprite-valued variables are collected program-wide:
-  `SetSites` (set helpers), `LvalStores` (in-place writes through the lvalue getter `MOV EDX,[slot]; CALL [reg+0x10]`), `ElemStores`
-  (array elements), joined by `sprite_vars.py`. Counter-like variables (`my_number`, `image`, `text_art`) collide with low ids, so ids
-  below ~40 are weak evidence.
-- **Calls.** `BuiltinCalls.java` decodes the arguments of every builtin/script call (shape
-  `(self, other, &ret, argc, slot, args)`); with the instance-create wrappers it gives the objects created with a constant id. `Flow.java`
-  does symbolic value flow per function; `flow_solve.py` solves variable-to-variable flow.
-- **Code-to-object map.** `.data` holds triples `(name pointer, function, data pointer)` for every `gml_Object_<obj>_<Event>_<n>` /
-  `gml_Script_*` / `gml_GlobalScript_*` name; `funcmap.py` reads them. `objects.py` parses `OBJT`/`ROOM` (instance lists, events,
-  parents) and sets each object's draw mode: no Draw event = drawn by the engine from its default sprite, otherwise its Draw event must
-  draw `sprite_index` (`sprite_final.py` follows callees up to 3 levels).
-- **Reachability** (`reach.py`). Call graph from roots (startup initializers `gml_GlobalScript_*`, room code); script calls are reads of
-  the global slot named after the script. Objects are live when placed in a room or created with a literal id by reachable code
-  (*strict*); also by an id constant in reachable code plus family propagation, since ids are consecutive inside families like `evt_*`,
-  `itm_*`, `nenm_*`, `upg_*` (*moderate*); or any object (*loose*, i.e. no evidence at all, not proof of dead code). Debug mode is
-  assumed off: branches decided by the `debug`/`god_debug` slots are treated as dead (`Flow.java` `-postScript Flow.java <out> <debug slot> <god_debug slot>`).
-- **Frames** (`frames.py`). Which sub-images are drawn, from the sub-image operand of constant-id draws. A sprite drawn only with
-  constant frames has its other frames reported as never drawn; any variable sub-image (`image_index`, -1) makes it dynamic.
-
-### Limits
-
-- Ids computed by arithmetic and names assembled at runtime are not resolvable. The string pool bounds the name case: no sprite name is
-  a literal in the exe.
-- `char_portrait` is read by 52 draw sites but no static write was found; `char_*` sprites are the natural candidates.
-- Conditions other than the debug flags, calls through variables other than script names, `event_perform` across objects, whether
-  alarms are set and user events are not modelled.
-- Sprite ids below ~40 collide with counters and coordinates; frame verdicts assume that a sprite id escaping into a variable outside the
-  sprite-variable allowlist is not missed.
-- A firm tier-A call can still sit in code that never runs.
-
-### Facts
-
-- `data.win` is YYC-stripped: no `CODE`/`VARI`/`FUNC` chunks. Assets are indexed by `SPRT` order. The sprite order is identical across
-  the `data.win` files compared.
-- Every sprite fetch goes through the accessor `Sprite_Data(int)` (127 callers in the build seen).
-- A sprite id as a double is `MOV r64,imm64` (bits of the double) or a read of a pooled double.
-- A variable slot is 16 bytes in `.data` with the name pointer 8 bytes before it; `allslots.py` lists them, including 1-2
-  character names such as `x`, `y`, `id`.
-- Object-name literals in the exe are not creation evidence: all are consumed by the generated `gml_Script___global_object_depths`.
-  Only 13 `instance_create_depth` builtin calls plus ~1200 calls of the two creation wrappers exist; `instance_create_layer` and
-  `instance_create` are unused. `evt_*`, `itm_*`, `upg_*`, `nenm_*` objects are created through variable ids.
-- A copy of the game folder needs `steam_appid.txt` (app id 913740), otherwise the Steam check relaunches the real install and exits.
-- Run Python as `python -I`: it keeps the script's directory off `sys.path`.
-
-### Results (build seen 2026-11-04)
-
-- 230 sprites are drawn by a constant id; about 160 of them in strictly reachable code, the rest only in objects that exist through id
-  tables or family propagation, or in objects with no evidence of creation (`@moderate` / `@loose`).
-- 40 sprites with several frames are drawn only with constant frames: 565 frames are never drawn (for example `s_image_event` 226
-  frames with only frame 149 drawn, `news_itemsmall` 199 frames with 4 drawn).
-- Unused or likely unused: sprites with no reference, and sprites whose id constants are only coordinates (e.g. `s_menu_back`, whose id
-  is stored into a y position used by 155 draws).
-- `translation_audit.tsv` classes each `img/translation` entry as NOT-USED / LIKELY-NOT-USED / UNKNOWN / WEAK-USED / USED; check it
-  before spending effort on a sprite.
+- The huge draw events and `newgod_debug` do not decompile in reasonable time.

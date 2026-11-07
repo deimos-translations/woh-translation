@@ -1,25 +1,26 @@
 # /// script
 # dependencies = ["pillow"]
 # ///
-"""Конвейер перевода World of Horror: обратная инженерия установленной сборки, создание артефактов, выполнение действий.
+"""Скрипт для помощи в переводе World of Horror.
 
-    uv run woh.py [--game DIR] [--force STAGE,STAGE] <команда> [аргументы]
+    uv run woh.py [--game ДИРЕКТОРИЯ] [--force СТАДИЯ,СТАДИЯ] <команда> [аргументы]
 
-Команды (каждая запускает всё, что ей нужно и что ещё не собрано):
-    build [--no-exe] [--no-text] [--no-sprites] [--no-hashes] [--literal]
-                            полная сборка в output/: language/engLanguage/*.jn, data.win, worldofhorror.exe; hashes.txt; каждый --no-* пропускает эту часть
-                            (--literal: также перенаправить собственные копии текстов exe, которые код не сравнивает)
-    sync                   обновить отслеживаемые документы перевода из игры (единственная команда, которая пишет в отслеживаемые файлы)
-    report                 какие спрайты и кадры используются, и translation_audit.tsv
-    extract                каждый кадр спрайта в img/source/, шрифты в кэш
-    ocr                    текст, найденный в извлечённых кадрах
-    save [IN] OUT          сохранение со всеми разблокировками
-    check                  тест размеров, а также нативные тесты хука в Windows
-    list                   все этапы по группам: re (обратная инженерия), gen (артефакты), act (действия)
+Команды (каждая запускает всё, что ей нужно):
+    build [--no-exe] [--no-text] [--no-sprites]
+                            полный билд выходит в output/: language/engLanguage/*.jn, data.win, worldofhorror.exe; отказывается писать, если exe или исходные кадры и шрифты переведённых картинок
+                            изменились с тех пор, как их хеши записаны в hashes.txt (после успешной сборки в него дописываются хеши новых); каждый --no-* пропускает свою часть
+                            (строки exe_strings.txt с `!` в начале также заменяют собственные копии текста в exe)
+    sync                   обновить отслеживаемые документы перевода из игры (единственная команда, которая пишет в отслеживаемые файлы);
+                            exe_strings.txt не меняется: новые тексты exe попадают в отчёт exe_strings_candidates.txt в кэше сборки
+    hashes                 принять текущие файлы игры: записать в hashes.txt их хеши (после обновления игры, когда переводы изменившихся файлов проверены)
+    extract                выводит спрайты и атласы шрифтов в img/source/
+    ocr                    ищет текст в спрайтах
+    save [ВХОД] ВЫХОД      генерит сохранение со всеми разблокировками
+    check                  проверяет штучки-дрючки
+    list                   выводит возможные команды
 
-Файлы игры по умолчанию берутся из установки Steam; --game DIR нужен для другой библиотеки Steam. Всё, что из них производится, хранится в
-build/<exe md5:8>-<data md5:8>/, поэтому артефакты всегда относятся к установленной сборке. Этапы, чьи выходные данные уже есть, пропускаются.
-Инструменты берутся из окружения: GHIDRA_HEADLESS (analyzeHeadless), WOH_GHIDRA_JAVA (JAVA_HOME для Ghidra), UTMT_CLI (UndertaleModCli).
+Файлы игры по умолчанию берутся из стандартной папки Steam; используйте --game для другой директории. Скрипт требует настроенного энвиронмента: переменные GHIDRA_HEADLESS (путь к скрипту analyzeHeadless), WOH_GHIDRA_JAVA (путь к JAVA_HOME для Ghidra), UTMT_CLI (путь к бинарнику UndertaleModCli).
+
 Clang и uv берутся из PATH.
 """
 import argparse
@@ -27,7 +28,6 @@ import json
 import os
 import pathlib
 import shutil
-import struct
 import subprocess
 import sys
 import time
@@ -40,10 +40,7 @@ import common
 
 REVERSE, GENERATE, ACT, CHECK = (PIPELINE / name for name in ("reverse", "generate", "act", "check"))
 OUT = "out/sprites"
-MIN_SPRITE_ID = 12  # smaller constants collide with plain numbers and are not tracked by the consumer scans
 DEBUG_VARIABLES = ["debug", "god_debug"]  # assumed false; resolved to slot addresses by name from the exe
-SPRITE_INDEX_VARIABLE = "sprite_index"
-DEBUG_ID_KINDS = {"nenm": "enemy", "evt": "event", "itm": "item", "upg": "perk", "stat": "status", "spl": "spell", "fol": "ally"}  # in output order
 SAVE_DECOMPILE_TIMEOUT = "1800"
 # The B of the "A/B" small-card label: the 22x22 box at (30, 162) of img/source/s_smallcard_24.png, '#' black, '.' white.
 SMALLCARD_X, SMALLCARD_Y, SMALLCARD_SIZE = 30, 162, 22
@@ -76,17 +73,19 @@ _BLACK, _WHITE = (0, 0, 0, 255), (255, 255, 255, 255)
 SMALLCARD_ORIGINAL = bytes(channel for row in SMALLCARD_BOX for cell in row for channel in (_BLACK if cell == "#" else _WHITE))
 
 STAGES = {}  # name -> (group, outputs, needs, function), in definition order
+INPUTS = {}  # name -> files outside the cache a stage reads: a newer one makes its outputs stale
 done = set()
+changed = set()  # stages whose outputs this run rewrote with different contents: what needs them runs again
 forced = set()
 game = None  # the game folder
-literal = False
 skipped = set()  # build parts left out by --no-exe, --no-text, --no-sprites
 command_args = []
 
 
-def stage(name, group, *outputs, needs=()):
+def stage(name, group, *outputs, needs=(), inputs=()):
     def decorate(function):
         STAGES[name] = (group, outputs, needs, function)
+        INPUTS[name] = inputs
         return function
     return decorate
 
@@ -96,7 +95,8 @@ def say(message):
 
 
 def build(name):
-    """Run a stage after what it needs. shortcut: a stage is current when its outputs exist, editing a script does not invalidate them; use --force."""
+    """Run a stage after what it needs. A stage is current when its outputs exist, none of its `inputs` is newer than them and nothing it
+    needs changed in this run. Editing a script does not invalidate them; use --force."""
     if name in done:
         return
     done.add(name)
@@ -104,8 +104,12 @@ def build(name):
     for need in needs:
         build(need)
     if outputs and name not in forced and all(os.path.exists(path) and os.path.getsize(path) > 0 for path in outputs):
-        say(f"[{name}] current")
-        return
+        oldest = min(os.path.getmtime(path) for path in outputs)
+        stale = changed.intersection(needs) or any(os.path.getmtime(path) > oldest for path in INPUTS[name])
+        if not stale:
+            say(f"[{name}] current")
+            return
+    before = [common.sha256(path) if os.path.exists(path) else None for path in outputs]
     started = time.time()
     say(f"[{name}] ...")
     try:
@@ -118,6 +122,8 @@ def build(name):
     missing = [path for path in outputs if not os.path.exists(path)]
     if missing:
         sys.exit(f"stage {name} did not write {', '.join(missing)}")
+    if [common.sha256(path) for path in outputs] != before:
+        changed.add(name)
     say(f"[{name}] done in {time.time() - started:.0f}s")
 
 
@@ -151,10 +157,11 @@ def ghidra_command(*args):
 def run_ghidra_logged(log_name, command):
     log_path = pathlib.Path("out/logs", log_name + ".log")
     with open(log_path, "w", encoding="utf-8") as log:
-        result = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, env=ghidra_env(), check=False)
+        result = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL, env=ghidra_env(), check=False)  # DEVNULL: a launcher's `pause` returns instead of hanging
     text = log_path.read_text(encoding="utf-8", errors="replace")
     if result.returncode or " error:" in text or "SCRIPT ERROR" in text or "The class could not be found" in text or "OutOfMemoryError" in text:
-        sys.exit(f"Ghidra {log_name} failed (see {log_path.resolve()})")
+        tail = "\n".join(line for line in text.splitlines() if line.strip())[-1500:]
+        sys.exit(f"Ghidra {log_name} failed (exit {result.returncode}, see {log_path.resolve()}):\n{tail}")
     return text
 
 
@@ -173,12 +180,6 @@ def rows(path):
     return [line.rstrip("\n").split("\t") for line in open(path, encoding="utf-8")]
 
 
-def data_win_counts():
-    with open(game / common.DATA_WIN, "rb") as file:
-        data = file.read()
-    return struct.unpack_from("<I", data, common.data_win_chunks(data)["SPRT"])[0]
-
-
 # ---------------------------------------------------------------- step 1: reverse engineering
 
 @stage("ghidra-import", "re", "ghidra/imported.ok")
@@ -195,7 +196,6 @@ def ghidra_import():
         shutil.rmtree(copy.parent)
     if "Save succeeded" not in text:  # an exited process is not enough
         sys.exit("Ghidra import did not save the project (see out/logs/ghidra-import.log)")
-    common.record_hashes(".exe", [(common.sha256(game / common.EXE), common.EXE)])  # the exe this disassembly is of
     pathlib.Path("ghidra/imported.ok").write_text("ok\n")
 
 
@@ -237,62 +237,32 @@ def funcmap():
     run_python(REVERSE / "funcmap.py", game / common.EXE, OUT + "/funcmap.tsv")
 
 
-@stage("objects", "re", "out/objects.tsv")
-def objects():
-    run_python(REVERSE / "objects.py", game / common.DATA_WIN, "out/objects.tsv")
-
-
 @stage("helpers", "re", "out/symbols.json", needs=("funcmap",))
 def helpers():
     run_python(REVERSE / "resolve_helpers.py", game / common.EXE, OUT + "/funcmap.tsv", "out/symbols.json")
 
 
-def scan(name, script, *outputs, args=lambda: ()):
-    @stage(name, "re", *outputs, needs=("ghidra-import", "helpers"))
-    def run():
-        run_ghidra(script, *outputs, *args())
-
-
-def sprite_count_args():
-    return str(data_win_counts()), str(MIN_SPRITE_ID)
-
-
-def draw_sinks():
-    known = symbols()
-    return [known["draw_sprite"], known["draw_sprite_ext"], known["draw_sprite_part"]]
-
-
-scan("scan-sites", "SpriteRefs.java", OUT + "/sites.tsv", OUT + "/consts.tsv",
-     args=lambda: [str(data_win_counts()), *draw_sinks(), symbols()["draw_self"]])
-scan("scan-consumers", "Consumers.java", OUT + "/consumers.tsv", args=sprite_count_args)
-scan("scan-setsites", "SetSites.java", OUT + "/setsites.tsv")
-scan("scan-lval", "LvalStores.java", OUT + "/lval.tsv")
-scan("scan-elem", "ElemStores.java", OUT + "/elem.tsv", args=sprite_count_args)
-scan("scan-bcalls", "BuiltinCalls.java", OUT + "/bcalls.tsv")
-scan("scan-scriptcalls", "BuiltinCalls.java", OUT + "/scriptcalls.tsv", args=lambda: symbols()["create_wrappers"])
-
-
-@stage("config", "gen", "out/sprite_config.json", needs=("slots", "helpers"))
+@stage("config", "gen", "out/debug_slots.json", needs=("slots",))
 def config():
-    wanted = {*DEBUG_VARIABLES, SPRITE_INDEX_VARIABLE}
     found = {}
     for address, name in rows(OUT + "/slots.tsv"):
-        if name in wanted:
+        if name in DEBUG_VARIABLES:
             found.setdefault(name, []).append(address)
-    for name in wanted:
+    for name in DEBUG_VARIABLES:
         if len(found.get(name, [])) != 1:
             sys.exit(f"variable `{name}` must have exactly one slot in the exe, found {found.get(name)}")
-    known = symbols()
-    with open("out/sprite_config.json", "w") as out:
-        json.dump({"sprite_index": found[SPRITE_INDEX_VARIABLE][0], "debug_slots": [found[name][0] for name in DEBUG_VARIABLES],
-                   "draw_self": known["draw_self"], "draw_sinks": draw_sinks(), "create_wrappers": known["create_wrappers"]}, out, indent=1)
+    with open("out/debug_slots.json", "w") as out:
+        json.dump({"debug_slots": [found[name][0] for name in DEBUG_VARIABLES]}, out, indent=1)
 
 
-@stage("scan-flow", "re", OUT + "/flow.tsv", needs=("ghidra-import", "config"))
-def scan_flow():
-    with open("out/sprite_config.json") as file:
+@stage("scan-strings-plain", "re", OUT + "/strflow_plain.tsv", needs=("string-uses", "config", "helpers"))
+def scan_strings_plain():
+    """Flow.java following the string literals of targets.tsv (the slots StringUses.java found): which compares involve a known number and no string. The debug flags are assumed 0."""
+    slots = sorted({cols[1] for cols in rows("out/uses.uses.tsv") if len(cols) > 1 and cols[1] != "NOSLOT"})
+    pathlib.Path("out/string_slots.txt").write_text("".join(slot + "\n" for slot in slots))
+    with open("out/debug_slots.json") as file:
         debug_slots = json.load(file)["debug_slots"]
-    run_ghidra("Flow.java", OUT + "/flow.tsv", *debug_slots)
+    run_ghidra("Flow.java", OUT + "/strflow_plain.tsv", *debug_slots, "strings", os.path.abspath("out/string_slots.txt"))
 
 
 @stage("decomp-save", "re", "out/decomp/save.ok", needs=("ghidra-import", "funcmap"))
@@ -311,29 +281,14 @@ def hook():
     run_python(GENERATE / "hook" / "build.py", "out")
 
 
-@stage("targets", "gen", "out/targets.tsv", needs=("pool-strings", "patch-sites"))
+@stage("targets", "gen", "out/targets.tsv", needs=("pool-strings", "patch-sites"), inputs=(common.TRANSLATION / "exe_strings.txt",))
 def targets():
     run_python(GENERATE / "make_targets.py", "out/pool_strings.tsv", common.TRANSLATION / "exe_strings.txt", "out/patch_sites.tsv", "out/targets.tsv")
 
 
-@stage("usage", "gen", "out/usage.tsv", needs=("string-uses", "helpers"))
+@stage("usage", "gen", "out/usage.tsv", needs=("string-uses", "helpers", "scan-strings-plain", "slots"))
 def usage():
-    run_python(GENERATE / "classify_usage.py", "out/targets.tsv", "out/uses.uses.tsv", symbols()["compare"], "out/usage.tsv")
-
-
-@stage("debug-ids", "gen", "out/debug_ids.tsv", needs=("objects",))
-def debug_ids():
-    """The numpad spawn console's typed IDs: `<prefix>_<NNN>_<name>` objects (see pipeline/README.md, "Debug features")."""
-    order = list(DEBUG_ID_KINDS)
-    found = []
-    for row in rows("out/objects.tsv")[1:]:
-        prefix, _, rest = row[1].partition("_")
-        number = rest.partition("_")[0]
-        if prefix in DEBUG_ID_KINDS and number.isdigit():
-            found.append((order.index(prefix), number, row[1]))
-    with open("out/debug_ids.tsv", "w", encoding="utf-8", newline="\n") as out:
-        out.write("kind\tid\tasset\n")
-        out.writelines(f"{DEBUG_ID_KINDS[order[kind]]}\t{number}\t{asset}\n" for kind, number, asset in sorted(found))
+    run_python(GENERATE / "classify_usage.py", "out/targets.tsv", "out/uses.uses.tsv", symbols()["compare"], "out/usage.tsv", OUT + "/strflow_plain.tsv", OUT + "/slots.tsv", game / common.EXE)
 
 
 @stage("save-codes", "gen", "out/save_codes.json", needs=("decomp-save",))
@@ -352,58 +307,6 @@ def save_keys():
     run_python(GENERATE / "save_keys.py", game / common.EXE, OUT + "/funcmap.tsv", "out/ini_calls.txt", "out/save_keys.json")
 
 
-@stage("sprite-usage", "gen", "out/sprite_usage.tsv", needs=("scan-sites",))
-def sprite_usage():
-    run_python(GENERATE / "sprite_usage.py", game / common.DATA_WIN, OUT + "/sites.tsv", OUT + "/consts.tsv", "out/sprite_usage.tsv", *draw_sinks())
-
-
-@stage("tierc", "gen", "out/sprite_tierc.tsv", needs=("sprite-usage", "scan-consumers", "slots"))
-def tierc():
-    run_python(GENERATE / "tierc_filter.py", "out/sprite_usage.tsv", OUT + "/consumers.tsv", OUT + "/slots.tsv", "out/sprite_tierc.tsv")
-
-
-@stage("sprite-vars", "gen", "out/sprite_varassign.tsv", needs=("sprite-usage", "scan-lval", "scan-setsites", "scan-elem", "slots"))
-def sprite_vars():
-    run_python(GENERATE / "sprite_vars.py", "out/sprite_usage.tsv", OUT + "/slots.tsv", OUT + "/lval.tsv", OUT + "/setsites.tsv", OUT + "/elem.tsv",
-               "out/sprite_varassign.tsv")
-
-
-@stage("flow-solve", "gen", "out/sprite_flow.tsv", needs=("scan-flow", "sprite-usage", "slots"))
-def flow_solve():
-    run_python(GENERATE / "flow_solve.py", OUT + "/flow.tsv", OUT + "/slots.tsv", "out/sprite_usage.tsv", "out/sprite_flow.tsv")
-
-
-@stage("coord-only", "gen", "out/sprite_coordonly.tsv", needs=("scan-flow", "scan-elem", "sprite-usage", "slots"))
-def coord_only():
-    run_python(GENERATE / "coord_only.py")
-
-
-@stage("reach", "gen", "out/sprite_reach.tsv", "out/objects_alive.tsv", "out/func_reach.tsv",
-       needs=("objects", "funcmap", "slots", "config", "scan-flow", "scan-bcalls", "scan-scriptcalls", "sprite-usage"))
-def reach():
-    run_python(GENERATE / "reach.py")
-
-
-@stage("final", "gen", "out/sprite_final.tsv", needs=("reach", "tierc", "sprite-vars", "flow-solve", "coord-only", "scan-sites"))
-def final():
-    run_python(GENERATE / "sprite_final.py")
-
-
-@stage("frames", "gen", "out/sprite_frames.tsv", needs=("final", "reach", "sprite-vars", "flow-solve", "scan-bcalls"))
-def frames():
-    run_python(GENERATE / "frames.py", game / common.DATA_WIN)
-
-
-@stage("sprite-report", "gen", "out/sprite_report.md", "out/sprite_report.tsv", "out/sprite_frame_report.tsv", needs=("final", "frames"))
-def sprite_report():
-    run_python(GENERATE / "report.py", game / common.DATA_WIN)
-
-
-@stage("audit", "gen", "out/translation_audit.tsv", needs=("sprite-report",))
-def audit():
-    run_python(GENERATE / "audit_files.py")
-
-
 def utmt():
     tool = os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli")
     if not tool:
@@ -416,7 +319,8 @@ def extract_frames():
     frames_dir = ROOT / "img" / "source"
     shutil.rmtree(frames_dir, ignore_errors=True)  # img/source only ever holds one build's frames
     frames_dir.mkdir(parents=True)
-    os.makedirs("out/extract/fonts", exist_ok=True)
+    (frames_dir / "font").mkdir()  # the font atlases, written by the export next to the frames
+    os.makedirs("out/extract/fonts", exist_ok=True)  # the glyph tables
     env = dict(os.environ, WOH_OUT=os.path.abspath("out/extract"), WOH_SPRITES=str(frames_dir))
     subprocess.run([utmt(), "load", str(game / common.DATA_WIN), "-s", str(GENERATE / "export_woh.csx")], env=env, check=True, stdout=sys.stderr)
 
@@ -431,10 +335,10 @@ def ocr_text():
 @stage("exe", "act", needs=("patch-sites", "draw-hooks", "hook"))
 def exe():
     command = [sys.executable, "-I", ACT / "patch.py", "--game", game]
-    if literal:
-        build("string-refs")
-        build("usage")
-        command.append("--literal")
+    with open(common.TRANSLATION / "exe_strings.txt", encoding="utf-8") as file:
+        if any(common.parse_entry(line.rstrip("\n"))[0] for line in file):  # marked entries are checked against usage.tsv and repointed via refs.tsv
+            build("string-refs")
+            build("usage")
     run_shown(*command)
 
 
@@ -448,42 +352,66 @@ def sprites():
     run_shown(sys.executable, "-I", ACT / "replace_sprites.py", "--images", os.path.abspath(os.path.join(OUT, "images")), "--data", game / common.DATA_WIN, "--utmt", utmt())
 
 
-@stage("hashes", "act", needs=("extract-frames",))
-def source_hashes():
-    """sha256 of each extracted frame in img/source that has a PNG of the same name in img/translation: the game's original pixels, tracked in hashes.txt."""
-    source = ROOT / "img" / "source"
-    wanted = sorted(path.name for path in (ROOT / "img" / "translation").glob("*.png"))
-    missing = [name for name in wanted if not (source / name).is_file()]
-    if missing:
-        sys.exit(f"not in img/source: {', '.join(missing)}")
-    common.record_hashes(".png", [(common.sha256(source / name), name) for name in wanted])
-    say(f"hashes.txt: {len(wanted)} sprites")
+HASHED = {"exe": lambda name: name == common.EXE, "sprites": lambda name: name.endswith(".png")}  # the hashes.txt lines each part of the build owns
+
+
+def source_hashes(part):
+    """sha256 of the game files a part of the build is made from, [(digest, name)]: the exe for "exe"; for "sprites" each extracted frame in img/source that has a
+    PNG of the same name in img/translation, and each extracted font atlas (font/<name>.png) that has one in img/translation/font: the game's original pixels."""
+    if part == "exe":
+        return [(common.sha256(game / common.EXE), common.EXE)]
+    build("extract-frames")
+    entries = []
+    for subfolder in ("", "font"):
+        source, translation = ROOT / "img" / "source" / subfolder, ROOT / "img" / "translation" / subfolder
+        names = sorted(path.name for path in translation.glob("*.png"))
+        missing = [name for name in names if not (source / name).is_file()]
+        if missing:
+            sys.exit(f"not in {source.relative_to(ROOT).as_posix()}: {', '.join(missing)}")
+        prefix = subfolder + "/" if subfolder else ""
+        entries += [(common.sha256(source / name), prefix + name) for name in names]
+    return entries
+
+
+def checked_hashes(parts):
+    """The hashes of the sources of these parts, after checking them against hashes.txt: a source that changed since its hash was recorded stops the run
+    before anything is written. `woh.py hashes` accepts the new game files."""
+    current = {part: source_hashes(part) for part in parts}
+    changed = common.changed_hashes({name: digest for entries in current.values() for digest, name in entries})
+    if changed:
+        sys.exit("changed since their hashes were recorded in hashes.txt, nothing was written:\n  " + "\n  ".join(changed)
+                 + "\nThe game was updated. Review the translations of these files, then run `woh.py hashes` to record the new hashes.")
+    return current
 
 
 @stage("build", "act")
 def build_output():
-    for part in ("exe", "text", "sprites", "hashes"):
+    parts = [part for part in ("exe", "sprites") if part not in skipped]
+    current = checked_hashes(parts)  # first: the sprites need only the extracted frames, not Ghidra
+    for part in ("exe", "text", "sprites"):
         if part not in skipped:
             build(part)
+    for part in parts:  # after the outputs were written: records the sources of new translations and drops those of deleted ones
+        common.record_hashes(HASHED[part], current[part])
     say(f"output: {common.OUTPUT}")
+
+
+@stage("hashes", "act")
+def accept_hashes():
+    for part in ("exe", "sprites"):  # the current game files are accepted: their hashes replace the recorded ones
+        common.record_hashes(HASHED[part], source_hashes(part))
+    say(f"hashes.txt: {common.HASHES}")
 
 
 @stage("sync", "act", needs=("targets",))
 def sync():
     run_shown(sys.executable, "-I", ACT / "woh_txt.py", "carry", "--source", game / common.LANGUAGE)
-    run_shown(sys.executable, "-I", ACT / "exe_strings.py", "out/targets.tsv")
-
-
-@stage("report", "act", needs=("audit", "debug-ids"))
-def report():
-    with open("out/sprite_report.md", encoding="utf-8") as file:
-        say("".join(file.readlines()[4:11]))
-    say(f"reports: {CACHE / 'out'}")
+    run_shown(sys.executable, "-I", ACT / "exe_strings.py", "out/targets.tsv", "out/exe_strings_candidates.txt")
 
 
 @stage("extract", "act", needs=("extract-frames",))
 def extract():
-    say(f"frames: {ROOT / 'img' / 'source'}; fonts: {CACHE / 'out' / 'extract'}")
+    say(f"frames and font atlases: {ROOT / 'img' / 'source'}; glyph tables: {CACHE / 'out' / 'extract' / 'fonts'}")
 
 
 @stage("ocr", "act", needs=("ocr-text",))
@@ -555,6 +483,7 @@ def save():
 @stage("check", "act", needs=("extract-frames", "hook"))
 def check():
     run_shown("uv", "run", CHECK / "test_translation_dimensions.py")
+    run_shown("uv", "run", CHECK / "font_check.py", ROOT / "img" / "translation" / "font", ROOT / "img" / "source" / "font", "out/extract/fonts")
     run_shown(sys.executable, "-I", CHECK / "test_hook.py")
     run_shown(sys.executable, "-I", CHECK / "test_outputs.py")
     patched = common.OUTPUT / common.EXE
@@ -563,19 +492,17 @@ def check():
         run_shown(sys.executable, "-I", CHECK / "check_patched.py", patched, common.TRANSLATION / "exe_strings.txt", "out/draw_hooks.tsv", "out/hook.json")
 
 
-COMMANDS = ["build", "sync", "report", "extract", "ocr", "save", "check"]
+COMMANDS = ["build", "sync", "hashes", "extract", "ocr", "save", "check"]
 
 
 def main():
-    global game, literal, skipped, command_args, CACHE
+    global game, skipped, command_args, CACHE
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--game", help="папка игры (по умолчанию установка Steam)")
     parser.add_argument("--force", default="", help="этапы через запятую, которые нужно запустить заново, даже если их выходные данные есть")
-    parser.add_argument("--literal", action="store_true", help="с build: также перенаправить собственные копии текстов exe, которые код не сравнивает")
     parser.add_argument("--no-exe", action="store_true", help="с build: не включать пропатченный worldofhorror.exe")
     parser.add_argument("--no-text", action="store_true", help="с build: не включать файлы языка")
     parser.add_argument("--no-sprites", action="store_true", help="с build: не включать data.win")
-    parser.add_argument("--no-hashes", action="store_true", help="с build: не включать hashes.txt")
     parser.add_argument("command", choices=COMMANDS + ["list"])
     parser.add_argument("args", nargs="*", help="с save: [существующий save.ito] <выходной файл>")
     arguments = parser.parse_args()
@@ -588,8 +515,8 @@ def main():
     unknown = forced - STAGES.keys()
     if unknown:
         sys.exit(f"unknown stage(s): {', '.join(sorted(unknown))}")
-    literal, command_args = arguments.literal, [os.path.abspath(arg) for arg in arguments.args]
-    skipped = {part for part, flag in (("exe", arguments.no_exe), ("text", arguments.no_text), ("sprites", arguments.no_sprites), ("hashes", arguments.no_hashes)) if flag}
+    command_args = [os.path.abspath(arg) for arg in arguments.args]
+    skipped = {part for part, flag in (("exe", arguments.no_exe), ("text", arguments.no_text), ("sprites", arguments.no_sprites)) if flag}
 
     game = common.game_dir(arguments.game).resolve()
     common.require_pristine_game(game)

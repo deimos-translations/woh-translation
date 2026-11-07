@@ -7,8 +7,9 @@ pool_strings.tsv создаёт ExportPoolStrings.java: каждый адрес 
 двоичных данных) или если он указывает внутрь более длинного литерала. Побайтовый поиск надёжно не находит ни один из этих случаев.
 
 Переводимые тексты: источники из документа перевода, плюс каждый короткий токен из заглавных букв (`PREP`, `S.ATK`, `MAGIC`, ...) и
-имя из заглавных букв в кавычках (`'HAPPY LEMON'`), кроме ключей типов урона и строк подписей, которыми patch.py занимается сам. Строки вывода:
-`<hex VA>\t<escaped text>`, где `\\`, CR, LF и TAB записываются как `\\\\`, `\\r`, `\\n`, `\\t`. Тексты без ссылок в коде сообщаются.
+имя из заглавных букв в кавычках (`'HAPPY LEMON'`) и каждый текст из нескольких английских слов (`Logging in... DONE`, `current weather: `;
+без `_`, `[`, `gml_` и обратного слеша), кроме ключей типов урона и строк подписей, которыми patch.py занимается сам. Строки вывода:
+`<hex VA>\t<escaped text>`, где текст записан как в документе (common.escape): CRLF как `\\n`, голый LF как `\\l`, `\\r`, `\\\\` и `\\t`. Тексты без ссылок в коде сообщаются.
 """
 import collections
 import pathlib
@@ -16,16 +17,17 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))  # -I does not add the script directory
-from common import LABEL_KEYS, SEPARATOR, unescape
-
-
-def escape(text):
-    return "".join({"\\": "\\\\", "\r": "\\r", "\n": "\\n", "\t": "\\t"}.get(char, char) for char in text)
+from common import LABEL_KEYS, escape, parse_entry, unescape, unescape_pool
 
 
 def is_label_like(text):
     """Short ALL-CAPS tokens (action codes, item categories, tags) and quoted ALL-CAPS names."""
     return bool(re.fullmatch(r"[A-Z][A-Z0-9.'\-]+", text) or re.fullmatch(r"'[A-Z][A-Z .]+'", text))
+
+
+def is_english_text(text):
+    """Multi-word English text (UI lines, messages). Identifiers, debug tags and code fragments are left out."""
+    return bool(re.search(r"[A-Za-z]{3,}", text)) and " " in text and not any(mark in text for mark in ("_", "[", "gml_", "\\"))
 
 
 def label_literals(patch_sites_path):
@@ -38,7 +40,7 @@ def main(pool_path, document_path, patch_sites_path, targets_path):
     with open(pool_path, encoding="utf-8", newline="") as file:
         for line in file:
             va, text, _count = line.rstrip("\n").split("\t")
-            pool.append((va, unescape(text)))
+            pool.append((va, unescape_pool(text)))
 
     excluded = set(LABEL_KEYS) | label_literals(patch_sites_path)
     wanted = {}  # insertion-ordered set: the document's order is the order of earlier target lists
@@ -46,13 +48,13 @@ def main(pool_path, document_path, patch_sites_path, targets_path):
     if document.exists():
         with open(document, encoding="utf-8", newline="") as file:
             for line in file:
-                text = unescape(line.rstrip("\r\n").partition(SEPARATOR)[0])
+                text = unescape(parse_entry(line.rstrip("\r\n"))[1])
                 if text not in excluded:
                     wanted[text] = None
 
     added = []
     for _va, text in pool:
-        if text not in wanted and text not in excluded and is_label_like(text):
+        if text not in wanted and text not in excluded and (is_label_like(text) or is_english_text(text)):
             wanted[text] = None
             added.append(text)
 
@@ -66,7 +68,7 @@ def main(pool_path, document_path, patch_sites_path, targets_path):
         out.writelines(lines)
 
     missing = [text for text in wanted if not copies[text]]
-    print(f"{len(wanted) - len(missing)} texts with code-referenced copies, {len(lines)} copies, {len(added)} added by the ALL-CAPS rule")
+    print(f"{len(wanted) - len(missing)} texts with code-referenced copies, {len(lines)} copies, {len(added)} added by the caps and English-text rules")
     for text in missing:
         print(f"  no code reference: {text!a}")
 

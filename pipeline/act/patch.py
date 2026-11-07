@@ -1,6 +1,6 @@
 """Патчит worldofhorror.exe, чтобы он показывал переведённый текст, не меняя ни одного значения, которое использует логика игры.
 
-Использование: python -I pipeline/act/patch.py [--game DIR] [--output EXE] [--strings FILE] [--literal]   (обычно запускается `woh.py build`)
+Использование: python -I pipeline/act/patch.py [--game DIR] [--output EXE] [--strings FILE]   (обычно запускается `woh.py build`)
 
 Входной файл никогда не изменяется. Таблицы, которые он читает, создаёт woh.py для этой точной сборки, в кэше сборки. Изменения:
 
@@ -10,8 +10,9 @@
 2. Перевод во время отрисовки (по умолчанию): каждая другая непустая строка `source|translation` становится записью хеш-таблицы. 16
    встроенных функций, которые рисуют или измеряют текст (draw_text*, string_width*, string_height*; draw_hooks.tsv), перенаправляются на заглушки, которые на время вызова заменяют текстовый аргумент его переводом и после вызова возвращают оригинал, поэтому значения,
    которые сравнивает и сохраняет игра, никогда не меняются. Перевести можно только строку, переданную целиком одной из этих встроенных функций.
-3. `--literal` (необязательно): дополнительно перенаправляет каждую ссылку кода на собственные копии исходного текста exe (refs.tsv), но только
-   для текстов, которые никакой код не сравнивает (usage.tsv, class != logic). Это также затрагивает текст, который строится или изменяется до отрисовки, ценой гарантии для этих текстов.
+3. Строки документа, помеченные `!` в начале (`!source|translation`): дополнительно перенаправляет каждую ссылку кода на собственные копии
+   исходного текста exe (refs.tsv). Это также затрагивает текст, который строится или изменяется до отрисовки, ценой гарантии для этих текстов.
+   Помеченная строка, которую код сравнивает (usage.tsv, class == logic), останавливает патч: её подмена ломает логику игры.
 
 Новый текст, таблица и хук находятся в двух добавленных секциях: `.ruloc` (данные для чтения и записи) и `.ruhook` (код). Всё использует
 относительные адреса; ссылка хука на таблицу разрешается здесь (hook.json). Запись unwind для хука добавляется в
@@ -61,18 +62,22 @@ class Pool:
 
 
 def read_translations(path):
-    translations = {}
+    """-> ({source: translation}, sources marked for literal replacement); entries without a translation are left out of both."""
+    translations, marked = {}, set()
     with open(path, encoding="utf-8", newline="\n") as file:
         for number, line in enumerate(file, 1):
             line = line.rstrip("\r\n")  # CRLF documents: control characters inside strings are escaped, so none is real
             if not line:
                 continue
-            source, separator, translation = line.partition(SEPARATOR)
+            literal, source, separator, translation = common.parse_entry(line)
             if not separator:
                 raise SystemExit(f"{path}:{number}: missing {SEPARATOR}")
             if translation:
-                translations[unescape(source)] = unescape(translation)
-    return translations
+                source = unescape(source)
+                translations[source] = unescape(translation)
+                if literal:
+                    marked.add(source)
+    return translations, marked
 
 
 def read_tsv(path):
@@ -80,7 +85,7 @@ def read_tsv(path):
         return [line.rstrip("\n").split("\t") for line in file if line.strip()]
 
 
-def main(src, dst, tables, strings_path=None, literal=False):
+def main(src, dst, tables, strings_path=None):
     """Write the patched exe to dst. Returns False when nothing changed (dst is then an identical copy of src)."""
     data = bytearray(pathlib.Path(src).read_bytes())
 
@@ -110,7 +115,16 @@ def main(src, dst, tables, strings_path=None, literal=False):
         assert lea_va + length + struct.unpack_from("<i", original, 3)[0] == target_va, f"LEA {lea_va:#x} target differs"
         struct.pack_into("<i", data, off + 3, new_va - (lea_va + length))
 
-    translations = read_translations(strings_path) if strings_path else {}
+    translations, marked = read_translations(strings_path) if strings_path else ({}, set())
+    marked -= set(LABEL_KEYS)
+    if marked:  # refuse before changing anything
+        classes = {}
+        for row in read_tsv(tables / "usage.tsv")[1:]:
+            classes[ast.literal_eval(row[5])] = row[0]
+        compared = sorted(text for text in marked if classes.get(text) == "logic")
+        if compared:
+            raise SystemExit("marked `!` but compared by the game (usage.tsv: logic), remove the mark:\n"
+                             + "\n".join(f"  {common.escape(text)}" for text in compared))
 
     # 1. battle labels
     if any(translations.get(key) for key in LABEL_KEYS):
@@ -132,31 +146,24 @@ def main(src, dst, tables, strings_path=None, literal=False):
 
     texts = {text: translation for text, translation in translations.items() if text not in LABEL_KEYS}
 
-    # 3. optional literal replacement, restricted to texts no code compares
-    if literal and texts:
-        classes = {}
-        for row in read_tsv(tables / "usage.tsv")[1:]:
-            classes[ast.literal_eval(row[5])] = row[0]
-        copies = {}
-        for va, text in read_tsv(tables / "targets.tsv"):
-            copies[int(va, 16)] = unescape(text)
+    # 3. literal replacement of the marked entries (checked above)
+    if marked:
         refs = defaultdict(list)
         for va, from_va, kind, length, hexbytes in read_tsv(tables / "refs.tsv"):
             refs[int(va, 16)].append((int(from_va, 16), kind, int(length), hexbytes))
-        loads, skipped_logic = Counter(), []
-        for target_va, text in copies.items():
-            if text not in texts:
+        loads = Counter()
+        for va, text in read_tsv(tables / "targets.tsv"):
+            text = unescape(text)
+            if text not in marked:
                 continue
-            if classes.get(text) == "logic":
-                skipped_logic.append(text)
-                continue
-            new_va = pool.add(texts[text])
+            target_va, new_va = int(va, 16), pool.add(texts[text])
             for from_va, kind, length, hexbytes in refs[target_va]:
                 if kind == "LEA":  # other kinds are value-propagation entries, not address loads
                     repoint(from_va, length, hexbytes, target_va, new_va)
                     loads[text] += 1
-        print(f"literal: {len(loads)} texts, {sum(loads.values())} loads repointed; "
-              f"{len(set(skipped_logic))} compared texts left to the draw hook")
+        print(f"literal: {len(loads)} marked texts, {sum(loads.values())} loads repointed")
+        for text in sorted(marked - loads.keys()):
+            print(f"  marked, no code copy in this build: {common.escape(text)}")
 
     # 2. draw-time translation
     hook_sites = []
@@ -246,10 +253,9 @@ if __name__ == "__main__":
     parser.add_argument("--game", help="папка игры (по умолчанию установка Steam)")
     parser.add_argument("--output", type=pathlib.Path, default=common.OUTPUT / common.EXE)
     parser.add_argument("--strings", type=pathlib.Path, default=common.TRANSLATION / "exe_strings.txt")
-    parser.add_argument("--literal", action="store_true", help="также перенаправить собственные копии текстов exe, которые код не сравнивает")
     arguments = parser.parse_args()
     game = common.game_dir(arguments.game)
     common.require_pristine_game(game)
     arguments.output.parent.mkdir(parents=True, exist_ok=True)
-    if main(game / common.EXE, arguments.output, common.cache_dir(game) / "out", arguments.strings, arguments.literal):
+    if main(game / common.EXE, arguments.output, common.cache_dir(game) / "out", arguments.strings):
         common.record_produced(arguments.output)  # an identical copy is the original game file, not our output

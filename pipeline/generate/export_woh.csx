@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using UndertaleModLib.Util;
 
-// Output roots from WOH_OUT (manifest, fonts) and WOH_SPRITES (sprite frames); set by woh.py. The CLI cannot show dialogs.
+// Output roots from WOH_OUT (manifest, glyph tables) and WOH_SPRITES (sprite frames, font atlases in font/); set by woh.py. The CLI cannot show dialogs.
 string Root = Environment.GetEnvironmentVariable("WOH_OUT") ?? throw new InvalidOperationException("WOH_OUT is not set.");
 string SpritesDir = Environment.GetEnvironmentVariable("WOH_SPRITES") ?? throw new InvalidOperationException("WOH_SPRITES is not set.");
 
@@ -39,7 +39,7 @@ using (StreamWriter manifest = new(Path.Combine(Root, "sprites_manifest.tsv")))
 // Fonts: atlas PNG + glyph table (char, source rect, shift, offset) per font.
 foreach (UndertaleFont font in Data.Fonts.Where(f => f is not null))
 {
-    worker.ExportAsPNG(font.Texture, Path.Combine(Root, "fonts", $"{font.Name.Content}.png"));
+    worker.ExportAsPNG(font.Texture, Path.Combine(SpritesDir, "font", $"{font.Name.Content}.png"));
     using StreamWriter writer = new(Path.Combine(Root, "fonts", $"glyphs_{font.Name.Content}.csv"));
     writer.WriteLine($"{font.DisplayName.Content};{font.EmSize};{font.Bold};{font.Italic};{font.Charset};{font.AntiAliasing};{font.ScaleX};{font.ScaleY}");
     foreach (var g in font.Glyphs)

@@ -6,7 +6,6 @@ import ctypes
 import pathlib
 import random
 import struct
-import subprocess
 import sys
 import tempfile
 

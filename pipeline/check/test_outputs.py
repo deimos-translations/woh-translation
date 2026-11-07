@@ -1,4 +1,4 @@
-"""Тесты двух записей файлов: защиты patch.py от записи без изменений и цикла carry/apply в woh_txt.py. Только стандартная библиотека.
+"""Тесты записи файлов: защиты patch.py от записи без изменений, цикла carry/apply в woh_txt.py и проверки хешей hashes.txt. Только стандартная библиотека.
 
 Использование: python -I pipeline/check/test_outputs.py   (обычно `woh.py check`)
 """
@@ -65,6 +65,18 @@ class TranslationRoundTripTest(unittest.TestCase):
         with self.assertRaises(SystemExit):
             woh_txt.apply(self.source)
         self.assertFalse((self.output / "woh_a.jn").exists())
+
+
+class HashesTest(unittest.TestCase):
+    def test_only_a_recorded_name_with_another_hash_is_changed(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            hashes = pathlib.Path(tmp, "hashes.txt")
+            hashes.write_text("aaa\tone.png\nbbb\ttwo.png\n", encoding="utf-8")
+            with mock.patch.object(common, "HASHES", hashes):
+                self.assertEqual(common.changed_hashes({"one.png": "aaa", "two.png": "ccc", "three.png": "ddd"}), ["two.png"])
+                common.record_hashes(lambda name: name.endswith(".png"), [("ccc", "two.png"), ("ddd", "three.png")])  # accepted: replaces, adds, drops one.png
+                self.assertEqual(common.read_hashes(), {"two.png": "ccc", "three.png": "ddd"})
+                self.assertEqual(common.changed_hashes({"two.png": "ccc", "three.png": "ddd"}), [])
 
 
 if __name__ == "__main__":
