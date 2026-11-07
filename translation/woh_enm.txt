@@ -29,7 +29,7 @@ helps you double your FUNDS!|помогает вам удвоить СРЕДСТ
 What went wrong?!... (+3% DOOM)|Что пошло не так?.. (+3% РОКА)
 You don't have enough experience!|У вас недостаточно опыта!
 [story action]|(сюжетное действие)
-time needed|времени необходимо
+time needed|ед. времени необходимо
 (Ritual was too short to have an effect!)|(Ритуал был слишком коротким, чтобы возыметь эффект!)
 (Ritual was too long to have an effect!)|(Ритуал был слишком длинным, чтобы возыметь эффект!)
 Nothing happens! You think you got|Ничего не происходит! Похоже, что вы угадали

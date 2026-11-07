@@ -106,7 +106,7 @@ LEVEL|УРОВЕНЬ
 IMPENDING DOOM|УРОВЕНЬ РОКА
 select OLD GOD|выберите БОГА
 AVAILABLE PERKS|ДОСТУПНЫЕ СПОСОБНОСТИ
-You've advanced to the next experience level.#Choose one perk and one stat upgrade.##[CHOSEN:|Вы продвинулись на следующий уровень.#Выберите одну способность и одно улучшение характеристики.##[ВЫБРАНО:
+You've advanced to the next experience level.#Choose one perk and one stat upgrade.##[CHOSEN:|Вы продвинулись на следующий уровень.#Выберите одну способность и одно улучшение хар-ки.##[ВЫБРАНО:
 (select perk and stat)|(выберите способность и хар-ку)
 REROLL PERKS|ПОМЕНЯТЬ СПОСОБНОСТИ
 +4% DOOM|+4% РОКА

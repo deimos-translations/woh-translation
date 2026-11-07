@@ -148,7 +148,7 @@ MAKOTO|МАКОТО
 JUNPEI|ДЗЮНПЭЙ
 HITOMI|ХИТОМИ
 >>Combative. Left to wander. Succumbed to the woods. Sense of self was consumed. Followed obediently once retrieved. Nothing but a husk.<<|«Воинственная. Вывезена в лес. Была им поглощена. Личность была уничтожена. Покорно слушалась после возвращения. Осталась лишь сухая оболочка.»
-##>>Offered unto the house.<<#(+5 EXPERIENCE)|##«Была отправлена дому.»#(+5 ОПЫТА)
+##>>Offered unto the house.<<#(+5 EXPERIENCE)|##«Тело предано дому.»#(+5 ОПЫТА)
 >>Emotional. Cried and pleaded. Lost all hope once isolated from his friends. Taken to the porch and harvested.<<|«Эмоциональный. Плакал и молил. Потерял всю надежду, будучи отделённый от друзей. Был пожнан на крыльце.»
 >>Desperate. Begged pathetically with every breath she could. Chosen to witness.<<#>>Not a single word after that.<<|«Отчаянная. Жалобно молила каждую секунду своей жизни. Принуждена наблюдать.»
 SUSPICIOUS APARTMENT|ПОДОЗРИТЕЛЬНЫЙ ДОМ
@@ -428,7 +428,7 @@ HOLE-RIDDEN MASK|СКВОЗНАЯ МАСКА
 +3 MAX STAMINA#adds a new status|+3 МАКС. ВЫНОСЛИВОСТИ#добавляет новый статус
 The pattern of holes seems to change every time you pull this thing out.|Расположение отверстий меняется каждый раз, когда вы отводите взгляд от неё.
 <<It smells pretty bad>>|«пахнет довольно плохо»
-ALTERNATIVE INVENTORY DISPLAY: ON/OFF|АЛЬТЕРНАТИВНОЕ ОТОБРАЖЕНИЕ ИНВЕНТАРЯ: ВКЛ/ВЫКЛ
+ALTERNATIVE INVENTORY DISPLAY: ON/OFF|АЛЬТ. ОТОБРАЖЕНИЕ ИНВЕНТАРЯ: ВКЛ/ВЫКЛ
 SCENARIO MODE|РЕЖИМ СЦЕНАРИЯ
 Discover the history of SHIOKAWA in scenarios set before the main events of the game.|Исследуйте историю ШИОКАВЫ в сценариях, происходящих до основного сюжета игры.
 WORLD OF FRIENDSHIP|МИР ДРУЖБЫ

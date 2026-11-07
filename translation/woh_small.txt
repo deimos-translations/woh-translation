@@ -21,7 +21,7 @@ The sharpened edge can slice through the toughest cuts of meat. You can only hop
 You hold onto your STEAK KNIFE, preparing for combat.|Вы сжимаете НОЖ ДЛЯ МЯСА, готовясь к бою.
 weird red stains...|странные красные пятна...
 CAMERA|КАМЕРА
-1 KNOWLEDGE|+1 ИНТЕЛЛЕКТА
++1 KNOWLEDGE|+1 ИНТЕЛЛЕКТА
 High quality lens, ready in a flash. A solid choice with an ample supply of film.|Высококачественный объектив, мгновенная вспышка. Идеальный выбор, если у вас достаточно плёнки.
 You take a photo with flash, disorienting the enemy!|Вы делаете фото со вспышкой, дезориентируя врага!
 sturdy camera|прочная камера
@@ -169,7 +169,7 @@ NO CASSETTE INSERTED|КАССЕТА НЕ ВСТАВЛЕНА
 CURRENTLY LISTENING|В ДАННЫЙ МОМЕНТ ИГРАЕТ
 LISTENED:|ПРОСЛУШАНО:
 CASSETTE A|КАССЕТА А
-(use): insert a cassette into CASSETTE PLAYER, replacing the old cassette|(использовать): вставить кассету в ПРОИГРЫВАТЕЛЬ, заменив старую кассету
+(use): insert a cassette into CASSETTE PLAYER, replacing the old cassette|(использовать): вставить кассету в ПРОИГРЫВАТЕЛЬ, заменяя старую кассету
 I wonder what's recorded on it...|Интересно, что на ней записано...
 CASSETTE B|КАССЕТА Б
 LUMP OF FLESH|КУСОК ПЛОТИ
@@ -223,7 +223,7 @@ You stab the doll with a pin. A sudden pain shocks you!|Вы протыкает�
 creepy|жуткая
 EMPTY BOTTLE|ПУСТАЯ БУТЫЛКА
 [it can be used to store liquids]|можно использовать для хранения жидкостей
-You could fill this bottle with something.|Вы могли бы наполнить её чем-нибудь.
+You could fill this bottle with something.|Можно наполнить её чем-нибудь.
 BOTTLE [SLUDGE]|БУТЫЛКА (ЖИЖА)
 deals extra damage when thrown|(при броске): наносит дополнительный урон
 It's filled with a black and thick sludge.|Она наполнена тёмной густой жидкостью.

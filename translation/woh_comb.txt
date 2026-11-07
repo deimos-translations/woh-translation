@@ -209,7 +209,7 @@ EQUIP - places item in its equipment SLOT|ЭКИПИРОВАТЬ - помеща�
 INSPECT - additional information about the item|ИЗУЧИТЬ - дополнительная информация о предмете
 STORAGE - places item in the storage|В ХРАНИЛИЩЕ - помещает предмет в хранилище
 THROW AT ENEMY - throws the item at the enemy|КИНУТЬ ВО ВРАГА - кидает предмет во врага
-DISCARD - removes the item from the game|ВЫБРОСИТЬ - удаляет предмет из инвентаря
+DISCARD - removes the item from the game|ИЗБАВИТЬСЯ - удаляет предмет из инвентаря
 TRADE IN - sell this item|ПРОДАТЬ - продать этот предмет
 YOU WOULDN'T KNOW WHERE TO FIND A BUYER FOR IT|ВЫ НЕ ЗНАЕТЕ, ГДЕ НАЙТИ ПОКУПАТЕЛЯ НА ЭТОТ ПРЕДМЕТ...
 TALK|ПОГОВОРИТЬ

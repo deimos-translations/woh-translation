@@ -82,8 +82,8 @@ reduce all damage taken by 1|понижает весь входящий урон
 [otaku]|(отаку)
 HITOMI|ХИТОМИ
 increase the speed of all offensive actions by 15%|повышает скорость всех атакующих действий на 15%
-<<let's get it over with>>|«давай завершим работу»
-[slacker]|(тунеядец)
+<<let's get it over with>>|«давай уже закончим»
+[slacker]|(лентяйка)
 NO GOING BACK|НЕТ ПУТИ НАЗАД
 You steel your nerves and step out from the treeline, feeling acutely vulnerable. JUNPEI and HITOMI follow a few steps behind you.##Just this, and then you can go home, you tell yourself.|Вы успокаиваетесь и выходите из лесополосы, ощущая постоянную уязвимость. ДЗЮНПЭЙ и ХИТОМИ следуют по пятам.##Уже вот-вот, и вы пойдёте домой, убеждаете вы себя.
 You walk around the circle, tracing the chalk sigils with your viewfinder. You weave through the clearing, around the rocks, into a patch of tall grass.##Something gives way below your foot, and your heart stops.|Вы ходите кругами, осматривая через видоискатель символы, нарисованные мелом. Вы идёте по опушке между камней, заходя в высокую траву.##Что-то оказывается по вашей ногой, и вы замираете.
@@ -92,7 +92,7 @@ For a fleeting instant, your leg goes numb. Then it's agony, bright, searing red
 Your senses fall away as you crumple to the dirt. You only distantly hear your own voice, see your friends rush to your side.##You only regain awareness when you feel the bear trap wrenched off of your leg.|Вас покидают чувства, и вы падаете на землю. Вы отдалённо слышите лишь собственное дыхание, затем видите друзей, подбегающих к вам.##Чувства возвращаются к вам, лишь когда медвежий капкан снимают с вашей ноги.
 The trap falls away with a clatter. You lay reeling. There's a cloying pain as the blood flows from the wound. JUNPEI is panicking, and HITOMI is apologizing. Somebody holds your hand.|Капкан бряцает и падает. Вы лежите на земле, пошатываясь. На вас накатывает сильная боль, пока рана истекает кровью. ДЗЮНПЭЙ паникует, а ХИТОМИ извиняется. Кто-то из них держит вас за руку.
 JUNPEI grabs your other pant leg. You hear the rip of fabric, and he gets to work wrapping the injury. HITOMI snaps a heavy branch for him, and he sets a makeshift splint. The pain lingers, but your heartbeat begins to calm.|ДЗЮНПЭЙ хватает вас за штаны. Вы слышите, как рвётся ткань, и он начинает обматывать её. ХИТОМИ отрывает ему прочную ветку, и он мастерит кустарную шину. Боль ещё сильна, но по крайней мере ваше сердцебиение приходит в норму.
-JUNPEI leans over you. You see the fear in his eyes. <<This is insane. We need to go get help-->>##<<No!>> HITOMI shouts, startling both of you. <<There's no way in hell we're leaving MAKOTO out here alone!>>|ДЗЮНПЭЙ наклоняется перед вами. Его глаза наполнены страхом. «Это ужасно. Нам нужно идти за помощью...»##«Нет!» ХИТОМИ вскрикивает, пугая вас обоих. «Чёрта с два мы оставим МАКОТО одну!»
+JUNPEI leans over you. You see the fear in his eyes. <<This is insane. We need to go get help-->>##<<No!>> HITOMI shouts, startling both of you. <<There's no way in hell we're leaving MAKOTO out here alone!>>|ДЗЮНПЭЙ наклоняется перед вами. Его глаза наполнены страхом. «Просто ужас. Нам нужно идти за помощью...»##«Нет!» ХИТОМИ вскрикивает, пугая вас обоих. «Чёрта с два мы оставим МАКОТО одну!»
 He hesitates. <<Then you go. I can fend for myself here with MAKOTO.>>#HITOMI grimaces.##<<What if whoever set that thing comes back? Can you protect yourselves then?>>#Silence falls as you all realize the full weight of the situation...|Он колеблется. «Тогда иди ты. Я посторожу МАКОТО.»#ХИТОМИ хмурится.##«А что если тот, кто установил ловушку вернётся? Ты сможешь защититься?»#Тишина заполняет пространство, пока вы пытаетесь осознать всю тяжесть ситуации...
 send away JUNPEI|отправить ДЗЮНПЭЯ
 send away HITOMI|отправить ХИТОМИ
@@ -193,7 +193,7 @@ It isn't until the man clears his throat that you notice him, gaunt and deathly 
 <<Yes.>>|«Да.»
 <<No.>>|«Нет.»
 <<...>>|«...»
-His eyes bore into yours. Then he shrugs. <<Who am I to tell you otherwise?>> He walks off with a dismissive wave of his hand.##<<Go on, then. Do your best to keep living.>>#(+PERK)|Его взгляд впивается в вас. Затем он пожимает плечами. «Кто я такой, чтобы судить?» Он уходит, небрежно махнув на вас рукой.##«Вперёд. Постарайся её пережить.»#(+СПОСОБНОСТЬ)
+His eyes bore into yours. Then he shrugs. <<Who am I to tell you otherwise?>> He walks off with a dismissive wave of his hand.##<<Go on, then. Do your best to keep living.>>#(+PERK)|Его взгляд впивается в вас. Затем он пожимает плечами. «Кто я такой, чтобы судить?» Он уходит, небрежно махнув на вас рукой.##«Вперёд. Постарайся же её пережить.»#(+СПОСОБНОСТЬ)
 He steps closer, a cold hand taking your shoulder. << You're right. For you, it's the end of the line. Your friends, though...>>##With a sneer, he steps past you, and disappears into the forest.##<<Well, do what you can.>>#(+PERK)|Он подходит ближе, хватая вас за плечо холодной рукой. «Истина. Для тебя, это конец игры. А вот для твоих друзей...»##Он издевательски обходит вас и исчезает в лесу.##«Ну, выложись на полную.»#(+СПОСОБНОСТЬ)
 You tremble before the man, voice caught in your throat. He groans. <<What a mess. All because those idiots won't leave well enough alone.>> ##He tosses something to you - out of pity, maybe - and when you look up from catching it, he's gone.#(+ITEM)|Вас пробирает дрожь, дар речи пропадает. Он хмыкает. «Какая размазня. Всё из-за твоих неумолкающих друзей-идиотов.»##Он что-то подбрасывает вам из жалости, а когда вы ловите - он уже исчезает.#(+ПРЕДМЕТ)
 You've rested a bit. (+1 REASON)|Вы немного отдохнули. (+1 РАССУДКА)

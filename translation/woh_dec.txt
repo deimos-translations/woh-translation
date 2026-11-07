@@ -15,7 +15,7 @@ HALLUCINATIONS|ГАЛЛЮЦИНАЦИИ
 -1 PERCEPTION|-1 ВОСПРИЯТИЯ
 <<...he's not real...>>|«...он не реален...»
 FLASHBACKS|ФЛЕШБЕКИ
--2 DEXTERITY#(discard): +4% DOOM|-2 ЛОВКОСТИ#(выбросить): +4% РОКА
+-2 DEXTERITY#(discard): +4% DOOM|-2 ЛОВКОСТИ#(забыть): +4% РОКА
 <<they can't find the body>>|«Они не найдут тело.»
 TAINTED VIOLIN|ЗАПЯТНАННАЯ СКРИПКА
 (equip): faster combat actions|(экипировано): действия в бою становятся быстрее

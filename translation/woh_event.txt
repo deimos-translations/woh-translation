@@ -3,7 +3,7 @@ Seeing the two chopped-off heads, you can't help but wonder who's been preparing
 research occult notes|изучить оккультные заметки
 call the police|вызвать полицию
 do nothing|ничего не делать
-The notes lying nearby tell of ancient civilizations and unspeakable horror.# You've managed to learn an incantation, but the horrifying image will stay with you for a long time.#(+SPELL / -1 REASON)|Записи неподалёку рассказывают о древних цивилизациях и неописуемых ужасах.#Вам удалось изучить одно заклинание, но кошмарные образы останутся с вами надолго.#(+ЗАКЛИНАНИЕ, -1 РАССУДКА)
+The notes lying nearby tell of ancient civilizations and unspeakable horror.# You've managed to learn an incantation, but the horrifying image will stay with you for a long time.#(+SPELL / -1 REASON)|Записи, лежащие рядом рассказывают о древних цивилизациях и неописуемых ужасах.#Вам удалось изучить одно заклинание, но кошмарные образы останутся с вами надолго.#(+ЗАКЛИНАНИЕ, -1 РАССУДКА)
 Reading the ramblings of a madman has made you sick.#(-2 REASON)|Чтение каракулей безумца вызывает у вас тошноту.#(-2 РАССУДКА)
 At the nearest kōban, you tell the officer about the gruesome discovery.#The old policeman is grateful and gives you a small reward before disappearing inside to make a call.#(+2 FUNDS)|У ближайшего участка вы рассказываете полицейскому об ужасной находке.#Пожилой офицер благодарит вас, даёт небольшую награду, а затем исчезает в здании, чтобы сделать звонок.#(+2 СРЕДСТВ)
 There was something in your version of the events that didn't add up.# #You've been detained, but due to the lack of evidence, the police let you go after 48 hours.#(+3% DOOM)|В вашей версии событий что-то не сходится.##Вас задержали, но за отсутствием доказательств вы были отпущены спустя 48 часов.#(+3% РОКА)
@@ -332,7 +332,7 @@ A friend returning from a trip to Africa has invited you to dinner. This time th
 <<that wine is terrific>>|«это вино просто превосходно»
 refuse politely|вежливо отказаться
 <<I knew you'd like it,>> your friend says, winking and packaging it for you.#(+ ITEM)|«Я знал, что тебе понравится...» - говорит ваш друг, подмигивая, и упаковывая его для вас.#(+ПРЕДМЕТ)
-<<Of course. I have enough bottles to last a whole year,>> your friend says, handing you a bottle.#(+ ITEM)|«Конечно. У меня достаточно бутылок ещё на год вперёд...» - говорит ваш друг, протягивая вам бутылку.#(+ПРЕДМЕТ)
+<<Of course. I have enough bottles to last a whole year,>> your friend says, handing you a bottle.#(+ ITEM)|«Несомненно. У меня достаточно бутылок ещё на год вперёд...» - говорит ваш друг, протягивая вам бутылку.#(+ПРЕДМЕТ)
 <<That's okay. See me some other time, will you?>> your friend says. <<We still have a lot of catching up to do.>>|«Ничего. Встретимся ещё раз позже, ладно?» - говорит ваш друг. «Нам еще многое предстоит наверстать.»
 Your friend welcomes you with a strange smile.#<<I knew you'd come back,>> they say, letting you inside the kitchen.##A naked man wearing a bag over his head is tied to a chair. His left thigh has already been stripped of meat. #Your friend picks up a meat cleaver and takes a step toward the man...#(+ ITEM)|Ваш друг одаряет вас странной улыбкой.#«Я знал, что ты вернёшься.» - говорит он, провожая вас на кухню.##На кухне вы видите голого мужчину с пакетом на голове, привязанного к стулу. Мясо с его левого бедра уже срезано.#Ваш друг берёт тесак и делает шаг к мужчине...#(+ПРЕДМЕТ)
 CITY DOCKS|ГОРОДСКОЙ ДОК
@@ -363,7 +363,7 @@ ignore the tent|уйти от палатки
 The sleeping bag has been torn to shreds.##You find a wallet nearby. There's no ID card inside, but you’re sure the absence of cash is the least of the missing owner's problems.#(+2 FUNDS)|Спальный мешок разорван на куски.##Неподалёку вы находите кошелёк. Внутри нет удостоверения, и вы уверены, что деньги - последнее, что сейчас волнует пропавшего владельца.#(+2 СРЕДСТВ)
 The sleeping bag has been torn to shreds.##The amount of gore inside leaves no doubt about what happened to the owner.#(-2 STAMINA)|Спальный мешок разорван на куски.##Количество крови внутри не оставляет никаких сомнений о том, что случилось с владельцем.#(-2 ВЫНОСЛИВОСТИ)
 Footprints and tracks suggest a fight.#The owner of the tent must've been dragged by two unknown attackers into the woods.#(+5 EXPERIENCE)|Следы на земле намекают на то, что здесь была борьба.#Владельца палатки, вероятно, утащили в лес двое неизвестных нападавших.#(+5 ОПЫТА)
-Did wolves learn how to walk on their hind legs?#(-2 REASON)|Волки научились ходить на двух ногах?#(-2 РАССУДКА)
+Did wolves learn how to walk on their hind legs?#(-2 REASON)|Волки научились ходить на двух ногах, что-ли?#(-2 РАССУДКА)
 You back off, not wanting to disturb the potential crime scene.#(-1 REASON)|Вы отступаете, не желая прикасаться к потенциальному месту преступления.#(-1 РАССУДКА)
 MORTUARY BLUES|ПОХОРОННЫЙ БЛЮЗ
 You find yourself in an old, unused part of the hospital. You take a deep breath.#The disgusting smell of thawed remains still lingers in the room. It used to be the hospital's mortuary, where doctors determined the causes of death.|Вы входите в старое неиспользуемое крыло больницы. Вы делаете глубокий вдох.#Отвратительный запах размороженных останков всё ещё витает в воздухе. Раньше в этом крыле находился больничный морг, где доктора определяли причину смерти пациентов.
