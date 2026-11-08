@@ -9,8 +9,8 @@ KILL GUEST|УБИТЬ ГОСТЯ
 BURN IT ALL DOWN|СЖЕЧЬ ВСЁ
 ALLY ATK|АТАКА СОЮЗНИКА
 HEAVY-DUTY FLASHLIGHT|ТЯЖЁЛЫЙ ФОНАРЬ
-!t\n\t\t|ед. времени\n\t\t
-!t\n\t|ед. времени\n\t
+!t\n\t\t| ед. времени\n\t\t
+!t\n\t| ед. времени\n\t
 !dmg/55t\n\t| урона, 55 ед. времени\n\t
 !dmg / | урона, 
 SACRIFICE GUEST|ПОЖЕРТВОВАТЬ ГОСТЯ
@@ -106,3 +106,6 @@ zhectast|жектаст
 KICK|УДАР
 ESCAPE|ПОБЕГ
 BITE|УКУС
+---UNEXPECTED RESULT---|---НЕОЖИДАННЫЙ РЕЗУЛЬТАТ---
+<<D-did we get the incantation right?...>>|«М-мы верно произнесли заклинание?..»
+Randomly selects one previously unlocked OLD GOD|Случайно выбирает одного из разблокированных ДРЕВНИХ БОГОВ
