@@ -1,0 +1,111 @@
+DOOM| РОКА
+STA| ВНС
+REA| РАС
+ALL| ВСЕХ
+PROTECT SHIRO|ЗАЩИЩАТЬ ШИРО
+LEAD SHIRO|ВЕСТИ ШИРО
+UNPLUG A PATIENT|ОТСОЕДИНИТЬ ПАЦИЕНТА
+KILL GUEST|УБИТЬ ГОСТЯ
+BURN IT ALL DOWN|СЖЕЧЬ ВСЁ
+ALLY ATK|АТАКА СОЮЗНИКА
+HEAVY-DUTY FLASHLIGHT|ТЯЖЁЛЫЙ ФОНАРЬ
+!t\n\t\t| ед. времени\n\t\t
+!t\n\t| ед. времени\n\t
+!dmg/55t\n\t| урона, 55 ед. времени\n\t
+!dmg / | урона, 
+SACRIFICE GUEST|ПОЖЕРТВОВАТЬ ГОСТЯ
+SACRIFICE ALLY|ПОЖЕРТВОВАТЬ СОЮЗНИКА
+NEEDS ALLY|НУЖЕН СОЮЗНИК
+NEEDS FIREARM|НУЖЕН ОГНЕСТРЕЛ
+NEEDS WEAPON|НУЖНО ОРУЖИЕ
+CRT: ON/OFF|ЭФФЕКТ ЭЛТ: ВКЛ/ВЫКЛ
+H. DUTY FLASHLIGHT|ТЯЖЁЛЫЙ ФОНАРЬ
+Logging in...|Вxодим...
+Logging in... DONE\nImporting data...|Вxодим... ГОТОВО\nИмпортируем данные...
+Logging in... DONE\nImporting data... DONE\nLoading game...|Вxодим... ГОТОВО\nИмпортируем данные... ГОТОВО\nЗагружаем игру...
+ATK.TEACHER|АТАКОВАТЬ УЧИТЕЛЯ
+SEVER|РАЗОРВАТЬ
+OFFERING|ПОДНОШЕНИЕ
+BRACE|ЗАЩИТА
+DESP|ОТЧ
+MED|МЕД
+CMB|УМЕНИЕ
+EYE|ОЦЕН
+ATK|АТК
+S.ATK|С. АТК
+PREP|ПРИГ
+IMPROV|ИМПРОВ
+DAY|ДЕНЬ
+PRAY|МОЛ
+DODGE|УКЛОНИТЬСЯ
+BOW|ПОКЛ
+CLAP|ХЛОП
+ENGLISH|РУССКИЙ
+(strength check: success)#|(проверка на силу: успех)#
+(dexterity check: success)#|(проверка на ловкость: успех)#
+(perception check: success)#|(проверка на восприятие: успех)#
+(knowledge check: success)#|(проверка на интеллект: успех)#
+(charisma check: success)#|(проверка на харизму: успех)#
+(luck check: success)#|(проверка на удачу: успех)#
+(strength check: failure)#|(проверка на силу: провал)#
+(dexterity check: failure)#|(проверка на ловкость: провал)#
+(perception check: failure)#|(проверка на восприятие: провал)#
+(knowledge check: failure)#|(проверка на интеллект: провал)#
+(charisma check: failure)#|(проверка на харизму: провал)#
+(luck check: failure)#|(проверка на удачу: провал)#
+today's weather:|прогноз на сегодня:
+!rolled|выпавшее число
+WORLD OF HORROR\n\tBASE GAME|WORLD OF HORROR\n\tБАЗОВАЯ ИГРА
+!1.2.3.4\n—\n- an extra ending screen\n- small fixes\n\n\n|1.2.3.4\n-\n- дополнительный экран концовки\n- мелкие исправления\n\n\n
+!「WORLD OF HORROR」\nby Paweł Koźmiński\n\n-----\n「Music」\nSebastian 'Garoslaw' Zybowski\nJoseph 'Qwesta' Bailey\n\n「Additional Content」\nJeane Carruthers, G.W. Musko\n\n「Polish translation」\nBartłomiej Górka, Paweł Koźmiński, Michał Waleszczyński Lis\n\n「Workshop integration」\nKamil Wdowczyk\n\n-----\n「Porting services by General Arcade」\n「Producer」\nSergei Firsunin\n\n「Software Engineer」\nAndrei Melnikov\n\n「QA Engineer」\nArtem Bordyugov\n\n-----\n「Published by Ysbryd Games」\n「Managing Director」\nBrian Kwek\n\n「Production Lead」\nRob Cocks\n\n「QA Analyst」\nAJ McGucken\n\n「Events & Community Director」\nJacob Burgess\n\n「Social Media Manager」\nMeredith Gerber\n\n-----\n「Americas/Europe Physical Edition Publishing by Fangamer」\n「Packaging Designer」\nTony Kuchar\t\n\n「Cover Artwork Designer」\nNina Matsumoto\n\n「License Coordinator」\nAlexandro Arvizu\n\n「Publishing Supervisor」\nNathan Cranford\n\n「Publishing Producer」\nChristopher Warriner\n\n「Director of Publishing」\nRyan Alyea\n\n-----\n「Asia Digital and Physical Publishing by PLAYISM」\n「Executive Producer」\nShunji Mizutani\t\n\n「Producer」\nShunji Mizutani\t\n\n「Assistant Producer」\nChiaki Shida, Taku Yamanaka, Hideyuki Nagakura, Tiffany Zhang\n\n「Chief Manager」\nTaku Yamanaka\t\n\n「International Operations & Marketing」\nElaine Wong\t\n\n「Design」\nTakahiro Nogita, Asuka Bailey\t\n\n「Publishing Support」\nYasuyuki Ohara, Sayuri Murabayashi, Syunichi Sakai, Michael Kobayashi, Hanwen Yin, Nana Iba, Hana Kawamoto, Chiaki Hirota, Yoshio Tsujimoto, Mario Maqueo, Shuma, Zheng Zhang\t\n\n「General Manager」\nJJ Shinji Futami\t\n\n「President/CEO」\nIbai Vinas Ameztoy\t\n\n-----\n「Localization by Dragonbaby」\n「Head of Localization」\nSam Burton\n\n「Project Manager」\nJoe Dart\n\n「LQA Project Manager」\nToshiyuki Kato\t\n\n「Localization Engineer」\nMichael Rosiles\n\n「Localization Support」\nJeremy Blaustein\n\n「Eternal Draconic Overlord」\nDraba-chan\t\n\n「French Localization」\nAurore Demede, Lucie Teulieres\n\n「German Localization」\nGerald Hintermaier, Daniel Landes\n\t\n「Chinese (Simplified) Localization」\nLin Feiyang 'Luminous', Melanie Chen, Ma Mofan 'Sirius'\n\n「Chinese (Traditional) Localization」\nKarin Zhang, WeiYi Jiang\n\n「Japanese Localization」\t\nYuki Fujita, Tomoko Takahashi, Joe Dart\n\n「Korean Localization」\t\nYul-pyeong Oh, Areum Seo\n\n「LQA」\t\nFaiza Dejaeghere, Tobias Gut, Wang Yi, Karin Zhang, Yuki Fujita, Tomoko Takahashi, Yul-pyeong Oh\n\n-----\n「PR by Stride Public Relations」\n「CEO」\nRobert Brown\n\n「Senior Account Executive」\nKyle Prahl\n\n「Account Executive」\nHaylee Kiedrowski, Lena LeRay, Andrea Shearon, Veronica Stodolnik\n\n「Account Coordinator」\nJosh Silverman\n\n-----\n「PS4 QA Testing by Plastic Fern Studios」\n「Owner」\nJay Fernandez\n\n「Producer」\nYuki Oyakawa\n\n「Test Specialist」\nNic Freeman\n\n「Function/Design」\nMason Zedaker\n\n「Special thanks」\n Renatka, ZKS 'WoH Scientist', Haspen, channel's mod team, Boty, Karl Sia, Tristan Chapman, Luo 'Tnsbilws' Yuhang, Guy Richards, Sergio Fantin, Yusuke Soejima, John Yang, MJ Lewis\n \n ...and you\n|「WORLD OF HORROR」\nАвтор: Paweł Koźmiński-----\n「Музыка」\nSebastian 'Garoslaw' Zybowski\nJoseph 'Qwesta' Bailey\n\n「Дополнительный контент」\nJeane Carruthers, G.W. Musko\n\n\n\n「Польский перевод」\nBartłomiej Górka, Paweł Koźmiński, Michał Waleszczyński Lis\n\n「Интеграция с Workshop」\nKamil Wdowczyk\n\n-----\n「Портирование от General Arcade」\n「Продюсер」\nSergei Firsunin\n\n「Программист」\nAndrei Melnikov\n\n「QA-инженер」\nArtem Bordyugov\n\n-----\n「Опубликовано Ysbryd Games」\n「Управляющий директор」\nBrian Kwek\n\n「Глава разработки」\nRob Cocks\n\n「QA-аналитик」\nAJ McGucken\n\n「Директор по мероприятиям и связи с общественностью」\nJacob Burgess\n\n「Менеджер социальных сетей」\nMeredith Gerber\n\n-----\n「Публикация физической копии в Америке и Европе от Fangamer」\n「Дизайнер упаковки」\nTony Kuchar\t\n\n「Дизайнер обложки」\nNina Matsumoto\n\n「Координатор по лицензированию」\nAlexandro Arvizu\n\n「Управляющий отдела публикации」\nNathan Cranford\n\n「Продюсер отдела публикации」\nChristopher Warriner\n\n「Руководитель отдела публикации」\nRyan Alyea\n\n-----\n「Цифровые и физические издания в Азии от PLAYISM」\n「Генеральный продюсер」\nShunji Mizutani\t\n\n「Продюсер」\nShunji Mizutani\t\n\n「Ассистент продюсера」\nChiaki Shida, Taku Yamanaka, Hideyuki Nagakura, Tiffany Zhang\n\n「Главный менеджер」\nTaku Yamanaka\t\n\n「Международные операции и маркетинг」\nElaine Wong\t\n\n「Дизайн」\nTakahiro Nogita, Asuka Bailey\t\n\n「Поддержка по издательству」\nYasuyuki Ohara, Sayuri Murabayashi, Syunichi Sakai, Michael Kobayashi, Hanwen Yin, Nana Iba, Hana Kawamoto, Chiaki Hirota, Yoshio Tsujimoto, Mario Maqueo, Shuma, Zheng Zhang\t\n\n「Генеральный менеджер」\nJJ Shinji Futami\t\n\n「Глава компании」\nIbai Vinas Ameztoy\t\n\n-----\n「Локализация от Dragonbaby」\n「Руководитель локализации」\nSam Burton\n\n「Проектный менеджер」\nJoe Dart\n\n「LQA проектный менеджер」\nToshiyuki Kato\t\n\n「Инженер локализации」\nMichael Rosiles\n\n「Поддержка локализации」\nJeremy Blaustein\n\n「Вечный драконий владыка」\nDraba-chan\t\n\n「Французская локализация」\nAurore Demede, Lucie Teulieres\n\n「Немецкая локализация」\nGerald Hintermaier, Daniel Landes\n\t\n「Локализация на китайский язык (упрощённый)」\nLin Feiyang 'Luminous', Melanie Chen, Ma Mofan 'Sirius'\n\n「Локализация на китайский язык (традиционный)」\nKarin Zhang, WeiYi Jiang\n\n「Японская локализация」\t\nYuki Fujita, Tomoko Takahashi, Joe Dart\n\n「Корейская локализация」\t\nYul-pyeong Oh, Areum Seo\n\n「LQA」\t\nFaiza Dejaeghere, Tobias Gut, Wang Yi, Karin Zhang, Yuki Fujita, Tomoko Takahashi, Yul-pyeong Oh\n\n「Русская локализация」Мадуро, Труповальня\n\n-----\n「PR от Stride Public Relations」\n「Генеральный директор」\nRobert Brown\n\n「Старший менеджер по работе с клиентами」\nKyle Prahl\n\n「Менеджер по работе с клиентами」\nHaylee Kiedrowski, Lena LeRay, Andrea Shearon, Veronica Stodolnik\n\n「Координатор по работе с клиентами」\nJosh Silverman\n\n-----\n「PS4 QA-тестирование от Plastic Fern Studios」\n「Владелец」\nJay Fernandez\n\n「Продюсер」\nYuki Oyakawa\n\n「Специалист по тестированию」\nNic Freeman\n\n「Работа/дизайн」\nMason Zedaker\n\n「Особые благодарности」\n Renatka, ZKS 'WoH Scientist', Haspen, channel's mod team, Boty, Karl Sia, Tristan Chapman, Luo 'Tnsbilws' Yuhang, Guy Richards, Sergio Fantin, Yusuke Soejima, John Yang, MJ Lewis\n \n ...и вам спасибо\n
+! EXP]| ОПЫТА]
+Logging in... DONE\nImporting data... DONE\nLoading game... DONE\nInitializing STEAM...|Вxодим... ГОТОВО\nИмпортируем данные... ГОТОВО\nЗагружаем игру... ГОТОВО\nПодгружаем STEAM...
+Logging in... DONE\nImporting data... DONE\nLoading game... DONE\nInitializing STEAM... DONE|Вxодим... ГОТОВО\nИмпортируем данные... ГОТОВО\nЗагружаем игру... ГОТОВО\nПодгружаем STEAM... ГОТОВО
+Logging in... DONE\nImporting data... DONE\nLoading game... DONE\nInitializing STEAM... SKIPPED|Вxодим... ГОТОВО\nИмпортируем данные... ГОТОВО\nЗагружаем игру... ГОТОВО\nПодгружаем STEAM... ПРОПУЩЕНО
+fearful|ужас
+NIGHT|НОЧЬ
+aiko|айко
+apartment|квартира
+apartments|дом
+athyola|ат-йола
+atorasu|аторасу
+ayaka|аяка
+city|город
+downtown|деловой район
+festival|фестиваль
+forest|лес
+global|мир
+gozu|гозу
+haru|хару
+herald|вестник
+hospital|больница
+iktyosis|икт-йозис
+item|предмет
+ithotu|итхоту
+kirie|кириэ
+kouji|кодзи
+kturufu|ктуруфу
+kyofu|киофу
+lighthouse|маяк
+mansion|поместье
+mimi|мими
+mizuki|мизуки
+mountains|горы
+nails|ногти
+otherworld|по ту сторону
+rioter|бунтарка
+satoshi|сатоши
+school|школа
+seaside|побережье
+toshiro|тоширо
+village|деревня
+yashiro|ясиро
+ygothaeg|иготхаег
+yumiko|юмико
+zhectast|жектаст
+KICK|УДАР
+ESCAPE|ПОБЕГ
+BITE|УКУС
+---UNEXPECTED RESULT---|---НЕОЖИДАННЫЙ РЕЗУЛЬТАТ---
+<<D-did we get the incantation right?...>>|«М-мы верно произнесли заклинание?..»
+Randomly selects one previously unlocked OLD GOD|Случайно выбирает одного из разблокированных ДРЕВНИХ БОГОВ

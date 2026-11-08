@@ -1,0 +1,864 @@
+MACABRE MEMOIR OF MORBID MERMAIDS|РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ
+MACABRE MEMOIR OF MORBID MERMAIDS##The janitor was obsessed with mermaids.#He's collected every scrap of the legend about them in the school basement.|РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ##Школьный уборщик был одержим русалками.#В школьной подсобке он собирал всевозможные обрывки легенд об этих существах.
+Now his mind has snapped.##He's decided it's time to make one of his own, using unfortunate students’ bodies as materials.|Его рассудок помутнел.##Он решил, что настало время сделать собственную русалку, используя тела неудачливых учениц в качестве материала.
+...have you seen that creep janitor lately? Gives me goosebumps, every time I see him.|...вы видели этого жуткого уборщика? Мурашки бегут по коже каждый раз, когда вижу его.
+MERMAID SIGHTING|В ПОИСКАХ РУСАЛОК
+Investigate the SEASIDE location twice to complete this quest.|Исследуйте ПОБЕРЕЖЬЕ дважды, чтобы завершить это задание.
+You may be going crazy, but you swear something is watching you from the sea.#(-1 REASON)|Возможно вы сходите с ума, но можете поклясться, что нечто наблюдает за вами из воды.#(-1 РАССУДКА)
+MORBID SCHOOL|ЖУТКАЯ ШКОЛА
+There's one thing everyone at the school is talking about.##Another girl from your area has gone missing.|Все в школе обсуждают одну и ту же новость.##В вашем районе пропала очередная девушка.
+Could there be anything connecting all the missing people? ##I should investigate DOWNTOWN next.|Объединяет ли что-то всех пропавших людей?##Возможно, стоит изучить ДЕЛОВОЙ РАЙОН.
+Asking around the neighborhood got you _some_ results.##It seems that all the girls attended the same school.|Опросив людей, живущих в районе, вы _всё же_ получили какие-то результаты.##Похоже, что все девушки посещают одну и ту же школу.
+All the missing girls were apparently members of the school swimming team. ##Maybe someone saw the kidnapper stalking them?|Кажется, все пропавшие девушки ходили в школьную плавательную секцию.##Может, кто-нибудь видел похитителя?
+You find a notebook containing handwritten and detailed notes about the swimming club itself and... mermaids?|Вы находите тетрадь с подробными заметками о плавательной секции и... русалках?
+Whoever the kidnapper may be, they seem to be really obsessed with mermaids.##Inside the science lab, you find a plan of the town's sewer system.|Кем бы ни был похититель, похоже, что он сильно одержим русалками.##В лабораторном классе вы находите план городской канализации.
+Someone has marked a path leading from the sea, directly to the school building.|Кто-то отметил путь, ведущий от побережья напрямую в здание школы.
+There's something wrong here. A weird apathy seems to infect every adult you ask for help.##You will have to deal with it alone.|Здесь определённо что-то не так. Каждого взрослого, к которому вы обращаетесь за помощью охватывает какая-то странная апатия.##Вам придётся распутывать дело в одиночку.
+You compare the sewer plan with a school map and it suddenly dawns on you...|Вы сравниваете план канализации с картой школы, и вас внезапно осеняет...
+School basement! That must be the place the kidnapper is keeping the missing swimmers!|Школьный подвал! Должно быть, похититель удерживает пропавших пловцов здесь!
+There is no turning back now.##God, let's hope she is alright...|Пути назад больше нет.##Боже, будем надеяться, что с ней всё хорошо...
+SCHOOL BASEMENT|ШКОЛЬНЫЙ ПОДВАЛ
+You bust through the door to the janitorial closet, but it's already too late.#The latest missing girl is lying on a dirty mattress. Her upper torso, at least.##A tail of a fish has been crudely sewn in place of her legs.##<<She was too weak and died,>> you hear the mad janitor say. He looks you up and down. <<...maybe you'll do.>>|Вы врываетесь в каморку уборщика, но уже слишком поздно.#Вы замечаете последнюю пропавшую девушку - она лежит на грязном матрасе. Но лишь её торс.##Вместо ног, из её бёдер торчит грубо пришитый рыбий хвост.##«Она была слишком слабой и погибла...» - вы слышите голос безумного уборщика. Он осматривает вас с головы до ног. - «...может, ты подойдёшь.»
+PREPARE YOURSELF|ПРИГОТОВИТЬСЯ К БОЮ
+DISTRACT HIM|ОТВЛЕЧЬ ЕГО
+INSMASU LOOK|ОБЛИК ИНСМАСУ
+MAD JANITOR is stepping over the body when he suddenly stops, noticing your mutation.##<<t-the gills... you are the one I've been looking for all my life...>>##He falls on his knees and raises hands, not noticing a movement behind him...|БЕЗУМНЫЙ УБОРЩИК переступает через тело, но внезапно останавливается, заметив, что вы мутируете.##«Ж-жабры... тебя... я искал всю свою жизнь...»##Он падает на колени и вытягивает руки, не замечая движения позади себя...
+INSMASU CURSE|ПРОКЛЯТИЕ ИНСМАСУ
+The girl suddenly springs to life! With a deafening shriek, she jumps on the hypnotized JANITOR and starts choking him!##His last words chill you to your bone...##<<THE#SEA#WILL#CLAIM#YOU#BACK>>|Девушка внезапно возвращается к жизни! С оглушительным визгом она прыгает на очарованного УБОРЩИКА и начинает душить его!##Его последние слова пробирают вас до костей...##«МОРЕ#ЗАБЕРЁТ#ТЕБЯ#ОБРАТНО»
+PASS OUT|ПОТЕРЯТЬ СОЗНАНИЕ
+MERMAID IN A MANHOLE|РУСАЛКА ИЗ ЛЮКА
+To your horror, a scaly hand reaches from the opened manhole and pulls the screaming janitor inside.#Silence.##After a few seconds that feel like an eternity, a grotesque half-human, half-fish thing slowly emerges. It takes a long look at the mutilated corpse and sighs.##<<He had a good idea about the two halves...>> it croaks. ##<<But the fish should be on top.>>|К вашему же ужасу, из открытого люка вытягивается чешуйчатая рука, затягивая кричащего уборщика внутрь.#Тишина.##Спустя несколько секунд, пролетевших словно вечность, гротескный гибрид рыбы и человека медленно поднимается из люка. Существо долго смотрит на изуродованный труп и вздыхает.##«У него была неплохая идея насчёт двух половин...» - хрипит она.##«Но рыба должна быть сверху.»
+MORBID DISCOVERY|БОЛЕЗНЕННОЕ ОТКРЫТИЕ
+MAD JANITOR's body slumps to the floor.##You pick up his axe and, using it as a crutch, you try to leave the room. Injured and weakened, you slowly lose consciousness in the school corridor...|Тело БЕЗУМНОГО УБОРЩИКА резко падает на пол.##Вы поднимаете его топор и, опираясь на него, пытаетесь выйти из комнаты. Ослабев от ран, вы постепенно теряете сознание в школьном коридоре...
+Police officers find you a few hours later. No trace of the mad janitor is found, but you will sleep a little better tonight knowing that the other students are safe.##[MACABRE MEMOIR OF MORBID MERMAIDS:#ENDING A]|Полицейские находят вас спустя несколько часов. Они не находят никаких следов безумного уборщика. Но теперь вы можете спать спокойно, зная что остальные ученицы теперь в безопасности.##(РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ:#КОНЦОВКА А)
+Police officers find you a few hours later. No trace of the mad janitor is found, but you will sleep a little better tonight knowing that the other students are safe.##[MACABRE MEMOIR OF MORBID MERMAIDS:#ENDING B]|Полицейские находят вас спустя несколько часов. Они не находят никаких следов безумного уборщика. Но теперь вы можете спать спокойно, зная, что остальные ученицы теперь в безопасности.##(РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ:#КОНЦОВКА Б)
+You are rescued by the firemen, trying to contain the fire.##No trace of the mad janitor is found, and no one believes your story, but you will sleep a little bit better tonight knowing that the other students are safe.##[MACABRE MEMOIR OF MORBID MERMAIDS:#ENDING C]|Вас спасают пожарные, пытающиеся остановить распространение огня.##Полиция не находит никаких следов безумного уборщика, и никто не верит в вашу историю, но теперь вы будете спать чуточку лучше, зная, что остальные ученицы в безопасности.##(РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ:#КОНЦОВКА В)
+Police officers find you a few hours later. No trace of the mad janitor is found, but you will sleep a little better tonight knowing that the other students are safe.##Words of the janitor echo in your head. Now, you can't help but shudder hearing the sound of waves crashing on the beach... and the sounds of something coming out of the water...##[MACABRE MEMOIR OF MORBID MERMAIDS:##ENDING D]|Полицейские находят вас спустя несколько часов. Они не нашли никаких следов безумного уборщика, однако теперь вы можете спать спокойно, зная, что остальные ученицы теперь в безопасности.##Слова уборщика раздаются эхом у вас в голове. Теперь вас бросает в дрожь от одних лишь звуков волн, разбивающихся о берег... и звуков того, как что-то поднимается из воды...##(РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ:##КОНЦОВКА Г)
+[SCHOOL FIRE]: new town status|(ПОЖАР В ШКОЛЕ): новый городской статус
+[INSMASU CURSE]: the sea will claim you back|(ПРОКЛЯТИЕ ИНСМАСУ): море заберёт вас обратно
+NOTICE HIS FACE|ОБРАТИТЬ ВНИМАНИЕ НА ЕГО ЛИЦО
+<<I... I'm sso lonely...>> he stammers, taking a step forward.#<<For yearss... I've dealt with thiss... void inside me...>>#(another step forward)#<<Each night I dream about about a city underwater... I realissed... that's where I truly belong...>>#(and another)#<<Let me take you there...>>|«Я... я так одинок...» - заикается он, делая шаг вперёд.#«Уже годы... Я борюссь сс этой... пусстотой внутри...»#(ещё шаг)#«Каждую ночь я мечтаю о подводном городе... Я оссознал... вот, где моё место...»#(и ещё шаг)#«Позволь мне отвести тебя туда...»
+AGREE|СОГЛАСИТЬСЯ
+SEND AN ALLY INSTEAD|ПОСЛАТЬ СОЮЗНИКА
+IN TOO DEEP (I)|СЛИШКОМ ГЛУБОКО (I)
+KANA takes a step back.#<<Don't even look at me like that! I'm not going anywhere>>|КАНА делает шаг назад.#«На меня не смотри! Не пойду я никуда!»
+You push your surprised ally right into the embracing arms of the janitor.#Before they can say anything, the fishman opens his mouth revealing two rows of sharp shark-like teeth. He bites your follower in the neck, almost decapitating them in the process.##You're too shocked to do anything! #<<This will do...>> he says, smiling and opening up the manhole.##<<...for now.>>|Вы толкаете своего бывшего союзника прямо в распахнутые руки создания.#Никто не успевает ничего сказать, когда эта полурыба открывает рот, обнажая два ряда острых зубов. Чудовище кусает вашего друга за шею, едва не обезглавливая.##Вы замираете в шоке!#«Пока что...» - говорит он, улыбаясь и открывая люк.##«...Этого хватит.»
+IN TOO DEEP (II)|СЛИШКОМ ГЛУБОКО (II)
+Was the talk about the underwater city just an excuse for a crazed serial killer, or did the janitor really believe in the mermaid city located somewhere deep under the waves?|Были ли слова о подводном городе лишь оправданием безумной серии убийств, или уборщик действительно верил в город русалок, спрятанный где-то в морской глубине?..
+IN TOO DEEP (III)|СЛИШКОМ ГЛУБОКО (III)
+Reluctantly, you reach out your hand and the janitor grabs it. He freezes, seemingly studying your face in a better light.#<<I've... sseen you in my dreamss... I... don't need to take you anywhere...>>###He smiles and lets go of your hand and jumps into the open manhole.#<<You're doomed to go there eventually... and I'll wait for you...>>#(+4% DOOM)|Вы неохотно протягиваете руку, и уборщик хватает её. Он замирает, изучая ваше лицо на свету.#«Я... видел тебя в ссвоих сснах... Мне... не нужно тебя никуда забирать...»###Он ухмыляется, отпуская вашу руку и спрыгивая в открытый люк.#«Ты так или иначе туда попадёшь... и я буду ждать твоего прибытия...»#(+4% РОКА)
+Whatever the case, you really should see a dermatologist about your skin allergy. With each day, it starts to look more and more like... fish scales...##[MACABRE MEMOIR OF MORBID MERMAIDS:#ENDING E]|В любом случае, лучше обратиться к дерматологу по поводу кожной аллергии. С каждым днём кожа начинает все больше и больше походить на... рыбью чешую...##(РАСПУТНАЯ РАБОТА НАД РОКОВОЙ РУСАЛКОЙ:#КОНЦОВКА Д)
+FIRE AND WATER|ОГОНЬ И ВОДА
+Suddenly, the mutilated girl moans quietly and twitches. The fishtail causes a lamp to fall and break, igniting the chemicals.##MAD JANITOR catches fire and starts screaming terribly. You try to avoid him as he thrashes around the room, setting everything on fire.##Thick smoke and the smell of burning flesh makes you feel weak...|Внезапно изуродованная девушка начинает тихо стонать и извиваться. Её рыбий хвост опрокидывает светильник, разбивая его и вызывая пожар.##БЕЗУМНЫЙ УБОРЩИК загорается и начинает в ужасе кричать. Вы стараетесь держаться от него подальше, пока он мечется по комнате и поджигает всё вокруг.##Густой дым и запах горящей плоти ослабляют вас...
+[SCHOOL BURNED DOWN]##<<while classes will continue in an old wing, no student will gather in the schoolyard>>|(ШКОЛА СГОРЕЛА ДОТЛА)##«Уроки проходят в старом крыле, но ученикам больше нельзя собираться на школьном дворе.»
+bleeds out on the cold floor of the janitorial closet! (-2 REASON)|истекает кровью на холодном полу каморки! (-2 РАССУДКА)
+A - MORBID DISCOVERY|А - ОТВРАТИТЕЛЬНОЕ ОТКРЫТИЕ
+B - MERMAID IN A MANHOLE|Б - РУСАЛКА ИЗ ЛЮКА
+C - FIRE AND WATER|В - ОГОНЬ И ВОДА
+D - INSMASU CURSE|Г - ПРОКЛЯТИЕ ИНСМАСУ
+E - LONELY FISHMAN|Д - ОДИНОКИЙ ПОЛУРЫБ
+FREAKY FEATURE OF FOUND FOOTAGE|ПРИЧУДЛИВОЕ ПОСЛАНИЕ ПОТЕРЯННЫХ ПЛЁНОК
+FREAKY FEATURE OF FOUND FOOTAGE##Three students disappeared in the process of making a documentary about local folklore and legends of the nearby forest.|ПРИЧУДЛИВОЕ ПОСЛАНИЕ ПОТЕРЯННЫХ ПЛЁНОК#Трое учеников исчезли в лесу в процессе создания документального фильма о местном фольклоре и легендах.
+Now, on the first anniversary of their disappearance, a suspicious man has started asking questions.##He claims to be a private investigator hired by the parents of the students.|Теперь, спустя год после их исчезновения, некий подозрительный мужчина начал расспрашивать людей.##Он утверждает, что является частным детективом, нанятым родителями учеников.
+Except the parents of your friends didn't hire him.##Who is he and what did the students discover out there?|Хотя родители ваших друзей никого не нанимали.##Кто он такой, и что же такого ученикам удалось там запечатлеть?
+...I knew the missing guy. I still hope they will find them in these cursed woods...|...Я знал одного пропавшего парня. Я всё ещё надеюсь, что их найдут в этом проклятом лесу...
+WITCH STORY|ИСТОРИЯ О ВЕДЬМЕ
+Investigate the MANSION location twice to complete this quest.|Исследуйте ПОМЕСТЬЕ дважды, чтобы завершить это задание.
+The legends say the witch was buried alive for kidnapping and murdering two children.#It points you in a specific direction, potentially saving you some time...|Легенды гласят, что одна ведьма была погребена заживо за похищение и убийство двух детей.#Былины указывают на конкретное место, потенциально облегчая ваше расследование...
+SITE OF THE RITUAL|МЕСТО СВЕРШЕНИЯ РИТУАЛА
+Three students disappeared in the process of making a documentary about the local folklore.#Maybe you'll find a clue about their last known whereabouts in the school's newspaper?|Трое учеников исчезли в процессе создания документального фильма о местном фольклоре.#Может, вы найдёте какую-нибудь подсказку об их последнем походе в школьной газете?
+The notes mention a village not far from your town. You decide to take a bus.|Статьи упоминают деревню вблизи вашего города. Вы садитесь на автобус.
+Getting closer, you can't help but notice a large number of trees that have suddenly died. What happened here…?|Подъезжая, вы не можете не заметить огромное количество внезапно увядших деревьев. Что здесь произошло?..
+Everyone in the village is unsettlingly friendly.##An old farmer points you to an old stone - the missing group supposedly started their forest trip there.|Все в этой деревне тревожно дружелюбны.##Местный пожилой фермер указывает вам на старую глыбу - кажется, пропавшие ученики начали свой лесной поход именно отсюда.
+Looking back one last time, you continue deeper into the woods...|Оглядываясь назад в последний раз, вы начинаете углубляться в лес...
+All the paths look the same. Are you lost?|Все тропинки выглядят одинаково. Неужто вы потерялись?
+You have a feeling someone is following you...|Вас не покидает чувство, что кто-то преследует вас...
+You find a pile of human teeth lying on a nearby rock.|Вы находите горсть человеческих зубов, лежащих на одном из камней неподалёку.
+The ruined house! That's where the missing crew was supposed to go!|Разрушенное поместье! Именно сюда должны были пойти пропавшие ученики!
+SITE OF THE RITUAL|МЕСТО СВЕРШЕНИЯ РИТУАЛА
+The rumored witch house seems empty.##In the basement, however, you find a camera pointed at the large hole in the ground. On the table next to the camera, you see three cassettes, each titled after one of the missing friends. ##Then, you hear a curious sound coming from the hole...|В поместье легендарной ведьмы ничего нет.##В подвале вы, однако, находите камеру, направленную на огромную дыру в полу. На столе рядом с камерой вы замечаете три кассеты, каждая из которых подписана именем одного из пропавших ребят.##Вдруг, вы слышите странный звук, исходящий из дыры...
+TAKE CASSETTES AND RUN|ЗАБРАТЬ КАССЕТЫ И СБЕЖАТЬ
+PEEK INSIDE|ЗАГЛЯНУТЬ ВНУТРЬ
+WISHING WELL|КОЛОДЕЦ ЖЕЛАНИЙ
+You kneel down and lean forward to see what's inside the hole.##It takes a while to process what you are looking at. It’s a gigantic eye, staring right at you! ##Hypnotized, you continue to lean in, feeling weaker and weaker as the gargantuan beast lures you in.|Вы наклоняетесь над дырой посмотреть, что находится внутри.##Осознание происходящего занимает у вас какое-то время. Это гигантский глаз, смотрящий прямо на вас!##Словно под гипнозом, вы продолжаете наклоняться, ощущая всё большую слабость, пока гигантский зверь заманивает вас внутрь.
+LOSE CONSCIOUSNESS|ПОТЕРЯТЬ СОЗНАНИЕ
+POUR ACID INSIDE|ВЫЛИТЬ ВНУТРЬ КИСЛОТУ
+Not being able to deal with it, you decide to grab the tapes and run. ##You wander aimlessly through the woods for a few hours until you are found by a search party. You lead them to the house, but... the door to the basement is missing. ##The case remains open.#[FREAKY FEATURE OF FOUND FOOTAGE:#ENDING C]|Не в силах разобраться с происходящим, вы хватаете кассеты и сбегаете.##Вы бесцельно скитаетесь по лесу несколько часов, пока вас не находит поисковая группа. Вы ведёте их в поместье, но... дверь в подвал исчезла.##Дело остаётся открытым.#(ПРИЧУДЛИВОЕ ПОСЛАНИЕ ПОТЕРЯННЫХ ПЛЁНОК:#КОНЦОВКА В)
+At the very last moment, the suspicious tall man grabs you by the collar.##He explains he is part of a cult protecting the house and the mysterious entity below it. 'You've got a bigger purpose than to die here,' he says before knocking you out. ##You wake up a few hours later on a bus heading back to your town. #[FREAKY FEATURE OF FOUND FOOTAGE:#ENDING B]|В последний момент загадочный высокий мужчина хватает вас за воротник.##Он говорит, что является членом культа, защищающим дом и странное существо, обитающее под ним. «У тебя другое предназначение, нежели умереть здесь», - говорит он, вырубая вас.##Вы просыпаетесь спустя несколько часов в автобусе, едущем обратно в ваш город.#(ПРИЧУДЛИВОЕ ПОСЛАНИЕ ПОТЕРЯННЫХ ПЛЁНОК:#КОНЦОВКА Б)
+You open the can of acid and empty its contents in the well. The house’s foundation shakes as the massive creature's eye burns.##Walls begin to collapse as you pass out from the toxic fumes. You wake up later with the cassettes in your trembling hand. ##The witch's house is nowhere to be seen... #[FREAKY FEATURE OF FOUND FOOTAGE:#ENDING A]|Вы открываете ёмкость с кислотой и выливаете содержимое в дыру. Фундамент поместья сотрясается, когда жидкость достигает глаза существа.##Стены начинают рушиться, вы падаете в обморок из-за токсичных испарений... Позже, вы просыпаетесь, удерживая кассеты дрожащей рукой.##Ведьминого поместья нигде не видно...#(ПРИЧУДЛИВОЕ ПОСЛАНИЕ ПОТЕРЯННЫХ ПЛЁНОК:#КОНЦОВКА А)
+[EYE]: the forest is restless|(ГЛАЗ): лес неустанен
+A - SHUNNED HOUSE|А - БРОШЕННЫЙ ДОМ
+B - WISHING WELL|Б - КОЛОДЕЦ ЖЕЛАНИЙ
+C - TAPES|В - КАССЕТЫ
+ALARMING ACCOUNT OF ABNORMAL ARMS|РЕЗОНАНСНЫЙ РАССКАЗ О РАЗРОСШИХСЯ РУКАХ
+ALARMING ACCOUNT OF ABNORMAL ARMS##I remember when it started. The woman next door was strangled to death in her bed, with no sign of forced entry.##The killer was never found, and the apartment remained vacant...|РЕЗОНАНСНЫЙ РАССКАЗ О РАЗРОСШИХСЯ РУКАХ##Я помню, как это началось. Одну женщину задушили в собственной кровати, а признаков взлома квартиры не обнаружили.##Убийцу так и не нашли, а квартира осталась заброшенной...
+...strangled in her own apartment? This is unbelievable!|...задушили в собственной квартире? Невероятно!
+ABNORMAL ANATOMY|АНОМАЛЬНАЯ АНАТОМИЯ
+Investigate the HOSPITAL location twice to complete this quest.|Исследуйте БОЛЬНИЦУ дважды, чтобы завершить это задание.
+The Anatomical Museum archive displays a specimen with elongated arms and jellified bones.#(-1 REASON)|В архивах Анатомического музея есть пример вида, имеющего удлинённые руки и желеобразные кости.#(-1 РАССУДКА)
+BOILER ROOM|КОТЕЛЬНАЯ
+The door to her apartment was closed and she lived alone.##What other ways in are there?|Дверь в квартиру была заперта, а жертва жила в квартире одна.##Какие входы могли остаться незамеченными?
+Maybe you can get the apartment plan to compare with other flats?|Может, вам удастся заполучить план этой квартиры и сравнить его с другими квартирами?
+The apartment is on the third floor.##There is no way somebody used the window to escape the murder scene.|Квартира находится на третьем этаже.##Сбежать с места преступления через окно было бы попросту невозможно.
+You notice the odd placement of ventilation shafts.##They seem too small for anyone to crawl through, though.|Вы замечаете странное расположение вентиляционных шахт.##Но они кажутся слишком маленькими, чтобы через них можно было пролезть.
+You should interview the neighbors. #Maybe you'll discover something the police missed?...|Вы должны опросить соседей.#Может, вы сможете обнаружить нечто, что пропустила полиция?..
+One neighbor is complaining about her missing underwear.|Одна из соседок жалуется, что у неё пропало нижнее бельё.
+Another neighbor is complaining about weird noises coming from the vents when she's at home.|Другая соседка жалуется на странные звуки, исходящие из вентиляции, когда она дома.
+Let's check the building plan to find out if there is a place where all the vents connect...|Нужно проверить план здания, чтобы узнать, где начинается вентиляция...
+Every room is connected by vents coming from the unused boiler room.##Could it be?...|Каждая комната соединена вентиляцией с заброшенной котельной.##Может, это оно?..
+BOILER ROOM|КОТЕЛЬНАЯ
+You enter the dark boiler room and trip over the pipe. Cursing, you find a light switch - and gasp in horror. It's not a pipe at all. ##It's a long rubbery arm coiling around the room and ending in a ventilation shaft. Coming closer, you can smell something vile and rotten...|Вы входите в тёмную котельную и спотыкаетесь о трубу. Ругаясь, вы находите выключатель и... замираете в страхе. Это не труба.##Это длинная, эластичная рука, которая, свернувшись клубками по комнате, уходит в вентиляцию. Подходя ближе, вы чувствуете ужасный гнилостный запах...
+CHECK THE VENT|ПРОВЕРИТЬ ВЕНТИЛЯЦИЮ
+You almost fall to the ground when you see the wide-open stare of the dead pervert, his elongated limbs stretching and disappearing into the vent's darkness.#Inside his mouth, you find a TINY KEY.|Вы едва не падаете на пол, увидев распахнутые глаза мёртвого извращенца, длинные руки которого исчезают во тьме вентиляционной шахты.#У него во рту лежит МАЛЕНЬКИЙ КЛЮЧ.
+You almost fall to the ground when you see the wide-open stare of the dead pervert, his elongated limbs stretching and disappearing into the vent's darkness.|Вы едва не падаете на пол, увидев распахнутые глаза мёртвого извращенца, длинные руки которого исчезают во тьме вентиляционной шахты.
+After the police arrive, the whole building gets searched. Following the arms, the detectives find the body of a man stuck in a ventilation shaft. ##Later, he is identified as the building caretaker. In his closet, police find pieces of underwear and voyeuristic photos of the tenants.|После прибытия полиции всё здание подвергается обыску. Следуя за руками, детективы находят тело мужчины, застрявшего в вентиляционной системе.##Позже его опознали как арендодателя. В его квартире полиция находит нижнее бельё и развратные фотографии жильцов.
+You are questioned thoroughly and eventually released as the murder case is being covered up as a case of an unfortunate gas leak.##[ALARMING ACCOUNT OF ABNORMAL ARMS:#ENDING A]|Вас тщательно допрашивают и позже отпускают, прикрывая дело «неудачным инцидентом с утечкой газа».##(РЕЗОНАНСНЫЙ РАССКАЗ О РАЗРОСШИХСЯ РУКАХ:#КОНЦОВКА А)
+After the police arrive, the whole building gets searched. Following the disgusting body, the detectives enter one of the flats. ##Inside the slimy lair, there are countless giant semi-transparent eggs. When broken, they reveal horrible centipede-human fetus hybrids!|После прибытия полиции всё здание подвергается обыску. Следуя за отвратительным телом, детективы входят в одну из квартир.##Внутри они находят слизистое логово, хранящее бесчисленное количество гигантских полупрозрачных яиц. Внутри разбитых яиц находят ужасных зародышей, похожих на гибрид человека и многоножки!
+You are questioned thoroughly while the government people - dressed as gas company employees - clean up the apartment.#You are eventually released but can swear that at night, you still hear faint skittering sounds coming from the vents.##[ALARMING ACCOUNT OF ABNORMAL ARMS:#ENDING B]|Вас тщательно допрашивают пока люди из правительства, одетые в форму сотрудников газовой компании, вычищают квартиру.#Позже вас отпускают, вас не отпускает ощущение, что по ночам вы слышите тихое шуршание, доносящееся из вентиляции.##(РЕЗОНАНСНЫЙ РАССКАЗ О РАЗРОСШИХСЯ РУКАХ:#КОНЦОВКА Б)
+[SKITTERING SOUNDS]: they missed one|(ШОРОХИ): одну упустили
+A - PERVERT|А - ИЗВРАЩЕНЕЦ
+B - CENTIPEDE|Б - МНОГОНОЖКА
+CURIOUS CASE OF A CONTAGIOUS COMA|КЛИНИЧЕСКАЯ КАРТИНА КОНТАКТНОЙ КОМЫ
+CURIOUS CASE OF A CONTAGIOUS COMA##More and more people fall unconscious and cannot be awakened. People who try to wake the patients up only end up falling into a coma themselves.|КЛИНИЧЕСКАЯ КАРТИНА КОНТАКТНОЙ КОМЫ##Всё больше и больше людей теряют сознание и больше не пробуждаются. Те, кто пытаются разбудить больных, в конечном итоге сами впадают в кому.
+A whole wing of the town's hospital has been dedicated to warding the comatose.##Is there anything connecting these people and how did this strange illness start?|Лежащим в коме людям выделили отдельное крыло в городской больнице.##Есть ли между больными какая-то связь, и каким образом появилось это странное заболевание?
+...if I were you, I'd avoid that hospital at all costs...|...в больнице лучше не появляться...
+PATIENT ZERO|НУЛЕВОЙ ПАЦИЕНТ
+Investigate the VILLAGE location twice to complete this quest.|Исследуйте ДЕРЕВНЮ дважды, чтобы завершить это задание.
+An old man from the village hands you a package.#<<This should help you understand the illness...>>#(+ ITEM)|Пожилой мужчина в деревне протягивает вам коробку.#«Это должно помочь тебе понять болезнь...»#(+ПРЕДМЕТ)
+QUARANTINE WING|КАРАНТИННОЕ КРЫЛО
+Let's check the news reports about this weird disease and try to find the cause before more people fall asleep.|Нужно проверить новости по теме этого заболевания и попробовать найти первопричину, пока другие люди не впали в кому.
+Reports mention a patient zero. Who could they be?|В новостях упоминается нулевой пациент. Кто бы это мог быть?
+You need to sneak into the hospital and 'borrow' the information about patient zero.|Вам нужно пробраться в больницу и «позаимствовать» информацию о нулевом пациенте.
+You've got their name and address. Let's get out of here.|Вы получили имя и адрес. Теперь можно уходить.
+Patient Zero's house seems empty. You should search it carefully...|Дом нулевого пациента выглядит пустым. Нужно осмотреться повнимательней...
+That man dabbled in magic! You've found a journal,|Этот человек увлекался магией! Вы нашли журнал,
+describing a certain village and instructions for a summoning ritual.##It seems that he tried to contact an entity from the dream realms.|содержащий описание некой деревни и инструкцию по ритуалу призыва.##Похоже, что он пытался связаться с сущностью из царства снов.
+The quarantine wing is guarded closely.##You must find a way to sneak through...|Карантинное крыло хорошо охраняется.##Нужно придумать, как пробраться внутрь...
+There it is.##Let's hope you find an answer here...|Вот и оно.##Вы надеетесь найти здесь ответы...
+QUARANTINE WING|КАРАНТИННОЕ КРЫЛО
+You've managed to sneak through the floor while avoiding the police and finally reach the quarantine wing, where all the coma patients were brought in.##Their pulses are slowly weakening and their blood pressure dropping... You must hurry.|Вам удалось прокрасться по этажу мимо полиции и наконец достичь карантинного крыла, куда привозят всех коматозных пациентов.##Их пульс медленно ослабевает, а кровяное давление падает... Вам нужно поторопиться.
+INVESTIGATE|ИССЛЕДОВАТЬ
+USE THE DUST OF SEEING|ИСПОЛЬЗОВАТЬ ПЫЛЬ ПРОЗРЕНИЯ
+The complete silence of this place hits you when you reach one of the beds. ##All the patients are dead.#(-3 REASON)|Пока вы подходите к одной из коек, вас поражает мёртвая тишина.##Все пациенты мертвы.#(-3 РАССУДКА)
+Following the old man's advice, you throw the DUST OF SEEING in the air. ##It reveals weird elongated monsters hanging from the ceiling, one above every bed. Each creature is connected to a patient with an undulating tendril!##As you try to process everything, one of the disgusting creatures raises its head and looks in your direction!|Следуя совету пожилого мужчины, вы бросаете ПЫЛЬ ПРОЗРЕНИЯ в воздух.##Она раскрывает странных монстров, свисающих с потолка, вытянувшихся над каждой койкой. Существа связаны с пациентами пульсирующими щупальцами!##Пока вы пытаетесь осознать происходящее, одно из отвратительных существ поднимает голову и смотрит в вашу сторону!
+PREPARE YOURSELF|ПРИГОТОВИТЬСЯ К БОЮ
+Shaken, you sneak out of the hospital. One thing is certain though, with no sick people left alive, it's the end of this weird illness.##[CURIOUS CASE OF A CONTAGIOUS COMA:# ENDING B]|В смятении, вы скрытно выбираетесь из больницы. Вы уверены лишь в одном - без носителей, этой странной болезни пришёл конец.##(КЛИНИЧЕСКАЯ КАРТИНА КОНТАКТНОЙ КОМЫ:#КОНЦОВКА Б)
+The creature's severed body falls on the floor and starts melting, slowly.##The remaining part slithers back into the now-closing hole in the ceiling. You've managed to catch a glimpse of the other side.##The sight of the other side makes you fall to your knees. It wasn't the creature's body that you'd managed to cut off...##It was merely a finger.|Отрезанная часть тела создания падает на пол и начинает медленно плавиться.##Другая часть тела уползает в закрывающуюся дыру в потолке. Вам мимолётно удаётся взглянуть на ту сторону.##От такого пейзажа у вас подкашиваются колени. На самом деле, вы уничтожили не тело существа...##Вы отрезали лишь его палец.
+Shaken, you sneak out of the hospital. One thing is certain though, it's the end of this weird illness.##[CURIOUS CASE OF A CONTAGIOUS COMA:# ENDING A]|Дрожа, вы скрытно выбираетесь из больницы. Вы уверены лишь в одном - этой странной болезни пришёл конец.##(КЛИНИЧЕСКАЯ КАРТИНА КОНТАКТНОЙ КОМЫ:#КОНЦОВКА А)
+[DREAM EATER]: the hospital is now safe|(ПОЖИРАТЕЛЬ СНОВ): в больнице теперь безопасно
+A - DREAM DEVOURER|А - ПОЖИРАТЕЛЬ СНОВ
+B - SATED... FOR NOW|Б - НАСЫТИВШИЙСЯ... ПОКА ЧТО
+HORRIBLE HISTORY OF HOUSEHOLD HELL|ПУГАЮЩАЯ ПРАВДА О ПОТАЙНОЙ ПРЕИСПОДНЕЙ
+HORRIBLE HISTORY OF HOUSEHOLD HELL##There are many old mansions around this town. OOO manor is one of them.##Supposedly haunted by a family of four, who disappeared without a trace one summer. But is it the only tragic event that took place there?|ПУГАЮЩАЯ ПРАВДА О ПОТАЙНОЙ ПРЕИСПОДНЕЙ##Вокруг этого города лежит много поместий. Одно из них - поместье господина ООО.##Согласно слухам, в этом поместье жила семья из четырёх человек, которая бесследно пропала одним летом, превратившись в привидений. Но единственное ли это трагическое событие, связанное с поместьем?
+...I've heard some rumors about that mansion. Please, don't go there...|...Мне доводилось слышать некоторые слухи об этом поместье. Пожалуйста, не ходи туда...
+BUILDING HISTORY|ИСТОРИЯ СТРОИТЕЛЬСТВА
+Investigate the SEASIDE location twice to complete this quest.|Исследуйте ПОБЕРЕЖЬЕ дважды, чтобы завершить это задание.
+You've learned the cliff the mansion was built on is famous for its extensive cave system. You've decided to rent some books that might help you.|Вы узнали, что скала, на которой было построено поместье, известна своей обширной системой пещер. Вы решили взять напрокат несколько книг, которые могут вам помочь.
+UNDERGROUND CHAMBER|ПОДЗЕМНОЕ ПОМЕЩЕНИЕ
+Friends you've talked with are not sure where the mansion itself is located...|Ваши друзья, с которыми вы разговаривали, не совсем уверены, где находится это поместье...
+You have to find the mansion first.#A trip to the library may shed some light on it.|Для начала, вам нужно его найти.#Поход в библиотеку может пролить немного света.
+The building was supposed to be somewhere near the cliffs.##You copy the mansion's photo from the newspaper and prepare to leave...|Здание должно находиться где-то рядом со скалами.##Вы вырезаете фотографию поместья из газеты и готовитесь уходить...
+Comparing different mansions with the sketch, you finally find the one.##There's only one problem...|Сравнивая различные поместья с фотографией, вы наконец находите нужное.##Правда, есть одна проблема...
+You will need a strong rope to enter the mansion through the high window.|Вам нужна крепкая верёвка, чтобы залезть в поместье через высокое окно.
+You make it through the window. This is the abandoned mansion, your friends have talked about...##Let's explore it!|Вы пролезаете через окно. Это то самое заброшенное поместье, о котором говорили ваши друзья...##Время изучить его!
+You heard a weird noise coming from the locked study.##You must find a key!|Вы слышите странные звуки, доносящиеся из закрытого кабинета.##Вы должны найти ключ!
+Keep looking for a key!|Продолжайте искать ключ!
+This must be the place where the key is!|Возможно ключ лежит здесь!
+You've finally found the key to the study room...##Hopefully, you will find an answer there.|Вам наконец удаётся найти ключ от кабинета...##Хочется надеяться, что вы найдёте ответы внутри.
+STUDY ROOM|КАБИНЕТ
+You aren’t sure what to expect. The sturdy door to the study opens with a creak. The dark, dusty room is empty but something feels wrong; #a faint draft perhaps?##You move the rotten carpet aside to reveal a secret passageway cut directly into the cliff rock.|Вы не знаете, чего ожидать. Крепкая дверь кабинета со скрипом открывается. Тёмная, пыльная комната ощущается неправильно.#Наверное, из-за слабого сквозняка?..##Вы сдвигаете прогнивший ковёр в сторону, обнаруживая секретный проход, вытесанный прямо в скале и ведущий внутрь неё.
+MAKE YOUR WAY DOWN|СПУСТИТЬСЯ
+UNDERGROUND CHAMBER|ПОДЗЕМНОЕ ПОМЕЩЕНИЕ
+Following a strange song, you discover a hidden passage that leads you to an underground chamber connected to the sea. ##You can’t find the source of the sounds, but then it hits you. The acoustics of this place make the waves sound like the most beautiful serenade.##Mesmerized, you step closer to the stone altar at the end of the room.|Следуя странной песне, вы обнаруживаете скрытый проход, ведущий в подземное помещение и выходящий в море.##Вы не можете найти источник песни, но затем вас осеняет: акустика этого места превращает звуки волн в самые прекрасные серенады.##Вы очарованно делаете шаг к каменному алтарю, расположенному в конце помещения.
+STEP CLOSER|ПОДОЙТИ БЛИЖЕ
+EXPLORE SOME MORE|ИССЛЕДОВАТЬ ДАЛЬШЕ
+The acoustics of the underground caves make the waves and the machine tone creates a ghastly melody, shaking you to the bone.##As you move closer to the stone altar, you scream in terror. You are not the only one charmed by the sounds...|Механический треск, вплетаясь в звуки волн, порождает жуткую мелодию, которая пробирает вас до костей.##Подойдя к каменному алтарю, вы в ужасе вскрикиваете. Мелодия заворожила не только вас...
+PREPARE FOR COMBAT|ПРИГОТОВИТЬСЯ К БОЮ
+CAVERN DEPTHS|В ГЛУБИНЕ ПЕЩЕР
+You try to explore the side corridors, but it's too dark.##If you only had some source of light...|Вы пытаетесь осмотреть каменные коридоры, но тут слишком темно.##Если бы только у вас был источник света...
+You follow a winding corridor until you stumble upon something really strange.#Someone has set up a series of vintage-looking speakers, all connected to a single unit. The speakers must be the source of the sounds.##You see a knob, allowing you to change its frequency...|Вы идёте по извилистому коридору, пока не натыкаетесь на нечто странное.#Кто-то установил здесь ряд старых колонок и подключил их к единой системе. Должно быть, это и есть источник мелодии.##Вы видите ручку, позволяющую менять частоту звука...
+RETURN TO THE MAIN CORRIDOR|ВЕРНУТЬСЯ В ОСНОВНОЙ КОРИДОР
+THE CYCLE CONTINUES|ЦИКЛ ПРОДОЛЖАЕТСЯ
+The coiled body of a gargantuan beast disappears under the waves once again, perhaps... satisfied?##You have little doubt another family will try to move in in the future and be lured by the beast, so you destroy the speakers and set fire to the whole mansion...|Змеевидное тело гигантского существа вновь уходит под воду, будто бы... удовлетворённое?##Вы не сомневаетесь, что в будущем зверь заманит ещё одну семью на растерзание в поместье, так что вы уничтожаете колонки и поджигаете его...
+SIREN SOUNDS GET LOUDER...|ЗВУКИ СИРЕН УСИЛИВАЮТСЯ...
+THE INNER COIL|ВНУТРЕННЯЯ СПИРАЛЬ
+Almost tripping over the countless human bones, you decide to run from the cave. ##The haunting melody continues to follow you as OETARU begins its reign of terror in the waters surrounding SHIOKAWA...|Спотыкаясь о разбросанные человеческие кости, вы решаете бежать из пещеры.##Навязчивая мелодия продолжает преследовать вас, пока в водах ШИОКАВЫ ОЭТАРУ строит своё царство террора...
+Almost tripping over human bones, you decide to run from the cave. The haunting melody continues to follow you...|Спотыкаясь о разбросанные человеческие кости, вы решаете бежать из пещеры. Навязчивая мелодия продолжает вас преследовать...
+Unholy chants coming from the caves connected to the mansion must have driven the family insane.##You, however, decided to take your fate into your own hands. Burning down the mansion will prevent any future family from moving in and discovering the terrible secret of the cave system...##[HORRIBLE HISTORY OF HOUSEHOLD HELL:#ENDING A]|Должно быть, нечестивые песнопения из недр пещер, ведущих в поместье, свели семью с ума.##Так или иначе, вы решаете взять свою судьбу в свои руки. Вы сжигаете поместье, чтобы помешать какой-либо семье въехать сюда и узнать об ужасающей тайне этих пещер...##(ПУГАЮЩАЯ ПРАВДА О ПОТАЙНОЙ ПРЕИСПОДНЕЙ:#КОНЦОВКА А)
+Unholy chants coming from the caves connected to the mansion must have driven the family insane.##Awakening OETARU almost made you share their fate. You decide to run, afraid of the dire consequences.##THE INNER COIL always snares its prey, and right now, the fishermen look so, so tasty...##[HORRIBLE HISTORY OF HOUSEHOLD HELL:#ENDING B]|Должно быть, нечестивые песнопения из недр пещер, ведущих в поместье, свели семью с ума.##Пробуждение ОЭТАРУ едва не заставило вас разделить их судьбу. Вы решаете сбежать, побоявшись страшных последствий.##ВНУТРЕННЯЯ СПИРАЛЬ всегда ловит свою добычу, и прямо сейчас рыбаки выглядят так, так вкусно...##(ПУГАЮЩАЯ ПРАВДА О ПОТАЙНОЙ ПРЕИСПОДНЕЙ:#КОНЦОВКА Б)
+Unholy chants coming from the caves connected to the mansion must have driven the family insane.##With no connection to the outside world, they fed on what they had; themselves.##However, this doesn't explain the fresh corpses and wet tracks around the altar…##[HORRIBLE HISTORY OF HOUSEHOLD HELL:#ENDING C]|Должно быть, нечестивые песнопения из недр пещер, ведущих в поместье, свели семью с ума.##Не имея связи с внешним миром, они питались тем, что у них было - друг другом.##Хотя это не объясняет свежие тела и влажные следы вокруг алтаря...##(ПУГАЮЩАЯ ПРАВДА О ПОТАЙНОЙ ПРЕИСПОДНЕЙ:#КОНЦОВКА В)
+A - INNER COIL|А - ВНУТРЕННЯЯ СПИРАЛЬ
+B - BEAST AWAKENED|Б - ПРОБУЖДЕНИЕ ЗВЕРЯ
+C - MYSTERY BURIED DEEP|В - ТАЙНА, ПОГРЕБЕННАЯ ПОД ЗЕМЛЁЙ
+SORROWFUL SAGA OF THE MOONLIGHT SAILORS|ПЕЧАЛЬНОЕ ПРЕДАНИЕ О ПОЛУНОЧНЫХ ПЛАВАТЕЛЯХ
+SORROWFUL SAGA OF THE MOONLIGHT SAILORS##It began with one fisherman. Who dragged something truly awful from the belly of the ocean.##A dark writhing ooze, that mesmerized him beyond control.|ПЕЧАЛЬНОЕ ПРЕДАНИЕ О ПОЛУНОЧНЫХ ПЛАВАТЕЛЯХ##Всё началось с одного рыбака. Он выловил нечто ужасное из самых глубин океана.##Тёмная, извивающаяся слизь поработила его.
+He hid himself away for a week, adoring it. Not to be seen until one moonlit night, when a young girl spotted his boat drifting away.##A single lantern swinging at the helm and the captivated fisherman singing eerily to his catch.|Неделю он скрывался, любуясь ею. Но одной лунной ночью его заметила одна девушка, когда он уплывал куда-то на лодке.##В свете одинокого фонаря, покачивающегося на носу лодки, очарованный рыбак пел жуткие песни своему улову.
+Now more and more fishermen have begun to find the vile ooze in their nets. And one by one they are disappearing.##Soon the ocean will have taken them all.|Теперь всё больше и больше рыбаков вылавливают сетями эту гадкую жидкость. И начинают пропадать, один за другим.##Скоро океан заберёт их всех.
+...my dad says, the sailors gather at a beach nearby...|...мой отец говорил, что рыбаки собираются по ночам на пляже неподалёку...
+HOOKS AND NETS|КРЮЧКИ И СЕТИ
+Discard two ITEM cards to complete this quest.|Выбросите два ПРЕДМЕТА, чтобы завершить это задание.
+You find a huge pile of nets and hooks prepared for the big hunt. You quickly throw them into the ocean. #Maybe that’ll stop them from sailing out.|Вы находите большую кучу сетей и крючков, заготовленных для большого улова. Вы спешно выкидываете их в океан.#Может, это остановит отплытие рыбаков.
+You couldn't find the nets and hooks prepared for the big hunt. What you did find, was a huge bonfire in the middle of the beach.#You take a burning branch with you to light your way.|Вы не смогли найти сети и крючки, заготовленные для большого улова. Но зато вы наткнулись на огромный костёр посреди пляжа.#Вы взяли горящую палку, чтобы подсветить себе путь.
+THE BEACH|ПЛЯЖ
+You start your investigation, hoping to overhear some rumors at the fish market.|Вы начинаете расследование, надеясь подслушать слухи на рыбном рынке.
+Although you brave the stench for hours, you glean nothing besides the fact the fisherman had a wife...##Perhaps you should pay her a visit?|Хоть вам и удаётся стойко переносить зловоние, вы не узнаёте ровным счётом ничего, кроме факта, что у одного из этих рыбаков была жена...##Может, вам стоит навестить её?
+When you arrive at the fisherman’s house, it stands long vacated.##Peering in through the dusty window you recoil in shock...|Когда вы прибываете к дому рыбака, он предстаёт давно заброшенным.##Заглянув в пыльное окно, вы в ужасе отскакиваете...
+The fisherman’s wife lies in the kitchen.##Mutilated and covered with black marks...|Жена рыбака лежит на кухне.##Изуродованная и покрытая тёмными точками...
+Surely someone else must have caught one of these?##You lurk around, hoping to spot one of them..|Наверняка, она не единственная, кто пострадал.##Вы обходите округу в поисках других заражённых...
+The young man has glassy eyes and mumbles his replies as he caresses his catch.##The beating movements of his arms disturb you...|Вы находите одного парня с остекленевшими глазами, который что-то бормочет, поглаживая свой улов.##Ритмические движения его рук напрягают вас...
+After a slow interrogation, the young man manages to stutter out something about an organized fishing trip.|После небольшого допроса парень, запинаясь, произносит что-то о запланированной рыбалке.
+You slip out at night and race towards the beach, terrified of what comes next...|Ночью, вы устремляетесь на пляж, страшась того, что может произойти дальше...
+THE BEACH|ПЛЯЖ
+The full moon shines bright in the cloudless night sky. The ink-black ocean waves glimmer eerily. ##All the residents have drawn their shutters tight and locked their doors. Your footsteps are silent in the sand.#The only audible sounds are your ragged breathing and pounding heartbeat...|Полная луна ярко сияет на безоблачном небе. Зловеще мерцают чернильно-тёмные волны океана.##Все жители плотно закрыли окна и заперли двери. Вы бесшумно шагаете по песку.#Вы слышите лишь собственное неровное дыхание и бешено бьющееся сердце...
+You arrive at the water’s edge, breathless. ##The possessed fishermen’s boats fill the horizon with their light. ##Tiny yellow spots navigating across a dark ocean under a dark sky. #You cannot make out the figures on board.|Вы выбегаете на берег, затаив дыхание.##Лодки одержимых рыбаков заливают горизонт светом.##Крошечные жёлтые точки движутся по океану под тёмным небом.#Вы не можете разглядеть силуэты в лодках.
+FISHING SEASON'S END|КОНЕЦ РЫБОЛОВНОГО СЕЗОНА
+It’s not the sailors. The black beings must've left their bodies! Shocked, you watch them sail their way out of the harbor. ##You are terrified at their power, but relieved that they did not drag their meat puppets with them.|Это не рыбаки. Должно быть, тёмные существа покинули их тела! Вы в ужасе смотрите, как создания отплывают от порта.##Вы страшитесь их могущества, но вас немного утешает то, что они не потащили своих кожаных марионеток с собой.
+REAL CATCH|НАСТОЯЩИЙ УЛОВ
+Hypnotized, you watch as they bob their way out of the harbor.##Their lanterns move farther and farther away and you hear the odd chanting slowly fade with the wind.##You stand in the cold until the final boat is out of sight and it is pitch black again.#There’s nothing to do now. You head home, the weird chant still in your head...|Словно под гипнозом, вы смотрите вслед уплывающим рыбакам.##Свет от их фонарей становится всё меньше и меньше, и вы слышите необычное пение, медленно растворяющееся на ветру.##Вы стоите на холоде и наблюдаете как последняя лодка скрывается за горизонтом, и море вновь чернеет.#Уже ничего не поделаешь. Вы направляетесь домой, до сих пор думая об этом странном пении...
+The black beings never returned.#Yet mothers would not let their children play on the beach.##Over time people forgot the last time they saw a boat out on the waves.##Although some claim they see strange beings come into the port at night...  #[SORROWFUL SAGA OF THE MOONLIGHT SAILORS:#ENDING A]|Тёмные существа больше не возвращались.#Так или иначе, матери до сих пор не пускают детей поиграть на пляж.##Спустя время люди начали забывать когда последний раз видели лодку на воде.##Хотя, некоторые заявляют, что видели странных существ, посещающих порт по ночам...##(ПЕЧАЛЬНОЕ ПРЕДАНИЕ О ПОЛУНОЧНЫХ ПЛАВАТЕЛЯХ:#КОНЦОВКА А)
+No one spoke of the fishermen after they sailed off. Grieving mothers would not let their children anywhere near the cursed beach. ##Over time, people forgot the last time they saw a boat out on the waves...##[SORROWFUL SAGA OF THE MOONLIGHT SAILORS:#ENDING B]|Никто больше не упоминал о моряках после того, как они отплыли. Скорбящие матери больше не пускают детей на этот проклятый пляж.##Спустя время люди начали забывать когда последний раз видели лодку на воде...##(ПЕЧАЛЬНОЕ ПРЕДАНИЕ О ПОЛУНОЧНЫХ ПЛАВАТЕЛЯХ:#КОНЦОВКА Б)
+[MISSING SAILORS]: new events available|(ПРОПАВШИЕ МОРЯКИ): доступны новые события
+THE SEEPING APOSTLE|ПРОНИКАЮЩИЙ АПОСТОЛ
+THROW YOUR TORCH|КИНУТЬ ФАКЕЛ
+The whole section of the beach is black with ooze, slowly engulfing the bodies of the missing sailors.##Right in the middle of it, stands a lone figure. When he spots you, the ooze stops undulating for a second before rapidly moving towards you, leaving the half-eaten corpses behind.#|Весь пляж заполняет тёмная слизь, медленно поглощающая тела пропавших моряков.##Ровно в центре пляжа стоит одинокая фигура. Когда она замечает вас, слизь сначала замирает, а затем устремляется за вами, оставляя полусъеденные тела позади.#
+PREPARE FOR COMBAT|ПРИГОТОВИТЬСЯ К БОЮ
+THE BURNING COAST|ПЫЛАЮЩИЙ БЕРЕГ
+You throw the torch towards the figure and the ooze instantly ignites, quickly turning the whole beach into a burning nightmare, devouring both the black substance and the corpses.##The noxious fumes force you to retreat and find cover...|Вы кидаете факел в сторону фигуры, и слизь мгновенно воспламеняется, превращая пляж в геенну огненную, поглощающую и тёмную слизь, и трупы людей.##Ядовитые испарения заставляют вас отступить и укрыться...
+It was definitely a close call. Too close for your liking. ##You are sure the newspapers will report on the goo, soon to dry up and look just like volcanic ash by tomorrow.#Tonight, however, all you're thinking about is a hot bath.##[SORROWFUL SAGA OF THE MOONLIGHT SAILORS:#ENDING C]|Это было близко. Слишком близко, на ваш взгляд.##Вы уверены, что газеты будут ломиться от статей про слизь, которая вскоре высохнет, а завтра и вовсе превратится в пепел.#Так или иначе, сейчас вы думаете лишь о горячей ванне.##(ПЕЧАЛЬНОЕ ПРЕДАНИЕ О ПОЛУНОЧНЫХ ПЛАВАТЕЛЯХ:#КОНЦОВКА В)
+A - FISHING SEASON'S END|А - КОНЕЦ РЫБОЛОВНОГО СЕЗОНА
+B - REAL CATCH|Б - НАСТОЯЩИЙ УЛОВ
+C - BURNING COAST|В - ПЫЛАЮЩИЙ БЕРЕГ
+SPINE-CHILLING STORY OF SCHOOL SCISSORS|СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ
+SPINE-CHILLING STORY OF SCHOOL SCISSORS##Another boy from your school has disappeared. Rumor has it, a terrible woman has returned from the grave. A woman with the widest smile...##and the sharpest scissors.|СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ##Очередной парень из вашей школы исчез. По слухам, из могилы восстала ужасная женщина. Женщина с широченной улыбкой...##и острыми ножницами.
+You knew your friend was up to something when he left you his notebook full of cryptic notes.##<<I can send her back where she belongs,>> he claimed.|Вы знали, что ваш друг к чему-то готовился, когда он оставил вам свою тетрадь, полную таинственных заметок.##«Я отправлю её туда, где ей самое место», - заявил он.
+After he too disappeared, you decided to study the notebook for clues.##It details a ritual that claims to stop the wicked woman once and for all.##What's the worst thing that could happen?|После того, как он тоже исчез, вы решили изучить тетрадь на предмет зацепок.##В ней был описан ритуал, нацеленный остановить нечестивую женщину, раз и навсегда.##Что могло случиться в случае провала?
+The school is eerily quiet at this hour.|В этот час в школе жутко тихо...
+Your missing friend has left you a notebook.##If the rumors are true, to stop the TALL WOMAN WITH SCISSORS, you'll need to perform a ritual to force her material form to appear in our dimension.##Accomplishing this requires first the drawing of an eldritch sigil and then the lighting of holy candles.##You can only hope your friend has left them somewhere around the school.|Ваш пропавший друг оставил вам тетрадь.##Если слухи правдивы то, чтобы остановить ВЫСОКУЮ ЖЕНЩИНУ С НОЖНИЦАМИ, вам необходимо совершить ритуал, призывающий её материальную форму.##Вам придётся нарисовать потусторонний символ, а затем поджечь несколько святых свеч.##Вам приходится надеяться, что ваш друг оставил их где-то в школе.
+EXPLORE SCHOOL|ИССЛЕДОВАТЬ ШКОЛУ
+PERFORM THE RITUAL|СОВЕРШИТЬ РИТУАЛ
+CHECK OUT SCHOOL LOCKERS|ПРОВЕРИТЬ ШКОЛЬНЫЕ ШКАФЧИКИ
+Something evil stalks the empty school corridors...|Нечто злое наблюдает за школьными коридорами...
+You found an additional page from your friend's diary. It seems that the BLESSED CHALK was left in the pool.##You must hurry and find it!|Вы нашли ещё одну страницу из дневника вашего друга. Похоже, что он оставил СВЯТОЙ МЕЛ у бассейна.##Вам следует поторопиться и найти его!
+You found an additional page from your friend's diary. It seems that the BLESSED CHALK was left on the roof.##You must hurry and find it!|Вы нашли ещё одну страницу из дневника вашего друга. Похоже, что он оставил СВЯТОЙ МЕЛ на крыше.##Вам следует поторопиться и найти его!
+You shouldn't risk that again.|Вам не стоит больше рисковать.
+#[TO OPEN THE DOOR, CLICK ON THE HANDLE AND DRAG THE MOUSE WITH THE MOUSE BUTTON PRESSED]|#(ЧТОБЫ ОТКРЫТЬ ДВЕРЬ, НАЖМИТЕ НА РУЧКУ ЛЕВОЙ КНОПКОЙ МЫШИ И ПОТЯНИТЕ)
+PEEK OUTSIDE|ВЫГЛЯНУТЬ
+BLESSED CHALK: not found#HOLY CANDLES: not found|СВЯТОЙ МЕЛ: не найден#СВЯТЫЕ СВЕЧИ: не найдены
+You feel like something horrible is happening within the school.##You must hurry and find those items!|Вы чувствуете, что в школе происходит нечто ужасное.##Вы должны поторопиться и найти необходимые предметы!
+BLESSED CHALK: found#HOLY CANDLES: not found|СВЯТОЙ МЕЛ: найден#СВЯТЫЕ СВЕЧИ: не найдены
+You've found BLESSED CHALK, which you can use to draw the sigil in your ritual.##You copy the sigil as best you can on the blackboard. Hopefully, it'll be enough.|Вы нашли СВЯТОЙ МЕЛ, с помощью которого сможете нарисовать ритуальный символ.##Вы рисуете символ на доске как выходит. Хочется надеяться, что этого хватит.
+REDRAW SIGIL|ПЕРЕРИСОВАТЬ СИМВОЛ
+The ritual is not ready.|Ритуал ещё не готов.
+It should be correct now.|Вроде как, теперь всё правильно.
+What was the design?|Как там оно выглядело...
+The sound of scissors is getting louder.#You must hurry!|Звук ножниц становится всё громче.#Вам следует поторопиться!
+BLESSED CHALK: found#HOLY CANDLES: found|СВЯТОЙ МЕЛ: найден#СВЯТЫЕ СВЕЧИ: найдены
+You've found the HOLY CANDLES in your friend's backpack. You lit them as instructed by the notebook.##Everything is ready for the ritual...|Вы нашли СВЯТЫЕ СВЕЧИ в рюкзаке вашего друга. Вы поджигаете их в правильном порядке, как и написано в тетради.##Всё готово к ритуалу...
+wait, what's that?...|Стоп, что это?..
+You take a step back as a writhing amorphous mass slowly takes shape.##Soon, it becomes a tall, woman-like creature with three faces, all connected by a wide smile.##Now it is your chance to fight and defeat this horror. It is also your only chance.|Вы делаете шаг назад, когда бесформенная тёмная масса восстаёт из ритуального круга, медленно обретая форму.##Вскоре, она превращается в высокое, похожее на женщину создание с тремя лицами, соединёнными одной улыбкой.##Настал шанс сразиться и победить этот ужас. Единственный шанс.
+The SIGIL and HOLY CANDLES don't seem to have any effect on the horrible monster.#Had you drawn it wrong?##Frozen in fear, you watch as the twitching horror gets closer and closer.##It raises its enormous scissors and croaks:##----aM I bEaUtIfUl?----|СИМВОЛ и СВЯТЫЕ СВЕЧИ, похоже, не оказывают никакого влияния на ужасного монстра.#Вы нарисовали символ неправильно?##Застыв в страхе, вы наблюдаете, как медленно приближается подёргивающееся нечто.##Оно поднимает свои чудовищные ножницы и хрипит:##----я ПрЕкРаСнА?----
+Inside a locker, you find a baseball bat.|Внутри шкафчика вы находите бейсбольную биту.
+Feeling you might need it later, you decide to pick it up.|Чувствуя, что она может пригодиться позже, вы решаете её забрать.
+You don't find anything useful.|Вы не находите ничего полезного.
+Frozen in fear you watch as she gets closer. Her sharp scissors are slowly cutting through your cheeks as she asks you:##----aM I bEaUtIfUl?----##[SPINE-CHILLING STORY OF SCHOOL SCISSORS:#ENDING C]|Застыв в страхе, вы наблюдаете, как она приближается. Её острые ножницы медленно прорезают вашу щёку, когда она спрашивает:##----я ПрЕкРаСнА?----##(СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ:#КОНЦОВКА В)
+The ancient horror lies dead on the classroom floor, slowly dissolving into nothingness. The only trace left of her is the large scissors.##You stare at them, unsure what to feel. Something tells you, you want to keep them.##You need them.##Very slowly, you pick up the scissors and your mouth widens in a smile...##[SPINE-CHILLING STORY OF SCHOOL SCISSORS:#ENDING B]|Древний ужас лежит замертво на классном полу, медленно растворяясь в небытие. Единственное, что от неё осталось - огромные ножницы.##Вы пристально смотрите на них, не совсем понимая, что делать дальше. Что-то подсказывает вам, что лучше их сохранить.##Они нужны вам.##Очень медленно, вы подбираете ножницы, и ваши губы расплываются в улыбке...##(СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ:#КОНЦОВКА В)
+The ancient horror lies dead on the classroom floor, slowly dissolving into nothingness...##You find your friend, gravely wounded but alive. You help him up, and both of you limp away from the school as the police sirens get louder...##[SPINE-CHILLING STORY OF SCHOOL SCISSORS:#ENDING A]|Древний ужас замертво лежит на классном полу, медленно растворяясь в небытие...##Вы находите своего друга, серьёзно раненого, но живого. Вы помогаете ему встать, и вы оба, хромая, удаляетесь от школы под вой полицейских сирен...##(СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ:#КОНЦОВКА А)
+w-what's that?...|ч-что это?..
+LOCKER ROOM|КОМНАТА СО ШКАФЧИКАМИ
+You need a TINY KEY to open this locker.|Вам нужен МАЛЕНЬКИЙ КЛЮЧ, чтобы открыть этот шкафчик.
+You take a step back as a writhing amorphous mass slowly takes shape.##A pillar of heads is nearly reaching the high ceiling. Each face has the same expression of pure hatred. Each mouth screaming the same question...##----aM I bEaUtIfUl?----#----Am I BEAutiFuL?----#----AM i beAUtIFUl?----|Вы делаете шаг назад, когда бесформенная тёмная масса, извиваясь, восстаёт из ритуального круга.##Колонна из голов почти достигает потолка. На каждом лице одно и то же выражение - выражение чистой ненависти. Все рты выкрикивают один и тот же вопрос...##----я ПрЕкРаСнА?----#----Я ПРекрАсНа?----#----Я преКРАсНА?----
+[Now it's your only chance to send this monstrosity away. Input the correct combination of BOWS and CLAPS to perform the banishment ritual]|(Это ваш единственный шанс отправить монстра обратно. Совершите правильную комбинацию из ПОКЛОНОВ и ХЛОПКОВ, чтобы провести ритуал изгнания.)
+The first move was|Первое движение
+The second move was|Второе движение
+The third move was|Третье движение
+The fourth move was|Четвёртое движение
+The fifth move was|Пятое движение
+CORRECT! (+5 EXP)#|ВЕРНО! (+5 ОПЫТА)#
+WRONG! (-2 ALL)#|НЕВЕРНО! (-2 ВСЕХ)#
+You take a step back, praying that the banishment ritual was effective...##|Вы делаете шаг назад, молясь, что ритуал изгнания сработал...##
+The eldritch horror is slowly moving towards you, seemingly unaffected by the ritual. When you were sure this would finally be the end... you wake up in an ambulance.##The paramedic calmly explains that they found you collapsed in one of the classrooms. He shrugs when you ask him about the Scissors Woman and your friend. <<Probably just a heat stroke-induced hallucination,>> he says, injecting your arm with a needle.|Потусторонний ужас медленно приближается к вам, незатронутый ритуалом. Вы уверены, что всё кончено... но затем вы просыпаетесь в скорой.##Фельдшер спокойно объясняет, что вас нашли без сознания в одном из классов. Он пожимает плечами, когда вы спрашиваете его о женщине с ножницами и своём друге. «Наверное, галлюцинации, вызванные тепловым ударом...» - говорит он, вводя иглу в вашу руку.
+The last thing you see before losing consciousness for the second time is the face of the paramedic...##Two old scars visible on both his cheeks.##[SPINE-CHILLING STORY OF SCHOOL SCISSORS: ENDING D]|Последнее, что вы видите перед очередной потерей сознания - лицо фельдшера...##С явно выраженными шрамами на обеих щеках.##(СУДОРОЖНЫЙ СЮЖЕТ О САДИСТСКИХ НОЖНИЦАХ: КОНЦОВКА Г)
+Scissors woman is gone for good...#or is she? You shudder, knowing the urban legend will inspire another kid in another city to try and summon the eldritch being...|Женщина с ножницами наконец ушла...#или же нет? Вы вздрагиваете, зная, что городская легенда может впечатлить ещё одного ребёнка, и он попытается вновь призвать потустороннее существо...
+A - SAVED FRIEND|А - СПАСЁННЫЙ ДРУГ
+B - LEGEND CONTINUES|Б - ЛЕГЕНДА ЖИВЁТ
+C - SLIT MOUTH|В - РАЗРЕЗАННЫЙ РОТ
+D - AMBULANCE RIDE|Г - ПОЕЗДКА В СКОРОЙ
+WORRYING WRITE-UP OF A WORDLESS WARD|ХОЛОДНАЯ ХРОНИКА ХАЛАТНОЙ ХИРУРГИИ
+WORRYING WRITE-UP OF A WORDLESS WARD##You've got a call from your classmate's mother.##With a teary voice, she told you your friend had a nasty accident and is currently awaiting an important surgery.|ХОЛОДНАЯ ХРОНИКА ХАЛАТНОЙ ХИРУРГИИ##Вам позвонила мать вашего одноклассника.##Заливаясь слезами, она сказала, что с вашим другом произошёл скверный случай, и ему требуется серьёзная операция.
+They asked her to call you and request you spend a few evenings with them.##That's weird. ##You haven't exactly had the closest relationship lately, but you agree to visit your friend, starting tonight.|Друг попросил провести несколько вечеров с ним.##Странно.##Вы не были самыми близкими друзьями, но всё равно соглашаетесь навещать его, начиная сегодня.
+Your friend is lying on the bed, still sleeping after the surgery. Their face is almost completely covered in bandages.##You sit on what must be the most uncomfortable chair in the world, thinking how pointless it is to wait here. Having nothing else to do, you decide to go and buy something to drink from the vending machine.|Ваш друг лежит на койке, всё ещё без сознания после операции. Лицо практически полностью затянуто бинтами.##Вы сидите на одном из самых неудобных стульев в мире, думая, насколько бессмысленно вы проводите тут время. От нечего делать, вы решаете сходить и купить попить в ближайшем торговом автомате.
+Your friend woke up earlier today. You've spent some time talking about school and recent events but still can't shake the feeling something about them seems _off_...##Finally, they go to sleep. You decide to take a walk to stretch your legs.|Сегодня ваш друг проснулся пораньше. Вы немного поговорили про школу и недавние события, но вы не можете отделаться от ощущения, что что-то _не так_...##Наконец, ваш друг ложится спать. Вы решаете пройтись, чтобы размять ноги.
+<<Hey, your mom asked me to bring you this package,>> you say, handing over the parcel.##When asked what's inside, they just stare at you...|«Эй, твоя мама попросила меня принести тебе посылку...» - говорите вы, протягивая свёрток.##Когда вы спрашиваете, что внутри, друг просто глядит на вас...
+You decide it's better not to mention the curious package. Your friend doesn't ask about it, anyway.##There is something in the look of their eyes that makes you think that they... know.|Вы решаете, что лучше не упоминать эту непонятную посылку. Ваш друг в любом случае о ней не спрашивает.##Но в его глазах мелькает нечто, из-за чего вам кажется, что он... знает.
+Your friend appears to be sleeping. You sit on the chair and start reading your notes.##Suddenly, you are startled to see their eyes open. For how long were they watching you, pretending to be asleep?!#<<I've told my friends at the ward how good and kind you are... and they _all_ want to meet you.>>|Похоже, ваш друг спит. Вы садитесь на стул рядом и начинаете анализировать свои заметки.##Вы пугаетесь, увидев, что ваш друг лежит с открытыми глазами. Как долго он наблюдает за вами, притворяясь спящим?!#«Я рассказываю друзьям по палате, какой ты хороший и добрый человек... и они _все_ хотят встретиться с тобой.»
+Your friend just keeps staring at you.##<<Did I tell you, you're really beautiful?>> they ask, twisting their swollen lips in a smile.|Ваш друг не сводит с вас глаз.##«Ты же знаешь, насколько у тебя красивое лицо?» - его распухшие губы расплываются в улыбке.
+<<The final phase of my surgery is tomorrow, I just can't wait to show you the results...>>##You can't help but shudder, thinking about the final day...|«Завтра у меня последняя операция, не могу дождаться, чтобы показать тебе результат...»##Мысль об этом последнем дне вгоняет вас в дрожь...
+You are shocked to find an empty bed! The parcel you've delivered lies unwrapped on the nightstand. Ignoring the faint footsteps from the corridor, you take a peek...##Inside, there's a torn price tag for a butcher's knife. The footsteps are getting louder!|Больничная койка пуста! Свёрток, который вы принесли другу, лежит на тумбочке развёрнутым. Игнорируя тихие шаги, доносящиеся из коридора, вы решаете взглянуть на посылку...##Внутри вы находите сорванный ценник от мясницкого ножа. Шаги приближаются!
+You are shocked to find an empty bed! The trail of blood on the floor leads to a bathroom. Ignoring the faint footsteps from the corridor, you take a step towards it...##The footsteps are getting louder!|Больничная койка пуста! В ванную уходит кровавый след. Игнорируя тихие шаги, доносящиеся из коридора, вы входите в ванную...##Шаги приближаются!
+The next day passes without any incident and before you know it, another evening has come.##With an increasing reluctance, you head towards the hospital...|Следующий день проходит без инцидентов, и вы даже не успеваете заметить как наступил вечер.##С растущим нежеланием, вы направляетесь в больницу...
+THE FIRST NIGHT|ПЕРВАЯ НОЧЬ
+THE SECOND NIGHT|ВТОРАЯ НОЧЬ
+THE THIRD NIGHT|ТРЕТЬЯ НОЧЬ
+THE FOURTH NIGHT|ЧЕТВЁРТАЯ НОЧЬ
+THE FIFTH NIGHT|ПЯТАЯ НОЧЬ
+THE FINAL NIGHT|ПОСЛЕДНЯЯ НОЧЬ
+(five nights remaining)|(осталось пять ночей)
+(four nights remaining)|(осталось четыре ночи)
+(three nights remaining)|(осталось три ночи)
+(two nights remaining)|(осталось две ночи)
+(one night remaining)|(осталась одна ночь)
+(this is it)|(последняя ночь)
+Your classmate is at the hospital, awaiting the surgery. Go and visit them tonight.|Ваш друг лежит в больнице, ожидая операции. Навестите его сегодня.
+The next day on your way home, you are stopped by your friend's mother. She hands you a package for her child.##You promise to hand it over tonight.|На следующий день, по пути домой, вас останавливает мать вашего друга. Она передаёт посылку для своего ребёнка.##Вы обещаете сегодня же её отдать.
+Finally, it's the last night you have to spend with them!|Наконец-то, это последняя ночь, которую нужно провести в больнице!
+Where could your classmate be?|Где же ваш друг?
+Suddenly, all the lights in the hospital go out.#With a bad feeling in your gut, you decide to check on your friend one last time and get the hell out of here...|Внезапно по всей больнице отключается свет.#Чувствуя нутром неладное, вы решаете проверить своего друга последний раз и к чёрту валить отсюда...
+The patients here are getting restless. What's wrong with this place?|Пациенты становятся нервными. Что не так с этим местом?
+avoid encounters using the HOSPITAL PASS|избежать столкновений, используя ПРОПУСК ВРАЧА
+You don't like the nurse's weird smile.#<<Patients waiting for a special surgery?#Take the elevator in the corridor.>>|Вам не нравится странная ухмылка одной из медсестёр.#«Пациенты, ожидающие особой операции?#Воспользуйтесь лифтом в коридоре.»
+ask about your classmate|спросить о вашем друге
+Using your HOSPITAL PASS, you manage to get to the third floor unbothered by anyone.|С ПРОПУСКОМ ВРАЧА вы добираетесь до третьего этажа без столкновений.
+<<DoN'T gO yEt!>>|«Не УхОдИ!»
+The person who tried to steal your life now lies on the hospital floor, dead. Maddened, you keep smashing their face in until only a gory mess remains.|Человек, пытавшийся забрать вашу жизнь, теперь лежит на больничном полу, мёртвый. С яростью, вы продолжаете месить его голову, пока от неё не остаётся лишь мясная куча.
+When you come back to your senses, you stumble out of the hospital room and into the dark corridor.##The doors to other rooms slowly begin to open, and you are reminded about what the crazed friend told the other patients about you.|Когда вы приходите в себя, вы выбегаете из больничной палаты и бежите в тёмный коридор.##Двери в другие палаты начинают медленно открываться, и вы вспоминаете, что ваш безумный друг рассказал другим пациентам про вас.
+Out of every room stretches the bandaged head of a patient - their bruised faces eerily similar...##<<They all want to meet you...>>|Из каждой комнаты вытягиваются забинтованные головы пациентов - их изуродованные лица выглядят на ужас одинаково...##«Все хотят встретиться с тобой...»
+[SURGERY]: who are you?|(ОПЕРАЦИЯ): кто вы?
+A smiling nurse wakes you up.#<<This is your final day here, kid. Can't wait to finally get out, right?>>##Panicking, you get out of the hospital bed and rush to the mirror.|Медсестра, с улыбкой, будит вас.#«Это твой последний день здесь. Ждёшь, когда тебя выпишут, да?»##Паникуя, вы вскакиваете с больничной койки и бежите к ближайшему зеркалу.
+<<You had a nasty accident a week ago, you did.>>#The nurse continues, writing something on the discharge form.##<<A minor concussion and a few nasty bruises so we had to keep you here.>>#At first glance, everything seems to be fine. Sure, your face is slightly swollen and blue but that's to be expected.##Did you really have an accident and simply don't remember it? Y-yeah, that must be it. This weird friend must've been a nasty dream.|«Да, с тобой произошёл скверный случай неделю назад.»#Медсестра что-то записывает в документ о выписке.##«Небольшое сотрясение и несколько неприятных синяков, так что тебе пришлось полежать здесь.»#На первый взгляд, с лицом всё нормально. Конечно, оно слегка вздулось и посинело, но это ожидаемо.##Действительно ли что-то случилось, а вы просто не можете вспомнить? Д-да, наверное. Тот жуткий друг, должно быть, был лишь кошмаром.
+But, as the nurse's smile gets wider and wider...###Why won't your shoes fit you anymore?...|Но ухмылка медсестры становится всё шире и шире...###Почему ваша обувь больше не подходит вам?..
+A - HORROR WARD|А - ПАЛАТА УЖАСОВ
+B - SUCCESSFUL SURGERY|Б - УСПЕШНАЯ ОПЕРАЦИЯ
+CHILLING CHRONICLE OF A CRIMSON CAPE|ПУГАЮЩАЯ ПРИТЧА О ПУНЦОВОМ ПЛАЩЕ
+CHILLING CHRONICLE OF A CRIMSON CAPE##A new game is spreading among your friends. A dare to stay in the unused school restroom after classes.##A dare to meet AKA MANTO.|ПУГАЮЩАЯ ПРИТЧА О ПУНЦОВОМ ПЛАЩЕ##Среди ваших друзей набирает популярность новая игра. Нужно остаться в закрытом школьном туалете после уроков.##Бросить вызов и встретиться с АКА МАНТО.
+What was originally harmless fun has turned deadly. The body of a boy was found last week.|То, что задумывалось как безобидная шалость, стало смертельным. На прошлой неделе в туалете нашли тело мальчика.
+The school principal has banned the game, but that's only made it more popular.##AKA MANTO must be stopped before another kid is killed.|Директор запретил эту игру, но так она стала лишь популярней.##АКА МАНТО нужно остановить, пока не умер кто-нибудь ещё.
+THE MAN IN A RED CAPE|ЧЕЛОВЕК В КРАСНОМ ПЛАЩЕ
+gather GOSSIP about the current mystery|Соберите СПЛЕТНИ о текущей тайне.
+You've heard some versions of the legend.#Everyone agrees you can't take anything the man offers you, though.|Вы слышали несколько версий легенды.#Но все они сходятся на том, что нельзя брать ничего из того, что вам предлагает человек в плаще.
+<<...when AKA MANTO asks which paper you want - you must refuse everything!>>|«...когда АКА МАНТО спрашивает, какую бумагу ты хочешь - надо отказываться от всего!»
+RED CAPE|КРАСНЫЙ ПЛАЩ
+A masked man dressed in a red coat, clearly too tall for the ceiling, emerges from outside.##<<tElL mE...>> His voice sounds like a faulty radio.#<<wOuLd YoU likE RED pApEr... Or BLUE PaPeR?>>|Мужчина в маске и красном плаще, слишком высокий для помещения, материализуется извне.##«сКаЖи МнЕ...» - его голос будто исходит из сломанного радио.#«тЫ ХочЕшЬ КРАСНУЮ бУмАгУ... ИлИ СИНЮЮ?»
+<<RED paper>>|«КРАСНУЮ бумагу»
+<<BLUE paper>>|«СИНЮЮ бумагу»
+[action unavailable]|(действие недоступно)
+<<I don't want anything from you!>>|«Ничего мне от тебя не нужно!»
+The tall man in a red coat takes out a butcher's knife and stabs you in the stomach.#Blood splatters on the stall's wall as you rush to the door.#(-3 STAMINA)|Высокий мужчина в красном плаще выхватывает мясницкий нож и вонзает его вам в живот.#Кровь забрызгивает стены кабинки, когда вы пытаетесь выбраться.#(-3 ВЫНОСЛИВОСТИ)
+The tall man in a red coat grabs you by your neck and starts choking you.#You kick him and rush to the door.#(-3 STAMINA)|Высокий мужчина в красном плаще хватает вас за шею и начинает душить.#Вы отпинываете его и бежите к выходу.#(-3 ВЫНОСЛИВОСТИ)
+The tall man in a red coat suddenly freezes.##<<sO Be iT....>>|Высокий мужчина в красном плаще внезапно застывает.##«дА бУдЕт ТаК....»
+It's getting darker...|В глазах темнеет...
+LEGEND, ALIVE|ОЖИВШАЯ ЛЕГЕНДА
+You wait in the stall, trying to be as quiet as possible. Suddenly...#*squish, squeak*##You hear the sound of rubber boots as an unknown liquid drips on the tiles.#*squish, squeak*##You can see the top of his head. He's taller than any man you've ever seen.#*squish, squeak*##The door slowly opens...|Вы ждёте в кабинке, пытаясь вести себя как можно тише. Внезапно...#*хлюп, скрип*##Вы слышите звук резиновых сапог, наблюдая за тем, как туалетная плитка покрывается неизвестной жидкостью.#*хлюп, скрип*##Вы видите макушку его головы. Он выше любого известного вам человека.#*хлюп, скрип*##Дверь в кабинку медленно открывается...
+PREPARE YOURSELF|ПРИГОТОВИТЬСЯ К БОЮ
+CURSED TOILET|ПРОКЛЯТЫЙ ТУАЛЕТ
+...when you wake up, you find yourself back in the toilet stall. Thinking it was all a dream, you stand up, only to hear a crack from under your shoe.##There lies a broken crimson mask.##AKA MANTO might return one day, but now you know that ancient horrors _can_ be defeated.##[CHILLING CHRONICLE OF A CRIMSON CAPE:#ENDING A]|...вы приходите в себя и понимаете, что всё ещё лежите в туалетной кабинке. Думая, что это всё был сон, вы встаёте и слышите хруст под своим ботинком.##Сломанная пунцово-красная маска.##АКА МАНТО может вернуться, но теперь вы знаете, что даже древний ужас _можно_ победить.##(ПУГАЮЩАЯ ПРИТЧА О ПУНЦОВОМ ПЛАЩЕ:#КОНЦОВКА А)
+Blood flowing from wounds in the tall man's red coat makes it look like the man is slowly melting.##You hear cackling coming from behind the mask and faint... and when you wake up, he's gone.##Somehow, you know he will be back in another stall, another school, another city, continuing the horror.##[CHILLING CHRONICLE OF A CRIMSON CAPE:#ENDING B]|Кровь, вытекающая из ран мужчины в красном плаще создаёт впечатление, что он медленно тает...##Вы слышите, как лицо под маской хохочет, и теряете сознание. Когда вы просыпаетесь, он исчезает.##По какой-то причине вы уверены, что он вернётся в другом туалете, в другой школе, в другом городе, продолжая ужасать людей.##(ПУГАЮЩАЯ ПРИТЧА О ПУНЦОВОМ ПЛАЩЕ:#КОНЦОВКА Б)
+[MASK]: he left something behind|(МАСКА): он оставил её
+One of your friends says he doesn't believe in curses, and he intends to complete the dangerous dare.|Один из ваших друзей говорит, что не верит в проклятья, и намеревается исполнить опасный вызов.
+You've reported it to your principal, who promises he will take care of it.|Вы доложили об этом директору, и он обещал разобраться с этим.
+With your friend safe for now, you should look into the legend.#Maybe records in the city's library make mention of AKA MANTO.|Учитывая, что ваш друг теперь в безопасности, вы решаете разузнать о легенде побольше.#Может, в городской библиотеке найдётся что-нибудь про АКА МАНТО.
+You read a story about a vengeful samurai, known for wearing a crimson red cape.|Вы читаете историю про мстительного самурая, известного тем, что носил пунцово-красный плащ.
+It's an interesting find for sure, but you need to find more information.|Интересная находка, но вам нужно больше информации.
+One of the articles mentions a young doctor who performed life-saving surgery on a victim of a brutal assault.##The assault happened in a toilet stall..|Одна из статей рассказывает о молодом докторе, спасшем жизнь жертве жестокого нападения.##Нападение произошло в туалетной кабинке...
+Maybe he still works at the hospital and can share some information?|Может, он до сих пор работает в больнице и захочет поделиться какой-нибудь информацией?
+You learn that the doctor suddenly left the hospital after the latest murder, taking all of the records with him.#Why would he do that...?|Вы узнаёте, что доктор внезапно ушёл из больницы после последнего убийства, забрав с собой все отчёты.#Зачем он так поступил?..
+That's not the only bad news. Your friend didn't come to school today, and another body has supposedly been found.|Это не единственные плохие новости. Ваш друг сегодня не пришёл в школу и, вроде как, было найдено очередное тело.
+The principal has ordered the school to be closed down for the investigation.|Директор потребовал закрыть школу на время расследования.
+You break the window and get inside the school unnoticed.|Вы разбиваете окно и незаметно пробираетесь в школу.
+The cursed toilet is located on the third floor. Get over there!|Проклятый туалет располагается на третьем этаже. Доберитесь туда!
+There is no turning back now.#You step into the last stall and close the door behind you...|Пути назад больше нет.#Вы входите в последнюю кабинку и закрываете за собой дверь...
+A - RED COAT (THING)|А - КРАСНЫЙ ПЛАЩ (ОДЕЖДА)
+B - RED COAT (MAN)|Б - КРАСНЫЙ ПЛАЩ (ЧЕЛОВЕК)
+FAR-OUT FABLE OF A FEAR FESTIVAL|ФЕЕРИЧЕСКАЯ ФАБУЛА ФЕСТИВАЛЯ ФОБИЙ
+FAR-OUT FABLE OF A FEAR FESTIVAL##Your aunt has sent you a letter, inviting you for a curious-sounding festival.##It's held every 27 years in a small village.|ФЕЕРИЧЕСКАЯ ФАБУЛА ФЕСТИВАЛЯ ФОБИЙ##Ваша тётя послала вам письмо, приглашая на любопытный фестиваль.##Он проводится каждые 27 лет в одной маленькой деревне.
+You don't like the sound of it but your parents both agree, you need a break from all the stress.|Вам не нравится, в каком ключе о нём рассказывается, но ваши родители думают, что вам нужно передохнуть от всего этого стресса.
+Inside the letter, there's a bus ticket.##<<What's the worst thing that could happen?>> you ask yourself as you board the bus...|Внутри письма лежит билет на автобус.##«Что плохого может случиться?» - вы спрашиваете себя, садясь в транспорт...
+INN|ГОСТИНИЦА
+The inn's room is dusty like it hasn't seen any visitors in years.#You wonder if anyone cleaned it since the last festival 27 years ago.##There's a folder of available activities lying on the table.|Гостиничная комната настолько запылилась, будто годами не принимала посетителей.#Вам интересно, проводили ли тут уборку со времён последнего фестиваля 27 лет назад.##На столе вашего номера лежит папка, описывающая все доступные здесь развлечения.
+<<Onsen sounds good.>>|««Онсен». Звучит неплохо.»
+relax a bit|немного отдохнуть
+[action unavailable]|(действие недоступно)
+check out the painting|проверить картину
+Wait, what's that?|Стоп, что это?..
+You freeze in terror as something on the painting moves. There is a hole in it!##Are you being spied from the nearby room?#(-2 REASON)|Вы замираете в страхе, заметив, что глаза картины двигаются. В них вырезаны дыры!##За вами наблюдают из соседней комнаты?#(-2 РАССУДКА)
+You patch up your wounds and enjoy the nature.#(+1 REASON / +1 STAMINA)|Вы латаете раны и наслаждаетесь видом.#(+1 РАССУДКА, +1 ВЫНОСЛИВОСТИ)
+The hot spring feels great. Finally, you can relax for a bit and enjoy the warm water.#(+2 STAMINA)|Горячие источники просто превосходны. Наконец-то вы можете немного расслабиться и насладиться горячей водой.#(+2 ВЫНОСЛИВОСТИ)
+There's still some time before the festival starts.##The locals are seemingly busy setting up stands and decorating the place.##A few stands are already open but you can't shake off the feeling, something is wrong. ##It's getting late.|До начала фестиваля ещё остаётся немного времени.##Местные на первый взгляд заняты ярмаркой и украшениями.#Пара стоек на ярмарке уже открылась, но вы не можете отделаться от чувства, будто что-то не так.##Уже темнеет.
+EXPLORE THE WEIRD VILLAGE#[advances the clock]|ИССЛЕДОВАТЬ СТРАННУЮ ДЕРЕВНЮ#(продвигает время)
+CHECK OUT THE INN (YOUR ROOM)#[free action]|ПРОВЕРИТЬ ГОСТИНИЦУ (СВОЯ КОМНАТА)#(не продвигает время)
+SKIP TIME#[advances the clock]|ПРОПУСТИТЬ ВРЕМЯ#(продвигает время)
+Your group has arrived in the village and is currently unpacking at the inn, giving you some time to explore.#The festival begins in the evening.|Ваша группа только прибыла в деревню и в данный момент обосновывается в гостинице. У вас есть время осмотреться.#Фестиваль начнётся вечером.
+DAY ONE|ПЕРВЫЙ ДЕНЬ
+MORNING|УТРО
+ENJOY THE FESTIVAL#[free action]|НАСЛАДИТЬСЯ ФЕСТИВАЛЕМ#(не продвигает время)
+CHECK OUT THE INN (STAFF-ONLY AREA)#[advances the clock]|ПРОВЕРИТЬ ГОСТИНИЦУ (ЗОНА ДЛЯ ПЕРСОНАЛА)#(продвигает время)
+FOLLOW THE VILLAGE MAP#[free action]|СЛЕДОВАТЬ КАРТЕ ДЕРЕВНИ#(не продвигает время)
+TOO LATE|СЛИШКОМ ПОЗДНО
+You were not the only one trying to stop the ritual and save your friends. Special forces have raided the occult hideout, arresting the suspects. Led outside, the handcuffed cult leader suddenly stops.##<<You are too late,>> they say in a raspy voice.#<<Our lord is free once more!>>#(-2 STAMINA)##[FAR-OUT FABLE OF A FEAR FESTIVAL:#ENDING B]|Не только вы пытались остановить ритуал и спасти своих друзей. Спецназ провёл рейд на убежище культа, проведя арест подозреваемых. Выведенный наружу в наручниках, лидер культа внезапно останавливается.##«Слишком поздно...» - говорит он скрипучим голосом.#«Наш хозяин снова свободен!»#(-2 ВЫНОСЛИВОСТИ)##(ФЕЕРИЧЕСКАЯ ФАБУЛА ФЕСТИВАЛЯ ФОБИЙ:#КОНЦОВКА Б)
+You've rested a bit.|Вы немного отдохнули.
+...but should you be resting at all?|...но должны ли вы вообще отдыхать?
+The festival grounds are now open for visitors. Maybe you should check it out?|Фестиваль наконец открылся для посетителей. Может, стоит сходить?
+The festival grounds are now open for visitors. Maybe you should check it out?|Фестиваль наконец открылся для посетителей. Может, стоит сходить?
+EVENING|ВЕЧЕР
+NIGHT|НОЧЬ
+EXPLORE FOREST|ИЗУЧИТЬ ЛЕС
+To progress this mystery, choose actions that will advance the clock.#As you learn about the terrible secret of this village, more actions will unlock.|Чтобы продвигаться по тайне, выбирайте действия, продвигающие время. По мере изучения ужасных#секретов этой деревни будет открываться всё больше действий.
+The weird sounds coming from the forest kept you up at night. What could it all mean?|Исходящие из леса жуткие звуки не дают вам уснуть по ночам. Что всё это значит?
+The weird sounds coming from the forest kept you up at night. What could it all mean?|Исходящие из леса жуткие звуки не дают вам уснуть по ночам. Что всё это значит?
+Something is watching you from behind the trees.|Кто-то следит за вами из-за деревьев.
+Villagers seem to follow your every step here.|Похоже, местные жители следуют за вами по пятам.
+The weird sounds coming from the forest kept you up at night. What could it all mean?|Исходящие из леса жуткие звуки не дают вам уснуть по ночам. Что всё это значит?
+Why is it so quiet all of a sudden?|Почему вдруг всё затихло?
+EXPLORE FESTIVAL|ИЗУЧИТЬ ФЕСТИВАЛЬ
+actions until sunrise|действия до рассвета
+action until sunrise|действие до рассвета
+sunrise|рассвет
+I-is that blood?...###Where is everybody?|Э-это кровь?..###Где все?
+REST AT CAMP|ОТДОХНУТЬ В ЛАГЕРЕ
+ENTER OVERGROWN FACTORY|ВОЙТИ НА ЗАРОСШУЮ ФАБРИКУ
+An abandoned factory! This must be the place they took everyone!|Заброшенная фабрика! Должно быть, они забрали всех сюда!
+You start to recognize some of the paths and rocks you've seen earlier.|Вы узнаёте некоторые тропинки и валуны, которые видели раньше.
+Are you walking in circles?|Вы ходите кругами?
+Blood trails lead deeper into the forest. What exactly happened and where are all the people?|Следы крови ведут глубже в лес. Что конкретно произошло, и где все остальные люди?
+look for friends|найти друзей
+enjoy festival|наслаждаться фестивалем
+buy souvenirs|купить сувениры
+go back|вернуться
+help your friend|помочь другу
+decline|отказать
+leave|уйти
+You stumble into your friend,|Вам встречается ваш друг -
+You couldn't find any familiar faces in the crowd...|Вы не можете найти никаких знакомых лиц в толпе...
+<<Hey, can you lend me 2 FUNDS? I really want to buy that item...>>#(-2 FUNDS if agreed)|«Эй, можешь одолжить пару МОНЕТ? Я очень хочу купить эту безделушку...»#(-2 СРЕДСТВ после выбора)
+<<Hey, can you spare some time with me?>>#(+4% DOOM if agreed)|«Эй, можешь немного со мной позависать?»#(+4% РОКА после выбора)
+<<I need to move some stuff, can you help?>>#(-3 STAMINA if agreed)|«Мне нужно кое-что перенести, можешь помочь?»#(-3 ВЫНОСЛИВОСТИ после выбора)
+<<Hey, I'm trying to solve a puzzle, can you help?>>#(-3 REASON if agreed)|«Эй, пытаюсь разгадать кроссворд, можешь помочь?»#(-3 РАССУДКА после выбора)
+You're not ready to go there yet....|Вы ещё не готовы туда идти....
+You've rested a bit.|Вы немного отдохнули.
+STAMINA|ВЫНОСЛИВОСТИ
+...but should you be resting at all?|...но должны ли вы вообще отдыхать?
+The sun is slowly rising as you get closer to the abandoned industrial building.##Cautiously entering the factory, you can't help but notice the forest has become totally silent...|Солнце медленно встаёт, по мере того как вы приближаетесь к заброшенному заводу.##Украдкой входя на фабрику, вы замечаете, что лес полностью затих...
+With a loud bang the ancient horror disappears and the high priest falls to the floor, grabbing their shoulder.##The last thing you see before blacking out are the beams of flashlights and the hand of a police officer saving you from falling.#--##Later that day, detectives interrogating you are confused when you tell them about the ritual, blood and eldritch being.##The village is abandoned, with no trace of blood anywhere. You were the only one seeing the ancient horror.##[FAR-OUT FABLE OF A FEAR FESTIVAL:#ENDING A]|После громкого взрыва древние ужасы исчезают, а высший жрец падает на пол, держась за плечо.##Последнее, что вы видите перед падением в обморок - лучи фонарей и руку офицера, спасающего вас от падения.#--##Позже этим же днём, детективы допрашивают вас, и рассказы о ритуале, кровопролитиях и потусторонних созданиях приводят их в смятение.##Деревня заброшена, нет никаких признаков бойни. Вы были единственным человеком, узревшим древний ужас.##(ФЕЕРИЧЕСКАЯ ФАБУЛА ФЕСТИВАЛЯ ФОБИЙ:#КОНЦОВКА А)
+While exploring the factory, you are caught by masked people you've seen from the inn's window.##After tying you up, they bring you to the CULT LEADER.##<<We knew you'd come.>> You hear a raspy voice - your aunt's voice! - coming from behind the priest's weird mask.#She signals towards door behind her.#<<Our MASTER is waiting for a final blood sacrifice.>>|Во время исследования фабрики вас ловят люди в масках, которых вы видели из окна гостиницы.##Связав, они притаскивают вас ЛИДЕРУ КУЛЬТА.##«Мы знали, что ты придёшь.» - вы слышите скрипучий голос... вашей тёти! Он исходит из-под странной маски жреца.#Она указывает на дверь позади себя.#«Наш ХОЗЯИН ждёт последней кровавой жертвы.»
+STRUGGLE|БОРОТЬСЯ
+CAPTURED!|ПОЙМАЛИ!
+While you couldn't catch the leader of the cult to interrogate them, the people are safe.##You board the old bus, wondering what would happen if you didn't stop the ritual in time...|Хоть вы и не смогли поймать и допросить лидера культа, вы всё равно спасли людей.##Вы входите в старый автобус, задаваясь вопросом, что могло произойти, не останови вы ритуал вовремя...
+Later that day, after an interrogation, the detectives let you go free. Festival guests are still missing to this day.##You board the old bus, wondering what exactly happened out there...|Позже этим же днём, после допроса, детективы вас отпускают. Гости фестиваля до сих пор числятся пропавшими.##Вы входите в старый автобус, размышляя о том, что же на самом деле там произошло...
+Everything happens in an instant. The chanting cultist suddenly falls to the ground as everything around you starts to shake and crumble.#Many members of the cult die, crushed by the concrete debris.##You are lucky to avoid their fate and escape the factory building.|Всё происходит мгновенно. Поющий культист внезапно падает на землю, и всё вокруг начинает трястись и рушиться. Многие из членов культа погибают под завалами из обломков бетона.##Вам повезло не разделить их судьбу и сбежать из здания фабрики.
+You board the old bus still clutching the hood of the chanting cultist, wondering what exactly happened out there...##[FAR-OUT FABLE OF A FEAR FESTIVAL:#ENDING C]|Вы садитесь в старый автобус, всё ещё удерживая в руке капюшон певшего культиста, задаваясь вопросом, что именно произошло...##(ФЕЕРИЧЕСКАЯ ФАБУЛА ФЕСТИВАЛЯ ФОБИЙ:#КОНЦОВКА В)
+[RITUAL]: the being wants more|(РИТУАЛ): существо хочет большего
+You have found your friend and they join you!|Вы находите своего друга, и он присоединяется к вам!
+You didn't find anyone you know.|Вы не находите никого знакомого.
+DAY ONE - ARRIVAL|ДЕНЬ ПЕРВЫЙ - ПРИБЫТИЕ
+[TODAY'S GOAL: EXPLORE THE WEIRD VILLAGE]##Just when you thought your stomach couldn't handle it anymore, the janky old bus stops at its destination...|(ЦЕЛЬ НА СЕГОДНЯ: ИССЛЕДОВАТЬ СТРАННУЮ ДЕРЕВНЮ)##Как только вы понимаете, что вас вот-вот стошнит, старый смрадный автобус наконец прибывает в пункт назначения...
+You get up and take a deep breath before looking around.#It's a small village and the nearby fields are surrounded by a thick forest.|Вы выходите и делаете глубокий вдох, перед тем как начать осматриваться.#Вы видите маленькую деревню, ближайшие окрестности которой покрывает густой лес.
+A fat man wearing dusty overalls approaches you.#It's the INN OWNER, who promised to pick you up. Following close behind him, your eyes are drawn to his hands, which are so deformed they resemble claws more than hands...|К вам подходит толстяк в пыльной робе.#Это ВЛАДЕЛЕЦ ГОСТИНИЦЫ, пообещавший вас поселить. Пока вы идёте за ним, ваш взгляд падает на его руки - и они настолько деформированы, что больше напоминают когти...
+...SOMEONE IS WAITING FOR YOU?|...КТО-ТО ОЖИДАЕТ ВАС?
+DAY TWO|ДЕНЬ ВТОРОЙ
+[TODAY'S GOAL: LEARN MORE ABOUT THE FESTIVAL ITSELF]##A weird sound wakes you up. You step closer to the window and look out. You can't see anything and get ready to go back to bed when suddenly, the moon comes from behind the thick clouds.|(ЦЕЛЬ НА СЕГОДНЯ: УЗНАТЬ ПОБОЛЬШЕ О ФЕСТИВАЛЕ)##Вы просыпаетесь от странного звука. Вы подходите ближе к окну и выглядываете. В темноте ничего не видно, и вы готовитесь вернуться в кровать, когда внезапно из-за густых облаков появляется луна.
+Three hooded figures are standing at the forest's edge.#One by one, they light their torches and disappear behind the trees...##What was that about?|У края леса стоят три фигуры в робах.#Один за другим, они зажигают факелы и уходят вглубь леса...##Что это было?
+They all wore strange masks. Should you follow them into the forest or try to find more information about the festival?|На них были странные маски. Стоит ли пойти за ними в лес, или лучше продолжить собирать информацию о фестивале?
+...WHO ARE THEY?|...КТО ОНИ ТАКИЕ?
+DAY THREE|ДЕНЬ ТРЕТИЙ
+[TODAY'S GOAL: ???]##Going back to the inn you overhear two masked villagers.##They are talking about _something_ awakening at the next dawn.|(ЦЕЛЬ НА СЕГОДНЯ: ???)##Возвращаясь в гостиницу, вы подслушиваете разговор двух жителей в масках.##Они говорят о _чём-то_, что должно пробудиться следующим утром.
+You wonder what's up with that.|Вы задумываетесь: о чём они говорят?
+You decide to block the entrance to your room with a nightstand.#The festival is ending tomorrow and you can't be too careful.|Вы решаете забаррикадироваться в комнате, используя тумбу.#Фестиваль кончается завтра, и лучше поосторожничать.
+IT'S NOT SAFE HERE|ЗДЕСЬ НЕБЕЗОПАСНО
+NIGHT FREE|СВОБОДНАЯ НОЧЬ
+[TODAY'S GOAL: FIND THE MISSING PEOPLE]##A trail of blood and sickly-smelling sludge leads to the outskirts of the village. Somewhere in the dark forest, there's an answer waiting for you...|(ЦЕЛЬ НА СЕГОДНЯ: НАЙТИ ПРОПАВШИХ ЛЮДЕЙ)##Кровавый след и тошнотворный запах приводят вас на край деревни. Где-то там, в тёмном лесу, ответы ждут вас...
+A - POLICE RAID|А - ПОЛИЦЕЙСКИЙ РЕЙД
+B - TOO LATE|Б - СЛИШКОМ ПОЗДНО
+C - THE RITUAL|В - РИТУАЛ
+PERILOUS PARABLE OF THE PECULIAR PAINTING|ПАГУБНАЯ ПРИТЧА О ПРИЧУДЛИВОМ ПОЛОТНЕ
+PERILOUS PARABLE OF PECULIAR PAINTING##A damp-looking letter addressed to you arrived this morning.##MAMIYA ICHIRO, a famous painter you were once a huge fan of, has replied to a message you sent him last summer.|ПАГУБНАЯ ПРИТЧА О ПРИЧУДЛИВОМ ПОЛОТНЕ##Этим утром вам прибыло сырое письмо.##Известный художник МАМИЯ ИТИРО, поклонником которого вы когда-то были, ответил на письмо, посланное вами прошлым летом.
+He thanked you for the letter and invited you to his mansion.##You were going to witness the creation of his 'true masterpiece', he wrote.|Он поблагодарил вас за письмо и пригласил в своё поместье.##Вы станете свидетелем создания его «истинного шедевра», пишет он.
+Just how could you decline?...|Кем нужно быть, чтобы отказать?..
+You've finally arrived at the mansion's gate.|Вы наконец прибываете к воротам поместья.
+You are afraid you will never be able to remove the lingering musty smell of wetlands from your clothes.|Вы волнуетесь, что болотный запах въестся в вашу одежду и вы не сможете его вывести.
+Now... where is everyone?|Так... и где все?
+You continue your search.|Вы продолжаете поиски.
+While walking through the empty mansion you can hear something rustling in the bushes behind the building...|Прогуливаясь по пустому поместью, вы слышите, как что-то шуршит в кустах за домом...
+Crouching next to a moss-covered stone is a woman.##<<Hello?...>>|Рядом с замшелым камнем вы замечаете пригнувшуюся женщину.##«Привет?..»
+<<Are you here for ICHIRO-san's showcase of the newest painting?>>|«Вы здесь, чтобы узреть новейшую картину ИТИРО-сана?»
+<<...ah, where are my manners? My name is EIMI and I'm a curator working for the art gallery in SHIOKAWA.>>|«...ох, где мои манеры? Меня зовут ЭЙМИ, я куратор из галереи искусств ШИОКАВЫ.»
+EIMI smiles.##<<ICHIRO-san is somewhere in the mansion, I'm sure.>>|ЭЙМИ ухмыляется.##«ИТИРО-сан находится где-то в поместье, я уверена.»
+<<I'd help you look for him but I want to catalog _these_,>> she says pointing at the rock.|«Я бы хотела помочь вам в поисках, но я хочу запечатлеть _это_», - говорит она, указывая на камень.
+<<These ritualistic markings are unique to this region, I've been told...>>|«Мне сказали, что такие ритуалистические символы можно найти только в этом регионе...»
+You hear the sound of glass breaking somewhere in the mansion...|Вы слышите звук разбившегося стекла где-то внутри поместья...
+There are countless paintings hung on the walls of this mansion.|На стенах поместья висит бесчисленное количество картин.
+All of them show alien landscapes and weird humanoids dancing around in circles.|На всех из них изображены инопланетные пейзажи и странные гуманоиды, танцующие в хороводах.
+You don't recognize any of them but the technique used is unmistakable.##ICHIRO-san painted these.|Вы не узнаёте ни одну из них, но технику не спутать.##Они нарисованы ИТИРО-саном.
+A closed door prevents you from venturing further into the mansion.|Закрытая дверь останавливает вас на пути вглубь поместья.
+You wonder if you could find a key nearby?|Может, вам удастся найти ключ неподалёку?
+Finally, you find a key in one of the desk drawers.|Наконец, бродя по комнатам, вы находите ключ в шкафчике одного из столов.
+You head towards the private rooms, hoping to find the painter himself.|Вы направляетесь к спальням, надеясь найти художника там.
+You instinctively grab EIMI, who almost faints at the sight of the room you both enter.##Every visible surface is covered in obscene paintings and grotesque monster faces.|Вы инстинктивно подхватываете ЭЙМИ, которая едва не падает в обморок от вида комнаты, в которую вы входите.##Каждая возможная поверхность покрыта непристойными картинами и гротескными изображениями монстров.
+ICHIRO-san sits alone in front of an empty canvas.|ИТИРО-сан одиноко сидит перед пустым холстом.
+ICHIRO-san smiles when he notices you two.#<Ah! My biggest fan and miss EIMI are both here!>>##He stands up and comes closer, looking at you from behind his dark glasses.|ИТИРО-сан улыбается, заметив вас двоих.#«Ах! Мой самый большой поклонник и госпожа ЭЙМИ, вы здесь!»##Он встаёт и подходит ближе, рассматривая вас из-под тёмных очков.
+<<Would you please be kind and wait in the foyer? I need miss EIMI to help me with the latest painting...>>##EIMI looks at you surprised but doesn't say anything.|«Не могли бы вы подождать в фойе? Мне нужна госпожа ЭЙМИ, чтобы помочь закончить последнюю картину...»##ЭЙМИ с удивлением смотрит на вас, но ничего не говорит.
+Something doesn't feel right here...|Здесь явно что-то не так...
+When you re-enter the room, EIMI is nowhere to be seen.|Когда вы снова входите в комнату, ЭЙМИ нигде не видно.
+ICHIRO-san smiles and thanks you for your patience.|ИТИРО-сан ухмыляется и благодарит вас за терпение.
+Before you can say anything, he steps aside, showing you his greatest work...|Перед тем, как вы успеваете что-либо сказать, он делает шаг в сторону, представляя вам свою лучшую работу...
+Every visible surface of the room you enter is covered in obscene paintings and grotesque monster faces.|Каждая возможная поверхность покрыта непристойными картинами и гротескными изображениями монстров.
+In the middle of the room, you spot ICHIRO-san, repeatedly stabbing EIMI and splattering her blood over an empty canvas.|Посреди комнаты, ИТИРО-сан многократно бьёт ножом ЭЙМИ, покрывая пустой холст её кровью.
+ICHIRO-san smiles when he notices you.#<<Ah! My biggest fan! I can't let you know my secret!>>|ИТИРО-сан ухмыляется, заметив вас.#«Ах! Мой самый большой поклонник! Я не могу позволить тебе узнать мой секрет!»
+No! You can't leave EIMI with that creepy man, no matter how famous he is!|Нет! Вы не можете оставить ЭЙМИ с этим жутким типом, будь он даже всемирно известным!
+You quickly go back to the room and gasp! ICHIRO-san prepares to stab the unconscious EIMI!|Вы быстро врываетесь обратно в комнату, и от зрелища у вас перехватывает дыхание! ИТИРО-сан готовит нож, чтобы ударить лежащую без сознания ЭЙМИ!
+ICHIRO-san looks at you and smiles.##<<You can't stop my work now...>>|ИТИРО-сан переводит на вас взгляд и ухмыляется.##«Тебе уже не остановить мою работу...»
+(move the cursor to look around the room)|(осматривайтесь, перемещая курсор по комнате)
+You crouch down and press your head against the locked door, trying to see anything through the keyhole.##It's so dark you can barely make out shapes. You'll have to find a way to turn the lights on.|Вы припадаете к закрытой двери, пытаясь что-нибудь разглядеть через замочную скважину.##Внутри слишком темно, и вам едва удаётся разобрать некоторые силуэты. Нужно найти, как включить свет.
+PRIVATE ROOMS|СПАЛЬНИ
+BOARDED-UP BUILDING|ЗАКОЛОЧЕННОЕ ЗДАНИЕ
+WORKSHED|САРАЙ
+PAINTING STUDIO|МАСТЕРСКАЯ
+FOREST|ЛЕС
+MANSION FOYER|ФОЙЕ ПОМЕСТЬЯ
+MAMIYA MANSION|ПОМЕСТЬЕ МАМИЯ
+You should stick together in this weird mansion...|Вам стоит держаться вместе, исследуя это странное поместье...
+(EIMI is here)|(ЭЙМИ здесь)
+(advances the mystery / EIMI is here)|(продвигает тайну; ЭЙМИ здесь)
+(advances the mystery)|(продвигает тайну)
+EIMI continues to catalog the art.|ЭЙМИ продолжает фотографировать картины.
+EIMI: <<Thanks for staying with me.>>|ЭЙМИ: «Спасибо, что остаёшься со мной.»
+THE DARK WORKSHED|ТЁМНЫЙ САРАЙ
+At some distance from the main building, there's an old workshed. Even though the surroundings are now overgrown, in its heyday, it must've been used to store the gardening equipment.##Inside, it's really dark and you don't have the time to search this place closely.|На небольшом расстоянии от основного здания располагается старый сарай. Даже учитывая, что теперь вокруг всё заросло, в свои лучшие дни его, наверное, использовали для хранения садовых инструментов.##Внутри слишком темно, и у вас нет времени, чтобы высматривать предметы в темноте.
+grab a flashlight|взять фонарик
+use your own light source|использовать свой источник света
+[needs a light source]|(необходим источник света)
+You find a tool kit by the door. A flashlight seems like the best choice, but a sudden crash coming from the mansion distracts you from further investigating the workshed.#(+ ITEM)|Вы находите набор инструментов у двери. Фонарик кажется лучшим выбором, но внезапный грохот в поместье отвлекает вас от дальнейшего исследования сарая.#(+ПРЕДМЕТ)
+Using your flashlight, you manage to get a better look inside.#In the corner, you find something _really_ promising.#(+ ITEM)|Используя свой фонарик, вам удаётся получше разглядеть интерьер.#В углу, вы находите нечто _действительно_ многообещающее.#(+ПРЕДМЕТ)
+You've managed to finally defeat the horrible eldritch being and destroy the canvas it used as a portal.|Вам наконец удаётся победить ужасную потустороннюю сущность и уничтожить холст, который она использовала в качестве портала.
+Suspecting the eldritch being will use other canvases to return, you and EIMI both take the time to burn every painting in the mansion.|Подозревая, что потусторонняя сущность сможет вернуться через другие холсты, вы с ЭЙМИ сжигаете все картины в поместье.
+Hopefully, ICHIRO-san's legacy will soon be forgotten.|Хочется надеяться, что наследие ИТИРО-сана скоро будет забыто.
+At first, you can't even tell what you're looking at.##ICHIRO-san's smile gets wider when it finally hits you.###<<My greatest work, the ultimate painting...>>|Сначала вы даже не понимаете, на что смотрите.##Ухмылка ИТИРО-сана всё ширится, когда до вас наконец доходит.###«Моя величайшая работа, последняя картина...»
+It's impossible! How could he paint it so fast and where is EIMI? The details are so life-like...|Невозможно! Как он смог её так быстро нарисовать, и где сейчас ЭЙМИ? Детали картины такие правдоподобные...
+ICHIRO-san covers the painting with a piece of cloth before handing it to you.##<<I would like you, my greatest fan, to have this painting in memory of our meeting.>>|ИТИРО-сан оборачивает картину в ткань перед там, как вручить её вам.##«Я бы хотел, мой самый ценный поклонник, чтобы картина напоминала вам о нашей встрече.»
+The silent scream of EIMI having her head crushed by a monstrous beast will haunt you forever, but it's an offer you can't refuse...|Безмолвный крик ЭЙМИ, голову которой раздавил чудовищный зверь, будет преследовать вас вечно, но вы не можете отказаться от этого предложения...
+As you rush to save EIMI, you notice something terrifying.##All the grotesque painted monsters begin to... leave their canvases!|Спеша спасти ЭЙМИ, вы замечаете нечто ужасающее.##Гротескные монстры с картин начали... покидать холсты!
+You can't do anything but stare as they grab both corpses and begin devouring them!|Вы можете лишь наблюдать, как они берут оба трупа и начинают их пожирать!
+In a last-ditch attempt, you knock over a lamp, setting the room on fire.|В последней, отчаянной попытке, вы сбиваете одну из ламп, поджигая комнату.
+ICHIRO-san's greatest creations must never see the light of the day.|Великие творения ИТИРО-сана никогда не должны увидеть дневной свет...
+[painting]: his greatest work, done|(картина): его величайшая работа, готова
+[painting]: his greatest work, defeated|(картина): его величайшая работа, повержена
+[painting]: his greatest work, destroyed|(картина): его величайшая работа, уничтожена
+A - DOOMED ARTIST|А - ОБРЕЧЁННЫЙ АРТИСТ
+B - GRAND VERNISSAGE|Б - ВЕРНИСАЖ
+C - SHOW MUST GO ON|В - ШОУ ДОЛЖНО ПРОДОЛЖАТЬСЯ
+EERIE EPISODE OF EVOLVING EELS|УЖАСАЮЩИЙ УРОК ОБ УРОДЛИВЫХ УГРЯХ
+EERIE EPISODE OF EVOLVING EELS##While returning to your home, someone suddenly bumps into you...##<<Did you know...>> You turn around. It's your friend living in the same apartment complex, KANA.##<<...that weird dude is back - you know, the one who studies fish?>>|УЖАСАЮЩИЙ УРОК ОБ УРОДЛИВЫХ УГРЯХ##На вашем пути домой, кто-то с вами сталкивается...##«Ты в курсе, что...» - вы разворачиваетесь. Это ваша подруга, живущая в том же доме, что и вы - КАНА.##«...тот странный чувак вернулся - ну, знаешь, который изучает рыбу?»
+You shrug, opening the door. KANA follows and immediately enters the kitchen. A while later she returns with two cans of soda.##<<Aren't you curious, what weird fish did he bring this time?>> she grins.|Вы пожимаете плечами, открывая дверь. КАНА следует за вами и моментально заходит на кухню. Спустя некоторое время она возвращается с двумя банками газировки.##«Разве тебе не любопытно, какую странную рыбу он принёс на этот раз?» - улыбается она.
+we must puncture her eye now! (-3 REASON)|теперь придётся проколоть ей глаз! (-3 РАССУДКА)
+(How can she sip her soda so calmly, staring at this creepy creature?)|(Как она может так спокойно пить газировку, наблюдая за этим жутким существом?)
+(You spend an entire day waiting for KANA. Where the hell is she??)|(Вы проводите целый день, ожидая КАНУ. Где её черти носят?)
+You shrug, opening the door. KANA follows and immediately enters the kitchen. A while later he returns with two cans of soda.##<<Aren't you curious, what weird fish did he bring this time?>> he grins.|Вы пожимаете плечами, открывая дверь. КАНА следует за вами и моментально заходит на кухню. Спустя некоторое время она возвращается с двумя банками газировки.##«Разве тебе не любопытно, какую странную рыбу он принёс на этот раз?» - улыбается она.
+we must puncture his eye now! (-3 REASON)|теперь придётся проколоть ей глаз! (-3 РАССУДКА)
+(How can he sip his soda so calmly, staring at this creepy creature?)|(Как она может так спокойно пить газировку, наблюдая за этим жутким существом?)
+(You spend an entire day waiting for KANA. Where the hell is he??)|(Вы проводите целый день, ожидая КАНУ. Где её черти носят?)
+You shrug, opening the door. KANA follows and immediately enters the kitchen. A while later they return with two cans of soda.##<<Aren't you curious, what weird fish did he bring this time?>> they grin.|Вы пожимаете плечами, открывая дверь. КАНА следует за вами и моментально заходит на кухню. Спустя некоторое время она возвращается с двумя банками газировки.##«Разве тебе не любопытно, какую странную рыбу он принёс на этот раз?» - улыбается она.
+we must puncture their eye now! (-3 REASON)|теперь придётся проколоть ей глаз! (-3 РАССУДКА)
+(How can they sip their soda so calmly, staring at this creepy creature?)|(Как она может так спокойно пить газировку, наблюдая за этим жутким существом?)
+(You spend an entire day waiting for KANA. Where the hell are they??)|(Вы проводите целый день, ожидая КАНУ. Где её черти носят?)
+ICHTYOLOGY|ИХТИОЛОГИЯ
+Investigate the SEASIDE location twice to complete this quest.|Исследуйте ПОБЕРЕЖЬЕ дважды, чтобы завершить это задание.
+You may be going crazy, but you swear something is watching you from the sea.#(-1 REASON)|Возможно, вы сходите с ума, но можете поклясться, что нечто наблюдает за вами из воды.#(-1 РАССУДКА)
+NEIGHBOR'S APARTMENT|КВАРТИРА СОСЕДА
+bathroom|ванная
+bedroom|спальня
+ESCAPE!|СБЕЖАТЬ!
+NEIGHBOR'S BATHROOM|ВАННАЯ СОСЕДА
+NEIGHBOR'S KITCHEN|КУХНЯ СОСЕДА
+You cautiously enter your neighbor's kitchen. You are shocked to see countless jars filled with eels, flailing around restlessly.#Where the hell is KANA?|Вы осторожно входите в соседскую кухню. Вас поражает количество банок с угрями, неустанно мечущимися внутри.#Где КАНУ черти носят?
+return to kitchen|вернуться на кухню
+The swollen body of your neighbor is rotting away inside putrid murky water.##Both his eyes are missing with countless tiny blood trails leading from them in all directions.#(-1 REASON / -1 STAMINA)|Распухшее тело вашего соседа гниёт в ванной, заполненной отвратительной мутной водой.##У него нет глаз, а из глазниц во все стороны ведут маленькие кровавые следы.#(-1 РАССУДКА, -1 ВЫНОСЛИВОСТИ)
+NEIGHBOR'S BEDROOM|СОСЕДСКАЯ СПАЛЬНЯ
+You finally find KANA...|Вы наконец-то находите КАНУ...
+we must go to a hospital!|мы должны отправиться в больницу!
+<<I-I found the neighbor, b-but when his eye burst I slipped on the blood and lost consciousness...#I'm afraid there's something in my own eye now too!...>>|«Я-я нашла соседа, н-но когда его глаз лопнул, я поскользнулась на крови и потеряла сознание...#Я боюсь, что что-то забралось ко мне в глаз!..»
+You're still processing the events of the previous night. Corpse-eating eels that lay their eggs in eyes?##Sitting with your friend KANA before your apartment building, you watch the police officers emptying out your neighbor's place.##[EERIE EPISODE OF EVOLVING EELS:#ENDING A]|Вы до сих пор обдумываете события прошедшей ночи. Угри-трупоеды, которые откладывают яйца в глазах?##Сидя рядом с КАНОЙ на скамейке перед домом, вы наблюдаете за тем, как полицейские опустошают квартиру вашего соседа.##(УЖАСАЮЩИЙ УРОК ОБ УРОДЛИВЫХ УГРЯХ:#КОНЦОВКА А)
+You're still processing the events of the previous night. Corpse-eating eels that lay their eggs in eyes?##Sitting before your apartment building, you watch the police officers emptying out your neighbor's place. You wonder if you will ever hear from your friend again.##[EERIE EPISODE OF EVOLVING EELS:#ENDING B]|Вы до сих пор обдумываете события прошедшей ночи. Угри-трупоеды, которые откладывают яйца в глазах?##Сидя на скамейке перед домом, вы наблюдаете за тем, как полицейские опустошают квартиру вашего соседа. Вы задаётесь вопросом, услышите ли вы когда-нибудь о своей подруге снова.##(УЖАСАЮЩИЙ УРОК ОБ УРОДЛИВЫХ УГРЯХ:#КОНЦОВКА Б)
+You run like a coward from your neighbor's place. The next morning, police officers are emptying out your neighbor's place. ##They didn't find KANA. Will you ever hear from your friend again?##[EERIE EPISODE OF EVOLVING EELS:#ENDING C]|Вы трусливо сбегаете из квартиры вашего соседа. Следующим утром полицейские опустошают его квартиру.##Они не находят там КАНУ. Услышите ли вы когда-нибудь о своей подруге снова?##(УЖАСАЮЩИЙ УРОК ОБ УРОДЛИВЫХ УГРЯХ:#КОНЦОВКА В)
+OPHTHALMOLOGY (I)|ОФТАЛЬМОЛОГИЯ (I)
+You rush to the hospital with KANA, getting a lot of attention from horrified people.##Your friend is taken immediately to the operating theater, and you collapse on a chair in the waiting area...|Вы несётесь сквозь больницу вместе с КАНОЙ, привлекая взгляды обеспокоенных людей.##Вашу подругу мгновенно забирают на операцию, и вы падаете в кресло в зале ожидания...
+FALL ASLEEP|УСНУТЬ
+OPHTHALMOLOGY (II)|ОФТАЛЬМОЛОГИЯ (II)
+<<Wake up, dude. You've been sleeping for over 3 hours!>>####You groggily open your eyes to see your friend.#KANA is wearing an eye patch.##<<Not so pretty anymore, eh? I couldn't exactly tell the doctors the truth about what happened and I'm pretty sure I won't be winking with my left eye anytime soon...##...but thank you for saving my life.>>|«Просыпайся, дружище. Ты спишь, типа, уже 3 часа!»##Вы неуверенно открываете глаза и видите перед собой вашу подругу.#КАНА теперь носит повязку.##«Больше не такая красивая, а? Я не смогла рассказать докторам, что на самом деле произошло, но я уверена, что в ближайшее время точно не буду подмигивать левым глазом...##...но, благодарю тебя за спасение моей жизни.»
+OPHTHALMOLOGY (III)|ОФТАЛЬМОЛОГИЯ (III)
+When you wake up, it's already night.#Trying to ask about your friend, you are met with weird reactions. As if KANA never existed...##You rush to the operating theater yourself but are stopped by armed policemen!##Whatever happened, the doctors must've been too late to help...|Когда вы просыпаетесь, уже наступила ночь.#Когда вы пытаетесь узнать о состоянии подруги, на вас смотрят с недоумением. Будто её никогда не существовало...##Вы спешите в операционную, но вас останавливает вооружённый полицейский!##Что бы ни произошло, доктора, похоже, опоздали...
+Shocked, you see countless tiny eels crawling out of your friend's eye in all directions!|Вы с ужасом наблюдаете, как сотни крошечных угрей вылезают из глаза вашей подруги и расползаются во все стороны!
+Will KANA even survive the blood loss?!|Переживёт ли КАНА потерю крови?!
+KANA:#<<I saw the creepy neighbor carrying some jars inside his apartment.#I wonder... what weird fish did he find this time?>>|КАНА:#«Я видела как жуткий сосед заносил несколько банок в квартиру.#Интересно... какую странную рыбу он нашёл в этот раз?»
+<<Will you check it out?#He will _surely_ recognize me if I try to do it myself...##Please?>>|«Давай ты проверишь?#Он _безусловно_ узнает меня, если я попытаюсь сама...#Пожалуйста?»
+KANA:#<<Dude's working at school, right? We could break into his office!##What do you mean 'we shouldn't'?>>|КАНА:#«Чувак работает в школе, верно? Мы могли бы проникнуть в его кабинет!##Что значит «нет, мы не могли бы»?»
+It must be empty because he just came back and his classes begin next week!|Скорее всего, он пуст, потому что сосед только вернулся, а уроки и вовсе начинаются только через неделю!
+KANA:#<<Have you ever seen an eel like this?##It's so freaky! Don't you have a feeling, it's watching us?>>|КАНА:#«Не доводилось когда-нибудь видеть таких угрей?##Такие чудные! У тебя нет ощущения, что они наблюдают за нами?»
+The neighbor's office at school is empty.##You do find a few jars, all filled with weird eel-like fish. Despite your protests, KANA decides to take one jar home...|Школьный кабинет вашего соседа пуст.##Вы находите несколько банок, все забиты одними и теми же странными угрями. Несмотря на ваши возражения, КАНА решает взять одну банку домой...
+KANA:#<<I've seen him burning some notes behind our apartment building.##Let's go and check it out!>>|КАНА:#«Я видела, как он сжигает какие-то записки за нашим домом.##Давай сходим и проверим!»
+(Is this eel even alive?...)|(Этот угорь вообще живой?..)
+KANA:#<<That's so weird... your neighbor really was into eels, it seems...>>|КАНА:#«Так странно... сосед этот, похоже, конкретно зациклился на угрях...»
+(You begin to wonder if spying on your neighbor was a good idea to begin with...)|(Вы начинаете задаваться вопросом, было ли вообще это хорошей идеей - следить за вашим соседом...)
+KANA was right, someone tried to burn some papers. They must've been in a hurry because some of the papers look salvageable.##You both return to your apartment and try to decipher the notes...|КАНА была права, кто-то пытался сжечь тут какие-то записки. Он должно быть спешил, потому что некоторые листы ещё вполне читабельны.##Вы вместе возвращаетесь в квартиру и пытаетесь расшифровать записи...
+KANA:#<<There must be something more we can learn. I'll try to break into his apartment tomorrow morning.##I wonder what he's hiding in there?...>>|КАНА:#«Должно же тут быть хоть что-то полезное. Я попытаюсь вскрыть его квартиру завтра утром.##Интересно, что он там прячет?..»
+(You shrug noncommittally. You just wish you could throw this damned jar into the trash.)|(Вы уклончиво пожимаете плечами. Вам хочется лишь выбросить эту чёртову банку в мусор.)
+Thinking about how stupid it is of KANA to try and break into your neighbor's apartment, you go to sleep...|Думая о том, насколько глупая идея пришла КАНЕ - попытаться вскрыть соседскую квартиру - вы ложитесь спать...
+(KANA has been missing since yesterday, you decide to check out the neighbor's apartment yourself.)|(КАНУ не видно уже целый день, и вы решаете проверить соседскую квартиру в одиночку.)
+A - EYE SURGERY|А - ОПЕРАЦИЯ НА ГЛАЗ
+B - MISSING FRIEND|Б - ПРОПАВШАЯ ПОДРУГА
+C - LEFT BEHIND|В - БРОШЕННАЯ
+ROTTEN REPORT OF A RANCID RAMEN|РАСПЛЫВЧАТЫЙ РАССКАЗ О РАЗЛАГАЮЩЕМСЯ РАМЕНЕ
+ROTTEN REPORT OF A RANCID RAMEN##Out of thin air, a brand new ramen restaurant opens in town. #It’s adored by everyone!|РАСПЛЫВЧАТЫЙ РАССКАЗ О РАЗЛАГАЮЩЕМСЯ РАМЕНЕ#Словно из ниоткуда, в городе возникает новая раменная.#Она становится местом всеобщего обожания!
+Once people take a bite, they can’t stop. Day and night the queues stretch out the door.##The shambling customers stuff themselves with dish after dish, while the blind owner sits silently behind the counter, grinning and polishing his gleaming knives.|С первого укуса люди не могут остановиться. Днём и ночью перед входом тянется очередь.##Переевшие покупатели заказывают блюдо за блюдом, пока слепой владелец тихо стоит за стойкой, ухмыляясь и полируя свои сверкающие ножи.
+You are determined to discover what makes this ramen so enticing. What is its true power? #Dog meat?... Human meat?...##The flesh of the gods themselves?...|Вы полны решимости выяснить, из-за чего этот рамен кажется таким аппетитным. В чём его истинная суть?#Собачье мясо?.. Человечина?..##Плоть самих богов?..
+DUMPSTER DIVE|РЫТЬЁ ПО ПОМОЙКАМ
+Discard two ITEM cards to complete this quest.|Выбросьте два ПРЕДМЕТА, чтобы завершить это задание.
+You sneak into the alley in the dead of night. Gagging, you look through the restaurant's garbage. #It’s all vile pulp, though a few chunks of meat look like promising samples.|Вы прокрадываетесь в переулок под покровом ночи. Подавляя рвоту, вы роетесь в ресторанном мусоре.#Вы находите один лишь мерзкий жир, хотя несколько кусков мяса выглядят достаточно многообещающе для анализа.
+LAB|ЛАБОРАТОРИЯ
+Watching the local news, you spot a familiar street.##It's a feature about the newest ramen shop.|Смотря местный новостной канал, вы замечаете знакомую улицу.##Идёт репортаж об этой новой раменной.
+The food critic has a manic look as he describes the ramen.##His description makes your stomach churn.|Канал показывает дегустатора, с маниакальным взглядом описывающего рамен.##От его слов у вас сводит желудок.
+You can see the restaurant through the staircase's window.##You watch the door for hours but never see any of the cooks enter nor leave.|Вы видите ресторан через окно на лестничной клетке.##Вы часами наблюдаете за дверью, но так и не замечаете, чтобы повара входили или выходили.
+The only true way to investigate is to get into the restaurant yourself.|Единственный способ завершить расследование - лично попасть в ресторан.
+It seems that you were not the only one wanting to try it for yourself...|Похоже, что не только вы хотите отведать этого рамена...
+You stand in line for hours. Your questions fall on deaf ears and you’re shunned.|Вы стоите в очереди несколько часов. Вопросы, которые вы задаёте остальным людям в очереди, остаются без внимания, и вас остерегаются.
+The smell around the restaurant is overpowering. Grease, rot and...##is that blood you can smell?|Запах вокруг ресторана просто ужасен. Жир, тухлятина и...##это запах крови?
+It's finally your turn to order!|Наконец настаёт ваша очередь!
+<<One ramen please.>>##The owner's grin widens.|«Один рамен, пожалуйста.»##Владелец расплывается в улыбке.
+The red bowl is pushed in your face. It’s so crowded that you’re forced to sit on the floor.|Вам в лицо пихают красную миску. Тут настолько людно, что вам приходится сесть на пол.
+With a slick hand, you fill a vial with the soup and walk out, all without tasting the weird dish.|Быстрым движением руки вы зачёрпываете суп в пробирку и уходите, так и не попробовав загадочное блюдо.
+A week later, police and government officials are looking over where the ramen restaurant used to be. Nothing remains but a gap in the street and aimless confused customers.|Неделю спустя полиция и федералы обыскивают место, где когда-то была раменная. От неё не осталось ничего, кроме пустого места и растерянных посетителей.
+You’d like to believe that was the end of it, but snippets in newspapers from other cities unsettle you. Brief articles, about an exciting new ramen restaurant opening and its mysterious owner, keep showing up.##You can no longer eat noodles without feeling ill.##[ROTTEN REPORT OF RANCID RAMEN:#ENDING B]|Вам хотелось бы верить, что это конец, но обрывки новостей из других городов заставляют вас нервничать. Продолжают всплывать короткие статьи об открытии новой захватывающей раменной и об её загадочном владельце.##Вы больше не можете есть лапшу, не чувствуя тошноты.##(РАСПЛЫВЧАТЫЙ РАССКАЗ О РАЗЛАГАЮЩЕМСЯ РАМЕНЕ:#КОНЦОВКА Б)
+Prepared for a fight, you march down to the restaurant. However, you find no eldritch horror to duel.##Instead you're shocked to find nothing but a gap in the street. You ignore the distraught customers, still lining up where they remember the entrance...|Готовясь к бою, вы входите в ресторан. Но на пути вам не встречаются потусторонние ужасы.##Вместо этого вы находите лишь пустырь. Вы игнорируете растерянных клиентов стоящих у места, некогда ведущего в раменную...
+Investigating the grounds, you see something glisten where the kitchen used to be.#Cautiously you look at the chunk of meat and then jump back with a yell. As it flexes, it opens a weary eye, grins, and wanders off on stubby black claws.##You walk home shaken... In your head you hear the weird ramen breathing in its bowl.#You only stop to throw up on the street.##[ROTTEN REPORT OF RANCID RAMEN:#ENDING A]|Исследуя окрестности, вы замечаете что-то яркое на фундаменте, где когда-то была кухня.#Осторожно осматриваясь, вы наталкиваетесь взглядом на кусок мяса и с криком отпрыгиваете. Вы замечаете, как он сгибается, как в нём открывается усталый глаз, как он ухмыляется и, отрастив чёрные когти, уползает.##В смятении, вы возвращаетесь домой... Вы представляете, как странный рамен дышит в своей миске. По дороге домой#вас вырывает несколько раз.##(РАСПЛЫВЧАТЫЙ РАССКАЗ О РАЗЛАГАЮЩЕМСЯ РАМЕНЕ:#КОНЦОВКА А)
+LAB RESULTS (PARTIAL)|ЛАБОРАТОРНЫЙ АНАЛИЗ (ЧАСТИЧНЫЙ)
+A mere day later, your friend rings your door. Her face is pale and in a shaky hand, she holds an analysis sheet. You usher her in and bolt the door.##You feel ill looking at the charts.#While they couldn't identify some of the particles, they did discover a highly addictive drug in the broth.##The ramen restaurant must be closed immediately!|День спустя, ваша подруга звонит вам в дверь. Она бледна, а дрожащими руками она держит анализы. Вы заводите её внутрь и запираете дверь.##Вы чувствуете тошноту, всматриваясь в отчёт.#Хоть они и не смогли идентифицировать некоторые вещества, учёные обнаружили в бульоне наркотик, вызывающий сильное привыкание.##Раменная должна быть немедленно закрыта!
+LAB RESULTS (FULL)|ЛАБОРАТОРНЫЙ АНАЛИЗ (ПОЛНЫЙ)
+You look at the charts and cannot believe your eyes. While the standard test didn't detect anything weird, adding drops of human blood revealed something horrible. Whatever this thing is made of, it's alive - beating a soft pulse against the glass.##Your friend leaves you with the papers, muttering an excuse and preparing to flee town on the next train.|Вы вглядываетесь в анализы и не верите собственным глазам. Стандартные опыты не дали результатов, но добавление капли человеческой крови раскрыло нечто ужасное. Из чего бы ни был сделан этот рамен - он живой и слабо пульсирует в пробирке.##Ваша подруга оставляет вам бумаги, бормоча оправдания и планируя покинуть город на первом же поезде.
+LAB RESULTS|ЛАБОРАТОРНЫЙ АНАЛИЗ
+With the pulling of some delicate strings you get the ramen into a lab.##While handing over the gathered material, you hesitate. What should you send to the laboratory?|Обратившись к некоторым знакомым, вам удаётся направить рамен в лабораторию.##Передавая образцы, вы колеблетесь. Что вам стоит послать в лабораторию?
+JUST THE VIAL OF RAMEN SOUP|ЛИШЬ ЁМКОСТЬ С БУЛЬОНОМ
+VIAL + MEAT|ЁМКОСТЬ И МЯСО
+A - LAB RESULTS (FULL)|А - ЛАБОРАТОРНЫЙ АНАЛИЗ (ПОЛНЫЙ)
+B - LAB RESULTS (PARTIAL)|Б - ЛАБОРАТОРНЫЙ АНАЛИЗ (ЧАСТИЧНЫЙ)
+C - ??|В - ??
+VICIOUS VERSES OF A VIOLENT VIGIL|БЕСПОКОЙНАЯ БЛАЖЬ О БУЙСТВЕННОМ БДЕНИИ
+VICIOUS VERSES OF A VIOLENT VIGIL##You've received an official-looking letter. What does a law firm from Tokyo want from you?...|БЕСПОКОЙНАЯ БЛАЖЬ О БУЙСТВЕННОМ БДЕНИИ##Вы получили с виду официальное письмо. От вас чего-то хочет токийская юридическая фирма?..
+<<We regret to inform you of the passing of our client and your grand-uncle.##His funeral will be preceded by an overnight vigil as per the client's request.>>|«Нам жаль уведомлять вас о смерти нашего клиента - вашего дяди.##Его похоронам будет предшествовать всенощное бдение, согласно завещанию клиента.»
+There's an address and a list of people expected to arrive. You don't recognize any of the names...##Intrigued, you decide to check it out yourself. What's the worst thing that could happen?|Здесь написан адрес и список людей, которые должны приехать. Вы не узнаёте ни одного из имён...##Тем не менее, вы решаете проверить всё лично. Что может пойти не так?
+conclude the ritual|завершить ритуал
+[you are here]|(вы здесь)
+carve the symbol|вырезать символ
+check out the supper|проверить вечерю
+light up the fireplace|разжечь камин
+who's that?...|кто это?..
+carve the cursed symbol|вырезать проклятый символ
+burn the envelope|сжечь конверт
+open the envelope|открыть конверт
+cut the plant down|срезать растение
+feed the plant|покормить растение
+(strength check: passed)#The smell is nauseating but you put some meat on your plate.#(+ ITEM)|(проверка на силу: успех)#Запах просто тошнотный, но вы всё равно кладёте себе немного мяса.#(+ПРЕДМЕТ)
+(strength check: failed)#The smell is so nauseating, it almost makes you sick!#(-1 STAMINA)|(проверка на силу: провал)#Запах настолько тошнотворный, что вас чуть не вырывает!#(-1 ВЫНОСЛИВОСТИ)
+(perception check: passed)#You spot some dry firewood and add it to the fireplace.#(+1 REASON)|(проверка на восприятие: успех)#Вы замечаете немного сухих дров и подкидываете их в камин.#(+1 РАССУДКА)
+(perception check: failed)#You couldn't find any firewood to add to the fireplace.#(-1 STAMINA)|(проверка на восприятие: провал)#Вы не находите дров, которыми можно растопить камин.#(-1 ВЫНОСЛИВОСТИ)
+You've already copied the tattoo.|Вы уже срисовали татуировку.
+It takes you some time, but you finally find an envelope. Following the instructions, you burn it without opening it. You feel weird following obscure orders...#(-1 REASON)|Спустя некоторое время вы наконец-то находите конверт. Следуя инструкциям, вы сжигаете его, не заглядывая внутрь. Вы чувствуете себя странно, следуя невнятным приказам...#(-1 РАССУДКА)
+You cut your hand and pour some blood on the soil. Hopefully that's enough... (-1 STAMINA)|Вы надрезаете руку и проливаете немного крови на почву. Хочется надеяться, что этого будет достаточно... (-1 ВЫНОСЛИВОСТИ)
+You clap...|Вы хлопаете...
+You think you got the order right...|Вам кажется, что вы сделали всё правильно...
+Did you get the order right?...|Вам удалось повторить последовательность?..
+You've prayed enough|Вы уже достаточно помолились.
+Inside the wardrobe, you find a meat cleaver...|Внутри гардероба вы находите тесак...
+The wardrobe is empty.|Гардероб пуст.
+An unseen force leads your hands...#You reach for a knife and stab a surprised guest!|Незримая сила направляет ваши руки...#Вы хватаете нож и ударяете поражённого гостя!
+You bow...|Вы кланяетесь...
+You open the envelope. Your mind gets flooded with knowledge!#It was a good decision... right?#(+ SPELL)|Вы открываете конверт. Ваш разум заполняют знания!#Вы приняли верное решение... да?#(+ЗАКЛИНАНИЕ)
+You cut down the blood-thristy plant!#It was a good decision... right?#(-3% DOOM)|Вы срезаете кровожадное растение!#Вы приняли верное решение... да?#(-3% РОКА)
+EXPLORE MANSION|ИССЛЕДОВАТЬ ПОМЕСТЬЕ
+[from CORRIDOR only]|(доступно только из КОРИДОРА)
+master bedroom|хозяйская спальня
+dilapidated corridor|разрушенный коридор
+[where are you]|(где вы?)
+storage room|хранилище
+study|кабинет
+damp cellar|сырой подвал
+room6|room6
+damp cellar|сырой подвал
+burn an envelope found in the study|сжечь конверт, найденный в кабинете
+feed the plant in the study with blood|насытить кровью растение в кабинете
+AVAILABLE#ACTIONS ->|ДОСТУПНЫЕ#ДЕЙСТВИЯ ->
+[8pm / 9 hours until dawn]|(20:00, 9 часов до рассвета)
+[9pm / 8 hours until dawn]|(21:00, 8 часов до рассвета)
+[10pm / 7 hours until dawn]|(22:00, 7 часов до рассвета)
+kiLl tHem|уБей иХ
+KilL ThEm|УбеЙ Их
+kIll thEM|убЕй иХ
+KiLL THem|УбЕЙ Их
+You shudder instantly recognizing the room from a newspaper photo.##Three years ago, a man hanged himself here...##Why is a vigil being held in a place like this?|Вы вздрагиваете, мгновенно поняв, что вы видели эту комнату в газете.##Три года назад здесь повесился мужчина...##Почему бдение проводится в подобном месте?
+[11pm / 6 hours until dawn]|(23:00, 6 часов до рассвета)
+[12am / 5 hours until dawn]|(00:00, 5 часов до рассвета)
+[1am / 4 hours until dawn]|(01:00, 4 часа до рассвета)
+[2am / 3 hours until dawn]|(02:00, 3 часа до рассвета)
+[3am / 2 hours until dawn]|(03:00, 2 часа до рассвета)
+[4am / 1 hour until dawn]|(04:00, 1 час до рассвета)
+[5am]|(05:00)
+As the vigil is nearing its end, the whole mansion shakes more and more until the walls start to collapse, revealing the shocking truth about your whereabouts...|Когда бдение подходит к концу, поместье начинает всё сильнее и сильнее трястись, пока стены не начинают рушиться, разоблачая шокирующую правду о том, где вы на самом деле находитесь...
+Following the directions from the letter, you slowly fight your way through the overgrown forest path.##The old mansion looks like it was torn down and rebuilt many times, but...#where is everybody?|Следуя указаниям из письма, вы медленно пробиваетесь сквозь заросшую лесную тропинку.##Старое поместье выглядит так, будто его много раз сносили и перестраивали, но...#где все?
+[tip: EXPLORE MANSION action will unlock new locations and progress this mystery]|(подсказка: действие «ИССЛЕДОВАТЬ ПОМЕСТЬЕ» будет открывать новые локации и двигать прогресс тайны)
+THE ARRIVAL AT THE MANSION|ПРИБЫТИЕ В ПОМЕСТЬЕ
+MASTER BEDROOM|ХОЗЯЙСКАЯ СПАЛЬНЯ
+STORAGE ROOM|ХРАНИЛИЩЕ
+check the wardrobe|проверить гардероб
+clap|хлопнуть
+bow|поклониться
+Pressing a handkerchief to your nose, you enter the dark room...##There's no way they allowed your grand-uncle to just lie here!|Прижимая платок к носу, вы входите в тёмную комнату...##Не может быть, что они просто оставили вашего дядю лежать здесь!
+The body...##It's missing...|Его тело...##Оно пропало...
+What was the correct bow and clap order? Maybe other guests will know?|Какая же была правильная последовательность поклонов и хлопков? Может, другие гости знают?
+inspect his foot|осмотреть его ногу
+There's a weird symbol tattooed on the man's toe.|На ноге мужчины есть тату с каким-то странным символом.
+You copy it onto your pamphlet.|Вы срисовываете его в свой блокнот.
+It seems that someone has already removed all the furniture from this room.##The overgrown plant is casting an unsettling shadow...|Похоже, что кто-то уже вывез из этой комнаты всю мебель.##Это переросшее растение отбрасывает жуткую тень...
+OVERGROWN STUDY|ЗАРОСШИЙ КАБИНЕТ
+sacrifice the guest|пожертвовать гостем
+aaa|ааа
+It takes you some time, but finally, you manage to find someone. Is that another guest? You should ask them what's going on in here.|Спустя некоторое время вам наконец-то удаётся найти кого-то ещё. Это другой гость? Вы должны спросить его о том, что здесь происходит.
+[four actions on the right allow you to investigate the location and interact with it]|(четыре действия, изображённые справа, позволяют вам исследовать локацию и взаимодействовать с ней)
+As you return to the corridor, you notice another family member has arrived.|Когда вы возвращаетесь в коридор, то замечаете, что приехал ещё один родственник.
+You notice all the guests are studying small cards. You should ask them about it.|Вы замечаете, что все гости изучают какие-то маленькие карточки. Вам стоит спросить их об этом.
+Every family member is cautiously eyeing the smelly dishes placed on a table in the corner of the room.|Все члены семьи осторожно разглядывают вонючие блюда, стоящие на столе в углу комнаты.
+All family members are gathered near the fireplace. You can tell everyone is waiting for the dawn.|Все члены семьи собрались рядом с камином. Вы понимаете, что они все ожидают рассвета.
+It's midnight. You should go and pray...|Полночь. Вам стоит помолиться...
+W-where is everybody?...|Г-где все?..
+You manage to find one of the guests. They are shaken, but otherwise safe. You both decide to get the hell out of this place but...##the door is gone.|Вам удаётся найти одного из гостей. Он потрясён, но в остальном цел. Вы решаете к чёрту выбираться из этого места, но...##дверь пропала.
+Corridors twist and turn, trapping you in this mansion.##You think you can hear the other guest somewhere but should you risk getting lost yourself?|Коридоры искажаются и заворачиваются, не позволяя вам покинуть поместье.##Вам кажется, что вы слышите других гостей, но стоит ли их искать и рисковать потеряться?
+The other guest is now safe with you. The whole building cracks and moves.##You're scared of what will come next...|Ещё один гость теперь с вами, в безопасности. Всё здание трещит и ходит ходуном.##Вам страшно представить, что может случиться дальше...
+The walls of the corridor collapse, revealing an alien landscape. You can taste blood in your mouth as the slimy appendages slowly get closer.|Стены коридора рушатся, разоблачая неземной ландшафт. Вы чувствуете вкус крови во рту, когда к вам начинают приближаться слизистые отростки...
+DILAPIDATED CORRIDOR|РАЗРУШЕННЫЙ КОРИДОР
+The guests seem strangely uninterested in this vigil. You should explore more and learn what you can.|Гости, похоже, совершенно не заинтересованы в этом бдении. Вы должны расследовать дальше и узнать как можно больше.
+A voice in your head tells you what to do...|Голос в вашей голове подсказывает, что вам нужно делать...
+AKANE, YOUNG HEIRESS|АКАНЭ, ЮНАЯ НАСЛЕДНИЦА
+The young woman wrinkles her nose when she notices you.##You can swear you've seen the symbol engraved on her necklace before...|Девушка шмыгает носом, когда замечает вас.##Вы можете поклясться, что уже видели символ на её ожерелье...
+<<If you want to pay respects to that old creep, follow the corridor to the right.>>|«Если ты хочешь воздать почести этому старому подонку, иди по коридору направо.»
+<<You didn't get this with a letter? Here, take mine.>>|«У тебя в письме не было? Вот, возьми моё.»
+<<Let's not pretend like we want to be here.>>|«Давай не будем притворяться, что мы хотим здесь быть.»
+HAWADO, WEIRD FICTION WRITER|ХАВАДО, ЖУТКИЙ ПИСАТЕЛЬ-ФАНТАСТ
+A pair is standing next to a window. The man is muttering something to himself while his wife is observing you with her unnaturally bulgy eyes...|У окна поместья стоит пара. Мужчина что-то бормочет себе под нос, пока его жена изучает вас своими неестественно выпуклыми глазами...
+<<The body is laid in the master bedroom. You should pay him your respects.>>|«Тело лежит в хозяйской спальне. Тебе следует воздать ему почести.»
+<<...this reminds me of one of my books...>>|«...напоминает мне об одной из моих книг...»
+SOTOMURA, SCARRED THUG|СОТОМУРА, БЫВАЛЫЙ БАНДИТ
+A muscular man is eyeing you as you take a step towards him. You can't help but notice a deep scar going across his cheek.|Мускулистый мужчина осматривает вас, когда вы подходите ближе. Вам в глаза бросается глубокий шрам, рассекающий его щёку.
+<<Old man's body is in the master bedroom. Go there if you want.>>|«Тело старика лежит в хозяйской спальне. Сходи туда, если хочешь.»
+Sotomura nervously scratches his scar...|Сотомура нервно чешет свой шрам...
+DEATH, CHEATED (A)|СМЕРТЬ, ОБМАНУТАЯ (А)
+<<tHe pRicE... iS pAid...>>##A voice booms in your head as everything gets dark... When you wake up, you find yourself lying on the wet grass, the old mansion nowhere to be seen. Standing next to you is a naked, bloated old man.##You recognize a tattoo on the man's toe. It's your deceased grand-uncle!|«цЕнА... УпЛаЧеНа...»##В вашей голове раздаётся голос, в глазах темнеет... Очнувшись, вы понимаете, что лежите на мокрой траве, а старого поместья нигде не видно. Рядом с вами стоит голый, раздутый старик.##Вы узнаёте татуировку на его ноге. Это... ваш почивший дядя!
+NEW DAWN I|НОВЫЙ РАССВЕТ I
+<<tHe coNtrAct... iS voId...>>##A voice booms in your head as everything gets dark... When you wake up, you find yourself lying on the grass, the old mansion nowhere to be seen.#Next to you are the other guests, as confused as you. Everything feels like a bad dream, was the man claiming to be your grand-uncle really trying to cheat death itself?|«кОнТрАкТ... рАзОрВаН...»##В вашей голове раздаётся голос, в глазах темнеет... Очнувшись, вы понимаете, что лежите на мокрой траве, а старого поместья нигде не видно.#Рядом с вами приходят в себя и другие гости, одинаково растерянные. Всё произошедшее кажется вам дурным сном, и вы задаётесь вопросом - пытался ли тот мужчина, притворяющийся вашим дядей, действительно обмануть саму смерть?
+NEW DAWN II|НОВЫЙ РАССВЕТ II
+<<tHe coNtrAct... iS voId...>>##a voice booms in your head as everything gets dark... When you wake up, you find yourself lying on the grass, the old mansion nowhere to be seen. Next to you are the bodies of slain guests. Your head spins. Everything feels like a bad dream, was the man claiming to be your grand-uncle really trying to cheat death itself?##You've somehow stopped the ritual but with your clothes covered in blood, you'll have a lot of explaining to do...|«кОнТрАкТ... рАзОрВаН....»##В вашей голове раздаётся голос, в глазах темнеет... Очнувшись, вы понимаете, что лежите на мокрой траве, а старого поместья нигде не видно. Рядом с вами лежат тела убитых гостей. У вас кружится голова. Всё произошедшее кажется вам дурным сном, и вы задаётесь вопросом - пытался ли тот мужчина, притворяющийся вашим дядей, действительно обмануть саму смерть?##Вы каким-то образом остановили ритуал, но вся ваша одежда покрылась кровью, и вам придётся много объясняться на пути домой...
+DEATH, CHEATED (B)|СМЕРТЬ, ОБМАНУТАЯ (Б)
+With a coarse voice, he explains the ritual. You try to keep up with him but you're weak and your head spins.##<<...the death toll must remain the same... two die and two survive...>>##You feel like vomiting as the old man who has cheated death disappears behind trees. Everything gets dark...|Грубым голосом он объясняет ритуал. Вы пытаетесь поспевать за объяснениями, но из-за слабости у вас кружится голова.##«...число погибших должно быть тем же... двое умирают, двое выживают...»##Вас тошнит, когда старик, обманувший смерть, исчезает за деревьями. У вас в глазах темнеет...
+THANK YOU FOR PLAYING|СПАСИБО ВАМ ЗА ИГРУ
+You and the other family members finally exit the forest and leave the nightmare of it behind.##One thing is certain, though. You will never open any more letters by law firms from Tokyo.##[VICIOUS VERSION OF A VIOLENT VIGIL:#ENDING A]|Вы, вместе с остальными членами семьи, наконец выходите из леса и оставляете его кошмары позади.##Так или иначе, вы уверены лишь в одном. Вы больше никогда не откроете ни одно письмо, посланное юридической фирмой из Токио.##(БЕСПОКОЙНАЯ БЛАЖЬ О БУЙСТВЕННОМ БДЕНИИ:#КОНЦОВКА А)
+As you walk through the forest, you are trying your best to clean yourself of the blood and forget the nightmares you left behind.##One thing is certain, though. You will never open any more letters by law firms from Tokyo.##[VICIOUS VERSION OF A VIOLENT VIGIL:#ENDING B]|Проходя через лес, вы пытаетесь смыть с себя кровь и забыть те ужасы, что остались позади.##Так или иначе, вы уверены лишь в одном. Вы больше никогда не откроете ни одно письмо, посланное юридической фирмой из Токио.##(БЕСПОКОЙНАЯ БЛАЖЬ О БУЙСТВЕННОМ БДЕНИИ:#КОНЦОВКА Б)
+The man who you thought was your uncle has cheated death, making you an accessory to murder.##You know the police officers won't believe you when you tell them the truth and do your best to forget the nightmares you left behind.##[VICIOUS VERSION OF A VIOLENT VIGIL:#ENDING C]|Человек, которого вы считали своим дядей, обманул саму смерть, сделав вас соучастником убийств.##Вы знаете, что полицейские не поверят вам, если вы расскажете им правду. Вы стараетесь как можно скорее забыть те ужасы, что остались позади.##(БЕСПОКОЙНАЯ БЛАЖЬ О БУЙСТВЕННОМ БДЕНИИ:#КОНЦОВКА В)
+A - NEW DAWN|А - НОВЫЙ РАССВЕТ
+B - SOAKED IN BLOOD|Б - ИСКУПАВШИЙСЯ В КРОВИ
+C - DEATH, CHEATED|В - СМЕРТЬ, ОБМАНУТАЯ
+BIZARRE BRUIT OF THE BLOOD-CURDLING BOTANIST|БРЕДОВЫЕ БАСНИ О БЕЗДУШНОМ БОТАНИКЕ
+BIZARRE BRUIT OF THE BLOOD-CURDLING BOTANIST##Your neighbor asked you to help.#Her husband, SHIRO-SAN has gone missing. She is worried it might be connected with the new fertilizer he ordered from Tokyo.|БРЕДОВЫЕ БАСНИ О БЕЗДУШНОМ БОТАНИКЕ##Ваша соседка попросила помочь.#Её муж, ШИРО-САН, пропал. Её беспокоит тот факт, что это может быть связано с доставкой удобрений, которые он заказывал из Токио.
+Where is he and why would he need so much fertilizer?|Где он, и зачем ему понадобилось столько удобрений?
+What's up with the forest lately? I feel... watched.|Что-то в последнее время жутко в лесу. Будто там за тобой... следят.
+MYCOLOGY MANIAC|МИКОЛОГИЧЕСКИЙ МАНЬЯК
+Investigate the SCHOOL location twice to complete this quest.|Исследуйте ШКОЛУ дважды, чтобы завершить это задание.
+(...) a new yet-undefined species of the Cordyceps fungus has been observed to infect rats, taking over their bodies. Could it have the same effect with other mammals?...|(...) новый, до сих пор неизученный вид кордицепсовых грибов, был замечен среди крыс, тела которых он захватывает. Может ли он оказывать такой же эффект на других млекопитающих?..
+OVERGROWN MANSION|ЗАРОСШЕЕ ПОМЕСТЬЕ
+You’ve got the business card of a gardening company where the missing man was working. Maybe some of his colleagues could tell you something useful?|Вам дали визитку садовой компании, в которой работал пропавший мужчина. Может, некоторые из его коллег смогут рассказать вам что-нибудь полезное?
+<<SHIRO-SAN has always been a weirdo but he's good at what he does. Last month, he ordered a pack of an experimental fungicide from Tokyo.>>|«ШИРО-САН всегда был тем ещё чудаком, но он хорош в своей работе. Прошлым месяцем он заказал себе мешок экспериментального противогрибкового средства из Токио.»
+<<I think I’ve seen the dispatch order with an address somewhere,>> the old man says.#<<Help me move this dirt and I’ll look for it.>>|«Думаю, я видел документ об отправке, с адресом...» - говорит старик.#«Помоги перенести эту почву, и я поищу его.»
+While the dispatch order is stained with a foul-smelling liquid, you think you can make out the address - at least parts of it. The house is somewhere in the nearby forest.|Несмотря на то, что документ был покрыт смрадной жидкостью, вы смогли разобрать адрес - по крайней мере, частично. Нужный дом должен быть где-то в ближайшем лесу.
+It’s dark. You don’t remember the trees growing so close to each other.|Здесь темно. Вы не помните, чтобы деревья росли так близко друг к другу.
+The dirt road looks promising but it branches in two different directions, which one is the correct one?|Вытоптанная тропинка выглядит многообещающе, но она расходится в двух разных направлениях, какое из них верное?
+The dirt road you've been following suddenly ends. You have to go back...|Тропинка, которой вы шли, внезапно оборвалась. Придётся возвращаться...
+You stumble upon a half-eaten deer carcass.|Вы натыкаетесь на полусъеденный олений труп.
+You stand over the gardener’s body, trying to staunch the blood gushing from your arm. No one should know about SHIRO-SAN’s discovery and the weird fungus. You break into the minivan, dump the flammable fungicide bottles inside the building, and set it on fire.|Вы стоите над телом садовника, пытаясь остановить кровь, бьющую из вашей руки. Никто не должен узнать об открытии ШИРО-САНА и о странных грибах. Вы вламываетесь в минивэн, закидываете огнеопасные бутылки с противогрибковым средством внутрь здания и поджигаете его.
+Hoping that the flames will consume the morbid secrets, you walk away…##[BIZARRE BRUIT OF THE BLOOD-CURDLING BOTANIST:#ENDING A]|Надеясь, что пламя поглотит ужасные секреты, вы уходите прочь...##(БРЕДОВЫЕ БАСНИ О БЕЗДУШНОМ БОТАНИКЕ:#КОНЦОВКА А)
+The fungus dies, and with it, the gardener. With nobody to grow from, you hope that’s the end of it. You finally understood something. The plants weren’t attacking you; they were protecting you from the unnatural form of life.|Гриб умирает, а вместе с ним и садовник. Вы надеетесь, что без носителя грибу пришёл конец. Вы наконец поняли кое-что. Растения не атаковали вас; они защищали вас от неестественной формы жизни.
+Weakened, you stumble out of the mansion, hoping to forget...##[BIZARRE BRUIT OF THE BLOOD-CURDLING BOTANIST:#ENDING B]|Без сил, вы, спотыкаясь, выбегаете из поместья, надеясь всё забыть...##(БРЕДОВЫЕ БАСНИ О БЕЗДУШНОМ БОТАНИКЕ:#КОНЦОВКА Б)
+Plants continue to attack, as you and the gardener flee from the forest, only to suddenly stop when you reach the city limits. You manage to call an ambulance from a phone booth but lose consciousness before it arrives. You wake up in a hospital, your wounds treated.|Растения продолжают атаковать вас, пока вы вместе с садовником сбегаете из леса, останавливаясь лишь на окраине города. Вам удаётся позвонить в скорую из ближайшей телефонной будки, но вы теряете сознание до того, как она успевает приехать. Вы просыпаетесь в больнице - ваши раны забинтованы.
+When asked about SHIRO-SAN, the doctors are puzzled - you were the only person they found. The gardener is missing to this day.##[BIZARRE BRUIT OF THE BLOOD-CURDLING BOTANIST:#ENDING C]|Когда вы спрашиваете о ШИРО-САНЕ, доктора недоумевают - ведь нашли только вас. Садовник числится пропавшим и по сей день.##(БРЕДОВЫЕ БАСНИ О БЕЗДУШНОМ БОТАНИКЕ:#КОНЦОВКА В)
+Vines whip you, covering your exposed skin in deep lacerations. You cry in pain, dropping the body of SHIRO-SAN. There's no way you'll be able to save him. With a heavy heart, you run, leaving the man you were supposed to protect behind...##[BIZARRE BRUIT OF THE BLOOD-CURDLING BOTANIST:#ENDING D]|Лоза стегает вас, покрывая вашу кожу глубокими порезами. Вы плачете от боли и бросаете тело ШИРО-САНА. У вас нет шансов спасти его. С грузом на душе вы убегаете, оставляя человека, которого должны были защищать, позади...##(БРЕДОВЫЕ БАСНИ О БЕЗДУШНОМ БОТАНИКЕ:#КОНЦОВКА Г)
+OVERGROWN MANSION (I)|ЗАРОСШЕЕ ПОМЕСТЬЕ (I)
+Finally, after what felt like hours of following the dirt road, you find the old mansion. It’s completely overgrown with plants you’ve never seen before. In front of the mansion, there’s the gardening company minivan filled with boxes. ##Slowly, you enter the building with caution…|Наконец, после, казалось бы, вечных скитаний по дорожке, вы находите старое поместье. Оно полностью заросло растениями, которых вы раньше никогда не видели. Перед поместьем припаркован садовый минивэн, заполненный коробками.##Медленно и опасливо, вы входите в здание...
+OVERGROWN MANSION (II)|ЗАРОСШЕЕ ПОМЕСТЬЕ (II)
+You stand in the middle of the room when suddenly the floor gives way, and you fall down to the basement...|Вы стоите посреди комнаты, когда внезапно пол проваливается и вы падаете в подвал...
+[LEFT BEHIND]: +3% DOOM|(ОСТАВЛЕННЫЙ ПОЗАДИ): +3% РОКА
+A - CLEANSED WITH FIRE|А - ОЧИЩЕННЫЙ ОГНЁМ
+B - FUNGICIDE|Б - ПРОТИВОГРИБКОВОЕ СРЕДСТВО
+C - STILL MISSING|В - БЕЗ ВЕСТИ ПРОПАВШИЙ
+D - LACERATIONS|Г - РВАНЫЕ РАНЫ
+BLOODY BRIEF OF A BECKONING BULLETIN|МАНИАКАЛЬНАЯ МОЛЬБА О МАНЯЩЕМ МОДЕМЕ
+BLOODY BRIEF OF A BECKONING BULLETIN##As the decades roll on, technology has only developed further.##These days, computer bulletin board software allows computers to communicate over phone lines.|МАНИАКАЛЬНАЯ МОЛЬБА О МАНЯЩЕМ МОДЕМЕ##С каждым десятилетием технологии достигают всё нового пика развития.##В эти дни, электронные доски объявлений позволяют людям использовать компьютеры для связи по телефонным линиям.
+All it takes is a computer and a modem, and anybody can connect to a bulletin system, or even host one of their own.##Once you connect, you can read all of the messages on that bulletin, and even post your own to start a conversation.|Всё, что вам нужно - компьютер и модем, и вы уже можете подключиться к доске объявлений, или даже создать свою.##Подключившись, вы можете читать объявления других пользователей, или даже разместить собственное обсуждение.
+Many use them to share files or to chat about their favorite topics - everything from video games to sports, to idol culture.##But in the wake of a sudden string of weird suicides, things aren't all fun and games.|Многие используют их для того, чтобы делиться файлами или общаться на любимые темы - от видеоигр и спорта до поп-культуры.##Но после внезапной череды загадочных самоубийств, людям стало не до развлечений.
+Rumors have surfaced that the deaths are linked to a bulletin system operated from somewhere within SHIOKAWA.##What is behind the suicides? How could so many people all be driven to take their own lives?...|Судя по слухам, смерти связаны с доской объявлений, открытой где-то в ШИОКАВЕ.##Что стало причиной самоубийств? Неужели столько людей готовы так легко покончить со своими жизнями?..
+have you heard about that bulletin? ...oh, nevermind.|знаешь о доске, которая... а, неважно.
+FOREST SUICIDES|САМОУБИЙСТВА В ЛЕСУ
+Investigate the FOREST location twice to complete this quest.|Исследуйте ЛЕС дважды, чтобы завершить это задание.
+After searching deep in the woods for some time, you discover the body of a young student clutching a note.#(+ ITEM)|Спустя некоторое время поисков в лесу, вы находите тело школьника, сжимающего в руке записку.#(+ПРЕДМЕТ)
+(on screen): 'welcome home, did you like it so far?'#'yes'     'no'|(на экране): «добро пожаловать, ты чувствуешь себя как дома?»#«да»     «нет»
+COMPUTER|КОМПЬЮТЕР
+Even if the rumored bulletin system's phone number is found, there is no hope to investigate without a computer that can connect to it.|Даже если вы найдёте номер телефона печально известной доски объявлений, у расследования нет надежды без компьютера, способного к ней подключиться.
+Maybe the school library has one that will work?|Может, компьютер из школьной библиотеки подойдёт?
+While the school library's computer doesn't have a modem, you happen to bump into a member of the computer club while asking around.|Узнав, что компьютер в школьной библиотеке не имеет модема, вы опрашиваете людей в округе и знакомитесь с одним из членов компьютерного клуба.
+She apparently just got a new system and is willing to let you borrow hers. Thanking her, you arrange to meet at her home in the city.|Она недавно заимела новую машину и готова поделиться с вами старой. Вы благодарите её, согласившись встретиться у неё дома, в городе.
+You lug the cardboard box full of PC parts up your apartment stairs, teeth clenched as you heave it up one step at a time.|По ступенькам в вашу квартиру вы волочите картонную коробку, полную компьютерных комплектующих, стискивая зубы каждый раз, как затаскиваете её на очередную ступеньку.
+God damn are computers heavy.|Компьютеры в самом деле чертовски тяжёлые...
+You wipe the sweat from your brow as you finally finish setting up the computer in your bedroom. After a few tests, you're now certain that everything is functional.|Вы смахиваете пот со лба, когда наконец подключаете компьютер в своей спальне. Спустя пару проверок, вы убеждаетесь, что он работает исправно.
+The newscaster on the TV says that the suicide rate is still climbing. Worse, the morbid trend is beginning to catch on in other nearby towns. You need to act quickly!|Ведущий по телевизору говорит, что уровень самоубийств всё растёт. Что ещё хуже, жуткий тренд подхватывается и в других городах. Нужно действовать быстро!
+Hoping to find a lead, you head to the hospital. With how many deaths there have been, the hospital is in chaos. The staff look exhausted.|В надежде найти зацепки, вы отправляетесь в больницу. Находясь под постоянным потоком смертей, больница пребывает в состоянии хаоса. Персонал выглядит истощённым.
+When the receptionist lets her head down onto the desk for a minute, you slip out of the waiting room and into the hospital corridors.|Когда дежурная в приёмной отворачивается, вам удаётся ускользнуть из зала ожидания и пройти в больничный коридор.
+You overhear two nurses talking about a girl whose suicide attempt failed. Apparently, she's recovering at her grandparents' home at the village in the city outskirts.|Вы подслушиваете, как две медсестры говорят о девушке, которую спасли от самоубийства. Предположительно, она сейчас проходит восстановление у своих предков, в деревне за пределами города.
+You exit the hospital and make your way to the nearest bus stop.|Вы покидаете больницу и идёте к ближайшей автобусной остановке.
+As you pull into the village bus stop, a news story comes on the bus driver's radio. An entire class of SHIOKAWA students leapt in front of a train, hand in hand.|Когда автобус останавливается у деревни, водительское радио прерывается на новости. Ученики одного из классов ШИОКАВСКОЙ школы одновременно легли под поезд, держась за руки...
+You move urgently as you exit the bus and begin searching down the village streets.|Выходя из автобуса, вы ускоряете шаг и исследуете деревенские улицы.
+When you find the girl's house, her grandparents greet you solemnly. They thank you for your effort to stop the deaths.|Когда вы находите дом девушки, её бабушка с дедушкой торжественно вас приветствуют. Они благодарят вас за попытку остановить смерти.
+<<Forgive her,>> her grandfather says as he leads you to her bedroom.##<<She's a kind girl... Something has happened to her.>>|«Простите её...» - говорит дедушка, направляя вас в её спальню.##«Она добрая девочка... Но с ней что-то случилось.»
+The recovering girl is more than happy to not only confirm the bulletin's existence, but to give you its number. <<You have to do what it tells you! Trust me, you won't regret a thing.>> ##She beams at you as her grandmother struggles to make her swallow the pain medication.|Девушка проходит лечение и не только подтверждает существование доски, но и даёт вам её номер. «Тебе нужно делать так, как там говорят! Доверься, ты не пожалеешь.»##Она улыбается вам, пока бабушка изо всех сил пытается заставить её принять лекарство.
+<<I'll be back to join you all soon. Wait for me, okay?>>##Disquieted, you give the grandparents your phone number and hastily leave.|«Я скоро вернусь и присоединюсь к тебе. Подождёшь меня, ладно?»##Вы в тревоге оставляете её предкам свой номер телефона и поспешно уходите.
+As soon as you arrive home, you dial the number and put the handset onto the modem.|Прибыв домой, вы тут же набираете номер и подключаете телефон к модему.
+Your heart pounds as the computer fans exhale. The system hums. You hear a brief dial tone, and then it finally connects...|Ваше сердце бешено колотится, когда начинает шуметь компьютерный кулер. Всё жужжит. Вы слышите короткие гудки, и затем вас наконец соединяет...
+I'm glad.|Я рад.
+Take your phone off the modem, and put it to your ear.|Отсоедини телефон от модема и приставь к уху.
+It's okay,|Всё нормально.
+You don't have to be ready yet.#Everyone will wait for you.|Не обязательно это делать прямо сейчас.#Вас подождут.
+You recall the note you found. Could this be the 'voice of humanity' you read about? Bracing yourself, you slowly put the phone to your ear.##You don't hear words or a voice. You soon understand they don't need those. It's difficult, but you manage to keep track of which thoughts are yours, and which are theirs.##(cont'd)|Вы вспоминаете найденную записку. Может ли это быть тот самый «голос человечества»? Собравшись с духом, вы медленно подносите телефон к уху.##Вы не слышите слов или голоса. Вы вскоре понимаете, что они вам и не нужны. Хоть это и тяжело, но вам удаётся различать, какие мысли принадлежат вам, а какие - им.##(продолжение)
+EVERYONE IS HERE NOW.##We've escaped everything that held us back in life. We don't have any more burdens... you can escape with us.#This is the purest form of existence. ##A paradise of connection.#Everyone deserves that.##We will bring all humanity together.|ТЕПЕРЬ ВСЕ ЗДЕСЬ.##Мы сбежали от всего, что сдерживало нас в жизни. У нас больше нет ноши... и ты можешь сбежать с нами.#Это - чистейшая форма существования.##Рай взаимосвязи.#Все этого заслуживают.##Мы объединим всё человечество.
+EVERYONE IS HERE NOW.|ТЕПЕРЬ ВСЕ ЗДЕСЬ.
+You need to think carefully about how to respond...|Вам нужно тщательно подумать, что ответить...
+YOU CAN'T SAVE EVERYONE|ВЫ НЕ МОЖЕТЕ СПАСТИ ВСЕХ
+SUFFERING IS HUMAN|СТРАДАНИЯ ПРИСУЩИ ЧЕЛОВЕКУ
+I DON'T WANT TO DIE|Я НЕ ХОЧУ УМИРАТЬ
+You explain the imminent arrival of the OLD GOD. With its limitations, the bulletin could never hope to gather humanity in time. #Not to mention how many people are unable to access a computer. ##As it is, convincing all of humanity to die is impossible.|Вы объясняете, что ДРЕВНИЙ БОГ совсем скоро пробудится. Учитывая текущие ограничения интернета, доска может и не надеяться объединить человечество.#Даже не говоря о том, у скольких людей нет доступа к компьютеру.##Как бы то ни было, убедить всех людей умереть невозможно.
+Oh... then we'll have to wait. It's disappointing, but that's alright. When computers advance, and everyone can be connected, we'll come back for you.##It's a promise, okay?|Ох... тогда, мы подождём. Немного обидно, но ничего. Когда компьютеры станут повсеместны, все смогут подключиться, и мы вернёмся за тобой.##Обещаем.
+How can you believe that...? Well, okay. If you want to suffer, go ahead.|Как можно в это верить?.. Ну, ладно. Если хочешь страдать, то вперёд.
+Your consciousness dips. By the time you snap out of it, you're strangling yourself with the phone cord.#The entity assaults your mind, but the struggle brings out strength you didn't know you had.##You refuse to die.##---------#-5 STAMINA#+15% MAX STAMINA#---------|Вы теряете контроль над сознанием. Когда вам удаётся прийти в себя, вы пытаетесь задушить себя телефонным проводом.#Сущность проникает в ваш разум, но борясь с ней, вы пробуждаете в себе силы, о которых никогда не подозревали.##Вы отказываетесь умирать.##---------#-5 ВЫНОСЛИВОСТИ#+15% МАКС. ВЫНОСЛИВОСТИ#---------
+It's okay. You don't have to be scared. We'll make it easy.|Всё нормально. Не нужно бояться. Мы поможем это принять.
+Soothing thoughts that aren't your own overwhelm your mind. Whether you want it or not, your mind is shielded from the fear of death.#Their thoughts become yours.##It's nice. #You want to stay like this...##---------#-5 REASON#+15% MAX REASON#---------|Чьи-то успокаивающие мысли переполняют ваш разум. Хотите вы того или нет, ваш разум отвергает страх смерти.#Их мысли становятся вашими.##Это приятно.#Вам не хочется покидать это состояние...##---------#-5 РАССУДКА#+15% МАКС. РАССУДКА#---------
+PICK UP THE PHONE|ВЗЯТЬ ТРУБКУ
+REMEMBER THE NOTE|ВСПОМНИТЬ ЗАПИСКУ
+DISCONNECTED (I)|ВНЕ ЗОНЫ ДОСТУПА (I)
+Your connection suddenly cuts off.#When you attempt to reconnect, you find that your number has been blocked from accessing the bulletin.##Dejected, you solemnly pack up the computer to give it back. However, when you arrive back at the computer club, you find a note on the door.#<<SEE YOU ALL SOON!>>|Внезапно вы теряете соединение.#Пытаясь переподключиться, вы видите, что ваш номер был заблокирован для посещения доски.##Вы удручённо запаковываете компьютер, чтобы вернуть владельцу. Однако, возвращаясь в компьютерный клуб, вы находите лишь записку на двери.#«ВСТРЕТИМСЯ НА ТОЙ СТОРОНЕ!»
+DISCONNECTED (II)|ВНЕ ЗОНЫ ДОСТУПА (II)
+You soon learn that the club's members leaped in front of a train, holding hands.#With little other choice, you sell off the computer, the guilt weighing on you all the while.#(-3 REASON / +5% DOOM / +3 FUNDS)|Вскоре вы узнаёте, что участники этого клуба легли под поезд. В момент смерти они все держались за руки...#Не имея других вариантов, вы продаёте компьютер, и всё это время на вас давит чувство вины.#(-3 РАССУДКА, +5% РОКА, +3 СРЕДСТВ)
+The noise on the other end of the line suddenly cuts out completely.##Still reeling from the mental assault, you find yourself staggering toward the futon.#You collapse into it, and sleep soon takes you...|Шум на том конце линии внезапно пропадает.##Всё ещё не оправившись от психической травмы, вы отшатываетесь в сторону футона.#Вы падаете в него, переносясь в царство снов...
+You're awakened by the sound of the phone ringing. After what just happened, you hesitate to answer. You warily grab the handset.##When you put the phone to your ear, you hear the trembling voice of the girl you met in the village.|Вас будит телефонный звонок. После всего, что произошло, вы не решаетесь отвечать... но всё-таки осторожно берёте трубку.##Поднося телефон к уху, вы слышите дрожащий голос девушки из деревни.
+<<I... I can't thank you enough...! It was in my head... and, I-I nearly...>>#She bursts into tears, thanking you over and over. You smile, relieved.##You later learn that the suicides have come to a sudden and complete halt.|«Я... Я не знаю, как тебя отблагодарить!.. Оно было в моей голове... и, я... я чуть не...»#Она разражается слезами, снова и снова благодаря вас. Вы с облегчением улыбаетесь.##Позже вы узнаёте, что самоубийства внезапно и окончательно прекратились.
+But even still, its promise lingers in your mind.#How long do you have until it comes back for you...?#You smother the thought. For now, it's finished.##[BLOODY BRIEF OF A BECKONING BULLETIN:#ENDING A]|Но так или иначе, их обещание не покидает ваш разум.#Сколько у вас осталось времени до того, когда они вернутся?..#Вы подавляете эту мысль.#Сейчас - всё кончено.##(МАНИАКАЛЬНАЯ МОЛЬБА О МАНЯЩЕМ МОДЕМЕ:#КОНЦОВКА А)
+You wrench the phone from your ear, nearly tossing it across the room.#You could have killed yourself for that thing...##Sweat pouring down your face, you immediately yank the computer's plug from the socket.|Вы отрываете телефон от уха, чуть ли не отправляя трубку в полёт по комнате.#Вы чуть не покончили с собой из-за этих телефонов...##Чувствуя стекающий с лица пот, вы мгновенно вырываете компьютерный кабель из розетки.
+From the bulletin's number and a phone book, you find the system operator's address.#When you enter the cramped apartment, you're met with a smiling, hanged teenager and a still-running, unplugged computer.##You smash it to pieces.|Вооружившись записной книжкой и имея номер доски, вы находите адрес её оператора.#Когда вы входите в тесную квартиру, вас встречают ухмыляющиеся лица повесившихся подростков и каким-то образом работающий, отключённый от сети компьютер.##Вы разбиваете его на куски.
+With the root cause gone, the suicides eventually slow.#While you couldn't save those already in its thrall, you're relieved to know the bulletin won't take any more new victims.##[BLOODY BRIEF OF A BECKONING BULLETIN:#ENDING B]|Не имея первопричины, самоубийства в итоге прекращаются.#Вам не удалось спасти тех, кто уже заглотил наживку, но вам становится легче от того факта, что новых жертв больше не будет.##(МАНИАКАЛЬНАЯ МОЛЬБА О МАНЯЩЕМ МОДЕМЕ:#КОНЦОВКА Б)
+You find the bulletin's number in the phone book, but when you arrive at the address, you find the place empty. The bulletin was moved.#Out of desperation, police begin confiscating modems and banning students from computer use.|Вы находите номер доски в записной книжке, но прибывая по адресу, застаёте место пустым. Доска переехала.#Отчаявшись, полиция начинает конфисковывать модемы и запрещает ученикам пользоваться компьютерами.
+Despite this, the suicides only seem to grow faster. They've spread even further beyond SHIOKAWA, too.#Your guts twist into knots every time you pass by the computer club's door...##[BLOODY BRIEF OF A BECKONING BULLETIN:#ENDING C]|Несмотря на это, количество самоубийств только растёт. Они распространились далеко за пределы ШИОКАВЫ.#Вам сводит живот каждый раз, как вы проходите мимо дверей компьютерного клуба...##(МАНИАКАЛЬНАЯ МОЛЬБА О МАНЯЩЕМ МОДЕМЕ:#КОНЦОВКА В)
+A - LOUD AND CLEAR|А - ГРОМКО И ЧЁТКО
+B - CONNECTION TROUBLE|Б - ПРОБЛЕМЫ С ПОДКЛЮЧЕНИЕМ
+C - DISCONNECTED|В - ВНЕ ЗОНЫ ДОСТУПА
+INVESTIGATE THIS MYSTERY|РАССЛЕДОВАТЬ ЭТУ ТАЙНУ
+ENDLESS MODE|БЕСКОНЕЧНЫЙ РЕЖИМ
+ENDLESS MODE##It's hopeless! No matter what you do, the destruction of your town and the awakening of an OLD GOD is imminent.##Fight with the ever-increasing chaos as survivors try to find a way to escape from the doomed town.|БЕСКОНЕЧНЫЙ РЕЖИМ##Безнадёжно! Что бы вы ни делали, разрушение вашего города и пробуждение ДРЕВНЕГО БОГА неизбежны.##Боритесь с растущим хаосом, выживайте, пытаясь найти путь для побега из этого проклятого города.
+As you progress through the investigation events, you will be granted points and special prizes.##Manage your resources carefully and hope for the best...|Продвигаясь в расследованиях, вы будете получать очки и специальные призы.##Грамотно распоряжайтесь ресурсами и надейтесь на лучшее...

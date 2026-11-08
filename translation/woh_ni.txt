@@ -1,0 +1,177 @@
+MYSTERIOUS MYTH OF MEDUSA METAMORPHOSIS|МОНСТРУОЗНЫЙ МИФ О МЕТАМОРФОЗАХ МЕДУЗ
+MYSTERIOUS MYTH OF MEDUSA METAMORPHOSIS##Everyone is talking about this weird giant jellyfish ambushing swimmers.##Even the local biology teacher can't identify the species as more and more people end up hurt badly.|МОНСТРУОЗНЫЙ МИФ О МЕТАМОРФОЗАХ МЕДУЗ##Все говорят о странной гигантской медузе, подстерегающей пловцов.##Даже местный учитель биологии не может определить её вид. Тем временем всё больше и больше людей получают серьёзные травмы.
+You remember, from reading an article, that a famous marine biologist is spending his vacation in the city.##Maybe you should seek help from him?|Вы вспоминаете из прочтённой газеты, что в вашем городе проводит отпуск известный морской биолог.##Может, вам стоит попросить помощи у него?
+CNIDARIA STUDY|ИЗУЧЕНИЕ КНИДАРИИ
+Investigate the SCHOOL location twice to complete this quest.|Исследуйте ШКОЛУ дважды, чтобы завершить это задание.
+Some scientists say certain medusas don't age, constantly growing in size.|Часть учёных утверждает, что некоторые медузы не стареют, постоянно увеличиваясь в размерах.
+THE PARTLY FLOODED CAVE|ЧАСТИЧНО ЗАТОПЛЕННАЯ ПЕЩЕРА
+CLIFFSIDE CAVE|ПЕЩЕРА В СКАЛЕ
+The low tide reveals a semi-sunken cave. Is this the place where the BIOLOGIST is running their experiment?##Whatever you decide to do, you should hurry. When the high tide comes, the whole cave will be submerged underwater, potentially trapping you there!|Отлив раскрывает полузатопленную пещеру. Это - то место, где БИОЛОГ проводил свой эксперимент?##Что бы вы ни решили, вам следует поторопиться. Когда наступит прилив, пещера целиком погрузится под воду, вероятно, загнав вас в ловушку!
+ENTER THE CAVE|ВОЙТИ В ПЕЩЕРУ
+THE MEAT BEAST|МЯСНОЙ ЗВЕРЬ
+You explore the cave, trying not to slip and fall into the cold water. Hearing some weird noise from behind a corner, you brace yourself...##A humanoid creature seems to have no skin! Its black blood courses through yellow veins, and its pale sinew and powerful muscles are visible!##It screams and lunges at your direction!|Вы исследуете пещеру, пытаясь не поскользнуться и не упасть в холодную воду. Услышав странные звуки из-за угла, вы готовитесь к бою...##Вы видите гуманоидное существо, у которого будто нет кожи! Чёрная кровь течёт по его жёлтым венам, а бледные сухожилия и мощные мышцы выставлены напоказ!##Оно кричит и бросается на вас!
+ATTACK!|СРАЖАТЬСЯ!
+It's only after the MEAT HORROR falls to the ground dead that you notice a bag further down the cave.##Inside, you find a bunch of neatly folded clothes and a journal.##It belongs to the famous marine biologist you were looking for!|Только после того, как МЯСНОЙ УЖАС замертво падает на землю, вы проходите дальше по пещере и замечаете сумку.##Внутри вы находите кучу аккуратно сложенных вещей и журнал.##Он принадлежит известному морскому биологу, которого вы и искали!
+The last entry dates back to when the jellyfish attacks started.##<<The ancient tablet I've found when exploring the caves near SHIOKAWA has... for the lack of a better word, cursed me.>>|Последняя запись относится к тому времени, когда начались нападения медуз.##«Древняя табличка, которую я нашёл, исследуя пещеры близ ШИОКАВЫ... как бы сказать, прокляла меня.»
+<<I can't explain this, but every other night, my skin slips off my body as if it has a mind of its own...>>##<<It always returns to me in the morning... I just have to wait in the cave where the tablet was. What is happening to me?!>>|«Я не могу это объяснить, но через ночь моя кожа срывается с моего тела, будто обретая собственный разум...»##«Она всегда возвращается ко мне утром... Мне просто нужно подождать в пещере, где была табличка. Что со мной происходит?!»
+What will happen to the giant skin jellyfish without its host's body? You have no idea, and hopefully, you will never learn the answer yourself.##[MYSTERIOUS MYTH OF MEDUSA METAMORPHOSIS:#ENDING A]|Что произойдёт с гигантской кожаной медузой без тела носителя? Вы понятия не имеете и хочется надеяться, что никогда не узнаете ответ.##(МОНСТРУОЗНЫЙ МИФ О МЕТАМОРФОЗАХ МЕДУЗ:#КОНЦОВКА А)
+[SKIN JELLYFISH]: it's still out there|(КОЖАНАЯ МЕДУЗА): всё ещё на свободе
+The famous biologist is spending his vacation at the seaside mansion.##You need to take a bus there.|Известный биолог проводит свой отпуск в прибрежном поместье.##Вам нужно сесть на автобус до туда.
+Taking the bus, you can't help but notice the large number of trees that have suddenly died.##What could be the cause?|Находясь в автобусе, вы не можете не заметить большое количество внезапно погибших деревьев.##Что могло стать причиной?..
+You finally arrive at the seaside. The water here is unnaturally cold and unwelco-- wait a minute...|Наконец, вы прибываете на побережье. Вода здесь неестественно холодная и непривет--, подождите-ка...
+T-that's weird...##You shouldn't be able to see the LIGHTHOUSE from this side of the bay...|С-странно...##МАЯК не должен быть виден с этой стороны залива...
+Some of the mansions are abandoned and the roads leading to them are overgrown.##You have to, somehow, find BIOLOGIST's vacation home.|Некоторые поместья заброшены, а дороги, ведущие к ним, заросли.##Вам нужно каким-то образом найти дом, где отдыхает БИОЛОГ.
+You finally enter the right place. Inside, there are many jars with various jellyfish species - but where is the BIOLOGIST himself?..|Вы наконец входите в нужный дом. Внутри стоит множество банок с различными видами медуз - но где сам БИОЛОГ?..
+Inside a dusty study, you find a map of the cliffside with one point clearly marked...##Is this where the BIOLOGIST is performing his studies?|Среди пыльных заметок вы находите карту, на которой чётко отмечено одно место у скалы...##Именно здесь БИОЛОГ проводил свои исследования?
+Standing on the beach, you realize something...##The map's coastline doesn't match the actual thing... why's that?|Стоя на пляже, вы осознаёте...##Карта берега не совпадает с реальным берегом... почему?
+The tides! The rise and fall of sea level changes the coastline. You should wait...##The low tide reveals a semi-sunken cave which|Приливы! Подъём и падение уровня моря меняют берег. Нужно подождать...##Отлив обнажит осушит затопленную пещеру, которая
+corresponds with the point marked on the map.##Reluctantly, you enter into the unknown...|находится в точке, отмеченной на карте.##Неохотно, вы вступаете в неизвестность...
+A - SKIN JELLYFISH|А - КОЖАНАЯ МЕДУЗА
+B - ??|Б - ??
+C - ??|В - ??
+NIGHTMARE NEWS OF THE NOISY NAILS|НЕСЛЫХАННЫЕ НОВОСТИ О НЕЩАДНЫХ НОГТЯХ
+NIGHTMARE NEWS OF THE NOISY NAILS##The morbid killing spree continues as another body is found in the city's river.##Every victim shares one common trait. Their finger and toe nails are missing...##They've been pried off.|НЕСЛЫХАННЫЕ НОВОСТИ О НЕЩАДНЫХ НОГТЯХ##Город продолжает сотрясать ужасающая волна убийств, поскольку в реке обнаруживают очередное тело.##Всех жертв объединяет одна черта: на ногах и руках у них отсутствуют ногти...##Их отрывают.
+Why nails?##Could the killer have a hidden motive? Are they sending a message?#You must hurry up before they claim another victim...|Почему ногти?##Может, у убийцы есть скрытый мотив? Он пытается послать сообщение?#Вы должны поспешить, пока он не записал очередную жертву на свой счёт...
+MACABRE MANICURE|МРАЧНЫЙ МАНИКЮР
+gather GOSSIP about the current mystery|Соберите СПЛЕТНИ о текущей тайне.
+Could the killing have anything to do with the father who has lost his daughter in an accident?|Имеет ли это убийство какое-либо отношение к отцу, потерявшему дочь в результате несчастного случая?
+MORTUARY|МОРГ
+KILLER ENCOUNTER|СТЫЧКА С УБИЙЦЕЙ
+With no leads, a trip to the police station could be useful.#Your friend's cousin works there and she could help you.|За отсутствием зацепок, не помешало бы сходить в полицейский участок.#Там работает двоюродная сестра вашего друга, она может помочь.
+Time is of the essence, so you decide to take a shortcut through the abandoned building site.|Время не ждёт, так что вы решаете срезать путь через заброшенную стройку.
+Reluctantly, your friend's cousin gives you a photocopied file. You thank her and leave quickly.|С неохотой, двоюродная сестра вашего друга даёт вам ксерокопию дела. Вы благодарите её и быстро уходите.
+The school building seems like a safe place to study the file.|Здание школы кажется безопасным местом для изучения дела.
+The victims of the serial killer seem to be chosen randomly. There's no obvious pattern in regard to age, sex and education.|Похоже, что серийный убийца выбирал жертв совершенно случайно. Нет никакой закономерности в возрасте, поле или образовании жертв.
+You should continue your search in a hospital, where the victims are.|Вы должны продолжить поиски в больнице, где лежат тела погибших.
+You try to sneak into the mortuary but the hospital staff is on high alert.|Вы пытаетесь незаметно пробраться в морг, но персонал больницы находится в состоянии повышенной готовности.
+You decide to wait here a bit. Maybe you'll manage to find a way in.|Вы решаете немного подождать. Может, вам удастся найти другой путь внутрь.
+One of the mortuary technicians acts strangely. He has left the building and returned twice already.|Один из лаборантов морга ведёт себя странно. Он покидал здание и возвращался уже дважды.
+Each time he comes back, an ambulance with a new victim arrives...|Каждый раз, как он возвращается, приезжает скорая помощь с новой жертвой...
+You notice that the man keeps his hospital key in a back pocket.|Вы замечаете, что он хранит ключ от больницы в заднем кармане.
+If you could steal it, entering the hospital would be much easier.|Если бы вы смогли его украсть, проникнуть в больницу было бы куда проще.
+<<Oh, I'm sorry!>>#you excuse yourself after bumping into the man.|«Ой, простите!»#- вы извиняетесь, после того как врезаетесь в него.
+He frowns and hurries away, not noticing that you've managed to steal his hospital keys!|Он хмурится и спешно уходит, не замечая, что вам удалось украсть его больничные ключи!
+It's getting dark and the suspicious man has not returned yet.|Уже темнеет, а подозрительный мужчина до сих пор не вернулся.
+Now is your only chance to check out the mortuary and learn about the serial killer's victims...|Сейчас - ваш единственный шанс заглянуть в морг и узнать больше о жертвах серийного убийцы...
+ALLEYWAY ENCOUNTER|СТЫЧКА В ПЕРЕУЛКЕ
+You are stopped by a tall man wearing a dirty Kabuki mask.#<<Don't make it harder than it needs to be.. Give me your fingers.>>##You hesitate, seeing something metallic in the man's hand.|Вас останавливает высокий мужчина, носящий грязную маску Кабуки.#«Не усложняй ситуацию... Покажи мне свои пальцы.»##Вы колеблетесь, увидев в руке мужчины что-то металлическое.
+agree|согласиться
+try to run|попытаться сбежать
+You extend your arm and the masked man grabs your hand, studying it. Before you can protest, he takes a pair of pliers out of his pocket and rips off one of your nails.#(why? / -1 STAMINA)|Вы протягиваете руку, и мужчина в маске хватает её, изучая. Вы не успеваете даже возразить, когда он выхватывает из кармана плоскогубцы и отрывает один из ваших ногтей.#(зачем?, -1 ВЫНОСЛИВОСТИ)
+You've managed to run from the masked man.#(+5 EXP)|Вам удаётся сбежать от мужчины в маске.#(+5 ОПЫТА)
+You try to run, but trip and fall to the ground.##The masked man jumps on you and rips off a couple of your nails with a pair of pliers.#(why? / -2 STAMINA)|Вы пытаетесь сбежать, но спотыкаетесь и падаете на землю.##Мужчина в маске запрыгивает на вас и отрывает несколько ногтей плоскогубцами.#(зачем?, -2 ВЫНОСЛИВОСТИ)
+ALWAYS WATCHING|ВСЕГДА НАБЛЮДАЕТ
+You can't shake off the feeling that you are being watched...#(-2 REASON)|Вы не можете избавиться от чувства, что за вами наблюдают...#(-2 РАССУДКА)
+ANOTHER VICTIM|ОЧЕРЕДНАЯ ЖЕРТВА
+On your way to the next destination, you stop the tall man wearing a dirty Kabuki mask.#He is talking to a woman and slowly reaching into his pocket...|На пути к следующей точке расследования, вы натыкаетесь на высокого мужчину в грязной маске Кабуки.#Он разговаривает с женщиной и медленно тянет руку в карман...
+alert the woman|предупредить женщину
+run before he notices you|убежать, пока он не заметил вас
+You decide to act quickly and run between the pair, screaming.##The panicked woman flees but the masked man grabs you by your neck.##Before you can protest, he takes a pair of pliers out of his pocket and rips off one of your nails.#(why? / -1 STAMINA)|Вы решаете действовать быстро и с криками врываетесь между ними.##Женщина, паникуя, сбегает, но мужчина в маске успевает схватить вас за шею.##Вы не успеваете даже возразить, когда он выхватывает из кармана плоскогубцы и отрывает один из ваших ногтей.#(зачем?, -1 ВЫНОСЛИВОСТИ)
+You quickly flee from the pair and pretend you can't hear the woman's screams...#(+1% DOOM)|Вы быстро убегаете от пары и делаете вид, что не слышите крики женщины...#(+1% РОКА)
+The horrible nails beast finally stops moving. Knowing you won't be able to explain it to the police, you trigger the fire alarm and escape before anyone arrives.|Ужасный ноготочный зверь наконец перестаёт двигаться. Зная, что вы не сможете объяснить ситуацию полиции, вы включаете пожарную тревогу и сбегаете, пока никто не успел приехать.
+A father's grief led to the creation of this monster. Hopefully, they will be joined in death...|Горе отца привело к созданию этого монстра. Хочется надеяться, что они вновь увидятся на том свете...
+The dreaded KABUKI KILLER finally falls to the ground, dead.##You alert the hospital staff and soon the whole floor is swarming with police. After a brief interrogation, you're free to go.|Ужасный УБИЙЦА КАБУКИ, наконец, падает на пол замертво.##Вы предупреждаете персонал больницы, и вскоре этаж заполняется полицией. После небольшого допроса, вас отпускают.
+Two questions still remain. What did the killer do with the nails of his victims, and who broke the mortuary's window and fled before the cops arrived?|До сих пор два вопроса остаются без ответа. Что убийца делал с ногтями своих жертв, и кто разбил окно морга и сбежал до прибытия полиции?
+HOSPITAL CORRIDOR|КОРИДОР БОЛЬНИЦЫ
+Using the HOSPITAL KEY, you've managed to enter the mortuary floor unnoticed.##The hospital floor is eerily quiet. You prepare your weapon, wondering what's going to happen next.|Использовав КЛЮЧ ОТ БОЛЬНИЦЫ, вы незаметно входите в морг.##Этот этаж пугающе тихий. Вы готовите оружие, размышляя, что же случится дальше.
+enter the mortuary|войти в морг
+MORTUARY|МОРГ
+The whole room has a pungent, irritating smell you can barely stand.##All the dissection tables are empty and you're afraid to think where the bodies are now.##You must hurry up before the suspected killer returns back.|Во всем помещении стоит резкий, раздражающий запах, который вам едва удаётся вытерпеть.##Все столы для вскрытий пусты, и вам страшно даже представить, где сейчас находятся тела.##Вы должны поторопиться, пока предполагаемый убийца не вернулся.
+leave the room|покинуть помещение
+is that... a human nail?|это... человеческий ноготь?
+A - GRIEVING FATHER|А - СКОРБЯЩИЙ ОТЕЦ
+B - UNFINISHED CHILD|Б - НЕЗАВЕРШЁННОЕ ДИТЯ
+C - ??|В - ??
+FREAKISH FABLE OF A FRIGHTENING FLOOD|ПРИЧУДЛИВОЕ ПРЕДАНИЕ О ПУГАЮЩЕМ ПОТОПЕ
+FREAKISH FABLE OF A FRIGHTENING FLOOD##A group of researchers from a university in Tokyo are researching a curious rock formation. #It was discovered a few weeks ago by tourists in a village next to Shiokawa.|ПРИЧУДЛИВОЕ ПРЕДАНИЕ О ПУГАЮЩЕМ ПОТОПЕ##Группа исследователей из Токийского университета изучает любопытное каменное образование.#Оно было найдено несколько недель назад туристами, в деревне близ Шиокавы.
+You've read about it in a newspaper. The sudden disappearance of the tourists was the subject of school gossip for a few days, but ultimately no one was found.|Вы читали об этом в газете. Внезапное исчезновение туристов стало объектом школьных сплетен на несколько дней, но в итоге ни один из пропавших не был найден.
+The rock formation must be somehow connected to the events happening in your town. Feeling that the researchers can help you, you decide to pack yourself and visit the village yourself...|Каменное образование, должно быть, как-то связано с событиями, происходящими в вашем городе. Чувствуя, что исследователи могут вам помочь, вы решаете собраться и посетить деревню лично...
+You've managed to defeat the mysterious assailant, but he flees into the woods before you can tear his mask off.##Who was that?!|Вам удалось победить загадочного противника, но он сбегает в лес до того, как вы успеваете снять с него маску.##Кто это был?!
+MATSUDA-SAN has told you all the research notebooks are in one of the classrooms of the closed school.##You'll have to break in.|МАЦУДА-САН сказал вам, что все тетради с исследованиями лежат в одном из классов закрытой школы.##Вам придётся проникнуть внутрь.
+SCHOOL|ШКОЛА
+VILLAGE|ДЕРЕВНЯ
+FOREST|ЛЕС
+KAORI YUTO, linguist|КАОРИ ЮТО, лингвист
+SAKINA OKADA, geologist|САКИНА ОКАДА, геолог
+HIROKI SHINOHE, theologist|ХИРОКИ ШИНОХЕ, теолог
+The river's water level is rising and the village will soon be cut off from the outside world. Hurry up!#Researchers missing:|Уровень воды в реке повышается, и деревня скоро будет отрезана от внешнего мира. Поторопитесь!#Пропавших исследователей:
+The river's level is too high and waves crash against the village's buildings. Run before the water devours you!|Уровень реки слишком высок, и волны разбиваются о здания деревни. Бегите, пока вода не поглотила и вас!
+All villagers have disappeared... where are they?|Все жители деревни исчезли... где они?..
+You've managed to find one of the researchers|Вам удалось найти одного из исследователей
+[goal: escape]|(задача: сбежать)
+[goal: rescue the team or escape]|(задача: спасти команду или сбежать)
+[goal: search for the missing team]|(задача: искать пропавшую команду)
+[goal: search the SCHOOL for notes]|(задача: искать заметки в ШКОЛЕ)
+[goal: reach the inn]|(задача: добраться до ГОСТИНИЦЫ)
+You've managed to find the empty classroom MATSUDA-SAN was talking about. The researchers are gone but hopefully, the notes you've found will help you locate them.|Вам удалось найти пустой кабинет, о котором говорил МАЦУДА-САН. Исследователи пропали, но хочется надеяться, что найденные записки помогут их отыскать.
+NEGLECTED BUS STOP|ЗАБРОШЕННАЯ АВТОБУСНАЯ ОСТАНОВКА
+investigate the CURIOUS ROCK FORMATION|исследовать ЛЮБОПЫТНОЕ КАМЕННОЕ ОБРАЗОВАНИЕ
+rest at the INN|отдохнуть в ГОСТИНИЦЕ
+break into the SCHOOL|проникнуть в ШКОЛУ
+check out the VILLAGE|проверить ДЕРЕВНЮ
+explore the FOREST|исследовать ЛЕС
+KAIBARA VILLAGE - ARRIVAL#|ДЕРЕВНЯ КАЙБАРА - ПРИБЫТИЕ#
+KAIBARA VILLAGE|ДЕРЕВНЯ КАЙБАРА
+You can see the curious rock formation from the bridge leading to the village.#The researchers are nowhere to be seen.##Did the weather scare them off?|Вы видите странное каменное образование с моста, ведущего в деревню.#Исследователей нигде не видно.##Может, их отпугнула погода?
+<<KAIBARA VILLAGE, the final stop!>>#The bus suddenly stops as the driver opens the door.#Reluctantly, you notice you're still far from the village itself. However, before you can ask any questions, the bus's doors close...|«ДЕРЕВНЯ КАЙБАРЫ, конечная остановка!»#Автобус внезапно останавливается, и водитель открывает двери.#С неохотой, но вы всё же подмечаете, что находитесь ещё далеко от самой деревни. Так или иначе, вы не успеваете даже задать вопрос водителю, когда двери автобуса закрываются...
+CURIOUS ROCK FORMATION|ЛЮБОПЫТНОЕ КАМЕННОЕ ОБРАЗОВАНИЕ
+In the distance, you can see the village of KAIBARA.|Вдали вы видите деревню КАЙБАРА.
+The carved pillars are older than the village itself, and you couldn't find any information about them or the rituals they're connected with.|Резные колонны старше, чем сама деревня, но вы не смогли найти какую-либо информацию о них или о ритуалах, которые с ними связаны.
+You enter the inn, hoping you will find the research team there.##Every room is empty except one. In the last one, you find a visibly stressed man - MATSUDA-SAN, the expedition leader.##<<Thank god you came. We've been attacked by the villagers and got separated. I'm worried for my colleagues!>>###<<The things we've learned here, the knowledge... it's too dangerous. We must escape this place as soon as possible!>>|Вы входите в гостиницу, надеясь, что найдёте там группу исследователей.##Все комнаты пусты, кроме одной. В последней комнате вы находите заметно взволнованного мужчину - МАЦУДУ-САНА, руководителя экспедиции.##«Слава богу, вы здесь. На нас напали местные жители, и мы разделились. Я волнуюсь за своих коллег!»###«То, что мы здесь изучали, эти знания... они слишком опасны. Мы должны сбежать отсюда как можно скорее!»
+MATSUDA-SAN gulps and looks out of the window before continuing.##<<The last time I saw my team was at the school, we used an empty classroom to keep our research notes and equipment.##You should look there for clues. Remember, we must flee before the river level gets too high or else... >>|МАЦУДА-САН сглатывает и смотрит в окно, прежде чем продолжить.##«Последний раз я видел свою команду в школе. Мы использовали пустой кабинет для хранения заметок и оборудования.##Поищите зацепки там. Запомните, мы должны сбежать до того, как уровень воды в реке вырастет, иначе...»
+REST (+2 STAMINA / +2 REASON)|ОТДОХНУТЬ (+2 ВЫНОСЛИВОСТИ, +2 РАССУДКА)
+ESCAPE THE VILLAGE|СБЕЖАТЬ ИЗ ДЕРЕВНИ
+LEAVE THE BUILDING|ПОКИНУТЬ ЗДАНИЕ
+<<You shouldn't rest now.>>|«Вам не следует сейчас отдыхать.»
+<<You can't leave yet.>>|«Вам пока нельзя уходить.»
+<<Why are you here, you need to find the research notes!>>|«Чего вы здесь ждёте? Вам нужно найти заметки с исследованиями!»
+MATSUDA-SAN, the expedition leader holds his suitcase in one hand and a knife in the other.##<<This is our only chance, let's go!>>|МАЦУДА-САН, руководитель экспедиции, держит чемодан в одной руке, и нож - в другой.##«Это наш единственный шанс, идём!»
+- blocked -|- заблокировано -
+<<You need to find at least one of my colleagues. I won't leave this place alone!>>|«Вам нужно найти хотя бы одного из моих коллег. Я не уйду отсюда один!»
+You rest a bit. (+2 STAMINA / +2 REASON)|Вы немного отдохнули. (+2 ВЫНОСЛИВОСТИ, +2 РАССУДКА)
+The eldritch monster disappears as suddenly as it appeared.##All that's left of KAIBARA village is a group of deeply confused villagers. Sadly, it's too late for MATSUDA-SAN.|Сверхъестественный монстр исчез так же внезапно, как и появился.##Всё, что осталось от деревни КАЙБАРА - группа сильно растерянных жителей. К сожалению, для МАЦУДЫ-САНА уже слишком поздно.
+The research team has parked their jeep on a hill that wasn't affected by the flood.#They drive you back to SHIOKAWA and promise that they will alert the university.|Исследовательская группа припарковала свой джип на холме, который не пострадал от наводнения.#Они отвозят вас обратно в ШИОКАВУ и обещают, что уведомят университет.
+You can only hope that help will arrive in time.##[FREAKISH FABLE OF A FRIGHTENING FLOOD:#ENDING B]|Вы можете лишь надеяться, что помощь прибудет вовремя.##(ПРИЧУДЛИВОЕ ПРЕДАНИЕ О ПУГАЮЩЕМ ПОТОПЕ:#КОНЦОВКА Б)
+The eldritch monster disappears as suddenly as it appeared.##All that's left of KAIBARA village is a group of deeply confused villagers. Among them, you quickly locate the embarrassed MATSUDA-SAN.|Сверхъестественный монстр исчез так же внезапно, как и появился.##Всё, что осталось от деревни КАЙБАРА - группа сильно растерянных жителей. Среди них вы быстро находите обеспокоенного МАЦУДУ-САНА.
+Luckily, the research team parked their jeep on a hill that wasn't affected by the flood.#Knowing that time is of the essence, they drive you back to SHIOKAWA and promise that they will alert the government.|К счастью, исследовательская группа припарковала свой джип на холме, который не пострадал от наводнения.#Понимая, что время не ждёт, они отвозят вас обратно в ШИОКАВУ и обещают, что уведомят правительство.
+You can only hope that help will arrive in time.##[FREAKISH FABLE OF A FRIGHTENING FLOOD:#ENDING A]|Вы можете лишь надеяться, что помощь прибудет вовремя.##(ПРИЧУДЛИВОЕ ПРЕДАНИЕ О ПУГАЮЩЕМ ПОТОПЕ:#КОНЦОВКА А)
+A - TRUST THE GOVERNMENT|А - ДОВЕРИТЬСЯ ПРАВИТЕЛЬСТВУ
+B - SABBATICAL|Б - ОТПУСК
+C - BIGGEST LITTLE VILLAGE|В - САМАЯ БОЛЬШАЯ МАЛЕНЬКАЯ ДЕРЕВНЯ
+contains two new mysteries|содержит две новые тайны
+partied too hard|слишком сильно веселились
+FLOODED NAILS|ЗАЛИТЫЕ НОГТИ
+win your sixth playthrough|победите в шести забегах
+FULL|ПОЛНЫЙ
+UNFORTUNATE ACCIDENT|НЕСЧАСТНЫЙ СЛУЧАЙ
+own both baseball bats|заимейте обе бейсбольные биты
+SPORE INFECTION|ЗАРАЖЕНИЕ СПОРАМИ
+defeat KINOKO GATHERER without any weapon|победите СБОРЩИКА КИНОКО без оружия
+INTRUSIVE THOUGHTS|НАВЯЗЧИВЫЕ МЫСЛИ
+forget five spells in one playthrough|забудьте пять заклинаний в одном забеге
+INSATIABLE LUST|НЕУТОЛИМАЯ ЖАЖДА
+defeat a HUMAN enemy in one combat round|победите ЧЕЛОВЕКА за один боевой ход
+do something|сделайте что-нибудь
+win your seventh playthrough|победите в семи забегах
+HOMERUN|ХОУМРАН
+complete a playthrough with YUMIKO|завершите забег за ЮМИКО
+DUDE|ЧУВАК
+complete all achievements|откройте все достижения
+Flesh and gore. Skin, strands of hair, bones, insects, flowers, sweat and soil. All in a macabre unity, melded as one.|Плоть и кровь. Кожа, пряди волос, кости, насекомые, цветы, пот и почва. Все, в жутком единстве, слившиеся в одно целое.
+Perfect form. A flawless vessel to nurture an infant God.|Идеальная форма. Безупречный сосуд для вскармливания новорожденного Бога.
+Look, a new ITEM has appeared in your INVENTORY on the upper right corner. Select the ITEM with your cursor and open this ITEM's sub-menu, then select the EQUIP button (highlighted).|Смотрите, новый предмет появился у вас в ИНВЕНТАРЕ в правом верхнем углу. Выберите ПРЕДМЕТ курсором и откройте меню этого предмета, а затем выберите опцию ЭКИПИРОВАТЬ (подсвечено).
+Could the killing have anything to do with the father who lost his daughter in an accident?|Имеет ли это убийство какое-либо отношение к отцу, потерявшему дочь в результате несчастного случая?
+As you strike the final blow, the girl's face twists oddly. The apartment's pulsing innards slow to a still.##The girl mouths something you can't make out. She smiles. You blink, and she's gone. The wall is closed up and scabbed over like nothing ever happened.|Когда вы наносите последний удар, лицо девушки странно искажается. Пульсирующая плоть квартиры затихает, затем полностью замирает.##Девушка произносит что-то, но вы не можете разобрать. Она улыбается. Вы моргаете, и она исчезает. Стена закрывается и покрывается коркой, будто ничего и не случилось.
+PERFECT FORM|ИДЕАЛЬНАЯ ФОРМА
+You feel like you shouldn't come here again... (+1% DOOM)|Вы чувствуете, что вам не стоило приходить сюда снова... (+1% РОКА)
+The WITCH has tainted your soul... (+2% DOOM)|ВЕДЬМА запятнала вашу душу... (+2% РОКА)
+CONTINUE|ПРОДОЛЖИТЬ
+CONTINUE|ПРОДОЛЖИТЬ
+FULL LOG|ВЕСЬ ЖУРНАЛ
+LEVEL UP|НОВЫЙ УРОВЕНЬ
+(continuing this story will erase this save state)|(нажав «Продолжить» вы удалите текущее сохранение)
+#[STUDENT allies will return to the schoolyard]|#(союзники-УЧЕНИКИ вернутся на школьный двор)
+timeline X|хронология X
+CLASS OF 198X|КЛАСС 198X-го
+<<What is that?... >>|«Что это такое?..»
+[the game selects a random backstory at the beginning of the game]|(игра выбирает случайную предысторию в начале забега)

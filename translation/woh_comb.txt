@@ -1,0 +1,273 @@
+[ATTACK THE MASTER CULTIST]|АТАКОВАТЬ ВЫСШЕГО КУЛЬТИСТА
+damage|урона
+Attack the chanting cultist in an attempt to stop the ritual, dealing|Атаковать культиста-заклинателя в попытке остановить ритуал, нанеся
+[SUFFER FOR ME]|ПОКАЖИ СВОИ СТРАДАНИЯ
+Lose 2 STAMINA|Вы теряете 2 ВЫНОСЛИВОСТИ
+KICK|УДАР
+[attack without a weapon]|(атаковать без оружия)
+base chance to hit|базовый шанс попасть
+The music is getting louder, you must hurry!|Музыка становится громче, вам стоит поспешить!
+A lower multiplier means that actions will take less time.|Меньший множитель означает, что действия займут меньше времени.
+Combat sequence saved!|Боевая шкала сохранена!
+[CRY FOR ME]|ПОКАЖИ СВОИ СЛЁЗЫ
+currently, your chance to hit is lowered by|в данный момент ваш шанс на попадание понижен на
+Lose 2 REASON|Вы теряете 2 РАССУДКА
+[BLEED FOR ME]|ПОКАЖИ СВОЮ КРОВЬ
+Set remaining STAMINA to 3|Понижает оставшуюся ВЫНОСЛИВОСТЬ до 3
+[GIVE UP FOR ME]|ПОКАЖИ СВОЁ ОТЧАЯНИЕ
+Set remaining REASON to 3|Понижает оставшийся РАССУДОК до 3
+[DIE FOR ME]|ПОКАЖИ СВОЮ СМЕРТЬ
+Kills you instantly.|Мгновенно убивает вас.
+[SOMETHING EVIL IS SATED]|НЕЧТО ЗЛОЕ НАСЫТИЛОСЬ
+...for now.|...пока достаточно.
+INCORPOREAL ENEMY|БЕСТЕЛЕСНЫЙ ВРАГ
+[this attack can't hurt a ghost enemy]|(эта атака не может навредить призраку)
+GHASTLY PRESENCE|ПРИЗРАЧНОЕ ПРИСУТСТВИЕ
+GHASTLY PRESENCE prevents you from attacking this enemy.|ПРИЗРАЧНОЕ ПРИСУТСТВИЕ не даёт вам атаковать этого противника.
+LEAVE AN OFFERING|ОСТАВИТЬ ПОДНОШЕНИЕ
+Burn a material offering in an attempt to appease the ghost, dealing|Сожгите материальное подношение в попытке задобрить призрака, нанеся
+[COST: 1 FUNDS]|(СТОИМОСТЬ: 1 СРЕДСТВ)
+[this action requires FUNDS]|(это действие требует СРЕДСТВ)
+SEVER THEIR TIES TO OUR WORLD|РАЗОРВАТЬ СВЯЗЬ ПРИЗРАКА С НАШИМ МИРОМ
+Deals|Наносит
+(no weapon)|(без оружия)
+[the invisible web prevents you from running from this encounter]|(невидимая нить не даёт вам сбежать из этого боя)
+[this enemy is so massive, that this attack won't cause any damage]|(этот враг настолько большой, что эта атака не нанесёт ему никакого урона)
+SACRIFICE THE OTHER GUEST|ПОЖЕРТВОВАТЬ ДРУГОГО ГОСТЯ
+kill the other guest; it will deal 15 damage to the HORRIBLE OLD MAN|убить другого гостя; это нанесёт 15 урона ЧУДОВИЩНОМУ СТАРИКУ
+UNPLUG LIFE SUPPORT|ОТКЛЮЧИТЬ ОТ ЖИЗНЕОБЕСПЕЧЕНИЯ
+The monster seems to gain its strength from the sleeping patients. Unplugging life support from one of them will weaken the monster but kill that patient.#(deals 15 damage)#COST: 3 REASON|Похоже, что монстр получает силу от спящих пациентов. Отключение одного пациента от жизнеобеспечения ослабит монстра, но убьёт несчастного.#(наносит 15 урона)#СТОИМОСТЬ: 3 РАССУДКА
+SACRIFICE YOUR ALLY|ПОЖЕРТВОВАТЬ СВОЕГО СОЮЗНИКА
+kill your follower on an altar in an attempt to appease the enemy|убить вашего последователя на алтаре в попытке умиротворить врага
+[this action requires an ally]|(это действие требует наличие союзника)
+[one-time use only]#[needs STAMINA or REASON to be lower than 3]|(одноразовое использование)#(ВЫНОСЛИВОСТЬ или РАССУДОК должны быть ниже 3)
+DESPERATE STRUGGLE|ОТЧАЯННАЯ БОРЬБА
+[one-time use]##doubles all damage dealt during this turn|(одноразовое использование)##удваивает весь урон, наносимый в этом ходу
+PRAY|МОЛИТЬСЯ
+regain 1 STAMINA#COST: 2 REASON|восстановить 1 ВЫНОСЛИВОСТИ#СТОИМОСТЬ: 2 РАССУДКА
+MEDITATE|МЕДИТИРОВАТЬ
+regain 1 REASON#COST: 2 STAMINA|восстановить 1 РАССУДКА#СТОИМОСТЬ: 2 ВЫНОСЛИВОСТИ
+LISTEN TO THE RAMBLING|ПРИСЛУШАТЬСЯ К БОЛТОВНЕ
+[PERCEPTION-based]|(зависит от ВОСПРИЯТИЯ)
+learn a new spell or gain experience#COST: 1% DOOM|изучить новое заклинание или получить опыт#СТОИМОСТЬ: 1% РОКА
+FIRE WEAPON|ВЫСТРЕЛИТЬ
+ASK YOUR ALLY TO DISTRACT THE ENEMY|ПОПРОСИТЬ СОЮЗНИКА ОТВЛЕЧЬ ВРАГА
+If successful: faster combat action for the duration of this encounter#If failed: lose a random ally. Base chance: 70%|При успехе: боевые действия становятся быстрее в этом бою#При провале: потерять случайного союзника. Базовый шанс: 70%
+CAMERA FLASH|ВСПЫШКА КАМЕРЫ
+Use your camera's flash to temporarily blind the enemy.#(-10 POWER)|Использовать вспышку на вашей камере, чтобы временно ослепить врага.#(-10 СИЛЫ)
+[needs a firearm to perform this action]|(необходим огнестрел, чтобы совершить это действие)
+BREAK INTO MINIVAN|ВЛОМИТЬСЯ В МИНИВЭН
+Maybe there's something useful in the gardener's minivan?|Может, в минивэне садовника есть что-нибудь полезное?
+PROTECT THE GARDENER|ЗАЩИЩАТЬ САДОВНИКА
+This turn, the plants will attack you instead of SHIRO-SAN.|В этом ходу растения будут атаковать вас вместо ШИРО-САНА.
+The doorway|Дверной проём
+The doorway is blocked by thick branches.#You need to find another way out!|Дверной проём заблокирован толстыми ветками.#Вам нужно найти другой путь наружу!
+CHOP YOUR WAY OUT|ПРОРУБИТЬ ПУТЬ НАРУЖУ
+Using the FIRE AXE, you can quickly chop down the branches blocking the quick way out of this mansion!|Используя ПОЖАРНЫЙ ТОПОР, вы быстро разрубаете ветки, блокирующие короткий путь из этого поместья!
+LEAD THE GARDENER|ВЕСТИ САДОВНИКА
+Continue leading the injured man outside. You'll need to perform this action multiple times to leave the mansion.|Продолжить вести раненого человека наружу. Вам необходимо совершить это действие несколько раз, чтобы покинуть поместье.
+W-WHAT'S THAT?|Ч-ЧТО ЭТО?
+Stop and take a closer look at SHIRO-SAN's injuries.|Остановитесь и поближе рассмотрите травмы ШИРО-САНА.
+Plants are attacking you! You must protect the injured SHIRO-SAN and lead him to safety. He will continue to lose HEALTH each turn.|Растения атакуют вас! Вы должны защищать раненого ШИРО-САНА и вывести его в безопасное место. Он продолжит терять здоровье каждый ход.
+[DEXTERITY-based]|(зависит от ЛОВКОСТИ)
+[KNOWLEDGE-based]|(зависит от ИНТЕЛЛЕКТА)
+DODGE|УКЛОНИТЬСЯ
+drastically lowers the hit chance for the enemy|сильно понижает шанс противника попасть по вам
+COMBAT SKILL|БОЕВОЕ УМЕНИЕ
+reduces your EXPERIENCE by 5 and raises your chance to hit by 10% for the rest of this encounter|сокращает ваш ОПЫТ на 5 и повышает шанс попадания на 10% до конца этого боя
+[STRENGTH-based]|(зависит от СИЛЫ)
+BRACE FOR IMPACT|ПРИГОТОВИТЬСЯ К ЗАЩИТЕ
+lowers the incoming damage by half and ignores any special attack|понижает входящий урон на половину и игнорирует любую особую атаку врага
+[CHARISMA-based]|(зависит от ХАРИЗМЫ)
+[LUCK-based]|(зависит от УДАЧИ)
+LAUNCH SEQUENCE|ЗАПУСТИТЬ
+CLEAR|ОЧИСТИТЬ
+TURN|ХОД
+BEGINS!|НАЧИНАЕТСЯ!
+OFFENSIVE ACTIONS|ДЕЙСТВИЯ АТАКИ
+SUPPORT ACTIONS|ДЕЙСТВИЯ ПОДДЕРЖКИ
+DEFENSIVE ACTIONS|ДЕЙСТВИЯ ЗАЩИТЫ
+SPIRITUAL ACTIONS|СПИРИТУАЛЬНЫЕ ДЕЙСТВИЯ
+current time multiplier|текущий множитель времени
+HEALTH - defines the enemy's stamina.#You win the encounter by getting this to zero.|ЗДОРОВЬЕ - обозначает выносливость врага.#Вы побеждаете в бою, когда опускаете его до нуля.
+DAMAGE - after each sequence, enemies perform an attack draining your stamina (-STA), reason (-REA) or both (-ALL).|УРОН - после вашего хода враги производят атаку, понижающую вашу выносливость (-ВНС), рассудок (-РАС), или обе (-ВСЕ).#Некоторые атаки приближают рок (+РОК).
+POWER - this stat defines your chance to attack the enemy successfully. The higher its POWER, the harder it will be.|СИЛА - эта характеристика определяет шанс успешно атаковать врага. Чем выше СИЛА противника, тем сложнее это будет сделать.
+ATTACK WITH YOUR WEAPON|АТАКОВАТЬ ОРУЖИЕМ
+[needs an equipped weapon to perform this action]|(необходимо экипировать оружие, чтобы выполнить это действие)
+KICK|УДАР
+[attack without a weapon]|(атаковать без оружия)
+STRONG ATTACK|СИЛЬНАЯ АТАКА
+LOOK FOR AN IMPROVISED WEAPON|ПОИСКАТЬ ИМПРОВИЗИРОВАННОЕ ОРУЖИЕ
+pick up a random improvised weapon|подобрать случайное оружие
+You missed the attack!|Вы промахнулись!
+You prepare to strike...|Вы готовитесь к удару...
+[Fill the COMBAT SEQUENCE (white bar) with combat moves and click the 'LAUNCH SEQUENCE' to attack your enemy.]##(right click) - delete the last combat move|Заполните БОЕВУЮ ШКАЛУ (белая шкала) боевыми действиями, и нажмите кнопку «ЗАПУСТИТЬ», чтобы атаковать врага.##(правая кнопка мыши) - удалить последнее боевое действие
+[you can't run from this encounter]|(вы не можете сбежать из этого боя)
+RUN AWAY|СБЕЖАТЬ
+PREPARE YOUR ATTACK|ПРИГОТОВИТЬСЯ К АТАКЕ
+next attack is guaranteed to hit.|следующая атака гарантированно попадёт в цель.
+ATTACK BOOST|СОСРЕДОТОЧЕНИЕ
+your next attack has an additional 10% chance to hit; this effect stacks|шанс попасть следующей атакой увеличивается на 10%; этот эффект складывается
+BITE|УКУСИТЬ
+You bite|Вы кусаете врага
+Target|Цель
+Target the other enemy.|Сделать целью другого врага.
+ASSESS THE SITUATION|ОЦЕНИТЬ ОБСТАНОВКУ
+learn about your enemy|изучить своего врага
+BOW|ПОКЛОН
+a part of a ritual (Most combat rituals are a combination of five BOWS and CLAPS.#Even if you don't get it right, you'll be provided with a hint.)|часть ритуала (Большинство ритуалов в бою - комбинация пяти ПОКЛОНОВ и ХЛОПКОВ.#Даже если вы не угадаете, вы получите подсказку.)
+CLAP|ХЛОПОК
+NO HOPE!|НАДЕЖДЫ НЕТ!
+run from the horrible beast like a coward|трусливо убежать от этого ужасного монстра
+THIS IS TOO MUCH!|ЭТО УЖ СЛИШКОМ!
+You close your eyes, fighting the increasing dizziness...|Вы закрываете глаза, борясь с усиливающимся головокружением...
+ends the encounter for a DOOM penalty#[+0% DOOM]|закончить бой, приблизив РОК#(+0% РОКА)
+(RUNNING SHOES)|(БЕГОВЫЕ КРОССОВКИ)
+% DOOM|% РОКА
+ends the encounter for a DOOM penalty|завершает бой, приближая РОК
+FORCE MANHOLE OPEN (WITHOUT TOOL)|ОТКРЫТЬ КАНАЛИЗАЦИОННЫЙ ЛЮК СИЛОЙ (БЕЗ ИНСТРУМЕНТОВ)
+try to open the manhole cover present in the janitor's office|попробовать открыть крышку канализационного люка в кабинете уборщика
+FORCE MANHOLE OPEN (WITH TOOL)|ОТКРЫТЬ КАНАЛИЗАЦИОННЫЙ ЛЮК СИЛОЙ (С ИНСТРУМЕНТАМИ)
+TOPPLE A LAMP|ОПРОКИНУТЬ ЛАМПУ
+a spark from the broken bulb should set the highly flammable cleaning fluids on fire...|искра от разбитой лампы приведёт к возгоранию огнеопасных чистящих средств...
+PICK IT UP|ПОДОБРАТЬ
+RESOLVE COMBAT|ЗАВЕРШИТЬ БОЙ
+You've defeated|Вы победили врага -
+You punch|Вы бьёте врага -
+You kick|Вы ударяете врага -
+You stab|Вы колите врага -
+You slash|Вы режете врага -
+You shoot|Вы стреляете во врага -
+You bash|Вы избиваете врага -
+You saw through|Вы выпускаете кишки врагу -
+You've successfully run from|Вы успешно сбегаете от врага -
+ESCAPE|ПОБЕГ
+You burn|Вы сжигаете предмет -
+You've found an item|Вы нашли предмет -
+Wait, what's that?|Стоп, что это?..
+You don't have time to change the equipment.|У вас нет времени менять экипировку.
+You've already defeated the enemy.|Вы уже победили врага.
+This action needs a target enemy.|Это действие требует цель.
+KAORI YUTO|КАОРИ ЮТО
+THE LINGUIST#[+1 COMBAT DAMAGE]|ЛИНГВИСТ#(+1 УРОНА В БОЮ)
+SAKINA OKADA|САКИНА ОКАДА
+THE GEOLOGIST#[+1 COMBAT DAMAGE]|ГЕОЛОГ#(+1 УРОНА В БОЮ)
+HIROKI SHINOHE|ХИРОКИ ШИНОХЕ
+THE THEOLOGIST#[-1 INCOMING DAMAGE]|ТЕОЛОГ#(-1 ВХОДЯЩЕГО УРОНА)
+Inside the minivan, you find a can of flammable gas...|Внутри минивэна вы находите баллон с горючим газом...
+You can't find anything useful anymore...|Вы не находите больше ничего полезного...
+You prepare to protect the gardener...|Вы готовитесь защищать садовника...
+You help SHIRO-SAN walk towards the exit.|Вы помогаете ШИРО-САНУ идти к выходу.
+You've escaped the basement but SHIRO-SAN follows you!|Вы сбегаете из подвала, но ШИРО-САН следует за вами!
+The top of SHIRO-SAN's head flies off, revealing his brain! Out of it bursts the fruiting body of a fungus!|Верхняя часть головы ШИРО-САНА слетает, обнажая мозг! Из него вырывается гриб!
+You try to sever their ties to this world!|Вы пытаетесь разорвать связь призрака с этим миром!
+You burn the money! (-1 FUNDS)|Вы сжигаете деньги! (-1 СРЕДСТВ)
+[SOMETHING TRULY EVIL REQUIRES MORE]|(НЕЧТО ВОИСТИНУ ЗЛОЕ ТРЕБУЕТ БОЛЬШЕГО)
+[YOU'VE BLED ENOUGH]|(ВЫ УЖЕ ДОСТАТОЧНО ИСТЕКЛИ КРОВЬЮ)
+[YOU'LL RETURN...]|(ВЫ ВЕРНЁТЕСЬ...)
+[YOU'VE GIVEN UP ALREADY]|(ВЫ УЖЕ СДАЛИСЬ)
+has managed to distract|успешно отвлекает врага -
+has tried to distract|пытается отвлечь врага -
+but died!|, но умирает!
+You don't have any allies left!|У вас не осталось союзников!
+You throw|Вы бросаете союзника - 
+on the altar and stab them in the chest! (-3 REASON)|на алтарь и закалываете! (-3 РАССУДКА)
+The ritual makes you stronger! (+1 STAT)|Ритуал делает вас сильнее! (+1 ХАРАКТЕРИСТИКА)
+Dodging an attack, you unplug the life support machine of one of the patients.|Уклоняясь от атаки, вы отключаете от аппарата жизнеобеспечения одного из пациентов.
+The patient dies and one of the tendrils disappears... (-15 HEALTH)|Пациент умирает, и одно из щупалец пропадает... (-15 ЗДОРОВЬЯ)
+Reality shifts, your action was canceled.|Реальность смещается, ваше действие было отменено.
+Time freezes, your action was canceled.|Время останавливается, ваше действие было отменено.
+You grab a knife and stab one of the family members!|Вы берёте нож и ударяете одного из членов семьи!
+HORRIBLE OLD MAN recoils in pain! (-15 damage)|ЧУДОВИЩНЫЙ СТАРИК отшатывается от боли! (-15 ЗДОРОВЬЯ)
+HORRIBLE OLD MAN... smiles.|ЧУДОВИЩНЫЙ СТАРИК... улыбается.
+You brace yourself for an incoming attack!|Вы готовитесь к надвигающейся атаке!
+You prepare yourself to dodge the incoming attack!|Вы готовитесь увернуться от приближающейся атаки!
+It's your final chance! Don't waste it!|Это ваш последний шанс! Не упустите его!
+You meditate! (+1 REASON, -2 STAMINA)|Вы медитируете! (+1 РАССУДКА, -2 ВЫНОСЛИВОСТИ)
+You attack the chanting cultist, dealing|Вы атакуете культиста-заклинателя, нанося
+damage!|урона!
+The enemy is repeating a magical incantation!...|Враг повторяет магические заклинания...
+The enemy is repeating meaningless facts!...|Противник повторяет бессмысленные факты...
+The enemy suddenly gets silent and starts staring at you....|Противник внезапно затихает и начинает пялиться на вас...
+You pray! (+1 STAMINA, -2 REASON)|Вы молитесь! (+1 ВЫНОСЛИВОСТИ, -2 РАССУДКА)
+The gunshot is deafening!|Выстрел оглушает вас!
+You study the movement of the enemy, finding an opening!|Вы изучаете движения врага, находя дыру в обороне!
+Not enough EXPERIENCE for that action!|Недостаточно ОПЫТА для этого действия!
+You try to open the manhole...|Вы пытаетесь открыть канализационный люк...
+It would be easier with a proper tool, though.|Вообще, было бы легче с правильными инструментами.
+Using a crowbar, you try to open the manhole...|Вы пытаетесь открыть канализационный люк ломом...
+health|здоровья
+You bow|Вы кланяетесь
+You clap|Вы хлопаете
+You duck down and grab an item lying on the ground.|Вы нагибаетесь и подбираете предмет, лежащий на земле.
+COMBAT TUTORIAL|ОБУЧЕНИЕ БОЮ
+During each turn, you'll build a sequence of attacks and moves from the action ring (B).#Once you've filled the sequence bar (C), press the LAUNCH SEQUENCE button to finish your turn.|В каждом ходу, вам нужно выстроить последовательность атак и движений из списка действий (B).#Заполнив шкалу последовательности (C), нажмите кнопку «ЗАПУСТИТЬ», чтобы завершить ход.
+With time, you will discover new combat moves, available through the ACTION FILTER (A).#But first, you need a weapon. Find and choose an action called 'LOOK FOR AN IMPROVISED WEAPON'|Со временем вы выучите новые боевые действия, доступные через ФИЛЬТР ДЕЙСТВИЙ (A).#Но сперва, вам нужно оружие. Найдите и выберите действие «ПОИСКАТЬ ИМПРОВИЗИРОВАННОЕ ОРУЖИЕ».
+Look, a new ITEM has appeared in your INVENTORY in the upper right corner. Select the ITEM with your cursor and open this ITEM's sub-menu, then select the EQUIP button (highlighted).|Смотрите, новый предмет появился у вас в ИНВЕНТАРЕ в правом верхнем углу. Выберите предмет с помощью курсора и откройте меню этого предмета, а затем нажмите на кнопку ЭКИПИРОВАТЬ (подсвечена).
+USE|ИСПОЛЬЗОВАТЬ
+EQUIP - places item in its equipment SLOT|ЭКИПИРОВАТЬ - помещает предмет в ваш СЛОТ экипировки
+INSPECT - additional information about the item|ИЗУЧИТЬ - дополнительная информация о предмете
+STORAGE - places item in the storage|В ХРАНИЛИЩЕ - помещает предмет в хранилище
+THROW AT ENEMY - throws the item at the enemy|КИНУТЬ ВО ВРАГА - кидает предмет во врага
+DISCARD - removes the item from the game|ИЗБАВИТЬСЯ - удаляет предмет из инвентаря
+TRADE IN - sell this item|ПРОДАТЬ - продать этот предмет
+YOU WOULDN'T KNOW WHERE TO FIND A BUYER FOR IT|ВЫ НЕ ЗНАЕТЕ, ГДЕ НАЙТИ ПОКУПАТЕЛЯ НА ЭТОТ ПРЕДМЕТ...
+TALK|ПОГОВОРИТЬ
+LET GO|ОТПУСТИТЬ
+KILL|УБИТЬ
+SEND AGAINST ENEMY|ПОСЛАТЬ НА ВРАГА
+CAST THIS SPELL|ИСПОЛЬЗОВАТЬ ЭТО ЗАКЛИНАНИЕ
+FORGET THIS SPELL (+1 REASON)|ЗАБЫТЬ ЭТО ЗАКЛИНАНИЕ (+1 РАССУДКА)
+AURA: FREE CAST|АУРА: БЕСПЛАТНОЕ ЗАКЛИНАНИЕ
+ATH-YOLAZSTH'S GAZE: CASTING THIS DOESN'T COST REASON|ВЗГЛЯД АТХ-ЙОЛАЗТА: ЭТО ЗАКЛИНАНИЕ НЕ ТРАТИТ РАССУДОК
+TREATMENT - 1 FUNDS|ЛЕЧЕНИЕ - 1 СРЕДСТВ
+SURGERY - 2 FUNDS|ОПЕРАЦИЯ - 2 СРЕДСТВ
+MODERN MEDICINE CAN'T HELP HERE|СОВРЕМЕННАЯ МЕДИЦИНА ТУТ НЕ ПОМОЖЕТ
+BANDAGE THIS WOUND|ЗАБИНТОВАТЬ ЭТУ РАНУ
+PRICK IT WITH A NEEDLE|УКОЛОТЬ ИГЛОЙ
+TREAT THIS WOUND|ВЫЛЕЧИТЬ ЭТУ РАНУ
+REMOVE CURSE|СНЯТЬ ПРОКЛЯТИЕ
+^ AVAILABLE ACTIONS|^ ДОСТУПНЫЕ ДЕЙСТВИЯ
+Item added to the storage!|Предмет добавлен в хранилище!
+You can't store items you are wearing.|Вы не можете отправить в хранилище надетые вещи.
+The thrown item damages the enemy!|Брошенный предмет наносит врагу урон!
+You prick it with a needle. A geyser of foul-smelling whitish-yellow pus bursts out and you scream in pain! S-shouldn't a doctor see this?...#(-2 STAMINA, -1 MAX STAMINA)|Вы прокалываете её иглой. Фонтан ужасно пахнущего жёлто-белого гноя вырывается наружу и вы кричите от боли! Н-не лучше ли сходить на осмотр к доктору?..#(-2 ВЫНОСЛИВОСТИ, -1 МАКС. ВЫНОСЛИВОСТИ)
+The treatment was successful!|Лечение прошло успешно!
+You can't afford that!|Вы не можете себе это позволить!
+The surgery was successful!|Операция прошла успешно!
+Your ally|Ваш союзник -
+attacked|атакует врага -
+to protect you!|, чтобы защитить вас!
+That attack dealt|Эта атака нанесла
+damage|урона
+You kill|Вы убили союзника -
+for plotting against you!|за заговор против вас!
+You forgot this spell! (+ REASON)|Вы забыли это заклинание! (+РАССУДОК)
+No Weapon|Без оружия
+Nothing|Ничего
+current backstory:|текущая предыстория:
+CHANGE BACKSTORY|ПОМЕНЯТЬ ПРЕДЫСТОРИЮ
+START THE GAME|НАЧАТЬ ИГРУ
+STAMINA|ВЫНОСЛИВОСТЬ
+REASON|РАССУДОК
+DOOM|РОК
+NO RITUAL ACTIVE|НЕТ АКТИВНЫХ РИТУАЛОВ
+Welcome and thank you for trying WORLD OF HORROR.#Inspired by adventure games from the 80s, the visual overload may initially be a little disorienting. In this short tutorial, I'll do my best to explain various elements and prepare you to fight the horrible OLD GODS.#- Pawel, creator of the game|Добро пожаловать и спасибо, что выбрали поиграть в WORLD OF HORROR.#Нагруженный интерфейс, вдохновлённый играми-приключениями 80-х, поначалу может дезориентировать. В этом кратком руководстве я постараюсь как можно лучше объяснить различные элементы и подготовить вас к бою с ужасающими ДРЕВНИМИ БОГАМИ.#- Павел, создатель игры
+That's the -MAIN GAME SCREEN-. Here, you will interact with your surroundings, solve mysteries and fight enemies.|Это -ОСНОВНОЙ ЭКРАН ИГРЫ-. Здесь вы будете взаимодействовать с окружением, раскрывать тайны и сражаться с врагами.
+That's the -USER INTERFACE- part of the screen. ##Here, you'll manage your inventory, cast spells and access the game options.|Это часть экрана с -ПОЛЬЗОВАТЕЛЬСКИМ ИНТЕРФЕЙСОМ-. ##Здесь, вы будете управлять инвентарём, использовать заклинания и менять настройки игры.
+All performed actions will be added to the -LOG- here.|Все совершённые действия будут добавляться в -ЖУРНАЛ- здесь.
+That's you on the right. WORLD OF HORROR has RPG elements and your attributes are described by six basic stats.##Move your cursor over them to learn more.|Это вы, справа. WORLD OF HORROR содержит в себе РПГ-элементы, а ваши особенности описаны шестью базовыми характеристиками.##Наведите курсор на них, чтобы узнать больше.
+Your ability to continue your investigation is determined by STAMINA and REASON. If either of them reaches zero, the game ends.|Ваша способность продолжать расследование определяется ВЫНОСЛИВОСТЬЮ и РАССУДКОМ. Если одно из них достигнет нуля, игра закончится.
+That's your INVENTORY. You can keep up to four items.#To inspect, use, or equip anything you pick up, select the item in question from this area.|Это ваш инвентарь. Вы можете носить до четырёх вещей.#Чтобы осмотреть, использовать или экипировать что-нибудь, выберите нужный предмет из этой области.
+There are three EQUIPMENT SLOTS. Equipped items do not count towards the four items limit.#A - weapon used in combat#B and C - trinkets and armor|У вас есть три СЛОТА ЭКИПИРОВКИ. Экипированные предметы не занимают место в инвентаре.#А - оружие, используемое в бою#Б и В - аксессуары и броня.
+Additional TABS will take you to your SPELLS, current STATUS and OPTIONS.|Дополнительные ВКЛАДКИ ведут к вашим ЗАКЛИНАНИЯМ, текущему СТАТУСУ и НАСТРОЙКАМ.
+That's your (STA) stamina. It represents your physical health. Once it reaches zero, your character dies.|Это ваша выносливость (ВНС). Она представляет ваше физическое здоровье. Когда она достигает нуля, ваш персонаж умирает.
+That's your (REA) reason. It represents your stability and will to confront the horrors. Once it reaches zero, your character collapses and the game ends.|Это ваш рассудок (РАС). Он представляет ваше психическое равновесие и волю к противостоянию страхам. Когда он достигает нуля, ваш персонаж сходит с ума.
+That's (STR) Strength. Stats are used to determine the outcome of events and the speed of certain combat actions.|Это ваша сила (СИЛ). Характеристики определяют исходы событий и скорость определённых боевых действий.
+That's (DEX) Dexterity. Stats are used to determine the outcome of events and the speed of certain combat actions.|Это ваша ловкость (ЛОВ). Характеристики определяют исходы событий и скорость определённых боевых действий.
+That's (PER) Perception. Stats are used to determine the outcome of events and the speed of certain combat actions.|Это ваше восприятие (ВОС). Характеристики определяют исходы событий и скорость определённых боевых действий.
+That's (KNW) Knowledge. Stats are used to determine the outcome of events and the speed of certain combat actions.|Это ваш интеллект (ИНТ). Характеристики определяют исходы событий и скорость определённых боевых действий.
+That's (CHA) Charisma. Stats are used to determine the outcome of events and the speed of certain combat actions.|Это ваша харизма (ХАР). Характеристики определяют исходы событий и скорость определённых боевых действий.
+That's (FND) Funds, representing the amount of money you can spend.|Это ваши средства (СРД), представляющие количество денег, которые вы можете потратить.
+As you progress with your playthrough, more helpful tips will appear. Would you like to turn the combat tutorial on? (It will start during your first enemy encounter)|По мере вашего прогресса в забеге, будет появляться больше полезных подсказок. Хотите ли вы включить обучение бою? (Начнётся во время вашего первого боя)
+The enemy seems to be weak against this type of weapon! (+ DAMAGE)|Похоже, противник слаб к этому типу оружия! (+УРОН)

@@ -1,0 +1,365 @@
+[UPGRADE]|(УЛУЧШЕНИЕ)
+SECOND SIGHT|ШЕСТОЕ ЧУВСТВО
+additional damage against GHOST and ELDRITCH enemies|вы наносите дополнительный урон в бою с ПРИЗРАКАМИ и ПОТУСТОРОННИМ
+SELF-THERAPY|САМОТЕРАПИЯ
+forgetting spells regains extra REASON|забывание ЗАКЛИНАНИЙ восстанавливает дополнительный РАССУДОК
+Your self-therapy allows you to forget all this! (+2 REASON)|Самотерапия позволяет всё это забыть! (+2 РАССУДКА)
+GHOST CONNECTION|СВЯЗЬ С ПРИВИДЕНИЯМИ
+completing a mystery grants a random SPELL|(в конце каждой тайны): даёт случайное ЗАКЛИНАНИЕ
+[GHOST CONNECTION] You learn something new!|(СВЯЗЬ С ПРИВИДЕНИЯМИ): вы выучили что-то новое!
+ARCANE GRASP|МИСТИЦИЗМ
++2 additional SPELL slots available|+2 дополнительных слота ЗАКЛИНАНИЙ
+RUNNING SHOES|БЕГОВЫЕ КРОССОВКИ
+smaller DOOM penalty from running from combat|побег из боёв меньше приближает РОК
+HOT BATH|ГОРЯЧАЯ ВАННА
+improved resting at home|отдых дома становится более эффективным
+DISCIPLINE|ДИСЦИПЛИНА
+regain 1 STAMINA for all successful event skill checks|восстанавливает 1 ВЫНОСЛИВОСТИ за каждую успешную проверку навыков
+Your discipline and hard work pay off! (+1 STAMINA)|Ваша дисциплина и тяжёлый труд приносят плоды! (+1 ВЫНОСЛИВОСТИ)
+FAST SWIMMER|БЫСТРЫЙ ПЛОВЕЦ
+faster offensive actions|атакующие действия в бою становятся быстрее
+CQC TRAINING|БОЙ В ЗАМКНУТОМ ПРОСТРАНСТВЕ
+using firearms as melee weapons deals more damage|использование ОГНЕСТРЕЛА в ближнем бою наносит больше УРОНА
+IREZUMI|ИРЕЗУМИ
+items in the shops are cheaper by 1#[minimum 1]|ПРЕДМЕТЫ в магазинах становятся дешевле на одну единицу#(мин. стоимость 1)
+CORE STRENGTH|МОЩНЫЙ КОРПУС
+all combat moves deal an extra point of damage|все боевые действия АТАКИ наносят одну дополнительную единицу УРОНА
+YAKUZA CARD|КАРТА ЯКУДЗЫ
+one additional slot becomes available in all shops#remove the [ILLICIT] tag from all items|во всех магазинах появляется один новый предмет#убирает пометку НЕЗАКОННОЕ со всех ПРЕДМЕТОВ
+SIGNED CONTRACT|ПОДПИСАННЫЙ КОНТРАКТ
+extra FUNDS gained for completing a mystery|вы получаете больше СРЕДСТВ за завершение тайн
+#[CONTRACT] This will make a great story!|#(КОНТРАКТ): это станет отличной историей!
+OCCULT SIGNS|ОККУЛЬТНЫЕ ЗНАКИ
+small EXP bonus for casting spells|использование ЗАКЛИНАНИЙ даёт вам немного ОПЫТА
+FAME|СЛАВА
+faster combat actions for each ALLY you have|действия в бою становятся быстрее за каждого имеющегося СОЮЗНИКА
+PARTING GIFT|ПРОЩАЛЬНЫЙ ПОДАРОК
+letting ALLIES go grants a permanent bonus to one of your stats|отпускание СОЮЗНИКОВ навсегда повышает одну из ваших характеристик
+DEDUCTION|ДЕДУКЦИЯ
+bonus EXP gained for completing a mystery|вы получаете больше ОПЫТА за завершение тайн
+FAST HANDS|БЫСТРЫЕ РУКИ
+allows switching of equipment during combat encounters|позволяет менять экипировку прямо во время боя
+REPORTER'S BAG|СУМКА РЕПОРТЁРА
+additional INVENTORY slot|+1 дополнительный СЛОТ ИНВЕНТАРЯ
+IMPROVISE|ИМПРОВИЗАЦИЯ
+throwing ITEMS during combat encounters is more effective|брошенные в бою ПРЕДМЕТЫ наносят больше УРОНА
+FAST LEARNER|СХВАТЫВАНИЕ НА ЛЕТУ
+taking damage in combat grants a small experience bonus|получение УРОНА в бою даёт вам немного ОПЫТА
+ANATOMY CLASS|КУРСЫ АНАТОМИИ
+extra damage against HUMAN enemies|вы наносите одну дополнительную единицу УРОНА в бою с ЛЮДЬМИ
+FIRST AID|ПЕРВАЯ ПОМОЩЬ
+defeating an enemy regains 2 REASON|победа над врагом восстанавливает 2 РАССУДКА
+You patch yourself up. (+2 REASON)|Вы латаете себя. (+2 РАССУДКА)
+PICKPOCKET|КАРМАННАЯ КРАЖА
+higher chance of finding ITEMS after combat|повышает шанс на нахождение предметов в конце боя
+ADRENALINE|АДРЕНАЛИН
+faster combat actions|действия в бою становятся быстрее
+DOOMED ALREADY|НЕИЗБЕЖНЫЙ РОК
+regain 1 REASON for all failed event skill checks|восстанавливает 1 РАССУДКА за каждую проваленную проверку навыков
+Luckily, it's not the first time you've failed something. (+1 REASON)|К счастью, это не первый раз, когда у вас что-то не получается. (+1 РАССУДКА)
+LOOTING|МАРОДЁРСТВО
+gain 1 FUNDS for each defeated enemy|даёт 1 СРЕДСТВ за каждого побеждённого врага
+You loot an extra 1 FUNDS from this enemy!|Вы находите ДЕНЬГИ у поверженного противника!
+FOLKLORE STUDIES|ФОЛЬКЛОРИСТИКА
++1 KNOWLEDGE#[knowledge of various rituals and regional myths]|+1 ИНТЕЛЛЕКТА#(знания о различных ритуалах и местных мифах)
+LEADERSHIP|ЛИДЕРСТВО
++1 CHARISMA#[natural ability to guide others]|+1 ХАРИЗМЫ#(врождённая способность направлять других)
+QUICK THINKING|СООБРАЗИТЕЛЬНОСТЬ
++1 DEXTERITY#[there's always a way out from seemingly hopeless situations]|+1 ЛОВКОСТИ#(всегда есть выход из казалось бы безнадёжных ситуаций)
+ART KNOWLEDGE|ИСКУССТВОЗНАНИЕ
++1 PERCEPTION#[you've got an eye for art and details]|+1 ВОСПРИЯТИЯ#(глаз заточен под искусство и детали)
+FINAL STRETCH|ПОСЛЕДНИЙ РЫВОК
++2 STAMINA#+2 REASON#[we are so close, we can't give up!]|восстанавливает 2 ВЫНОСЛИВОСТИ#восстанавливает 2 РАССУДКА#(мы так близко, нельзя сдаваться!)
+OUTDOORSMAN|ТЯГА К ПУТЕШЕСТВИЯМ
++1 LUCK#[attuned with the natural rhythm of life]|+1 УДАЧИ#(вы привыкли к естественному ритму жизни)
+AMMO STASH|ТАЙНИК С БОЕПРИПАСАМИ
+Gain 1-2 BULLETS at the end of each mystery|(в конце каждой тайны): даёт 1-2 ПУЛИ
+#[AMMO STASH] +1 BULLET|#(ТАЙНИК С БОЕПРИПАСАМИ): +1 ПУЛЯ
+DADDY'S GIRL|ПАПИНА ДОЧКА
+Regain 2 STAMINA at the end of each mystery|(в конце каждой тайны): восстанавливает 2 ВЫНОСЛИВОСТИ
+#[DADDY'S GIRL] +2 STAMINA|#(ПАПИНА ДОЧКА): +2 ВЫНОСЛИВОСТИ
+DEFT HANDLING|УМЕЛОЕ ОБРАЩЕНИЕ
+FIREARM melee attacks are 20% faster|атаки ближнего боя с помощью ОГНЕСТРЕЛА становятся на 20% быстрее
+DOOM EFFIGY|КУКЛА РОКА
+completing a mystery lowers extra DOOM depending on the amount of CURSES you have#-10% MAX REASON|(в конце каждой тайны): отдаляет больше РОКА#чем больше на вас лежит ПРОКЛЯТИЙ, тем сильнее эффект#-10% МАКС. РАССУДКА
+BLOOD MANIA|КРОВАВАЯ МАНИЯ
+all combat moves deal extra damage and are faster depending on the amount of CURSES you have#-10% MAX STAMINA|все боевые действия АТАКИ наносят дополнительный УРОН#чем больше на вас лежит ПРОКЛЯТИЙ, тем сильнее эффект#-10% МАКС. ВЫНОСЛИВОСТИ
+ELDRITCH POSSESSION|СВЕРХЪЕСТЕСТВЕННАЯ ОДЕРЖИМОСТЬ
+bonus to all stats depending on the amount of CURSES you have#-10% MAX STAMINA and REASON|даёт бонус ко всем ХАРАКТЕРИСТИКАМ#чем больше на вас лежит ПРОКЛЯТИЙ, тем сильнее эффект#-10% МАКС. ВЫНОСЛИВОСТИ и РАССУДКА
+RAGE OF RAGH-ZHULL|ЯРОСТЬ РАГХ-ЗУЛЛА
++1 DAMAGE until the end of this mystery#[COST: 6 DOOM]|(до конца текущей тайны): +1 УРОНА#(СТОИМОСТЬ: +6% РОКА)
+F’THOTH FLASH|ВСПЫШКА Ф'ТХОТХА
+lower DOOM by 3#[COST: 15 EXP]|отдаляет РОК на 3%#(СТОИМОСТЬ: 15 ОПЫТА)
+SHEBBE’S SURGE|ВЫПЛЕСК ШЕББЕ
++1 to all STATS until the end of this mystery#[COST: 5 DOOM]|(до конца текущей тайны): +1 ко всем ХАРАКТЕРИСТИКАМ#(СТОИМОСТЬ: +5% РОКА)
+KROOTKY’S KILL|УБИЙСТВО КРУТКИ
+defeat the current enemy#[COST: 15 DOOM]|побеждает текущего врага#(СТОИМОСТЬ: +15% РОКА)
+CURE OF CTHUR-IZTO|ИСЦЕЛЕНИЕ КТХУР-ИЗТО
++3 STAMINA / +3 REASON#[COST: 7 DOOM]|восстанавливает 3 ВЫНОСЛИВОСТИ#восстанавливает 3 РАССУДКА#(СТОИМОСТЬ: +7% РОКА)
+ZEAL|РВЕНИЕ
+all combat moves deal an extra 1 damage;#MAX STAMINA and MAX REASON are lowered by 4|все боевые действия АТАКИ наносят одну дополнительную единицу УРОНА#МАКС. ВЫНОСЛИВОСТЬ и МАКС. РАССУДОК понижаются на 4
+MY WEIRD COLLECTION|МОЯ СТРАННАЯ КОЛЛЕКЦИЯ
+gain one random ITEM with an [OCCULT] tag at the end of each mystery|(в конце каждой тайны): даёт один случайный предмет с пометкой (ОККУЛЬТНОЕ)
+You decide to take one ITEM from your weird collection with you.|Вы решаете взять с собой один ПРЕДМЕТ из вашей коллекции.
+STEALTH|СКРЫТНОСТЬ
+gain 10 EXP for escaping from an enemy encounter|вы получаете 10 ОПЫТА за побег из боёв
+Your stealth has paid off! (+10 EXP)|Ваша скрытность окупилась! (+10 ОПЫТА)
+ON YOUR OWN|В ОДИНОЧКУ
++1 to all STATS if you have no ALLIES with you|+1 ко всем ХАРАКТЕРИСТИКАМ, если у вас нет СОЮЗНИКОВ
+HARD-KNOCK|СИЛЬНЫЙ УДАР
++1 DAMAGE while under the NICOTINE RUSH effect|+1 УРОНА, если у вас есть статус «НИКОТИНОВЫЙ ПОРЫВ»
+MORBID INSPIRATION|ЖУТКОЕ ВООДУШЕВЛЕНИЕ
+gain EXP when losing REASON|даёт ОПЫТ, когда вы теряете РАССУДОК
+That's... inspiring. (+2 EXP)|Это... впечатляет. (+2 ОПЫТА)
+HAUNTING DREAMS|НАВЯЗЧИВЫЕ СНЫ
+regain extra REASON for completing a mystery|(в конце каждой тайны): восстанавливает 1 РАССУДКА
+[HAUNTING DREAMS]: +1 REASON|(НАВЯЗЧИВЫЕ СНЫ): +1 РАССУДКА
+FRESH MEAT|СВЕЖЕЕ МЯСО
+gain a mysterious meat for completing a mystery|(в конце каждой тайны): даёт странное мясо
+[FRESH MEAT]: + ITEM|(СВЕЖЕЕ МЯСО): +ПРЕДМЕТ
+SHARPENING STONE|ТОЧИЛЬНЫЙ КАМЕНЬ
+[SHARP]-type weapons get an extra 1 damage|ОСТРОЕ оружие наносит одну дополнительную единицу УРОНА
+QUICK SHOPPER|СКОРЫЙ ПОКУПАТЕЛЬ
+buying an ITEM lowers DOOM by 2|покупка ПРЕДМЕТОВ отдаляет РОК на 2%
+BIG SPENDER|БОЛЬШОЙ ТРАНЖИРА
+a chance to regain 1 FND after buying an ITEM|с небольшим шансом возвращает вам одну единицу СРЕДСТВ после покупки любого ПРЕДМЕТА
+A surprise discount, nice! (+1 FND)|Неожиданная скидка, приятно! (+1 СРЕДСТВ)
+PREDESTINED|ПРЕДНАЗНАЧЕНИЕ
++2 MAX REASON#+2 REASON|+2 МАКС. РАССУДКА#восстанавливает 2 РАССУДКА
+UNRELENTING|НЕОТСТУПНОСТЬ
++2 MAX STAMINA#+2 STAMINA|+2 МАКС. ВЫНОСЛИВОСТИ#восстанавливает 2 ВЫНОСЛИВОСТИ
+PREMONITION|ПРЕДЧУВСТВИЕ
+event options display which STAT will be tested against when selected|окна событий будут показывать, на какую ХАРАКТЕРИСТИКУ вас будет проверять тот или иной выбор
+STARS ARE RIGHT|ЗВЁЗДЫ СОШЛИСЬ
+automatically pass all LUCK skill checks|вы автоматически проходите все проверки на УДАЧУ
+SURVIVAL INSTINCT|ИНСТИНКТ САМОСОХРАНЕНИЯ
+pass all event skill checks when your REASON is lower than 3|вы автоматически проходите все проверки навыков, если у вас меньше 3 единиц РАССУДКА
+WINGING IT|КАК ПОЛУЧИТСЯ
+all event skill checks have a negative modifier that makes them harder. Passing an event skill check grants extra EXP|все проверки характеристик имеют негативный модификатор, что делает их сложнее - успешные проверки дают дополнительный ОПЫТ
+You've always been winging it and it finally pays off. (+5 EXP)|Вам всегда удавалось импровизировать, и это приносит плоды. (+5 ОПЫТА)
+--TREATMENT--##|--ЛЕЧЕНИЕ--##
+STABLE CONDITION|СТАБИЛЬНОЕ СОСТОЯНИЕ
+(discard): nothing happens|(избавиться): ничего не произойдёт
+HASTY AID|ПЛОХОЕ ЛЕЧЕНИЕ
+when taking STAMINA damage in combat, replace HASTY AID with a new random INJURY|когда вы получаете урон по ВЫНОСЛИВОСТИ в бою, заменяет статус новой случайной ТРАВМОЙ
+BADLY BRUISED|СИЛЬНЫЙ УШИБ
+-1 STRENGTH until the end of the current mystery|(до конца текущей тайны): -1 СИЛЫ
+BLOOD LOSS|ПОТЕРЯ КРОВИ
+-10% MAX STAMINA|-10% МАКС. ВЫНОСЛИВОСТИ
+DISCHARGE SUMMARY|СПРАВКА О ВЫПИСКЕ
+(discard): +20 EXP|(выбросить): +20 ОПЫТА
+HORRIBLE MEMORIES|УЖАСНЫЕ ВОСПОМИНАНИЯ
+[they didn't have any anesthetics left]#-1 MAX REASON|(у них в запасе не было анестезии)#-1 МАКС. РАССУДКА
+--INJURY (MINOR)--##|--ТРАВМА (ЛЁГКАЯ)--##
+--INJURY (MAJOR)--##|--ТРАВМА (ТЯЖЁЛАЯ)--##
+--CURSE (MENTAL)--##|--ПРОКЛЯТИЕ (МЕНТАЛЬНОЕ)--##
+--CURSE (MUTATION)--##|--ПРОКЛЯТИЕ (МУТАЦИЯ)--##
+--STATUS (PERSONAL)--##|--СТАТУС (ЛИЧНЫЙ)--##
+HANGOVER|ПОХМЕЛЬЕ
+-1 to all STATS until the end of the current mystery|(до конца текущей тайны): -1 ко всем ХАРАКТЕРИСТИКАМ
+CONCUSSION|СОТРЯСЕНИЕ
+-1 to KNOWLEDGE until the end of the current mystery|(до конца текущей тайны): -1 ИНТЕЛЛЕКТА
+<<my head...>>|«Моя голова...»
+SUICIDAL|СУИЦИДАЛЬНЫЕ МЫСЛИ
+chance of losing STAMINA each time you lose REASON|с некоторым шансом вы теряете ВЫНОСЛИВОСТЬ каждый раз, когда теряете РАССУДОК
+There's no sense in fighting back! (-1 STAMINA)|Нет смысла бороться... (-1 ВЫНОСЛИВОСТИ)
+HOLES|ДЫРЫ
+each day, more holes appear|с каждым днём появляется всё больше дыр
+#[HOLES] More holes are spreading#on your body: -2 STAMINA|(ДЫРЫ): на вашем теле появляется всё больше дыр... (-2 ВЫНОСЛИВОСТИ)
+INSMASU LOOK|ОБЛИК ИНСМАСУ
+[ocean is calling]#chance of a negative effect with each SEASIDE investigation|(океан взывает)#с некоторым шансом вы получаете негативный статус при исследовании ПОБЕРЕЖЬЯ
+HUNGER|ГОЛОД
+-1 CHARISMA#[they look tasty]|-1 ХАРИЗМЫ#(они выглядят вкусно)
+BROKEN BONE|СЛОМАННАЯ КОСТЬ
+-1 STRENGTH#-1 DEXTERITY|-1 СИЛЫ#-1 ЛОВКОСТИ
+BADLY BLEEDING|ТЯЖЁЛОЕ КРОВОТЕЧЕНИЕ
+chance of losing 1 STAMINA with each investigation|с некоторым шансом вы теряете 1 ВЫНОСЛИВОСТИ каждый раз, когда исследуете локацию
+<<I feel weak>>|«Я чувствую слабость...»
+You are losing blood. (-1 STAMINA)|Вы теряете кровь. (-1 ВЫНОСЛИВОСТИ)
+TORN MUSCLE|РАЗРЫВ МЫШЦЫ
+deal -1 DAMAGE on all attacks in combat|все боевые действия АТАКИ наносят на 1 УРОНА меньше
+LEECHES|ПИЯВКИ
+chance of losing 1 STAMINA with each investigation|с небольшим шансом вы можете потерять 1 ВЫНОСЛИВОСТИ каждый раз, когда исследуете локацию
+Leeches get bigger... (-1 STAMINA)|Пиявки растут... (-1 ВЫНОСЛИВОСТИ)
+FROSTBITE|ОБМОРОЖЕНИЕ
+-2 STRENGTH|-2 СИЛЫ
+BITE|УКУС
+[hopefully it'll go away on its own]|(надеюсь, он затянется сам по себе)
+That bite mark is getting worse with each day.|След от укуса с каждым днём выглядит лишь хуже.
+INFECTED WOUND|ЗАРАЖЁННАЯ РАНА
+-1 DEXTERITY#-1 PERCEPTION|-1 ЛОВКОСТИ#-1 ВОСПРИЯТИЯ
+COUGHING BLOOD|КАШЕЛЬ КРОВЬЮ
+-2 DEXTERITY|-2 ЛОВКОСТИ
+<<should I be worried?...>>|«Стоит ли беспокоиться?..»
+SLIT MOUTH|РАЗРЕЗАННЫЙ РОТ
+-1 CHARISMA#-1 STRENGTH|-1 ХАРИЗМЫ#-1 СИЛЫ
+<<smile!>>|«Улыбочку!»
+STALKER|ПРЕСЛЕДОВАТЕЛЬ
+[someone is following you]#HUMAN enemies get more powerful#[effect stacks]|(вас кто-то преследует)#ЛЮДИ имеют больше силы в бою#(эффект складывается)
+BRANDED|КЛЕЙМО
+chance of raising DOOM with each investigation|с небольшим шансом вы можете приблизить РОК каждый раз, когда исследуете локацию
+You feel sudden pain in the area around the branded mark. (+1% DOOM)|Вы чувствуете внезапную боль в области вокруг клейма. (+1% РОКА)
+PARANOIA|ПАРАНОЙЯ
+chance of losing REASON each time you lose STAMINA|с небольшим шансом вы можете потерять РАССУДОК каждый раз, когда теряете ВЫНОСЛИВОСТЬ
+There's no sense in fighting back! (-1 REASON)|Нет смысла бороться... (-1 РАССУДКА)
+TINY CUTS|МЕЛКИЕ ПОРЕЗЫ
+[no effect]|(нет эффекта)
+<<more annoying than anything>>|«Просто ужасно раздражают»
+CURSED SIGNS|ПРОКЛЯТЫЕ ЗНАКИ
+casting SPELLS raises DOOM|использование ЗАКЛИНАНИЙ приближает РОК
+charred skin forms weird signs|на обугленной коже образуются странные знаки
+BLOATED|ВЗДУТИЕ
+something is moving inside your stomach|что-то двигается у вас в желудке
+<<I feel sick>>|«Мне плохо...»
+BURN|ОЖОГ
+you receive additional combat damage|вы получаете дополнительный УРОН в бою
+FRACTURED RIBS|СЛОМАННЫЕ РЁБРА
+-1 DEXTERITY|-1 ЛОВКОСТИ
+BROKEN NOSE|СЛОМАННЫЙ НОС
+RESTING is less effective|ОТДЫХ становится менее эффективным
+CUT ARM SINEW|ПОРЕЗ СУХОЖИЛИЯ
+deal -1 DAMAGE on all attacks in combat|все боевые действия АТАКИ наносят на 1 УРОНА меньше
+ABDOMINAL CUT|ВСПОРОТОЕ БРЮХО
+-10% MAX STAMINA|-10% МАКС. ВЫНОСЛИВОСТИ
+EXPOSED RIBS|ТОРЧАЩИЕ РЁБРА
+-20% MAX STAMINA|-20% МАКС. ВЫНОСЛИВОСТИ
+MANGLED HAND|ИСКАЛЕЧЕННАЯ РУКА
+attacking in combat deals 1 STAMINA damage to yourself|вы теряете 1 ВЫНОСЛИВОСТИ каждый раз, когда атакуете в бою
+Moving your hand causes you pain! (-1 STAMINA)|Движения рукой причиняют вам боль! (-1 ВЫНОСЛИВОСТИ)
+CUT ARTERY|ВСКРЫТАЯ АРТЕРИЯ
+-1 STAMINA each investigation|с небольшим шансом, вы можете потерять 1 ВЫНОСЛИВОСТИ каждый раз, когда исследуете локацию
+You are losing blood, seek help! (-1 STAMINA)|Вы теряете кровь, обратитесь за помощью! (-1 ВЫНОСЛИВОСТИ)
+TRAUMATIZED|ПСИХИЧЕСКАЯ ТРАВМА
+-10% MAX REASON|-10% МАКС. РАССУДКА
+BRAIN DAMAGE|ТРАВМА МОЗГА
+-2 KNOWLEDGE#+10% MAX REASON|-2 ИНТЕЛЛЕКТА#+10% МАКС. РАССУДКА
+BROKEN JAW|РАЗБИТАЯ ЧЕЛЮСТЬ
+you can't cast any SPELLS|вы не можете использовать ЗАКЛИНАНИЯ
+BROKEN JAW prevents you from casting this SPELL.|РАЗБИТАЯ ЧЕЛЮСТЬ не даёт вам прочесть это ЗАКЛИНАНИЕ.
+PANIC|ПАНИКА
+-10% chance to succeed on any combat action that has a base chance to hit|вероятность успешно исполнить любое боевое действие снижена на 10%
+NICOTINE RUSH|НИКОТИНОВЫЙ ПОРЫВ
+[-1 CIGARETTE each investigation]#all combat actions are faster##[0.9x combat multiplier]|вы теряете 1 СИГАРЕТУ каждый раз, когда исследуете локацию#все боевые действия становятся быстрее##(x0.9 множитель скорости в бою)
+N. WITHDRAWAL|ЛОМКА
+all combat actions are slower##[1.2x combat multiplier]|все боевые действия становятся медленнее##(x1.2 множитель скорости в бою)
+DRENCHED|ПРОМОКАНИЕ
+all combat actions are slower until the end of the current mystery##[your wet clothes stick to your skin, slowing you down]|(до конца текущей тайны): все боевые действия становятся медленнее##(ваша мокрая одежда прилипает к коже, замедляя вас)
+MAYHEM|ХАОС
+[raising DOOM will increase your STATS]|(приближение РОКА повышает ваши ХАРАКТЕРИСТИКИ)
++1 to all STATS|+1 ко всем ХАРАКТЕРИСТИКАМ
++2 to all STATS|+2 ко всем ХАРАКТЕРИСТИКАМ
++3 to all STATS|+3 ко всем ХАРАКТЕРИСТИКАМ
++4 to all STATS|+4 ко всем ХАРАКТЕРИСТИКАМ
+FACELESS|БЕЗЛИКОСТЬ
+-2 to all STATS|-2 ко всем ХАРАКТЕРИСТИКАМ
+rEd cAPe|кРаСнЫй КаПюШоН
+MIMI'S OBSESSION|ОДЕРЖИМОСТЬ МИМИ
+-20% MAX REASON|-20% МАКС. РАССУДКА
+SWOLLEN JOINT|ОПУХШИЙ СУСТАВ
+can't run from combat encounters|вам недоступен побег из боёв
+RINGING EARS|ЗВОН В УШАХ
+all combat actions are slower until the end of the current mystery|(до конца текущей тайны): все боевые действия становятся медленнее
+WEIRD LUMP|СТРАННЫЙ НАРОСТ
+shorten the COMBAT SEQUENCE bar by 20 time units|сокращает БОЕВУЮ ШКАЛУ на 20 единиц времени
+COLLAPSED LUNG|ПРОБИТОЕ ЛЁГКОЕ
+shorten the COMBAT SEQUENCE bar by 20 time units|сокращает БОЕВУЮ ШКАЛУ на 20 единиц времени
+FACIAL TRAUMA|ТРАВМА ЛИЦА
+-10% chance to all combat actions|вероятность успешно исполнить любое боевое действие снижена на 10%
+'maxillofacial fracture'|(перелом челюстно-лицевой кости)
+OMINOUS LETTER|ЗЛОВЕЩЕЕ ПИСЬМО
+leveling up requires an extra 20 EXP|повышение уровня стоит на 20 ОПЫТА больше
+<<I'm waiting for you...>>|«Я жду тебя...»
+ALWAYS THERE|ВСЕГДА РЯДОМ
+Sets MAX STAMINA and REASON to 8.#You can't lose from loss of your health.|МАКС. ВЫНОСЛИВОСТЬ и МАКС. РАССУДОК равны восьми.#Вы не можете проиграть от потери здоровья.
+<<you can count on me>>|«Можешь положиться на меня»
+SURVIVOR'S GUILT|ВИНА ВЫЖИВШЕГО
+add 2% DOOM at the end of the mystery|(в конце каждой тайны): приближает РОК на 2%
+<<it should have been me>>|«Мне суждено было умереть...»
+[SURVIVOR'S GUILT] +2% DOOM|(ВИНА ВЫЖИВШЕГО): +2% РОКА
+k|к
+a|а
+n|н
+MIND WIPE|СТИРАНИЕ ПАМЯТИ
+-100 EXP#(discard): lose 3 REASON|-100 ОПЫТА#(избавиться): потерять 3 РАССУДКА
+<< ... >>|«...»
+a|а
+k|к
+a|а
+INSOMNIA|БЕССОННИЦА
+lose 2 REASON at the end of the mystery|(в конце каждой тайны): вы теряете 2 РАССУДКА
+<<my head hurts...>>|«Голова болит...»
+[INSOMNIA] -2 REASON|(БЕССОННИЦА) -2 РАССУДКА
+DISLOCATED SHOULDER|ВЫВИХ ПЛЕЧА
+-1 MAX STAMINA#(discard): lose 2 REASON|-1 МАКС. ВЫНОСЛИВОСТИ#(избавиться): потерять 2 РАССУДКА
+FEARFUL|СТРАХ
+lose 1 REASON at the start of each enemy encounter|вы теряете 1 РАССУДКА в начале каждого боя
+<<I'm worried>>|«Мне страшно...»
+W-who c-could it be?... (-1 REASON)|«К-кто это т-там?..» (-1 РАССУДКА)
+IRRATIONAL|НЕРАЦИОНАЛЬНОСТЬ
+(buying an ITEM): small chance of buying another ITEM instead|(при покупке ПРЕДМЕТОВ): с небольшим шансом вы можете купить другой ПРЕДМЕТ вместо выбранного
+<< ... >>|«...»
+MASOCHISTIC|МАЗОХИЗМ
+regain 1 REASON at the start of each enemy encounter;#-2 MAX REASON|восстанавливает 1 РАССУДКА в начале каждого боя#-2 МАКС. РАССУДКА
+<<...>>|«...»
+You can't help but smile... (+1 REASON)|Вы не можете сдержать улыбку... (+1 РАССУДКА)
+GHASTLY PRESENCE|ПРИЗРАЧНОЕ ПРИСУТСТВИЕ
+disables all standard OFFENSIVE combat actions;#+4 MAX REASON|отключает все стандартные боевые действия АТАКИ#+4 МАКС. РАССУДКА
+<< ... >>|«...»
+CAT'S CURIOSITY|ЛЮБОПЫТСТВО КОШКИ
+deaths so far:|счётчик смертей:
+<<you could count on me>>|«Можешь рассчитывать на меня!»
+SAFETY IN NUMBERS|ОДИН В ПОЛЕ НЕ ВОИН
+[why did you sign that contract?]##+1 MAX REASON#(at the end of the mystery): if you don't have at least 2 followers, lose 2 REASON|(зачем вы подписали этот контракт?)##+1 МАКС. РАССУДКА#(в конце каждой тайны): если у вас меньше двух союзников, вы теряете 2 РАССУДКА
+<<he's looking for you>>|«Он ищет вас...»
+Chaos rises! All STATS improved!|Воцаряется хаос! Все ХАРАКТЕРИСТИКИ повышены!
+THE OLD GOD STIRS...#(click here to reveal its effect)|ДРЕВНИЙ БОГ ШЕВЕЛИТСЯ...#(нажмите, чтобы посмотреть эффект)
+「STORE CLOSED」|МАГАЗИН ЗАКРЫВАЕТСЯ
+The [SHOP] additional action is disabled.|Дополнительное действие в МАГАЗИНЕ отключено.
+The friendly dog disappeared last night. You will have to find a new place to buy equipment...|Та дружелюбная собака пропала прошлой ночью. Вам придётся искать новое место для покупки снаряжения...
+「ROADS CLOSED」|ДОРОГИ ПЕРЕКРЫТЫ
+Investigating places located outside the city (VILLAGE, MANSION, FOREST) costs 1% more DOOM.|Исследование локаций за пределами города (ДЕРЕВНЯ, ПОМЕСТЬЕ, ЛЕС) стоит на 1% больше РОКА.
+Roads leading out of town were closed by the police. You'll have to find a new way out...|Дороги, ведущие из города, перекрыты полицией. Вам придётся искать другой путь...
+「SCHOOL BURNED DOWN」|ШКОЛА СОЖЖЕНА ДОТЛА
+While classes will continue in an old wing, no student will gather in the schoolyard.|Пока уроки проходят в старом крыле, ученики больше не будут собираться на школьном дворе.
+While classes will continue in an old wing, no student will gather in the schoolyard.|Пока уроки проходят в старом крыле, ученики больше не будут собираться на школьном дворе.
+「RIOTS」|БУНТЫ
+Dangerous bands of rioters gather around the DOWNTOWN area.|Опасные банды бунтарей собираются вокруг ДЕЛОВОГО РАЙОНА.
+Dangerous bands of rioters are gathering around the downtown area. The police are hopeless...|Опасные банды бунтарей собираются вокруг делового района. Полиция безнадёжна...
+「WINDS OF PLAGUE」|ЧУМНОЙ ВЕТЕР
+TREATMENT and SURGERY actions cost more|Действия ЛЕЧЕНИЯ и ОПЕРАЦИИ теперь стоят дороже.
+A weird epidemic keeps staff at the hospital busy. Skipping the line will cost you more...|Странная эпидемия добавляет работы персоналу больницы. Проход вне очереди будет стоить вам больше...
+「CUT OFF FROM THE OUTSIDE WORLD」|ОТРЕЗАНЫ ОТ ВНЕШНЕГО МИРА
+The whole town stopped receiving any outside signal. It must be the radio mast failure...|Весь город перестал получать внешние передачи. Должно быть, из-за поломки радиостанции...
+The whole town stopped receiving any outside signal. It must be the radio mast failure...|Весь город перестал получать внешние передачи. Должно быть, из-за поломки радиостанции...
+「FETID FUMES」|ЗЛОВОННЫЕ ИСПАРЕНИЯ
+Your REST action is less effective.|Действие ОТДЫХА менее эффективно.
+The air feels heavy, making it hard to breathe...|Воздух ощущается тяжелее, вам трудно дышать...
+「CONTAMINATED WATER」|ЗАГРЯЗНЕНИЕ ВОДЫ
+You can't regain health in between mysteries.|Вы не можете восстанавливать здоровье между тайнами.
+There's something wrong with the tap water. It is black and oily and glistening, smelling like death. You hope it's just a temporary issue...|Что-то не так с водой из-под крана. Она тёмная, маслянистая и блестящая, от неё веет смертью. Вы надеетесь, что это лишь временная проблема...
+「ARCANE STORM」|МАГИЧЕСКАЯ БУРЯ
+REASON cost of all SPELLS is increased by 1.|Все ЗАКЛИНАНИЯ требуют на 1 единицу РАССУДКА больше.
+Local scientists are baffled. An unprecedented aurora-like event has bathed the entire town in an unnatural green glow...|Местные учёные сбиты с толку. Беспрецедентное событие, похожее на северное сияние, залило весь город неестественным зелёным светом...
+「PRICE HIKE」|СКАЧОК ЦЕН
+All shop ITEMS cost 1 FUNDS more.|Все ПРЕДМЕТЫ в магазинах стоят на 1 СРЕДСТВ больше.
+Preparing for the worst, people are stocking up on everything, making it harder for you to find what you want.|Готовясь к худшему, люди запасаются всем подряд, что затрудняет поиск необходимых предметов.
+「FREAKY FLOOD」|БЕЗУМНЫЙ ПОТОП
+Exploring the SEASIDE location has a chance of inflicting DRENCHED status.|Исследование ПОБЕРЕЖЬЯ может наложить статус «ПРОМОКАНИЕ».
+Did the water level suddenly increase or is our city slowly sinking?|Это уровень воды резко поднялся, или наш город медленно утопает?..
+「HEART OF DARKNESS」|СЕРДЦЕ ТЬМЫ
+Lighthouse gets one additional floor.|Маяк получает один дополнительный этаж.
+The imposing shadow cast by the old lighthouse is getting longer each day...|Огромная тень, отбрасываемая старым маяком, с каждым днём становится всё выше...
+「SCHOOL CURFEW」|ШКОЛЬНЫЙ КОМЕНДАНТСКИЙ ЧАС
+The [LIBRARY] additional action is disabled.|Дополнительное действие в БИБЛИОТЕКЕ отключено.
+With more and more students going missing, the police have restricted access to the school's building.|По мере того, как всё больше и больше учеников пропадает, полиция ограничивает проход в здание школы.
+「TIME SKIP」|ВРЕМЕННОЙ СКАЧОК
++5% DOOM|+5% РОКА
+What? I'd have sworn it was Monday, not Tuesday... right?|Что? Могу поклясться, сегодня понедельник, а не вторник... верно?
+「BLOOD MOON」|КРОВАВАЯ ЛУНА
+All enemies get additional 20 POWER.|Все враги получают дополнительно 20 СИЛЫ.
+The crimson moon spotted over SHIOKAWA keeps everyone on the edge...|Кровавая луна, замеченная над ШИОКАВОЙ, толкает всех на грань...
+The flooded areas make it harder to navigate. (+ STATUS)|Затопленные места усложняют навигацию. (+СТАТУС)
+The ocean is calling you...|Океан взывает к вам...
+You must enter the water. (-1 REASON)|Вы должны войти в воду. (-1 РАССУДКА)
+The underwater city is rising. (+1% DOOM)|Подводный город всплывает. (+1% РОКА)
+You continue to change. (-1 STAMINA)|Вы продолжаете меняться... (-1 ВЫНОСЛИВОСТИ)
