@@ -6,7 +6,7 @@ mod locate;
 mod pack;
 
 pub use install::{State, install, restore, verify};
-pub use locate::find_game;
+pub use locate::{find_game, game_beside};
 pub use pack::{Entry, Manifest, Pack, append_trailer};
 
 use sha2::{Digest, Sha256};

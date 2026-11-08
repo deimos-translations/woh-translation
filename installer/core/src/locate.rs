@@ -13,6 +13,12 @@ fn steam_roots() -> Vec<PathBuf> {
     }
 }
 
+/// The folder holding `exe` when it also holds `worldofhorror.exe`.
+pub fn game_beside(exe: &Path) -> Option<PathBuf> {
+    let dir = exe.parent()?;
+    dir.join(GAME_EXE).is_file().then(|| dir.to_path_buf())
+}
+
 /// The WoH folder in a Steam library: the default Steam folders plus the `"path"` entries of their libraryfolders.vdf.
 pub fn find_game() -> Option<PathBuf> {
     let mut libraries = steam_roots();

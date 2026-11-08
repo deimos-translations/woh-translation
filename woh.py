@@ -8,12 +8,13 @@ Usage:
     uv run woh.py [--game DIRECTORY] [--force STAGE,STAGE] <command> [arguments]
 
 Commands (each runs everything it needs):
-    build [--no-exe] [--no-text] [--no-sprites] [--bundle]
+    build [--no-exe] [--no-text] [--no-sprites] [--bundle [--profile PROFILE] [--target TRIPLE]]
                             writes language/engLanguage/*.jn, data.win and worldofhorror.exe to output/; refuses to write if the exe, or the
                             source frames and fonts of the translated images, changed since their hashes were recorded in hashes.txt
                             (a successful build records the new ones); each --no-* skips its part; copies the changelog (the root file
                             whose name ends with "СПИСОК ИЗМЕНЕНИЙ") to output/; --bundle writes <version>.zip in the root: the wohrus installer (built from installer/ with cargo; it holds patches against the game's files), the changelog, the instructions text and THIRD-PARTY-NOTICE.md,
-                            the version being the text before the first space of the changelog's name
+                            the version being the text before the first space of the changelog's name;
+                            the installer is built with the cargo profile PROFILE (default win-msvc-release) for the target TRIPLE (default: the host)
     sync                   update the tracked translation documents from the game (the only command that writes to tracked files);
                             exe_strings.txt is not changed: new exe texts go to the exe_strings_candidates.txt report in the build cache
     hashes                 accept the current game files: record their hashes in hashes.txt (after a game update, once the translations of the changed files are checked)
@@ -102,6 +103,8 @@ forced = set()
 game = None  # the game folder
 skipped = set()  # build parts left out by --no-exe, --no-text, --no-sprites
 bundle = False  # with build: pack the installer
+cargo_profile = "win-msvc-release"  # cargo profile of the installer
+cargo_target = None  # cargo --target of the installer; None: the host
 command_args = []
 
 
@@ -647,14 +650,19 @@ def make_bundle(version, changelog_file):
     """<version>.zip in the root (standard deflate) with the installer, the changelog, the instructions text and THIRD-PARTY-NOTICE.md (cargo-about, from installer/about.toml and about.hbs; the licenses of the Rust crates linked into the installer). The installer is built from installer/ with cargo; woh-pack
     appends to it a pack of bsdiff patches of data.win and the exe (against the game's files) plus the other files of output/ except the changelog, so the user needs
     the same game version, not a copy of its files."""
+    # cargo reads installer/.cargo/config.toml (scalar CPU flags) from the working directory, not from the manifest path
     run_shown(
         "cargo",
         "build",
-        "--release",
-        "--manifest-path",
-        ROOT / "installer" / "Cargo.toml",
+        "--profile",
+        cargo_profile,
+        *(("--target", cargo_target) if cargo_target else ()),
+        cwd=ROOT / "installer",
     )
-    release = ROOT / "installer" / "target" / "release"
+    release = ROOT / "installer" / "target"
+    if cargo_target:
+        release /= cargo_target
+    release /= cargo_profile
     suffix = ".exe" if sys.platform == "win32" else ""
     with tempfile.TemporaryDirectory() as tmp:
         installer = pathlib.Path(tmp) / f"wohrus{suffix}"
@@ -863,7 +871,7 @@ COMMANDS = ["build", "sync", "hashes", "extract", "ocr", "save", "check"]
 
 
 def main():
-    global game, skipped, bundle, command_args, CACHE
+    global game, skipped, bundle, cargo_profile, cargo_target, command_args, CACHE
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -891,6 +899,15 @@ def main():
         action="store_true",
         help="with build: write <version>.zip (installer and changelog) in the project root",
     )
+    parser.add_argument(
+        "--profile",
+        default=cargo_profile,
+        help="with --bundle: cargo profile of the installer (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--target",
+        help="with --bundle: cargo target triple of the installer (default: the host)",
+    )
     parser.add_argument("command", choices=[*COMMANDS, "list"])
     parser.add_argument(
         "args", nargs="*", help="with save: [existing save.ito] <output file>"
@@ -916,6 +933,8 @@ def main():
         if flag
     }
     bundle = arguments.bundle
+    cargo_profile = arguments.profile
+    cargo_target = arguments.target
 
     game = common.game_dir(arguments.game).resolve()
     common.require_pristine_game(game)

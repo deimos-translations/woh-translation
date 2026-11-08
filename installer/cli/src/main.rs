@@ -1,6 +1,6 @@
 use anyhow::{Context, Result, bail};
 use std::{path::PathBuf, process::ExitCode};
-use woh_patcher_core::{Pack, State, find_game, install, restore, verify};
+use woh_patcher_core::{Pack, State, find_game, game_beside, install, restore, verify};
 
 const USAGE: &str = "использование: wohrus [install|restore|verify] [--game ПАПКА] [--pack ФАЙЛ]";
 
@@ -9,7 +9,8 @@ fn run() -> Result<()> {
     let command = args
         .next_if(|arg| !arg.starts_with("--"))
         .unwrap_or_else(|| "install".into());
-    let (mut game, mut pack_path) = (None::<PathBuf>, std::env::current_exe()?);
+    let exe = std::env::current_exe()?;
+    let (mut game, mut pack_path) = (None::<PathBuf>, exe.clone());
     while let Some(flag) = args.next() {
         let value = args.next().with_context(|| format!("{flag} требует значение"))?;
         match flag.as_str() {
@@ -19,8 +20,9 @@ fn run() -> Result<()> {
         }
     }
     let game = game
+        .or_else(|| game_beside(&exe))
         .or_else(find_game)
-        .context("папка WoH не найдена в стандартных путях Steam: укажите --game ПАПКА")?;
+        .context("папка WoH не найдена рядом с wohrus и в стандартных путях Steam: укажите --game ПАПКА")?;
     let pack = Pack::read(&pack_path)?;
     println!("игра: {}\nперевод: {}", game.display(), pack.manifest.version);
     let mut log = |line: &str| println!("{line}");

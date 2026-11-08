@@ -1,0 +1,7 @@
+# Cargo joins rustflags from all config files, the later (this one) winning on conflicts: reset the global
+# x86-64-v3 + aes so the distributed exe runs on any x86-64 CPU (v3 code faults with 0xC000001D on CPUs without AVX2).
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-Ctarget-cpu=x86-64", "-Ctarget-feature=-aes"]
+
+[target.x86_64-pc-windows-gnullvm]
+rustflags = ["-Ctarget-cpu=x86-64", "-Ctarget-feature=-aes"]
