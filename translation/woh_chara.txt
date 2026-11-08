@@ -21,7 +21,7 @@ SCARS|ШРАМЫ
 <<I've made it through hell and back, you won't break me now.>>|«Мне удалось пройти через ад, вам меня не сломить.»
 [lowers incoming damage by 1, drastically lowers MAX STAMINA and REASON]|(понижает входящий урон на 1, существенно понижает МАКС. ВЫНОСЛИВОСТЬ и РАССУДОК)
 CURIOUS BIRTHMARK|СТРАННАЯ РОДИНКА
-<<Doctor, if it looks 'fine', please explain to me, why is it changing its shape?>>|«Доктор, если она выглядит "нормально", пожалуйста, объясните мне, почему она меняет форму?»
+<<Doctor, if it looks 'fine', please explain to me, why is it changing its shape?>>|«Доктор, если она выглядит «нормально», пожалуйста, объясните мне, почему она меняет форму?»
 [any damage taken in combat can cause a CURSE]|(любой урон, полученный в бою, может навлечь на вас ПРОКЛЯТИЕ)
 ELDRITCH PARASITE|ПОТУСТОРОННИЙ ПАРАЗИТ
 <<Something is... growing inside me.>>|«Что-то... растёт внутри меня.»

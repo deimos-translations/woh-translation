@@ -374,7 +374,7 @@ You don't like the sound of it but your parents both agree, you need a break fro
 Inside the letter, there's a bus ticket.##<<What's the worst thing that could happen?>> you ask yourself as you board the bus...|Внутри письма лежит билет на автобус.##«Что плохого может случиться?» - вы спрашиваете себя, садясь в транспорт...
 INN|ГОСТИНИЦА
 The inn's room is dusty like it hasn't seen any visitors in years.#You wonder if anyone cleaned it since the last festival 27 years ago.##There's a folder of available activities lying on the table.|Гостиничная комната настолько запылилась, будто годами не принимала посетителей.#Вам интересно, проводили ли тут уборку со времён последнего фестиваля 27 лет назад.##На столе вашего номера лежит папка, описывающая все доступные здесь развлечения.
-<<Onsen sounds good.>>|«"Онсен". Звучит неплохо.»
+<<Onsen sounds good.>>|««Онсен». Звучит неплохо.»
 relax a bit|немного отдохнуть
 [action unavailable]|(действие недоступно)
 check out the painting|проверить картину

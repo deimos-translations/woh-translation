@@ -135,7 +135,7 @@ keep the content randomized|оставить контент случайным
 [timeline choice determines the choice of available additional actions and changes in both mysteries and endings]|(хронология определяет выбор доступных дополнительных действий и изменений как в тайнах, так и в концовках)
 [Every year, our city is visited by hundreds of tourists interested in the paranormal]|(Каждый год наш город посещают сотни туристов, заинтересованных в паранормальном)
 SELECT YOUR CHALLENGE|ВЫБЕРИТЕ СВОЁ ИСПЫТАНИЕ
-set difficulty to HOD|установить сложность на "Предвест. рока"
+set difficulty to HOD|установить сложность на «Предвест. рока»
 (MUSIC)|(МУЗЫКА)
 (SFX)|(ЭФФЕКТЫ)
 <<I can't be caught with this...>> [ITEM discarded]|«Меня не должны увидеть с этим...» (ПРЕДМЕТ выброшен)

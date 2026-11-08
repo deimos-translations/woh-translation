@@ -164,7 +164,7 @@ THE MISSING STARS|ПРОПАВШИЕ ЗВЁЗДЫ
 << I swear the covers were identical! >>|«Я клянусь, обложки были одинаковые!»
 Replace NECRONOMICON with a COOK BOOK, that grants the player random FOOD items every now and then.|Заменить НЕКРОНОМИКОН на КУЛИНАРНУЮ КНИГУ, которая периодически даёт игроку случайную еду.
 COOK BOOK|КУЛИНАРНАЯ КНИГА
-You won't find any eldritch secrets inside this book. Maybe you can use it some other way?#[NECRONOMICON pages are useless in this playthrough but every investigation you have a 10% chance of creating a FOOD item]|В этой книге вы не найдёте никаких потусторонних секретов. Возможно вы могли бы использовать её как-то по-другому?#[страницы НЕКРОНОМИКОНА бесполезны в этом прохождении, но при каждом исследовании локации, у вас есть 10%-й шанс создать ЕДУ]
+You won't find any eldritch secrets inside this book. Maybe you can use it some other way?#[NECRONOMICON pages are useless in this playthrough but every investigation you have a 10% chance of creating a FOOD item]|В этой книге вы не найдёте никаких потусторонних секретов. Возможно вы могли бы использовать её как-то по-другому?#(страницы НЕКРОНОМИКОНА бесполезны в этом прохождении, но при каждом исследовании локации, у вас есть 10%-й шанс создать ЕДУ)
 Let's cook something new...|Приготовим что-нибудь новое...
 INVESTIGATE|ИССЛЕДОВАТЬ
 [[SAFE]]|(БЕЗОПАСНО)

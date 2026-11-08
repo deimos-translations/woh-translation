@@ -162,7 +162,7 @@ You've escaped the basement but SHIRO-SAN follows you!|Вы сбегаете и�
 The top of SHIRO-SAN's head flies off, revealing his brain! Out of it bursts the fruiting body of a fungus!|Верхняя часть головы ШИРО-САНА слетает, обнажая мозг! Из него вырывается гриб!
 You try to sever their ties to this world!|Вы пытаетесь разорвать связь призрака с этим миром!
 You burn the money! (-1 FUNDS)|Вы сжигаете деньги! (-1 СРЕДСТВ)
-[SOMETHING TRULY EVIL REQUIRES MORE]|(ИСТИННОЕ ЗЛО ТРЕБУЕТ БОЛЬШЕГО)
+[SOMETHING TRULY EVIL REQUIRES MORE]|(НЕЧТО ВОИСТИНУ ЗЛОЕ ТРЕБУЕТ БОЛЬШЕГО)
 [YOU'VE BLED ENOUGH]|(ВЫ УЖЕ ДОСТАТОЧНО ИСТЕКЛИ КРОВЬЮ)
 [YOU'LL RETURN...]|(ВЫ ВЕРНЁТЕСЬ...)
 [YOU'VE GIVEN UP ALREADY]|(ВЫ УЖЕ СДАЛИСЬ)
