@@ -11,6 +11,7 @@ Reports document lines with no copy in this build's code and lines without a tra
 """
 
 import pathlib
+import re
 import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -22,7 +23,7 @@ from common import LABEL_KEYS, LITERAL_MARK, SEPARATOR
 def main(targets, candidates, document):
     entries = {}  # escaped source -> translation
     with pathlib.Path(document).open(encoding="utf-8", newline="") as file:
-        for line in file.read().split("\n"):
+        for line in re.split(r"\r?\n", file.read()):
             if line:
                 _literal, source, _, translation = common.parse_entry(line)
                 entries[common.escape(common.unescape(source))] = (

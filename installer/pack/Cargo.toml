@@ -1,0 +1,10 @@
+[package]
+name = "woh-pack"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+qbsdiff.workspace = true
+woh-patcher-core = { path = "../core" }

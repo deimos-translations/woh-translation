@@ -70,12 +70,39 @@ class TranslationRoundTripTest(unittest.TestCase):
         self.assertEqual(
             (self.translation / "woh_a.txt").read_bytes(), b"HELLO|\r\nBYE|"
         )
-        (self.translation / "woh_a.txt").write_bytes(b"HELLO|HI\r\nBYE|BYE RU")
+        (self.translation / "woh_a.txt").write_bytes(b"HELLO|HI\nBYE|BYE RU")
         woh_txt.apply(self.source)
         self.assertEqual(
             (self.output / "woh_a.jn").read_bytes(),
             b"English|Japanese\r\nHI|KANA\r\nBYE RU|KANA2",
         )
+
+    def test_apply_reads_txt_with_lf_or_crlf(self):
+        woh_txt.carry(self.source)
+        for eol in (b"\n", b"\r\n"):
+            with self.subTest(eol=eol):
+                (self.translation / "woh_a.txt").write_bytes(
+                    b"HELLO|HI" + eol + b"BYE|BYE RU" + eol
+                )
+                woh_txt.apply(self.source)
+                self.assertEqual(
+                    (self.output / "woh_a.jn").read_bytes(),
+                    b"English|Japanese\r\nHI|KANA\r\nBYE RU|KANA2",
+                )
+
+    def test_carry_keeps_translations_of_an_lf_txt(self):
+        self.translation.mkdir()
+        (self.translation / "woh_a.txt").write_bytes(b"HELLO|HI\nBYE|BYE RU")
+        woh_txt.carry(self.source)
+        self.assertEqual(
+            (self.translation / "woh_a.txt").read_bytes(), b"HELLO|HI\r\nBYE|BYE RU"
+        )
+
+    def test_untranslated_output_equal_to_source_is_not_recorded(self):
+        woh_txt.carry(self.source)
+        with mock.patch.object(common, "record_produced") as record:
+            woh_txt.apply(self.source)
+        record.assert_not_called()
 
     def test_apply_stops_on_a_language_file_without_a_txt(self):
         woh_txt.carry(self.source)

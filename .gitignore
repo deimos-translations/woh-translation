@@ -1,6 +1,6 @@
 /build
 /output
 /img/source
-/reverse-engineering
-/sprite-work
 __pycache__/
+/installer/target
+/*.zip

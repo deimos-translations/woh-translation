@@ -8,10 +8,12 @@ Usage:
     uv run woh.py [--game DIRECTORY] [--force STAGE,STAGE] <command> [arguments]
 
 Commands (each runs everything it needs):
-    build [--no-exe] [--no-text] [--no-sprites]
+    build [--no-exe] [--no-text] [--no-sprites] [--bundle]
                             writes language/engLanguage/*.jn, data.win and worldofhorror.exe to output/; refuses to write if the exe, or the
                             source frames and fonts of the translated images, changed since their hashes were recorded in hashes.txt
-                            (a successful build records the new ones); each --no-* skips its part
+                            (a successful build records the new ones); each --no-* skips its part; copies the changelog (the root file
+                            whose name ends with "СПИСОК ИЗМЕНЕНИЙ") to output/; --bundle writes <version>.zip in the root: the wohrus installer (built from installer/ with cargo; it holds patches against the game's files), the changelog, the instructions text and THIRD-PARTY-NOTICE.md,
+                            the version being the text before the first space of the changelog's name
     sync                   update the tracked translation documents from the game (the only command that writes to tracked files);
                             exe_strings.txt is not changed: new exe texts go to the exe_strings_candidates.txt report in the build cache
     hashes                 accept the current game files: record their hashes in hashes.txt (after a game update, once the translations of the changed files are checked)
@@ -32,7 +34,9 @@ import pathlib
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
+import zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent
 PIPELINE = ROOT / "pipeline"
@@ -97,6 +101,7 @@ changed = set()  # stages whose outputs this run rewrote with different contents
 forced = set()
 game = None  # the game folder
 skipped = set()  # build parts left out by --no-exe, --no-text, --no-sprites
+bundle = False  # with build: pack the installer
 command_args = []
 
 
@@ -173,9 +178,9 @@ def run_python(script, *args, stdout=None):
         sys.exit(f"failed: {' '.join(command)} (see {log_path.resolve()})")
 
 
-def run_shown(*command, env=None):
+def run_shown(*command, env=None, cwd=None):
     """An action: its output is what the user came for."""
-    subprocess.run([str(part) for part in command], check=True, env=env)
+    subprocess.run([str(part) for part in command], check=True, env=env, cwd=cwd)
 
 
 def ghidra_env():
@@ -624,6 +629,74 @@ def checked_hashes(parts):
     return current
 
 
+def changelog():
+    """The root file whose name, without its extension, ends with "СПИСОК ИЗМЕНЕНИЙ"."""
+    found = [
+        path
+        for path in ROOT.iterdir()
+        if path.is_file() and path.stem.endswith("СПИСОК ИЗМЕНЕНИЙ")
+    ]
+    if len(found) != 1:
+        sys.exit(
+            f"expected one changelog in {ROOT} (name ending with СПИСОК ИЗМЕНЕНИЙ), found {len(found)}"
+        )
+    return found[0]
+
+
+def make_bundle(version, changelog_file):
+    """<version>.zip in the root (standard deflate) with the installer, the changelog, the instructions text and THIRD-PARTY-NOTICE.md (cargo-about, from installer/about.toml and about.hbs; the licenses of the Rust crates linked into the installer). The installer is built from installer/ with cargo; woh-pack
+    appends to it a pack of bsdiff patches of data.win and the exe (against the game's files) plus the other files of output/ except the changelog, so the user needs
+    the same game version, not a copy of its files."""
+    run_shown(
+        "cargo",
+        "build",
+        "--release",
+        "--manifest-path",
+        ROOT / "installer" / "Cargo.toml",
+    )
+    release = ROOT / "installer" / "target" / "release"
+    suffix = ".exe" if sys.platform == "win32" else ""
+    with tempfile.TemporaryDirectory() as tmp:
+        installer = pathlib.Path(tmp) / f"wohrus{suffix}"
+        notice = pathlib.Path(tmp) / "THIRD-PARTY-NOTICE.md"
+        readme = (
+            ROOT / "installer" / "ПРИМЕНЕНИЕ ПЕРЕВОДА - ЧИТАЙ.txt"
+        )  # instructions for the user, kept in the repo
+        run_shown(
+            "cargo",
+            "about",
+            "generate",
+            "about.hbs",
+            "-m",
+            "cli/Cargo.toml",
+            "-o",
+            notice,
+            cwd=ROOT / "installer",
+        )
+        run_shown(
+            release / f"woh-pack{suffix}",
+            "--pristine",
+            game,
+            "--built",
+            common.OUTPUT,
+            "--exclude",
+            changelog_file.name,
+            "--version",
+            version,
+            "--installer",
+            release / f"wohrus{suffix}",
+            "--out",
+            installer,
+        )
+        out = ROOT / f"{version}.zip"
+        with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as archive:
+            archive.write(installer, installer.name)
+            archive.write(changelog_file, changelog_file.name)
+            archive.write(notice, notice.name)
+            archive.write(readme, readme.name)
+    say(f"bundle: {out}")
+
+
 @stage("build", "act")
 def build_output():
     parts = [part for part in ("exe", "sprites") if part not in skipped]
@@ -635,7 +708,12 @@ def build_output():
             build(part)
     for part in parts:  # after the outputs were written: records the sources of new translations and drops those of deleted ones
         common.record_hashes(HASHED[part], current[part])
+    source = changelog()
+    common.OUTPUT.mkdir(parents=True, exist_ok=True)  # all parts may have been skipped
+    shutil.copy2(source, common.OUTPUT / source.name)
     say(f"output: {common.OUTPUT}")
+    if bundle:
+        make_bundle(source.name.partition(" ")[0], source)
 
 
 @stage("hashes", "act")
@@ -785,7 +863,7 @@ COMMANDS = ["build", "sync", "hashes", "extract", "ocr", "save", "check"]
 
 
 def main():
-    global game, skipped, command_args, CACHE
+    global game, skipped, bundle, command_args, CACHE
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -807,6 +885,11 @@ def main():
     )
     parser.add_argument(
         "--no-sprites", action="store_true", help="with build: do not include data.win"
+    )
+    parser.add_argument(
+        "--bundle",
+        action="store_true",
+        help="with build: write <version>.zip (installer and changelog) in the project root",
     )
     parser.add_argument("command", choices=[*COMMANDS, "list"])
     parser.add_argument(
@@ -832,6 +915,7 @@ def main():
         )
         if flag
     }
+    bundle = arguments.bundle
 
     game = common.game_dir(arguments.game).resolve()
     common.require_pristine_game(game)

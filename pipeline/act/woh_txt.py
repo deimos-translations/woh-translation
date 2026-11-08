@@ -4,6 +4,7 @@
 woh_ver.jn is plain text without a Japanese column: its English text is the part before the first "|" (the first line repeats the English after "|", which is not saved).
 txt format: one line "<eng>|<rus>" per text line of the .jn (header skipped), in the same order. An empty <rus> is written as an empty string.
 The separator is the first "|" in the line.
+Line endings: both formats are read with LF or CRLF and written CRLF, as the game's files and Windows checkouts of the txt files.
 
 carry: overwrite every txt from the untranslated .jn files in --source. Each new English line gets the Russian text
   of the txt line with the same English. English lines no longer in the game are reported as removed.
@@ -21,6 +22,7 @@ Usage (usually `woh.py sync` and `woh.py build --no-exe --no-sprites`):
 
 import argparse
 import pathlib
+import re
 import sys
 from collections import defaultdict, deque
 
@@ -34,10 +36,11 @@ SEP = common.SEPARATOR
 LANGUAGE = common.TRANSLATION
 OUTPUT = common.OUTPUT / common.LANGUAGE
 SOURCE = common.STEAM / common.LANGUAGE
+EOL = "\r\n"
 
 
 def read_lines(path):
-    lines = path.read_bytes().decode("utf-8").split("\r\n")
+    lines = re.split(r"\r?\n", path.read_bytes().decode("utf-8"))
     if lines[-1] == "":
         lines.pop()
     return lines
@@ -50,7 +53,7 @@ def split_header(lines):
 
 def write_lines(path, lines):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_bytes("\r\n".join(lines).encode("utf-8"))
+    path.write_bytes(EOL.join(lines).encode("utf-8"))
 
 
 def columns(name, line):
@@ -141,8 +144,11 @@ def apply(source):
                 file=sys.stderr,
             )
 
-        write_lines(OUTPUT / src.name, out)
-        common.record_produced(OUTPUT / src.name)
+        target = OUTPUT / src.name
+        write_lines(target, out)
+        # Untranslated output equals the original: recording it would make the game's own file look like pipeline output.
+        if target.read_bytes() != src.read_bytes():
+            common.record_produced(target)
         print(f"{src.name}: written")
 
 
