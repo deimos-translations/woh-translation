@@ -2,8 +2,10 @@
 
 import functools
 import hashlib
+import os
 import pathlib
 import re
+import shutil
 import struct
 import sys
 
@@ -133,6 +135,21 @@ def changed_hashes(current):
     return sorted(
         name for name, digest in current.items() if recorded.get(name, digest) != digest
     )
+
+
+def utmt_command():
+    """UndertaleModCli as an argv prefix: UTMT_CLI, then PATH. On Linux a .exe runs through `wine cmd`."""
+    linux = sys.platform.startswith("linux")
+    tool = os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli")
+    if not tool and linux:
+        tool = shutil.which("UndertaleModCli.exe", mode=os.F_OK)  # wine needs no x bit
+    if not tool:
+        sys.exit("UndertaleModCli not found on PATH: set UTMT_CLI")
+    if linux and tool.lower().endswith(".exe"):
+        if not shutil.which("wine"):
+            sys.exit("UndertaleModCli.exe needs wine, which is not on PATH")
+        return ["wine", "cmd", "/c", tool]
+    return [tool]
 
 
 def game_dir(game=None):

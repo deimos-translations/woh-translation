@@ -14,7 +14,7 @@ Commands (each runs everything it needs):
                             (a successful build records the new ones); each --no-* skips its part; copies the changelog (the root file
                             whose name ends with "СПИСОК ИЗМЕНЕНИЙ") to output/; --bundle writes <version>.zip in the root: the wohrus installer (built from installer/ with cargo; it holds patches against the game's files), the changelog, the instructions text and THIRD-PARTY-NOTICE.md,
                             the version being the text before the first space of the changelog's name;
-                            the installer is built with the cargo profile PROFILE (default win-msvc-release) for the target TRIPLE (default: the host)
+                            the installer is built with the cargo profile PROFILE (default release) for the target TRIPLE (default: the host)
     sync                   update the tracked translation documents from the game (the only command that writes to tracked files);
                             exe_strings.txt is not changed: new exe texts go to the exe_strings_candidates.txt report in the build cache
     hashes                 accept the current game files: record their hashes in hashes.txt (after a game update, once the translations of the changed files are checked)
@@ -24,7 +24,7 @@ Commands (each runs everything it needs):
     check                  run the checks
     list                   print the available commands
 
-Game files are taken from the default Steam folder; use --game for another directory. The script needs a configured environment: GHIDRA_HEADLESS (path to the analyzeHeadless script), WOH_GHIDRA_JAVA (JAVA_HOME for Ghidra), UTMT_CLI (path to the UndertaleModCli binary).
+Game files are taken from the default Steam folder; use --game for another directory. Tools are looked up on PATH: analyzeHeadless (Ghidra; or set GHIDRA_HEADLESS; on Linux also support/analyzeHeadless beside the `ghidra` launcher), java (or set WOH_GHIDRA_JAVA as JAVA_HOME for Ghidra), UndertaleModCli (or set UTMT_CLI). On Linux, UndertaleModCli.exe on PATH runs through `wine cmd`.
 Clang and uv are taken from PATH.
 """
 
@@ -103,7 +103,7 @@ forced = set()
 game = None  # the game folder
 skipped = set()  # build parts left out by --no-exe, --no-text, --no-sprites
 bundle = False  # with build: pack the installer
-cargo_profile = "win-msvc-release"  # cargo profile of the installer
+cargo_profile = "release"  # cargo profile of the installer
 cargo_target = None  # cargo --target of the installer; None: the host
 command_args = []
 
@@ -192,14 +192,31 @@ def ghidra_env():
     )  # the 2 GB default runs out of memory
     if os.environ.get("WOH_GHIDRA_JAVA"):
         env["JAVA_HOME"] = os.environ["WOH_GHIDRA_JAVA"]
-    if "GHIDRA_HEADLESS" not in os.environ and not shutil.which("analyzeHeadless"):
-        sys.exit("analyzeHeadless not found: set GHIDRA_HEADLESS")
+    if not (
+        os.environ.get("WOH_GHIDRA_JAVA")
+        or os.environ.get("JAVA_HOME")
+        or shutil.which("java")
+    ):
+        sys.exit("Java not found: install it or set WOH_GHIDRA_JAVA")
     return env
+
+
+def ghidra_headless():
+    """analyzeHeadless: GHIDRA_HEADLESS, then PATH, then support/ next to the real `ghidra` launcher on PATH."""
+    if path := os.environ.get("GHIDRA_HEADLESS") or shutil.which("analyzeHeadless"):
+        return path
+    if launcher := shutil.which("ghidra"):
+        candidate = (
+            pathlib.Path(launcher).resolve().parent / "support" / "analyzeHeadless"
+        )
+        if candidate.is_file():
+            return str(candidate)
+    sys.exit("analyzeHeadless not found: set GHIDRA_HEADLESS")
 
 
 def ghidra_command(*args):
     return [
-        os.environ.get("GHIDRA_HEADLESS", "analyzeHeadless"),
+        ghidra_headless(),
         str(pathlib.Path("ghidra").resolve()),
         "woh",
         *args,
@@ -492,13 +509,6 @@ def save_keys():
     )
 
 
-def utmt():
-    tool = os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli")
-    if not tool:
-        sys.exit("UndertaleModCli not found: set UTMT_CLI")
-    return tool
-
-
 @stage("extract-frames", "gen", "out/extract/sprites_manifest.tsv")
 def extract_frames():
     frames_dir = ROOT / "img" / "source"
@@ -519,7 +529,7 @@ def extract_frames():
     )
     subprocess.run(
         [
-            utmt(),
+            *common.utmt_command(),
             "load",
             str(game / common.DATA_WIN),
             "-s",
@@ -582,8 +592,6 @@ def sprites():
         str(pathlib.Path(OUT, "images").resolve()),
         "--data",
         game / common.DATA_WIN,
-        "--utmt",
-        utmt(),
     )
 
 

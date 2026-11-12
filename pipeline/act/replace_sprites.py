@@ -8,12 +8,11 @@ Runs replace_sprites.csx through UndertaleModCli and saves the result to --out.
 Usage:
   python -I pipeline/act/replace_sprites.py [--images DIR] [--fonts DIR] [--data DATA.WIN] [--out OUT.WIN] [--utmt UndertaleModCli.exe]
 
---data defaults to the Steam install. --utmt takes the path from the UTMT_CLI environment variable, then looks for UndertaleModCli on PATH.
+--data defaults to the Steam install. --utmt defaults to common.utmt_command(): the UTMT_CLI environment variable, then UndertaleModCli on PATH (UndertaleModCli.exe through wine on Linux).
 """
 
 import argparse
 import os
-import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -53,13 +52,10 @@ def main():
     )
     parser.add_argument(
         "--utmt",
-        default=os.environ.get("UTMT_CLI") or shutil.which("UndertaleModCli"),
-        help="UndertaleModCli executable",
+        help="UndertaleModCli executable (default: common.utmt_command())",
     )
     args = parser.parse_args()
 
-    if not args.utmt:
-        sys.exit("UndertaleModCli not found: pass --utmt or set UTMT_CLI.")
     if not args.images.is_dir():
         sys.exit(f"Image folder not found: {args.images}")
     if not args.fonts.is_dir():
@@ -75,7 +71,7 @@ def main():
     }
     subprocess.run(
         [
-            args.utmt,
+            *([args.utmt] if args.utmt else common.utmt_command()),
             "load",
             str(args.data.resolve()),
             "-s",
