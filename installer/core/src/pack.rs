@@ -9,7 +9,7 @@ use std::{
 const MAGIC: &[u8; 8] = b"WOHPACK1";
 
 /// One game file the pack produces. `path` is relative to the game folder, with `/` separators.
-#[derive(Serialize, Deserialize)]
+#[derive(Deserialize, Serialize)]
 pub struct Entry {
     pub path: String,
     /// `Some`: the blob is a bsdiff patch for a file with this sha256. `None`: the blob is the file itself.
@@ -18,7 +18,7 @@ pub struct Entry {
     pub blob_len: u64,
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Deserialize, Serialize)]
 pub struct Manifest {
     pub version: String,
     pub files: Vec<Entry>,
