@@ -10,7 +10,8 @@ carry: overwrite every txt from the untranslated .jn files in --source. Each new
   of the txt line with the same English. English lines no longer in the game are reported as removed.
 apply: write every translated .jn to output/language/engLanguage. The Japanese column and header come from the --source .jn files.
   Lines are matched by English text. Fails if the txt's English text is missing from the source (run carry first);
-  warns if the txt lines are in a different order than in the .jn file.
+  warns if the txt lines are in a different order than in the .jn file. A source line without a txt entry takes its
+  translation from EXTRA_TRANSLATIONS (in this file), or keeps English; each such line, and each txt entry missing from the source, is a warning.
 
 The source files must be the game's originals: files written by this pipeline are rejected.
 
@@ -37,6 +38,13 @@ LANGUAGE = common.TRANSLATION
 OUTPUT = common.OUTPUT / common.LANGUAGE
 SOURCE = common.STEAM / common.LANGUAGE
 EOL = "\r\n"
+EXTRA_TRANSLATIONS = {
+    "woh_shichi.jn": {
+        "Investigate the SEASIDE location three times to complete this quest.": "Исследуйте локацию ПОБЕРЕЖЬЕ трижды для завершения этого задания."
+    },
+    "woh_small.jn": {"1 KNOWLEDGE": "1 ИНТЕЛЛЕКТА"},
+    # source lines the txt files lack, e.g. in another game version: {jn file: {english: russian}}
+}
 
 
 def read_lines(path):
@@ -111,10 +119,7 @@ def apply(source):
             sys.exit(f"{txt.name} is missing: run carry")
         head, source_lines = split_header(read_lines(src))
         entries = read_lines(txt)
-        if len(entries) != len(source_lines):
-            sys.exit(
-                f"{txt.name}: {len(entries)} entries, but {src.name} has {len(source_lines)} lines; run carry"
-            )
+        extra_lines = EXTRA_TRANSLATIONS.get(src.name, {})  # source lines the txt lacks
 
         pool = defaultdict(deque)
         for entry_number, entry in enumerate(entries):
@@ -128,13 +133,32 @@ def apply(source):
         for position, line in enumerate(source_lines):
             en, ja = columns(src.name, line)
             queue = pool.get(en)
-            if not queue:
-                sys.exit(f"{txt.name}: no entry for source line {en!r}; run carry")
-            entry_number, text = queue.popleft()
-            if entry_number != position:
-                reordered.append((en, entry_number, position))
+            if queue:
+                entry_number, text = queue.popleft()
+                if entry_number != position:
+                    reordered.append((en, entry_number, position))
+            elif en in extra_lines:
+                print(
+                    f"warning: {txt.name}: no entry for source line {en!r}, translated from EXTRA_TRANSLATIONS",
+                    file=sys.stderr,
+                )
+                text = extra_lines[en]
+            else:
+                print(
+                    f"warning: {txt.name}: no entry for source line {en!r}, kept in English",
+                    file=sys.stderr,
+                )
+                text = ""
             text = text or en  # not translated yet: keep the English
             out.append(text if ja is None else f"{text}|{ja}")
+
+        for en, queue in pool.items():  # entries the source no longer has
+            for _, ru in queue:
+                if ru:
+                    print(
+                        f"warning: {txt.name}: translation of {en!r} dropped, not in {src.name}",
+                        file=sys.stderr,
+                    )
 
         if reordered:
             en, entry_number, position = reordered[0]

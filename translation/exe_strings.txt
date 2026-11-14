@@ -111,3 +111,4 @@ BITE|УКУС
 Randomly selects one previously unlocked OLD GOD|Случайно выбирает одного из разблокированных ДРЕВНИХ БОГОВ
 (...) another person has gone missing while taking the metro line to school. The police asks for (...)|(...) очередной ученик пропал на школьной линии метро. Полиция опрашивает (...)
 The SHIOKAWA Metro System was built in the 60s with a partial funding from a University in Tokyo. Originally, it connected the seaside with a research center located just past the city.##After the 1972 incident, all researchers left the area and the line fell into disrepair.|ШИОКАВСКИЙ метрополитен был построен в 60-х с ограниченным финансированием от токийского университета. Изначально, он соединял побережье с исследовательским центром на окраине города. После инцидента в 1972-м, все исследователи покинули город и линию перестали обслуживать.
+FLASH|ВСПЫШКА

@@ -80,19 +80,19 @@ Stabbed to death|Закололи насмерть
 You didn't complete any mysteries|Вы не раскрыли никаких тайн.
 You've managed to solve one mystery plaguing this town.|Раскрыта одна тайна, терзающая этот город.
 You've managed to solve|Раскрыто тайн, терзающих город: 
-mysteries plaguing this town.|
+mysteries plaguing this town.| 
 You didn't unlock any new achievements.|Вы не разблокировали новых достижений.
 You unlocked one new achievement.|Вы разблокировали одно новое достижение.
 You unlocked|Разблокировано достижений:
-new achievements.|
+new achievements.| 
 You didn't see any new events.|Вы не увидели новых событий.
 You saw one new event.|Вы увидели одно новое событие.
 You saw|Новые события:
-new events.|
+new events.| 
 You didn't encounter any new enemies.|Вы не столкнулись с новыми врагами.
 You encountered one new enemy.|Вы столкнулись с одним новым врагом.
 You encountered|Новых врагов встречено:
-new enemies.|
+new enemies.| 
 Mouth slit|Разрезан рот
 Lost in the OTHERWORLD|Потерялись в ИНОМ МИРЕ
 Inner ear burst|Разрыв барабанных перепонок
